@@ -27,6 +27,17 @@ jobs:
       - name: Installer Xvfb (écran virtuel)
         run: sudo apt-get update && sudo apt-get install -y xvfb
 
+      - name: DIAGNOSTIC - Voir ce que GitHub voit sur BetWinner
+        run: xvfb-run --auto-servernum python diagnostic_github.py
+
+      - name: DIAGNOSTIC - Sauvegarder les preuves
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagnostic-github
+          path: |
+            diagnostic_github.png
+            diagnostic_github.txt
+
       - name: Lancer le scraper des 6 bookmakers
         run: xvfb-run --auto-servernum python scraper_generique_final-13.py
 
