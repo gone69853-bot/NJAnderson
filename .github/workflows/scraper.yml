@@ -1,0 +1,50 @@
+name: Scraper Zicote
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # toutes les heures — ajustable
+  workflow_dispatch:        # permet de le lancer manuellement depuis l'onglet Actions
+
+jobs:
+  scrape-et-publier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Récupérer le code du dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installer Playwright et ses dépendances
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Installer Xvfb (écran virtuel)
+        run: sudo apt-get update && sudo apt-get install -y xvfb
+
+      - name: Lancer le scraper des 6 bookmakers
+        run: xvfb-run --auto-servernum python scraper_generique_final-13.py
+
+      - name: Lancer le scraper 1win
+        run: xvfb-run --auto-servernum python test_1win_v2.py
+
+      - name: Générer le tableau comparatif
+        run: python comparateur_v2.py
+
+      - name: Préparer le dossier de publication
+        run: |
+          mkdir -p docs
+          cp tableau.html docs/index.html
+
+      - name: Publier les résultats sur le dépôt
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add betwinner.json melbet.json goldpari.json winwin.json 1xbet.json linebet.json 888starz.json 1win.json docs/index.html
+          git diff --quiet && git diff --staged --quiet || git commit -m "Mise à jour automatique des cotes"
+          git push
