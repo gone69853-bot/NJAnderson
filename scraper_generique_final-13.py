@@ -3,6 +3,7 @@ import json
 import datetime
 import re
 import sys
+import os
 
 # ============================================================
 # MOTIFS DE DÉTECTION DES LIENS DE MATCH
@@ -71,6 +72,22 @@ SITES = {
 
 MAX_MATCHS_PAR_SITE = 50     # valeur intermédiaire pour tester le temps réel avant d'aller plus haut
 NB_ESSAIS_PAR_MATCH = 2
+
+
+def get_proxy_config():
+    """Lit la config proxy depuis les variables d'environnement (GitHub Secrets).
+    Retourne None si aucune variable n'est définie -> le navigateur se lance
+    alors sans proxy (utile pour continuer à tester en local sur le PC
+    d'Anderson, où le blocage géo ne s'applique pas)."""
+    server = os.environ.get("PROXY_SERVER")
+    if not server:
+        return None
+
+    return {
+        "server": server,
+        "username": os.environ.get("PROXY_USERNAME"),
+        "password": os.environ.get("PROXY_PASSWORD"),
+    }
 
 
 def extraire_equipes(href, nom_site):
@@ -332,8 +349,14 @@ def main():
 
     resultats_globaux = {}
 
+    proxy_config = get_proxy_config()
+    if proxy_config:
+        print(f"Proxy activé : {proxy_config['server']} (user: {proxy_config['username']})")
+    else:
+        print("Aucun proxy configuré (variables PROXY_* absentes) — connexion directe.")
+
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=False, proxy=proxy_config)
         page = browser.new_page()
 
         for nom_site in sites_a_tester:
