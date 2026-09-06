@@ -314,6 +314,13 @@ def scraper_site(page, nom_site, site_conf):
 
     if not matchs:
         print(f"  Aucun match trouvé pour {nom_site} (découverte impossible).")
+        try:
+            page.screenshot(path=f"diagnostic_{nom_site}.png", full_page=True)
+            with open(f"diagnostic_{nom_site}.txt", "w", encoding="utf-8") as f:
+                f.write(page.inner_text("body"))
+            print(f"  Diagnostic sauvegardé : diagnostic_{nom_site}.png / .txt")
+        except Exception as e:
+            print(f"  Impossible de sauvegarder le diagnostic : {e}")
         resultats = []
         with open(f"{nom_site}.json", "w", encoding="utf-8") as f:
             json.dump(resultats, f, ensure_ascii=False, indent=2)
@@ -378,3 +385,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
