@@ -2,18 +2,18 @@
   {
     "1X2": {
       "V1": "1.08",
-      "X": "11.5",
+      "X": "12",
       "V2": "22"
     },
     "Total_2.5": {
-      "Plus de": "1.14",
-      "Moins de": "4.4"
+      "Plus de": "1.135",
+      "Moins de": "4.45"
     },
     "match_id": "364649426",
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364649426-barcelona-feyenoord",
     "equipe_1": "Barcelona",
     "equipe_2": "Feyenoord",
-    "derniere_maj": "2026-09-06T19:46:19",
+    "derniere_maj": "2026-09-06T21:07:55",
     "statut": "ok"
   },
   {
@@ -30,7 +30,7 @@
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364649430-real-madrid-internazionale-milano",
     "equipe_1": "Real Madrid",
     "equipe_2": "Internazionale Milano",
-    "derniere_maj": "2026-09-06T19:46:26",
+    "derniere_maj": "2026-09-06T21:08:02",
     "statut": "ok"
   },
   {
@@ -47,7 +47,7 @@
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364649424-porto-manchester-city",
     "equipe_1": "Porto",
     "equipe_2": "Manchester City",
-    "derniere_maj": "2026-09-06T19:46:33",
+    "derniere_maj": "2026-09-06T21:08:08",
     "statut": "ok"
   },
   {
@@ -64,7 +64,7 @@
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364650232-bayern-munich-bodo-glimt",
     "equipe_1": "Bayern Munich",
     "equipe_2": "Bodo Glimt",
-    "derniere_maj": "2026-09-06T19:46:39",
+    "derniere_maj": "2026-09-06T21:08:15",
     "statut": "ok"
   },
   {
@@ -81,58 +81,24 @@
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364650250-napoli-arsenal",
     "equipe_1": "Napoli",
     "equipe_2": "Arsenal",
-    "derniere_maj": "2026-09-06T19:46:46",
+    "derniere_maj": "2026-09-06T21:08:22",
     "statut": "ok"
   },
   {
     "1X2": {
-      "V1": "1.67",
-      "X": "3.94",
-      "V2": "3.865"
+      "V1": "2.52",
+      "X": "3",
+      "V2": "2.921"
     },
     "Total_2.5": {
-      "Plus de": "1.54",
-      "Moins de": "2.25"
+      "Plus de": "2.36",
+      "Moins de": "1.52"
     },
-    "match_id": "366965192",
-    "url": "https://betwinner.cm/fr/line/football/3056026-ukraine-premier-league-2/366965192-veres-rivne-u21-zorya-luhansk-u21",
-    "equipe_1": "Veres Rivne U21",
-    "equipe_2": "Zorya Luhansk U21",
-    "derniere_maj": "2026-09-06T19:46:53",
-    "statut": "ok"
-  },
-  {
-    "1X2": {
-      "V1": "1.18",
-      "X": "5.94",
-      "V2": "10.8"
-    },
-    "Total_2.5": {
-      "Plus de": "1.43",
-      "Moins de": "2.53"
-    },
-    "match_id": "366965190",
-    "url": "https://betwinner.cm/fr/line/football/3056026-ukraine-premier-league-2/366965190-dynamo-kyiv-u21-lnz-cherkasy-u21",
-    "equipe_1": "Dynamo Kyiv U21",
-    "equipe_2": "Lnz Cherkasy U21",
-    "derniere_maj": "2026-09-06T19:47:00",
-    "statut": "ok"
-  },
-  {
-    "1X2": {
-      "V1": "2.23",
-      "X": "3.65",
-      "V2": "2.5"
-    },
-    "Total_2.5": {
-      "Plus de": "1.59",
-      "Moins de": "2.15"
-    },
-    "match_id": "366965194",
-    "url": "https://betwinner.cm/fr/line/football/3056026-ukraine-premier-league-2/366965194-epicentr-u21-bukovyna-chernivtsi-u21",
-    "equipe_1": "Epicentr U21",
-    "equipe_2": "Bukovyna Chernivtsi U21",
-    "derniere_maj": "2026-09-06T19:47:05",
+    "match_id": "367124816",
+    "url": "https://betwinner.cm/fr/line/football/227619-malta-super-cup/367124816-floriana-valletta",
+    "equipe_1": "Floriana",
+    "equipe_2": "Valletta",
+    "derniere_maj": "2026-09-06T21:08:29",
     "statut": "ok"
   }
 ]

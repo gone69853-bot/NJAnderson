@@ -1,15 +1,15 @@
 [
   {
     "1X2": {
-      "W1": "1.085",
-      "X": "11.5",
-      "W2": "21"
+      "W1": "1.075",
+      "X": "12",
+      "W2": "23"
     },
     "match_id": "364649426",
     "url": "https://winwin-97317.pro/en/line/football/118587-uefa-champions-league/364649426-barcelona-feyenoord",
     "equipe_1": "Barcelona",
     "equipe_2": "Feyenoord",
-    "derniere_maj": "2026-09-06T19:55:20",
+    "derniere_maj": "2026-09-06T21:18:47",
     "statut": "ok"
   },
   {
@@ -22,7 +22,7 @@
     "url": "https://winwin-97317.pro/en/line/football/118587-uefa-champions-league/364649430-real-madrid-internazionale-milano",
     "equipe_1": "Real Madrid",
     "equipe_2": "Internazionale Milano",
-    "derniere_maj": "2026-09-06T19:55:27",
+    "derniere_maj": "2026-09-06T21:18:54",
     "statut": "ok"
   },
   {
@@ -35,7 +35,7 @@
     "url": "https://winwin-97317.pro/en/line/football/118587-uefa-champions-league/364649424-porto-manchester-city",
     "equipe_1": "Porto",
     "equipe_2": "Manchester City",
-    "derniere_maj": "2026-09-06T19:55:35",
+    "derniere_maj": "2026-09-06T21:19:01",
     "statut": "ok"
   },
   {
@@ -48,7 +48,7 @@
     "url": "https://winwin-97317.pro/en/line/football/118587-uefa-champions-league/364650232-bayern-munich-bodo-glimt",
     "equipe_1": "Bayern Munich",
     "equipe_2": "Bodo Glimt",
-    "derniere_maj": "2026-09-06T19:55:42",
+    "derniere_maj": "2026-09-06T21:19:08",
     "statut": "ok"
   },
   {
@@ -61,7 +61,7 @@
     "url": "https://winwin-97317.pro/en/line/football/118587-uefa-champions-league/364650250-napoli-arsenal",
     "equipe_1": "Napoli",
     "equipe_2": "Arsenal",
-    "derniere_maj": "2026-09-06T19:55:50",
+    "derniere_maj": "2026-09-06T21:19:16",
     "statut": "ok"
   }
 ]
