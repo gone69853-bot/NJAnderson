@@ -1,0 +1,79 @@
+[
+  {
+    "equipe_1": "Malaga",
+    "equipe_2": "Levante",
+    "1X2": {
+      "V1": "2.47",
+      "X": "3.35",
+      "V2": "2.96"
+    },
+    "derniere_maj": "2026-09-06T16:10:55",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Alaves",
+    "equipe_2": "Osasuna",
+    "1X2": {
+      "V1": "2.26",
+      "X": "3.09",
+      "V2": "3.63"
+    },
+    "derniere_maj": "2026-09-06T16:10:55",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Espanyol",
+    "equipe_2": "Sevilla",
+    "1X2": {
+      "V1": "2.31",
+      "X": "3.29",
+      "V2": "3.3"
+    },
+    "derniere_maj": "2026-09-06T16:10:55",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Getafe",
+    "equipe_2": "Celta de Vigo",
+    "1X2": {
+      "V1": "2.47",
+      "X": "2.88",
+      "V2": "3.44"
+    },
+    "derniere_maj": "2026-09-06T16:10:55",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Elche",
+    "equipe_2": "Real Sociedad",
+    "1X2": {
+      "V1": "2.96",
+      "X": "3.49",
+      "V2": "2.39"
+    },
+    "derniere_maj": "2026-09-06T16:10:55",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Baltika",
+    "equipe_2": "Lokomotiv Moscow",
+    "1X2": {
+      "V1": "1.95",
+      "X": "3.45",
+      "V2": "4.05"
+    },
+    "derniere_maj": "2026-09-06T16:10:55",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Rubin Kazan",
+    "equipe_2": "Akhmat Grozny",
+    "1X2": {
+      "V1": "2.65",
+      "X": "3.1",
+      "V2": "2.85"
+    },
+    "derniere_maj": "2026-09-06T16:10:55",
+    "statut": "ok"
+  }
+]
