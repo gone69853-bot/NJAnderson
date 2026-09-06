@@ -1,80 +1,93 @@
 [
   {
     "1X2": {
-      "W1": "1.855",
-      "X": "3.74",
-      "W2": "4.06"
+      "W1": "1.87",
+      "X": "3.76",
+      "W2": "3.96"
     },
     "match_id": "364948032",
     "url": "https://melbet-cm.com/en/line/football/12821-france-ligue-1/364948032-olympique-de-marseille-paris",
     "equipe_1": "Olympique De",
     "equipe_2": "Marseille Paris",
-    "derniere_maj": "2026-09-06T15:58:53",
+    "derniere_maj": "2026-09-06T17:57:23",
     "statut": "ok"
   },
   {
     "1X2": {
-      "W1": "2.096",
-      "X": "3.26",
-      "W2": "3.7"
+      "W1": "2.175",
+      "X": "3.136",
+      "W2": "3.64"
     },
     "match_id": "363133764",
     "url": "https://melbet-cm.com/en/line/football/110163-italy-serie-a/363133764-juventus-milan",
     "equipe_1": "Juventus",
     "equipe_2": "Milan",
-    "derniere_maj": "2026-09-06T15:59:00",
+    "derniere_maj": "2026-09-06T17:57:32",
     "statut": "ok"
   },
   {
     "1X2": {
-      "W1": "2.256",
-      "X": "3.088",
-      "W2": "3.5"
-    },
-    "match_id": "364618398",
-    "url": "https://melbet-cm.com/en/line/football/127733-spain-la-liga/364618398-deportivo-alaves-osasuna",
-    "equipe_1": "Deportivo",
-    "equipe_2": "Alaves Osasuna",
-    "derniere_maj": "2026-09-06T15:59:08",
-    "statut": "ok"
-  },
-  {
-    "1X2": {
-      "W1": "2.275",
-      "X": "3.24",
-      "W2": "3.26"
+      "W1": "2.304",
+      "X": "3.22",
+      "W2": "3.22"
     },
     "match_id": "364618392",
     "url": "https://melbet-cm.com/en/line/football/127733-spain-la-liga/364618392-espanyol-sevilla",
     "equipe_1": "Espanyol",
     "equipe_2": "Sevilla",
-    "derniere_maj": "2026-09-06T15:59:15",
+    "derniere_maj": "2026-09-06T17:57:42",
     "statut": "ok"
   },
   {
     "1X2": {
-      "W1": "1.91",
-      "X": "3.62",
-      "W2": "3.92"
+      "W1": "1.085",
+      "X": "11.5",
+      "W2": "21"
     },
-    "match_id": "363133754",
-    "url": "https://melbet-cm.com/en/line/football/110163-italy-serie-a/363133754-bologna-1909-sassuolo-calcio",
-    "equipe_1": "Bologna 1909",
-    "equipe_2": "Sassuolo Calcio",
-    "derniere_maj": "2026-09-06T15:59:23",
+    "match_id": "364649426",
+    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364649426-barcelona-feyenoord",
+    "equipe_1": "Barcelona",
+    "equipe_2": "Feyenoord",
+    "derniere_maj": "2026-09-06T17:58:02",
+    "statut": "ok"
+  },
+  {
+    "1X2": {
+      "W1": "1.61",
+      "X": "4.26",
+      "W2": "5.05"
+    },
+    "match_id": "364649430",
+    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364649430-real-madrid-internazionale-milano",
+    "equipe_1": "Real Madrid",
+    "equipe_2": "Internazionale Milano",
+    "derniere_maj": "2026-09-06T17:58:11",
     "statut": "ok"
   },
   {
     "1X2": {
       "W1": "2.45",
-      "X": "3.32",
-      "W2": "2.91"
+      "X": "2.864",
+      "W2": "3.38"
     },
-    "match_id": "364618336",
-    "url": "https://melbet-cm.com/en/line/football/127733-spain-la-liga/364618336-malaga-levante-ud",
-    "equipe_1": "Malaga",
-    "equipe_2": "Levante Ud",
-    "derniere_maj": "2026-09-06T15:59:31",
+    "match_id": "364618370",
+    "url": "https://melbet-cm.com/en/line/football/127733-spain-la-liga/364618370-getafe-celta",
+    "equipe_1": "Getafe",
+    "equipe_2": "Celta",
+    "derniere_maj": "2026-09-06T17:58:21",
+    "statut": "ok"
+  },
+  {
+    "1X2": {
+      "W1": "2.243",
+      "X": "4.56",
+      "W2": "2.299"
+    },
+    "match_id": "365354946",
+    "url": "https://melbet-cm.com/en/line/football/127733-spain-la-liga/365354946-home-away",
+    "equipe_1": "Home",
+    "equipe_2": "Away",
+    "derniere_maj": "2026-09-06T17:58:41",
     "statut": "ok"
   }
 ]

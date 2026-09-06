@@ -1,35 +1,57 @@
 [
   {
-    "equipe_1": "Malaga",
-    "equipe_2": "Levante",
+    "equipe_1": "Juventus",
+    "equipe_2": "AC Milan",
     "1X2": {
-      "V1": "2.47",
-      "X": "3.35",
-      "V2": "2.96"
+      "V1": "2.23",
+      "X": "3.13",
+      "V2": "3.69"
     },
-    "derniere_maj": "2026-09-06T16:10:55",
+    "derniere_maj": "2026-09-06T18:10:37",
     "statut": "ok"
   },
   {
-    "equipe_1": "Alaves",
-    "equipe_2": "Osasuna",
+    "equipe_1": "Cagliari",
+    "equipe_2": "Lecce",
     "1X2": {
-      "V1": "2.26",
-      "X": "3.09",
-      "V2": "3.63"
+      "V1": "2.03",
+      "X": "3.18",
+      "V2": "4.19"
     },
-    "derniere_maj": "2026-09-06T16:10:55",
+    "derniere_maj": "2026-09-06T18:10:37",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Udinese",
+    "equipe_2": "Lazio",
+    "1X2": {
+      "V1": "2.96",
+      "X": "3.14",
+      "V2": "2.59"
+    },
+    "derniere_maj": "2026-09-06T18:10:37",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Marseille",
+    "equipe_2": "Paris FC",
+    "1X2": {
+      "V1": "1.94",
+      "X": "3.77",
+      "V2": "3.84"
+    },
+    "derniere_maj": "2026-09-06T18:10:37",
     "statut": "ok"
   },
   {
     "equipe_1": "Espanyol",
     "equipe_2": "Sevilla",
     "1X2": {
-      "V1": "2.31",
-      "X": "3.29",
-      "V2": "3.3"
+      "V1": "2.36",
+      "X": "3.27",
+      "V2": "3.21"
     },
-    "derniere_maj": "2026-09-06T16:10:55",
+    "derniere_maj": "2026-09-06T18:10:37",
     "statut": "ok"
   },
   {
@@ -38,9 +60,9 @@
     "1X2": {
       "V1": "2.47",
       "X": "2.88",
-      "V2": "3.44"
+      "V2": "3.45"
     },
-    "derniere_maj": "2026-09-06T16:10:55",
+    "derniere_maj": "2026-09-06T18:10:37",
     "statut": "ok"
   },
   {
@@ -48,32 +70,10 @@
     "equipe_2": "Real Sociedad",
     "1X2": {
       "V1": "2.96",
-      "X": "3.49",
+      "X": "3.5",
       "V2": "2.39"
     },
-    "derniere_maj": "2026-09-06T16:10:55",
-    "statut": "ok"
-  },
-  {
-    "equipe_1": "Baltika",
-    "equipe_2": "Lokomotiv Moscow",
-    "1X2": {
-      "V1": "1.95",
-      "X": "3.45",
-      "V2": "4.05"
-    },
-    "derniere_maj": "2026-09-06T16:10:55",
-    "statut": "ok"
-  },
-  {
-    "equipe_1": "Rubin Kazan",
-    "equipe_2": "Akhmat Grozny",
-    "1X2": {
-      "V1": "2.65",
-      "X": "3.1",
-      "V2": "2.85"
-    },
-    "derniere_maj": "2026-09-06T16:10:55",
+    "derniere_maj": "2026-09-06T18:10:37",
     "statut": "ok"
   }
 ]

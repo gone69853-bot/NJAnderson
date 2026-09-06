@@ -1,60 +1,43 @@
 [
   {
     "1X2": {
-      "V1": "1.84",
-      "X": "3.74",
-      "V2": "4.1"
+      "V1": "1.885",
+      "X": "3.76",
+      "V2": "3.9"
     },
     "Total_2.5": {
-      "Plus de": "1.75",
-      "Moins de": "2.08"
+      "Plus de": "1.7",
+      "Moins de": "2.15"
     },
     "match_id": "364948032",
     "url": "https://betwinner.cm/fr/line/football/12821-france-ligue-1/364948032-olympique-de-marseille-paris",
     "equipe_1": "Olympique De",
     "equipe_2": "Marseille Paris",
-    "derniere_maj": "2026-09-06T15:56:05",
+    "derniere_maj": "2026-09-06T17:54:24",
     "statut": "ok"
   },
   {
     "1X2": {
-      "V1": "2.096",
-      "X": "3.26",
-      "V2": "3.7"
+      "V1": "2.175",
+      "X": "3.136",
+      "V2": "3.64"
     },
     "Total_2.5": {
-      "Plus de": "2.136",
-      "Moins de": "1.71"
+      "Plus de": "2.184",
+      "Moins de": "1.68"
     },
     "match_id": "363133764",
     "url": "https://betwinner.cm/fr/line/football/110163-italy-serie-a/363133764-juventus-milan",
     "equipe_1": "Juventus",
     "equipe_2": "Milan",
-    "derniere_maj": "2026-09-06T15:56:12",
+    "derniere_maj": "2026-09-06T17:54:34",
     "statut": "ok"
   },
   {
     "1X2": {
-      "V1": "2.256",
-      "X": "3.088",
-      "V2": "3.5"
-    },
-    "Total_2.5": {
-      "Plus de": "2.448",
-      "Moins de": "1.55"
-    },
-    "match_id": "364618398",
-    "url": "https://betwinner.cm/fr/line/football/127733-spain-la-liga/364618398-deportivo-alaves-osasuna",
-    "equipe_1": "Deportivo",
-    "equipe_2": "Alaves Osasuna",
-    "derniere_maj": "2026-09-06T15:56:18",
-    "statut": "ok"
-  },
-  {
-    "1X2": {
-      "V1": "2.275",
-      "X": "3.24",
-      "V2": "3.26"
+      "V1": "2.304",
+      "X": "3.22",
+      "V2": "3.22"
     },
     "Total_2.5": {
       "Plus de": "2.136",
@@ -64,24 +47,41 @@
     "url": "https://betwinner.cm/fr/line/football/127733-spain-la-liga/364618392-espanyol-sevilla",
     "equipe_1": "Espanyol",
     "equipe_2": "Sevilla",
-    "derniere_maj": "2026-09-06T15:56:25",
+    "derniere_maj": "2026-09-06T17:54:41",
     "statut": "ok"
   },
   {
     "1X2": {
-      "V1": "1.91",
-      "X": "3.62",
-      "V2": "3.92"
+      "V1": "1.085",
+      "X": "11.5",
+      "V2": "21"
     },
     "Total_2.5": {
-      "Plus de": "1.845",
-      "Moins de": "1.955"
+      "Plus de": "1.141",
+      "Moins de": "4.4"
     },
-    "match_id": "363133754",
-    "url": "https://betwinner.cm/fr/line/football/110163-italy-serie-a/363133754-bologna-1909-sassuolo-calcio",
-    "equipe_1": "Bologna 1909",
-    "equipe_2": "Sassuolo Calcio",
-    "derniere_maj": "2026-09-06T15:56:32",
+    "match_id": "364649426",
+    "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364649426-barcelona-feyenoord",
+    "equipe_1": "Barcelona",
+    "equipe_2": "Feyenoord",
+    "derniere_maj": "2026-09-06T17:54:50",
+    "statut": "ok"
+  },
+  {
+    "1X2": {
+      "V1": "1.61",
+      "X": "4.26",
+      "V2": "5.05"
+    },
+    "Total_2.5": {
+      "Plus de": "1.47",
+      "Moins de": "2.46"
+    },
+    "match_id": "364649430",
+    "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364649430-real-madrid-internazionale-milano",
+    "equipe_1": "Real Madrid",
+    "equipe_2": "Internazionale Milano",
+    "derniere_maj": "2026-09-06T17:54:57",
     "statut": "ok"
   },
   {
@@ -98,7 +98,7 @@
     "url": "https://betwinner.cm/fr/line/football/3054724-ukraine-prime-league-women/365260242-seasters-odesa-women-polissya-zhytomyr-women",
     "equipe_1": "Seasters Odesa Women",
     "equipe_2": "Polissya Zhytomyr Women",
-    "derniere_maj": "2026-09-06T15:56:39",
+    "derniere_maj": "2026-09-06T17:55:06",
     "statut": "ok"
   }
 ]

@@ -1,67 +1,67 @@
 [
   {
     "1X2": {
-      "W1": "1.864",
-      "X": "3.74",
-      "W2": "4"
+      "W1": "1.87",
+      "X": "3.8",
+      "W2": "3.9"
     },
     "match_id": "364948032",
     "url": "https://winwin-97317.pro/en/line/football/12821-france-ligue-1/364948032-olympique-de-marseille-paris",
     "equipe_1": "Olympique De",
     "equipe_2": "Marseille Paris",
-    "derniere_maj": "2026-09-06T16:03:40",
+    "derniere_maj": "2026-09-06T18:02:57",
     "statut": "ok"
   },
   {
     "1X2": {
-      "W1": "2.096",
-      "X": "3.26",
-      "W2": "3.7"
+      "W1": "2.175",
+      "X": "3.136",
+      "W2": "3.64"
     },
     "match_id": "363133764",
     "url": "https://winwin-97317.pro/en/line/football/110163-italy-serie-a/363133764-juventus-milan",
     "equipe_1": "Juventus",
     "equipe_2": "Milan",
-    "derniere_maj": "2026-09-06T16:03:48",
+    "derniere_maj": "2026-09-06T18:03:06",
     "statut": "ok"
   },
   {
     "1X2": {
-      "W1": "2.256",
-      "X": "3.088",
-      "W2": "3.5"
-    },
-    "match_id": "364618398",
-    "url": "https://winwin-97317.pro/en/line/football/127733-spain-la-liga/364618398-deportivo-alaves-osasuna",
-    "equipe_1": "Deportivo",
-    "equipe_2": "Alaves Osasuna",
-    "derniere_maj": "2026-09-06T16:03:55",
-    "statut": "ok"
-  },
-  {
-    "1X2": {
-      "W1": "2.275",
-      "X": "3.24",
-      "W2": "3.26"
+      "W1": "2.325",
+      "X": "3.2",
+      "W2": "3.2"
     },
     "match_id": "364618392",
     "url": "https://winwin-97317.pro/en/line/football/127733-spain-la-liga/364618392-espanyol-sevilla",
     "equipe_1": "Espanyol",
     "equipe_2": "Sevilla",
-    "derniere_maj": "2026-09-06T16:04:04",
+    "derniere_maj": "2026-09-06T18:03:16",
     "statut": "ok"
   },
   {
     "1X2": {
-      "W1": "2.432",
-      "X": "3.3",
-      "W2": "2.94"
+      "W1": "1.085",
+      "X": "11.5",
+      "W2": "21"
     },
-    "match_id": "364618336",
-    "url": "https://winwin-97317.pro/en/line/football/127733-spain-la-liga/364618336-malaga-levante-ud",
-    "equipe_1": "Malaga",
-    "equipe_2": "Levante Ud",
-    "derniere_maj": "2026-09-06T16:04:11",
+    "match_id": "364649426",
+    "url": "https://winwin-97317.pro/en/line/football/118587-uefa-champions-league/364649426-barcelona-feyenoord",
+    "equipe_1": "Barcelona",
+    "equipe_2": "Feyenoord",
+    "derniere_maj": "2026-09-06T18:03:27",
+    "statut": "ok"
+  },
+  {
+    "1X2": {
+      "W1": "1.61",
+      "X": "4.26",
+      "W2": "5.05"
+    },
+    "match_id": "364649430",
+    "url": "https://winwin-97317.pro/en/line/football/118587-uefa-champions-league/364649430-real-madrid-internazionale-milano",
+    "equipe_1": "Real Madrid",
+    "equipe_2": "Internazionale Milano",
+    "derniere_maj": "2026-09-06T18:03:37",
     "statut": "ok"
   }
 ]
