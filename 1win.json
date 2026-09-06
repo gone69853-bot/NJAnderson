@@ -7,18 +7,18 @@
       "X": "3.15",
       "V2": "2.9"
     },
-    "derniere_maj": "2026-09-06T22:10:08",
+    "derniere_maj": "2026-09-06T23:39:02",
     "statut": "ok"
   },
   {
     "equipe_1": "Cagliari",
     "equipe_2": "Lecce",
     "1X2": {
-      "V1": "2.03",
-      "X": "3.18",
-      "V2": "4.21"
+      "V1": "2.01",
+      "X": "3.2",
+      "V2": "4.28"
     },
-    "derniere_maj": "2026-09-06T22:10:08",
+    "derniere_maj": "2026-09-06T23:39:02",
     "statut": "ok"
   },
   {
@@ -27,9 +27,9 @@
     "1X2": {
       "V1": "2.91",
       "X": "3.12",
-      "V2": "2.65"
+      "V2": "2.66"
     },
-    "derniere_maj": "2026-09-06T22:10:08",
+    "derniere_maj": "2026-09-06T23:39:02",
     "statut": "ok"
   },
   {
@@ -40,18 +40,18 @@
       "X": "2.87",
       "V2": "3.34"
     },
-    "derniere_maj": "2026-09-06T22:10:08",
+    "derniere_maj": "2026-09-06T23:39:02",
     "statut": "ok"
   },
   {
     "equipe_1": "Elche",
     "equipe_2": "Real Sociedad",
     "1X2": {
-      "V1": "3.17",
-      "X": "3.57",
-      "V2": "2.24"
+      "V1": "3.19",
+      "X": "3.55",
+      "V2": "2.23"
     },
-    "derniere_maj": "2026-09-06T22:10:08",
+    "derniere_maj": "2026-09-06T23:39:02",
     "statut": "ok"
   },
   {
@@ -62,7 +62,7 @@
       "X": "3.71",
       "V2": "2.45"
     },
-    "derniere_maj": "2026-09-06T22:10:08",
+    "derniere_maj": "2026-09-06T23:39:02",
     "statut": "ok"
   },
   {
@@ -70,10 +70,10 @@
     "equipe_2": "LASK Linz",
     "1X2": {
       "V1": "1.8",
-      "X": "3.94",
+      "X": "3.95",
       "V2": "4.3"
     },
-    "derniere_maj": "2026-09-06T22:10:08",
+    "derniere_maj": "2026-09-06T23:39:02",
     "statut": "ok"
   },
   {
@@ -84,7 +84,40 @@
       "X": "4.29",
       "V2": "4.89"
     },
-    "derniere_maj": "2026-09-06T22:10:08",
+    "derniere_maj": "2026-09-06T23:39:02",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Omonia Nicosia",
+    "equipe_2": "Celta de Vigo",
+    "1X2": {
+      "V1": "4.14",
+      "X": "3.6",
+      "V2": "1.86"
+    },
+    "derniere_maj": "2026-09-06T23:39:02",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "FC Ararat-Armenia",
+    "equipe_2": "Sparta Prague",
+    "1X2": {
+      "V1": "5.1",
+      "X": "4.07",
+      "V2": "1.63"
+    },
+    "derniere_maj": "2026-09-06T23:39:02",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Bayer Leverkusen",
+    "equipe_2": "NK Celje",
+    "1X2": {
+      "V1": "1.2",
+      "X": "7.1",
+      "V2": "13.0"
+    },
+    "derniere_maj": "2026-09-06T23:39:02",
     "statut": "ok"
   }
 ]
