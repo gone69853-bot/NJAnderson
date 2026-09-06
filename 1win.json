@@ -1,13 +1,13 @@
 [
   {
-    "equipe_1": "Juventus",
-    "equipe_2": "AC Milan",
+    "equipe_1": "Rubin Kazan",
+    "equipe_2": "Akhmat Grozny",
     "1X2": {
-      "V1": "2.23",
-      "X": "3.13",
-      "V2": "3.69"
+      "V1": "2.7",
+      "X": "3.15",
+      "V2": "2.9"
     },
-    "derniere_maj": "2026-09-06T18:10:37",
+    "derniere_maj": "2026-09-06T20:02:34",
     "statut": "ok"
   },
   {
@@ -18,62 +18,73 @@
       "X": "3.18",
       "V2": "4.19"
     },
-    "derniere_maj": "2026-09-06T18:10:37",
+    "derniere_maj": "2026-09-06T20:02:34",
     "statut": "ok"
   },
   {
     "equipe_1": "Udinese",
     "equipe_2": "Lazio",
     "1X2": {
-      "V1": "2.96",
-      "X": "3.14",
-      "V2": "2.59"
+      "V1": "2.92",
+      "X": "3.12",
+      "V2": "2.63"
     },
-    "derniere_maj": "2026-09-06T18:10:37",
-    "statut": "ok"
-  },
-  {
-    "equipe_1": "Marseille",
-    "equipe_2": "Paris FC",
-    "1X2": {
-      "V1": "1.94",
-      "X": "3.77",
-      "V2": "3.84"
-    },
-    "derniere_maj": "2026-09-06T18:10:37",
-    "statut": "ok"
-  },
-  {
-    "equipe_1": "Espanyol",
-    "equipe_2": "Sevilla",
-    "1X2": {
-      "V1": "2.36",
-      "X": "3.27",
-      "V2": "3.21"
-    },
-    "derniere_maj": "2026-09-06T18:10:37",
+    "derniere_maj": "2026-09-06T20:02:34",
     "statut": "ok"
   },
   {
     "equipe_1": "Getafe",
     "equipe_2": "Celta de Vigo",
     "1X2": {
-      "V1": "2.47",
+      "V1": "2.48",
       "X": "2.88",
-      "V2": "3.45"
+      "V2": "3.42"
     },
-    "derniere_maj": "2026-09-06T18:10:37",
+    "derniere_maj": "2026-09-06T20:02:34",
     "statut": "ok"
   },
   {
     "equipe_1": "Elche",
     "equipe_2": "Real Sociedad",
     "1X2": {
-      "V1": "2.96",
-      "X": "3.5",
-      "V2": "2.39"
+      "V1": "3.07",
+      "X": "3.51",
+      "V2": "2.31"
     },
-    "derniere_maj": "2026-09-06T18:10:37",
+    "derniere_maj": "2026-09-06T20:02:34",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Club Brugge",
+    "equipe_2": "Aston Villa",
+    "1X2": {
+      "V1": "2.75",
+      "X": "3.71",
+      "V2": "2.45"
+    },
+    "derniere_maj": "2026-09-06T20:02:34",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "AEK Athens",
+    "equipe_2": "LASK Linz",
+    "1X2": {
+      "V1": "1.79",
+      "X": "3.94",
+      "V2": "4.3"
+    },
+    "derniere_maj": "2026-09-06T20:02:34",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Real Madrid",
+    "equipe_2": "Inter Milan",
+    "1X2": {
+      "V1": "1.64",
+      "X": "4.28",
+      "V2": "4.88"
+    },
+    "derniere_maj": "2026-09-06T20:02:34",
     "statut": "ok"
   }
 ]

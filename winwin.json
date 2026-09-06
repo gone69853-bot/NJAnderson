@@ -1,45 +1,6 @@
 [
   {
     "1X2": {
-      "W1": "1.87",
-      "X": "3.8",
-      "W2": "3.9"
-    },
-    "match_id": "364948032",
-    "url": "https://winwin-97317.pro/en/line/football/12821-france-ligue-1/364948032-olympique-de-marseille-paris",
-    "equipe_1": "Olympique De",
-    "equipe_2": "Marseille Paris",
-    "derniere_maj": "2026-09-06T18:02:57",
-    "statut": "ok"
-  },
-  {
-    "1X2": {
-      "W1": "2.175",
-      "X": "3.136",
-      "W2": "3.64"
-    },
-    "match_id": "363133764",
-    "url": "https://winwin-97317.pro/en/line/football/110163-italy-serie-a/363133764-juventus-milan",
-    "equipe_1": "Juventus",
-    "equipe_2": "Milan",
-    "derniere_maj": "2026-09-06T18:03:06",
-    "statut": "ok"
-  },
-  {
-    "1X2": {
-      "W1": "2.325",
-      "X": "3.2",
-      "W2": "3.2"
-    },
-    "match_id": "364618392",
-    "url": "https://winwin-97317.pro/en/line/football/127733-spain-la-liga/364618392-espanyol-sevilla",
-    "equipe_1": "Espanyol",
-    "equipe_2": "Sevilla",
-    "derniere_maj": "2026-09-06T18:03:16",
-    "statut": "ok"
-  },
-  {
-    "1X2": {
       "W1": "1.085",
       "X": "11.5",
       "W2": "21"
@@ -48,20 +9,59 @@
     "url": "https://winwin-97317.pro/en/line/football/118587-uefa-champions-league/364649426-barcelona-feyenoord",
     "equipe_1": "Barcelona",
     "equipe_2": "Feyenoord",
-    "derniere_maj": "2026-09-06T18:03:27",
+    "derniere_maj": "2026-09-06T19:55:20",
     "statut": "ok"
   },
   {
     "1X2": {
-      "W1": "1.61",
-      "X": "4.26",
-      "W2": "5.05"
+      "W1": "1.625",
+      "X": "4.24",
+      "W2": "4.94"
     },
     "match_id": "364649430",
     "url": "https://winwin-97317.pro/en/line/football/118587-uefa-champions-league/364649430-real-madrid-internazionale-milano",
     "equipe_1": "Real Madrid",
     "equipe_2": "Internazionale Milano",
-    "derniere_maj": "2026-09-06T18:03:37",
+    "derniere_maj": "2026-09-06T19:55:27",
+    "statut": "ok"
+  },
+  {
+    "1X2": {
+      "W1": "4.6",
+      "X": "4",
+      "W2": "1.704"
+    },
+    "match_id": "364649424",
+    "url": "https://winwin-97317.pro/en/line/football/118587-uefa-champions-league/364649424-porto-manchester-city",
+    "equipe_1": "Porto",
+    "equipe_2": "Manchester City",
+    "derniere_maj": "2026-09-06T19:55:35",
+    "statut": "ok"
+  },
+  {
+    "1X2": {
+      "W1": "1.104",
+      "X": "10.5",
+      "W2": "19"
+    },
+    "match_id": "364650232",
+    "url": "https://winwin-97317.pro/en/line/football/118587-uefa-champions-league/364650232-bayern-munich-bodo-glimt",
+    "equipe_1": "Bayern Munich",
+    "equipe_2": "Bodo Glimt",
+    "derniere_maj": "2026-09-06T19:55:42",
+    "statut": "ok"
+  },
+  {
+    "1X2": {
+      "W1": "4.3",
+      "X": "3.66",
+      "W2": "1.825"
+    },
+    "match_id": "364650250",
+    "url": "https://winwin-97317.pro/en/line/football/118587-uefa-champions-league/364650250-napoli-arsenal",
+    "equipe_1": "Napoli",
+    "equipe_2": "Arsenal",
+    "derniere_maj": "2026-09-06T19:55:50",
     "statut": "ok"
   }
 ]

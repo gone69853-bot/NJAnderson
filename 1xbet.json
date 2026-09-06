@@ -1,87 +1,87 @@
 [
   {
     "1X2": {
-      "V1": "1.973",
-      "X": "3.905",
-      "V2": "3.965"
-    },
-    "Total_2.5": {
-      "Plus de": "1.742",
-      "Moins de": "2.267"
-    },
-    "match_id": "364948032",
-    "url": "https://1xbet.cm/fr/line/football/12821-france-ligue-1/364948032-olympique-de-marseille-paris",
-    "equipe_1": "Olympique De",
-    "equipe_2": "Marseille Paris",
-    "derniere_maj": "2026-09-06T18:05:50",
-    "statut": "ok"
-  },
-  {
-    "1X2": {
-      "V1": "2.256",
-      "X": "3.25",
-      "V2": "3.78"
-    },
-    "Total_2.5": {
-      "Plus de": "2.267",
-      "Moins de": "1.742"
-    },
-    "match_id": "363133764",
-    "url": "https://1xbet.cm/fr/line/football/110163-italy-serie-a/363133764-juventus-milan",
-    "equipe_1": "Juventus",
-    "equipe_2": "Milan",
-    "derniere_maj": "2026-09-06T18:05:59",
-    "statut": "ok"
-  },
-  {
-    "1X2": {
-      "V1": "2.411",
-      "X": "3.33",
-      "V2": "3.33"
-    },
-    "Total_2.5": {
-      "Plus de": "2.216",
-      "Moins de": "1.773"
-    },
-    "match_id": "364618392",
-    "url": "https://1xbet.cm/fr/line/football/127733-spain-la-liga/364618392-espanyol-sevilla",
-    "equipe_1": "Espanyol",
-    "equipe_2": "Sevilla",
-    "derniere_maj": "2026-09-06T18:06:08",
-    "statut": "ok"
-  },
-  {
-    "1X2": {
       "V1": "1.112",
       "X": "12.3",
       "V2": "22"
     },
     "Total_2.5": {
-      "Plus de": "1.141",
+      "Plus de": "1.139",
       "Moins de": "4.4"
     },
     "match_id": "364649426",
     "url": "https://1xbet.cm/fr/line/football/118587-uefa-champions-league/364649426-barcelona-feyenoord",
     "equipe_1": "Barcelona",
     "equipe_2": "Feyenoord",
-    "derniere_maj": "2026-09-06T18:06:19",
+    "derniere_maj": "2026-09-06T19:58:00",
     "statut": "ok"
   },
   {
     "1X2": {
-      "V1": "1.65",
-      "X": "4.375",
-      "V2": "5.23"
+      "V1": "1.669",
+      "X": "4.355",
+      "V2": "5.07"
     },
     "Total_2.5": {
-      "Plus de": "1.47",
-      "Moins de": "2.46"
+      "Plus de": "1.46",
+      "Moins de": "2.49"
     },
     "match_id": "364649430",
     "url": "https://1xbet.cm/fr/line/football/118587-uefa-champions-league/364649430-real-madrid-internazionale-milano",
     "equipe_1": "Real Madrid",
     "equipe_2": "Internazionale Milano",
-    "derniere_maj": "2026-09-06T18:06:29",
+    "derniere_maj": "2026-09-06T19:58:06",
+    "statut": "ok"
+  },
+  {
+    "1X2": {
+      "V1": "4.725",
+      "X": "4.12",
+      "V2": "1.75"
+    },
+    "Total_2.5": {
+      "Plus de": "1.705",
+      "Moins de": "2.277"
+    },
+    "match_id": "364649424",
+    "url": "https://1xbet.cm/fr/line/football/118587-uefa-champions-league/364649424-porto-manchester-city",
+    "equipe_1": "Porto",
+    "equipe_2": "Manchester City",
+    "derniere_maj": "2026-09-06T19:58:13",
+    "statut": "ok"
+  },
+  {
+    "1X2": {
+      "V1": "1.13",
+      "X": "11",
+      "V2": "19.5"
+    },
+    "Total_2.5": {
+      "Plus de": "1.108",
+      "Moins de": "4.95"
+    },
+    "match_id": "364650232",
+    "url": "https://1xbet.cm/fr/line/football/118587-uefa-champions-league/364650232-bayern-munich-bodo-glimt",
+    "equipe_1": "Bayern Munich",
+    "equipe_2": "Bodo Glimt",
+    "derniere_maj": "2026-09-06T19:58:20",
+    "statut": "ok"
+  },
+  {
+    "1X2": {
+      "V1": "4.425",
+      "X": "3.76",
+      "V2": "1.872"
+    },
+    "Total_2.5": {
+      "Plus de": "1.992",
+      "Moins de": "1.91"
+    },
+    "match_id": "364650250",
+    "url": "https://1xbet.cm/fr/line/football/118587-uefa-champions-league/364650250-napoli-arsenal",
+    "equipe_1": "Napoli",
+    "equipe_2": "Arsenal",
+    "derniere_maj": "2026-09-06T19:58:27",
     "statut": "ok"
   }
 ]
