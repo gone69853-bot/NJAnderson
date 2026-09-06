@@ -1,19 +1,19 @@
 [
   {
     "1X2": {
-      "V1": "1.08",
+      "V1": "1.075",
       "X": "12",
-      "V2": "22"
+      "V2": "23"
     },
     "Total_2.5": {
-      "Plus de": "1.135",
-      "Moins de": "4.45"
+      "Plus de": "1.134",
+      "Moins de": "4.5"
     },
     "match_id": "364649426",
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364649426-barcelona-feyenoord",
     "equipe_1": "Barcelona",
     "equipe_2": "Feyenoord",
-    "derniere_maj": "2026-09-06T21:07:55",
+    "derniere_maj": "2026-09-06T21:52:06",
     "statut": "ok"
   },
   {
@@ -30,14 +30,14 @@
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364649430-real-madrid-internazionale-milano",
     "equipe_1": "Real Madrid",
     "equipe_2": "Internazionale Milano",
-    "derniere_maj": "2026-09-06T21:08:02",
+    "derniere_maj": "2026-09-06T21:52:12",
     "statut": "ok"
   },
   {
     "1X2": {
       "V1": "4.6",
-      "X": "4",
-      "V2": "1.704"
+      "X": "3.96",
+      "V2": "1.712"
     },
     "Total_2.5": {
       "Plus de": "1.66",
@@ -47,7 +47,7 @@
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364649424-porto-manchester-city",
     "equipe_1": "Porto",
     "equipe_2": "Manchester City",
-    "derniere_maj": "2026-09-06T21:08:08",
+    "derniere_maj": "2026-09-06T21:52:19",
     "statut": "ok"
   },
   {
@@ -64,14 +64,14 @@
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364650232-bayern-munich-bodo-glimt",
     "equipe_1": "Bayern Munich",
     "equipe_2": "Bodo Glimt",
-    "derniere_maj": "2026-09-06T21:08:15",
+    "derniere_maj": "2026-09-06T21:52:26",
     "statut": "ok"
   },
   {
     "1X2": {
-      "V1": "4.3",
-      "X": "3.66",
-      "V2": "1.825"
+      "V1": "4.4",
+      "X": "3.64",
+      "V2": "1.81"
     },
     "Total_2.5": {
       "Plus de": "1.94",
@@ -81,7 +81,7 @@
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364650250-napoli-arsenal",
     "equipe_1": "Napoli",
     "equipe_2": "Arsenal",
-    "derniere_maj": "2026-09-06T21:08:22",
+    "derniere_maj": "2026-09-06T21:52:33",
     "statut": "ok"
   },
   {
@@ -98,7 +98,7 @@
     "url": "https://betwinner.cm/fr/line/football/227619-malta-super-cup/367124816-floriana-valletta",
     "equipe_1": "Floriana",
     "equipe_2": "Valletta",
-    "derniere_maj": "2026-09-06T21:08:29",
+    "derniere_maj": "2026-09-06T21:52:39",
     "statut": "ok"
   }
 ]
