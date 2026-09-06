@@ -1,0 +1,9 @@
+      - name: DIAGNOSTIC - Sauvegarder les échecs de découverte (si présents)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagnostic-decouverte
+          path: |
+            diagnostic_*.png
+            diagnostic_*.txt
+          if-no-files-found: ignore
