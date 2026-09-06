@@ -1,3 +1,4 @@
+
 name: Scraper Zicote
 
 on:
@@ -39,6 +40,10 @@ jobs:
             diagnostic_github.txt
 
       - name: Lancer le scraper des 6 bookmakers
+        env:
+          PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
+          PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }}
+          PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
         run: xvfb-run --auto-servernum python scraper_generique_final-13.py
 
       - name: Lancer le scraper 1win
