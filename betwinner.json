@@ -1,36 +1,36 @@
 [
   {
     "1X2": {
-      "V1": "1.075",
-      "X": "12",
-      "V2": "23"
-    },
-    "Total_2.5": {
-      "Plus de": "1.127",
-      "Moins de": "4.6"
-    },
-    "match_id": "364649426",
-    "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364649426-barcelona-feyenoord",
-    "equipe_1": "Barcelona",
-    "equipe_2": "Feyenoord",
-    "derniere_maj": "2026-09-07T06:48:19",
-    "statut": "ok"
-  },
-  {
-    "1X2": {
-      "V1": "1.6",
-      "X": "4.36",
+      "V1": "1.59",
+      "X": "4.44",
       "V2": "5"
     },
     "Total_2.5": {
-      "Plus de": "1.4",
-      "Moins de": "2.68"
+      "Plus de": "1.38",
+      "Moins de": "2.77"
     },
     "match_id": "364649430",
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364649430-real-madrid-internazionale-milano",
     "equipe_1": "Real Madrid",
     "equipe_2": "Internazionale Milano",
-    "derniere_maj": "2026-09-07T06:48:28",
+    "derniere_maj": "2026-09-07T13:10:24",
+    "statut": "ok"
+  },
+  {
+    "1X2": {
+      "V1": "1.07",
+      "X": "12.5",
+      "V2": "24"
+    },
+    "Total_2.5": {
+      "Plus de": "1.12",
+      "Moins de": "4.7"
+    },
+    "match_id": "364649426",
+    "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364649426-barcelona-feyenoord",
+    "equipe_1": "Barcelona",
+    "equipe_2": "Feyenoord",
+    "derniere_maj": "2026-09-07T13:10:33",
     "statut": "ok"
   },
   {
@@ -47,31 +47,31 @@
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364649424-porto-manchester-city",
     "equipe_1": "Porto",
     "equipe_2": "Manchester City",
-    "derniere_maj": "2026-09-07T06:48:37",
+    "derniere_maj": "2026-09-07T13:10:42",
     "statut": "ok"
   },
   {
     "1X2": {
-      "V1": "1.1",
-      "X": "11",
+      "V1": "1.09",
+      "X": "12",
       "V2": "19"
     },
     "Total_2.5": {
-      "Plus de": "1.102",
-      "Moins de": "5.05"
+      "Plus de": "1.096",
+      "Moins de": "5.2"
     },
     "match_id": "364650232",
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364650232-bayern-munich-bodo-glimt",
     "equipe_1": "Bayern Munich",
     "equipe_2": "Bodo Glimt",
-    "derniere_maj": "2026-09-07T06:48:48",
+    "derniere_maj": "2026-09-07T13:10:53",
     "statut": "ok"
   },
   {
     "1X2": {
       "V1": "4.7",
-      "X": "3.66",
-      "V2": "1.765"
+      "X": "3.7",
+      "V2": "1.752"
     },
     "Total_2.5": {
       "Plus de": "1.93",
@@ -81,24 +81,20 @@
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364650250-napoli-arsenal",
     "equipe_1": "Napoli",
     "equipe_2": "Arsenal",
-    "derniere_maj": "2026-09-07T06:48:57",
+    "derniere_maj": "2026-09-07T13:11:02",
     "statut": "ok"
   },
   {
     "1X2": {
-      "V1": "2.02",
-      "X": "3.2",
-      "V2": "3.715"
+      "V1": "2.822",
+      "X": "4.46",
+      "V2": "1.88"
     },
-    "Total_2.5": {
-      "Plus de": "1.9",
-      "Moins de": "1.8"
-    },
-    "match_id": "367124816",
-    "url": "https://betwinner.cm/fr/line/football/227619-malta-super-cup/367124816-floriana-valletta",
-    "equipe_1": "Floriana",
-    "equipe_2": "Valletta",
-    "derniere_maj": "2026-09-07T06:49:06",
+    "match_id": "367433440",
+    "url": "https://betwinner.cm/fr/line/football/2779554-cuba-liga-de-barrios/367433440-city-54-almendras-de-parraga",
+    "equipe_1": "City 54",
+    "equipe_2": "Almendras De Parraga",
+    "derniere_maj": "2026-09-07T13:11:11",
     "statut": "ok"
   }
 ]
