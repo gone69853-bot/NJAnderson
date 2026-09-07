@@ -9,7 +9,7 @@
     "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364649426-barcelona-feyenoord",
     "equipe_1": "Barcelona",
     "equipe_2": "Feyenoord",
-    "derniere_maj": "2026-09-06T23:25:37",
+    "derniere_maj": "2026-09-07T01:50:05",
     "statut": "ok"
   },
   {
@@ -22,7 +22,7 @@
     "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364649430-real-madrid-internazionale-milano",
     "equipe_1": "Real Madrid",
     "equipe_2": "Internazionale Milano",
-    "derniere_maj": "2026-09-06T23:25:47",
+    "derniere_maj": "2026-09-07T01:50:12",
     "statut": "ok"
   },
   {
@@ -35,20 +35,20 @@
     "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364649424-porto-manchester-city",
     "equipe_1": "Porto",
     "equipe_2": "Manchester City",
-    "derniere_maj": "2026-09-06T23:25:57",
+    "derniere_maj": "2026-09-07T01:50:20",
     "statut": "ok"
   },
   {
     "1X2": {
       "W1": "1.1",
       "X": "10.5",
-      "W2": "19"
+      "W2": "20"
     },
     "match_id": "364650232",
     "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364650232-bayern-munich-bodo-glimt",
     "equipe_1": "Bayern Munich",
     "equipe_2": "Bodo Glimt",
-    "derniere_maj": "2026-09-06T23:26:07",
+    "derniere_maj": "2026-09-07T01:50:27",
     "statut": "ok"
   },
   {
@@ -61,41 +61,46 @@
     "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364650250-napoli-arsenal",
     "equipe_1": "Napoli",
     "equipe_2": "Arsenal",
-    "derniere_maj": "2026-09-06T23:26:25",
+    "derniere_maj": "2026-09-07T01:50:35",
     "statut": "ok"
   },
   {
     "1X2": {
-      "W1": "2.488",
-      "X": "2.87",
+      "W1": "2.49",
+      "X": "2.86",
       "W2": "3.3"
     },
     "match_id": "364618370",
     "url": "https://melbet-cm.com/en/line/football/127733-spain-la-liga/364618370-getafe-celta",
     "equipe_1": "Getafe",
     "equipe_2": "Celta",
-    "derniere_maj": "2026-09-06T23:26:35",
+    "derniere_maj": "2026-09-07T01:50:42",
     "statut": "ok"
   },
   {
+    "1X2": {
+      "W1": "3.136",
+      "X": "3.48",
+      "W2": "2.235"
+    },
     "match_id": "364618374",
     "url": "https://melbet-cm.com/en/line/football/127733-spain-la-liga/364618374-elche-real-sociedad",
     "equipe_1": "Elche",
     "equipe_2": "Real Sociedad",
-    "derniere_maj": "2026-09-06T23:26:50",
-    "statut": "echec"
+    "derniere_maj": "2026-09-07T01:50:50",
+    "statut": "ok"
   },
   {
     "1X2": {
-      "W1": "2.337",
-      "X": "4.59",
-      "W2": "2.203"
+      "W1": "2.343",
+      "X": "4.585",
+      "W2": "2.198"
     },
     "match_id": "365354946",
     "url": "https://melbet-cm.com/en/line/football/127733-spain-la-liga/365354946-home-away",
     "equipe_1": "Home",
     "equipe_2": "Away",
-    "derniere_maj": "2026-09-06T23:27:08",
+    "derniere_maj": "2026-09-07T01:51:05",
     "statut": "ok"
   }
 ]
