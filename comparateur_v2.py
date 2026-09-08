@@ -1,68 +1,377 @@
-import os
 import json
-import requests
+import re
 
-# --- CONFIGURATION PROXY WEBSHARE ---
-PROXY_HOST = "p.webshare.io"
-PROXY_PORT = "80"
-PROXY_USER = "hmbmocqu-JP-rotate"
-PROXY_PASS = "3wba4sf52b64"
+from pathlib import Path
+from difflib import SequenceMatcher
 
-PROXY_URL = f"http://{PROXY_USER}:{PROXY_PASS}@{PROXY_HOST}:{PROXY_PORT}"
 
-PROXIES = {
-    "http": PROXY_URL,
-    "https": PROXY_URL
-}
+BOOKMAKERS = [
+    "betwinner",
+    "melbet",
+    "megapari",
+    "1win",
+    "winwin",
+    "1xbet",
+    "paripesa",
+]
 
-# --- LISTE COMPLÈTE DES 7 BOOKMAKERS ---
-BOOKMAKERS_ENDPOINTS = {
-    "1xbet": "https://1xbet.com/LineFeed/GetGamesZip",
-    "betwinner": "https://betwinner.com/LineFeed/GetGamesZip",
-    "melbet": "https://melbet.com/LineFeed/GetGamesZip",
-    "winwin": "https://winwin.bet/LineFeed/GetGamesZip",
-    "1win": "https://1win.pro/api/v2/matches",
-    "megapari": "https://5572183mp.pro/LineFeed/GetGamesZip",
-    "paripesa": "https://paripesa.cm/LineFeed/GetGamesZip"
-}
 
-session = requests.Session()
-session.proxies.update(PROXIES)
-session.headers.update({
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-    "Accept": "application/json",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Connection": "keep-alive"
-})
+# ============================================================
+# NORMALISATION
+# ============================================================
 
-def fetch_bookmaker_data(name, url):
-    """
-    Récupère les cotes en envoyant uniquement des requêtes compressées.
-    """
+def normalize(value):
+
+    value = str(
+        value or ""
+    ).lower()
+
+    replacements = {
+
+        "é": "e",
+        "è": "e",
+        "ê": "e",
+        "ë": "e",
+
+        "à": "a",
+        "â": "a",
+
+        "î": "i",
+        "ï": "i",
+
+        "ô": "o",
+        "ö": "o",
+
+        "ù": "u",
+        "û": "u",
+        "ü": "u",
+
+        "ç": "c",
+    }
+
+    for old, new in replacements.items():
+
+        value = value.replace(
+            old,
+            new
+        )
+
+    value = re.sub(
+        r"[^a-z0-9]+",
+        " ",
+        value
+    )
+
+    return " ".join(
+        value.split()
+    )
+
+
+# ============================================================
+# SIMILARITE
+# ============================================================
+
+def similarity(a, b):
+
+    a1 = normalize(
+        a.get("equipe_1")
+    )
+
+    a2 = normalize(
+        a.get("equipe_2")
+    )
+
+    b1 = normalize(
+        b.get("equipe_1")
+    )
+
+    b2 = normalize(
+        b.get("equipe_2")
+    )
+
+    direct = (
+        SequenceMatcher(
+            None,
+            a1,
+            b1
+        ).ratio()
+        +
+        SequenceMatcher(
+            None,
+            a2,
+            b2
+        ).ratio()
+    ) / 2
+
+    inverse = (
+        SequenceMatcher(
+            None,
+            a1,
+            b2
+        ).ratio()
+        +
+        SequenceMatcher(
+            None,
+            a2,
+            b1
+        ).ratio()
+    ) / 2
+
+    return max(
+        direct,
+        inverse
+    )
+
+
+# ============================================================
+# CHARGEMENT
+# ============================================================
+
+def load_bookmaker(name):
+
+    file = Path(
+        f"{name}.json"
+    )
+
+    if not file.exists():
+
+        return []
+
     try:
-        # Paramètres minimaux pour extraire le football / grands championnats
-        params = {"sport": 1, "count": 20, "lng": "fr"} if "1win" not in name else {}
-        response = session.get(url, params=params, timeout=10)
-        
-        if response.status_code == 200:
-            return response.json()
-    except Exception as e:
-        print(f"Erreur [{name}]: {e}")
-    return None
 
-def process_all_odds():
-    all_data = {}
-    
-    for bk_name, endpoint in BOOKMAKERS_ENDPOINTS.items():
-        raw_json = fetch_bookmaker_data(bk_name, endpoint)
-        if raw_json:
-            all_data[bk_name] = raw_json
+        data = json.loads(
+            file.read_text(
+                encoding="utf-8"
+            )
+        )
 
-    # Sauvegarde JSON minifiée (sans espaces inutilement lourds)
-    os.makedirs("docs", exist_ok=True)
-    with open("docs/odds_data.json", "w", encoding="utf-8") as f:
-        json.dump(all_data, f, separators=(',', ':'))
+        return [
+            x for x in data
+            if x.get("statut") == "ok"
+        ]
+
+    except Exception:
+
+        return []
+
+
+# ============================================================
+# REGROUPEMENT DES MATCHS
+# ============================================================
+
+def group_matches(data):
+
+    groups = []
+
+    for bookmaker in BOOKMAKERS:
+
+        for match in data.get(
+            bookmaker,
+            []
+        ):
+
+            best_group = None
+
+            best_score = 0
+
+            for group in groups:
+
+                for existing in group.values():
+
+                    score = similarity(
+                        match,
+                        existing
+                    )
+
+                    if score > best_score:
+
+                        best_score = score
+
+                        best_group = group
+
+            if best_group is not None and best_score >= 0.82:
+
+                best_group[
+                    bookmaker
+                ] = match
+
+            else:
+
+                groups.append(
+                    {
+                        bookmaker: match
+                    }
+                )
+
+    return groups
+
+
+# ============================================================
+# COMPARAISON
+# ============================================================
+
+def compare_market(
+    group,
+    market,
+    keys
+):
+
+    rows = []
+
+    for key in keys:
+
+        values = {}
+
+        for bookmaker, match in group.items():
+
+            try:
+
+                value = match.get(
+                    market,
+                    {}
+                ).get(
+                    key
+                )
+
+                if value is not None:
+
+                    values[
+                        bookmaker
+                    ] = float(
+                        str(value).replace(
+                            ",",
+                            "."
+                        )
+                    )
+
+            except Exception:
+
+                continue
+
+        if not values:
+
+            continue
+
+        best_bookmaker = max(
+            values,
+            key=values.get
+        )
+
+        rows.append({
+
+            "marche": key,
+
+            "valeurs": values,
+
+            "meilleur_site":
+                best_bookmaker,
+
+            "meilleure_cote":
+                values[
+                    best_bookmaker
+                ],
+        })
+
+    return rows
+
+
+# ============================================================
+# GENERATION
+# ============================================================
+
+def build():
+
+    data = {}
+
+    for bookmaker in BOOKMAKERS:
+
+        data[
+            bookmaker
+        ] = load_bookmaker(
+            bookmaker
+        )
+
+    groups = group_matches(
+        data
+    )
+
+    output = []
+
+    for group in groups:
+
+        first = next(
+            iter(group.values())
+        )
+
+        markets = []
+
+        markets.extend(
+            compare_market(
+                group,
+                "1X2",
+                [
+                    "V1",
+                    "X",
+                    "V2"
+                ]
+            )
+        )
+
+        markets.extend(
+            compare_market(
+                group,
+                "Total_2.5",
+                [
+                    "Plus de",
+                    "Moins de"
+                ]
+            )
+        )
+
+        if not markets:
+
+            continue
+
+        output.append({
+
+            "equipe_1":
+                first.get(
+                    "equipe_1",
+                    "?"
+                ),
+
+            "equipe_2":
+                first.get(
+                    "equipe_2",
+                    "?"
+                ),
+
+            "bookmakers":
+                list(group.keys()),
+
+            "marches":
+                markets,
+        })
+
+    Path(
+        "comparison.json"
+    ).write_text(
+        json.dumps(
+            output,
+            ensure_ascii=False,
+            separators=(
+                ",",
+                ":"
+            )
+        ),
+        encoding="utf-8"
+    )
+
+    print(
+        f"{len(output)} matchs comparés"
+    )
+
 
 if __name__ == "__main__":
-    process_all_odds()
 
+    build()
