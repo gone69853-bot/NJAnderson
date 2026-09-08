@@ -1,75 +1,70 @@
-name: Scraper Zicote
+name: Zicote - Update Odds
 
 on:
   schedule:
-    - cron: '0 * * * *'   # toutes les heures — ajustable
-  workflow_dispatch:        # permet de le lancer manuellement depuis l'onglet Actions
+    # Toutes les 4 heures
+    - cron: "17 */4 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  scrape-et-publier:
+  update:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
 
     steps:
-      - name: Récupérer le code du dépôt
+      - name: Télécharger le dépôt
         uses: actions/checkout@v4
 
       - name: Installer Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
 
-      - name: Installer Playwright et ses dépendances
+      - name: Installer les dépendances
         run: |
-          pip install playwright
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Installer Chromium
+        run: |
           playwright install --with-deps chromium
 
-      - name: Installer Xvfb (écran virtuel)
-        run: sudo apt-get update && sudo apt-get install -y xvfb
-
-      - name: DIAGNOSTIC - Voir ce que GitHub voit sur BetWinner
-        run: xvfb-run --auto-servernum python diagnostic_github.py
-
-      - name: DIAGNOSTIC - Sauvegarder les preuves
-        uses: actions/upload-artifact@v4
-        with:
-          name: diagnostic-github
-          path: |
-            diagnostic_github.png
-            diagnostic_github.txt
-
-      - name: Lancer le scraper des 6 bookmakers
+      - name: Récupérer les matchs et les cotes
         env:
-          PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
-          PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }}
+          PROXY_SERVER: "http://p.webshare.io:80"
+          PROXY_USERNAME: "hmbmocqu-JP-rotate"
           PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
-        run: xvfb-run --auto-servernum python scraper_generique_final-13.py
 
-      - name: DIAGNOSTIC - Sauvegarder les échecs de découverte (si présents)
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: diagnostic-decouverte
-          path: |
-            diagnostic_*.png
-            diagnostic_*.txt
-          if-no-files-found: ignore
+          MAX_MATCHES_PER_SITE: "20"
 
-      - name: Lancer le scraper 1win
-        run: xvfb-run --auto-servernum python test_1win_v2.py
-
-      - name: Générer le tableau comparatif
-        run: python comparateur_v2.py
-
-      - name: Préparer le dossier de publication
         run: |
-          mkdir -p docs
-          cp tableau.html docs/index.html
+          python scraper.py
 
-      - name: Publier les résultats sur le dépôt
+      - name: Construire le comparateur
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add betwinner.json melbet.json megapari.json winwin.json 1xbet.json paripesa.json 1win.json docs/index.html
-          git diff --quiet && git diff --staged --quiet || git commit -m "Mise à jour automatique des cotes"
-          git push
+          python comparateur.py
+
+      - name: Enregistrer les nouvelles données
+        run: |
+          git config user.name "zicote-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add \
+            betwinner.json \
+            melbet.json \
+            megapari.json \
+            1win.json \
+            winwin.json \
+            1xbet.json \
+            paripesa.json \
+            comparison.json
+
+          if git diff --cached --quiet; then
+            echo "Aucune modification."
+          else
+            git commit -m "Update odds"
+            git push
+          fi 
