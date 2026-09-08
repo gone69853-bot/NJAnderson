@@ -8,7 +8,7 @@ import os
 # ============================================================
 # MOTIFS DE DÉTECTION DES LIENS DE MATCH
 # ============================================================
-# Format "classique" (BetWinner, MelBet, GoldPari, WinWin, 1xBet, LineBet) :
+# Format "classique" (BetWinner, MelBet, MegaPari, WinWin, 1xBet, Paripesa) :
 #   /line/football/ID-championnat/ID-equipe1-equipe2
 MOTIF_MATCH_DEFAUT = re.compile(r"/line/football/\d+-[^/]+/\d+-[^/?]+")
 
@@ -32,9 +32,9 @@ SITES = {
         "motif": MOTIF_MATCH_DEFAUT,
         "max_tentatives": 90,
     },
-    "goldpari": {
-        "listing_url": "https://goldpari-49096.com/fr/line?platform_type=mobile",
-        "base_url": "https://goldpari-49096.com",
+    "megapari": {
+        "listing_url": "https://5572183mp.pro/en/line",
+        "base_url": "https://5572183mp.pro",
         "motif": MOTIF_MATCH_DEFAUT,
         "max_tentatives": 90,
     },
@@ -56,15 +56,9 @@ SITES = {
         "motif": MOTIF_MATCH_DEFAUT,
         "max_tentatives": 90,
     },
-    "linebet": {
-        "listing_url": "https://linebet.com/fr/line?platform_type=mobile",
-        "base_url": "https://linebet.com",
-        "motif": MOTIF_MATCH_DEFAUT,
-        "max_tentatives": 90,
-    },
-    "888starz": {
-        "listing_url": "https://888starz.bet/fr/line/football?platform_type=mobile",
-        "base_url": "https://888starz.bet",
+    "paripesa": {
+        "listing_url": "https://paripesa.cm/fr/line",
+        "base_url": "https://paripesa.cm",
         "motif": MOTIF_MATCH_DEFAUT,
         "max_tentatives": 90,
     },
@@ -130,7 +124,7 @@ def decouvrir_matchs(page, site_conf, max_matchs, nom_site):
 
     def deplier_accordeons():
         """Clique sur les flèches de championnats repliés pour révéler leurs
-        matchs (BetWinner/888starz regroupent les matchs par championnat
+        matchs (BetWinner/MegaPari regroupent les matchs par championnat
         dans des accordéons fermés par défaut)."""
         try:
             nb_clics = page.evaluate("""
@@ -346,7 +340,7 @@ def main():
     # ============================================================
     # Pour tester un seul bookmaker, décommente la ligne SITE_UNIQUE
     # et mets son nom. Pour tous les tester (par défaut), laisse None.
-    # Noms possibles : betwinner, melbet, goldpari, 1win, winwin, 1xbet, linebet
+    # Noms possibles : betwinner, melbet, megapari, 1win, winwin, 1xbet, paripesa
     # ============================================================
     SITE_UNIQUE = None
 
@@ -385,4 +379,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
