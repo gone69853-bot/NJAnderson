@@ -1,381 +1,194 @@
-from playwright.sync_api import sync_playwright
-import json
-import datetime
-import re
-import sys
 import os
+import json
+import time
+import requests
 
-# ============================================================
-# MOTIFS DE DÉTECTION DES LIENS DE MATCH
-# ============================================================
-# Format "classique" (BetWinner, MelBet, MegaPari, WinWin, 1xBet, Paripesa) :
-#   /line/football/ID-championnat/ID-equipe1-equipe2
-MOTIF_MATCH_DEFAUT = re.compile(r"/line/football/\d+-[^/]+/\d+-[^/?]+")
+# ==============================================================================
+# CONFIGURATION PROXY WEBSHARE (ROTATION JP)
+# ==============================================================================
+PROXY_HOST = "p.webshare.io"
+PROXY_PORT = "80"
+PROXY_USER = "hmbmocqu-JP-rotate"
+PROXY_PASS = "3wba4sf52b64"
 
-# Format 1win :
-#   /betting/match/sport/equipe1-vs-equipe2-ID
-MOTIF_MATCH_1WIN = re.compile(r"/betting/match/sport/[^/?]+-\d+")
+PROXY_URL = f"http://{PROXY_USER}:{PROXY_PASS}@{PROXY_HOST}:{PROXY_PORT}"
 
-# ============================================================
-# CONFIGURATION DES BOOKMAKERS
-# ============================================================
-SITES = {
-    "betwinner": {
-        "listing_url": "https://betwinner.cm/fr/line/football?platform_type=mobile",
-        "base_url": "https://betwinner.cm",
-        "motif": MOTIF_MATCH_DEFAUT,
-        "max_tentatives": 90,   # 3 minutes
-    },
-    "melbet": {
-        "listing_url": "https://melbet-cm.com/en/line?platform_type=mobile",
-        "base_url": "https://melbet-cm.com",
-        "motif": MOTIF_MATCH_DEFAUT,
-        "max_tentatives": 90,
-    },
-    "megapari": {
-        "listing_url": "https://5572183mp.pro/en/line",
-        "base_url": "https://5572183mp.pro",
-        "motif": MOTIF_MATCH_DEFAUT,
-        "max_tentatives": 90,
-    },
-    "1win": {
-        "listing_url": "https://1win.com/betting/prematch?platform_type=mobile",
-        "base_url": "https://1win.com",
-        "motif": MOTIF_MATCH_1WIN,
-        "max_tentatives": 600,  # ~20 minutes — 1win peut être très lent à charger
-    },
-    "winwin": {
-        "listing_url": "https://winwin-97317.pro/en/line?platform_type=mobile",
-        "base_url": "https://winwin-97317.pro",
-        "motif": MOTIF_MATCH_DEFAUT,
-        "max_tentatives": 90,
-    },
-    "1xbet": {
-        "listing_url": "https://1xbet.cm/fr/line?platform_type=mobile",
-        "base_url": "https://1xbet.cm",
-        "motif": MOTIF_MATCH_DEFAUT,
-        "max_tentatives": 90,
-    },
-    "paripesa": {
-        "listing_url": "https://paripesa.cm/fr/line",
-        "base_url": "https://paripesa.cm",
-        "motif": MOTIF_MATCH_DEFAUT,
-        "max_tentatives": 90,
-    },
+PROXIES = {
+    "http": PROXY_URL,
+    "https": PROXY_URL
 }
 
-MAX_MATCHS_PAR_SITE = 50     # valeur intermédiaire pour tester le temps réel avant d'aller plus haut
-NB_ESSAIS_PAR_MATCH = 2
-
-
-def get_proxy_config():
-    """Lit la config proxy depuis les variables d'environnement (GitHub Secrets).
-    Retourne None si aucune variable n'est définie -> le navigateur se lance
-    alors sans proxy (utile pour continuer à tester en local sur le PC
-    d'Anderson, où le blocage géo ne s'applique pas)."""
-    server = os.environ.get("PROXY_SERVER")
-    if not server:
-        return None
-
-    return {
-        "server": server,
-        "username": os.environ.get("PROXY_USERNAME"),
-        "password": os.environ.get("PROXY_PASSWORD"),
+# ==============================================================================
+# CONFIGURATION DES 7 BOOKMAKERS
+# ==============================================================================
+BOOKMAKERS_CONFIG = {
+    "1xbet": {
+        "url": "https://1xbet.com/LineFeed/GetGamesZip",
+        "type": "betb2b"
+    },
+    "betwinner": {
+        "url": "https://betwinner.com/LineFeed/GetGamesZip",
+        "type": "betb2b"
+    },
+    "melbet": {
+        "url": "https://melbet.com/LineFeed/GetGamesZip",
+        "type": "betb2b"
+    },
+    "winwin": {
+        "url": "https://winwin.bet/LineFeed/GetGamesZip",
+        "type": "betb2b"
+    },
+    "megapari": {
+        "url": "https://5572183mp.pro/LineFeed/GetGamesZip",
+        "type": "betb2b"
+    },
+    "paripesa": {
+        "url": "https://paripesa.cm/LineFeed/GetGamesZip",
+        "type": "betb2b"
+    },
+    "1win": {
+        "url": "https://1win.pro/api/v2/matches",
+        "type": "1win_custom"
     }
+}
 
+# ==============================================================================
+# INITIALISATION DE LA SESSION (OPTIMISATION BANDE PASSANTE)
+# ==============================================================================
+session = requests.Session()
+session.proxies.update(PROXIES)
 
-def extraire_equipes(href, nom_site):
-    """Best-effort : extrait les noms d'équipes depuis le slug de l'URL."""
-    try:
-        if nom_site == "1win":
-            # .../equipe1-vs-equipe2-ID
-            m = re.search(r"/([^/]+)-vs-([^/]+)-\d+$", href)
-            if m:
-                e1 = m.group(1).replace("-", " ").title()
-                e2 = m.group(2).replace("-", " ").title()
-                return e1, e2
-        else:
-            # .../ID-equipe1-equipe2  (tiret double possible dans un nom d'équipe)
-            m = re.search(r"/\d+-([^/?]+)$", href)
-            if m:
-                slug = m.group(1)
-                parties = slug.split("-")
-                if len(parties) >= 2:
-                    milieu = len(parties) // 2
-                    e1 = " ".join(parties[:milieu]).title()
-                    e2 = " ".join(parties[milieu:]).title()
-                    return e1, e2
-    except Exception:
-        pass
-    return None, None
+# Compression GZIP/Deflate/BR stricte pour économiser ~80% de bande passante
+session.headers.update({
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive"
+})
 
-
-def decouvrir_matchs(page, site_conf, max_matchs, nom_site):
-    """Va sur la page de listing et extrait les liens vers des pages de match.
-    Scrolle progressivement (molette + touche Fin + JS scrollTo, combinés
-    car les sites réagissent différemment) pour déclencher le chargement
-    des matchs suivants (liste à défilement infini)."""
-    page.goto(site_conf["listing_url"], timeout=180000, wait_until="domcontentloaded")
-    page.wait_for_timeout(15000)  # laisser le premier lot de matchs se charger
-
-    def compter_liens_match():
-        hrefs_actuels = page.eval_on_selector_all("a", "els => els.map(e => e.getAttribute('href'))")
-        return hrefs_actuels, sum(1 for h in hrefs_actuels if h and site_conf["motif"].search(h))
-
-    def deplier_accordeons():
-        """Clique sur les flèches de championnats repliés pour révéler leurs
-        matchs (BetWinner/MegaPari regroupent les matchs par championnat
-        dans des accordéons fermés par défaut)."""
-        try:
-            nb_clics = page.evaluate("""
-                () => {
-                    const fleches = document.querySelectorAll('.ui-accordion-trigger__arrow:not([data-deja-clique])');
-                    let compte = 0;
-                    fleches.forEach(f => {
-                        f.setAttribute('data-deja-clique', '1');
-                        f.closest('[class*="accordion-trigger"]')?.click();
-                        compte++;
-                    });
-                    return compte;
-                }
-            """)
-            return nb_clics
-        except Exception:
-            return 0
-
-    def scroller():
-        # Combine plusieurs techniques, car les sites ne réagissent pas tous
-        # au même déclencheur de scroll.
-        try:
-            page.mouse.wheel(0, 4000)
-        except Exception:
-            pass
-        try:
-            page.keyboard.press("End")
-        except Exception:
-            pass
-        try:
-            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        except Exception:
-            pass
-        try:
-            # Si un conteneur interne scrollable existe (courant dans les
-            # apps type liste virtualisée), on le scrolle aussi directement.
-            page.evaluate("""
-                () => {
-                    document.querySelectorAll('div').forEach(el => {
-                        if (el.scrollHeight > el.clientHeight + 50) {
-                            el.scrollTop = el.scrollHeight;
-                        }
-                    });
-                }
-            """)
-        except Exception:
-            pass
-
-    # Premier passage : déplier tous les championnats visibles avant de scroller
-    deplier_accordeons()
-    page.wait_for_timeout(2000)
-
-    hrefs, nb_trouves = compter_liens_match()
-    tentatives_scroll = 0
-    max_tentatives_scroll = 40  # plus de patience pour laisser le temps au chargement
-
-    while nb_trouves < max_matchs and tentatives_scroll < max_tentatives_scroll:
-        scroller()
-        deplier_accordeons()  # de nouveaux championnats peuvent apparaître au scroll
-        page.wait_for_timeout(2500)
-        hrefs, nouveau_nb = compter_liens_match()
-        if nouveau_nb <= nb_trouves:
-            tentatives_scroll += 1
-        else:
-            tentatives_scroll = 0
-        nb_trouves = nouveau_nb
-
-    matchs = []
-    vus = set()
-
-    for href in hrefs:
-        if not href:
-            continue
-        if site_conf["motif"].search(href):
-            url_complete = href if href.startswith("http") else site_conf["base_url"] + href
-            if url_complete not in vus:
-                vus.add(url_complete)
-                dernier_segment = href.rstrip("/").split("/")[-1]
-                m = re.match(r"(\d+)-", dernier_segment)
-                match_id = m.group(1) if m else dernier_segment
-                e1, e2 = extraire_equipes(href, nom_site)
-                matchs.append({"match_id": match_id, "url": url_complete, "equipe_1": e1, "equipe_2": e2})
-        if len(matchs) >= max_matchs:
-            break
-
-    return matchs
-
-
-def parser_cotes(texte):
-    lignes = [l.strip() for l in texte.split("\n") if l.strip()]
-    resultat = {}
-
-    def trouver_bloc(nom_marche, nb_paires):
-        try:
-            i = lignes.index(nom_marche)
-        except ValueError:
-            return None
-        bloc = {}
-        pos = i + 1
-        for _ in range(nb_paires):
-            if pos + 1 < len(lignes):
-                bloc[lignes[pos]] = lignes[pos + 1]
-                pos += 2
-        return bloc
-
-    resultat["1X2"] = trouver_bloc("1X2", 3)
+def fetch_raw_data(name, config):
+    """
+    Exécute la requête HTTP de manière optimisée.
+    """
+    url = config["url"]
+    
+    # Paramètres de filtrage légers (Football uniquement, 20 matchs max)
+    params = {
+        "sport": 1,      # 1 = Football (évite de charger le tennis, basket, etc.)
+        "count": 20,     # Limite le nombre d'événements par cycle
+        "lng": "fr"
+    } if config["type"] == "betb2b" else {"limit": 20, "sportId": 1}
 
     try:
-        i_total = lignes.index("Total")
-        for j in range(i_total, min(i_total + 60, len(lignes) - 3)):
-            if lignes[j] == "2.5 Plus de":
-                resultat["Total_2.5"] = {
-                    "Plus de": lignes[j + 1],
-                    "Moins de": lignes[j + 3] if lignes[j + 2] == "2.5 Moins de" else None,
-                }
-                break
-    except ValueError:
-        pass
+        response = session.get(url, params=params, timeout=8)
+        if response.status_code == 200:
+            return response.json()
+    except Exception as e:
+        print(f"[ERR] Échec du scraping pour {name}: {e}")
+    return None
 
-    return resultat
-
-
-def scraper_un_match(page, match, max_tentatives):
-    for essai in range(1, NB_ESSAIS_PAR_MATCH + 1):
+# ==============================================================================
+# PARSERS ULTRA-LÉGERS (STRIPPING DES DONNÉES)
+# ==============================================================================
+def parse_betb2b(data):
+    """
+    Parser universel pour 1xBet, Betwinner, Melbet, Winwin, MegaPari et PariPesa.
+    Ne conserve que : Equipes, Cote 1, Cote X, Cote 2.
+    """
+    clean_matches = []
+    games = data.get("Value", []) if isinstance(data, dict) else []
+    
+    for game in games:
         try:
-            print(f"    Essai {essai}/{NB_ESSAIS_PAR_MATCH} — {match['url']}")
-            page.goto(match["url"], timeout=120000, wait_until="domcontentloaded")
-
-            texte = ""
-            trouve = False
-            for _ in range(max_tentatives):
-                texte = page.inner_text("body")
-                if "1X2" in texte and ("V1" in texte or "1" in texte):
-                    trouve = True
-                    break
-                page.wait_for_timeout(2000)
-
-            if not trouve:
-                print(f"    Échec essai {essai} : cotes non détectées")
-                continue
-
-            data = parser_cotes(texte)
-            if not data.get("1X2") or len(data["1X2"]) < 3:
-                print(f"    Échec essai {essai} : bloc 1X2 incomplet")
-                continue
-
-            data["match_id"] = match["match_id"]
-            data["url"] = match["url"]
-            data["equipe_1"] = match.get("equipe_1")
-            data["equipe_2"] = match.get("equipe_2")
-            data["derniere_maj"] = datetime.datetime.now().isoformat(timespec="seconds")
-            data["statut"] = "ok"
-            return data
-
-        except Exception as e:
-            print(f"    Erreur essai {essai} : {e}")
+            home = game.get("O1", "Inconnu")
+            away = game.get("O2", "Inconnu")
+            game_id = game.get("I")
+            
+            # Extraction des cotes 1x2 (Group 1 / SubGroup 1, 2, 3)
+            odds = {"1": None, "X": None, "2": None}
+            events = game.get("E", [])
+            for ev in events:
+                t = ev.get("T")
+                if t == 1:
+                    odds["1"] = ev.get("C")
+                elif t == 2:
+                    odds["X"] = ev.get("C")
+                elif t == 3:
+                    odds["2"] = ev.get("C")
+            
+            clean_matches.append({
+                "id": game_id,
+                "match": f"{home} vs {away}",
+                "odds": odds
+            })
+        except Exception:
             continue
+            
+    return clean_matches
 
-    return {
-        "match_id": match["match_id"],
-        "url": match["url"],
-        "equipe_1": match.get("equipe_1"),
-        "equipe_2": match.get("equipe_2"),
-        "derniere_maj": datetime.datetime.now().isoformat(timespec="seconds"),
-        "statut": "echec",
-    }
-
-
-def scraper_site(page, nom_site, site_conf):
-    print(f"\n=== {nom_site.upper()} ===")
-    print("  Découverte des matchs...")
-
-    matchs = []
-    for essai in range(1, 3):  # 2 essais pour la découverte
+def parse_1win(data):
+    """
+    Parser spécifique pour 1Win.
+    """
+    clean_matches = []
+    matches = data.get("data", []) if isinstance(data, dict) else []
+    
+    for m in matches:
         try:
-            matchs = decouvrir_matchs(page, site_conf, MAX_MATCHS_PAR_SITE, nom_site)
-            break
-        except Exception as e:
-            print(f"  Erreur découverte (essai {essai}/2) : {e}")
-            page.wait_for_timeout(3000)
+            home = m.get("homeTeam", {}).get("name", "Inconnu")
+            away = m.get("awayTeam", {}).get("name", "Inconnu")
+            game_id = m.get("id")
+            
+            odds_data = m.get("odds", {})
+            odds = {
+                "1": odds_data.get("home"),
+                "X": odds_data.get("draw"),
+                "2": odds_data.get("away")
+            }
+            
+            clean_matches.append({
+                "id": game_id,
+                "match": f"{home} vs {away}",
+                "odds": odds
+            })
+        except Exception:
+            continue
+            
+    return clean_matches
 
-    if not matchs:
-        print(f"  Aucun match trouvé pour {nom_site} (découverte impossible).")
-        try:
-            page.screenshot(path=f"diagnostic_{nom_site}.png", full_page=True)
-            with open(f"diagnostic_{nom_site}.txt", "w", encoding="utf-8") as f:
-                f.write(page.inner_text("body"))
-            print(f"  Diagnostic sauvegardé : diagnostic_{nom_site}.png / .txt")
-        except Exception as e:
-            print(f"  Impossible de sauvegarder le diagnostic : {e}")
-        resultats = []
-        with open(f"{nom_site}.json", "w", encoding="utf-8") as f:
-            json.dump(resultats, f, ensure_ascii=False, indent=2)
-        return resultats
+# ==============================================================================
+# ORCHESTRATEUR PRINCIPAL
+# ==============================================================================
+def run_scraper():
+    print(f"[{time.strftime('%H:%M:%S')}] Lancement du scraping des 7 bookmakers...")
+    results = {}
+    
+    for bk_name, bk_config in BOOKMAKERS_CONFIG.items():
+        raw_json = fetch_raw_data(bk_name, bk_config)
+        
+        if raw_json:
+            if bk_config["type"] == "betb2b":
+                parsed = parse_betb2b(raw_json)
+            else:
+                parsed = parse_1win(raw_json)
+                
+            results[bk_name] = parsed
+            print(f" -> {bk_name.upper()} : {len(parsed)} matchs récupérés.")
+        else:
+            results[bk_name] = []
+            print(f" -> {bk_name.upper()} : Aucune donnée.")
 
-    print(f"  {len(matchs)} match(s) trouvé(s).")
-
-    resultats = []
-    for match in matchs:
-        resultats.append(scraper_un_match(page, match, site_conf["max_tentatives"]))
-
-    nb_ok = sum(1 for r in resultats if r["statut"] == "ok")
-    nb_echec = sum(1 for r in resultats if r["statut"] == "echec")
-    print(f"  Bilan {nom_site} : {nb_ok} ok / {nb_echec} échecs (sur {len(resultats)})")
-
-    with open(f"{nom_site}.json", "w", encoding="utf-8") as f:
-        json.dump(resultats, f, ensure_ascii=False, indent=2)
-
-    return resultats
-
-
-def main():
-    # ============================================================
-    # Pour tester un seul bookmaker, décommente la ligne SITE_UNIQUE
-    # et mets son nom. Pour tous les tester (par défaut), laisse None.
-    # Noms possibles : betwinner, melbet, megapari, 1win, winwin, 1xbet, paripesa
-    # ============================================================
-    SITE_UNIQUE = None
-
-    # 1win est exclu ici : sa structure est différente (pas de texte "1X2"/"V1"),
-    # il est scrapé séparément par test_1win_v2.py.
-    sites_a_tester = [SITE_UNIQUE] if SITE_UNIQUE else [s for s in SITES.keys() if s != "1win"]
-
-    resultats_globaux = {}
-
-    proxy_config = get_proxy_config()
-    if proxy_config:
-        print(f"Proxy activé : {proxy_config['server']} (user: {proxy_config['username']})")
-    else:
-        print("Aucun proxy configuré (variables PROXY_* absentes) — connexion directe.")
-
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, proxy=proxy_config)
-        page = browser.new_page()
-
-        for nom_site in sites_a_tester:
-            try:
-                resultats_globaux[nom_site] = scraper_site(page, nom_site, SITES[nom_site])
-            except Exception as e:
-                print(f"\n!! Erreur imprévue sur {nom_site}, on passe au suivant : {e}")
-                resultats_globaux[nom_site] = []
-
-        browser.close()
-
-    print("\n=== BILAN GLOBAL ===")
-    for nom_site, resultats in resultats_globaux.items():
-        nb_ok = sum(1 for r in resultats if r["statut"] == "ok")
-        print(f"  {nom_site} : {nb_ok}/{len(resultats)}")
-
-    print("\nTerminé.")
-
+    # Création du dossier docs si inexistant
+    os.makedirs("docs", exist_ok=True)
+    
+    # Export JSON ultra-minifié (Zero spaces / Zero indents)
+    output_path = "docs/odds_data.json"
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(results, f, separators=(',', ':'))
+        
+    poids_ko = os.path.getsize(output_path) / 1024
+    print(f"[{time.strftime('%H:%M:%S')}] Terminé. Fichier JSON généré: {poids_ko:.2f} Ko")
 
 if __name__ == "__main__":
-    main()
+    run_scraper()
+
