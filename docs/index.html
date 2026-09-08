@@ -1,54 +1,366 @@
 <!DOCTYPE html>
+
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comparateur de Cotes (7 Bookmakers)</title>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+>
+
+<title>Zicote</title>
+
 </head>
+
 <body>
 
-    <h2>Comparateur de Cotes</h2>
-    <button onclick="loadOdds()">Actualiser</button>
-    <br><br>
+<h1>Zicote</h1>
 
-    <table border="1" cellpadding="5" cellspacing="0" id="oddsTable">
-        <thead>
-            <tr>
-                <th>Match</th>
-                <th>1xBet</th>
-                <th>Betwinner</th>
-                <th>Melbet</th>
-                <th>Winwin</th>
-                <th>1Win</th>
-                <th>MegaPari</th>
-                <th>PariPesa</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Injecté par JavaScript -->
-        </tbody>
-    </table>
+<p>
+Comparateur de cotes
+</p>
 
-    <script>
-        async function loadOdds() {
-            try {
-                const response = await fetch('odds_data.json');
-                const data = await response.json();
-                
-                const tbody = document.querySelector("#oddsTable tbody");
-                tbody.innerHTML = "";
+<input
+    id="search"
+    type="search"
+    placeholder="Rechercher un match..."
+>
 
-                // Parsing simple des matchs
-                // Adapter la logique selon les clés JSON réelles de chaque bookmaker
-                if (data) {
-                    console.log("Données chargées pour 7 bookmakers :", Object.keys(data));
-                }
-            } catch (err) {
-                console.error("Erreur :", err);
+<div id="app">
+Chargement...
+</div>
+
+<script>
+
+const BOOKMAKERS = [
+    "betwinner",
+    "melbet",
+    "megapari",
+    "1win",
+    "winwin",
+    "1xbet",
+    "paripesa"
+];
+
+
+const NAMES = {
+
+    betwinner: "BetWinner",
+
+    melbet: "MelBet",
+
+    megapari: "MegaPari",
+
+    "1win": "1win",
+
+    winwin: "WinWin",
+
+    "1xbet": "1xBet",
+
+    paripesa: "Paripesa"
+};
+
+
+const LABELS = {
+
+    V1: "Victoire 1",
+
+    X: "Nul",
+
+    V2: "Victoire 2",
+
+    "Plus de":
+        "Plus de 2,5",
+
+    "Moins de":
+        "Moins de 2,5"
+};
+
+
+let matches = [];
+
+
+function escapeHTML(value) {
+
+    return String(
+        value ?? ""
+    ).replace(
+        /[&<>"']/g,
+        char => {
+
+            return {
+
+                "&": "&amp;",
+
+                "<": "&lt;",
+
+                ">": "&gt;",
+
+                '"': "&quot;",
+
+                "'": "&#039;"
+
+            }[char];
+
+        }
+    );
+}
+
+
+function render(list) {
+
+    const app =
+        document.getElementById(
+            "app"
+        );
+
+
+    if (!list.length) {
+
+        app.innerHTML =
+            "<p>Aucun match trouvé.</p>";
+
+        return;
+    }
+
+
+    app.innerHTML =
+        list.map(match => {
+
+            const rows =
+                match.marches.map(
+                    market => {
+
+                        const cells =
+                            BOOKMAKERS.map(
+                                bookmaker => {
+
+                                    const value =
+                                        market.valeurs[
+                                            bookmaker
+                                        ];
+
+                                    if (
+                                        value === undefined
+                                    ) {
+
+                                        return `
+                                            <td>-</td>
+                                        `;
+                                    }
+
+                                    return `
+                                        <td>
+                                            ${value}
+                                        </td>
+                                    `;
+                                }
+                            ).join("");
+
+
+                        return `
+                            <tr>
+
+                                <td>
+                                    ${
+                                        escapeHTML(
+                                            LABELS[
+                                                market.marche
+                                            ] ||
+                                            market.marche
+                                        )
+                                    }
+                                </td>
+
+                                ${cells}
+
+                                <td>
+                                    <strong>
+                                        ${
+                                            escapeHTML(
+                                                NAMES[
+                                                    market.meilleur_site
+                                                ]
+                                            )
+                                        }
+                                    </strong>
+
+                                    <br>
+
+                                    ${
+                                        market.meilleure_cote
+                                    }
+
+                                </td>
+
+                            </tr>
+                        `;
+                    }
+                ).join("");
+
+
+            const headers =
+                BOOKMAKERS.map(
+                    bookmaker =>
+                        `<th>${NAMES[bookmaker]}</th>`
+                ).join("");
+
+
+            return `
+
+                <section>
+
+                    <h2>
+                        ${
+                            escapeHTML(
+                                match.equipe_1
+                            )
+                        }
+
+                        -
+
+                        ${
+                            escapeHTML(
+                                match.equipe_2
+                            )
+                        }
+                    </h2>
+
+                    <table border="1">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Marché</th>
+
+                                ${headers}
+
+                                <th>
+                                    Meilleure cote
+                                </th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            ${rows}
+
+                        </tbody>
+
+                    </table>
+
+                </section>
+
+            `;
+
+        }).join("");
+}
+
+
+function filterMatches() {
+
+    const query =
+        document
+            .getElementById(
+                "search"
+            )
+            .value
+            .toLowerCase()
+            .trim();
+
+
+    if (!query) {
+
+        render(matches);
+
+        return;
+    }
+
+
+    const filtered =
+        matches.filter(
+            match => {
+
+                const text = (
+
+                    match.equipe_1 +
+                    " " +
+                    match.equipe_2
+
+                ).toLowerCase();
+
+
+                return text.includes(
+                    query
+                );
             }
+        );
+
+
+    render(filtered);
+}
+
+
+document
+    .getElementById("search")
+    .addEventListener(
+        "input",
+        filterMatches
+    );
+
+
+fetch(
+    "comparison.json",
+    {
+        cache: "no-store"
+    }
+)
+
+.then(
+    response => {
+
+        if (!response.ok) {
+
+            throw new Error(
+                "comparison.json introuvable"
+            );
         }
 
-        loadOdds();
-    </script>
+        return response.json();
+    }
+)
+
+.then(
+    data => {
+
+        matches = data;
+
+        render(matches);
+    }
+)
+
+.catch(
+    error => {
+
+        console.error(error);
+
+        document
+            .getElementById(
+                "app"
+            )
+            .textContent =
+            "Données temporairement indisponibles.";
+    }
+);
+
+</script>
+
 </body>
+
 </html>
