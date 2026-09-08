@@ -70,6 +70,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add betwinner.json melbet.json goldpari.json winwin.json 1xbet.json linebet.json 888starz.json 1win.json docs/index.html
+          git add betwinner.json melbet.json megapari.json winwin.json 1xbet.json paripesa.json 1win.json docs/index.html
           git diff --quiet && git diff --staged --quiet || git commit -m "Mise à jour automatique des cotes"
           git push
