@@ -379,7 +379,10 @@ def scrape_bookmaker(
             1500
         )
 
-        # Récupération uniquement des liens
+        # Récupération de tous les liens de la page.
+        # On ne coupe PAS à 20 ici : les vrais liens de
+        # matchs sont souvent loin dans le DOM (après tout
+        # le menu, les jeux, le footer...).
         links = page.eval_on_selector_all(
             "a",
             """
@@ -390,9 +393,30 @@ def scrape_bookmaker(
             """
         )
 
+        # Un lien de match a la forme :
+        # .../line/<sport>/<id-competition>-<slug>/<id-match>-<equipe1>-<equipe2>
+        # (2 segments qui commencent par un id numérique)
+        match_pattern = re.compile(
+            r"/\d+-[a-z0-9-]+/\d+-[a-z0-9-]+/?$"
+        )
+
+        candidate_links = [
+            link for link in links
+            if match_pattern.search(link.lower())
+        ]
+
+        # Si le filtre ne trouve rien (site différent,
+        # structure inconnue...), on retombe sur l'ancien
+        # comportement pour ne pas se retrouver bredouille.
+        source_links = (
+            candidate_links
+            if candidate_links
+            else links
+        )
+
         unique_links = []
 
-        for link in links:
+        for link in source_links:
 
             if link not in unique_links:
 
