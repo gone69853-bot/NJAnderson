@@ -3,7 +3,7 @@ import re
 from difflib import SequenceMatcher
 
 # Sites qui partagent la même plateforme technique (même catalogue de match_id)
-SITES_PLATEFORME_COMMUNE = ["betwinner", "melbet", "goldpari", "winwin", "1xbet", "linebet", "888starz"]
+SITES_PLATEFORME_COMMUNE = ["betwinner", "melbet", "megapari", "winwin", "1xbet", "paripesa"]
 SITE_A_PART = "1win"  # nécessite un rapprochement par nom d'équipe
 
 TOUS_LES_SITES = SITES_PLATEFORME_COMMUNE + [SITE_A_PART]
@@ -200,4 +200,4 @@ if __name__ == "__main__":
     resultats = comparer_tout(donnees_par_site)
     creer_html(resultats)
 
-    print(f"{len(resultats)} matchs comparés au total")
+    print(f"{len(resultats)} matchs comparés au total"
