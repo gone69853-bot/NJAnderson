@@ -58,7 +58,7 @@ BOOKMAKERS = {
     },
 
     "megapari": {
-        "url": "https://5572183mp.pro/en/line",
+        "url": "https://5572183mp.pro/en",
     },
 
     "1win": {
@@ -66,7 +66,7 @@ BOOKMAKERS = {
     },
 
     "winwin": {
-        "url": "https://winwin-97317.pro/en/line",
+        "url": "https://winwin.bet/en/line/football",
     },
 
     "1xbet": {
