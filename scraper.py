@@ -3,32 +3,7 @@ import json
 import re
 
 from pathlib import Path
-from urllib.parse import urlparse, urlencode, parse_qsl, urlunparse
-
-
-# ============================================================
-# FORCER LE RENDU MOBILE (TEXTE HTML, PAS CANVAS)
-# ============================================================
-#
-# Sur les sites de la famille 1xBet (betwinner, melbet, megapari,
-# winwin, 1xbet, paripesa), les cotes sont dessinées en <canvas>
-# par défaut : invisibles pour innerText(). Le paramètre
-# platform_type=mobile force le rendu HTML texte. Il doit être
-# présent sur CHAQUE page visitée, y compris les pages de match
-# individuelles (les liens <a href> récupérés sur la page listing
-# ne le portent pas automatiquement).
-# 1win n'est pas concerné (plateforme différente).
-
-def force_mobile(url):
-
-    parsed = urlparse(url)
-
-    query = dict(parse_qsl(parsed.query))
-    query["platform_type"] = "mobile"
-
-    return urlunparse(
-        parsed._replace(query=urlencode(query))
-    )
+from urllib.parse import urlparse
 
 from playwright.sync_api import sync_playwright
 
@@ -269,6 +244,206 @@ def extract_odds(text):
 
 
 # ============================================================
+# LECTURE DES COTES DIRECTEMENT SUR LA PAGE DE LISTING
+# ============================================================
+#
+# Sur mobile, la page "/line" affiche déjà chaque match avec
+# ses cotes en clair (W1 / DRAW / W2 / HANDICAP), sans avoir
+# besoin d'ouvrir la page du match. On scanne le texte complet
+# de la page pour repérer ces blocs.
+# ============================================================
+
+JUNK_KEYWORDS = (
+    "round",
+    "phase",
+    "group",
+    "leg",
+    "final",
+    "qualif",
+    "play-off",
+    "playoff",
+    "groupe",
+    "tour",
+    "journee",
+    "journée",
+)
+
+MONTHS = (
+    "january", "february", "march", "april", "may", "june",
+    "july", "august", "september", "october", "november", "december",
+    "janvier", "février", "mars", "avril", "mai", "juin",
+    "juillet", "août", "septembre", "octobre", "novembre", "décembre",
+)
+
+
+def is_junk_line(line):
+
+    low = line.lower()
+
+    # Nombre seul (badge, compteur de marchés...)
+    if re.fullmatch(r"\d+(?:[.,]\d+)?", line):
+        return True
+
+    # Heure / date type 09/09 ou 17:45
+    if re.match(r"^\d{1,2}[:/]\d{1,2}", line):
+        return True
+
+    if any(month in low for month in MONTHS):
+        return True
+
+    if any(word in low for word in JUNK_KEYWORDS):
+        return True
+
+    if len(line) < 2:
+        return True
+
+    return False
+
+
+def find_teams_before(lines, index, lookback=8):
+
+    candidates = []
+
+    j = index - 1
+    steps = 0
+
+    while j >= 0 and steps < lookback and len(candidates) < 2:
+
+        line = lines[j]
+
+        if not is_junk_line(line):
+            candidates.append(line)
+
+        j -= 1
+        steps += 1
+
+    if len(candidates) < 2:
+        return None, None
+
+    # candidates[0] = ligne la plus proche du marqueur "W1"
+    # (donc l'équipe 2), candidates[1] = l'équipe 1
+    team2, team1 = candidates[0], candidates[1]
+
+    return team1, team2
+
+
+def extract_matches_from_listing(
+    body,
+    bookmaker,
+    source_url,
+    max_matches
+):
+
+    lines = [
+        line.strip()
+        for line in body.splitlines()
+        if line.strip()
+    ]
+
+    n = len(lines)
+
+    matches = []
+
+    i = 0
+
+    while i < n and len(matches) < max_matches:
+
+        normalized = lines[i].strip().lower()
+
+        is_v1_marker = normalized in ("1", "w1")
+
+        has_next_number = (
+            i + 1 < n
+            and re.fullmatch(
+                r"\d+(?:[.,]\d+)?",
+                lines[i + 1]
+            )
+        )
+
+        if is_v1_marker and has_next_number:
+
+            v1 = lines[i + 1].replace(",", ".")
+
+            x_val = None
+            v2_val = None
+
+            j = i + 2
+            limit = min(n, i + 14)
+
+            while j < limit - 1:
+
+                nline = lines[j].strip().lower()
+
+                if (
+                    x_val is None
+                    and nline in ("x", "draw", "nul")
+                    and re.fullmatch(
+                        r"\d+(?:[.,]\d+)?",
+                        lines[j + 1]
+                    )
+                ):
+                    x_val = lines[j + 1].replace(",", ".")
+                    j += 2
+                    continue
+
+                if (
+                    nline in ("2", "w2")
+                    and re.fullmatch(
+                        r"\d+(?:[.,]\d+)?",
+                        lines[j + 1]
+                    )
+                ):
+                    v2_val = lines[j + 1].replace(",", ".")
+                    j += 2
+                    break
+
+                j += 1
+
+            if x_val and v2_val:
+
+                team1, team2 = find_teams_before(lines, i)
+
+                if team1 and team2:
+
+                    matches.append({
+
+                        "bookmaker": bookmaker,
+
+                        "equipe_1": team1,
+
+                        "equipe_2": team2,
+
+                        "1X2": {
+                            "V1": v1,
+                            "X": x_val,
+                            "V2": v2_val,
+                        },
+
+                        "Total_2.5": {
+                            "Plus de": None,
+                            "Moins de": None,
+                        },
+
+                        "url": source_url,
+
+                        "derniere_maj":
+                            datetime.datetime.now(
+                                datetime.timezone.utc
+                            ).isoformat(),
+
+                        "statut": "ok",
+                    })
+
+            i = j
+
+        else:
+
+            i += 1
+
+    return matches
+
+
+# ============================================================
 # EXTRACTION D'UNE PAGE
 # ============================================================
 
@@ -442,6 +617,63 @@ def scrape_bookmaker(
             2500
         )
 
+        # ------------------------------------------------------
+        # ETAPE 1 : lire les cotes directement sur la page de
+        # listing (méthode principale, confirmée sur mobile :
+        # W1 / DRAW / W2 apparaissent en clair à côté de chaque
+        # match, pas besoin d'ouvrir la page du match).
+        # ------------------------------------------------------
+        listing_body = page.inner_text("body")
+
+        debug_listing_file = ROOT / f"debug_listing_{bookmaker}.txt"
+
+        if listing_body and not debug_listing_file.exists():
+
+            debug_listing_file.write_text(
+                listing_body,
+                encoding="utf-8"
+            )
+
+        if listing_body:
+
+            result = extract_matches_from_listing(
+                listing_body,
+                bookmaker,
+                url,
+                MAX_MATCHES_PER_SITE
+            )
+
+        print(
+            f"[{bookmaker}] "
+            f"{len(result)} matchs (listing)"
+        )
+
+        if result:
+
+            output = ROOT / f"{bookmaker}.json"
+
+            output.write_text(
+                json.dumps(
+                    result,
+                    ensure_ascii=False,
+                    indent=2
+                ),
+                encoding="utf-8"
+            )
+
+            print(
+                f"[{bookmaker}] "
+                f"{len(result)} matchs enregistrés"
+            )
+
+            return
+
+        # ------------------------------------------------------
+        # ETAPE 2 (fallback) : si la lecture directe n'a rien
+        # donné (structure de page différente), on retombe sur
+        # l'ancienne méthode : visiter chaque page de match.
+        # ------------------------------------------------------
+
         # Récupération de tous les liens de la page.
         # On ne coupe PAS à 20 ici : les vrais liens de
         # matchs sont souvent loin dans le DOM (après tout
@@ -496,8 +728,6 @@ def scrape_bookmaker(
         unique_links = []
 
         for link in source_links:
-
-            link = force_mobile(link)
 
             if link not in unique_links:
 
