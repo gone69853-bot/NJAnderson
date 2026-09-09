@@ -3,7 +3,32 @@ import json
 import re
 
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlencode, parse_qsl, urlunparse
+
+
+# ============================================================
+# FORCER LE RENDU MOBILE (TEXTE HTML, PAS CANVAS)
+# ============================================================
+#
+# Sur les sites de la famille 1xBet (betwinner, melbet, megapari,
+# winwin, 1xbet, paripesa), les cotes sont dessinées en <canvas>
+# par défaut : invisibles pour innerText(). Le paramètre
+# platform_type=mobile force le rendu HTML texte. Il doit être
+# présent sur CHAQUE page visitée, y compris les pages de match
+# individuelles (les liens <a href> récupérés sur la page listing
+# ne le portent pas automatiquement).
+# 1win n'est pas concerné (plateforme différente).
+
+def force_mobile(url):
+
+    parsed = urlparse(url)
+
+    query = dict(parse_qsl(parsed.query))
+    query["platform_type"] = "mobile"
+
+    return urlunparse(
+        parsed._replace(query=urlencode(query))
+    )
 
 from playwright.sync_api import sync_playwright
 
@@ -471,6 +496,8 @@ def scrape_bookmaker(
         unique_links = []
 
         for link in source_links:
+
+            link = force_mobile(link)
 
             if link not in unique_links:
 
