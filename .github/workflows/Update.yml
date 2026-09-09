@@ -52,6 +52,9 @@ jobs:
           git config user.name "zicote-bot"
           git config user.email "actions@users.noreply.github.com"
 
+          echo "--- Fichiers debug présents ---"
+          ls -la debug_*.txt 2>/dev/null || echo "Aucun fichier debug_*.txt trouvé"
+
           git add \
             betwinner.json \
             melbet.json \
@@ -61,6 +64,10 @@ jobs:
             1xbet.json \
             paripesa.json \
             comparison.json
+
+          # Ajouté séparément : si aucun debug_*.txt n'existe,
+          # ça ne doit pas faire échouer l'ajout des .json au-dessus.
+          git add debug_*.txt 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "Aucune modification."
