@@ -50,15 +50,15 @@ MAX_MATCHES_PER_SITE = int(
 BOOKMAKERS = {
 
     "betwinner": {
-        "url": "https://betwinner.cm/fr/line",
+        "url": "https://betwinner.cm/fr/line?platform_type=mobile",
     },
 
     "melbet": {
-        "url": "https://melbet-cm.com/en/line",
+        "url": "https://melbet-cm.com/en/line?platform_type=mobile",
     },
 
     "megapari": {
-        "url": "https://5572183mp.pro/en",
+        "url": "https://5572183mp.pro/en?platform_type=mobile",
     },
 
     "1win": {
@@ -66,15 +66,15 @@ BOOKMAKERS = {
     },
 
     "winwin": {
-        "url": "https://winwin.bet/en/line/football",
+        "url": "https://winwin.bet/en/line/football?platform_type=mobile",
     },
 
     "1xbet": {
-        "url": "https://1xbet.cm/fr/line",
+        "url": "https://1xbet.cm/fr/line?platform_type=mobile",
     },
 
     "paripesa": {
-        "url": "https://paripesa.cm/fr/line",
+        "url": "https://paripesa.cm/fr/line?platform_type=mobile",
     },
 }
 
