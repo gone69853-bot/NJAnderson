@@ -2,6 +2,8 @@ import datetime
 import json
 import re
 
+import requests
+
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -11,6 +13,9 @@ from config import (
     BOOKMAKERS,
     BOOKMAKERS_LIST,
     MAX_MATCHES_PER_SITE,
+    PROXY_SERVER,
+    PROXY_USERNAME,
+    PROXY_PASSWORD,
     proxy_config,
 )
 
@@ -84,6 +89,192 @@ def should_block(route):
             return True
 
     return False
+
+
+# ============================================================
+# PROXY POUR REQUESTS (format différent de celui de Playwright)
+# ============================================================
+
+def requests_proxies():
+
+    if not PROXY_PASSWORD:
+        return None
+
+    # PROXY_SERVER est du type "http://p.webshare.io:80"
+    auth_url = PROXY_SERVER.replace(
+        "http://",
+        f"http://{PROXY_USERNAME}:{PROXY_PASSWORD}@"
+    )
+
+    return {
+        "http": auth_url,
+        "https": auth_url,
+    }
+
+
+# ============================================================
+# API INTERNE (moteur type "1xBet") — méthode principale
+# ============================================================
+#
+# Betwinner, Melbet, Megapari, Paripesa, Winwin, 1xbet tournent
+# tous sur le même moteur (marque blanche façon 1xBet), qui
+# expose une API JSON non-officielle mais publique pour la
+# liste des matchs. On l'essaie en premier : plus rapide, plus
+# fiable, et ça évite de scraper du texte rendu par le JS.
+# ============================================================
+
+API_METHOD_PATHS = (
+    "/service-api/LineFeed/Get1x2_VZip",
+    "/LineFeed/Get1x2_VZip",
+)
+
+
+def fetch_api_matches(
+    bookmaker,
+    listing_url,
+    max_matches
+):
+
+    parsed = urlparse(listing_url)
+
+    domain = f"{parsed.scheme}://{parsed.netloc}"
+
+    lang = "fr" if "/fr" in parsed.path else "en"
+
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Linux; Android 10; K) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Mobile Safari/537.36"
+        ),
+        "Referer": listing_url,
+        "X-Requested-With": "XMLHttpRequest",
+    }
+
+    params = {
+        "sports": "1",
+        "count": str(max_matches),
+        "lng": lang,
+        "mode": "4",
+        "country": "71",
+        "partner": "1",
+        "getEmpty": "true",
+        "tf": "2200000",
+    }
+
+    proxies = requests_proxies()
+
+    for path in API_METHOD_PATHS:
+
+        url = domain + path
+
+        data = None
+
+        try:
+
+            response = requests.get(
+                url,
+                params=params,
+                headers=headers,
+                proxies=proxies,
+                timeout=20,
+            )
+
+            # On garde toujours une trace brute, même si le
+            # parsing échoue ensuite : ça permet d'ajuster le
+            # mapping des champs si la structure diffère.
+            debug_api_file = ROOT / f"debug_api_{bookmaker}.json"
+
+            if not debug_api_file.exists():
+
+                debug_api_file.write_text(
+                    response.text[:20000],
+                    encoding="utf-8"
+                )
+
+            data = response.json()
+
+        except Exception:
+
+            continue
+
+        values = (
+            data.get("Value")
+            if isinstance(data, dict)
+            else None
+        )
+
+        if not values:
+            continue
+
+        matches = []
+
+        for game in values:
+
+            team1 = game.get("O1")
+            team2 = game.get("O2")
+
+            if not team1 or not team2:
+                continue
+
+            odds = {
+                "V1": None,
+                "X": None,
+                "V2": None,
+            }
+
+            for bet in (game.get("E") or []):
+
+                bet_type = bet.get("T")
+                coeff = bet.get("C")
+
+                if coeff is None:
+                    continue
+
+                if bet_type == 1:
+                    odds["V1"] = str(coeff)
+
+                elif bet_type == 2:
+                    odds["X"] = str(coeff)
+
+                elif bet_type == 3:
+                    odds["V2"] = str(coeff)
+
+            if not any(odds.values()):
+                continue
+
+            matches.append({
+
+                "bookmaker": bookmaker,
+
+                "equipe_1": team1,
+
+                "equipe_2": team2,
+
+                "1X2": odds,
+
+                "Total_2.5": {
+                    "Plus de": None,
+                    "Moins de": None,
+                },
+
+                "url": listing_url,
+
+                "derniere_maj":
+                    datetime.datetime.now(
+                        datetime.timezone.utc
+                    ).isoformat(),
+
+                "statut": "ok",
+            })
+
+            if len(matches) >= max_matches:
+                break
+
+        if matches:
+            return matches
+
+    return []
 
 
 # ============================================================
@@ -825,14 +1016,67 @@ def main():
 
         for bookmaker in BOOKMAKERS_LIST:
 
+            config = BOOKMAKERS[bookmaker]
+
+            url = config["url"]
+
+            # ------------------------------------------------------
+            # ETAPE 0 : tentative via l'API interne du moteur
+            # (pas de navigateur nécessaire, rapide et fiable
+            # quand ça fonctionne).
+            # ------------------------------------------------------
+            api_matches = []
+
+            try:
+
+                api_matches = fetch_api_matches(
+                    bookmaker,
+                    url,
+                    MAX_MATCHES_PER_SITE
+                )
+
+            except Exception as error:
+
+                print(
+                    f"[{bookmaker}] "
+                    f"erreur API : {error}"
+                )
+
+            print(
+                f"[{bookmaker}] "
+                f"{len(api_matches)} matchs (API)"
+            )
+
+            if api_matches:
+
+                output = ROOT / f"{bookmaker}.json"
+
+                output.write_text(
+                    json.dumps(
+                        api_matches,
+                        ensure_ascii=False,
+                        indent=2
+                    ),
+                    encoding="utf-8"
+                )
+
+                print(
+                    f"[{bookmaker}] "
+                    f"{len(api_matches)} matchs enregistrés"
+                )
+
+                continue
+
+            # ------------------------------------------------------
+            # ETAPE 1/2 (fallback) : navigateur (listing puis
+            # pages de match individuelles).
+            # ------------------------------------------------------
             page = context.new_page()
 
             scrape_bookmaker(
                 page,
                 bookmaker,
-                BOOKMAKERS[
-                    bookmaker
-                ]
+                config
             )
 
             page.close()
