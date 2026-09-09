@@ -53,7 +53,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
 
           echo "--- Fichiers debug présents ---"
-          ls -la debug_*.txt 2>/dev/null || echo "Aucun fichier debug_*.txt trouvé"
+          ls -la debug_*.txt debug_api_*.json 2>/dev/null || echo "Aucun fichier debug trouvé"
 
           git add \
             betwinner.json \
@@ -65,13 +65,14 @@ jobs:
             paripesa.json \
             comparison.json
 
-          # Ajouté séparément : si aucun debug_*.txt n'existe,
+          # Ajouté séparément : si aucun fichier debug n'existe,
           # ça ne doit pas faire échouer l'ajout des .json au-dessus.
           git add debug_*.txt 2>/dev/null || true
+          git add debug_api_*.json 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "Aucune modification."
           else
             git commit -m "Update odds"
             git push
-          fi 
+          fi
