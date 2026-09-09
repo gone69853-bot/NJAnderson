@@ -1,0 +1,158 @@
+<!DOCTYPE html><html translate="no" data-entry="index" lang="ja-JP" dir="ltr"><head><script>window.INITIAL_DATA = {"traceId":"2e6a5a15e608ddad4d2620e0432e206f","country":"JP","subdivision":"28","ip":"142.111.67.146","regionalAccessPolicy":{"name":"open","bypassIfAuthenticated":false},"hashes":{"socials":"ce37cb03687fcbaa"},"cdn":{"url":""},"otel":true,"fetchOverride":true,"allowLogRequests":false,"cdnDomain":"v3.bundlecdn.com","trackerApiV2Partition":-1,"watcherLoopGuard":{"enabled":true},"afh":{"lastCookie":true,"routerDomain":"flowmetric.life"},"cda":{"domain":"bundlecda.com","domainCheckTimeoutMs":3000,"brokenFlowTimeoutMs":21600000,"ignoreCdaPassCheck":true},"countryToLocaleId":{"RU":1},"sduiConfig":{"path":"/web/v1/sdui","hash":"7c8da079b17ca55c"},"userActivityHeartbeat":{"debug":false,"enabled":false,"pingIntervalMs":300000},"tmsConfig":{"timeout":10000,"retryCount":4,"urlTemplate":null,"trackUnusedTimeout":5000,"unusedTrackingExcludedPackages":["user.modal.auth","common.common","common.uikit"]},"appLocaleId":86}</script>
+
+    <script>"use strict";(()=>{(function(){if(!HTMLScriptElement.supports){let t=navigator.userAgent,n=t.match(/Chrom(?:e|ium)\/(\d+)/),o=t.match(/Firefox\/(\d+)/);(n&&+n[1]>=89||o&&+o[1]>=108)&&(HTMLScriptElement.supports=function(s){return s==="importmap"})}if(window.esmsInitOptions={onpolyfill(){var t;(t=window._onelog)==null||t.info({category:"mf",type:"es-module-shims",name:"polyfilled"})},onerror(t){var n,o,i,s;(t==null?void 0:t.name)!=="AbortError"&&((s=window._onelog)==null||s.error({category:"mf",type:"es-module-shims",name:"error",message:t==null?void 0:t.message,params:[(n=t==null?void 0:t.name)!=null?n:"unknown",(i=(o=t==null?void 0:t.response)==null?void 0:o.status)!=null?i:0,navigator.onLine?1:0,document.visibilityState]}))}},HTMLScriptElement.supports&&HTMLScriptElement.supports("importmap"))return;let e=document.createElement("script");e.async=!0,e.src="/resources/v1/app/static/mf/shared/es-module-shims/2.8.0-p1/es-module-shims.js",document.head.appendChild(e)})();})();
+</script>
+    <script type="importmap">{"imports":{"vue":"/resources/v1/app/static/mf/shared/vue/3.5.35/vue-guarded.esm-browser.prod.js","vue-router":"/resources/v1/app/static/mf/shared/vue-router/5.1.0/vue-router.esm-browser.prod.js","paywidget":"/resources/v1/mf/modules/paywidget/bundle/1.84.0/index.es.js","playchat":"/resources/v1/mf/modules/playchat/bundle/6.3.9/index.es.js"}}</script>
+    <link rel="modulepreload" href="/resources/v1/app/static/mf/shared/vue/3.5.35/vue-guarded.esm-browser.prod.js">
+    <link rel="modulepreload" href="/resources/v1/app/static/mf/shared/vue/3.5.35/vue.esm-browser.prod.js">
+    <link rel="modulepreload" href="/resources/v1/app/static/mf/shared/vue-router/5.1.0/vue-router.esm-browser.prod.js">
+
+    <meta charset="UTF-8">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="google" content="notranslate">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover, shrink-to-fit=no">
+
+    <script>"use strict";(()=>{var e;window.ENTRY_NAME=(e=document.documentElement.dataset.entry)!=null?e:"(unset)";window.HTML_LOADED_TIME=performance.now();})();
+</script>
+
+    <meta name="author" content="1win">
+<meta name="application-name" content="1win">
+<meta name="apple-mobile-web-app-title" content="1win">
+<meta name="theme-color" content="#141415">
+<link rel="icon" type="image/png" href="/resources/v1/plain/favicons/android-chrome-72x72-v3.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/resources/v1/plain/favicons/android-chrome-96x96-v3.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/resources/v1/plain/favicons/android-chrome-128x128-v3.png" sizes="128x128">
+<link rel="icon" type="image/png" href="/resources/v1/plain/favicons/android-chrome-192x192-v3.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/resources/v1/plain/favicons/android-chrome-256x256-v3.png" sizes="256x256">
+<link rel="icon" type="image/png" href="/resources/v1/plain/favicons/android-chrome-512x512-v3.png" sizes="512x512">
+<link rel="icon" type="image/svg+xml" href="/resources/v1/plain/favicons/favicon-v3.svg">
+<link rel="shortcut icon" href="/resources/v1/plain/favicons/favicon-v3.ico">
+<link rel="apple-touch-icon" href="/resources/v1/plain/favicons/apple-touch-icon-v3.png" sizes="180x180">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2048-2732.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2732-2048.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1668-2388.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2388-1668.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1536-2048.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2048-1536.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1640-2360.png" media="(device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2360-1640.png" media="(device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1668-2224.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2224-1668.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1620-2160.png" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2160-1620.png" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1488-2266.png" media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2266-1488.png" media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1320-2868.png" media="(device-width: 440px) and (device-height: 956px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2868-1320.png" media="(device-width: 440px) and (device-height: 956px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1206-2622.png" media="(device-width: 402px) and (device-height: 874px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2622-1206.png" media="(device-width: 402px) and (device-height: 874px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1260-2736.png" media="(device-width: 420px) and (device-height: 912px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2736-1260.png" media="(device-width: 420px) and (device-height: 912px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1290-2796.png" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2796-1290.png" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1179-2556.png" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2556-1179.png" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1170-2532.png" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2532-1170.png" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1284-2778.png" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2778-1284.png" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1125-2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2436-1125.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1242-2688.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2688-1242.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-828-1792.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1792-828.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1242-2208.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-2208-1242.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-750-1334.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1334-750.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-640-1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/resources/v1/plain/slash-screen/apple-splash-1136-640.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+    <link rel="preload" href="/resources/v1/shared/fonts/inter/InterVariable-latin.woff2" type="font/woff2" as="font" crossOrigin="">
+<link rel="preload" href="/resources/v1/shared/fonts/inter/InterVariable-latin-ext.woff2" type="font/woff2" as="font" crossOrigin="">
+<link rel="preload" href="/resources/v1/shared/fonts/coolvetica/coolvetica-latin.woff2" type="font/woff2" as="font" crossOrigin="">
+<link rel="preload" href="/resources/v1/shared/fonts/coolvetica/coolvetica-latin-ext.woff2" type="font/woff2" as="font" crossOrigin="">
+    <link rel="stylesheet" crossorigin href="/api/web/v1/sdui/templates/css-variables?h=0d258c6691c68a7d&country=JP&subdivision=28" />
+    <link rel="manifest" href="/api/fss/web-app-manifest?h=95e2dc09dad607ce" crossorigin="use-credentials" />
+
+    <link rel="preconnect" href="https://imgproxy.v1.bundlecdn.com">
+<link rel="preconnect" href="https://v1.bundlecdn.com">
+<link rel="preconnect" href="https://optimize.v3.bundlecdn.com">
+<link rel="preconnect" href="https://v3.bundlecdn.com">
+
+<link rel="dns-prefetch" href="https://api.lab.amplitude.com">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+<link rel="dns-prefetch" href="https://analytics.google.com">
+<link rel="dns-prefetch" href="https://static.hotjar.com">
+<link rel="dns-prefetch" href="https://script.hotjar.com">
+<link rel="dns-prefetch" href="https://www.google.com">
+<link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+<link rel="dns-prefetch" href="https://td.doubleclick.net">
+
+    <script>
+  if (navigator.userAgent.includes('Chrome')) {
+    const hash = window.INITIAL_DATA.hashes.confWebAgg;
+
+    const tsAlias =
+      'true' === 'true'
+        ? (new URLSearchParams(location.search).get('ts-alias') ?? undefined)
+        : undefined;
+
+    // Кука `ts-alias` (редизайн, см. src/utils/redesign.ts): в запрос конфига её
+    // проставляет config/store.ts — здесь то же, иначе preload-URL не совпадёт с ним.
+    const cookieAlias = (() => {
+      if ('production' === 'production') return undefined;
+      return document.cookie.match(/(?:^|; )ts-alias=([^;]*)/)?.[1] || undefined;
+    })();
+
+    const templateServiceAlias = tsAlias ?? cookieAlias;
+
+    const templateServiceConfigParams = [
+      ...(templateServiceAlias
+        ? []
+        : [
+            window.INITIAL_DATA?.sduiConfig?.hash
+              ? `h=${window.INITIAL_DATA?.sduiConfig?.hash}`
+              : `id=${window.INITIAL_DATA?.traceId}`,
+          ]),
+      `country=${window.INITIAL_DATA.country}`,
+      ...(window.INITIAL_DATA.subdivision ? [`subdivision=${window.INITIAL_DATA.subdivision}`] : []),
+      ...(templateServiceAlias ? [`alias=${templateServiceAlias}`] : []),
+      ...(window.INITIAL_DATA.ab?.encoded ? [`ab=${window.INITIAL_DATA.ab.encoded}`] : []),
+    ].join('&');
+
+    const apiPaths = [
+      '/api/web/v1/user',
+      `/api/web/v1/sdui/templates/by-types?${templateServiceConfigParams}`,
+      '/api/USER-SERVICE-API/api-v3-oauth-config',
+    ];
+
+    try {
+      for (const apiPath of apiPaths) {
+        const link = document.createElement('link');
+        link.rel = 'preload';
+        link.href = apiPath;
+        link.as = 'fetch';
+        link.crossOrigin = '';
+        document.head.append(link);
+      }
+    } catch (err) {
+      console.warn('Preload script error', err);
+    }
+  }
+</script>
+
+    <script>
+  window.buildConfig = {
+    app: 'frontend',
+    branch: '0.4111.0',
+    cdn: '/resources/v1/app/',
+    time: '09/09/2026, 14:20:58',
+    env: 'production',
+  };
+</script>
+
+
+    <style>html{--z-index-main:100;--z-index-betting-trigger:101;--z-index-floating:102;--z-index-betting-modal:141;--z-index-sidebar-overlay:142;--z-index-sidebar-overlay-tabbar:143;--z-index-ptr-pwa:145;--z-index-betting-tooltip:150;--z-index-cdp-layout:102;--z-index-tabbar:130;--z-index-button-top:124;--z-index-sidebar:131;--z-index-header:140;--z-index-modal-layout:1000;--z-index-snackbar:1005;--z-index-tooltip:1010;--safe-area-inset-top:env(safe-area-inset-top);--safe-area-inset-right:env(safe-area-inset-right);--safe-area-inset-bottom:env(safe-area-inset-bottom);--safe-area-inset-left:env(safe-area-inset-left);--safe-area-inset-inline-start:env(safe-area-inset-left);--safe-area-inset-inline-end:env(safe-area-inset-right);--safe-area-inset-block-start:env(safe-area-inset-top);--safe-area-inset-block-end:env(safe-area-inset-bottom);line-height:1.5;scroll-behavior:smooth;tab-size:4;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;text-size-adjust:100%;--tabbar-layout-padding-bottom-with-safe-area:calc(max(var(--safe-area-inset-block-end), var(--tabbar-new-padding-layout-bottom)));--tabbar-layout-height-with-safe-area:calc(var(--tabbar-new-size-height) + var(--tabbar-layout-padding-bottom-with-safe-area) - var(--tabbar-new-padding-layout-bottom));--height-layout-header-mobile-with-safe-area:calc(var(--header-layout-height-mobile) + var(--safe-area-inset-block-start));--height-layout-header-desktop-with-safe-area:calc(var(--header-layout-height-desktop) + var(--safe-area-inset-block-start))}html[dir=rtl]{--safe-area-inset-inline-start:env(safe-area-inset-right);--safe-area-inset-inline-end:env(safe-area-inset-left)}button,html{font-family:var(--font-body-font-family)}body{font-family:inherit;line-height:inherit;overflow-x:hidden}body,h1,h2,h3,h4,h5,h6,p,pre{margin:0}*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:currentColor}h1,h2{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}pre{font-family:ui-monospace,"SFMono-Regular","Menlo","Monaco","Consolas","Liberation Mono","Courier New",monospace}#root{display:flex;min-height:100vh;min-height:100dvh;flex-direction:column;padding:var(--safe-area-inset-top) var(--safe-area-inset-right) var(--safe-area-inset-bottom) var(--safe-area-inset-left)}@media (display-mode:standalone){#root{min-height:100vh}}</style>
+    <script>"use strict";(()=>{function d(o){for(var i=1;i<arguments.length;i++){var s=arguments[i];for(var p in s)p!=="__proto__"&&(o[p]=s[p])}return o}var u={read:function(o){return o[0]==='"'&&(o=o.slice(1,-1)),o.replace(/(%[\dA-F]{2})+/gi,decodeURIComponent)},write:function(o){return encodeURIComponent(o).replace(/%(2[346BF]|3[AC-F]|40|5[BDE]|60|7[BCD])/g,decodeURIComponent)}};function f(o,i){function s(n,c,e){if(typeof document!="undefined"){e=d({},i,e),typeof e.expi
