@@ -1,1 +1,200 @@
-[]
+[
+  {
+    "equipe_1": "Club Brugge",
+    "equipe_2": "Aston Villa",
+    "1X2": {
+      "V1": "2.52",
+      "X": "3.62",
+      "V2": "2.73"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "AEK Athens",
+    "equipe_2": "LASK Linz",
+    "1X2": {
+      "V1": "1.75",
+      "X": "4.07",
+      "V2": "4.41"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Real Madrid",
+    "equipe_2": "Inter Milan",
+    "1X2": {
+      "V1": "1.6",
+      "X": "4.47",
+      "V2": "5.2"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "FC Porto",
+    "equipe_2": "Manchester City",
+    "1X2": {
+      "V1": "4.93",
+      "X": "4.07",
+      "V2": "1.68"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Borussia Dortmund",
+    "equipe_2": "Villarreal",
+    "1X2": {
+      "V1": "1.81",
+      "X": "4.04",
+      "V2": "4.08"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Lille",
+    "equipe_2": "Real Betis",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.49",
+      "V2": "3.33"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Barcelona FC",
+    "equipe_2": "Feyenoord",
+    "1X2": {
+      "V1": "1.09",
+      "X": "11.8",
+      "V2": "22.6"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "VfB Stuttgart",
+    "equipe_2": "Viking",
+    "1X2": {
+      "V1": "1.24",
+      "X": "6.8",
+      "V2": "10.9"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "PSG",
+    "equipe_2": "Slovan Bratislava",
+    "1X2": {
+      "V1": "1.05",
+      "X": "16.1",
+      "V2": "41.3"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Napoli",
+    "equipe_2": "Arsenal",
+    "1X2": {
+      "V1": "4.96",
+      "X": "3.76",
+      "V2": "1.74"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Liverpool",
+    "equipe_2": "Atletico Madrid",
+    "1X2": {
+      "V1": "1.7",
+      "X": "4.12",
+      "V2": "4.73"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Sporting CP",
+    "equipe_2": "Galatasaray SK",
+    "1X2": {
+      "V1": "1.82",
+      "X": "3.92",
+      "V2": "4.2"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "PSV Eindhoven",
+    "equipe_2": "FC Shakhtar Donetsk",
+    "1X2": {
+      "V1": "1.43",
+      "X": "5.1",
+      "V2": "6.7"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Fenerbahce",
+    "equipe_2": "AS Roma",
+    "1X2": {
+      "V1": "3.35",
+      "X": "3.5",
+      "V2": "2.18"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Bayern Munchen",
+    "equipe_2": "Bodo/Glimt",
+    "1X2": {
+      "V1": "1.1",
+      "X": "11.5",
+      "V2": "19.5"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Manchester United",
+    "equipe_2": "Sabah Baku FK",
+    "1X2": {
+      "V1": "1.13",
+      "X": "8.3",
+      "V2": "24.4"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "Como",
+    "equipe_2": "RB Leipzig",
+    "1X2": {
+      "V1": "1.84",
+      "X": "4.02",
+      "V2": "3.99"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  },
+  {
+    "equipe_1": "SK Slavia Praha",
+    "equipe_2": "Lens",
+    "1X2": {
+      "V1": "2.53",
+      "X": "3.52",
+      "V2": "2.74"
+    },
+    "derniere_maj": "2026-09-08T11:54:10",
+    "statut": "ok"
+  }
+]
