@@ -265,9 +265,10 @@ def scrape_page(
             timeout=60000
         )
 
-        # Petit délai uniquement pour laisser
-        # les données essentielles apparaître.
-        page.wait_for_timeout(1500)
+        # Délai plus long : les cotes sont chargées par
+        # un appel JS/websocket après le rendu initial,
+        # 1.5s ne suffit pas sur ces sites.
+        page.wait_for_timeout(4000)
 
         body = page.inner_text(
             "body"
@@ -275,6 +276,22 @@ def scrape_page(
 
         if not body:
             return None
+
+        # ------------------------------------------------------
+        # MODE DEBUG : sauvegarde le texte brut de la 1ère page
+        # de chaque bookmaker dans un fichier debug_<site>.txt.
+        # Sert uniquement à inspecter la vraie structure de la
+        # page pour affiner extract_odds ensuite. Sans danger,
+        # à retirer une fois le parsing calé.
+        # ------------------------------------------------------
+        debug_file = ROOT / f"debug_{bookmaker}.txt"
+
+        if not debug_file.exists():
+
+            debug_file.write_text(
+                body,
+                encoding="utf-8"
+            )
 
         # Recherche d'un titre de match
         lines = [
@@ -369,29 +386,66 @@ def scrape_bookmaker(
 
     try:
 
-        page.goto(
-            url,
-            wait_until="domcontentloaded",
-            timeout=60000
-        )
+        # Petit retry : ces domaines coupent parfois la
+        # connexion au premier essai (proxy tournant / anti-bot).
+        last_error = None
+
+        for attempt in range(2):
+
+            try:
+
+                page.goto(
+                    url,
+                    wait_until="domcontentloaded",
+                    timeout=60000
+                )
+
+                last_error = None
+
+                break
+
+            except Exception as goto_error:
+
+                last_error = goto_error
+
+                page.wait_for_timeout(2000)
+
+        if last_error:
+            raise last_error
 
         page.wait_for_timeout(
-            1500
+            2500
         )
 
         # Récupération de tous les liens de la page.
         # On ne coupe PAS à 20 ici : les vrais liens de
         # matchs sont souvent loin dans le DOM (après tout
         # le menu, les jeux, le footer...).
-        links = page.eval_on_selector_all(
-            "a",
-            """
-            elements =>
-                elements
-                .map(e => e.href)
-                .filter(Boolean)
-            """
-        )
+        # Sur certains sites (SPA type 1win), la page continue
+        # de naviguer/re-render après le domcontentloaded, ce
+        # qui casse eval_on_selector_all ("Execution context
+        # was destroyed"). On retente une fois après une pause.
+        links = []
+
+        for attempt in range(2):
+
+            try:
+
+                links = page.eval_on_selector_all(
+                    "a",
+                    """
+                    elements =>
+                        elements
+                        .map(e => e.href)
+                        .filter(Boolean)
+                    """
+                )
+
+                break
+
+            except Exception:
+
+                page.wait_for_timeout(2000)
 
         # Un lien de match a la forme :
         # .../line/<sport>/<id-competition>-<slug>/<id-match>-<equipe1>-<equipe2>
