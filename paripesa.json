@@ -4,16 +4,16 @@
     "equipe_1": "Bayern Munich",
     "equipe_2": "Bodo Glimt",
     "1X2": {
-      "V1": "1.075",
-      "X": "13",
-      "V2": "21"
+      "V1": "1.07",
+      "X": "12.5",
+      "V2": "23"
     },
     "Total_2.5": {
-      "Plus de": "1.074",
-      "Moins de": "5.75"
+      "Plus de": "1.066",
+      "Moins de": "5.95"
     },
     "url": "https://paripesa.cm/fr/line/football/118587-uefa-champions-league/364650232-bayern-munich-bodo-glimt",
-    "derniere_maj": "2026-09-10T00:23:47.787981+00:00",
+    "derniere_maj": "2026-09-10T04:37:19.307954+00:00",
     "statut": "ok"
   },
   {
@@ -21,16 +21,16 @@
     "equipe_1": "Psv Eindhoven",
     "equipe_2": "Shakhtar Donetsk",
     "1X2": {
-      "V1": "1.42",
-      "X": "5",
-      "V2": "6.6"
+      "V1": "1.46",
+      "X": "4.84",
+      "V2": "6.15"
     },
     "Total_2.5": {
-      "Plus de": "1.38",
-      "Moins de": "2.76"
+      "Plus de": "1.41",
+      "Moins de": "2.64"
     },
     "url": "https://paripesa.cm/fr/line/football/118587-uefa-champions-league/364659288-psv-eindhoven-shakhtar-donetsk",
-    "derniere_maj": "2026-09-10T00:23:56.957054+00:00",
+    "derniere_maj": "2026-09-10T04:37:28.479036+00:00",
     "statut": "ok"
   },
   {
@@ -38,16 +38,16 @@
     "equipe_1": "Manchester United",
     "equipe_2": "Sabah Baku",
     "1X2": {
-      "V1": "1.1",
-      "X": "9.2",
-      "V2": "27"
+      "V1": "1.075",
+      "X": "10.5",
+      "V2": "29"
     },
     "Total_2.5": {
-      "Plus de": "1.23",
-      "Moins de": "3.8"
+      "Plus de": "1.183",
+      "Moins de": "3.94"
     },
     "url": "https://paripesa.cm/fr/line/football/118587-uefa-champions-league/364650242-manchester-united-sabah-baku",
-    "derniere_maj": "2026-09-10T00:24:06.103547+00:00",
+    "derniere_maj": "2026-09-10T04:37:37.748255+00:00",
     "statut": "ok"
   },
   {
@@ -55,16 +55,16 @@
     "equipe_1": "Fenerbahce",
     "equipe_2": "Roma",
     "1X2": {
-      "V1": "3.34",
-      "X": "3.48",
-      "V2": "2.14"
+      "V1": "3.4",
+      "X": "3.52",
+      "V2": "2.1"
     },
     "Total_2.5": {
-      "Plus de": "1.72",
-      "Moins de": "2.12"
+      "Plus de": "1.66",
+      "Moins de": "2.216"
     },
     "url": "https://paripesa.cm/fr/line/football/118587-uefa-champions-league/364659620-fenerbahce-roma",
-    "derniere_maj": "2026-09-10T00:24:15.230899+00:00",
+    "derniere_maj": "2026-09-10T04:37:46.859992+00:00",
     "statut": "ok"
   },
   {
@@ -72,16 +72,16 @@
     "equipe_1": "Como",
     "equipe_2": "Rasenballsport Leipzig",
     "1X2": {
-      "V1": "1.816",
-      "X": "3.9",
-      "V2": "4.06"
+      "V1": "1.775",
+      "X": "4",
+      "V2": "4.16"
     },
     "Total_2.5": {
-      "Plus de": "1.52",
-      "Moins de": "2.33"
+      "Plus de": "1.46",
+      "Moins de": "2.49"
     },
     "url": "https://paripesa.cm/fr/line/football/118587-uefa-champions-league/364659592-como-rasenballsport-leipzig",
-    "derniere_maj": "2026-09-10T00:24:34.752283+00:00",
+    "derniere_maj": "2026-09-10T04:37:54.032120+00:00",
     "statut": "ok"
   }
 ]
