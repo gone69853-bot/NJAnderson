@@ -36,7 +36,7 @@ jobs:
       - name: Récupérer les matchs et les cotes
         env:
           PROXY_SERVER: "http://p.webshare.io:80"
-          PROXY_USERNAME: "hmbmocqu-JP-rotate"
+          PROXY_USERNAME: "kecsytba-JP-rotate"
           PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
 
           MAX_MATCHES_PER_SITE: "20"
