@@ -374,4 +374,16 @@ def build():
 
 if __name__ == "__main__":
 
-    build()
+Path(
+        "docs/comparison.json"
+    ).write_text(
+        json.dumps(
+            output,
+            ensure_ascii=False,
+            separators=(
+                ",",
+                ":"
+            )
+        ),
+        encoding="utf-8"
+)
