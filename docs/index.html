@@ -14,19 +14,26 @@
 :root {
     --pitch: #0F3D2E;
     --pitch-dark: #0A2B20;
+    --pitch-mid: #164A36;
+    --floodlight: #FFE49B;
     --chalk: #F4F1E8;
     --ink: #0B1E16;
     --ink-soft: #4C6357;
     --line: #D8D2C2;
     --flag-red: #CE1126;
     --flag-gold: #FBC02D;
+    --flag-gold-deep: #B9860A;
     --gold-ink: #3A2B00;
 
     --font-display: 'Teko', sans-serif;
     --font-body: 'IBM Plex Sans', sans-serif;
     --font-mono: 'IBM Plex Mono', monospace;
 
-    --radius: 8px;
+    --radius: 10px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
 }
 
 * {
@@ -69,11 +76,36 @@ a {
 /* ------------------------------------------------------------ */
 
 .masthead {
-    background: var(--pitch);
-    background-image:
-        linear-gradient(180deg, var(--pitch) 0%, var(--pitch-dark) 100%);
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    background: var(--pitch-dark);
     color: var(--chalk);
-    padding: 20px 16px 24px;
+    padding: 20px 16px 30px;
+}
+
+.masthead::before {
+    content: "";
+    position: absolute;
+    inset: -30% -10% auto -10%;
+    height: 140%;
+    background: radial-gradient(60% 60% at 50% 0%, var(--pitch-mid) 0%, var(--pitch) 40%, var(--pitch-dark) 75%);
+    z-index: -2;
+}
+
+.masthead::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: repeating-linear-gradient(
+        90deg,
+        rgba(244, 241, 232, 0.05) 0px,
+        rgba(244, 241, 232, 0.05) 26px,
+        transparent 26px,
+        transparent 52px
+    );
+    opacity: 0.45;
+    z-index: -1;
 }
 
 .masthead__row {
@@ -90,6 +122,7 @@ a {
     line-height: 1;
     margin: 0;
     letter-spacing: 0.01em;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
 }
 
 .live-badge {
@@ -139,9 +172,7 @@ a {
 }
 
 .hero-teaser {
-    margin-top: 18px;
-    border-top: 1px solid rgba(244, 241, 232, 0.18);
-    padding-top: 16px;
+    margin-top: 20px;
     min-height: 56px;
 }
 
@@ -158,6 +189,25 @@ a {
     justify-content: space-between;
     gap: 16px;
     flex-wrap: wrap;
+    background: linear-gradient(165deg, #FFD65C, var(--flag-gold) 55%, var(--flag-gold-deep));
+    color: var(--gold-ink);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.5) inset,
+        0 14px 26px rgba(0, 0, 0, 0.28);
+    opacity: 0;
+    transform: translateY(10px);
+    animation: heroIn 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.15s forwards;
+}
+
+@keyframes heroIn {
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.hero-teaser__teams-link {
+    text-decoration: none;
+    color: inherit;
 }
 
 .hero-teaser__teams {
@@ -175,23 +225,20 @@ a {
 .hero-teaser__market {
     display: block;
     font-size: 13px;
-    color: var(--chalk);
     opacity: 0.75;
     margin-bottom: 2px;
 }
 
 .hero-teaser__odds-value {
     font-family: var(--font-mono);
-    font-size: 26px;
-    font-weight: 500;
-    color: var(--flag-gold);
+    font-size: 28px;
+    font-weight: 700;
     line-height: 1;
     display: block;
 }
 
 .hero-teaser__odds-label {
     font-size: 12px;
-    color: var(--chalk);
     opacity: 0.75;
 }
 
@@ -206,6 +253,7 @@ a {
     background: var(--chalk);
     border-bottom: 1px solid var(--line);
     padding: 12px 16px;
+    box-shadow: 0 4px 10px rgba(11, 30, 22, 0.05);
 }
 
 .search-bar input {
@@ -236,7 +284,10 @@ a {
 .match-list {
     max-width: 720px;
     margin: 0 auto;
-    padding: 4px 0 40px;
+    padding: 12px 16px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
 
 .state-msg {
@@ -247,8 +298,25 @@ a {
 }
 
 .match {
-    padding: 18px 16px;
-    border-bottom: 1px solid var(--line);
+    background: #FFFFFF;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 16px 16px 14px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset, 0 6px 16px rgba(11, 30, 22, 0.07);
+}
+
+.match__link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.match__link:hover,
+.match__link:active {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(11, 30, 22, 0.12);
+    border-radius: var(--radius);
 }
 
 .match__teams {
@@ -263,6 +331,22 @@ a {
     color: var(--ink-soft);
     font-weight: 400;
     padding: 0 6px;
+}
+
+.match__fiche-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 12px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--pitch);
+    text-decoration: none;
+}
+
+.match__fiche-link svg {
+    width: 13px;
+    height: 13px;
 }
 
 .market-group {
@@ -338,10 +422,11 @@ table.odds-table {
 }
 
 .odds-table td.best {
-    background: var(--flag-gold);
+    background: linear-gradient(165deg, #FFD65C, var(--flag-gold) 65%, var(--flag-gold-deep));
     color: var(--gold-ink);
     font-weight: 600;
-    border-radius: 3px;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1px rgba(185, 134, 10, 0.35);
 }
 
 .single-odds__source {
@@ -360,13 +445,14 @@ table.odds-table {
     display: flex;
     align-items: center;
     gap: 8px;
-    background: var(--flag-gold);
+    background: linear-gradient(165deg, #FFD65C, var(--flag-gold) 60%, var(--flag-gold-deep));
     color: var(--gold-ink);
     border-radius: var(--radius);
     padding: 8px 12px;
     font-family: var(--font-mono);
     font-size: 14px;
     font-weight: 600;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 4px 10px rgba(11, 30, 22, 0.12);
 }
 
 .single-odds__label {
@@ -397,6 +483,7 @@ table.odds-table {
     font-size: 14px;
     text-decoration: none;
     border-radius: var(--radius);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
 }
 
 .cta-button:hover {
@@ -409,6 +496,28 @@ table.odds-table {
 
 .hero-teaser .cta-button {
     margin-top: 0;
+    background: var(--pitch-dark);
+    color: var(--chalk);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(8, 31, 23, 0.35);
+}
+
+.hero-teaser .cta-button::after {
+    content: "";
+    position: absolute;
+    top: 0; left: -60%;
+    width: 40%; height: 100%;
+    background: linear-gradient(115deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    animation: shine 1.8s ease 0.9s 1;
+}
+
+@keyframes shine {
+    to { left: 130%; }
+}
+
+.hero-teaser .cta-button:hover {
+    background: var(--pitch);
 }
 
 /* ------------------------------------------------------------ */
@@ -544,6 +653,21 @@ let state = {
     matches: [],
     generatedAt: null
 };
+
+function slugify(value) {
+
+    return String(value)
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+}
+
+function matchSlug(match) {
+
+    return slugify(match.equipe_1) + "-" + slugify(match.equipe_2);
+}
 
 function escapeHTML(value) {
 
@@ -695,11 +819,13 @@ function renderHero(matches) {
 
     el.innerHTML = `
         <div class="hero-teaser__match">
-            <p class="hero-teaser__teams">
-                ${escapeHTML(bestMatch.equipe_1)}
-                <span class="vs">–</span>
-                ${escapeHTML(bestMatch.equipe_2)}
-            </p>
+            <a class="hero-teaser__teams-link" href="${matchSlug(bestMatch)}/">
+                <p class="hero-teaser__teams">
+                    ${escapeHTML(bestMatch.equipe_1)}
+                    <span class="vs">–</span>
+                    ${escapeHTML(bestMatch.equipe_2)}
+                </p>
+            </a>
             <div class="hero-teaser__odds">
                 <span class="hero-teaser__market">
                     ${escapeHTML(marketLabel(bestMatch, bestRow))}
@@ -876,14 +1002,22 @@ function render(list) {
             ? `<a class="cta-button" href="${AFFILIATE_LINKS[bestAff.meilleur_site]}" target="_blank" rel="noopener sponsored">S'inscrire chez ${escapeHTML(NAMES[bestAff.meilleur_site])} pour profiter de cette cote</a>`
             : "";
 
+        const slug = matchSlug(match);
+
         return `
             <section class="match">
-                <h2 class="match__teams">
-                    ${escapeHTML(match.equipe_1)}
-                    <span class="vs">–</span>
-                    ${escapeHTML(match.equipe_2)}
-                </h2>
+                <a class="match__link" href="${slug}/">
+                    <h2 class="match__teams">
+                        ${escapeHTML(match.equipe_1)}
+                        <span class="vs">–</span>
+                        ${escapeHTML(match.equipe_2)}
+                    </h2>
+                </a>
                 ${tables}
+                <a class="match__fiche-link" href="${slug}/">
+                    Voir la fiche du match
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
+                </a>
                 ${cta}
             </section>
         `;
