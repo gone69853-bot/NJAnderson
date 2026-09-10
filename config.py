@@ -12,7 +12,7 @@ PROXY_SERVER = os.getenv(
 
 PROXY_USERNAME = os.getenv(
     "PROXY_USERNAME",
-    "kecsytba-JP-rotate"
+    "kecsytba-rotate"
 )
 
 PROXY_PASSWORD = os.getenv(
