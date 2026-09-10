@@ -61,7 +61,7 @@ jobs:
             winwin.json \
             1xbet.json \
             paripesa.json \
-            comparison.json
+            docs/comparison.json
 
           if git diff --cached --quiet; then
             echo "Aucune modification."
