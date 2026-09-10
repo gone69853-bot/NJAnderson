@@ -4,33 +4,16 @@
     "equipe_1": "Bayern Munich",
     "equipe_2": "Bodo Glimt",
     "1X2": {
-      "V1": "1.112",
-      "X": "13.6",
-      "V2": "23"
+      "V1": "1.07",
+      "X": "16.5",
+      "V2": "28"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/364650232-bayern-munich-bodo-glimt",
-    "derniere_maj": "2026-09-10T04:26:05.010808+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Psv Eindhoven",
-    "equipe_2": "Shakhtar Donetsk",
-    "1X2": {
-      "V1": "1.504",
-      "X": "5.03",
-      "V2": "6.6"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/364659288-psv-eindhoven-shakhtar-donetsk",
-    "derniere_maj": "2026-09-10T04:26:12.306994+00:00",
+    "derniere_maj": "2026-09-10T18:48:12.399481+00:00",
     "statut": "ok"
   },
   {
@@ -38,33 +21,16 @@
     "equipe_1": "Manchester United",
     "equipe_2": "Sabah Baku",
     "1X2": {
-      "V1": "1.112",
-      "X": "11.7",
-      "V2": "32"
+      "V1": "1.05",
+      "X": "13",
+      "V2": "28"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/364650242-manchester-united-sabah-baku",
-    "derniere_maj": "2026-09-10T04:26:19.650068+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Fenerbahce",
-    "equipe_2": "Roma",
-    "1X2": {
-      "V1": "3.535",
-      "X": "3.635",
-      "V2": "2.185"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/364659620-fenerbahce-roma",
-    "derniere_maj": "2026-09-10T04:26:28.868143+00:00",
+    "derniere_maj": "2026-09-10T18:48:21.738793+00:00",
     "statut": "ok"
   },
   {
@@ -72,16 +38,50 @@
     "equipe_1": "Como",
     "equipe_2": "Rasenballsport Leipzig",
     "1X2": {
-      "V1": "1.829",
-      "X": "4.215",
-      "V2": "4.315"
+      "V1": "1.712",
+      "X": "4.32",
+      "V2": "4.63"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/364659592-como-rasenballsport-leipzig",
-    "derniere_maj": "2026-09-10T04:26:38.098087+00:00",
+    "derniere_maj": "2026-09-10T18:48:31.027225+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Slavia Prague",
+    "equipe_2": "Rc Lens",
+    "1X2": {
+      "V1": "2.79",
+      "X": "3.72",
+      "V2": "2.48"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/364650240-slavia-prague-rc-lens",
+    "derniere_maj": "2026-09-10T18:48:40.367206+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Estrela Da",
+    "equipe_2": "Amadora Braga",
+    "1X2": {
+      "V1": "6.05",
+      "X": "3.92",
+      "V2": "1.58"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://5572183mp.pro/en/line/football/3007689-portugal-primeira-liga/366903092-estrela-da-amadora-braga",
+    "derniere_maj": "2026-09-10T18:48:47.770070+00:00",
     "statut": "ok"
   }
 ]

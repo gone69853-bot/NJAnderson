@@ -4,33 +4,16 @@
     "equipe_1": "Bayern Munich",
     "equipe_2": "Bodo Glimt",
     "1X2": {
-      "V1": "1.08",
-      "X": "12",
-      "V2": "22"
+      "V1": "1.06",
+      "X": "14",
+      "V2": "26"
     },
     "Total_2.5": {
-      "Plus de": "1.07",
-      "Moins de": "5.85"
+      "Plus de": "1.053",
+      "Moins de": "6.4"
     },
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364650232-bayern-munich-bodo-glimt",
-    "derniere_maj": "2026-09-10T04:19:42.822100+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Psv Eindhoven",
-    "equipe_2": "Shakhtar Donetsk",
-    "1X2": {
-      "V1": "1.44",
-      "X": "4.98",
-      "V2": "6.3"
-    },
-    "Total_2.5": {
-      "Plus de": "1.36",
-      "Moins de": "2.84"
-    },
-    "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364659288-psv-eindhoven-shakhtar-donetsk",
-    "derniere_maj": "2026-09-10T04:19:51.860898+00:00",
+    "derniere_maj": "2026-09-10T18:29:19.657012+00:00",
     "statut": "ok"
   },
   {
@@ -38,33 +21,16 @@
     "equipe_1": "Manchester United",
     "equipe_2": "Sabah Baku",
     "1X2": {
-      "V1": "1.085",
-      "X": "10",
-      "V2": "28"
+      "V1": "1.056",
+      "X": "12.5",
+      "V2": "39"
     },
     "Total_2.5": {
-      "Plus de": "1.191",
-      "Moins de": "3.84"
+      "Plus de": "1.129",
+      "Moins de": "4.7"
     },
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364650242-manchester-united-sabah-baku",
-    "derniere_maj": "2026-09-10T04:19:58.926221+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Fenerbahce",
-    "equipe_2": "Roma",
-    "1X2": {
-      "V1": "3.4",
-      "X": "3.5",
-      "V2": "2.11"
-    },
-    "Total_2.5": {
-      "Plus de": "1.68",
-      "Moins de": "2.184"
-    },
-    "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364659620-fenerbahce-roma",
-    "derniere_maj": "2026-09-10T04:20:07.896839+00:00",
+    "derniere_maj": "2026-09-10T18:29:28.630094+00:00",
     "statut": "ok"
   },
   {
@@ -72,16 +38,50 @@
     "equipe_1": "Como",
     "equipe_2": "Rasenballsport Leipzig",
     "1X2": {
-      "V1": "1.765",
-      "X": "4.06",
-      "V2": "4.16"
+      "V1": "1.704",
+      "X": "4.16",
+      "V2": "4.4"
     },
     "Total_2.5": {
-      "Plus de": "1.46",
-      "Moins de": "2.49"
+      "Plus de": "1.39",
+      "Moins de": "2.72"
     },
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364659592-como-rasenballsport-leipzig",
-    "derniere_maj": "2026-09-10T04:20:14.896968+00:00",
+    "derniere_maj": "2026-09-10T18:29:37.576989+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Slavia Prague",
+    "equipe_2": "Rc Lens",
+    "1X2": {
+      "V1": "2.725",
+      "X": "3.54",
+      "V2": "2.48"
+    },
+    "Total_2.5": {
+      "Plus de": "1.58",
+      "Moins de": "2.38"
+    },
+    "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364650240-slavia-prague-rc-lens",
+    "derniere_maj": "2026-09-10T18:29:46.707139+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Estrela Da",
+    "equipe_2": "Amadora Braga",
+    "1X2": {
+      "V1": "6.15",
+      "X": "3.94",
+      "V2": "1.57"
+    },
+    "Total_2.5": {
+      "Plus de": "2.016",
+      "Moins de": "1.792"
+    },
+    "url": "https://betwinner.cm/fr/line/football/3007689-portugal-primeira-liga/366903092-estrela-da-amadora-braga",
+    "derniere_maj": "2026-09-10T18:29:55.907470+00:00",
     "statut": "ok"
   }
 ]

@@ -1,206 +1,155 @@
 [
   {
     "bookmaker": "1win",
-    "equipe_1": "PSV Eindhoven",
-    "equipe_2": "FC Shakhtar Donetsk",
+    "equipe_1": "Cienciano",
+    "equipe_2": "Montevideo City Torque",
+    "1X2": {
+      "V1": "1.57",
+      "X": "3.89",
+      "V2": "6.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-10T19:06:14.381863+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Independiente del Valle",
+    "equipe_2": "Flamengo CR",
+    "1X2": {
+      "V1": "3.44",
+      "X": "2.91",
+      "V2": "2.36"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-10T19:06:14.381885+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Krylia Sovetov",
+    "equipe_2": "Rodina",
+    "1X2": {
+      "V1": "1.95",
+      "X": "3.7",
+      "V2": "3.8"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-10T19:06:14.381895+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Fakel Voronezh",
+    "equipe_2": "Baltika",
+    "1X2": {
+      "V1": "3.5",
+      "X": "3.05",
+      "V2": "2.3"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-10T19:06:14.381903+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Zenit St Petersburg",
+    "equipe_2": "Lokomotiv Moscow",
+    "1X2": {
+      "V1": "1.4",
+      "X": "5.0",
+      "V2": "7.5"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-10T19:06:14.381911+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Dynamo Moscow",
+    "equipe_2": "Orenburg",
     "1X2": {
       "V1": "1.5",
-      "X": "4.78",
-      "V2": "6.0"
+      "X": "4.6",
+      "V2": "6.2"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-10T04:37:59.199821+00:00",
+    "derniere_maj": "2026-09-10T19:06:14.381917+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "Fenerbahce",
-    "equipe_2": "AS Roma",
+    "equipe_1": "CSKA Moscow",
+    "equipe_2": "Rubin Kazan",
     "1X2": {
-      "V1": "3.42",
-      "X": "3.57",
-      "V2": "2.12"
+      "V1": "1.67",
+      "X": "3.9",
+      "V2": "5.2"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-10T04:37:59.199852+00:00",
+    "derniere_maj": "2026-09-10T19:06:14.381924+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "Bayern Munchen",
-    "equipe_2": "Bodo/Glimt",
+    "equipe_1": "Akhmat Grozny",
+    "equipe_2": "Dynamo Makhachkala",
     "1X2": {
-      "V1": "1.09",
-      "X": "11.9",
-      "V2": "22.9"
+      "V1": "2.12",
+      "X": "3.3",
+      "V2": "3.7"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-10T04:37:59.199865+00:00",
+    "derniere_maj": "2026-09-10T19:06:14.381930+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "Manchester United",
-    "equipe_2": "Sabah Baku FK",
+    "equipe_1": "Spartak Moskva",
+    "equipe_2": "Rostov FK",
     "1X2": {
-      "V1": "1.1",
-      "X": "10.3",
-      "V2": "25.6"
+      "V1": "1.65",
+      "X": "4.05",
+      "V2": "5.3"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-10T04:37:59.199876+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Como",
-    "equipe_2": "RB Leipzig",
-    "1X2": {
-      "V1": "1.79",
-      "X": "4.09",
-      "V2": "4.18"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-10T04:37:59.199886+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "SK Slavia Praha",
-    "equipe_2": "Lens",
-    "1X2": {
-      "V1": "2.67",
-      "X": "3.53",
-      "V2": "2.6"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-10T04:37:59.199896+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Omonia Nicosia",
-    "equipe_2": "Celta de Vigo",
-    "1X2": {
-      "V1": "4.19",
-      "X": "3.4",
-      "V2": "1.91"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-10T04:37:59.199906+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "FC Ararat-Armenia",
-    "equipe_2": "Sparta Prague",
-    "1X2": {
-      "V1": "5.0",
-      "X": "4.07",
-      "V2": "1.63"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-10T04:37:59.199916+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Bayer Leverkusen",
-    "equipe_2": "NK Celje",
-    "1X2": {
-      "V1": "1.2",
-      "X": "7.1",
-      "V2": "13.0"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-10T04:37:59.199926+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Panathinaikos",
-    "equipe_2": "Borac Banja Luka",
-    "1X2": {
-      "V1": "1.23",
-      "X": "6.2",
-      "V2": "11.7"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-10T04:37:59.199935+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Mjallby AIF",
-    "equipe_2": "Inter Club d'Escaldes",
-    "1X2": {
-      "V1": "1.21",
-      "X": "6.1",
-      "V2": "12.9"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-10T04:37:59.199945+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "CSKA Sofia",
-    "equipe_2": "AS Monaco FC",
-    "1X2": {
-      "V1": "6.1",
-      "X": "4.47",
-      "V2": "1.47"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-10T04:37:59.199954+00:00",
+    "derniere_maj": "2026-09-10T19:06:14.381936+00:00",
     "statut": "ok"
   }
 ]

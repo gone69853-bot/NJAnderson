@@ -1,87 +1,87 @@
 [
   {
     "bookmaker": "paripesa",
-    "equipe_1": "Bayern Munich",
-    "equipe_2": "Bodo Glimt",
+    "equipe_1": "Estrela Da",
+    "equipe_2": "Amadora Braga",
     "1X2": {
-      "V1": "1.07",
-      "X": "12.5",
-      "V2": "23"
+      "V1": "6.3",
+      "X": "3.92",
+      "V2": "1.56"
     },
     "Total_2.5": {
-      "Plus de": "1.066",
-      "Moins de": "5.95"
+      "Plus de": "2.06",
+      "Moins de": "1.765"
     },
-    "url": "https://paripesa.cm/fr/line/football/118587-uefa-champions-league/364650232-bayern-munich-bodo-glimt",
-    "derniere_maj": "2026-09-10T04:37:19.307954+00:00",
+    "url": "https://paripesa.cm/fr/line/football/3007689-portugal-primeira-liga/366903092-estrela-da-amadora-braga",
+    "derniere_maj": "2026-09-10T19:05:31.642593+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "paripesa",
-    "equipe_1": "Psv Eindhoven",
-    "equipe_2": "Shakhtar Donetsk",
+    "equipe_1": "Chelsea",
+    "equipe_2": "Hull City",
     "1X2": {
-      "V1": "1.46",
-      "X": "4.84",
-      "V2": "6.15"
+      "V1": "1.248",
+      "X": "6.05",
+      "V2": "11.5"
     },
     "Total_2.5": {
-      "Plus de": "1.41",
-      "Moins de": "2.64"
+      "Plus de": "1.39",
+      "Moins de": "2.72"
     },
-    "url": "https://paripesa.cm/fr/line/football/118587-uefa-champions-league/364659288-psv-eindhoven-shakhtar-donetsk",
-    "derniere_maj": "2026-09-10T04:37:28.479036+00:00",
+    "url": "https://paripesa.cm/fr/line/football/88637-england-premier-league/364947828-chelsea-hull-city",
+    "derniere_maj": "2026-09-10T19:05:40.982508+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "paripesa",
-    "equipe_1": "Manchester United",
-    "equipe_2": "Sabah Baku",
+    "equipe_1": "Elversberg",
+    "equipe_2": "Bayern Munich",
     "1X2": {
-      "V1": "1.075",
-      "X": "10.5",
-      "V2": "29"
+      "V1": "15",
+      "X": "7.9",
+      "V2": "1.16"
     },
     "Total_2.5": {
-      "Plus de": "1.183",
-      "Moins de": "3.94"
+      "Plus de": "1.125",
+      "Moins de": "4.65"
     },
-    "url": "https://paripesa.cm/fr/line/football/118587-uefa-champions-league/364650242-manchester-united-sabah-baku",
-    "derniere_maj": "2026-09-10T04:37:37.748255+00:00",
+    "url": "https://paripesa.cm/fr/line/football/96463-germany-bundesliga/364956160-elversberg-bayern-munich",
+    "derniere_maj": "2026-09-10T19:05:50.493358+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "paripesa",
-    "equipe_1": "Fenerbahce",
-    "equipe_2": "Roma",
+    "equipe_1": "Sunderland",
+    "equipe_2": "Arsenal",
     "1X2": {
-      "V1": "3.4",
-      "X": "3.52",
-      "V2": "2.1"
+      "V1": "7.3",
+      "X": "4.16",
+      "V2": "1.48"
     },
     "Total_2.5": {
-      "Plus de": "1.66",
-      "Moins de": "2.216"
+      "Plus de": "2.06",
+      "Moins de": "1.76"
     },
-    "url": "https://paripesa.cm/fr/line/football/118587-uefa-champions-league/364659620-fenerbahce-roma",
-    "derniere_maj": "2026-09-10T04:37:46.859992+00:00",
+    "url": "https://paripesa.cm/fr/line/football/88637-england-premier-league/364947844-sunderland-arsenal",
+    "derniere_maj": "2026-09-10T19:06:00.076369+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "paripesa",
-    "equipe_1": "Como",
-    "equipe_2": "Rasenballsport Leipzig",
+    "equipe_1": "Borussia Dortmund",
+    "equipe_2": "Paderborn 07",
     "1X2": {
-      "V1": "1.775",
-      "X": "4",
-      "V2": "4.16"
+      "V1": "1.225",
+      "X": "6.75",
+      "V2": "11"
     },
     "Total_2.5": {
-      "Plus de": "1.46",
-      "Moins de": "2.49"
+      "Plus de": "1.32",
+      "Moins de": "3.04"
     },
-    "url": "https://paripesa.cm/fr/line/football/118587-uefa-champions-league/364659592-como-rasenballsport-leipzig",
-    "derniere_maj": "2026-09-10T04:37:54.032120+00:00",
+    "url": "https://paripesa.cm/fr/line/football/96463-germany-bundesliga/364956144-borussia-dortmund-paderborn-07",
+    "derniere_maj": "2026-09-10T19:06:09.435307+00:00",
     "statut": "ok"
   }
 ]

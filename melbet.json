@@ -4,33 +4,16 @@
     "equipe_1": "Bayern Munich",
     "equipe_2": "Bodo Glimt",
     "1X2": {
-      "V1": "1.075",
-      "X": "12.5",
-      "V2": "21"
+      "V1": "1.06",
+      "X": "14",
+      "V2": "26"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364650232-bayern-munich-bodo-glimt",
-    "derniere_maj": "2026-09-10T04:22:50.284881+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Psv Eindhoven",
-    "equipe_2": "Shakhtar Donetsk",
-    "1X2": {
-      "V1": "1.45",
-      "X": "4.9",
-      "V2": "6.25"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364659288-psv-eindhoven-shakhtar-donetsk",
-    "derniere_maj": "2026-09-10T04:23:04.067835+00:00",
+    "derniere_maj": "2026-09-10T18:44:47.153534+00:00",
     "statut": "ok"
   },
   {
@@ -38,33 +21,16 @@
     "equipe_1": "Manchester United",
     "equipe_2": "Sabah Baku",
     "1X2": {
-      "V1": "1.08",
-      "X": "10.5",
-      "V2": "30"
+      "V1": "1.056",
+      "X": "12.5",
+      "V2": "39"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364650242-manchester-united-sabah-baku",
-    "derniere_maj": "2026-09-10T04:23:14.224146+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Fenerbahce",
-    "equipe_2": "Roma",
-    "1X2": {
-      "V1": "3.4",
-      "X": "3.5",
-      "V2": "2.11"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364659620-fenerbahce-roma",
-    "derniere_maj": "2026-09-10T04:23:29.579392+00:00",
+    "derniere_maj": "2026-09-10T18:45:05.167255+00:00",
     "statut": "ok"
   },
   {
@@ -72,16 +38,16 @@
     "equipe_1": "Como",
     "equipe_2": "Rasenballsport Leipzig",
     "1X2": {
-      "V1": "1.765",
-      "X": "4.06",
-      "V2": "4.16"
+      "V1": "1.7",
+      "X": "4.1",
+      "V2": "4.5"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364659592-como-rasenballsport-leipzig",
-    "derniere_maj": "2026-09-10T04:23:39.209611+00:00",
+    "derniere_maj": "2026-09-10T18:45:17.382131+00:00",
     "statut": "ok"
   },
   {
@@ -89,16 +55,67 @@
     "equipe_1": "Slavia Prague",
     "equipe_2": "Rc Lens",
     "1X2": {
-      "V1": "2.648",
-      "X": "3.48",
-      "V2": "2.575"
+      "V1": "2.744",
+      "X": "3.5",
+      "V2": "2.48"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364650240-slavia-prague-rc-lens",
-    "derniere_maj": "2026-09-10T04:23:46.827501+00:00",
+    "derniere_maj": "2026-09-10T18:45:27.308966+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Estrela Da",
+    "equipe_2": "Amadora Braga",
+    "1X2": {
+      "V1": "6.05",
+      "X": "3.92",
+      "V2": "1.58"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/3007689-portugal-primeira-liga/366903092-estrela-da-amadora-braga",
+    "derniere_maj": "2026-09-10T18:45:37.184276+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Blaublitz Akita",
+    "equipe_2": "Tokushima Vortis",
+    "1X2": {
+      "V1": "2.625",
+      "X": "3.02",
+      "V2": "2.51"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/30005-japan-j-league-division-2/367111090-blaublitz-akita-tokushima-vortis",
+    "derniere_maj": "2026-09-10T18:45:49.086455+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Iwaki",
+    "equipe_2": "Yokohama",
+    "1X2": {
+      "V1": "3.04",
+      "X": "3.2",
+      "V2": "2.18"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/30005-japan-j-league-division-2/367445792-iwaki-yokohama",
+    "derniere_maj": "2026-09-10T18:45:59.184834+00:00",
     "statut": "ok"
   }
 ]
