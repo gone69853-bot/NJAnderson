@@ -1,1 +1,104 @@
-[]
+[
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Bayern Munich",
+    "equipe_2": "Bodo Glimt",
+    "1X2": {
+      "V1": "1.075",
+      "X": "13",
+      "V2": "21"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364650232-bayern-munich-bodo-glimt",
+    "derniere_maj": "2026-09-10T00:11:10.820326+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Psv Eindhoven",
+    "equipe_2": "Shakhtar Donetsk",
+    "1X2": {
+      "V1": "1.42",
+      "X": "5",
+      "V2": "6.6"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364659288-psv-eindhoven-shakhtar-donetsk",
+    "derniere_maj": "2026-09-10T00:11:28.264013+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Manchester United",
+    "equipe_2": "Sabah Baku",
+    "1X2": {
+      "V1": "1.1",
+      "X": "9.2",
+      "V2": "27"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364650242-manchester-united-sabah-baku",
+    "derniere_maj": "2026-09-10T00:11:47.712261+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Fenerbahce",
+    "equipe_2": "Roma",
+    "1X2": {
+      "V1": "3.34",
+      "X": "3.48",
+      "V2": "2.14"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364659620-fenerbahce-roma",
+    "derniere_maj": "2026-09-10T00:11:57.414216+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Como",
+    "equipe_2": "Rasenballsport Leipzig",
+    "1X2": {
+      "V1": "1.816",
+      "X": "3.9",
+      "V2": "4.06"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364659592-como-rasenballsport-leipzig",
+    "derniere_maj": "2026-09-10T00:12:09.151756+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Slavia Prague",
+    "equipe_2": "Rc Lens",
+    "1X2": {
+      "V1": "2.625",
+      "X": "3.46",
+      "V2": "2.608"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/364650240-slavia-prague-rc-lens",
+    "derniere_maj": "2026-09-10T00:12:18.925230+00:00",
+    "statut": "ok"
+  }
+]

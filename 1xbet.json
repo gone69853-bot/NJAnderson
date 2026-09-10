@@ -1,1 +1,87 @@
-[]
+[
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Bayern Munich",
+    "equipe_2": "Bodo Glimt",
+    "1X2": {
+      "V1": "1.109",
+      "X": "14.1",
+      "V2": "23"
+    },
+    "Total_2.5": {
+      "Plus de": "1.074",
+      "Moins de": "5.75"
+    },
+    "url": "https://1xbet.cm/fr/line/football/118587-uefa-champions-league/364650232-bayern-munich-bodo-glimt",
+    "derniere_maj": "2026-09-10T00:20:49.203148+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Psv Eindhoven",
+    "equipe_2": "Shakhtar Donetsk",
+    "1X2": {
+      "V1": "1.474",
+      "X": "5.23",
+      "V2": "6.86"
+    },
+    "Total_2.5": {
+      "Plus de": "1.38",
+      "Moins de": "2.76"
+    },
+    "url": "https://1xbet.cm/fr/line/football/118587-uefa-champions-league/364659288-psv-eindhoven-shakhtar-donetsk",
+    "derniere_maj": "2026-09-10T00:20:58.443767+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Manchester United",
+    "equipe_2": "Sabah Baku",
+    "1X2": {
+      "V1": "1.141",
+      "X": "9.55",
+      "V2": "29"
+    },
+    "Total_2.5": {
+      "Plus de": "1.23",
+      "Moins de": "3.8"
+    },
+    "url": "https://1xbet.cm/fr/line/football/118587-uefa-champions-league/364650242-manchester-united-sabah-baku",
+    "derniere_maj": "2026-09-10T00:21:17.424346+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Fenerbahce",
+    "equipe_2": "Roma",
+    "1X2": {
+      "V1": "3.475",
+      "X": "3.615",
+      "V2": "2.216"
+    },
+    "Total_2.5": {
+      "Plus de": "1.785",
+      "Moins de": "2.198"
+    },
+    "url": "https://1xbet.cm/fr/line/football/118587-uefa-champions-league/364659620-fenerbahce-roma",
+    "derniere_maj": "2026-09-10T00:21:28.330731+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Como",
+    "equipe_2": "Rasenballsport Leipzig",
+    "1X2": {
+      "V1": "1.88",
+      "X": "4.06",
+      "V2": "4.215"
+    },
+    "Total_2.5": {
+      "Plus de": "1.52",
+      "Moins de": "2.33"
+    },
+    "url": "https://1xbet.cm/fr/line/football/118587-uefa-champions-league/364659592-como-rasenballsport-leipzig",
+    "derniere_maj": "2026-09-10T00:21:37.477925+00:00",
+    "statut": "ok"
+  }
+]
