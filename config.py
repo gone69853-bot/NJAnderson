@@ -50,15 +50,15 @@ MAX_MATCHES_PER_SITE = int(
 BOOKMAKERS = {
 
     "betwinner": {
-        "url": "https://betwinner.cm/fr/line",
+        "url": "https://betwinner.cm/fr/line/football",
     },
 
     "melbet": {
-        "url": "https://melbet-cm.com/en/line",
+        "url": "https://melbet-cm.com/en/line/football",
     },
 
     "megapari": {
-        "url": "https://5572183mp.pro/en/line",
+        "url": "https://5572183mp.pro/en/line/football",
     },
 
     "1win": {
@@ -70,13 +70,14 @@ BOOKMAKERS = {
     },
 
     "1xbet": {
-        "url": "https://1xbet.cm/fr/line",
+        "url": "https://1xbet.cm/fr/line/football",
     },
 
     "paripesa": {
-        "url": "https://paripesa.cm/fr/line",
+        "url": "https://paripesa.cm/fr/line/football",
     },
 }
 
 
 BOOKMAKERS_LIST = list(BOOKMAKERS.keys())
+
