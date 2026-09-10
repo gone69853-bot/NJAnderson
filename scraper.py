@@ -527,6 +527,183 @@ def scrape_bookmaker(
 
 
 # ============================================================
+# 1WIN — moteur totalement différent (app Vue.js), et surtout
+# pas besoin de proxy : l'IP US (celle du runner GitHub) n'est
+# pas bloquée sur ce site, contrairement aux autres.
+# ============================================================
+
+WIN1_LISTING_URL = "https://1win.com/betting/prematch?platform_type=mobile"
+WIN1_MAX_TENTATIVES = 300  # jusqu'à 10 min pour que les cartes se chargent
+
+WIN1_MOTIF_COTE = re.compile(r"\d\.\d")
+
+
+def extraire_cartes_1win(page):
+
+    return page.evaluate(
+        """
+        () => {
+            const cartes = document.querySelectorAll('[data-qa="match-card"]');
+            const resultat = [];
+            cartes.forEach(carte => {
+                const teamsEl = carte.querySelector('[data-scope="TeamNames"]');
+                const oddsEl = carte.querySelector('[data-qa="matchCardBaseOdds"]');
+                resultat.push({
+                    teamsText: teamsEl ? teamsEl.innerText : "",
+                    oddsText: oddsEl ? oddsEl.innerText : ""
+                });
+            });
+            return resultat;
+        }
+        """
+    )
+
+
+def parser_carte_1win(carte):
+
+    lignes_equipes = [
+        l.strip() for l in carte["teamsText"].split("\n") if l.strip()
+    ]
+
+    if len(lignes_equipes) < 2:
+        return None
+
+    equipe_1, equipe_2 = lignes_equipes[0], lignes_equipes[1]
+
+    lignes_cotes = [
+        l.strip() for l in carte["oddsText"].split("\n") if l.strip()
+    ]
+
+    resultat_1x2 = {}
+
+    try:
+
+        i = next(
+            idx for idx, l in enumerate(lignes_cotes)
+            if "full time result" in l.lower()
+        )
+
+        correspondance = {"1": "V1", "x": "X", "2": "V2"}
+        pos = i + 1
+
+        while pos + 1 < len(lignes_cotes):
+
+            label = lignes_cotes[pos].strip().lower()
+            valeur = lignes_cotes[pos + 1].strip()
+
+            if label in correspondance:
+                resultat_1x2[correspondance[label]] = valeur
+                pos += 2
+            else:
+                break
+
+    except StopIteration:
+        pass
+
+    if not resultat_1x2:
+        return None
+
+    return {
+
+        "bookmaker": "1win",
+
+        "equipe_1": equipe_1,
+
+        "equipe_2": equipe_2,
+
+        "1X2": resultat_1x2,
+
+        "Total_2.5": {
+            "Plus de": None,
+            "Moins de": None,
+        },
+
+        "url": WIN1_LISTING_URL,
+
+        "derniere_maj":
+            datetime.datetime.now(
+                datetime.timezone.utc
+            ).isoformat(),
+
+        "statut": "ok",
+    }
+
+
+def scrape_1win(playwright):
+
+    result = []
+
+    try:
+
+        # Pas de proxy pour 1win : l'IP du runner n'est pas
+        # bloquée sur ce site.
+        browser = playwright.chromium.launch(headless=True)
+
+        page = browser.new_page()
+
+        page.goto(
+            WIN1_LISTING_URL,
+            timeout=1200000,
+            wait_until="domcontentloaded"
+        )
+
+        cartes = []
+
+        for tentative in range(WIN1_MAX_TENTATIVES):
+
+            cartes = extraire_cartes_1win(page)
+
+            nb_avec_cotes = sum(
+                1 for c in cartes
+                if WIN1_MOTIF_COTE.search(c["oddsText"])
+            )
+
+            if (
+                len(cartes) > 0
+                and nb_avec_cotes >= len(cartes) * 0.5
+            ):
+
+                print(
+                    f"[1win] {len(cartes)} carte(s) détectée(s), "
+                    f"{nb_avec_cotes} avec cotes, "
+                    f"après {tentative * 2}s"
+                )
+
+                break
+
+            page.wait_for_timeout(2000)
+
+        browser.close()
+
+        for carte in cartes:
+
+            parsed = parser_carte_1win(carte)
+
+            if parsed:
+                result.append(parsed)
+
+    except Exception as error:
+
+        print(f"[1win] ERREUR : {error}")
+
+    output = ROOT / "1win.json"
+
+    output.write_text(
+        json.dumps(
+            result,
+            ensure_ascii=False,
+            indent=2
+        ),
+        encoding="utf-8"
+    )
+
+    print(
+        f"[1win] "
+        f"{len(result)} matchs enregistrés"
+    )
+
+
+# ============================================================
 # MAIN
 # ============================================================
 
@@ -574,9 +751,8 @@ def main():
         for bookmaker in BOOKMAKERS_LIST:
 
             if bookmaker == "1win":
-                # Structure totalement différente (app Vue.js),
-                # gérée séparément par test_1win_v2.py.
-                print("[1win] ignoré (voir test_1win_v2.py)")
+                # Traité séparément juste après (pas de proxy,
+                # navigateur dédié).
                 continue
 
             config = BOOKMAKERS[bookmaker]
@@ -594,6 +770,13 @@ def main():
             page.close()
 
         browser.close()
+
+        # ------------------------------------------------------
+        # 1WIN : pas de proxy nécessaire (IP du runner non
+        # bloquée), donc navigateur séparé sans configuration
+        # proxy.
+        # ------------------------------------------------------
+        scrape_1win(playwright)
 
 
 if __name__ == "__main__":
