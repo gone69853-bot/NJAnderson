@@ -257,12 +257,6 @@ a {
     padding: 0 6px;
 }
 
-.match__books {
-    margin: 0 0 12px;
-    font-size: 12px;
-    color: var(--ink-soft);
-}
-
 .market-group {
     margin-top: 12px;
 }
@@ -344,6 +338,41 @@ table.odds-table {
     color: var(--gold-ink);
     font-weight: 600;
     border-radius: 3px;
+}
+
+.book-link {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px dotted var(--ink-soft);
+}
+
+.book-link:hover {
+    border-bottom-style: solid;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 11px 20px;
+    background: var(--flag-gold);
+    color: var(--gold-ink);
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: var(--radius);
+}
+
+.cta-button:hover {
+    background: #E6AF1F;
+}
+
+.hero-teaser__cta {
+    margin-top: 10px;
+}
+
+.hero-teaser .cta-button {
+    margin-top: 0;
 }
 
 /* ------------------------------------------------------------ */
@@ -449,6 +478,18 @@ const NAMES = {
     paripesa: "Paripesa"
 };
 
+// Liens d'affiliation. Une entrée manquante ou nulle = pas de
+// lien cliquable pour ce bookmaker (le nom reste en texte
+// simple, aucun bouton ne s'affiche pour lui).
+const AFFILIATE_LINKS = {
+    betwinner: "https://bw-prm.com/wc-2026-200-lite/?s1=Zicote.site&p=%2Fregistration%2F&id=38NP",
+    melbet: "https://refpa3665.com/L?tag=d_6076923m_66329c_&site=6076923&ad=66329",
+    megapari: null,
+    "1win": "https://1win.com/betting?p=mvh5&sharebet=Zicote",
+    winwin: "https://refpa49781.com/L?tag=d_6076846m_94904c_&site=6076846&ad=94904",
+    "1xbet": "https://reffpa.com/L?tag=d_6076956m_1599c_&site=6076956&ad=1599",
+    paripesa: null
+};
 const ROW_LABELS = {
     V1: "1",
     X: "X",
@@ -534,22 +575,47 @@ function renderHero(matches) {
         return;
     }
 
+    // On privilégie une cote dont le bookmaker a un lien
+    // d'affiliation actif (utile pour le bouton), et on ne
+    // retombe sur la cote la plus haute toutes catégories que
+    // si aucune n'est liée à un bookmaker affilié.
     let bestMatch = null;
     let bestRow = null;
+
+    let bestMatchAny = null;
+    let bestRowAny = null;
 
     for (const match of matches) {
 
         for (const market of match.marches) {
 
             if (
-                !bestRow ||
-                market.meilleure_cote > bestRow.meilleure_cote
+                !bestRowAny ||
+                market.meilleure_cote > bestRowAny.meilleure_cote
             ) {
 
-                bestRow = market;
-                bestMatch = match;
+                bestRowAny = market;
+                bestMatchAny = match;
+            }
+
+            if (AFFILIATE_LINKS[market.meilleur_site]) {
+
+                if (
+                    !bestRow ||
+                    market.meilleure_cote > bestRow.meilleure_cote
+                ) {
+
+                    bestRow = market;
+                    bestMatch = match;
+                }
             }
         }
+    }
+
+    if (!bestMatch) {
+
+        bestMatch = bestMatchAny;
+        bestRow = bestRowAny;
     }
 
     if (!bestMatch) {
@@ -559,6 +625,12 @@ function renderHero(matches) {
 
         return;
     }
+
+    const link = AFFILIATE_LINKS[bestRow.meilleur_site];
+
+    const cta = link
+        ? `<a class="cta-button" href="${link}" target="_blank" rel="noopener sponsored">S'inscrire pour profiter de cette cote</a>`
+        : "";
 
     el.innerHTML = `
         <div class="hero-teaser__match">
@@ -574,6 +646,7 @@ function renderHero(matches) {
                 <span class="hero-teaser__odds-label">
                     meilleure cote chez ${escapeHTML(NAMES[bestRow.meilleur_site] || bestRow.meilleur_site)}
                 </span>
+                <div class="hero-teaser__cta">${cta}</div>
             </div>
         </div>
     `;
@@ -593,9 +666,17 @@ function renderMarketTable(match, keys, title) {
         b => match.bookmakers.includes(b)
     );
 
-    const headerCells = columns.map(
-        b => `<th>${escapeHTML(NAMES[b])}</th>`
-    ).join("");
+    const headerCells = columns.map(b => {
+
+        const link = AFFILIATE_LINKS[b];
+
+        const label = escapeHTML(NAMES[b]);
+
+        return link
+            ? `<th><a class="book-link" href="${link}" target="_blank" rel="noopener sponsored">${label}</a></th>`
+            : `<th>${label}</th>`;
+
+    }).join("");
 
     const bodyRows = rows.map(market => {
 
@@ -644,6 +725,24 @@ function renderMarketTable(match, keys, title) {
     `;
 }
 
+function bestAffiliateOdds(match) {
+
+    let best = null;
+
+    for (const market of match.marches) {
+
+        if (!AFFILIATE_LINKS[market.meilleur_site]) {
+            continue;
+        }
+
+        if (!best || market.meilleure_cote > best.meilleure_cote) {
+            best = market;
+        }
+    }
+
+    return best;
+}
+
 function render(list) {
 
     const app = document.getElementById("app");
@@ -665,6 +764,12 @@ function render(list) {
             group => renderMarketTable(match, group.keys, group.title)
         ).join("");
 
+        const bestAff = bestAffiliateOdds(match);
+
+        const cta = bestAff
+            ? `<a class="cta-button" href="${AFFILIATE_LINKS[bestAff.meilleur_site]}" target="_blank" rel="noopener sponsored">S'inscrire chez ${escapeHTML(NAMES[bestAff.meilleur_site])} pour profiter de cette cote</a>`
+            : "";
+
         return `
             <section class="match">
                 <h2 class="match__teams">
@@ -672,10 +777,8 @@ function render(list) {
                     <span class="vs">–</span>
                     ${escapeHTML(match.equipe_2)}
                 </h2>
-                <p class="match__books">
-                    ${match.bookmakers.length} bookmaker(s) comparé(s)
-                </p>
                 ${tables}
+                ${cta}
             </section>
         `;
 
