@@ -2,8 +2,8 @@ name: Zicote - Update Odds
 
 on:
   schedule:
-    # Toutes les 4 heures
-    - cron: "17 */4 * * *"
+    # Toutes les heures
+    - cron: "0 * * * *"
 
   workflow_dispatch:
 
