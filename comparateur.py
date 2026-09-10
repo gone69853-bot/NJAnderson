@@ -1,3 +1,4 @@
+import datetime
 import json
 import re
 
@@ -353,11 +354,21 @@ def build():
                 markets,
         })
 
+    payload = {
+
+        "genere_le":
+            datetime.datetime.now(
+                datetime.timezone.utc
+            ).isoformat(),
+
+        "matchs": output,
+    }
+
     Path(
-        "comparison.json"
+        "docs/comparison.json"
     ).write_text(
         json.dumps(
-            output,
+            payload,
             ensure_ascii=False,
             separators=(
                 ",",
@@ -374,16 +385,4 @@ def build():
 
 if __name__ == "__main__":
 
-Path(
-        "docs/comparison.json"
-    ).write_text(
-        json.dumps(
-            output,
-            ensure_ascii=False,
-            separators=(
-                ",",
-                ":"
-            )
-        ),
-        encoding="utf-8"
-)
+    build()
