@@ -1,23 +1,6 @@
 [
   {
     "bookmaker": "paripesa",
-    "equipe_1": "Estrela Da",
-    "equipe_2": "Amadora Braga",
-    "1X2": {
-      "V1": "6.3",
-      "X": "3.92",
-      "V2": "1.56"
-    },
-    "Total_2.5": {
-      "Plus de": "2.06",
-      "Moins de": "1.765"
-    },
-    "url": "https://paripesa.cm/fr/line/football/3007689-portugal-primeira-liga/366903092-estrela-da-amadora-braga",
-    "derniere_maj": "2026-09-10T19:05:31.642593+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "paripesa",
     "equipe_1": "Chelsea",
     "equipe_2": "Hull City",
     "1X2": {
@@ -30,7 +13,7 @@
       "Moins de": "2.72"
     },
     "url": "https://paripesa.cm/fr/line/football/88637-england-premier-league/364947828-chelsea-hull-city",
-    "derniere_maj": "2026-09-10T19:05:40.982508+00:00",
+    "derniere_maj": "2026-09-10T21:43:13.935046+00:00",
     "statut": "ok"
   },
   {
@@ -43,11 +26,11 @@
       "V2": "1.16"
     },
     "Total_2.5": {
-      "Plus de": "1.125",
-      "Moins de": "4.65"
+      "Plus de": "1.126",
+      "Moins de": "4.6"
     },
     "url": "https://paripesa.cm/fr/line/football/96463-germany-bundesliga/364956160-elversberg-bayern-munich",
-    "derniere_maj": "2026-09-10T19:05:50.493358+00:00",
+    "derniere_maj": "2026-09-10T21:43:21.078057+00:00",
     "statut": "ok"
   },
   {
@@ -60,11 +43,11 @@
       "V2": "1.48"
     },
     "Total_2.5": {
-      "Plus de": "2.06",
-      "Moins de": "1.76"
+      "Plus de": "2.05",
+      "Moins de": "1.77"
     },
     "url": "https://paripesa.cm/fr/line/football/88637-england-premier-league/364947844-sunderland-arsenal",
-    "derniere_maj": "2026-09-10T19:06:00.076369+00:00",
+    "derniere_maj": "2026-09-10T21:43:28.112891+00:00",
     "statut": "ok"
   },
   {
@@ -81,7 +64,24 @@
       "Moins de": "3.04"
     },
     "url": "https://paripesa.cm/fr/line/football/96463-germany-bundesliga/364956144-borussia-dortmund-paderborn-07",
-    "derniere_maj": "2026-09-10T19:06:09.435307+00:00",
+    "derniere_maj": "2026-09-10T21:43:35.217679+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Levante",
+    "equipe_2": "Ud Barcelona",
+    "1X2": {
+      "V1": "15",
+      "X": "8.4",
+      "V2": "1.15"
+    },
+    "Total_2.5": {
+      "Plus de": "1.23",
+      "Moins de": "3.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/127733-spain-la-liga/366613402-levante-ud-barcelona",
+    "derniere_maj": "2026-09-10T21:43:42.313658+00:00",
     "statut": "ok"
   }
 ]

@@ -1,87 +1,138 @@
 [
   {
     "bookmaker": "betwinner",
-    "equipe_1": "Bayern Munich",
-    "equipe_2": "Bodo Glimt",
+    "equipe_1": "Chelsea",
+    "equipe_2": "Hull City",
     "1X2": {
-      "V1": "1.06",
-      "X": "14",
-      "V2": "26"
-    },
-    "Total_2.5": {
-      "Plus de": "1.053",
-      "Moins de": "6.4"
-    },
-    "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364650232-bayern-munich-bodo-glimt",
-    "derniere_maj": "2026-09-10T18:29:19.657012+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Manchester United",
-    "equipe_2": "Sabah Baku",
-    "1X2": {
-      "V1": "1.056",
-      "X": "12.5",
-      "V2": "39"
-    },
-    "Total_2.5": {
-      "Plus de": "1.129",
-      "Moins de": "4.7"
-    },
-    "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364650242-manchester-united-sabah-baku",
-    "derniere_maj": "2026-09-10T18:29:28.630094+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Como",
-    "equipe_2": "Rasenballsport Leipzig",
-    "1X2": {
-      "V1": "1.704",
-      "X": "4.16",
-      "V2": "4.4"
+      "V1": "1.248",
+      "X": "6.05",
+      "V2": "11.5"
     },
     "Total_2.5": {
       "Plus de": "1.39",
       "Moins de": "2.72"
     },
-    "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364659592-como-rasenballsport-leipzig",
-    "derniere_maj": "2026-09-10T18:29:37.576989+00:00",
+    "url": "https://betwinner.cm/fr/line/football/88637-england-premier-league/364947828-chelsea-hull-city",
+    "derniere_maj": "2026-09-10T21:23:52.844492+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "betwinner",
-    "equipe_1": "Slavia Prague",
-    "equipe_2": "Rc Lens",
+    "equipe_1": "Elversberg",
+    "equipe_2": "Bayern Munich",
     "1X2": {
-      "V1": "2.725",
-      "X": "3.54",
+      "V1": "15",
+      "X": "7.9",
+      "V2": "1.16"
+    },
+    "Total_2.5": {
+      "Plus de": "1.126",
+      "Moins de": "4.6"
+    },
+    "url": "https://betwinner.cm/fr/line/football/96463-germany-bundesliga/364956160-elversberg-bayern-munich",
+    "derniere_maj": "2026-09-10T21:23:59.659367+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Sunderland",
+    "equipe_2": "Arsenal",
+    "1X2": {
+      "V1": "7.3",
+      "X": "4.16",
+      "V2": "1.48"
+    },
+    "Total_2.5": {
+      "Plus de": "2.05",
+      "Moins de": "1.77"
+    },
+    "url": "https://betwinner.cm/fr/line/football/88637-england-premier-league/364947844-sunderland-arsenal",
+    "derniere_maj": "2026-09-10T21:24:06.804274+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Borussia Dortmund",
+    "equipe_2": "Paderborn 07",
+    "1X2": {
+      "V1": "1.225",
+      "X": "6.75",
+      "V2": "11"
+    },
+    "Total_2.5": {
+      "Plus de": "1.32",
+      "Moins de": "3.04"
+    },
+    "url": "https://betwinner.cm/fr/line/football/96463-germany-bundesliga/364956144-borussia-dortmund-paderborn-07",
+    "derniere_maj": "2026-09-10T21:24:15.646556+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Levante",
+    "equipe_2": "Ud Barcelona",
+    "1X2": {
+      "V1": "16",
+      "X": "8.3",
+      "V2": "1.144"
+    },
+    "Total_2.5": {
+      "Plus de": "1.23",
+      "Moins de": "3.64"
+    },
+    "url": "https://betwinner.cm/fr/line/football/127733-spain-la-liga/366613402-levante-ud-barcelona",
+    "derniere_maj": "2026-09-10T21:24:22.559429+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Blaublitz Akita",
+    "equipe_2": "Tokushima Vortis",
+    "1X2": {
+      "V1": "2.625",
+      "X": "3.02",
+      "V2": "2.51"
+    },
+    "Total_2.5": {
+      "Plus de": "2.27",
+      "Moins de": "1.56"
+    },
+    "url": "https://betwinner.cm/fr/line/football/30005-japan-j-league-division-2/367111090-blaublitz-akita-tokushima-vortis",
+    "derniere_maj": "2026-09-10T21:24:29.591698+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Iwaki",
+    "equipe_2": "Yokohama",
+    "1X2": {
+      "V1": "3.05",
+      "X": "3.2",
+      "V2": "2.18"
+    },
+    "Total_2.5": {
+      "Plus de": "1.89",
+      "Moins de": "1.81"
+    },
+    "url": "https://betwinner.cm/fr/line/football/30005-japan-j-league-division-2/367445792-iwaki-yokohama",
+    "derniere_maj": "2026-09-10T21:24:38.585472+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Giravanz Kitakyushu",
+    "equipe_2": "Gainare Tottori",
+    "1X2": {
+      "V1": "2.52",
+      "X": "3.2",
       "V2": "2.48"
     },
     "Total_2.5": {
-      "Plus de": "1.58",
-      "Moins de": "2.38"
+      "Plus de": "1.88",
+      "Moins de": "1.81"
     },
-    "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/364650240-slavia-prague-rc-lens",
-    "derniere_maj": "2026-09-10T18:29:46.707139+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Estrela Da",
-    "equipe_2": "Amadora Braga",
-    "1X2": {
-      "V1": "6.15",
-      "X": "3.94",
-      "V2": "1.57"
-    },
-    "Total_2.5": {
-      "Plus de": "2.016",
-      "Moins de": "1.792"
-    },
-    "url": "https://betwinner.cm/fr/line/football/3007689-portugal-primeira-liga/366903092-estrela-da-amadora-braga",
-    "derniere_maj": "2026-09-10T18:29:55.907470+00:00",
+    "url": "https://betwinner.cm/fr/line/football/32869-japan-j3-league/368333198-giravanz-kitakyushu-gainare-tottori",
+    "derniere_maj": "2026-09-10T21:24:45.523707+00:00",
     "statut": "ok"
   }
 ]
