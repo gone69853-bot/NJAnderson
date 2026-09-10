@@ -172,6 +172,14 @@ a {
     text-align: right;
 }
 
+.hero-teaser__market {
+    display: block;
+    font-size: 13px;
+    color: var(--chalk);
+    opacity: 0.75;
+    margin-bottom: 2px;
+}
+
 .hero-teaser__odds-value {
     font-family: var(--font-mono);
     font-size: 26px;
@@ -329,15 +337,43 @@ table.odds-table {
     color: var(--ink);
 }
 
-.odds-table td.missing {
-    color: var(--line);
-}
-
 .odds-table td.best {
     background: var(--flag-gold);
     color: var(--gold-ink);
     font-weight: 600;
     border-radius: 3px;
+}
+
+.single-odds__source {
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    margin: 0 0 8px;
+}
+
+.single-odds {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.single-odds__chip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--flag-gold);
+    color: var(--gold-ink);
+    border-radius: var(--radius);
+    padding: 8px 12px;
+    font-family: var(--font-mono);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.single-odds__label {
+    font-family: var(--font-body);
+    font-weight: 500;
+    font-size: 11.5px;
+    opacity: 0.8;
 }
 
 .book-link {
@@ -490,6 +526,7 @@ const AFFILIATE_LINKS = {
     "1xbet": "https://reffpa.com/L?tag=d_6076956m_1599c_&site=6076956&ad=1599",
     paripesa: null
 };
+
 const ROW_LABELS = {
     V1: "1",
     X: "X",
@@ -560,6 +597,30 @@ function renderSearchMeta(count) {
     }
 
     el.textContent = parts.join(", ");
+}
+
+function marketLabel(match, market) {
+
+    switch (market.marche) {
+
+        case "V1":
+            return "Victoire " + match.equipe_1;
+
+        case "V2":
+            return "Victoire " + match.equipe_2;
+
+        case "X":
+            return "Match nul";
+
+        case "Plus de":
+            return "Plus de 2,5 buts";
+
+        case "Moins de":
+            return "Moins de 2,5 buts";
+
+        default:
+            return market.marche;
+    }
 }
 
 function renderHero(matches) {
@@ -640,14 +701,51 @@ function renderHero(matches) {
                 ${escapeHTML(bestMatch.equipe_2)}
             </p>
             <div class="hero-teaser__odds">
+                <span class="hero-teaser__market">
+                    ${escapeHTML(marketLabel(bestMatch, bestRow))}
+                </span>
                 <span class="hero-teaser__odds-value">
                     ${bestRow.meilleure_cote}
                 </span>
                 <span class="hero-teaser__odds-label">
-                    meilleure cote chez ${escapeHTML(NAMES[bestRow.meilleur_site] || bestRow.meilleur_site)}
+                    chez ${escapeHTML(NAMES[bestRow.meilleur_site] || bestRow.meilleur_site)}
                 </span>
                 <div class="hero-teaser__cta">${cta}</div>
             </div>
+        </div>
+    `;
+}
+
+function renderSingleBookmaker(rows, bookmaker, title) {
+
+    const link = AFFILIATE_LINKS[bookmaker];
+
+    const label = escapeHTML(NAMES[bookmaker] || bookmaker);
+
+    const chips = rows.map(market => {
+
+        const value = market.valeurs[bookmaker];
+
+        return `
+            <div class="single-odds__chip">
+                <span class="single-odds__label">
+                    ${escapeHTML(ROW_LABELS[market.marche] || market.marche)}
+                </span>
+                <span class="single-odds__value">${value}</span>
+            </div>
+        `;
+
+    }).join("");
+
+    const nameMarkup = link
+        ? `<a class="book-link" href="${link}" target="_blank" rel="noopener sponsored">${label}</a>`
+        : label;
+
+    return `
+        <div class="market-group">
+            <p class="market-group__title">${title}</p>
+            <p class="single-odds__source">Meilleure cote chez ${nameMarkup}</p>
+            <div class="single-odds">${chips}</div>
         </div>
     `;
 }
@@ -662,9 +760,21 @@ function renderMarketTable(match, keys, title) {
         return "";
     }
 
+    // Un bookmaker n'entre dans le tableau que s'il a une valeur
+    // pour CHAQUE ligne de ce marché — jamais de case vide.
     const columns = BOOKMAKERS.filter(
-        b => match.bookmakers.includes(b)
+        b =>
+            match.bookmakers.includes(b) &&
+            rows.every(market => market.valeurs[b] !== undefined)
     );
+
+    if (!columns.length) {
+        return "";
+    }
+
+    if (columns.length === 1) {
+        return renderSingleBookmaker(rows, columns[0], title);
+    }
 
     const headerCells = columns.map(b => {
 
@@ -683,10 +793,6 @@ function renderMarketTable(match, keys, title) {
         const cells = columns.map(bookmaker => {
 
             const value = market.valeurs[bookmaker];
-
-            if (value === undefined) {
-                return '<td class="missing">–</td>';
-            }
 
             const isBest = bookmaker === market.meilleur_site;
 
@@ -855,4 +961,4 @@ fetch("comparison.json", { cache: "no-store" })
 </script>
 
 </body>
-</html>
+        </html>
