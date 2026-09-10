@@ -1,4 +1,3 @@
-
 import os
 
 
@@ -13,7 +12,7 @@ PROXY_SERVER = os.getenv(
 
 PROXY_USERNAME = os.getenv(
     "PROXY_USERNAME",
-    "hmbmocqu-JP-rotate"
+    "kecsytba-JP-rotate"
 )
 
 PROXY_PASSWORD = os.getenv(
