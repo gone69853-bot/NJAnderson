@@ -1,36 +1,19 @@
 [
   {
     "bookmaker": "betwinner",
-    "equipe_1": "Chelsea",
-    "equipe_2": "Hull City",
+    "equipe_1": "Sevilla",
+    "equipe_2": "Valencia",
     "1X2": {
-      "V1": "1.225",
-      "X": "6.35",
-      "V2": "12"
+      "V1": "1.91",
+      "X": "3.3",
+      "V2": "4.4"
     },
     "Total_2.5": {
-      "Plus de": "1.363",
-      "Moins de": "2.83"
+      "Plus de": "2.275",
+      "Moins de": "1.63"
     },
-    "url": "https://betwinner.cm/fr/line/football/88637-england-premier-league/364947828-chelsea-hull-city",
-    "derniere_maj": "2026-09-11T14:06:25.712064+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Sunderland",
-    "equipe_2": "Arsenal",
-    "1X2": {
-      "V1": "7.4",
-      "X": "4.2",
-      "V2": "1.47"
-    },
-    "Total_2.5": {
-      "Plus de": "2.04",
-      "Moins de": "1.78"
-    },
-    "url": "https://betwinner.cm/fr/line/football/88637-england-premier-league/364947844-sunderland-arsenal",
-    "derniere_maj": "2026-09-11T14:06:34.650790+00:00",
+    "url": "https://betwinner.cm/fr/line/football/127733-spain-la-liga/366613972-sevilla-valencia",
+    "derniere_maj": "2026-09-11T15:44:48.764592+00:00",
     "statut": "ok"
   },
   {
@@ -47,24 +30,41 @@
       "Moins de": "2.62"
     },
     "url": "https://betwinner.cm/fr/line/football/12821-france-ligue-1/364948092-stade-rennais-olympique-de-marseille",
-    "derniere_maj": "2026-09-11T14:06:41.548634+00:00",
+    "derniere_maj": "2026-09-11T15:44:57.886711+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "betwinner",
-    "equipe_1": "Sevilla",
-    "equipe_2": "Valencia",
+    "equipe_1": "Chelsea",
+    "equipe_2": "Hull City",
     "1X2": {
-      "V1": "1.93",
-      "X": "3.28",
-      "V2": "4.3"
+      "V1": "1.225",
+      "X": "6.35",
+      "V2": "12"
     },
     "Total_2.5": {
-      "Plus de": "2.275",
-      "Moins de": "1.63"
+      "Plus de": "1.363",
+      "Moins de": "2.83"
     },
-    "url": "https://betwinner.cm/fr/line/football/127733-spain-la-liga/366613972-sevilla-valencia",
-    "derniere_maj": "2026-09-11T14:06:50.764307+00:00",
+    "url": "https://betwinner.cm/fr/line/football/88637-england-premier-league/364947828-chelsea-hull-city",
+    "derniere_maj": "2026-09-11T15:45:06.934939+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Sunderland",
+    "equipe_2": "Arsenal",
+    "1X2": {
+      "V1": "7.3",
+      "X": "4.16",
+      "V2": "1.48"
+    },
+    "Total_2.5": {
+      "Plus de": "2.04",
+      "Moins de": "1.78"
+    },
+    "url": "https://betwinner.cm/fr/line/football/88637-england-premier-league/364947844-sunderland-arsenal",
+    "derniere_maj": "2026-09-11T15:45:15.891035+00:00",
     "statut": "ok"
   },
   {
@@ -81,7 +81,7 @@
       "Moins de": "3.08"
     },
     "url": "https://betwinner.cm/fr/line/football/96463-germany-bundesliga/364956144-borussia-dortmund-paderborn-07",
-    "derniere_maj": "2026-09-11T14:06:57.692260+00:00",
+    "derniere_maj": "2026-09-11T15:45:25.115300+00:00",
     "statut": "ok"
   }
 ]

@@ -1,19 +1,19 @@
 [
   {
     "bookmaker": "paripesa",
-    "equipe_1": "Chelsea",
-    "equipe_2": "Hull City",
+    "equipe_1": "Sevilla",
+    "equipe_2": "Valencia",
     "1X2": {
-      "V1": "1.225",
-      "X": "6.35",
-      "V2": "12"
+      "V1": "1.91",
+      "X": "3.3",
+      "V2": "4.4"
     },
     "Total_2.5": {
-      "Plus de": "1.363",
-      "Moins de": "2.83"
+      "Plus de": "2.275",
+      "Moins de": "1.63"
     },
-    "url": "https://paripesa.cm/fr/line/football/88637-england-premier-league/364947828-chelsea-hull-city",
-    "derniere_maj": "2026-09-11T14:46:25.998141+00:00",
+    "url": "https://paripesa.cm/fr/line/football/127733-spain-la-liga/366613972-sevilla-valencia",
+    "derniere_maj": "2026-09-11T16:16:34.850275+00:00",
     "statut": "ok"
   },
   {
@@ -30,24 +30,24 @@
       "Moins de": "2.62"
     },
     "url": "https://paripesa.cm/fr/line/football/12821-france-ligue-1/364948092-stade-rennais-olympique-de-marseille",
-    "derniere_maj": "2026-09-11T14:46:35.136050+00:00",
+    "derniere_maj": "2026-09-11T16:16:46.197487+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "paripesa",
-    "equipe_1": "Sevilla",
-    "equipe_2": "Valencia",
+    "equipe_1": "Chelsea",
+    "equipe_2": "Hull City",
     "1X2": {
-      "V1": "1.93",
-      "X": "3.28",
-      "V2": "4.3"
+      "V1": "1.225",
+      "X": "6.35",
+      "V2": "12"
     },
     "Total_2.5": {
-      "Plus de": "2.275",
-      "Moins de": "1.63"
+      "Plus de": "1.363",
+      "Moins de": "2.83"
     },
-    "url": "https://paripesa.cm/fr/line/football/127733-spain-la-liga/366613972-sevilla-valencia",
-    "derniere_maj": "2026-09-11T14:46:42.256001+00:00",
+    "url": "https://paripesa.cm/fr/line/football/88637-england-premier-league/364947828-chelsea-hull-city",
+    "derniere_maj": "2026-09-11T16:16:55.590922+00:00",
     "statut": "ok"
   },
   {
@@ -64,7 +64,7 @@
       "Moins de": "1.78"
     },
     "url": "https://paripesa.cm/fr/line/football/88637-england-premier-league/364947844-sunderland-arsenal",
-    "derniere_maj": "2026-09-11T14:46:49.807282+00:00",
+    "derniere_maj": "2026-09-11T16:17:04.986615+00:00",
     "statut": "ok"
   },
   {
@@ -81,7 +81,7 @@
       "Moins de": "3.08"
     },
     "url": "https://paripesa.cm/fr/line/football/96463-germany-bundesliga/364956144-borussia-dortmund-paderborn-07",
-    "derniere_maj": "2026-09-11T14:46:56.982861+00:00",
+    "derniere_maj": "2026-09-11T16:17:14.342767+00:00",
     "statut": "ok"
   },
   {
@@ -98,7 +98,7 @@
       "Moins de": "1.6"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753004-city--united-",
-    "derniere_maj": "2026-09-11T14:47:04.100953+00:00",
+    "derniere_maj": "2026-09-11T16:17:23.633951+00:00",
     "statut": "ok"
   },
   {
@@ -115,7 +115,7 @@
       "Moins de": "1.68"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753042-city--real-",
-    "derniere_maj": "2026-09-11T14:47:12.052183+00:00",
+    "derniere_maj": "2026-09-11T16:17:33.004811+00:00",
     "statut": "ok"
   },
   {
@@ -132,7 +132,7 @@
       "Moins de": "1.6"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753050-indy--louisville-",
-    "derniere_maj": "2026-09-11T14:47:19.107833+00:00",
+    "derniere_maj": "2026-09-11T16:17:42.524110+00:00",
     "statut": "ok"
   },
   {
@@ -149,7 +149,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752960-indy--rowdies-",
-    "derniere_maj": "2026-09-11T14:47:26.652185+00:00",
+    "derniere_maj": "2026-09-11T16:17:52.002781+00:00",
     "statut": "ok"
   },
   {
@@ -166,7 +166,7 @@
       "Moins de": "1.6"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752948-indy--tulsa-",
-    "derniere_maj": "2026-09-11T14:47:34.448231+00:00",
+    "derniere_maj": "2026-09-11T16:18:01.384133+00:00",
     "statut": "ok"
   },
   {
@@ -183,7 +183,7 @@
       "Moins de": "1.68"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753040-louisville--tulsa-",
-    "derniere_maj": "2026-09-11T14:47:41.643395+00:00",
+    "derniere_maj": "2026-09-11T16:18:10.662464+00:00",
     "statut": "ok"
   },
   {
@@ -200,7 +200,7 @@
       "Moins de": "1.68"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752992-louisville--rowdies-",
-    "derniere_maj": "2026-09-11T14:47:48.785838+00:00",
+    "derniere_maj": "2026-09-11T16:18:20.129330+00:00",
     "statut": "ok"
   },
   {
@@ -217,7 +217,7 @@
       "Moins de": "1.68"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752860-revolution--real-",
-    "derniere_maj": "2026-09-11T14:47:56.162659+00:00",
+    "derniere_maj": "2026-09-11T16:18:29.509365+00:00",
     "statut": "ok"
   },
   {
@@ -234,7 +234,7 @@
       "Moins de": "1.6"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752858-revolution--city-",
-    "derniere_maj": "2026-09-11T14:48:03.336004+00:00",
+    "derniere_maj": "2026-09-11T16:18:39.171955+00:00",
     "statut": "ok"
   },
   {
@@ -251,7 +251,7 @@
       "Moins de": "1.6"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752812-revolution--united-",
-    "derniere_maj": "2026-09-11T14:48:10.423341+00:00",
+    "derniere_maj": "2026-09-11T16:18:48.761132+00:00",
     "statut": "ok"
   },
   {
@@ -268,7 +268,7 @@
       "Moins de": "1.68"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752792-rowdies--tulsa-",
-    "derniere_maj": "2026-09-11T14:48:17.648821+00:00",
+    "derniere_maj": "2026-09-11T16:18:58.297601+00:00",
     "statut": "ok"
   },
   {
@@ -285,7 +285,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752890-united--real-",
-    "derniere_maj": "2026-09-11T14:48:24.781361+00:00",
+    "derniere_maj": "2026-09-11T16:19:07.897900+00:00",
     "statut": "ok"
   },
   {
@@ -302,7 +302,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752830-sounders--bulls-",
-    "derniere_maj": "2026-09-11T14:48:31.957618+00:00",
+    "derniere_maj": "2026-09-11T16:19:17.282249+00:00",
     "statut": "ok"
   },
   {
@@ -319,7 +319,7 @@
       "Moins de": "1.68"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752832-sounders--timber-",
-    "derniere_maj": "2026-09-11T14:48:39.481078+00:00",
+    "derniere_maj": "2026-09-11T16:19:26.819924+00:00",
     "statut": "ok"
   },
   {
@@ -336,7 +336,7 @@
       "Moins de": "1.68"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752784-timber--bulls-",
-    "derniere_maj": "2026-09-11T14:48:46.619272+00:00",
+    "derniere_maj": "2026-09-11T16:19:36.352896+00:00",
     "statut": "ok"
   },
   {
@@ -353,7 +353,7 @@
       "Moins de": "1.6"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752818-whitecaps--sounders-",
-    "derniere_maj": "2026-09-11T14:48:55.735006+00:00",
+    "derniere_maj": "2026-09-11T16:19:45.999986+00:00",
     "statut": "ok"
   },
   {
@@ -370,7 +370,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752732-whitecaps--timber-",
-    "derniere_maj": "2026-09-11T14:49:02.989692+00:00",
+    "derniere_maj": "2026-09-11T16:19:55.445526+00:00",
     "statut": "ok"
   },
   {
@@ -387,7 +387,7 @@
       "Moins de": "1.68"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752850-whitecaps--bulls-",
-    "derniere_maj": "2026-09-11T14:49:10.143095+00:00",
+    "derniere_maj": "2026-09-11T16:20:04.799972+00:00",
     "statut": "ok"
   },
   {
@@ -404,7 +404,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752778-inter--dynamo-",
-    "derniere_maj": "2026-09-11T14:49:17.595244+00:00",
+    "derniere_maj": "2026-09-11T16:20:14.789586+00:00",
     "statut": "ok"
   },
   {
@@ -421,7 +421,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752804-inter--union-",
-    "derniere_maj": "2026-09-11T14:49:24.798794+00:00",
+    "derniere_maj": "2026-09-11T16:20:24.691464+00:00",
     "statut": "ok"
   },
   {
@@ -438,7 +438,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752774-sporting--inter-",
-    "derniere_maj": "2026-09-11T14:49:32.670857+00:00",
+    "derniere_maj": "2026-09-11T16:20:34.340123+00:00",
     "statut": "ok"
   },
   {
@@ -455,7 +455,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752730-sporting--union-",
-    "derniere_maj": "2026-09-11T14:49:39.967519+00:00",
+    "derniere_maj": "2026-09-11T16:20:43.692322+00:00",
     "statut": "ok"
   },
   {
@@ -472,7 +472,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752742-sporting--dynamo-",
-    "derniere_maj": "2026-09-11T14:49:49.239856+00:00",
+    "derniere_maj": "2026-09-11T16:20:55.098691+00:00",
     "statut": "ok"
   },
   {
@@ -489,7 +489,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752720-union--dynamo-",
-    "derniere_maj": "2026-09-11T14:49:56.598596+00:00",
+    "derniere_maj": "2026-09-11T16:21:04.839687+00:00",
     "statut": "ok"
   },
   {
@@ -506,7 +506,7 @@
       "Moins de": "1.6"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752368-crew--minnesota-",
-    "derniere_maj": "2026-09-11T14:50:05.970183+00:00",
+    "derniere_maj": "2026-09-11T16:21:14.201257+00:00",
     "statut": "ok"
   },
   {
@@ -523,7 +523,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752364-dcunited--minnesota-",
-    "derniere_maj": "2026-09-11T14:50:13.002925+00:00",
+    "derniere_maj": "2026-09-11T16:21:23.943197+00:00",
     "statut": "ok"
   },
   {
@@ -540,7 +540,7 @@
       "Moins de": "1.68"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752372-dallas--dcunited-",
-    "derniere_maj": "2026-09-11T14:50:20.330225+00:00",
+    "derniere_maj": "2026-09-11T16:21:34.136651+00:00",
     "statut": "ok"
   },
   {
@@ -557,7 +557,7 @@
       "Moins de": "1.6"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752374-dallas--crew-",
-    "derniere_maj": "2026-09-11T14:50:27.973019+00:00",
+    "derniere_maj": "2026-09-11T16:21:43.468173+00:00",
     "statut": "ok"
   },
   {
@@ -574,7 +574,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753116-chivas--detroit-",
-    "derniere_maj": "2026-09-11T14:50:35.195904+00:00",
+    "derniere_maj": "2026-09-11T16:21:53.282407+00:00",
     "statut": "ok"
   },
   {
@@ -591,7 +591,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753082-chivas--las-vegas-",
-    "derniere_maj": "2026-09-11T14:50:42.732971+00:00",
+    "derniere_maj": "2026-09-11T16:22:02.963555+00:00",
     "statut": "ok"
   },
   {
@@ -608,7 +608,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753102-chivas--memphis-",
-    "derniere_maj": "2026-09-11T14:50:49.804946+00:00",
+    "derniere_maj": "2026-09-11T16:22:12.782039+00:00",
     "statut": "ok"
   },
   {
@@ -625,7 +625,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753086-detroit--memphis-",
-    "derniere_maj": "2026-09-11T14:50:56.899375+00:00",
+    "derniere_maj": "2026-09-11T16:22:22.677022+00:00",
     "statut": "ok"
   },
   {
@@ -642,7 +642,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753110-detroit--las-vegas-",
-    "derniere_maj": "2026-09-11T14:51:04.269371+00:00",
+    "derniere_maj": "2026-09-11T16:22:32.326089+00:00",
     "statut": "ok"
   },
   {
@@ -659,7 +659,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753076-las-vegas--memphis-",
-    "derniere_maj": "2026-09-11T14:51:11.932176+00:00",
+    "derniere_maj": "2026-09-11T16:22:42.024146+00:00",
     "statut": "ok"
   },
   {
@@ -676,7 +676,7 @@
       "Moins de": "1.84"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753234-cincinnati--orlando-",
-    "derniere_maj": "2026-09-11T14:51:19.311507+00:00",
+    "derniere_maj": "2026-09-11T16:22:51.397009+00:00",
     "statut": "ok"
   },
   {
@@ -693,7 +693,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753232-cincinnati--nashville-",
-    "derniere_maj": "2026-09-11T14:51:26.422993+00:00",
+    "derniere_maj": "2026-09-11T16:23:00.944984+00:00",
     "statut": "ok"
   },
   {
@@ -710,7 +710,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753238-nashville--orlando-",
-    "derniere_maj": "2026-09-11T14:51:33.565265+00:00",
+    "derniere_maj": "2026-09-11T16:23:11.157118+00:00",
     "statut": "ok"
   },
   {
@@ -727,7 +727,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753172-toronto-cincinnati-",
-    "derniere_maj": "2026-09-11T14:51:40.621648+00:00",
+    "derniere_maj": "2026-09-11T16:23:19.335791+00:00",
     "statut": "ok"
   },
   {
@@ -744,7 +744,7 @@
       "Moins de": "1.94"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753194-toronto-nashville-",
-    "derniere_maj": "2026-09-11T14:51:49.968441+00:00",
+    "derniere_maj": "2026-09-11T16:23:26.718949+00:00",
     "statut": "ok"
   },
   {
@@ -761,7 +761,7 @@
       "Moins de": "1.84"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753218-toronto-orlando-",
-    "derniere_maj": "2026-09-11T14:51:59.172534+00:00",
+    "derniere_maj": "2026-09-11T16:23:36.728876+00:00",
     "statut": "ok"
   },
   {
@@ -778,7 +778,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753352-austin--fusion-",
-    "derniere_maj": "2026-09-11T14:52:06.273651+00:00",
+    "derniere_maj": "2026-09-11T16:23:46.288788+00:00",
     "statut": "ok"
   },
   {
@@ -795,7 +795,7 @@
       "Moins de": "1.68"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753380-austin--st-louis-",
-    "derniere_maj": "2026-09-11T14:52:16.866074+00:00",
+    "derniere_maj": "2026-09-11T16:23:54.154194+00:00",
     "statut": "ok"
   },
   {
@@ -812,7 +812,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753360-birmingham--charleston-",
-    "derniere_maj": "2026-09-11T14:52:24.396824+00:00",
+    "derniere_maj": "2026-09-11T16:24:01.549040+00:00",
     "statut": "ok"
   },
   {
@@ -829,7 +829,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753376-birmingham--hartford-",
-    "derniere_maj": "2026-09-11T14:52:31.558614+00:00",
+    "derniere_maj": "2026-09-11T16:24:14.420202+00:00",
     "statut": "ok"
   },
   {
@@ -846,7 +846,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753386-birmingham--loudoun-",
-    "derniere_maj": "2026-09-11T14:52:38.928822+00:00",
+    "derniere_maj": "2026-09-11T16:24:24.184535+00:00",
     "statut": "ok"
   },
   {
@@ -863,7 +863,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753366-charleston--loudoun-",
-    "derniere_maj": "2026-09-11T14:52:46.218177+00:00",
+    "derniere_maj": "2026-09-11T16:24:33.774243+00:00",
     "statut": "ok"
   },
   {
@@ -880,7 +880,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753346-charleston--hartford-",
-    "derniere_maj": "2026-09-11T14:52:53.364719+00:00",
+    "derniere_maj": "2026-09-11T16:24:43.944969+00:00",
     "statut": "ok"
   },
   {
@@ -897,7 +897,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753348-hartford--loudoun-",
-    "derniere_maj": "2026-09-11T14:53:01.542004+00:00",
+    "derniere_maj": "2026-09-11T16:24:51.477274+00:00",
     "statut": "ok"
   },
   {
@@ -914,7 +914,7 @@
       "Moins de": "1.6"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753354-los-angeles--austin-",
-    "derniere_maj": "2026-09-11T14:53:08.778047+00:00",
+    "derniere_maj": "2026-09-11T16:25:01.860403+00:00",
     "statut": "ok"
   },
   {
@@ -931,7 +931,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753344-los-angeles--st-louis-",
-    "derniere_maj": "2026-09-11T14:53:18.071955+00:00",
+    "derniere_maj": "2026-09-11T16:25:11.466829+00:00",
     "statut": "ok"
   }
 ]
