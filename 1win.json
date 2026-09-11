@@ -1,53 +1,19 @@
 [
   {
     "bookmaker": "1win",
-    "equipe_1": "Cienciano",
-    "equipe_2": "Montevideo City Torque",
-    "1X2": {
-      "V1": "1.47",
-      "X": "4.12",
-      "V2": "7.2"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T00:17:56.583701+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Independiente del Valle",
-    "equipe_2": "Flamengo CR",
-    "1X2": {
-      "V1": "3.08",
-      "X": "2.98",
-      "V2": "2.52"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T00:17:56.583736+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
     "equipe_1": "Krylia Sovetov",
     "equipe_2": "Rodina",
     "1X2": {
-      "V1": "1.95",
-      "X": "3.7",
-      "V2": "3.75"
+      "V1": "1.88",
+      "X": "3.8",
+      "V2": "3.95"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T00:17:56.583748+00:00",
+    "derniere_maj": "2026-09-11T04:47:19.881954+00:00",
     "statut": "ok"
   },
   {
@@ -64,7 +30,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T00:17:56.583758+00:00",
+    "derniere_maj": "2026-09-11T04:47:19.881984+00:00",
     "statut": "ok"
   },
   {
@@ -81,7 +47,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T00:17:56.583768+00:00",
+    "derniere_maj": "2026-09-11T04:47:19.881998+00:00",
     "statut": "ok"
   },
   {
@@ -98,7 +64,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T00:17:56.583778+00:00",
+    "derniere_maj": "2026-09-11T04:47:19.882009+00:00",
     "statut": "ok"
   },
   {
@@ -115,7 +81,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T00:17:56.583787+00:00",
+    "derniere_maj": "2026-09-11T04:47:19.882021+00:00",
     "statut": "ok"
   },
   {
@@ -132,7 +98,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T00:17:56.583797+00:00",
+    "derniere_maj": "2026-09-11T04:47:19.882032+00:00",
     "statut": "ok"
   },
   {
@@ -149,7 +115,177 @@
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T00:17:56.583806+00:00",
+    "derniere_maj": "2026-09-11T04:47:19.882042+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Krasnodar",
+    "equipe_2": "Akron",
+    "1X2": {
+      "V1": "1.25",
+      "X": "6.1",
+      "V2": "11.0"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-11T04:47:19.882051+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Union Berlin",
+    "equipe_2": "Schalke 04",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.54",
+      "V2": "2.93"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-11T04:47:19.882061+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Borussia Dortmund",
+    "equipe_2": "SC Paderborn 07",
+    "1X2": {
+      "V1": "1.25",
+      "X": "6.7",
+      "V2": "10.7"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-11T04:47:19.882071+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Augsburg",
+    "equipe_2": "Bayer Leverkusen",
+    "1X2": {
+      "V1": "4.08",
+      "X": "4.15",
+      "V2": "1.81"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-11T04:47:19.882080+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "SC Freiburg",
+    "equipe_2": "Borussia M",
+    "1X2": {
+      "V1": "1.7",
+      "X": "4.23",
+      "V2": "4.54"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-11T04:47:19.882091+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "TSG 1899 Hoffenheim",
+    "equipe_2": "VfB Stuttgart",
+    "1X2": {
+      "V1": "2.36",
+      "X": "4.07",
+      "V2": "2.68"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-11T04:47:19.882101+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "FSV Mainz",
+    "equipe_2": "Eintracht Frankfurt",
+    "1X2": {
+      "V1": "1.98",
+      "X": "4.0",
+      "V2": "3.46"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-11T04:47:19.882112+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "FC Koln",
+    "equipe_2": "SV Werder Bremen",
+    "1X2": {
+      "V1": "2.09",
+      "X": "3.78",
+      "V2": "3.34"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-11T04:47:19.882122+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "RB Leipzig",
+    "equipe_2": "Hamburg",
+    "1X2": {
+      "V1": "1.36",
+      "X": "5.4",
+      "V2": "7.8"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-11T04:47:19.882132+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "SV Elversberg",
+    "equipe_2": "Bayern Munchen",
+    "1X2": {
+      "V1": "14.0",
+      "X": "8.4",
+      "V2": "1.17"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-11T04:47:19.882142+00:00",
     "statut": "ok"
   }
 ]
