@@ -1,9 +1,170 @@
+
 import datetime
 import json
 import re
+import unicodedata
 
 from pathlib import Path
 from difflib import SequenceMatcher
+
+
+# ============================================================
+# FICHES PAR MATCH (docs/{slug}/index.html)
+# ============================================================
+
+TEMPLATE_PATH = Path("templates/match_template.html")
+
+# Fichier qui garde la trace des dossiers générés lors du
+# dernier passage, pour pouvoir supprimer ceux des matchs qui
+# ont disparu (terminés / plus suivis) plutôt que de les laisser
+# s'accumuler indéfiniment dans docs/.
+MANIFEST_PATH = Path("docs/.match-slugs.json")
+
+
+def slugify(value):
+
+    value = unicodedata.normalize(
+        "NFKD",
+        str(value or "")
+    )
+
+    value = value.encode(
+        "ascii",
+        "ignore"
+    ).decode("ascii")
+
+    value = value.lower()
+
+    value = re.sub(
+        r"[^a-z0-9]+",
+        "-",
+        value
+    )
+
+    return value.strip("-")
+
+
+def match_slug(match):
+
+    return (
+        slugify(match.get("equipe_1"))
+        + "-"
+        + slugify(match.get("equipe_2"))
+    )
+
+
+def generate_match_pages(matches):
+
+    if not TEMPLATE_PATH.exists():
+
+        print(
+            "templates/match_template.html introuvable, "
+            "fiches par match ignorées"
+        )
+        return
+
+    template = TEMPLATE_PATH.read_text(
+        encoding="utf-8"
+    )
+
+    previous_slugs = []
+
+    if MANIFEST_PATH.exists():
+
+        try:
+
+            previous_slugs = json.loads(
+                MANIFEST_PATH.read_text(
+                    encoding="utf-8"
+                )
+            )
+
+        except Exception:
+
+            previous_slugs = []
+
+    current_slugs = []
+
+    for match in matches:
+
+        slug = match_slug(match)
+
+        if not slug:
+            continue
+
+        current_slugs.append(slug)
+
+        folder = Path("docs") / slug
+        folder.mkdir(
+            parents=True,
+            exist_ok=True
+        )
+
+        equipe_1 = match.get("equipe_1", "?")
+        equipe_2 = match.get("equipe_2", "?")
+
+        title = (
+            f"{equipe_1} – {equipe_2} · "
+            "Cotes en direct | Zicote"
+        )
+
+        description = (
+            f"Compare en direct les cotes de {equipe_1} - "
+            f"{equipe_2} chez plusieurs bookmakers."
+        )
+
+        # Les balises </script> dans les données (peu probable
+        # mais possible dans un nom d'équipe) casseraient le
+        # bloc JSON embarqué : on les neutralise.
+        match_json = json.dumps(
+            match,
+            ensure_ascii=False
+        ).replace("</", "<\\/")
+
+        html = (
+            template
+            .replace("__TITLE__", title)
+            .replace("__DESCRIPTION__", description)
+            .replace("__MATCH_JSON__", match_json)
+        )
+
+        (folder / "index.html").write_text(
+            html,
+            encoding="utf-8"
+        )
+
+    # Nettoyage des fiches qui ne correspondent plus à un match
+    # actuel.
+    for slug in previous_slugs:
+
+        if slug in current_slugs:
+            continue
+
+        folder = Path("docs") / slug
+        index_file = folder / "index.html"
+
+        if index_file.exists():
+
+            try:
+
+                index_file.unlink()
+                folder.rmdir()
+
+            except Exception:
+
+                pass
+
+    MANIFEST_PATH.write_text(
+        json.dumps(
+            current_slugs,
+            ensure_ascii=False
+        ),
+        encoding="utf-8"
+    )
+
+    print(
+        f"{len(current_slugs)} fiches de match générées"
+    )
 
 
 BOOKMAKERS = [
@@ -381,6 +542,8 @@ def build():
     print(
         f"{len(output)} matchs comparés"
     )
+
+    generate_match_pages(output)
 
 
 if __name__ == "__main__":
