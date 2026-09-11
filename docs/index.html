@@ -420,12 +420,12 @@ function renderMarketTable(match, keys, title) {
         return "";
     }
 
-    if (columns.length === 1) {
-        return renderSingleBookmaker(rows, columns[0], title);
+    if (columns.length < 2) {
+        return "";
     }
 
     if (ratesAreIdentical(rows, columns)) {
-        return renderSharedOdds(rows, columns, title);
+        return "";
     }
 
     const headerCells = columns.map(b => {
@@ -505,22 +505,15 @@ function render(list) {
 
     const app = document.getElementById("app");
 
-    renderSearchMeta(list.length);
-
-    if (!list.length) {
-
-        app.innerHTML =
-            '<p class="state-msg">Aucun match ne correspond à ta ' +
-            'recherche. Essaie un autre nom d\'équipe.</p>';
-
-        return;
-    }
-
-    app.innerHTML = list.map(match => {
+    const sections = list.map(match => {
 
         const tables = MARKET_GROUPS.map(
             group => renderMarketTable(match, group.keys, group.title)
         ).join("");
+
+        if (!tables) {
+            return "";
+        }
 
         const bestAff = bestAffiliateOdds(match);
 
@@ -548,7 +541,20 @@ function render(list) {
             </section>
         `;
 
-    }).join("");
+    }).filter(Boolean);
+
+    renderSearchMeta(sections.length);
+
+    if (!sections.length) {
+
+        app.innerHTML =
+            '<p class="state-msg">Aucun match ne correspond à ta ' +
+            'recherche. Essaie un autre nom d\'équipe.</p>';
+
+        return;
+    }
+
+    app.innerHTML = sections.join("");
 }
 
 function filterMatches() {
