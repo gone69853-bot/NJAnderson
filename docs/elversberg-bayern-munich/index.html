@@ -56,12 +56,13 @@
 </button>
 <div class="share-toast" id="shareToast">Lien copié</div>
 
-<script id="match-data" type="application/json">{"equipe_1": "Elversberg", "equipe_2": "Bayern Munich", "bookmakers": ["betwinner", "melbet", "megapari", "1win", "winwin", "1xbet", "paripesa"], "marches": [{"marche": "V1", "valeurs": {"betwinner": 15.0, "melbet": 15.0, "megapari": 16.0, "1win": 14.1, "winwin": 15.0, "1xbet": 16.0, "paripesa": 15.0}, "meilleur_site": "megapari", "meilleure_cote": 16.0}, {"marche": "X", "valeurs": {"betwinner": 8.0, "melbet": 8.0, "megapari": 8.35, "1win": 8.4, "winwin": 8.0, "1xbet": 8.35, "paripesa": 8.0}, "meilleur_site": "1win", "meilleure_cote": 8.4}, {"marche": "V2", "valeurs": {"betwinner": 1.155, "melbet": 1.155, "megapari": 1.198, "1win": 1.17, "winwin": 1.155, "1xbet": 1.198, "paripesa": 1.155}, "meilleur_site": "megapari", "meilleure_cote": 1.198}, {"marche": "Plus de", "valeurs": {"betwinner": 1.126, "1xbet": 1.126, "paripesa": 1.126}, "meilleur_site": "betwinner", "meilleure_cote": 1.126}, {"marche": "Moins de", "valeurs": {"betwinner": 4.6, "1xbet": 4.6, "paripesa": 4.6}, "meilleur_site": "betwinner", "meilleure_cote": 4.6}]}</script>
+<script id="match-data" type="application/json">{"equipe_1": "Elversberg", "equipe_2": "Bayern Munich", "bookmakers": ["betwinner", "melbet", "megapari", "1win", "winwin", "1xbet", "paripesa", "africa-bizbet"], "marches": [{"marche": "V1", "valeurs": {"betwinner": 15.0, "melbet": 15.0, "megapari": 16.5, "1win": 14.2, "winwin": 15.0, "1xbet": 16.5, "paripesa": 15.0, "africa-bizbet": 15.0}, "meilleur_site": "megapari", "meilleure_cote": 16.5}, {"marche": "X", "valeurs": {"betwinner": 8.2, "melbet": 8.2, "megapari": 8.5, "1win": 8.6, "winwin": 8.2, "1xbet": 8.5, "paripesa": 8.2, "africa-bizbet": 8.2}, "meilleur_site": "1win", "meilleure_cote": 8.6}, {"marche": "V2", "valeurs": {"betwinner": 1.15, "melbet": 1.15, "megapari": 1.193, "1win": 1.17, "winwin": 1.15, "1xbet": 1.193, "paripesa": 1.15, "africa-bizbet": 1.15}, "meilleur_site": "megapari", "meilleure_cote": 1.193}, {"marche": "Plus de", "valeurs": {"betwinner": 1.121, "1xbet": 1.121, "paripesa": 1.121}, "meilleur_site": "betwinner", "meilleure_cote": 1.121}, {"marche": "Moins de", "valeurs": {"betwinner": 4.7, "1xbet": 4.7, "paripesa": 4.7}, "meilleur_site": "betwinner", "meilleure_cote": 4.7}]}</script>
 <script>
 
 const NAMES = {
     betwinner: "Betwinner", melbet: "MelBet", megapari: "MegaPari",
-    "1win": "1win", winwin: "WinWin", "1xbet": "1xBet", paripesa: "Paripesa"
+    "1win": "1win", winwin: "WinWin", "1xbet": "1xBet", paripesa: "Paripesa",
+    "africa-bizbet": "Africa BizBet"
 };
 
 const AFFILIATE_LINKS = {
@@ -71,7 +72,8 @@ const AFFILIATE_LINKS = {
     "1win": "https://1win.com/betting?p=mvh5&sharebet=Zicote",
     winwin: "https://refpa49781.com/L?tag=d_6076846m_94904c_&site=6076846&ad=94904",
     "1xbet": "https://reffpa.com/L?tag=d_6076956m_1599c_&site=6076956&ad=1599",
-    paripesa: null
+    paripesa: null,
+    "africa-bizbet": null
 };
 
 const ROW_LABELS = { V1: "1", X: "X", V2: "2", "Plus de": "+2,5", "Moins de": "-2,5" };

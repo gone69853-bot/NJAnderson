@@ -4,16 +4,16 @@
     "equipe_1": "Chelsea",
     "equipe_2": "Hull City",
     "1X2": {
-      "V1": "1.271",
-      "X": "6.55",
-      "V2": "13.2"
+      "V1": "1.28",
+      "X": "6.44",
+      "V2": "12.6"
     },
     "Total_2.5": {
-      "Plus de": "1.38",
-      "Moins de": "2.76"
+      "Plus de": "1.37",
+      "Moins de": "2.8"
     },
     "url": "https://1xbet.cm/fr/line/football/88637-england-premier-league/364947828-chelsea-hull-city",
-    "derniere_maj": "2026-09-11T08:42:39.488614+00:00",
+    "derniere_maj": "2026-09-11T10:33:54.063415+00:00",
     "statut": "ok"
   },
   {
@@ -30,7 +30,7 @@
       "Moins de": "1.836"
     },
     "url": "https://1xbet.cm/fr/line/football/88637-england-premier-league/364947844-sunderland-arsenal",
-    "derniere_maj": "2026-09-11T08:42:54.813630+00:00",
+    "derniere_maj": "2026-09-11T10:34:00.884063+00:00",
     "statut": "ok"
   },
   {
@@ -38,16 +38,16 @@
     "equipe_1": "Elversberg",
     "equipe_2": "Bayern Munich",
     "1X2": {
-      "V1": "16",
-      "X": "8.35",
-      "V2": "1.198"
+      "V1": "16.5",
+      "X": "8.5",
+      "V2": "1.193"
     },
     "Total_2.5": {
-      "Plus de": "1.126",
-      "Moins de": "4.6"
+      "Plus de": "1.121",
+      "Moins de": "4.7"
     },
     "url": "https://1xbet.cm/fr/line/football/96463-germany-bundesliga/364956160-elversberg-bayern-munich",
-    "derniere_maj": "2026-09-11T08:43:10.716015+00:00",
+    "derniere_maj": "2026-09-11T10:34:07.698491+00:00",
     "statut": "ok"
   },
   {
@@ -55,16 +55,16 @@
     "equipe_1": "Levante",
     "equipe_2": "Ud Barcelona",
     "1X2": {
-      "V1": "17.5",
-      "X": "8.8",
-      "V2": "1.183"
+      "V1": "18",
+      "X": "9.05",
+      "V2": "1.176"
     },
     "Total_2.5": {
       "Plus de": "1.23",
       "Moins de": "3.64"
     },
     "url": "https://1xbet.cm/fr/line/football/127733-spain-la-liga/366613402-levante-ud-barcelona",
-    "derniere_maj": "2026-09-11T08:43:29.958108+00:00",
+    "derniere_maj": "2026-09-11T10:34:18.619857+00:00",
     "statut": "ok"
   },
   {
@@ -81,211 +81,41 @@
       "Moins de": "3.08"
     },
     "url": "https://1xbet.cm/fr/line/football/96463-germany-bundesliga/364956144-borussia-dortmund-paderborn-07",
-    "derniere_maj": "2026-09-11T08:43:45.381316+00:00",
+    "derniere_maj": "2026-09-11T10:34:25.519215+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1xbet",
-    "equipe_1": "Austin ",
-    "equipe_2": "Fusion ",
+    "equipe_1": "Santos Sporting",
+    "equipe_2": "Atletico De Boyeros",
     "1X2": {
-      "V1": "2.37",
-      "X": "3.01",
-      "V2": "2.19"
+      "V1": "3.48",
+      "X": "4.79",
+      "V2": "1.63"
     },
     "Total_2.5": {
       "Plus de": "1.91",
       "Moins de": "1.76"
     },
-    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368475542-austin--fusion-",
-    "derniere_maj": "2026-09-11T08:44:08.937893+00:00",
+    "url": "https://1xbet.cm/fr/line/football/2779554-cuba-liga-de-barrios/368542870-santos-sporting-atletico-de-boyeros",
+    "derniere_maj": "2026-09-11T10:34:32.412327+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1xbet",
-    "equipe_1": "Austin ",
-    "equipe_2": "St Louis ",
+    "equipe_1": "Leones De La",
+    "equipe_2": "Lisa Juvenil Plaza",
     "1X2": {
-      "V1": "2.2",
-      "X": "3.01",
-      "V2": "2.4"
+      "V1": "1.4",
+      "X": "5.45",
+      "V2": "4.7"
     },
     "Total_2.5": {
-      "Plus de": "2.01",
-      "Moins de": "1.68"
+      "Plus de": null,
+      "Moins de": null
     },
-    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368475590-austin--st-louis-",
-    "derniere_maj": "2026-09-11T08:44:22.151736+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Charleston ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": "2.07",
-      "Moins de": "1.64"
-    },
-    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368475442-birmingham--charleston-",
-    "derniere_maj": "2026-09-11T08:44:33.701558+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Hartford ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": "2.07",
-      "Moins de": "1.64"
-    },
-    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368475582-birmingham--hartford-",
-    "derniere_maj": "2026-09-11T08:44:44.223459+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": "2.07",
-      "Moins de": "1.64"
-    },
-    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368475586-birmingham--loudoun-",
-    "derniere_maj": "2026-09-11T08:44:53.497849+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Charleston ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": "2.07",
-      "Moins de": "1.64"
-    },
-    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368475548-charleston--loudoun-",
-    "derniere_maj": "2026-09-11T08:45:05.383024+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Charleston ",
-    "equipe_2": "Hartford ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": "2.07",
-      "Moins de": "1.64"
-    },
-    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368475604-charleston--hartford-",
-    "derniere_maj": "2026-09-11T08:45:15.156572+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Hartford ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": "2.07",
-      "Moins de": "1.64"
-    },
-    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368475564-hartford--loudoun-",
-    "derniere_maj": "2026-09-11T08:45:24.653914+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Los Angeles",
-    "equipe_2": " Austin ",
-    "1X2": {
-      "V1": "2.4",
-      "X": "3.01",
-      "V2": "2.2"
-    },
-    "Total_2.5": {
-      "Plus de": "2.13",
-      "Moins de": "1.6"
-    },
-    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368475596-los-angeles--austin-",
-    "derniere_maj": "2026-09-11T08:45:38.179851+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Los Angeles ",
-    "equipe_2": "St Louis ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.11",
-      "V2": "2.39"
-    },
-    "Total_2.5": {
-      "Plus de": "1.91",
-      "Moins de": "1.76"
-    },
-    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368475560-los-angeles--st-louis-",
-    "derniere_maj": "2026-09-11T08:45:47.743411+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Los Angeles",
-    "equipe_2": " Fusion ",
-    "1X2": {
-      "V1": "2.5",
-      "X": "3.08",
-      "V2": "2.11"
-    },
-    "Total_2.5": {
-      "Plus de": "2.13",
-      "Moins de": "1.6"
-    },
-    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368475494-los-angeles--fusion-",
-    "derniere_maj": "2026-09-11T08:45:56.903977+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "St Louis",
-    "equipe_2": " Fusion ",
-    "1X2": {
-      "V1": "2.39",
-      "X": "3.11",
-      "V2": "2.2"
-    },
-    "Total_2.5": {
-      "Plus de": "2.01",
-      "Moins de": "1.68"
-    },
-    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368475552-st-louis--fusion-",
-    "derniere_maj": "2026-09-11T08:46:14.807889+00:00",
+    "url": "https://1xbet.cm/fr/line/football/2779554-cuba-liga-de-barrios/368542876-leones-de-la-lisa-juvenil-plaza",
+    "derniere_maj": "2026-09-11T10:34:39.734143+00:00",
     "statut": "ok"
   }
 ]
