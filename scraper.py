@@ -153,15 +153,30 @@ def expand_accordions(page):
         return page.evaluate(
             """
             () => {
-                const fleches = document.querySelectorAll(
-                    '.ui-accordion-trigger__arrow:not([data-deja-clique])'
-                );
                 let compte = 0;
-                fleches.forEach(f => {
+
+                // Méthode principale : attribut ARIA standard, utilisé
+                // par la quasi-totalité des composants d'accordéon
+                // (React/Vue...), quel que soit le nom de classe CSS
+                // propre à chaque site.
+                document.querySelectorAll(
+                    '[aria-expanded="false"]'
+                ).forEach(el => {
+                    el.click();
+                    compte++;
+                });
+
+                // Repli : ancienne classe personnalisée déjà repérée
+                // sur certains sites de ce réseau, au cas où un site
+                // n'utilise pas aria-expanded.
+                document.querySelectorAll(
+                    '.ui-accordion-trigger__arrow:not([data-deja-clique])'
+                ).forEach(f => {
                     f.setAttribute('data-deja-clique', '1');
                     f.closest('[class*="accordion-trigger"]')?.click();
                     compte++;
                 });
+
                 return compte;
             }
             """
