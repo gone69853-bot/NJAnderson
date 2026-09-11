@@ -175,6 +175,7 @@ BOOKMAKERS = [
     "winwin",
     "1xbet",
     "paripesa",
+    "africa-bizbet",
 ]
 
 
@@ -549,3 +550,4 @@ def build():
 if __name__ == "__main__":
 
     build()
+
