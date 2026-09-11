@@ -323,7 +323,7 @@ def find_competition_links(page, base_url):
     return [url for url, _ in links]
 
 
-def click_maximize_buttons(page, bookmaker="", max_rounds=20):
+def click_maximize_buttons(page, bookmaker="", max_rounds=10):
     """
     Déploie les sections cachées derrière le bouton UI
     "Maximize" sur tous les bookmakers qui utilisent ce composant.
@@ -1008,7 +1008,7 @@ def scrape_1win(playwright):
 # du run (avec plusieurs sites x plusieurs matchs, 90 cycles
 # comme dans le script d'origine ferait un run bien trop long
 # en CI si plusieurs matchs échouent).
-MAX_WAIT_CYCLES = 40
+MAX_WAIT_CYCLES = 20  # réduit de 40 : 40s max d'attente par match au lieu de 80s
 
 
 def main():
