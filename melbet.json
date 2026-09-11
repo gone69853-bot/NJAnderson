@@ -4,16 +4,16 @@
     "equipe_1": "Chelsea",
     "equipe_2": "Hull City",
     "1X2": {
-      "V1": "1.248",
-      "X": "6.05",
-      "V2": "11.5"
+      "V1": "1.225",
+      "X": "6.3",
+      "V2": "12.5"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://melbet-cm.com/en/line/football/88637-england-premier-league/364947828-chelsea-hull-city",
-    "derniere_maj": "2026-09-10T21:26:59.021248+00:00",
+    "derniere_maj": "2026-09-11T00:01:03.965502+00:00",
     "statut": "ok"
   },
   {
@@ -30,7 +30,7 @@
       "Moins de": null
     },
     "url": "https://melbet-cm.com/en/line/football/96463-germany-bundesliga/364956160-elversberg-bayern-munich",
-    "derniere_maj": "2026-09-10T21:27:06.567065+00:00",
+    "derniere_maj": "2026-09-11T00:01:24.438957+00:00",
     "statut": "ok"
   },
   {
@@ -47,24 +47,7 @@
       "Moins de": null
     },
     "url": "https://melbet-cm.com/en/line/football/88637-england-premier-league/364947844-sunderland-arsenal",
-    "derniere_maj": "2026-09-10T21:27:14.096647+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Borussia Dortmund",
-    "equipe_2": "Paderborn 07",
-    "1X2": {
-      "V1": "1.225",
-      "X": "6.75",
-      "V2": "11"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://melbet-cm.com/en/line/football/96463-germany-bundesliga/364956144-borussia-dortmund-paderborn-07",
-    "derniere_maj": "2026-09-10T21:27:21.671016+00:00",
+    "derniere_maj": "2026-09-11T00:01:32.263334+00:00",
     "statut": "ok"
   },
   {
@@ -73,7 +56,7 @@
     "equipe_2": "Ud Barcelona",
     "1X2": {
       "V1": "16",
-      "X": "8.4",
+      "X": "8.3",
       "V2": "1.144"
     },
     "Total_2.5": {
@@ -81,41 +64,262 @@
       "Moins de": null
     },
     "url": "https://melbet-cm.com/en/line/football/127733-spain-la-liga/366613402-levante-ud-barcelona",
-    "derniere_maj": "2026-09-10T21:27:29.243483+00:00",
+    "derniere_maj": "2026-09-11T00:01:40.011346+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Independiente Del",
-    "equipe_2": "Valle Flamengo",
+    "equipe_1": "Sounders ",
+    "equipe_2": "Bulls ",
     "1X2": {
-      "V1": "3.34",
+      "V1": "2.37",
+      "X": "3.11",
+      "V2": "2.19"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/368475458-sounders--bulls-",
+    "derniere_maj": "2026-09-11T00:02:07.501415+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Sounders ",
+    "equipe_2": "Timber ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.01",
+      "V2": "2.4"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/368475588-sounders--timber-",
+    "derniere_maj": "2026-09-11T00:02:20.073010+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Timber ",
+    "equipe_2": "Bulls ",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/368475576-timber--bulls-",
+    "derniere_maj": "2026-09-11T00:02:30.350482+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Whitecaps ",
+    "equipe_2": "Sounders ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/368475688-whitecaps--sounders-",
+    "derniere_maj": "2026-09-11T00:02:40.527865+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Whitecaps ",
+    "equipe_2": "Timber ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.11",
+      "V2": "2.39"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/368475696-whitecaps--timber-",
+    "derniere_maj": "2026-09-11T00:02:50.570193+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Whitecaps ",
+    "equipe_2": "Bulls ",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/368475546-whitecaps--bulls-",
+    "derniere_maj": "2026-09-11T00:03:00.728179+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Inter ",
+    "equipe_2": "Dynamo ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/368475748-inter--dynamo-",
+    "derniere_maj": "2026-09-11T00:03:10.704895+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Inter ",
+    "equipe_2": "Union ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/368475700-inter--union-",
+    "derniere_maj": "2026-09-11T00:03:20.877421+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Sporting ",
+    "equipe_2": "Inter ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/368475708-sporting--inter-",
+    "derniere_maj": "2026-09-11T00:03:30.814749+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Sporting ",
+    "equipe_2": "Union ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/368475704-sporting--union-",
+    "derniere_maj": "2026-09-11T00:03:41.141882+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Sporting ",
+    "equipe_2": "Dynamo ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/368475732-sporting--dynamo-",
+    "derniere_maj": "2026-09-11T00:03:51.221510+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Union ",
+    "equipe_2": "Dynamo ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/368475728-union--dynamo-",
+    "derniere_maj": "2026-09-11T00:04:02.483564+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Crew ",
+    "equipe_2": "Minnesota ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/368475752-crew--minnesota-",
+    "derniere_maj": "2026-09-11T00:04:12.429948+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Dcunited ",
+    "equipe_2": "Minnesota ",
+    "1X2": {
+      "V1": "2.11",
       "X": "3.08",
-      "V2": "2.336"
+      "V2": "2.5"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
-    "url": "https://melbet-cm.com/en/line/football/142091-copa-libertadores/364354532-independiente-del-valle-flamengo",
-    "derniere_maj": "2026-09-10T21:27:36.825107+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/368475742-dcunited--minnesota-",
+    "derniere_maj": "2026-09-11T00:04:22.398820+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Club Cienciano Cusco",
-    "equipe_2": "Montevideo City Torque",
+    "equipe_1": "Dcunited ",
+    "equipe_2": "Crew ",
     "1X2": {
-      "V1": "1.56",
-      "X": "4.12",
-      "V2": "5.9"
+      "V1": "2.2",
+      "X": "3.01",
+      "V2": "2.4"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
-    "url": "https://melbet-cm.com/en/line/football/1528791-copa-sudamericana/364134062-club-cienciano-cusco-montevideo-city-torque",
-    "derniere_maj": "2026-09-10T21:27:44.411474+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/368475736-dcunited--crew-",
+    "derniere_maj": "2026-09-11T00:04:32.728055+00:00",
     "statut": "ok"
   }
 ]
