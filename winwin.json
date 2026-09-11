@@ -13,7 +13,41 @@
       "Moins de": null
     },
     "url": "https://winwin.bet/en/line/football/88637-england-premier-league/364947828-chelsea-hull-city",
-    "derniere_maj": "2026-09-11T13:24:45.932389+00:00",
+    "derniere_maj": "2026-09-11T14:33:27.392315+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Stade Rennais",
+    "equipe_2": "Olympique De Marseille",
+    "1X2": {
+      "V1": "2",
+      "X": "3.82",
+      "V2": "3.42"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://winwin.bet/en/line/football/12821-france-ligue-1/364948092-stade-rennais-olympique-de-marseille",
+    "derniere_maj": "2026-09-11T14:33:34.348323+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Sevilla",
+    "equipe_2": "Valencia",
+    "1X2": {
+      "V1": "1.93",
+      "X": "3.28",
+      "V2": "4.3"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://winwin.bet/en/line/football/127733-spain-la-liga/366613972-sevilla-valencia",
+    "derniere_maj": "2026-09-11T14:33:41.286301+00:00",
     "statut": "ok"
   },
   {
@@ -30,24 +64,7 @@
       "Moins de": null
     },
     "url": "https://winwin.bet/en/line/football/88637-england-premier-league/364947844-sunderland-arsenal",
-    "derniere_maj": "2026-09-11T13:24:52.836753+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Levante",
-    "equipe_2": "Ud Barcelona",
-    "1X2": {
-      "V1": "17",
-      "X": "8.7",
-      "V2": "1.135"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://winwin.bet/en/line/football/127733-spain-la-liga/366613402-levante-ud-barcelona",
-    "derniere_maj": "2026-09-11T13:24:59.678030+00:00",
+    "derniere_maj": "2026-09-11T14:33:51.285658+00:00",
     "statut": "ok"
   },
   {
@@ -64,24 +81,7 @@
       "Moins de": null
     },
     "url": "https://winwin.bet/en/line/football/96463-germany-bundesliga/364956144-borussia-dortmund-paderborn-07",
-    "derniere_maj": "2026-09-11T13:25:06.601053+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Elversberg",
-    "equipe_2": "Bayern Munich",
-    "1X2": {
-      "V1": "15",
-      "X": "8.1",
-      "V2": "1.15"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://winwin.bet/en/line/football/96463-germany-bundesliga/364956160-elversberg-bayern-munich",
-    "derniere_maj": "2026-09-11T13:25:13.740388+00:00",
+    "derniere_maj": "2026-09-11T14:33:58.448313+00:00",
     "statut": "ok"
   }
 ]

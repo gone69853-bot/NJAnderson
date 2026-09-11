@@ -9,11 +9,45 @@
       "V2": "12"
     },
     "Total_2.5": {
-      "Plus de": "1.37",
-      "Moins de": "2.8"
+      "Plus de": "1.363",
+      "Moins de": "2.83"
     },
     "url": "https://paripesa.cm/fr/line/football/88637-england-premier-league/364947828-chelsea-hull-city",
-    "derniere_maj": "2026-09-11T13:38:12.968200+00:00",
+    "derniere_maj": "2026-09-11T14:46:25.998141+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Stade Rennais",
+    "equipe_2": "Olympique De Marseille",
+    "1X2": {
+      "V1": "2",
+      "X": "3.82",
+      "V2": "3.42"
+    },
+    "Total_2.5": {
+      "Plus de": "1.44",
+      "Moins de": "2.62"
+    },
+    "url": "https://paripesa.cm/fr/line/football/12821-france-ligue-1/364948092-stade-rennais-olympique-de-marseille",
+    "derniere_maj": "2026-09-11T14:46:35.136050+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Sevilla",
+    "equipe_2": "Valencia",
+    "1X2": {
+      "V1": "1.93",
+      "X": "3.28",
+      "V2": "4.3"
+    },
+    "Total_2.5": {
+      "Plus de": "2.275",
+      "Moins de": "1.63"
+    },
+    "url": "https://paripesa.cm/fr/line/football/127733-spain-la-liga/366613972-sevilla-valencia",
+    "derniere_maj": "2026-09-11T14:46:42.256001+00:00",
     "statut": "ok"
   },
   {
@@ -30,24 +64,7 @@
       "Moins de": "1.78"
     },
     "url": "https://paripesa.cm/fr/line/football/88637-england-premier-league/364947844-sunderland-arsenal",
-    "derniere_maj": "2026-09-11T13:38:22.793540+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "paripesa",
-    "equipe_1": "Levante",
-    "equipe_2": "Ud Barcelona",
-    "1X2": {
-      "V1": "17",
-      "X": "8.7",
-      "V2": "1.135"
-    },
-    "Total_2.5": {
-      "Plus de": "1.222",
-      "Moins de": "3.72"
-    },
-    "url": "https://paripesa.cm/fr/line/football/127733-spain-la-liga/366613402-levante-ud-barcelona",
-    "derniere_maj": "2026-09-11T13:38:32.165669+00:00",
+    "derniere_maj": "2026-09-11T14:46:49.807282+00:00",
     "statut": "ok"
   },
   {
@@ -64,24 +81,857 @@
       "Moins de": "3.08"
     },
     "url": "https://paripesa.cm/fr/line/football/96463-germany-bundesliga/364956144-borussia-dortmund-paderborn-07",
-    "derniere_maj": "2026-09-11T13:38:39.303268+00:00",
+    "derniere_maj": "2026-09-11T14:46:56.982861+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "paripesa",
-    "equipe_1": "Elversberg",
-    "equipe_2": "Bayern Munich",
+    "equipe_1": "City ",
+    "equipe_2": "United ",
     "1X2": {
-      "V1": "15",
-      "X": "8.2",
-      "V2": "1.15"
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
     },
     "Total_2.5": {
-      "Plus de": "1.12",
-      "Moins de": "4.7"
+      "Plus de": "2.13",
+      "Moins de": "1.6"
     },
-    "url": "https://paripesa.cm/fr/line/football/96463-germany-bundesliga/364956160-elversberg-bayern-munich",
-    "derniere_maj": "2026-09-11T13:38:50.691644+00:00",
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753004-city--united-",
+    "derniere_maj": "2026-09-11T14:47:04.100953+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "City ",
+    "equipe_2": "Real ",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.68"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753042-city--real-",
+    "derniere_maj": "2026-09-11T14:47:12.052183+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Indy ",
+    "equipe_2": "Louisville ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.13",
+      "Moins de": "1.6"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753050-indy--louisville-",
+    "derniere_maj": "2026-09-11T14:47:19.107833+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Indy ",
+    "equipe_2": "Rowdies ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.11",
+      "V2": "2.39"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752960-indy--rowdies-",
+    "derniere_maj": "2026-09-11T14:47:26.652185+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Indy ",
+    "equipe_2": "Tulsa ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.13",
+      "Moins de": "1.6"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752948-indy--tulsa-",
+    "derniere_maj": "2026-09-11T14:47:34.448231+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Louisville ",
+    "equipe_2": "Tulsa ",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.68"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753040-louisville--tulsa-",
+    "derniere_maj": "2026-09-11T14:47:41.643395+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Louisville ",
+    "equipe_2": "Rowdies ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.01",
+      "V2": "2.4"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.68"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752992-louisville--rowdies-",
+    "derniere_maj": "2026-09-11T14:47:48.785838+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Revolution ",
+    "equipe_2": "Real ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.01",
+      "V2": "2.4"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.68"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752860-revolution--real-",
+    "derniere_maj": "2026-09-11T14:47:56.162659+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Revolution ",
+    "equipe_2": "City ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.13",
+      "Moins de": "1.6"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752858-revolution--city-",
+    "derniere_maj": "2026-09-11T14:48:03.336004+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Revolution ",
+    "equipe_2": "United ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.13",
+      "Moins de": "1.6"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752812-revolution--united-",
+    "derniere_maj": "2026-09-11T14:48:10.423341+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Rowdies ",
+    "equipe_2": "Tulsa ",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.68"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752792-rowdies--tulsa-",
+    "derniere_maj": "2026-09-11T14:48:17.648821+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "United ",
+    "equipe_2": "Real ",
+    "1X2": {
+      "V1": "2.11",
+      "X": "3.08",
+      "V2": "2.5"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752890-united--real-",
+    "derniere_maj": "2026-09-11T14:48:24.781361+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Sounders ",
+    "equipe_2": "Bulls ",
+    "1X2": {
+      "V1": "2.37",
+      "X": "3.11",
+      "V2": "2.19"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752830-sounders--bulls-",
+    "derniere_maj": "2026-09-11T14:48:31.957618+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Sounders ",
+    "equipe_2": "Timber ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.01",
+      "V2": "2.4"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.68"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752832-sounders--timber-",
+    "derniere_maj": "2026-09-11T14:48:39.481078+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Timber ",
+    "equipe_2": "Bulls ",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.68"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752784-timber--bulls-",
+    "derniere_maj": "2026-09-11T14:48:46.619272+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Whitecaps ",
+    "equipe_2": "Sounders ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.13",
+      "Moins de": "1.6"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752818-whitecaps--sounders-",
+    "derniere_maj": "2026-09-11T14:48:55.735006+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Whitecaps ",
+    "equipe_2": "Timber ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.11",
+      "V2": "2.39"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752732-whitecaps--timber-",
+    "derniere_maj": "2026-09-11T14:49:02.989692+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Whitecaps ",
+    "equipe_2": "Bulls ",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.68"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752850-whitecaps--bulls-",
+    "derniere_maj": "2026-09-11T14:49:10.143095+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Inter ",
+    "equipe_2": "Dynamo ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752778-inter--dynamo-",
+    "derniere_maj": "2026-09-11T14:49:17.595244+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Inter ",
+    "equipe_2": "Union ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752804-inter--union-",
+    "derniere_maj": "2026-09-11T14:49:24.798794+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Sporting ",
+    "equipe_2": "Inter ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752774-sporting--inter-",
+    "derniere_maj": "2026-09-11T14:49:32.670857+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Sporting ",
+    "equipe_2": "Union ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752730-sporting--union-",
+    "derniere_maj": "2026-09-11T14:49:39.967519+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Sporting ",
+    "equipe_2": "Dynamo ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752742-sporting--dynamo-",
+    "derniere_maj": "2026-09-11T14:49:49.239856+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Union ",
+    "equipe_2": "Dynamo ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752720-union--dynamo-",
+    "derniere_maj": "2026-09-11T14:49:56.598596+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Crew ",
+    "equipe_2": "Minnesota ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.13",
+      "Moins de": "1.6"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752368-crew--minnesota-",
+    "derniere_maj": "2026-09-11T14:50:05.970183+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Dcunited ",
+    "equipe_2": "Minnesota ",
+    "1X2": {
+      "V1": "2.11",
+      "X": "3.08",
+      "V2": "2.5"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752364-dcunited--minnesota-",
+    "derniere_maj": "2026-09-11T14:50:13.002925+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Dallas ",
+    "equipe_2": "Dcunited ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.01",
+      "V2": "2.4"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.68"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752372-dallas--dcunited-",
+    "derniere_maj": "2026-09-11T14:50:20.330225+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Dallas ",
+    "equipe_2": "Crew ",
+    "1X2": {
+      "V1": "2.5",
+      "X": "3.08",
+      "V2": "2.11"
+    },
+    "Total_2.5": {
+      "Plus de": "2.13",
+      "Moins de": "1.6"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752374-dallas--crew-",
+    "derniere_maj": "2026-09-11T14:50:27.973019+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Chivas ",
+    "equipe_2": "Detroit ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753116-chivas--detroit-",
+    "derniere_maj": "2026-09-11T14:50:35.195904+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Chivas ",
+    "equipe_2": "Las Vegas ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753082-chivas--las-vegas-",
+    "derniere_maj": "2026-09-11T14:50:42.732971+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Chivas ",
+    "equipe_2": "Memphis ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753102-chivas--memphis-",
+    "derniere_maj": "2026-09-11T14:50:49.804946+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Detroit ",
+    "equipe_2": "Memphis ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753086-detroit--memphis-",
+    "derniere_maj": "2026-09-11T14:50:56.899375+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Detroit ",
+    "equipe_2": "Las Vegas ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753110-detroit--las-vegas-",
+    "derniere_maj": "2026-09-11T14:51:04.269371+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Las Vegas",
+    "equipe_2": " Memphis ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753076-las-vegas--memphis-",
+    "derniere_maj": "2026-09-11T14:51:11.932176+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Cincinnati ",
+    "equipe_2": "Orlando ",
+    "1X2": {
+      "V1": "2.36",
+      "X": "3.01",
+      "V2": "2.18"
+    },
+    "Total_2.5": {
+      "Plus de": "1.82",
+      "Moins de": "1.84"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753234-cincinnati--orlando-",
+    "derniere_maj": "2026-09-11T14:51:19.311507+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Cincinnati ",
+    "equipe_2": "Nashville ",
+    "1X2": {
+      "V1": "2.37",
+      "X": "3.01",
+      "V2": "2.19"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753232-cincinnati--nashville-",
+    "derniere_maj": "2026-09-11T14:51:26.422993+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Nashville ",
+    "equipe_2": "Orlando ",
+    "1X2": {
+      "V1": "2.37",
+      "X": "3.01",
+      "V2": "2.19"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753238-nashville--orlando-",
+    "derniere_maj": "2026-09-11T14:51:33.565265+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Toronto",
+    "equipe_2": "Cincinnati ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.11",
+      "V2": "2.39"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753172-toronto-cincinnati-",
+    "derniere_maj": "2026-09-11T14:51:40.621648+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Toronto",
+    "equipe_2": "Nashville ",
+    "1X2": {
+      "V1": "2.18",
+      "X": "3.01",
+      "V2": "2.36"
+    },
+    "Total_2.5": {
+      "Plus de": "1.73",
+      "Moins de": "1.94"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753194-toronto-nashville-",
+    "derniere_maj": "2026-09-11T14:51:49.968441+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Toronto",
+    "equipe_2": "Orlando ",
+    "1X2": {
+      "V1": "2.19",
+      "X": "3.01",
+      "V2": "2.37"
+    },
+    "Total_2.5": {
+      "Plus de": "1.82",
+      "Moins de": "1.84"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753218-toronto-orlando-",
+    "derniere_maj": "2026-09-11T14:51:59.172534+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Austin ",
+    "equipe_2": "Fusion ",
+    "1X2": {
+      "V1": "2.37",
+      "X": "3.01",
+      "V2": "2.19"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753352-austin--fusion-",
+    "derniere_maj": "2026-09-11T14:52:06.273651+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Austin ",
+    "equipe_2": "St Louis ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.01",
+      "V2": "2.4"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.68"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753380-austin--st-louis-",
+    "derniere_maj": "2026-09-11T14:52:16.866074+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Birmingham ",
+    "equipe_2": "Charleston ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753360-birmingham--charleston-",
+    "derniere_maj": "2026-09-11T14:52:24.396824+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Birmingham ",
+    "equipe_2": "Hartford ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753376-birmingham--hartford-",
+    "derniere_maj": "2026-09-11T14:52:31.558614+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Birmingham ",
+    "equipe_2": "Loudoun ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753386-birmingham--loudoun-",
+    "derniere_maj": "2026-09-11T14:52:38.928822+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Charleston ",
+    "equipe_2": "Loudoun ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753366-charleston--loudoun-",
+    "derniere_maj": "2026-09-11T14:52:46.218177+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Charleston ",
+    "equipe_2": "Hartford ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753346-charleston--hartford-",
+    "derniere_maj": "2026-09-11T14:52:53.364719+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Hartford ",
+    "equipe_2": "Loudoun ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753348-hartford--loudoun-",
+    "derniere_maj": "2026-09-11T14:53:01.542004+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Los Angeles",
+    "equipe_2": " Austin ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.13",
+      "Moins de": "1.6"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753354-los-angeles--austin-",
+    "derniere_maj": "2026-09-11T14:53:08.778047+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Los Angeles ",
+    "equipe_2": "St Louis ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.11",
+      "V2": "2.39"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753344-los-angeles--st-louis-",
+    "derniere_maj": "2026-09-11T14:53:18.071955+00:00",
     "statut": "ok"
   }
 ]
