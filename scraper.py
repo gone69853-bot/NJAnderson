@@ -254,6 +254,71 @@ def count_match_links(page):
     return hrefs, count
 
 
+def click_maximize_buttons(page, bookmaker="", max_rounds=20):
+    """
+    Déploie les sections cachées derrière le bouton UI
+    "Maximize" sur tous les bookmakers qui utilisent ce composant.
+
+    Le sélecteur est volontairement précis pour ne pas cliquer sur
+    d'autres contrôles :
+      button.ui-nav-link-toggle[aria-label="Maximize"]
+             [aria-expanded="false"]
+
+    Si un bookmaker n'utilise pas ce bouton, la fonction ne fait rien.
+    """
+    selector = (
+        'button.ui-nav-link-toggle[aria-label="Maximize"]'
+        '[aria-expanded="false"]'
+    )
+
+    total_clicked = 0
+
+    for tour in range(max_rounds):
+        clicked_this_round = 0
+
+        try:
+            # Recompter à chaque tour : après un clic, le DOM peut être
+            # recréé et de nouveaux boutons peuvent apparaître.
+            count = page.locator(selector).count()
+
+            for i in range(count):
+                try:
+                    btn = page.locator(selector).nth(i)
+
+                    if btn.is_visible():
+                        btn.click(timeout=3000, force=True)
+                        clicked_this_round += 1
+                        total_clicked += 1
+                        page.wait_for_timeout(500)
+
+                except Exception:
+                    pass
+
+            if clicked_this_round:
+                page.wait_for_timeout(1800)
+
+            # Faire apparaître les éventuelles sections situées plus bas.
+            scroll_page(page)
+            page.wait_for_timeout(800)
+
+            if clicked_this_round:
+                print(
+                    f"[{bookmaker}] Maximize : "
+                    f"{clicked_this_round} bouton(s) ouvert(s) "
+                    f"(tour {tour + 1})"
+                )
+            else:
+                # Deux tours sans bouton = probablement tout est déjà ouvert.
+                if tour >= 1:
+                    break
+
+        except Exception as error:
+            print(f"[{bookmaker}] erreur Maximize : {error}")
+            break
+
+    return total_clicked
+
+
 def discover_matches(
     page,
     listing_url,
@@ -273,6 +338,7 @@ def discover_matches(
     page.wait_for_timeout(15000)
 
     expand_accordions(page)
+    click_maximize_buttons(page, urlparse(listing_url).netloc)
     # Délai plus long ici : la première passe peut ouvrir plusieurs
     # dizaines de championnats d'un coup (ex. "UEFA Europa League (22)"),
     # chacun déclenchant son propre chargement de matchs.
@@ -286,6 +352,7 @@ def discover_matches(
 
         scroll_page(page)
         expand_accordions(page)
+        click_maximize_buttons(page, urlparse(listing_url).netloc, max_rounds=3)
 
         page.wait_for_timeout(3000)
 
@@ -665,6 +732,69 @@ def parser_carte_1win(carte):
     }
 
 
+def ouvrir_plus_de_matchs_1win(page, max_tours=20):
+    """
+    1win masque une partie des compétitions derrière des boutons
+    "Maximize". On clique explicitement sur ces boutons pour déployer
+    davantage de matchs avant de lire les cartes.
+    """
+    precedent = -1
+    sans_nouveau = 0
+
+    for tour in range(max_tours):
+        try:
+            # Cible le bouton fourni par l'interface 1win :
+            # <button aria-label="Maximize" ... class="ui-nav-link-toggle ...">
+            cliques = page.locator(
+                'button.ui-nav-link-toggle[aria-label="Maximize"]'
+                '[aria-expanded="false"]'
+            ).count()
+
+            if cliques:
+                for i in range(cliques):
+                    try:
+                        page.locator(
+                            'button.ui-nav-link-toggle[aria-label="Maximize"]'
+                            '[aria-expanded="false"]'
+                        ).nth(i).click(
+                            timeout=3000,
+                            force=True
+                        )
+                    except Exception:
+                        pass
+
+                page.wait_for_timeout(1800)
+
+            # Faire apparaître les sections éventuellement chargées plus bas.
+            page.mouse.wheel(0, 5000)
+            page.keyboard.press("End")
+            page.wait_for_timeout(1200)
+
+            nb_cartes = page.locator(
+                '[data-qa="match-card"]'
+            ).count()
+
+            if nb_cartes <= precedent:
+                sans_nouveau += 1
+            else:
+                sans_nouveau = 0
+                print(
+                    f"[1win] déploiement : {nb_cartes} carte(s)"
+                )
+
+            precedent = nb_cartes
+
+            if sans_nouveau >= 3:
+                break
+
+        except Exception:
+            break
+
+    # Remonter en haut n'est pas nécessaire pour extraire les cartes :
+    # le DOM contient aussi les cartes chargées hors écran.
+    return precedent
+
+
 def scrape_1win(playwright):
 
     result = []
@@ -682,6 +812,13 @@ def scrape_1win(playwright):
             timeout=1200000,
             wait_until="domcontentloaded"
         )
+
+        # Laisser l'application Vue.js initialiser les championnats.
+        page.wait_for_timeout(5000)
+
+        # Même logique que pour les autres bookmakers : on ouvre
+        # les sections cachées derrière les boutons "Maximize".
+        click_maximize_buttons(page, "1win")
 
         cartes = []
 
@@ -817,4 +954,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
