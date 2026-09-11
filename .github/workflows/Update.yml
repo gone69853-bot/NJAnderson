@@ -13,7 +13,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 300
 
     steps:
       - name: Télécharger le dépôt
@@ -66,7 +66,22 @@ jobs:
 
           if git diff --cached --quiet; then
             echo "Aucune modification."
-          else
-            git commit -m "Update odds"
-            git push
+            exit 0
+          fi
+
+          git commit -m "Update odds"
+
+          # Le scraping peut durer longtemps : si quelqu'un a modifié
+          # le dépôt pendant ce temps (ex. edit manuel sur GitHub),
+          # on récupère ces changements avant de pousser, au lieu de
+          # se faire rejeter.
+          git fetch origin main
+
+          if ! git rebase origin/main; then
+            echo "Conflit lors du rebase, abandon."
+            git rebase --abort
+            exit 1
+          fi
+
+          git pushgit push
           fi
