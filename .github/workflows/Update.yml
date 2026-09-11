@@ -39,7 +39,7 @@ jobs:
           PROXY_USERNAME: "kecsytba-rotate"
           PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
 
-          MAX_MATCHES_PER_SITE: "80"
+          MAX_MATCHES_PER_SITE: "50"
 
         run: |
           python scraper.py
