@@ -177,6 +177,24 @@ def expand_accordions(page):
                     compte++;
                 });
 
+                // Repli n°2 : sur Betwinner/Melbet/Megapari/Winwin/1xbet/
+                // Paripesa, le bouton "flèche" qui replie chaque
+                // championnat (ex. "UEFA Europa League (22)") porte
+                // directement la classe "ui-accordion__trigger" /
+                // "ui-accordion-trigger", SANS aria-expanded. On le
+                // cible donc lui-même, en le marquant après le premier
+                // clic pour ne jamais le re-cliquer (sinon on le
+                // refermerait au tour suivant au lieu de le laisser
+                // ouvert).
+                document.querySelectorAll(
+                    '[class*="accordion__trigger"]:not([data-deja-ouvert]), ' +
+                    '[class*="accordion-trigger"]:not([data-deja-ouvert])'
+                ).forEach(btn => {
+                    btn.setAttribute('data-deja-ouvert', '1');
+                    btn.click();
+                    compte++;
+                });
+
                 return compte;
             }
             """
@@ -255,7 +273,10 @@ def discover_matches(
     page.wait_for_timeout(15000)
 
     expand_accordions(page)
-    page.wait_for_timeout(2000)
+    # Délai plus long ici : la première passe peut ouvrir plusieurs
+    # dizaines de championnats d'un coup (ex. "UEFA Europa League (22)"),
+    # chacun déclenchant son propre chargement de matchs.
+    page.wait_for_timeout(4000)
 
     hrefs, found = count_match_links(page)
 
@@ -266,7 +287,7 @@ def discover_matches(
         scroll_page(page)
         expand_accordions(page)
 
-        page.wait_for_timeout(2500)
+        page.wait_for_timeout(3000)
 
         hrefs, new_found = count_match_links(page)
 
@@ -796,3 +817,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
