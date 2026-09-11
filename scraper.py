@@ -95,6 +95,13 @@ def should_block(route):
 
 MATCH_PATTERN = re.compile(r"/line/football/\d+-[^/]+/\d+-[^/?]+")
 
+# Lien vers la page d'un championnat entier (ex. .../118593-uefa-
+# europa-league), PAS vers un match précis : un seul segment
+# "ID-slug" après /line/football/, pas deux.
+COMPETITION_PATTERN = re.compile(
+    r"/line/football/\d+-[^/?]+/?(?:\?.*)?$"
+)
+
 
 def with_mobile_param(url):
 
@@ -254,6 +261,68 @@ def count_match_links(page):
     return hrefs, count
 
 
+def find_competition_links(page, base_url):
+    """Récupère les liens vers les pages de championnat (ex.
+    "Coupe d'Afrique des nations (48)"), triés par nombre de
+    matchs annoncé décroissant, pour visiter les plus fournis
+    en premier."""
+
+    try:
+
+        items = page.eval_on_selector_all(
+            "a",
+            """
+            els => els.map(e => ({
+                href: e.getAttribute('href'),
+                text: e.textContent || ""
+            }))
+            """
+        )
+
+    except Exception:
+        return []
+
+    links = []
+    seen = set()
+
+    for item in items:
+
+        href = item.get("href")
+        text = item.get("text", "")
+
+        if not href:
+            continue
+
+        if MATCH_PATTERN.search(href):
+            continue
+
+        if not COMPETITION_PATTERN.search(href):
+            continue
+
+        full_url = (
+            href if href.startswith("http")
+            else base_url + href
+        )
+
+        if full_url in seen:
+            continue
+
+        seen.add(full_url)
+
+        count_match = re.search(
+            r"\((\d+)\)\s*$",
+            text.strip()
+        )
+
+        count = int(count_match.group(1)) if count_match else 0
+
+        links.append((full_url, count))
+
+    links.sort(key=lambda pair: pair[1], reverse=True)
+
+    return [url for url, _ in links]
+
+
 def click_maximize_buttons(page, bookmaker="", max_rounds=20):
     """
     Déploie les sections cachées derrière le bouton UI
@@ -319,26 +388,13 @@ def click_maximize_buttons(page, bookmaker="", max_rounds=20):
     return total_clicked
 
 
-def discover_matches(
-    page,
-    listing_url,
-    max_matches,
-    max_stagnant=40
-):
-
-    url = with_mobile_param(listing_url)
-
-    page.goto(
-        url,
-        timeout=180000,
-        wait_until="domcontentloaded"
-    )
-
-    # Laisser le premier lot de matchs se charger.
-    page.wait_for_timeout(15000)
+def collect_hrefs_on_page(page, max_matches, max_stagnant=40):
+    """Déplie les accordéons/boutons "Maximize" et scrolle la page
+    actuellement chargée jusqu'à avoir assez de liens de match ou
+    jusqu'à ce que ça stagne. Renvoie tous les hrefs vus."""
 
     expand_accordions(page)
-    click_maximize_buttons(page, urlparse(listing_url).netloc)
+    click_maximize_buttons(page, urlparse(page.url).netloc)
     # Délai plus long ici : la première passe peut ouvrir plusieurs
     # dizaines de championnats d'un coup (ex. "UEFA Europa League (22)"),
     # chacun déclenchant son propre chargement de matchs.
@@ -352,7 +408,7 @@ def discover_matches(
 
         scroll_page(page)
         expand_accordions(page)
-        click_maximize_buttons(page, urlparse(listing_url).netloc, max_rounds=3)
+        click_maximize_buttons(page, urlparse(page.url).netloc, max_rounds=3)
 
         page.wait_for_timeout(3000)
 
@@ -365,38 +421,104 @@ def discover_matches(
 
         found = new_found
 
+    return hrefs
+
+
+def discover_matches(
+    page,
+    listing_url,
+    max_matches,
+    max_stagnant=40,
+    max_competitions=15
+):
+
+    url = with_mobile_param(listing_url)
+
+    page.goto(
+        url,
+        timeout=180000,
+        wait_until="domcontentloaded"
+    )
+
+    # Laisser le premier lot de matchs se charger.
+    page.wait_for_timeout(15000)
+
     parsed = urlparse(listing_url)
     base_url = f"{parsed.scheme}://{parsed.netloc}"
 
     matches = []
     seen = set()
 
-    for href in hrefs:
+    def add_hrefs(hrefs):
 
-        if not href:
-            continue
+        for href in hrefs:
 
-        if MATCH_PATTERN.search(href):
+            if not href:
+                continue
 
-            full_url = (
-                href if href.startswith("http")
-                else base_url + href
-            )
+            if MATCH_PATTERN.search(href):
 
-            if full_url not in seen:
+                full_url = (
+                    href if href.startswith("http")
+                    else base_url + href
+                )
 
-                seen.add(full_url)
+                if full_url not in seen:
 
-                team1, team2 = extract_teams_from_slug(href)
+                    seen.add(full_url)
 
-                matches.append({
-                    "url": full_url,
-                    "equipe_1": team1,
-                    "equipe_2": team2,
-                })
+                    team1, team2 = extract_teams_from_slug(href)
 
-        if len(matches) >= max_matches:
-            break
+                    matches.append({
+                        "url": full_url,
+                        "equipe_1": team1,
+                        "equipe_2": team2,
+                    })
+
+            if len(matches) >= max_matches:
+                break
+
+    add_hrefs(
+        collect_hrefs_on_page(page, max_matches, max_stagnant)
+    )
+
+    # Sur certains bookmakers, la page d'accueil "/line/football" ne
+    # montre qu'un résumé (quelques matchs à la une + un widget de
+    # championnats avec leur nombre de matchs, ex. "Coupe d'Afrique
+    # des nations (48)"), sans lister les matchs eux-mêmes : il faut
+    # alors visiter chaque championnat pour les récupérer.
+    if len(matches) < max_matches:
+
+        competition_links = find_competition_links(page, base_url)
+
+        for comp_url in competition_links[:max_competitions]:
+
+            if len(matches) >= max_matches:
+                break
+
+            try:
+
+                page.goto(
+                    with_mobile_param(comp_url),
+                    timeout=60000,
+                    wait_until="domcontentloaded"
+                )
+                page.wait_for_timeout(4000)
+
+                add_hrefs(
+                    collect_hrefs_on_page(
+                        page,
+                        max_matches,
+                        max_stagnant=15
+                    )
+                )
+
+            except Exception as error:
+
+                print(
+                    f"championnat ignoré ({comp_url}) : {error}"
+                )
+                continue
 
     return matches
 
@@ -954,3 +1076,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
