@@ -1,4 +1,3 @@
-
 import os
 
 
@@ -40,7 +39,7 @@ def proxy_config():
 # ============================================================
 
 MAX_MATCHES_PER_SITE = int(
-    os.getenv("MAX_MATCHES_PER_SITE", "80")
+    os.getenv("MAX_MATCHES_PER_SITE", "50")
 )
 
 
