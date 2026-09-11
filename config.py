@@ -1,3 +1,4 @@
+
 import os
 
 
@@ -39,7 +40,7 @@ def proxy_config():
 # ============================================================
 
 MAX_MATCHES_PER_SITE = int(
-    os.getenv("MAX_MATCHES_PER_SITE", "50")
+    os.getenv("MAX_MATCHES_PER_SITE", "100")
 )
 
 
@@ -75,6 +76,10 @@ BOOKMAKERS = {
 
     "paripesa": {
         "url": "https://paripesa.cm/fr/line/football",
+    },
+
+    "africa-bizbet": {
+        "url": "https://africa-bizbet.com/en/line/football",
     },
 }
 
