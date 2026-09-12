@@ -102,13 +102,43 @@ const ROW_LABELS = {
     X: "X",
     V2: "2",
     "Plus de": "+2,5",
-    "Moins de": "-2,5"
+    "Moins de": "-2,5",
+    "1X": "1X",
+    "12": "12",
+    "2X": "X2",
+    Oui: "Oui",
+    Non: "Non"
 };
 
-const MARKET_GROUPS = [
-    { title: "Résultat (1X2)", keys: ["V1", "X", "V2"] },
-    { title: "Total buts (2,5)", keys: ["Plus de", "Moins de"] }
+const TYPE_TITLES = {
+    "1X2": "Résultat (1X2)",
+    "Total_2.5": "Total buts (2,5)",
+    "Double_Chance": "Double chance",
+    "BTTS": "Les deux équipes marquent",
+    "Handicap": "Handicap",
+    "Totals": "Autres totaux de buts",
+    "Score_Exact": "Score exact"
+};
+
+const TYPE_ORDER = [
+    "1X2", "Total_2.5", "Double_Chance", "BTTS",
+    "Handicap", "Totals", "Score_Exact"
 ];
+
+// Marchés utilisés pour les mises en avant "meilleure cote"
+// (bannière du haut + CTA de chaque carte) : on exclut
+// Handicap/Totals/Score exact, dont les cotes sont naturellement
+// bien plus hautes et fausseraient la mise en avant.
+const SPOTLIGHT_TYPES = ["1X2", "Total_2.5", "Double_Chance", "BTTS"];
+
+function rowLabel(market) {
+    if (market.type === "Totals") {
+        const [line, sens] = market.marche.split("|");
+        const prefix = sens === "Plus de" ? "+" : "-";
+        return prefix + line.replace(".", ",");
+    }
+    return ROW_LABELS[market.marche] || market.marche;
+}
 
 let state = {
     matches: [],
@@ -203,8 +233,23 @@ function marketLabel(match, market) {
         case "Moins de":
             return "Moins de 2,5 buts";
 
+        case "1X":
+            return "Double chance 1X";
+
+        case "12":
+            return "Double chance 12";
+
+        case "2X":
+            return "Double chance X2";
+
+        case "Oui":
+            return "Les 2 équipes marquent";
+
+        case "Non":
+            return "Pas les 2 équipes marquent";
+
         default:
-            return market.marche;
+            return `${TYPE_TITLES[market.type] || ""} : ${rowLabel(market)}`.trim();
     }
 }
 
@@ -234,6 +279,10 @@ function renderHero(matches) {
     for (const match of matches) {
 
         for (const market of match.marches) {
+
+            if (!SPOTLIGHT_TYPES.includes(market.type)) {
+                continue;
+            }
 
             if (
                 !bestRowAny ||
@@ -316,9 +365,9 @@ function renderSingleBookmaker(rows, bookmaker, title) {
         return `
             <div class="single-odds__chip">
                 <span class="single-odds__label">
-                    ${escapeHTML(ROW_LABELS[market.marche] || market.marche)}
+                    ${escapeHTML(rowLabel(market))}
                 </span>
-                <span class="single-odds__value">${value}</span>
+                <span class="single-odds__value">${value ?? "–"}</span>
             </div>
         `;
 
@@ -381,9 +430,9 @@ function renderSharedOdds(rows, columns, title) {
         return `
             <div class="single-odds__chip">
                 <span class="single-odds__label">
-                    ${escapeHTML(ROW_LABELS[market.marche] || market.marche)}
+                    ${escapeHTML(rowLabel(market))}
                 </span>
-                <span class="single-odds__value">${value}</span>
+                <span class="single-odds__value">${value ?? "–"}</span>
             </div>
         `;
 
@@ -398,22 +447,24 @@ function renderSharedOdds(rows, columns, title) {
     `;
 }
 
-function renderMarketTable(match, keys, title) {
+function renderMarketTable(match, type, title) {
 
     const rows = match.marches.filter(
-        market => keys.includes(market.marche)
+        market => market.type === type
     );
 
     if (!rows.length) {
         return "";
     }
 
-    // Un bookmaker n'entre dans le tableau que s'il a une valeur
-    // pour CHAQUE ligne de ce marché — jamais de case vide.
+    // Un bookmaker entre dans le tableau dès qu'il a au moins une
+    // cote sur ce marché (certaines lignes de Handicap/Totals ne
+    // sont pas proposées partout) ; les cases manquantes affichent
+    // un tiret plutôt que d'exclure toute la colonne.
     const columns = BOOKMAKERS.filter(
         b =>
             match.bookmakers.includes(b) &&
-            rows.every(market => market.valeurs[b] !== undefined)
+            rows.some(market => market.valeurs[b] !== undefined)
     );
 
     if (!columns.length) {
@@ -448,14 +499,14 @@ function renderMarketTable(match, keys, title) {
 
             const isBest = bookmaker === market.meilleur_site;
 
-            return `<td class="${isBest ? "best" : ""}">${value}</td>`;
+            return `<td class="${isBest ? "best" : ""}">${value ?? "–"}</td>`;
 
         }).join("");
 
         return `
             <tr>
                 <th scope="row">
-                    ${escapeHTML(ROW_LABELS[market.marche] || market.marche)}
+                    ${escapeHTML(rowLabel(market))}
                 </th>
                 ${cells}
             </tr>
@@ -489,6 +540,10 @@ function bestAffiliateOdds(match) {
 
     for (const market of match.marches) {
 
+        if (!SPOTLIGHT_TYPES.includes(market.type)) {
+            continue;
+        }
+
         if (!AFFILIATE_LINKS[market.meilleur_site]) {
             continue;
         }
@@ -507,9 +562,12 @@ function render(list) {
 
     const sections = list.map(match => {
 
-        const tables = MARKET_GROUPS.map(
-            group => renderMarketTable(match, group.keys, group.title)
-        ).join("");
+        const typesPresent = new Set(match.marches.map(m => m.type));
+
+        const tables = TYPE_ORDER
+            .filter(type => typesPresent.has(type))
+            .map(type => renderMarketTable(match, type, TYPE_TITLES[type] || type))
+            .join("");
 
         if (!tables) {
             return "";
@@ -627,3 +685,4 @@ fetch("comparison.json", { cache: "no-store" })
 </script>
 </body>
 </html>
+
