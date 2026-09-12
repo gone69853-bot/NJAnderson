@@ -1,4 +1,3 @@
-import concurrent.futures
 import datetime
 import json
 import re
@@ -12,7 +11,6 @@ from config import (
     BOOKMAKERS,
     BOOKMAKERS_LIST,
     MAX_MATCHES_PER_SITE,
-    MAX_PARALLEL_BOOKMAKERS,
     proxy_config,
 )
 
@@ -535,13 +533,16 @@ def discover_matches(
 # nul, victoire équipe 2) est toujours le même sur ces sites.
 # ============================================================
 
-def parse_1x2_block(text):
+def to_lines(text):
 
-    lines = [
+    return [
         line.strip()
         for line in text.split("\n")
         if line.strip()
     ]
+
+
+def parse_1x2_block(lines):
 
     try:
         i = lines.index("1X2")
@@ -560,13 +561,7 @@ def parse_1x2_block(text):
     return block if len(block) == 3 else None
 
 
-def parse_total_block(text):
-
-    lines = [
-        line.strip()
-        for line in text.split("\n")
-        if line.strip()
-    ]
+def parse_total_block(lines):
 
     try:
         i_total = lines.index("Total")
@@ -591,6 +586,180 @@ def parse_total_block(text):
             return {"Plus de": plus, "Moins de": moins}
 
     return {"Plus de": None, "Moins de": None}
+
+
+# ============================================================
+# MARCHES SUPPLEMENTAIRES
+# ============================================================
+#
+# Même principe que 1X2/Total ci-dessus : chercher le titre du
+# marché dans le texte de la page, puis lire les paires
+# (libellé, cote) qui suivent, jusqu'à tomber sur une ligne qui
+# ne correspond plus au motif attendu (signe que le bloc suivant
+# a commencé).
+# ============================================================
+
+TOTAL_LINE_PLUS = re.compile(r"^(\d+(?:\.\d+)?) Plus de$")
+TOTAL_LINE_MOINS = re.compile(r"^(\d+(?:\.\d+)?) Moins de$")
+HANDICAP_LABEL = re.compile(r"^[12] \([+-]?\d+(?:\.\d+)?\)$")
+SCORE_LABEL = re.compile(r"^\d+-\d+$")
+
+
+def parse_double_chance_block(lines):
+
+    try:
+        i = lines.index("Double chance")
+    except ValueError:
+        return {"1X": None, "12": None, "2X": None}
+
+    result = {}
+    pos = i + 1
+
+    for _ in range(3):
+
+        if (
+            pos + 1 < len(lines)
+            and lines[pos] in ("1X", "12", "2X")
+        ):
+            result[lines[pos]] = lines[pos + 1]
+            pos += 2
+        else:
+            break
+
+    return {
+        "1X": result.get("1X"),
+        "12": result.get("12"),
+        "2X": result.get("2X"),
+    }
+
+
+def parse_btts_block(lines):
+
+    try:
+        i = lines.index("Deux équipes vont marquer")
+    except ValueError:
+        return {"Oui": None, "Non": None}
+
+    result = {}
+    pos = i + 1
+
+    for _ in range(2):
+
+        if (
+            pos + 1 < len(lines)
+            and lines[pos] in ("Oui", "Non")
+        ):
+            result[lines[pos]] = lines[pos + 1]
+            pos += 2
+        else:
+            break
+
+    return {
+        "Oui": result.get("Oui"),
+        "Non": result.get("Non"),
+    }
+
+
+def parse_all_totals_block(lines, max_span=60):
+    """Toutes les lignes de Total but disponibles (1.5, 2, 2.5,
+    etc.), pas seulement 2.5. Renvoie par ex. :
+    {"1.5": {"Plus de": "1.4", "Moins de": "2.64"}, "2": {...}, ...}
+    """
+
+    try:
+        i = lines.index("Total")
+    except ValueError:
+        return {}
+
+    result = {}
+    pos = i + 1
+    limit = min(i + max_span, len(lines))
+
+    while pos < limit:
+
+        line = lines[pos]
+
+        m_plus = TOTAL_LINE_PLUS.match(line)
+        m_moins = TOTAL_LINE_MOINS.match(line) if not m_plus else None
+
+        if m_plus and pos + 1 < len(lines):
+            result.setdefault(m_plus.group(1), {})["Plus de"] = lines[pos + 1]
+            pos += 2
+            continue
+
+        if m_moins and pos + 1 < len(lines):
+            result.setdefault(m_moins.group(1), {})["Moins de"] = lines[pos + 1]
+            pos += 2
+            continue
+
+        # Une ligne qui ne colle plus au motif "X Plus de"/"X Moins
+        # de" signale la fin du bloc Total (ex. "Handicap").
+        if result:
+            break
+
+        pos += 1
+
+    return result
+
+
+def parse_handicap_block(lines, max_span=40):
+    """Renvoie les lignes de handicap telles qu'affichées, ex. :
+    {"1 (-1)": "3.83", "2 (+1)": "1.2", "1 (0)": "1.56", "2 (0)": "2.21"}
+    """
+
+    try:
+        i = lines.index("Handicap")
+    except ValueError:
+        return {}
+
+    result = {}
+    pos = i + 1
+    limit = min(i + max_span, len(lines))
+
+    while pos < limit:
+
+        line = lines[pos]
+
+        if HANDICAP_LABEL.match(line) and pos + 1 < len(lines):
+            result[line] = lines[pos + 1]
+            pos += 2
+            continue
+
+        if result:
+            break
+
+        pos += 1
+
+    return result
+
+
+def parse_correct_score_block(lines, max_span=60):
+    """Score exact, ex. {"1-0": "5.85", "0-0": "7.19", ...}"""
+
+    try:
+        i = lines.index("Score exact")
+    except ValueError:
+        return {}
+
+    result = {}
+    pos = i + 1
+    limit = min(i + max_span, len(lines))
+
+    while pos < limit:
+
+        line = lines[pos]
+
+        if SCORE_LABEL.match(line) and pos + 1 < len(lines):
+            result[line] = lines[pos + 1]
+            pos += 2
+            continue
+
+        if result:
+            break
+
+        pos += 1
+
+    return result
 
 
 def scrape_match(
@@ -627,7 +796,9 @@ def scrape_match(
             if not found:
                 continue
 
-            block = parse_1x2_block(text)
+            lines = to_lines(text)
+
+            block = parse_1x2_block(lines)
 
             if not block:
                 continue
@@ -640,7 +811,7 @@ def scrape_match(
                 "V2": values[2],
             }
 
-            total = parse_total_block(text)
+            total = parse_total_block(lines)
 
             return {
 
@@ -653,6 +824,16 @@ def scrape_match(
                 "1X2": odds,
 
                 "Total_2.5": total,
+
+                "Double_Chance": parse_double_chance_block(lines),
+
+                "BTTS": parse_btts_block(lines),
+
+                "Totals": parse_all_totals_block(lines),
+
+                "Handicap": parse_handicap_block(lines),
+
+                "Score_Exact": parse_correct_score_block(lines),
 
                 "url": match["url"],
 
@@ -1013,47 +1194,46 @@ def scrape_1win(playwright):
 MAX_WAIT_CYCLES = 20  # réduit de 40 : 40s max d'attente par match au lieu de 80s
 
 
-def scrape_one_bookmaker_isolated(bookmaker):
-    """Lance un navigateur Playwright dédié (proxy compris) pour un
-    seul bookmaker, dans son propre thread. Chaque thread a son
-    propre pilote Playwright (sync_playwright()) : c'est la façon
-    supportée d'utiliser l'API synchrone de Playwright depuis
-    plusieurs threads en parallèle — on ne partage jamais un même
-    Browser/Page entre threads."""
+def main():
 
-    config = BOOKMAKERS[bookmaker]
+    proxy = proxy_config()
 
-    try:
+    with sync_playwright() as playwright:
 
-        with sync_playwright() as playwright:
+        browser = playwright.chromium.launch(
+            headless=True,
+            proxy=proxy
+        )
 
-            proxy = proxy_config()
+        context = browser.new_context(
+            viewport={
+                "width": 390,
+                "height": 844
+            },
 
-            browser = playwright.chromium.launch(
-                headless=True,
-                proxy=proxy
-            )
+            java_script_enabled=True,
 
-            context = browser.new_context(
-                viewport={
-                    "width": 390,
-                    "height": 844
-                },
+            service_workers="block",
 
-                java_script_enabled=True,
+            locale="fr-FR",
+        )
 
-                service_workers="block",
+        context.route(
+            "**/*",
+            lambda route:
+                route.abort()
+                if should_block(route)
+                else route.continue_()
+        )
 
-                locale="fr-FR",
-            )
+        for bookmaker in BOOKMAKERS_LIST:
 
-            context.route(
-                "**/*",
-                lambda route:
-                    route.abort()
-                    if should_block(route)
-                    else route.continue_()
-            )
+            if bookmaker == "1win":
+                # Traité séparément juste après (pas de proxy,
+                # navigateur dédié).
+                continue
+
+            config = BOOKMAKERS[bookmaker]
 
             page = context.new_page()
 
@@ -1065,73 +1245,22 @@ def scrape_one_bookmaker_isolated(bookmaker):
                 MAX_WAIT_CYCLES
             )
 
-            browser.close()
+            page.close()
 
-    except Exception as error:
+        browser.close()
 
-        print(f"[{bookmaker}] ERREUR fatale (thread) : {error}")
-
-
-def run_1win_isolated():
-    """1win dans son propre pilote Playwright et son propre thread,
-    en parallèle des autres (pas besoin de proxy)."""
-
-    try:
-
-        with sync_playwright() as playwright:
-            scrape_1win(playwright)
-
-    except Exception as error:
-
-        print(f"[1win] ERREUR fatale (thread) : {error}")
-
-
-def main():
-
-    classic_bookmakers = [
-        b for b in BOOKMAKERS_LIST if b != "1win"
-    ]
-
-    # +1 pour 1win, qui tourne aussi en parallèle des autres.
-    max_workers = min(
-        MAX_PARALLEL_BOOKMAKERS,
-        len(classic_bookmakers) + 1
-    )
-
-    print(
-        f"Scraping de {len(classic_bookmakers) + 1} bookmaker(s), "
-        f"{max_workers} en parallèle à la fois"
-    )
-
-    with concurrent.futures.ThreadPoolExecutor(
-        max_workers=max_workers
-    ) as executor:
-
-        futures = {
-            executor.submit(scrape_one_bookmaker_isolated, bookmaker): bookmaker
-            for bookmaker in classic_bookmakers
-        }
-
-        futures[executor.submit(run_1win_isolated)] = "1win"
-
-        for future in concurrent.futures.as_completed(futures):
-
-            bookmaker = futures[future]
-
-            # scrape_one_bookmaker_isolated / run_1win_isolated
-            # attrapent déjà leurs propres erreurs et écrivent
-            # quand même un fichier JSON (vide au pire) : ce
-            # .result() ne devrait normalement jamais lever, mais
-            # on le garde par sécurité pour ne pas planter le run
-            # entier si un thread fait quelque chose d'inattendu.
-            try:
-                future.result()
-            except Exception as error:
-                print(f"[{bookmaker}] ERREUR imprévue : {error}")
+        # ------------------------------------------------------
+        # 1WIN : pas de proxy nécessaire (IP du runner non
+        # bloquée), donc navigateur séparé sans configuration
+        # proxy.
+        # ------------------------------------------------------
+        scrape_1win(playwright)
 
 
 if __name__ == "__main__":
     main()
+
+
 
 
 
