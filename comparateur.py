@@ -376,8 +376,23 @@ def group_matches(data):
 def compare_market(
     group,
     market,
-    keys
+    keys=None,
+    type_label=None
 ):
+    # Si aucune liste de clés n'est fournie, on les découvre en
+    # regardant ce que chaque bookmaker a effectivement renvoyé
+    # pour ce marché (utile pour Handicap / Score exact, dont les
+    # libellés varient d'un match à l'autre).
+    if keys is None:
+
+        keys = []
+
+        for match in group.values():
+
+            for key in (match.get(market) or {}).keys():
+
+                if key not in keys:
+                    keys.append(key)
 
     rows = []
 
@@ -424,6 +439,8 @@ def compare_market(
 
             "marche": key,
 
+            "type": type_label or market,
+
             "valeurs": values,
 
             "meilleur_site":
@@ -434,6 +451,69 @@ def compare_market(
                     best_bookmaker
                 ],
         })
+
+    return rows
+
+
+def compare_totals_dynamic(group):
+    """Cas particulier de 'Totals' : structure à deux niveaux
+    ({"1.5": {"Plus de": .., "Moins de": ..}, "2": {...}, ...}).
+    On aplatit en une ligne par (ligne de total, sens)."""
+
+    lines = []
+
+    for match in group.values():
+
+        for line in (match.get("Totals") or {}).keys():
+
+            if line not in lines:
+                lines.append(line)
+
+    rows = []
+
+    for line in lines:
+
+        for sens in ("Plus de", "Moins de"):
+
+            values = {}
+
+            for bookmaker, match in group.items():
+
+                try:
+
+                    value = (
+                        match.get("Totals", {})
+                        .get(line, {})
+                        .get(sens)
+                    )
+
+                    if value is not None:
+
+                        values[bookmaker] = float(
+                            str(value).replace(",", ".")
+                        )
+
+                except Exception:
+
+                    continue
+
+            if not values:
+                continue
+
+            best_bookmaker = max(values, key=values.get)
+
+            rows.append({
+
+                "marche": f"{line}|{sens}",
+
+                "type": "Totals",
+
+                "valeurs": values,
+
+                "meilleur_site": best_bookmaker,
+
+                "meilleure_cote": values[best_bookmaker],
+            })
 
     return rows
 
@@ -472,11 +552,8 @@ def build():
             compare_market(
                 group,
                 "1X2",
-                [
-                    "V1",
-                    "X",
-                    "V2"
-                ]
+                ["V1", "X", "V2"],
+                "1X2"
             )
         )
 
@@ -484,11 +561,49 @@ def build():
             compare_market(
                 group,
                 "Total_2.5",
-                [
-                    "Plus de",
-                    "Moins de"
-                ]
+                ["Plus de", "Moins de"],
+                "Total_2.5"
             )
+        )
+
+        markets.extend(
+            compare_market(
+                group,
+                "Double_Chance",
+                ["1X", "12", "2X"],
+                "Double_Chance"
+            )
+        )
+
+        markets.extend(
+            compare_market(
+                group,
+                "BTTS",
+                ["Oui", "Non"],
+                "BTTS"
+            )
+        )
+
+        markets.extend(
+            compare_market(
+                group,
+                "Handicap",
+                None,
+                "Handicap"
+            )
+        )
+
+        markets.extend(
+            compare_market(
+                group,
+                "Score_Exact",
+                None,
+                "Score_Exact"
+            )
+        )
+
+        markets.extend(
+            compare_totals_dynamic(group)
         )
 
         if not markets:
@@ -550,4 +665,6 @@ def build():
 if __name__ == "__main__":
 
     build()
+
+
 
