@@ -23,16 +23,16 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (0)": "4.65",
-      "2 (0)": "1.163",
-      "1 (+1)": "1.8",
-      "2 (-1)": "2.01",
-      "1 (+1.5)": "1.47",
-      "2 (-1.5)": "2.695",
-      "1 (+2)": "1.17",
-      "2 (-2)": "4.45",
-      "1 (+2.5)": "1.109",
-      "2 (-2.5)": "5.25",
+      "1 (0)": "4.7",
+      "2 (0)": "1.161",
+      "1 (+1)": "1.81",
+      "2 (-1)": "2",
+      "1 (+1.5)": "1.475",
+      "2 (-1.5)": "2.675",
+      "1 (+2)": "1.172",
+      "2 (-2)": "4.4",
+      "1 (+2.5)": "1.11",
+      "2 (-2.5)": "5.2",
       "1 (+3)": "1.02",
       "2 (-3)": "10.5",
       "1 (+3.5)": "1.01",
@@ -40,7 +40,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/88637-england-premier-league/364947844-sunderland-arsenal",
-    "derniere_maj": "2026-09-12T14:05:48.437055+00:00",
+    "derniere_maj": "2026-09-12T17:19:09.506563+00:00",
     "statut": "ok"
   },
   {
@@ -48,8 +48,8 @@
     "equipe_1": "Real Madrid",
     "equipe_2": "Rayo Vallecano",
     "1X2": {
-      "V1": "1.13",
-      "X": "8.8",
+      "V1": "1.125",
+      "X": "8.9",
       "V2": "18"
     },
     "Total_2.5": {
@@ -67,40 +67,40 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-5.5)": "10.5",
+      "1 (-5.5)": "10",
       "2 (+5.5)": "1.02",
-      "1 (-5)": "9.2",
-      "2 (+5)": "1.003",
-      "1 (-4.5)": "5.3",
-      "2 (+4.5)": "1.092",
-      "1 (-4)": "4.75",
-      "2 (+4)": "1.135",
-      "1 (-3.5)": "3.1",
-      "2 (+3.5)": "1.32",
-      "1 (-3)": "2.57",
-      "2 (+3)": "1.47",
-      "1 (-2.5)": "2",
-      "2 (+2.5)": "1.81",
-      "1 (-2)": "1.59",
-      "2 (+2)": "2.27",
-      "1 (-1.5)": "1.39",
-      "2 (+1.5)": "2.77",
-      "1 (-1)": "1.156",
-      "2 (+1)": "4.4"
+      "1 (-5)": "9",
+      "2 (+5)": "1.005",
+      "1 (-4.5)": "5.2",
+      "2 (+4.5)": "1.096",
+      "1 (-4)": "4.65",
+      "2 (+4)": "1.14",
+      "1 (-3.5)": "3.04",
+      "2 (+3.5)": "1.33",
+      "1 (-3)": "2.54",
+      "2 (+3)": "1.48",
+      "1 (-2.5)": "1.98",
+      "2 (+2.5)": "1.825",
+      "1 (-2)": "1.58",
+      "2 (+2)": "2.29",
+      "1 (-1.5)": "1.38",
+      "2 (+1.5)": "2.81",
+      "1 (-1)": "1.152",
+      "2 (+1)": "4.45"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/127733-spain-la-liga/366610592-real-madrid-rayo-vallecano",
-    "derniere_maj": "2026-09-12T14:05:57.764563+00:00",
+    "derniere_maj": "2026-09-12T17:19:18.575250+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Athletic",
-    "equipe_2": "Bilbao Elche",
+    "equipe_1": "Atalanta",
+    "equipe_2": "Cagliari Calcio",
     "1X2": {
-      "V1": "1.4",
-      "X": "4.84",
-      "V2": "7.5"
+      "V1": "1.688",
+      "X": "3.72",
+      "V2": "5.2"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -117,34 +117,86 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-3.5)": "7.1",
-      "2 (+3.5)": "1.037",
-      "1 (-3)": "6.35",
-      "2 (+3)": "1.055",
-      "1 (-2.5)": "3.6",
-      "2 (+2.5)": "1.21",
-      "1 (-2)": "2.98",
-      "2 (+2)": "1.32",
-      "1 (-1.5)": "2.144",
-      "2 (+1.5)": "1.704",
-      "1 (-1)": "1.64",
-      "2 (+1)": "2.26",
-      "1 (0)": "1.104",
-      "2 (0)": "5.55"
+      "1 (-3)": "11.5",
+      "2 (+3)": "1.01",
+      "1 (-2.5)": "5.6",
+      "2 (+2.5)": "1.08",
+      "1 (-2)": "4.8",
+      "2 (+2)": "1.13",
+      "1 (-1.5)": "2.995",
+      "2 (+1.5)": "1.39",
+      "1 (-1)": "2.22",
+      "2 (+1)": "1.66",
+      "1 (0)": "1.23",
+      "2 (0)": "3.65",
+      "1 (+1)": "1.02",
+      "2 (-1)": "10",
+      "1 (+1.5)": "1.01",
+      "2 (-1.5)": "11.5"
     },
     "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/127733-spain-la-liga/366609668-athletic-bilbao-elche",
-    "derniere_maj": "2026-09-12T14:06:08.808487+00:00",
+    "url": "https://winwin.bet/en/line/football/110163-italy-serie-a/364991960-atalanta-cagliari-calcio",
+    "derniere_maj": "2026-09-12T17:19:27.714045+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Strasbourg",
-    "equipe_2": "As Monaco",
+    "equipe_1": "Levante",
+    "equipe_2": "Ud Barcelona",
     "1X2": {
-      "V1": "3.2",
+      "V1": "17",
+      "X": "8.8",
+      "V2": "1.13"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "9.6",
+      "2 (0)": "1.03",
+      "1 (+1)": "4.4",
+      "2 (-1)": "1.157",
+      "1 (+1.5)": "2.69",
+      "2 (-1.5)": "1.41",
+      "1 (+2)": "2.2",
+      "2 (-2)": "1.63",
+      "1 (+2.5)": "1.77",
+      "2 (-2.5)": "2.05",
+      "1 (+3)": "1.44",
+      "2 (-3)": "2.67",
+      "1 (+3.5)": "1.3",
+      "2 (-3.5)": "3.22",
+      "1 (+4)": "1.119",
+      "2 (-4)": "5.05",
+      "1 (+4.5)": "1.079",
+      "2 (-4.5)": "5.6",
+      "1 (+5)": "1.02",
+      "2 (-5)": "10.5"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/127733-spain-la-liga/366613402-levante-ud-barcelona",
+    "derniere_maj": "2026-09-12T17:19:36.682208+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Paris",
+    "equipe_2": "Lyon",
+    "1X2": {
+      "V1": "2.46",
       "X": "3.7",
-      "V2": "2.12"
+      "V2": "2.656"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -161,304 +213,28 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1.5)": "5.85",
-      "2 (+1.5)": "1.077",
-      "1 (-1)": "5.2",
-      "2 (+1)": "1.118",
-      "1 (0)": "2.38",
-      "2 (0)": "1.58",
-      "1 (+1)": "1.35",
-      "2 (-1)": "2.89",
-      "1 (+1.5)": "1.23",
-      "2 (-1.5)": "3.5",
-      "1 (+2)": "1.067",
-      "2 (-2)": "5.95",
-      "1 (+2.5)": "1.048",
-      "2 (-2.5)": "6.6"
+      "1 (-2.5)": "8.2",
+      "2 (+2.5)": "1.017",
+      "1 (-2)": "7.7",
+      "2 (+2)": "1.032",
+      "1 (-1.5)": "4.33",
+      "2 (+1.5)": "1.168",
+      "1 (-1)": "3.64",
+      "2 (+1)": "1.25",
+      "1 (0)": "1.832",
+      "2 (0)": "1.97",
+      "1 (+1)": "1.21",
+      "2 (-1)": "4.05",
+      "1 (+1.5)": "1.139",
+      "2 (-1.5)": "4.8",
+      "1 (+2)": "1.018",
+      "2 (-2)": "8.6",
+      "1 (+2.5)": "1.005",
+      "2 (-2.5)": "9.1"
     },
     "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/12821-france-ligue-1/364948088-strasbourg-as-monaco",
-    "derniere_maj": "2026-09-12T14:06:19.830373+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Tottenham",
-    "equipe_2": "Hotspur Everton",
-    "1X2": {
-      "V1": "2.01",
-      "X": "3.64",
-      "V2": "3.56"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "7.4",
-      "2 (+2.5)": "1.03",
-      "1 (-2)": "6.5",
-      "2 (+2)": "1.051",
-      "1 (-1.5)": "3.5",
-      "2 (+1.5)": "1.23",
-      "1 (-1)": "2.8",
-      "2 (+1)": "1.37",
-      "1 (0)": "1.5",
-      "2 (0)": "2.59",
-      "1 (+1)": "1.068",
-      "2 (-1)": "6.65",
-      "1 (+1.5)": "1.035",
-      "2 (-1.5)": "7.6"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/88637-england-premier-league/364947824-tottenham-hotspur-everton",
-    "derniere_maj": "2026-09-12T14:06:30.286623+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Colwyn Bay",
-    "equipe_2": "Connahs Quay Nomads",
-    "1X2": {
-      "V1": "3.185",
-      "X": "3.28",
-      "V2": "2.08"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1.5)": "6.65",
-      "2 (+1.5)": "1.047",
-      "1 (-1)": "5.75",
-      "2 (+1)": "1.074",
-      "1 (0)": "2.29",
-      "2 (0)": "1.53",
-      "1 (+1)": "1.27",
-      "2 (-1)": "3.14",
-      "1 (+1.5)": "1.171",
-      "2 (-1.5)": "3.98",
-      "1 (+2)": "1.026",
-      "2 (-2)": "7.7",
-      "1 (+2.5)": "1.014",
-      "2 (-2.5)": "8.4"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/13721-wales-premier-league/367535998-colwyn-bay-connahs-quay-nomads",
-    "derniere_maj": "2026-09-12T14:06:39.578160+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Barry Town",
-    "equipe_2": "Ammanford Afc",
-    "1X2": {
-      "V1": "1.28",
-      "X": "5",
-      "V2": "9"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "1.08",
-      "2 (0)": "6.5"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/13721-wales-premier-league/368536858-barry-town-ammanford-afc",
-    "derniere_maj": "2026-09-12T14:06:48.664943+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Connahs Quay Nomads",
-    "equipe_2": "Airbus Uk Broughton",
-    "1X2": {
-      "V1": "1.45",
-      "X": "4.3",
-      "V2": "5.94"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "1.17",
-      "2 (0)": "4.25"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/13721-wales-premier-league/368536862-connahs-quay-nomads-airbus-uk-broughton",
-    "derniere_maj": "2026-09-12T14:06:58.084098+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Llandudno",
-    "equipe_2": "Caernarfon Town",
-    "1X2": {
-      "V1": "3.335",
-      "X": "3.65",
-      "V2": "1.94"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "2.43",
-      "2 (0)": "1.45"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/13721-wales-premier-league/368536860-llandudno-caernarfon-town",
-    "derniere_maj": "2026-09-12T14:07:05.151108+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "The New Saints",
-    "equipe_2": "Flint Town United",
-    "1X2": {
-      "V1": "1.14",
-      "X": "6.8",
-      "V2": "13"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "1.04",
-      "2 (0)": "8.45"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/13721-wales-premier-league/368536870-the-new-saints-flint-town-united",
-    "derniere_maj": "2026-09-12T14:07:14.415908+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Pen Y",
-    "equipe_2": "Bont Briton Ferry",
-    "1X2": {
-      "V1": "1.69",
-      "X": "3.55",
-      "V2": "4.635"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "1.27",
-      "2 (0)": "3.3"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/13721-wales-premier-league/368536864-pen-y-bont-briton-ferry",
-    "derniere_maj": "2026-09-12T14:07:21.712971+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Holywell Town",
-    "equipe_2": "Colwyn Bay",
-    "1X2": {
-      "V1": "5.2",
-      "X": "4.1",
-      "V2": "1.53"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "3.8",
-      "2 (0)": "1.21"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/13721-wales-premier-league/368536868-holywell-town-colwyn-bay",
-    "derniere_maj": "2026-09-12T14:07:29.071206+00:00",
+    "url": "https://winwin.bet/en/line/football/12821-france-ligue-1/364948084-paris-lyon",
+    "derniere_maj": "2026-09-12T17:19:45.990568+00:00",
     "statut": "ok"
   },
   {
@@ -498,7 +274,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/325699846-andorra-malta",
-    "derniere_maj": "2026-09-12T14:07:38.324721+00:00",
+    "derniere_maj": "2026-09-12T17:19:54.938434+00:00",
     "statut": "ok"
   },
   {
@@ -544,7 +320,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/325575974-austria-israel",
-    "derniere_maj": "2026-09-12T14:07:47.429525+00:00",
+    "derniere_maj": "2026-09-12T17:20:04.057481+00:00",
     "statut": "ok"
   },
   {
@@ -588,7 +364,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/325575978-kosovo-republic-of-ireland",
-    "derniere_maj": "2026-09-12T14:07:56.710478+00:00",
+    "derniere_maj": "2026-09-12T17:20:13.179439+00:00",
     "statut": "ok"
   },
   {
@@ -632,7 +408,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/325699854-liechtenstein-lithuania",
-    "derniere_maj": "2026-09-12T14:08:07.409880+00:00",
+    "derniere_maj": "2026-09-12T17:20:22.426943+00:00",
     "statut": "ok"
   },
   {
@@ -659,17 +435,17 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "8.5",
-      "2 (+2.5)": "1.012",
+      "1 (-2.5)": "8.6",
+      "2 (+2.5)": "1.011",
       "1 (-2)": "7.7",
-      "2 (+2)": "1.026",
+      "2 (+2)": "1.025",
       "1 (-1.5)": "4.1",
       "2 (+1.5)": "1.171",
       "1 (-1)": "3.34",
       "2 (+1)": "1.27",
       "1 (0)": "1.71",
       "2 (0)": "2.14",
-      "1 (+1)": "1.142",
+      "1 (+1)": "1.143",
       "2 (-1)": "4.75",
       "1 (+1.5)": "1.088",
       "2 (-1.5)": "5.55",
@@ -680,7 +456,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/325372158-netherlands-germany",
-    "derniere_maj": "2026-09-12T14:08:18.932096+00:00",
+    "derniere_maj": "2026-09-12T17:20:31.400670+00:00",
     "statut": "ok"
   },
   {
@@ -707,14 +483,14 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "6.9",
-      "2 (+2.5)": "1.041",
-      "1 (-2)": "6",
-      "2 (+2)": "1.065",
+      "1 (-2.5)": "6.95",
+      "2 (+2.5)": "1.04",
+      "1 (-2)": "6.05",
+      "2 (+2)": "1.064",
       "1 (-1.5)": "3.28",
       "2 (+1.5)": "1.26",
-      "1 (-1)": "2.58",
-      "2 (+1)": "1.43",
+      "1 (-1)": "2.61",
+      "2 (+1)": "1.42",
       "1 (0)": "1.42",
       "2 (0)": "2.87",
       "1 (+1)": "1.045",
@@ -724,7 +500,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/325372156-norway-denmark",
-    "derniere_maj": "2026-09-12T14:08:28.607195+00:00",
+    "derniere_maj": "2026-09-12T17:20:40.361601+00:00",
     "statut": "ok"
   },
   {
@@ -752,27 +528,27 @@
     "Totals": {},
     "Handicap": {
       "1 (-4.5)": "8.3",
-      "2 (+4.5)": "1.015",
-      "1 (-4)": "7.8",
-      "2 (+4)": "1.024",
+      "2 (+4.5)": "1.016",
+      "1 (-4)": "7.7",
+      "2 (+4)": "1.025",
       "1 (-3.5)": "4.55",
       "2 (+3.5)": "1.13",
-      "1 (-3)": "3.92",
-      "2 (+3)": "1.177",
+      "1 (-3)": "3.9",
+      "2 (+3)": "1.178",
       "1 (-2.5)": "2.61",
       "2 (+2.5)": "1.41",
       "1 (-2)": "2.11",
       "2 (+2)": "1.65",
       "1 (-1.5)": "1.727",
       "2 (+1.5)": "2.11",
-      "1 (-1)": "1.33",
-      "2 (+1)": "3.04",
+      "1 (-1)": "1.32",
+      "2 (+1)": "3.1",
       "1 (0)": "1.043",
       "2 (0)": "7.2"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/325407126-portugal-wales",
-    "derniere_maj": "2026-09-12T14:08:36.396669+00:00",
+    "derniere_maj": "2026-09-12T17:20:49.288403+00:00",
     "statut": "ok"
   },
   {
@@ -780,9 +556,9 @@
     "equipe_1": "Serbia",
     "equipe_2": "Greece",
     "1X2": {
-      "V1": "2.61",
+      "V1": "2.62",
       "X": "3.32",
-      "V2": "2.705"
+      "V2": "2.696"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -803,22 +579,22 @@
       "2 (+2.5)": "1.01",
       "1 (-2)": "11",
       "2 (+2)": "1.02",
-      "1 (-1.5)": "5.45",
-      "2 (+1.5)": "1.092",
+      "1 (-1.5)": "5.5",
+      "2 (+1.5)": "1.091",
       "1 (-1)": "4.5",
-      "2 (+1)": "1.157",
-      "1 (0)": "1.87",
-      "2 (0)": "1.93",
-      "1 (+1)": "1.141",
+      "2 (+1)": "1.156",
+      "1 (0)": "1.88",
+      "2 (0)": "1.92",
+      "1 (+1)": "1.142",
       "2 (-1)": "4.75",
-      "1 (+1.5)": "1.081",
+      "1 (+1.5)": "1.082",
       "2 (-1.5)": "5.75",
       "1 (+2)": "1.01",
       "2 (-2)": "11.5"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/325407134-serbia-greece",
-    "derniere_maj": "2026-09-12T14:08:45.628917+00:00",
+    "derniere_maj": "2026-09-12T17:20:58.274553+00:00",
     "statut": "ok"
   },
   {
@@ -864,7 +640,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/325871866-armenia-latvia",
-    "derniere_maj": "2026-09-12T14:08:55.283122+00:00",
+    "derniere_maj": "2026-09-12T17:21:05.563779+00:00",
     "statut": "ok"
   },
   {
@@ -908,7 +684,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/325871868-georgia-northern-ireland",
-    "derniere_maj": "2026-09-12T14:09:05.390193+00:00",
+    "derniere_maj": "2026-09-12T17:21:13.004591+00:00",
     "statut": "ok"
   },
   {
@@ -939,20 +715,20 @@
       "2 (+2.5)": "1.03",
       "1 (-2)": "8.9",
       "2 (+2)": "1.007",
-      "1 (-1.5)": "4.33",
-      "2 (+1.5)": "1.152",
+      "1 (-1.5)": "4.35",
+      "2 (+1.5)": "1.151",
       "1 (-1)": "3.42",
       "2 (+1)": "1.26",
       "1 (0)": "1.6",
       "2 (0)": "2.34",
-      "1 (+1)": "1.077",
+      "1 (+1)": "1.078",
       "2 (-1)": "6.3",
-      "1 (+1.5)": "1.039",
+      "1 (+1.5)": "1.04",
       "2 (-1.5)": "7.3"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/326182838-hungary-ukraine",
-    "derniere_maj": "2026-09-12T14:09:14.845685+00:00",
+    "derniere_maj": "2026-09-12T17:21:19.956586+00:00",
     "statut": "ok"
   },
   {
@@ -960,9 +736,9 @@
     "equipe_1": "Italy",
     "equipe_2": "Belgium",
     "1X2": {
-      "V1": "2.36",
-      "X": "3.46",
-      "V2": "2.94"
+      "V1": "2.344",
+      "X": "3.44",
+      "V2": "2.968"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -984,21 +760,21 @@
       "1 (-2)": "8.9",
       "2 (+2)": "1.007",
       "1 (-1.5)": "4.45",
-      "2 (+1.5)": "1.144",
+      "2 (+1.5)": "1.146",
       "1 (-1)": "3.56",
       "2 (+1)": "1.24",
       "1 (0)": "1.71",
       "2 (0)": "2.14",
-      "1 (+1)": "1.121",
-      "2 (-1)": "5.15",
-      "1 (+1.5)": "1.071",
-      "2 (-1.5)": "6.05",
+      "1 (+1)": "1.119",
+      "2 (-1)": "5.2",
+      "1 (+1.5)": "1.07",
+      "2 (-1.5)": "6.1",
       "1 (+2)": "1.01",
       "2 (-2)": "11.5"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/325995556-italy-belgium",
-    "derniere_maj": "2026-09-12T14:09:24.297068+00:00",
+    "derniere_maj": "2026-09-12T17:21:28.947610+00:00",
     "statut": "ok"
   },
   {
@@ -1006,8 +782,8 @@
     "equipe_1": "Poland Bosnia",
     "equipe_2": "And Herzegovina",
     "1X2": {
-      "V1": "1.65",
-      "X": "3.88",
+      "V1": "1.648",
+      "X": "3.9",
       "V2": "5.25"
     },
     "Total_2.5": {
@@ -1030,9 +806,9 @@
       "1 (-3)": "10.5",
       "2 (+3)": "1.02",
       "1 (-2.5)": "5.5",
-      "2 (+2.5)": "1.083",
+      "2 (+2.5)": "1.084",
       "1 (-2)": "4.7",
-      "2 (+2)": "1.136",
+      "2 (+2)": "1.137",
       "1 (-1.5)": "2.77",
       "2 (+1.5)": "1.39",
       "1 (-1)": "2.14",
@@ -1046,7 +822,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/326342396-poland-bosnia-and-herzegovina",
-    "derniere_maj": "2026-09-12T14:09:33.586592+00:00",
+    "derniere_maj": "2026-09-12T17:21:38.079721+00:00",
     "statut": "ok"
   },
   {
@@ -1077,24 +853,24 @@
       "2 (+1.5)": "1.02",
       "1 (-1)": "9.9",
       "2 (+1)": "1.03",
-      "1 (0)": "4.3",
-      "2 (0)": "1.17",
-      "1 (+1)": "1.92",
-      "2 (-1)": "1.88",
-      "1 (+1.5)": "1.533",
-      "2 (-1.5)": "2.33",
-      "1 (+2)": "1.25",
-      "2 (-2)": "3.42",
-      "1 (+2.5)": "1.166",
+      "1 (0)": "4.33",
+      "2 (0)": "1.168",
+      "1 (+1)": "1.93",
+      "2 (-1)": "1.87",
+      "1 (+1.5)": "1.54",
+      "2 (-1.5)": "2.32",
+      "1 (+2)": "1.26",
+      "2 (-2)": "3.34",
+      "1 (+2.5)": "1.168",
       "2 (-2.5)": "4.05",
-      "1 (+3)": "1.034",
+      "1 (+3)": "1.035",
       "2 (-3)": "7.2",
       "1 (+3.5)": "1.02",
       "2 (-3.5)": "8"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/325995560-turkey-france",
-    "derniere_maj": "2026-09-12T14:09:42.917022+00:00",
+    "derniere_maj": "2026-09-12T17:21:45.052562+00:00",
     "statut": "ok"
   },
   {
@@ -1102,9 +878,9 @@
     "equipe_1": "Montenegro",
     "equipe_2": "Cyprus",
     "1X2": {
-      "V1": "1.54",
-      "X": "3.88",
-      "V2": "6.75"
+      "V1": "1.52",
+      "X": "3.94",
+      "V2": "7"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1121,24 +897,24 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-3.5)": "9.2",
-      "2 (+3.5)": "1.003",
-      "1 (-3)": "8.5",
-      "2 (+3)": "1.012",
-      "1 (-2.5)": "4.55",
-      "2 (+2.5)": "1.132",
-      "1 (-2)": "3.75",
-      "2 (+2)": "1.21",
-      "1 (-1.5)": "2.44",
-      "2 (+1.5)": "1.49",
-      "1 (-1)": "1.9",
-      "2 (+1)": "1.9",
-      "1 (0)": "1.131",
-      "2 (0)": "4.95"
+      "1 (-3.5)": "9",
+      "2 (+3.5)": "1.006",
+      "1 (-3)": "8.3",
+      "2 (+3)": "1.016",
+      "1 (-2.5)": "4.45",
+      "2 (+2.5)": "1.138",
+      "1 (-2)": "3.66",
+      "2 (+2)": "1.22",
+      "1 (-1.5)": "2.39",
+      "2 (+1.5)": "1.51",
+      "1 (-1)": "1.87",
+      "2 (+1)": "1.93",
+      "1 (0)": "1.122",
+      "2 (0)": "5.1"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/326182840-montenegro-cyprus",
-    "derniere_maj": "2026-09-12T14:09:53.965955+00:00",
+    "derniere_maj": "2026-09-12T17:21:54.064731+00:00",
     "statut": "ok"
   },
   {
@@ -1170,13 +946,13 @@
       "1 (-3)": "7.1",
       "2 (+3)": "1.036",
       "1 (-2.5)": "4.1",
-      "2 (+2.5)": "1.163",
+      "2 (+2.5)": "1.164",
       "1 (-2)": "3.42",
       "2 (+2)": "1.25",
       "1 (-1.5)": "2.34",
       "2 (+1.5)": "1.53",
-      "1 (-1)": "1.86",
-      "2 (+1)": "1.94",
+      "1 (-1)": "1.85",
+      "2 (+1)": "1.952",
       "1 (0)": "1.177",
       "2 (0)": "4.25",
       "1 (+1)": "1.03",
@@ -1186,7 +962,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/326342442-sweden-romania",
-    "derniere_maj": "2026-09-12T14:10:09.440172+00:00",
+    "derniere_maj": "2026-09-12T17:22:01.315154+00:00",
     "statut": "ok"
   },
   {
@@ -1230,7 +1006,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/326503382-slovenia-scotland",
-    "derniere_maj": "2026-09-12T14:10:25.104118+00:00",
+    "derniere_maj": "2026-09-12T17:22:08.383872+00:00",
     "statut": "ok"
   },
   {
@@ -1274,7 +1050,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/326646072-bulgaria-luxembourg",
-    "derniere_maj": "2026-09-12T14:10:40.422692+00:00",
+    "derniere_maj": "2026-09-12T17:22:15.541651+00:00",
     "statut": "ok"
   },
   {
@@ -1318,7 +1094,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/326853884-iceland-estonia",
-    "derniere_maj": "2026-09-12T14:10:50.962645+00:00",
+    "derniere_maj": "2026-09-12T17:22:25.647603+00:00",
     "statut": "ok"
   },
   {
@@ -1368,7 +1144,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/326853886-san-marino-finland",
-    "derniere_maj": "2026-09-12T14:11:00.382342+00:00",
+    "derniere_maj": "2026-09-12T17:22:35.005588+00:00",
     "statut": "ok"
   },
   {
@@ -1400,7 +1176,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/326646082-faroe-islands-kazakhstan",
-    "derniere_maj": "2026-09-12T14:11:09.485584+00:00",
+    "derniere_maj": "2026-09-12T17:22:44.033094+00:00",
     "statut": "ok"
   },
   {
@@ -1427,24 +1203,24 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-3.5)": "8.1",
-      "2 (+3.5)": "1.018",
-      "1 (-3)": "7.4",
-      "2 (+3)": "1.03",
+      "1 (-3.5)": "8.2",
+      "2 (+3.5)": "1.017",
+      "1 (-3)": "7.5",
+      "2 (+3)": "1.029",
       "1 (-2.5)": "4.1",
-      "2 (+2.5)": "1.164",
-      "1 (-2)": "3.34",
-      "2 (+2)": "1.26",
+      "2 (+2.5)": "1.162",
+      "1 (-2)": "3.42",
+      "2 (+2)": "1.25",
       "1 (-1.5)": "2.23",
       "2 (+1.5)": "1.58",
-      "1 (-1)": "1.696",
-      "2 (+1)": "2.155",
-      "1 (0)": "1.088",
-      "2 (0)": "5.95"
+      "1 (-1)": "1.71",
+      "2 (+1)": "2.14",
+      "1 (0)": "1.09",
+      "2 (0)": "5.9"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/326971824-albania-belarus",
-    "derniere_maj": "2026-09-12T14:11:20.568410+00:00",
+    "derniere_maj": "2026-09-12T17:22:55.037739+00:00",
     "statut": "ok"
   },
   {
@@ -1454,7 +1230,7 @@
     "1X2": {
       "V1": "2.86",
       "X": "3.3",
-      "V2": "2.496"
+      "V2": "2.49"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1473,24 +1249,24 @@
     "Handicap": {
       "1 (-2)": "12",
       "2 (+2)": "1.01",
-      "1 (-1.5)": "5.45",
-      "2 (+1.5)": "1.093",
+      "1 (-1.5)": "5.4",
+      "2 (+1.5)": "1.094",
       "1 (-1)": "4.7",
-      "2 (+1)": "1.144",
+      "2 (+1)": "1.145",
       "1 (0)": "2.04",
       "2 (0)": "1.78",
       "1 (+1)": "1.22",
       "2 (-1)": "3.74",
-      "1 (+1.5)": "1.138",
+      "1 (+1.5)": "1.137",
       "2 (-1.5)": "4.55",
-      "1 (+2)": "1.013",
+      "1 (+2)": "1.012",
       "2 (-2)": "8.5",
       "1 (+2.5)": "1.004",
       "2 (-2.5)": "9.1"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/327162848-england-spain",
-    "derniere_maj": "2026-09-12T14:11:29.837935+00:00",
+    "derniere_maj": "2026-09-12T17:23:04.090689+00:00",
     "statut": "ok"
   },
   {
@@ -1498,9 +1274,9 @@
     "equipe_1": "Republic Of",
     "equipe_2": "North Macedonia Switzerland",
     "1X2": {
-      "V1": "7",
-      "X": "4.54",
-      "V2": "1.448"
+      "V1": "6.9",
+      "X": "4.48",
+      "V2": "1.456"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1517,24 +1293,24 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (0)": "5.2",
-      "2 (0)": "1.119",
+      "1 (0)": "5.15",
+      "2 (0)": "1.12",
       "1 (+1)": "2.096",
       "2 (-1)": "1.736",
       "1 (+1.5)": "1.58",
       "2 (-1.5)": "2.23",
-      "1 (+2)": "1.27",
-      "2 (-2)": "3.28",
-      "1 (+2.5)": "1.17",
+      "1 (+2)": "1.26",
+      "2 (-2)": "3.34",
+      "1 (+2.5)": "1.169",
       "2 (-2.5)": "4",
-      "1 (+3)": "1.033",
+      "1 (+3)": "1.032",
       "2 (-3)": "7.3",
       "1 (+3.5)": "1.019",
       "2 (-3.5)": "8.1"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/326503384-republic-of-north-macedonia-switzerland",
-    "derniere_maj": "2026-09-12T14:11:37.016071+00:00",
+    "derniere_maj": "2026-09-12T17:23:13.161774+00:00",
     "statut": "ok"
   },
   {
@@ -1578,7 +1354,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/326971822-slovakia-moldova",
-    "derniere_maj": "2026-09-12T14:11:46.329672+00:00",
+    "derniere_maj": "2026-09-12T17:23:22.381641+00:00",
     "statut": "ok"
   },
   {
@@ -1624,7 +1400,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/327162868-czech-republic-croatia",
-    "derniere_maj": "2026-09-12T14:11:55.588889+00:00",
+    "derniere_maj": "2026-09-12T17:23:31.424009+00:00",
     "statut": "ok"
   },
   {
@@ -1664,7 +1440,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/342637486-lithuania-azerbaijan",
-    "derniere_maj": "2026-09-12T14:12:03.169799+00:00",
+    "derniere_maj": "2026-09-12T17:23:40.423134+00:00",
     "statut": "ok"
   },
   {
@@ -1693,24 +1469,24 @@
     "Handicap": {
       "1 (-3.5)": "7.8",
       "2 (+3.5)": "1.024",
-      "1 (-3)": "7.1",
-      "2 (+3)": "1.038",
-      "1 (-2.5)": "3.92",
-      "2 (+2.5)": "1.177",
-      "1 (-2)": "3.28",
-      "2 (+2)": "1.27",
+      "1 (-3)": "7",
+      "2 (+3)": "1.039",
+      "1 (-2.5)": "3.9",
+      "2 (+2.5)": "1.178",
+      "1 (-2)": "3.22",
+      "2 (+2)": "1.28",
       "1 (-1.5)": "2.21",
       "2 (+1.5)": "1.59",
-      "1 (-1)": "1.75",
-      "2 (+1)": "2.08",
-      "1 (0)": "1.123",
+      "1 (-1)": "1.736",
+      "2 (+1)": "2.096",
+      "1 (0)": "1.122",
       "2 (0)": "5.1",
       "1 (+1)": "1.01",
       "2 (-1)": "12.5"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/344907356-austria-kosovo",
-    "derniere_maj": "2026-09-12T14:12:10.120606+00:00",
+    "derniere_maj": "2026-09-12T17:23:49.819802+00:00",
     "statut": "ok"
   },
   {
@@ -1718,9 +1494,9 @@
     "equipe_1": "Gibraltar",
     "equipe_2": "Andorra",
     "1X2": {
-      "V1": "2.825",
-      "X": "2.88",
-      "V2": "2.845"
+      "V1": "2.82",
+      "X": "2.9",
+      "V2": "2.83"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1737,20 +1513,20 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1.5)": "6.15",
-      "2 (+1.5)": "1.068",
-      "1 (-1)": "5.25",
-      "2 (+1)": "1.117",
+      "1 (-1.5)": "6.1",
+      "2 (+1.5)": "1.07",
+      "1 (-1)": "5.15",
+      "2 (+1)": "1.121",
       "1 (0)": "1.9",
       "2 (0)": "1.9",
-      "1 (+1)": "1.115",
+      "1 (+1)": "1.117",
       "2 (-1)": "5.25",
-      "1 (+1.5)": "1.066",
-      "2 (-1.5)": "6.2"
+      "1 (+1.5)": "1.068",
+      "2 (-1.5)": "6.15"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/343404996-gibraltar-andorra",
-    "derniere_maj": "2026-09-12T14:12:19.266454+00:00",
+    "derniere_maj": "2026-09-12T17:23:58.977791+00:00",
     "statut": "ok"
   },
   {
@@ -1796,7 +1572,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/343941588-denmark-wales",
-    "derniere_maj": "2026-09-12T14:12:27.456538+00:00",
+    "derniere_maj": "2026-09-12T17:24:14.972850+00:00",
     "statut": "ok"
   },
   {
@@ -1805,7 +1581,7 @@
     "equipe_2": "Netherlands",
     "1X2": {
       "V1": "4.5",
-      "X": "3.9",
+      "X": "3.88",
       "V2": "1.74"
     },
     "Total_2.5": {
@@ -1842,7 +1618,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/344303610-serbia-netherlands",
-    "derniere_maj": "2026-09-12T14:12:34.648580+00:00",
+    "derniere_maj": "2026-09-12T17:24:26.310768+00:00",
     "statut": "ok"
   },
   {
@@ -1850,9 +1626,9 @@
     "equipe_1": "Germany",
     "equipe_2": "Greece",
     "1X2": {
-      "V1": "X5.85",
-      "X": "1X2 (2UP)",
-      "V2": "Draw6"
+      "V1": "1.25",
+      "X": "5.85",
+      "V2": "12"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1868,10 +1644,29 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {},
+    "Handicap": {
+      "1 (-4.5)": "7.9",
+      "2 (+4.5)": "1.022",
+      "1 (-4)": "7.3",
+      "2 (+4)": "1.032",
+      "1 (-3.5)": "4.4",
+      "2 (+3.5)": "1.141",
+      "1 (-3)": "3.75",
+      "2 (+3)": "1.21",
+      "1 (-2.5)": "2.59",
+      "2 (+2.5)": "1.44",
+      "1 (-2)": "2.14",
+      "2 (+2)": "1.71",
+      "1 (-1.5)": "1.68",
+      "2 (+1.5)": "2.06",
+      "1 (-1)": "1.32",
+      "2 (+1)": "2.98",
+      "1 (0)": "1.045",
+      "2 (0)": "6.8"
+    },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/345183346-germany-greece",
-    "derniere_maj": "2026-09-12T14:12:44.978465+00:00",
+    "derniere_maj": "2026-09-12T17:24:37.974132+00:00",
     "statut": "ok"
   },
   {
@@ -1898,15 +1693,15 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1.5)": "6.2",
-      "2 (+1.5)": "1.067",
+      "1 (-1.5)": "6.15",
+      "2 (+1.5)": "1.068",
       "1 (-1)": "5.3",
       "2 (+1)": "1.114",
       "1 (0)": "2.155",
       "2 (0)": "1.696",
       "1 (+1)": "1.23",
       "2 (-1)": "3.65",
-      "1 (+1.5)": "1.141",
+      "1 (+1.5)": "1.14",
       "2 (-1.5)": "4.5",
       "1 (+2)": "1.006",
       "2 (-2)": "9",
@@ -1915,7 +1710,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/345472100-israel-republic-of-ireland",
-    "derniere_maj": "2026-09-12T14:12:54.471179+00:00",
+    "derniere_maj": "2026-09-12T17:24:49.126348+00:00",
     "statut": "ok"
   },
   {
@@ -1963,7 +1758,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/345183344-norway-portugal",
-    "derniere_maj": "2026-09-12T14:13:01.766451+00:00",
+    "derniere_maj": "2026-09-12T17:24:58.649101+00:00",
     "statut": "ok"
   },
   {
@@ -2009,7 +1804,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/345472098-georgia-ukraine",
-    "derniere_maj": "2026-09-12T14:13:11.354162+00:00",
+    "derniere_maj": "2026-09-12T17:25:07.696953+00:00",
     "statut": "ok"
   },
   {
@@ -2041,7 +1836,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/345782500-armenia-montenegro",
-    "derniere_maj": "2026-09-12T14:13:20.755857+00:00",
+    "derniere_maj": "2026-09-12T17:25:18.926203+00:00",
     "statut": "ok"
   },
   {
@@ -2073,7 +1868,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/345782498-latvia-cyprus",
-    "derniere_maj": "2026-09-12T14:13:27.748639+00:00",
+    "derniere_maj": "2026-09-12T17:25:27.997353+00:00",
     "statut": "ok"
   },
   {
@@ -2107,7 +1902,243 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/346384924-belgium-france",
-    "derniere_maj": "2026-09-12T14:13:35.227898+00:00",
+    "derniere_maj": "2026-09-12T17:25:37.196243+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Romania Bosnia",
+    "equipe_2": "And Herzegovina",
+    "1X2": {
+      "V1": "1.89",
+      "X": "3.61",
+      "V2": "3.595"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "2.76",
+      "2 (+1)": "1.37",
+      "1 (0)": "1.39",
+      "2 (0)": "2.66"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/346671942-romania-bosnia-and-herzegovina",
+    "derniere_maj": "2026-09-12T17:25:49.535098+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Northern",
+    "equipe_2": "Ireland Hungary",
+    "1X2": {
+      "V1": "2.52",
+      "X": "3.07",
+      "V2": "2.7"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "1.77",
+      "2 (0)": "1.9"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/346671944-northern-ireland-hungary",
+    "derniere_maj": "2026-09-12T17:25:58.908177+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Turkey",
+    "equipe_2": "Italy",
+    "1X2": {
+      "V1": "2.82",
+      "X": "3.44",
+      "V2": "2.28"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "2.05",
+      "2 (0)": "1.66",
+      "1 (+1)": "1.2",
+      "2 (-1)": "3.81"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/346384922-turkey-italy",
+    "derniere_maj": "2026-09-12T17:26:08.400918+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Sweden",
+    "equipe_2": "Poland",
+    "1X2": {
+      "V1": "1.91",
+      "X": "3.58",
+      "V2": "3.545"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "2.81",
+      "2 (+1)": "1.36",
+      "1 (0)": "1.41",
+      "2 (0)": "2.62"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/346671946-sweden-poland",
+    "derniere_maj": "2026-09-12T17:26:15.472635+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Moldova",
+    "equipe_2": "Faroe Islands",
+    "1X2": {
+      "V1": "2.3",
+      "X": "3.1",
+      "V2": "3.055"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "1.6",
+      "2 (0)": "2.13"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/347416312-moldova-faroe-islands",
+    "derniere_maj": "2026-09-12T17:26:24.614301+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Finland",
+    "equipe_2": "Belarus",
+    "1X2": {
+      "V1": "1.82",
+      "X": "3.31",
+      "V2": "4.3"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "3.67",
+      "2 (+1.5)": "1.22",
+      "1 (-1)": "2.72",
+      "2 (+1)": "1.38",
+      "1 (0)": "1.3",
+      "2 (0)": "3.08"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/347416420-finland-belarus",
+    "derniere_maj": "2026-09-12T17:26:33.740154+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Bulgaria",
+    "equipe_2": "Estonia",
+    "1X2": {
+      "V1": "1.53",
+      "X": "3.72",
+      "V2": "6.19"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "2.74",
+      "2 (+1.5)": "1.37",
+      "1 (-1)": "1.99",
+      "2 (+1)": "1.69"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1706694-uefa-nations-league/348630106-bulgaria-estonia",
+    "derniere_maj": "2026-09-12T17:26:43.223275+00:00",
     "statut": "ok"
   }
 ]
