@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -87,12 +87,43 @@ const LOGOS = {
     "africa-bizbet": "data:image/jpeg;base64,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",
 };
 
-const ROW_LABELS = { V1: "1", X: "X", V2: "2", "Plus de": "+2,5", "Moins de": "-2,5" };
+const ROW_LABELS = {
+    V1: "1", X: "X", V2: "2",
+    "Plus de": "+2,5", "Moins de": "-2,5",
+    "1X": "1X", "12": "12", "2X": "X2",
+    Oui: "Oui", Non: "Non"
+};
 
-const MARKET_GROUPS = [
-    { title: "Résultat (1X2)", keys: ["V1", "X", "V2"] },
-    { title: "Total buts (2,5)", keys: ["Plus de", "Moins de"] }
+const TYPE_TITLES = {
+    "1X2": "Résultat (1X2)",
+    "Total_2.5": "Total buts (2,5)",
+    "Double_Chance": "Double chance",
+    "BTTS": "Les deux équipes marquent",
+    "Handicap": "Handicap",
+    "Totals": "Autres totaux de buts",
+    "Score_Exact": "Score exact"
+};
+
+// Ordre d'affichage des groupes de marchés sur la fiche.
+const TYPE_ORDER = [
+    "1X2", "Total_2.5", "Double_Chance", "BTTS",
+    "Handicap", "Totals", "Score_Exact"
 ];
+
+// Marchés utilisés pour la mise en avant "meilleure cote" en
+// haut de page : on exclut Handicap/Totals/Score exact, dont les
+// cotes sont naturellement bien plus hautes et fausseraient la
+// mise en avant (toujours le pari le plus improbable en avant).
+const SPOTLIGHT_TYPES = ["1X2", "Total_2.5", "Double_Chance", "BTTS"];
+
+function rowLabel(market) {
+    if (market.type === "Totals") {
+        const [line, sens] = market.marche.split("|");
+        const prefix = sens === "Plus de" ? "+" : "-";
+        return prefix + line.replace(".", ",");
+    }
+    return ROW_LABELS[market.marche] || market.marche;
+}
 
 function escapeHTML(value) {
     return String(value ?? "").replace(/[&<>"']/g, c => ({
@@ -107,19 +138,25 @@ function marketLabel(match, market) {
         case "X": return "Match nul";
         case "Plus de": return "Plus de 2,5 buts";
         case "Moins de": return "Moins de 2,5 buts";
-        default: return market.marche;
+        case "1X": return "Double chance 1X";
+        case "12": return "Double chance 12";
+        case "2X": return "Double chance X2";
+        case "Oui": return "Les 2 équipes marquent";
+        case "Non": return "Pas les 2 équipes marquent";
+        default: return `${TYPE_TITLES[market.type] || ""} : ${rowLabel(market)}`.trim();
     }
 }
 
 function bestOverall(match) {
+    const pool = match.marches.filter(m => SPOTLIGHT_TYPES.includes(m.type));
     let best = null;
-    for (const m of match.marches) {
+    for (const m of pool) {
         if (AFFILIATE_LINKS[m.meilleur_site] && (!best || m.meilleure_cote > best.meilleure_cote)) {
             best = m;
         }
     }
     if (!best) {
-        for (const m of match.marches) {
+        for (const m of pool) {
             if (!best || m.meilleure_cote > best.meilleure_cote) best = m;
         }
     }
@@ -167,21 +204,27 @@ function ratesAreIdentical(rows, columns) {
 function renderChips(rows, bookmaker) {
     return rows.map(market => `
         <div class="single-odds__chip">
-            <span class="single-odds__label">${escapeHTML(ROW_LABELS[market.marche] || market.marche)}</span>
-            <span class="single-odds__value">${market.valeurs[bookmaker]}</span>
+            <span class="single-odds__label">${escapeHTML(rowLabel(market))}</span>
+            <span class="single-odds__value">${market.valeurs[bookmaker] ?? "–"}</span>
         </div>
     `).join("");
 }
 
-function renderMarketGroup(match, group) {
+function renderMarketGroup(match, type) {
 
-    const rows = match.marches.filter(m => group.keys.includes(m.marche));
+    const rows = match.marches.filter(m => m.type === type);
     if (!rows.length) {
         return "";
     }
 
+    const title = TYPE_TITLES[type] || type;
+
+    // Un bookmaker entre dans le tableau dès qu'il a au moins une
+    // cote sur ce marché (certaines lignes de Handicap/Totals ne
+    // sont pas proposées partout) ; les cases manquantes affichent
+    // un tiret plutôt que d'exclure toute la colonne.
     const columns = (match.bookmakers || []).filter(
-        b => rows.every(m => m.valeurs[b] !== undefined)
+        b => rows.some(m => m.valeurs[b] !== undefined)
     );
     if (!columns.length) {
         return "";
@@ -201,7 +244,7 @@ function renderMarketGroup(match, group) {
 
         return `
             <div class="match">
-                <p class="market-group__title">${escapeHTML(group.title)}</p>
+                <p class="market-group__title">${escapeHTML(title)}</p>
                 <p class="single-odds__source">Meilleure cote chez ${nameMarkup}</p>
                 <div class="single-odds">${renderChips(rows, b)}</div>
             </div>
@@ -219,7 +262,7 @@ function renderMarketGroup(match, group) {
 
         return `
             <div class="match">
-                <p class="market-group__title">${escapeHTML(group.title)}</p>
+                <p class="market-group__title">${escapeHTML(title)}</p>
                 <p class="single-odds__source">Cote identique chez ${nameMarkup}</p>
                 <div class="single-odds">${renderChips(rows, columns[0])}</div>
             </div>
@@ -241,11 +284,11 @@ function renderMarketGroup(match, group) {
         const cells = columns.map(b => {
             const value = market.valeurs[b];
             const isBest = b === market.meilleur_site;
-            return `<td class="${isBest ? "best" : ""}">${value}</td>`;
+            return `<td class="${isBest ? "best" : ""}">${value ?? "–"}</td>`;
         }).join("");
         return `
             <tr>
-                <th scope="row">${escapeHTML(ROW_LABELS[market.marche] || market.marche)}</th>
+                <th scope="row">${escapeHTML(rowLabel(market))}</th>
                 ${cells}
             </tr>
         `;
@@ -253,7 +296,7 @@ function renderMarketGroup(match, group) {
 
     return `
         <div class="match">
-            <p class="market-group__title">${escapeHTML(group.title)}</p>
+            <p class="market-group__title">${escapeHTML(title)}</p>
             <div class="odds-scroll">
                 <table class="odds-table">
                     <thead><tr><th></th>${headerCells}</tr></thead>
@@ -271,8 +314,11 @@ function render(match) {
 
     renderSpotlight(match);
 
-    document.getElementById("marketCards").innerHTML = MARKET_GROUPS
-        .map(group => renderMarketGroup(match, group))
+    const typesPresent = new Set(match.marches.map(m => m.type));
+
+    document.getElementById("marketCards").innerHTML = TYPE_ORDER
+        .filter(type => typesPresent.has(type))
+        .map(type => renderMarketGroup(match, type))
         .join("");
 }
 
