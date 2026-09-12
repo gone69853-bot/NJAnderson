@@ -2,10 +2,17 @@ name: Zicote - Update Odds
 
 on:
   schedule:
-    # Toutes les heures
-    - cron: "0 * * * *"
+    # Toutes les 2 heures (le run dépasse 1h, on évite le chevauchement)
+    - cron: "0 */1 * * *"
 
   workflow_dispatch:
+
+# Empêche deux exécutions de tourner en même temps : si un nouveau
+# run se déclenche pendant qu'un autre tourne encore, celui-ci
+# annule/remplace l'ancien au lieu de les laisser se chevaucher.
+concurrency:
+  group: zicote-update
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -83,5 +90,4 @@ jobs:
             exit 1
           fi
 
-          git pushgit push
-          fi
+          git push
