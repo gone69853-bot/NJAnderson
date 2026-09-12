@@ -1,291 +1,308 @@
 [
   {
     "bookmaker": "1win",
-    "equipe_1": "Union Berlin",
-    "equipe_2": "Schalke 04",
+    "equipe_1": "Racing Santander",
+    "equipe_2": "Alaves",
     "1X2": {
-      "V1": "2.47",
-      "X": "3.53",
-      "V2": "2.83"
+      "V1": "2.46",
+      "X": "3.56",
+      "V2": "2.8"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422340+00:00",
+    "derniere_maj": "2026-09-12T02:31:23.942040+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "Borussia Dortmund",
-    "equipe_2": "SC Paderborn 07",
+    "equipe_1": "Osasuna",
+    "equipe_2": "Espanyol",
     "1X2": {
-      "V1": "1.24",
-      "X": "6.9",
-      "V2": "11.1"
+      "V1": "2.19",
+      "X": "3.25",
+      "V2": "3.59"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422371+00:00",
+    "derniere_maj": "2026-09-12T02:31:23.942068+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "Augsburg",
-    "equipe_2": "Bayer Leverkusen",
+    "equipe_1": "Athletic Bilbao",
+    "equipe_2": "Elche",
     "1X2": {
-      "V1": "4.02",
-      "X": "4.14",
-      "V2": "1.81"
+      "V1": "1.43",
+      "X": "4.89",
+      "V2": "7.3"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422385+00:00",
+    "derniere_maj": "2026-09-12T02:31:23.942078+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "SC Freiburg",
-    "equipe_2": "Borussia M",
+    "equipe_1": "Real Madrid",
+    "equipe_2": "Rayo Vallecano",
     "1X2": {
-      "V1": "1.7",
-      "X": "4.24",
-      "V2": "4.55"
+      "V1": "1.12",
+      "X": "9.5",
+      "V2": "21.3"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422397+00:00",
+    "derniere_maj": "2026-09-12T02:31:23.942086+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "TSG 1899 Hoffenheim",
-    "equipe_2": "VfB Stuttgart",
+    "equipe_1": "Celta de Vigo",
+    "equipe_2": "Malaga",
     "1X2": {
-      "V1": "2.36",
-      "X": "4.07",
-      "V2": "2.67"
+      "V1": "1.72",
+      "X": "3.7",
+      "V2": "5.2"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422407+00:00",
+    "derniere_maj": "2026-09-12T02:31:23.942093+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "FSV Mainz",
-    "equipe_2": "Eintracht Frankfurt",
+    "equipe_1": "Levante",
+    "equipe_2": "Barcelona FC",
     "1X2": {
-      "V1": "2.0",
-      "X": "4.01",
-      "V2": "3.43"
+      "V1": "15.8",
+      "X": "8.6",
+      "V2": "1.16"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422417+00:00",
+    "derniere_maj": "2026-09-12T02:31:23.942100+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "FC Koln",
-    "equipe_2": "SV Werder Bremen",
+    "equipe_1": "Getafe",
+    "equipe_2": "Deportivo La Coruna",
     "1X2": {
-      "V1": "2.09",
-      "X": "3.75",
-      "V2": "3.35"
+      "V1": "2.45",
+      "X": "2.88",
+      "V2": "3.45"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422427+00:00",
+    "derniere_maj": "2026-09-12T02:31:23.942108+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "RB Leipzig",
-    "equipe_2": "Hamburg",
+    "equipe_1": "Real Sociedad",
+    "equipe_2": "Atletico Madrid",
     "1X2": {
-      "V1": "1.36",
-      "X": "5.4",
-      "V2": "7.9"
+      "V1": "2.96",
+      "X": "3.55",
+      "V2": "2.36"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422438+00:00",
+    "derniere_maj": "2026-09-12T02:31:23.942116+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "SV Elversberg",
-    "equipe_2": "Bayern Munchen",
+    "equipe_1": "Villarreal",
+    "equipe_2": "Real Betis",
     "1X2": {
-      "V1": "14.4",
-      "X": "8.5",
-      "V2": "1.17"
+      "V1": "1.92",
+      "X": "3.94",
+      "V2": "3.73"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422447+00:00",
+    "derniere_maj": "2026-09-12T02:31:23.942141+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "Rennes",
-    "equipe_2": "Marseille",
+    "equipe_1": "Genoa",
+    "equipe_2": "Frosinone",
     "1X2": {
-      "V1": "2.03",
-      "X": "3.88",
-      "V2": "3.39"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422458+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Strasbourg",
-    "equipe_2": "AS Monaco FC",
-    "1X2": {
-      "V1": "3.23",
-      "X": "3.8",
-      "V2": "2.13"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422468+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Paris FC",
-    "equipe_2": "Lyon",
-    "1X2": {
-      "V1": "2.6",
-      "X": "3.68",
-      "V2": "2.57"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422479+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Auxerre",
-    "equipe_2": "Nice",
-    "1X2": {
-      "V1": "2.63",
+      "V1": "2.17",
       "X": "3.35",
-      "V2": "2.75"
+      "V2": "3.51"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422488+00:00",
+    "derniere_maj": "2026-09-12T02:31:23.942152+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "Le Havre",
-    "equipe_2": "Angers SC",
+    "equipe_1": "Lazio",
+    "equipe_2": "AC Milan",
     "1X2": {
-      "V1": "2.56",
-      "X": "3.24",
-      "V2": "2.92"
+      "V1": "3.38",
+      "X": "3.22",
+      "V2": "2.28"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422498+00:00",
+    "derniere_maj": "2026-09-12T02:31:23.942161+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "Lorient",
-    "equipe_2": "Toulouse",
+    "equipe_1": "Atalanta",
+    "equipe_2": "Cagliari",
     "1X2": {
-      "V1": "2.58",
-      "X": "3.28",
-      "V2": "2.84"
+      "V1": "1.62",
+      "X": "3.98",
+      "V2": "5.7"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422508+00:00",
+    "derniere_maj": "2026-09-12T02:31:23.942172+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "Lille",
-    "equipe_2": "Troyes AC",
+    "equipe_1": "Lecce",
+    "equipe_2": "AC Monza Brianza",
     "1X2": {
-      "V1": "1.45",
-      "X": "4.68",
-      "V2": "7.1"
+      "V1": "2.68",
+      "X": "3.11",
+      "V2": "2.86"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422517+00:00",
+    "derniere_maj": "2026-09-12T02:31:23.942182+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "1win",
-    "equipe_1": "Le Mans",
-    "equipe_2": "Lens",
+    "equipe_1": "Napoli",
+    "equipe_2": "Bologna",
     "1X2": {
-      "V1": "4.9",
-      "X": "4.19",
-      "V2": "1.66"
+      "V1": "1.82",
+      "X": "3.54",
+      "V2": "4.69"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-11T16:29:40.422527+00:00",
+    "derniere_maj": "2026-09-12T02:31:23.942192+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Sassuolo",
+    "equipe_2": "Juventus",
+    "1X2": {
+      "V1": "5.3",
+      "X": "4.06",
+      "V2": "1.65"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-12T02:31:23.942202+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Como",
+    "equipe_2": "Parma",
+    "1X2": {
+      "V1": "1.23",
+      "X": "6.1",
+      "V2": "14.1"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-12T02:31:23.942208+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Torino",
+    "equipe_2": "AS Roma",
+    "1X2": {
+      "V1": "5.9",
+      "X": "4.15",
+      "V2": "1.57"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-12T02:31:23.942215+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Inter Milan",
+    "equipe_2": "Udinese",
+    "1X2": {
+      "V1": "1.25",
+      "X": "6.1",
+      "V2": "12.3"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-12T02:31:23.942221+00:00",
     "statut": "ok"
   }
 ]
