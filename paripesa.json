@@ -13,7 +13,7 @@
       "Moins de": "3.14"
     },
     "url": "https://paripesa.cm/fr/line/football/96463-germany-bundesliga/364956144-borussia-dortmund-paderborn-07",
-    "derniere_maj": "2026-09-12T02:09:14.553543+00:00",
+    "derniere_maj": "2026-09-12T06:04:49.600974+00:00",
     "statut": "ok"
   },
   {
@@ -21,33 +21,16 @@
     "equipe_1": "Chelsea",
     "equipe_2": "Hull City",
     "1X2": {
-      "V1": "1.225",
-      "X": "6.35",
-      "V2": "12"
+      "V1": "1.235",
+      "X": "6.4",
+      "V2": "11"
     },
     "Total_2.5": {
       "Plus de": "1.37",
       "Moins de": "2.8"
     },
     "url": "https://paripesa.cm/fr/line/football/88637-england-premier-league/364947828-chelsea-hull-city",
-    "derniere_maj": "2026-09-12T02:09:23.782383+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "paripesa",
-    "equipe_1": "Real Madrid",
-    "equipe_2": "Rayo Vallecano",
-    "1X2": {
-      "V1": "1.104",
-      "X": "9.7",
-      "V2": "23"
-    },
-    "Total_2.5": {
-      "Plus de": "1.25",
-      "Moins de": "3.62"
-    },
-    "url": "https://paripesa.cm/fr/line/football/127733-spain-la-liga/366610592-real-madrid-rayo-vallecano",
-    "derniere_maj": "2026-09-12T02:09:33.510757+00:00",
+    "derniere_maj": "2026-09-12T06:05:00.117107+00:00",
     "statut": "ok"
   },
   {
@@ -55,16 +38,33 @@
     "equipe_1": "Sunderland",
     "equipe_2": "Arsenal",
     "1X2": {
-      "V1": "7.4",
-      "X": "4.2",
-      "V2": "1.47"
+      "V1": "6.8",
+      "X": "3.9",
+      "V2": "1.54"
     },
     "Total_2.5": {
-      "Plus de": "2.02",
-      "Moins de": "1.79"
+      "Plus de": "2.06",
+      "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/88637-england-premier-league/364947844-sunderland-arsenal",
-    "derniere_maj": "2026-09-12T02:09:42.901715+00:00",
+    "derniere_maj": "2026-09-12T06:05:09.486188+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Real Madrid",
+    "equipe_2": "Rayo Vallecano",
+    "1X2": {
+      "V1": "1.12",
+      "X": "9.1",
+      "V2": "19"
+    },
+    "Total_2.5": {
+      "Plus de": "1.26",
+      "Moins de": "3.54"
+    },
+    "url": "https://paripesa.cm/fr/line/football/127733-spain-la-liga/366610592-real-madrid-rayo-vallecano",
+    "derniere_maj": "2026-09-12T06:05:18.742396+00:00",
     "statut": "ok"
   },
   {
@@ -72,186 +72,16 @@
     "equipe_1": "Liverpool",
     "equipe_2": "Fulham",
     "1X2": {
-      "V1": "1.45",
-      "X": "4.94",
-      "V2": "6.15"
+      "V1": "1.5",
+      "X": "4.7",
+      "V2": "5.75"
     },
     "Total_2.5": {
       "Plus de": "1.44",
       "Moins de": "2.62"
     },
     "url": "https://paripesa.cm/fr/line/football/88637-england-premier-league/364947834-liverpool-fulham",
-    "derniere_maj": "2026-09-12T02:09:52.145067+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "paripesa",
-    "equipe_1": "Crew ",
-    "equipe_2": "Minnesota ",
-    "1X2": {
-      "V1": "2.4",
-      "X": "3.01",
-      "V2": "2.2"
-    },
-    "Total_2.5": {
-      "Plus de": "2.13",
-      "Moins de": "1.6"
-    },
-    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752368-crew--minnesota-",
-    "derniere_maj": "2026-09-12T02:09:59.446017+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "paripesa",
-    "equipe_1": "Dcunited ",
-    "equipe_2": "Minnesota ",
-    "1X2": {
-      "V1": "2.11",
-      "X": "3.08",
-      "V2": "2.5"
-    },
-    "Total_2.5": {
-      "Plus de": "1.91",
-      "Moins de": "1.76"
-    },
-    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752364-dcunited--minnesota-",
-    "derniere_maj": "2026-09-12T02:10:09.220218+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "paripesa",
-    "equipe_1": "Dallas ",
-    "equipe_2": "Dcunited ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.01",
-      "V2": "2.4"
-    },
-    "Total_2.5": {
-      "Plus de": "2.01",
-      "Moins de": "1.68"
-    },
-    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752372-dallas--dcunited-",
-    "derniere_maj": "2026-09-12T02:10:16.778903+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "paripesa",
-    "equipe_1": "Dallas ",
-    "equipe_2": "Crew ",
-    "1X2": {
-      "V1": "2.5",
-      "X": "3.08",
-      "V2": "2.11"
-    },
-    "Total_2.5": {
-      "Plus de": "2.13",
-      "Moins de": "1.6"
-    },
-    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368752374-dallas--crew-",
-    "derniere_maj": "2026-09-12T02:10:24.162024+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "paripesa",
-    "equipe_1": "Chivas ",
-    "equipe_2": "Detroit ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": "2.07",
-      "Moins de": "1.64"
-    },
-    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753116-chivas--detroit-",
-    "derniere_maj": "2026-09-12T02:10:31.743459+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "paripesa",
-    "equipe_1": "Chivas ",
-    "equipe_2": "Las Vegas ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": "2.07",
-      "Moins de": "1.64"
-    },
-    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753082-chivas--las-vegas-",
-    "derniere_maj": "2026-09-12T02:10:39.558244+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "paripesa",
-    "equipe_1": "Chivas ",
-    "equipe_2": "Memphis ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": "2.07",
-      "Moins de": "1.64"
-    },
-    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753102-chivas--memphis-",
-    "derniere_maj": "2026-09-12T02:10:47.107893+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "paripesa",
-    "equipe_1": "Detroit ",
-    "equipe_2": "Memphis ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": "2.07",
-      "Moins de": "1.64"
-    },
-    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753086-detroit--memphis-",
-    "derniere_maj": "2026-09-12T02:10:54.361725+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "paripesa",
-    "equipe_1": "Detroit ",
-    "equipe_2": "Las Vegas ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": "2.07",
-      "Moins de": "1.64"
-    },
-    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753110-detroit--las-vegas-",
-    "derniere_maj": "2026-09-12T02:11:01.885305+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "paripesa",
-    "equipe_1": "Las Vegas",
-    "equipe_2": " Memphis ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": "2.07",
-      "Moins de": "1.64"
-    },
-    "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753076-las-vegas--memphis-",
-    "derniere_maj": "2026-09-12T02:11:15.503349+00:00",
+    "derniere_maj": "2026-09-12T06:05:28.124026+00:00",
     "statut": "ok"
   },
   {
@@ -268,7 +98,7 @@
       "Moins de": "1.84"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753234-cincinnati--orlando-",
-    "derniere_maj": "2026-09-12T02:11:25.548881+00:00",
+    "derniere_maj": "2026-09-12T06:05:37.714829+00:00",
     "statut": "ok"
   },
   {
@@ -285,7 +115,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753232-cincinnati--nashville-",
-    "derniere_maj": "2026-09-12T02:11:35.249018+00:00",
+    "derniere_maj": "2026-09-12T06:05:47.617776+00:00",
     "statut": "ok"
   },
   {
@@ -302,7 +132,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753238-nashville--orlando-",
-    "derniere_maj": "2026-09-12T02:11:43.163302+00:00",
+    "derniere_maj": "2026-09-12T06:05:57.186859+00:00",
     "statut": "ok"
   },
   {
@@ -319,7 +149,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753172-toronto-cincinnati-",
-    "derniere_maj": "2026-09-12T02:11:52.740732+00:00",
+    "derniere_maj": "2026-09-12T06:06:06.480882+00:00",
     "statut": "ok"
   },
   {
@@ -336,7 +166,7 @@
       "Moins de": "1.94"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753194-toronto-nashville-",
-    "derniere_maj": "2026-09-12T02:12:00.080697+00:00",
+    "derniere_maj": "2026-09-12T06:06:13.792176+00:00",
     "statut": "ok"
   },
   {
@@ -353,7 +183,7 @@
       "Moins de": "1.84"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753218-toronto-orlando-",
-    "derniere_maj": "2026-09-12T02:12:09.651657+00:00",
+    "derniere_maj": "2026-09-12T06:06:21.550712+00:00",
     "statut": "ok"
   },
   {
@@ -370,7 +200,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753352-austin--fusion-",
-    "derniere_maj": "2026-09-12T02:12:19.510435+00:00",
+    "derniere_maj": "2026-09-12T06:06:31.101948+00:00",
     "statut": "ok"
   },
   {
@@ -387,7 +217,7 @@
       "Moins de": "1.68"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753380-austin--st-louis-",
-    "derniere_maj": "2026-09-12T02:12:29.020929+00:00",
+    "derniere_maj": "2026-09-12T06:06:38.649918+00:00",
     "statut": "ok"
   },
   {
@@ -404,7 +234,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753360-birmingham--charleston-",
-    "derniere_maj": "2026-09-12T02:12:38.485840+00:00",
+    "derniere_maj": "2026-09-12T06:06:46.063383+00:00",
     "statut": "ok"
   },
   {
@@ -421,7 +251,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753376-birmingham--hartford-",
-    "derniere_maj": "2026-09-12T02:12:45.796821+00:00",
+    "derniere_maj": "2026-09-12T06:06:55.341364+00:00",
     "statut": "ok"
   },
   {
@@ -438,7 +268,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753386-birmingham--loudoun-",
-    "derniere_maj": "2026-09-12T02:12:55.322477+00:00",
+    "derniere_maj": "2026-09-12T06:07:02.818962+00:00",
     "statut": "ok"
   },
   {
@@ -455,7 +285,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753366-charleston--loudoun-",
-    "derniere_maj": "2026-09-12T02:13:04.650802+00:00",
+    "derniere_maj": "2026-09-12T06:07:12.208308+00:00",
     "statut": "ok"
   },
   {
@@ -472,7 +302,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753346-charleston--hartford-",
-    "derniere_maj": "2026-09-12T02:13:14.397531+00:00",
+    "derniere_maj": "2026-09-12T06:07:22.028725+00:00",
     "statut": "ok"
   },
   {
@@ -489,7 +319,7 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753348-hartford--loudoun-",
-    "derniere_maj": "2026-09-12T02:13:24.723997+00:00",
+    "derniere_maj": "2026-09-12T06:07:31.862912+00:00",
     "statut": "ok"
   },
   {
@@ -506,7 +336,7 @@
       "Moins de": "1.6"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753354-los-angeles--austin-",
-    "derniere_maj": "2026-09-12T02:13:38.350376+00:00",
+    "derniere_maj": "2026-09-12T06:07:39.239425+00:00",
     "statut": "ok"
   },
   {
@@ -523,7 +353,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753344-los-angeles--st-louis-",
-    "derniere_maj": "2026-09-12T02:13:48.388998+00:00",
+    "derniere_maj": "2026-09-12T06:07:48.744044+00:00",
     "statut": "ok"
   },
   {
@@ -540,7 +370,7 @@
       "Moins de": "1.6"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753358-los-angeles--fusion-",
-    "derniere_maj": "2026-09-12T02:13:58.172401+00:00",
+    "derniere_maj": "2026-09-12T06:07:58.380157+00:00",
     "statut": "ok"
   },
   {
@@ -557,7 +387,7 @@
       "Moins de": "1.68"
     },
     "url": "https://paripesa.cm/fr/line/football/2590430-mls/368753340-st-louis--fusion-",
-    "derniere_maj": "2026-09-12T02:14:07.616778+00:00",
+    "derniere_maj": "2026-09-12T06:08:05.708677+00:00",
     "statut": "ok"
   },
   {
@@ -574,7 +404,7 @@
       "Moins de": "1.38"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325699846-andorra-malta",
-    "derniere_maj": "2026-09-12T02:14:17.275165+00:00",
+    "derniere_maj": "2026-09-12T06:08:16.627838+00:00",
     "statut": "ok"
   },
   {
@@ -591,7 +421,7 @@
       "Moins de": "2.28"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325575974-austria-israel",
-    "derniere_maj": "2026-09-12T02:14:26.953676+00:00",
+    "derniere_maj": "2026-09-12T06:08:26.306491+00:00",
     "statut": "ok"
   },
   {
@@ -608,7 +438,7 @@
       "Moins de": "1.63"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325575978-kosovo-republic-of-ireland",
-    "derniere_maj": "2026-09-12T02:14:36.370875+00:00",
+    "derniere_maj": "2026-09-12T06:08:36.274204+00:00",
     "statut": "ok"
   },
   {
@@ -616,16 +446,16 @@
     "equipe_1": "Liechtenstein",
     "equipe_2": "Lithuania",
     "1X2": {
-      "V1": "9.5",
-      "X": "4.2",
-      "V2": "1.408"
+      "V1": "10",
+      "X": "4.18",
+      "V2": "1.392"
     },
     "Total_2.5": {
       "Plus de": "2.296",
       "Moins de": "1.62"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325699854-liechtenstein-lithuania",
-    "derniere_maj": "2026-09-12T02:14:51.761732+00:00",
+    "derniere_maj": "2026-09-12T06:08:48.390110+00:00",
     "statut": "ok"
   },
   {
@@ -642,7 +472,7 @@
       "Moins de": "2.35"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325372158-netherlands-germany",
-    "derniere_maj": "2026-09-12T02:15:01.502258+00:00",
+    "derniere_maj": "2026-09-12T06:08:57.633016+00:00",
     "statut": "ok"
   },
   {
@@ -650,16 +480,16 @@
     "equipe_1": "Norway",
     "equipe_2": "Denmark",
     "1X2": {
-      "V1": "1.955",
-      "X": "3.62",
-      "V2": "3.74"
+      "V1": "1.925",
+      "X": "3.64",
+      "V2": "3.84"
     },
     "Total_2.5": {
-      "Plus de": "1.8",
-      "Moins de": "2.01"
+      "Plus de": "1.79",
+      "Moins de": "2.02"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325372156-norway-denmark",
-    "derniere_maj": "2026-09-12T02:15:11.177998+00:00",
+    "derniere_maj": "2026-09-12T06:09:06.830348+00:00",
     "statut": "ok"
   },
   {
@@ -676,7 +506,7 @@
       "Moins de": "2.26"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325407126-portugal-wales",
-    "derniere_maj": "2026-09-12T02:15:20.862601+00:00",
+    "derniere_maj": "2026-09-12T06:09:14.192194+00:00",
     "statut": "ok"
   },
   {
@@ -693,7 +523,7 @@
       "Moins de": "1.72"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325407134-serbia-greece",
-    "derniere_maj": "2026-09-12T02:15:30.839869+00:00",
+    "derniere_maj": "2026-09-12T06:09:23.822364+00:00",
     "statut": "ok"
   },
   {
@@ -710,7 +540,7 @@
       "Moins de": "1.91"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325871866-armenia-latvia",
-    "derniere_maj": "2026-09-12T02:15:40.239594+00:00",
+    "derniere_maj": "2026-09-12T06:09:31.279030+00:00",
     "statut": "ok"
   },
   {
@@ -727,7 +557,7 @@
       "Moins de": "1.81"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325871868-georgia-northern-ireland",
-    "derniere_maj": "2026-09-12T02:15:50.130172+00:00",
+    "derniere_maj": "2026-09-12T06:09:39.023826+00:00",
     "statut": "ok"
   },
   {
@@ -744,7 +574,7 @@
       "Moins de": "1.76"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326182838-hungary-ukraine",
-    "derniere_maj": "2026-09-12T02:15:59.975909+00:00",
+    "derniere_maj": "2026-09-12T06:09:46.419273+00:00",
     "statut": "ok"
   },
   {
@@ -761,7 +591,7 @@
       "Moins de": "2"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325995556-italy-belgium",
-    "derniere_maj": "2026-09-12T02:16:13.766943+00:00",
+    "derniere_maj": "2026-09-12T06:09:53.952102+00:00",
     "statut": "ok"
   },
   {
@@ -769,8 +599,8 @@
     "equipe_1": "Poland Bosnia",
     "equipe_2": "And Herzegovina",
     "1X2": {
-      "V1": "1.65",
-      "X": "3.88",
+      "V1": "1.648",
+      "X": "3.9",
       "V2": "5.25"
     },
     "Total_2.5": {
@@ -778,7 +608,7 @@
       "Moins de": "1.88"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326342396-poland-bosnia-and-herzegovina",
-    "derniere_maj": "2026-09-12T02:16:23.948234+00:00",
+    "derniere_maj": "2026-09-12T06:10:01.379207+00:00",
     "statut": "ok"
   },
   {
@@ -795,7 +625,7 @@
       "Moins de": "2.43"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325995560-turkey-france",
-    "derniere_maj": "2026-09-12T02:16:33.701821+00:00",
+    "derniere_maj": "2026-09-12T06:10:08.589120+00:00",
     "statut": "ok"
   },
   {
@@ -812,7 +642,7 @@
       "Moins de": "1.81"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326182840-montenegro-cyprus",
-    "derniere_maj": "2026-09-12T02:16:43.145118+00:00",
+    "derniere_maj": "2026-09-12T06:10:16.435214+00:00",
     "statut": "ok"
   },
   {
@@ -829,7 +659,7 @@
       "Moins de": "2.2"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326342442-sweden-romania",
-    "derniere_maj": "2026-09-12T02:16:58.644431+00:00",
+    "derniere_maj": "2026-09-12T06:10:24.332871+00:00",
     "statut": "ok"
   },
   {
@@ -846,7 +676,177 @@
       "Moins de": "1.64"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326503382-slovenia-scotland",
-    "derniere_maj": "2026-09-12T02:17:08.633917+00:00",
+    "derniere_maj": "2026-09-12T06:10:32.131900+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Bulgaria",
+    "equipe_2": "Luxembourg",
+    "1X2": {
+      "V1": "1.915",
+      "X": "3.32",
+      "V2": "4.34"
+    },
+    "Total_2.5": {
+      "Plus de": "2.256",
+      "Moins de": "1.64"
+    },
+    "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326646072-bulgaria-luxembourg",
+    "derniere_maj": "2026-09-12T06:10:39.477878+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Iceland",
+    "equipe_2": "Estonia",
+    "1X2": {
+      "V1": "1.368",
+      "X": "4.48",
+      "V2": "10"
+    },
+    "Total_2.5": {
+      "Plus de": "1.9",
+      "Moins de": "1.9"
+    },
+    "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326853884-iceland-estonia",
+    "derniere_maj": "2026-09-12T06:10:47.539936+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "San",
+    "equipe_2": "Marino Finland",
+    "1X2": {
+      "V1": "29",
+      "X": "11",
+      "V2": "1.07"
+    },
+    "Total_2.5": {
+      "Plus de": "1.5",
+      "Moins de": "2.5"
+    },
+    "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326853886-san-marino-finland",
+    "derniere_maj": "2026-09-12T06:10:54.868724+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Faroe",
+    "equipe_2": "Islands Kazakhstan",
+    "1X2": {
+      "V1": "2.58",
+      "X": "3.16",
+      "V2": "2.58"
+    },
+    "Total_2.5": {
+      "Plus de": "2.37",
+      "Moins de": "1.49"
+    },
+    "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326646082-faroe-islands-kazakhstan",
+    "derniere_maj": "2026-09-12T06:11:02.129550+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Albania",
+    "equipe_2": "Belarus",
+    "1X2": {
+      "V1": "1.416",
+      "X": "4.38",
+      "V2": "8.4"
+    },
+    "Total_2.5": {
+      "Plus de": "2.125",
+      "Moins de": "1.715"
+    },
+    "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326971824-albania-belarus",
+    "derniere_maj": "2026-09-12T06:11:09.304764+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "England",
+    "equipe_2": "Spain",
+    "1X2": {
+      "V1": "2.86",
+      "X": "3.3",
+      "V2": "2.496"
+    },
+    "Total_2.5": {
+      "Plus de": "1.9",
+      "Moins de": "1.9"
+    },
+    "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/327162848-england-spain",
+    "derniere_maj": "2026-09-12T06:11:16.530025+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Republic Of",
+    "equipe_2": "North Macedonia Switzerland",
+    "1X2": {
+      "V1": "6.9",
+      "X": "4.48",
+      "V2": "1.456"
+    },
+    "Total_2.5": {
+      "Plus de": "1.79",
+      "Moins de": "2.02"
+    },
+    "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326503384-republic-of-north-macedonia-switzerland",
+    "derniere_maj": "2026-09-12T06:11:23.986451+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Slovakia",
+    "equipe_2": "Moldova",
+    "1X2": {
+      "V1": "1.296",
+      "X": "5.2",
+      "V2": "11"
+    },
+    "Total_2.5": {
+      "Plus de": "1.75",
+      "Moins de": "2.08"
+    },
+    "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326971822-slovakia-moldova",
+    "derniere_maj": "2026-09-12T06:11:31.158571+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Czech",
+    "equipe_2": "Republic Croatia",
+    "1X2": {
+      "V1": "3.064",
+      "X": "3.42",
+      "V2": "2.3"
+    },
+    "Total_2.5": {
+      "Plus de": "1.82",
+      "Moins de": "1.99"
+    },
+    "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/327162868-czech-republic-croatia",
+    "derniere_maj": "2026-09-12T06:11:38.502246+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "paripesa",
+    "equipe_1": "Lithuania",
+    "equipe_2": "Azerbaijan",
+    "1X2": {
+      "V1": "2.704",
+      "X": "3.1",
+      "V2": "2.775"
+    },
+    "Total_2.5": {
+      "Plus de": "2.475",
+      "Moins de": "1.54"
+    },
+    "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/342637486-lithuania-azerbaijan",
+    "derniere_maj": "2026-09-12T06:11:45.685450+00:00",
     "statut": "ok"
   }
 ]

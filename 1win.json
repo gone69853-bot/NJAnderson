@@ -1,19 +1,138 @@
 [
   {
     "bookmaker": "1win",
-    "equipe_1": "Racing Santander",
-    "equipe_2": "Alaves",
+    "equipe_1": "Fakel Voronezh",
+    "equipe_2": "Baltika",
     "1X2": {
-      "V1": "2.46",
-      "X": "3.56",
-      "V2": "2.8"
+      "V1": "3.45",
+      "X": "3.0",
+      "V2": "2.35"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942040+00:00",
+    "derniere_maj": "2026-09-12T06:23:24.768876+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Zenit St Petersburg",
+    "equipe_2": "Lokomotiv Moscow",
+    "1X2": {
+      "V1": "1.4",
+      "X": "5.1",
+      "V2": "7.6"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-12T06:23:24.768904+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Dynamo Moscow",
+    "equipe_2": "Orenburg",
+    "1X2": {
+      "V1": "1.5",
+      "X": "4.6",
+      "V2": "6.1"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-12T06:23:24.768915+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "CSKA Moscow",
+    "equipe_2": "Rubin Kazan",
+    "1X2": {
+      "V1": "1.65",
+      "X": "3.9",
+      "V2": "5.3"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-12T06:23:24.768924+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Akhmat Grozny",
+    "equipe_2": "Dynamo Makhachkala",
+    "1X2": {
+      "V1": "2.12",
+      "X": "3.3",
+      "V2": "3.7"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-12T06:23:24.768932+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Spartak Moskva",
+    "equipe_2": "Rostov FK",
+    "1X2": {
+      "V1": "1.65",
+      "X": "4.05",
+      "V2": "5.3"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-12T06:23:24.768940+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Krasnodar",
+    "equipe_2": "Akron",
+    "1X2": {
+      "V1": "1.27",
+      "X": "6.1",
+      "V2": "10.5"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-12T06:23:24.768946+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Racing Santander",
+    "equipe_2": "Alaves",
+    "1X2": {
+      "V1": "2.57",
+      "X": "3.52",
+      "V2": "2.7"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-12T06:23:24.768953+00:00",
     "statut": "ok"
   },
   {
@@ -21,16 +140,16 @@
     "equipe_1": "Osasuna",
     "equipe_2": "Espanyol",
     "1X2": {
-      "V1": "2.19",
-      "X": "3.25",
-      "V2": "3.59"
+      "V1": "2.3",
+      "X": "3.14",
+      "V2": "3.45"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942068+00:00",
+    "derniere_maj": "2026-09-12T06:23:24.768960+00:00",
     "statut": "ok"
   },
   {
@@ -39,15 +158,15 @@
     "equipe_2": "Elche",
     "1X2": {
       "V1": "1.43",
-      "X": "4.89",
-      "V2": "7.3"
+      "X": "4.83",
+      "V2": "7.5"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942078+00:00",
+    "derniere_maj": "2026-09-12T06:23:24.768967+00:00",
     "statut": "ok"
   },
   {
@@ -55,16 +174,16 @@
     "equipe_1": "Real Madrid",
     "equipe_2": "Rayo Vallecano",
     "1X2": {
-      "V1": "1.12",
-      "X": "9.5",
-      "V2": "21.3"
+      "V1": "1.14",
+      "X": "8.8",
+      "V2": "18.6"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942086+00:00",
+    "derniere_maj": "2026-09-12T06:23:24.768973+00:00",
     "statut": "ok"
   },
   {
@@ -81,7 +200,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942093+00:00",
+    "derniere_maj": "2026-09-12T06:23:24.768980+00:00",
     "statut": "ok"
   },
   {
@@ -90,7 +209,7 @@
     "equipe_2": "Barcelona FC",
     "1X2": {
       "V1": "15.8",
-      "X": "8.6",
+      "X": "8.5",
       "V2": "1.16"
     },
     "Total_2.5": {
@@ -98,7 +217,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942100+00:00",
+    "derniere_maj": "2026-09-12T06:23:24.768987+00:00",
     "statut": "ok"
   },
   {
@@ -108,14 +227,14 @@
     "1X2": {
       "V1": "2.45",
       "X": "2.88",
-      "V2": "3.45"
+      "V2": "3.46"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942108+00:00",
+    "derniere_maj": "2026-09-12T06:23:24.768993+00:00",
     "statut": "ok"
   },
   {
@@ -132,177 +251,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942116+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Villarreal",
-    "equipe_2": "Real Betis",
-    "1X2": {
-      "V1": "1.92",
-      "X": "3.94",
-      "V2": "3.73"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942141+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Genoa",
-    "equipe_2": "Frosinone",
-    "1X2": {
-      "V1": "2.17",
-      "X": "3.35",
-      "V2": "3.51"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942152+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Lazio",
-    "equipe_2": "AC Milan",
-    "1X2": {
-      "V1": "3.38",
-      "X": "3.22",
-      "V2": "2.28"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942161+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Atalanta",
-    "equipe_2": "Cagliari",
-    "1X2": {
-      "V1": "1.62",
-      "X": "3.98",
-      "V2": "5.7"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942172+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Lecce",
-    "equipe_2": "AC Monza Brianza",
-    "1X2": {
-      "V1": "2.68",
-      "X": "3.11",
-      "V2": "2.86"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942182+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Napoli",
-    "equipe_2": "Bologna",
-    "1X2": {
-      "V1": "1.82",
-      "X": "3.54",
-      "V2": "4.69"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942192+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Sassuolo",
-    "equipe_2": "Juventus",
-    "1X2": {
-      "V1": "5.3",
-      "X": "4.06",
-      "V2": "1.65"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942202+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Como",
-    "equipe_2": "Parma",
-    "1X2": {
-      "V1": "1.23",
-      "X": "6.1",
-      "V2": "14.1"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942208+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Torino",
-    "equipe_2": "AS Roma",
-    "1X2": {
-      "V1": "5.9",
-      "X": "4.15",
-      "V2": "1.57"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942215+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Inter Milan",
-    "equipe_2": "Udinese",
-    "1X2": {
-      "V1": "1.25",
-      "X": "6.1",
-      "V2": "12.3"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/betting/prematch?platform_type=mobile",
-    "derniere_maj": "2026-09-12T02:31:23.942221+00:00",
+    "derniere_maj": "2026-09-12T06:23:24.768999+00:00",
     "statut": "ok"
   }
 ]

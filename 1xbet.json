@@ -4,16 +4,16 @@
     "equipe_1": "Borussia Dortmund",
     "equipe_2": "Paderborn 07",
     "1X2": {
-      "V1": "1.261",
-      "X": "7.32",
-      "V2": "11.6"
+      "V1": "1.27",
+      "X": "7.11",
+      "V2": "11.4"
     },
     "Total_2.5": {
-      "Plus de": "1.3",
-      "Moins de": "3.14"
+      "Plus de": "1.31",
+      "Moins de": "3.08"
     },
     "url": "https://1xbet.cm/fr/line/football/96463-germany-bundesliga/364956144-borussia-dortmund-paderborn-07",
-    "derniere_maj": "2026-09-12T01:56:54.957403+00:00",
+    "derniere_maj": "2026-09-12T05:51:13.311489+00:00",
     "statut": "ok"
   },
   {
@@ -21,33 +21,16 @@
     "equipe_1": "Chelsea",
     "equipe_2": "Hull City",
     "1X2": {
-      "V1": "1.271",
-      "X": "6.6",
-      "V2": "12.9"
+      "V1": "1.28",
+      "X": "6.65",
+      "V2": "11.9"
     },
     "Total_2.5": {
-      "Plus de": "1.37",
-      "Moins de": "2.8"
+      "Plus de": "1.35",
+      "Moins de": "2.88"
     },
     "url": "https://1xbet.cm/fr/line/football/88637-england-premier-league/364947828-chelsea-hull-city",
-    "derniere_maj": "2026-09-12T01:57:04.038445+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Real Madrid",
-    "equipe_2": "Rayo Vallecano",
-    "1X2": {
-      "V1": "1.142",
-      "X": "10.1",
-      "V2": "24"
-    },
-    "Total_2.5": {
-      "Plus de": "1.25",
-      "Moins de": "3.62"
-    },
-    "url": "https://1xbet.cm/fr/line/football/127733-spain-la-liga/366610592-real-madrid-rayo-vallecano",
-    "derniere_maj": "2026-09-12T01:57:22.147628+00:00",
+    "derniere_maj": "2026-09-12T05:51:20.292401+00:00",
     "statut": "ok"
   },
   {
@@ -55,16 +38,33 @@
     "equipe_1": "Sunderland",
     "equipe_2": "Arsenal",
     "1X2": {
-      "V1": "7.7",
-      "X": "4.365",
-      "V2": "1.523"
+      "V1": "7.06",
+      "X": "4.115",
+      "V2": "1.585"
     },
     "Total_2.5": {
-      "Plus de": "2.096",
-      "Moins de": "1.858"
+      "Plus de": "2.137",
+      "Moins de": "1.827"
     },
     "url": "https://1xbet.cm/fr/line/football/88637-england-premier-league/364947844-sunderland-arsenal",
-    "derniere_maj": "2026-09-12T01:57:31.228900+00:00",
+    "derniere_maj": "2026-09-12T05:51:29.280245+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Real Madrid",
+    "equipe_2": "Rayo Vallecano",
+    "1X2": {
+      "V1": "1.164",
+      "X": "9.3",
+      "V2": "20"
+    },
+    "Total_2.5": {
+      "Plus de": "1.25",
+      "Moins de": "3.62"
+    },
+    "url": "https://1xbet.cm/fr/line/football/127733-spain-la-liga/366610592-real-madrid-rayo-vallecano",
+    "derniere_maj": "2026-09-12T05:51:38.225245+00:00",
     "statut": "ok"
   },
   {
@@ -72,16 +72,424 @@
     "equipe_1": "Liverpool",
     "equipe_2": "Fulham",
     "1X2": {
-      "V1": "1.505",
-      "X": "5.13",
-      "V2": "6.4"
+      "V1": "1.554",
+      "X": "4.875",
+      "V2": "5.99"
     },
     "Total_2.5": {
       "Plus de": "1.44",
       "Moins de": "2.62"
     },
     "url": "https://1xbet.cm/fr/line/football/88637-england-premier-league/364947834-liverpool-fulham",
-    "derniere_maj": "2026-09-12T01:57:40.323400+00:00",
+    "derniere_maj": "2026-09-12T05:51:45.307742+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Chivas ",
+    "equipe_2": "Detroit ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753116-chivas--detroit-",
+    "derniere_maj": "2026-09-12T05:51:54.601539+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Chivas ",
+    "equipe_2": "Las Vegas ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753082-chivas--las-vegas-",
+    "derniere_maj": "2026-09-12T05:52:06.198061+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Chivas ",
+    "equipe_2": "Memphis ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753102-chivas--memphis-",
+    "derniere_maj": "2026-09-12T05:52:17.657506+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Detroit ",
+    "equipe_2": "Memphis ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753086-detroit--memphis-",
+    "derniere_maj": "2026-09-12T05:52:29.293182+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Detroit ",
+    "equipe_2": "Las Vegas ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753110-detroit--las-vegas-",
+    "derniere_maj": "2026-09-12T05:52:39.663649+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Las Vegas",
+    "equipe_2": " Memphis ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753076-las-vegas--memphis-",
+    "derniere_maj": "2026-09-12T05:52:46.788122+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Cincinnati ",
+    "equipe_2": "Orlando ",
+    "1X2": {
+      "V1": "2.36",
+      "X": "3.01",
+      "V2": "2.18"
+    },
+    "Total_2.5": {
+      "Plus de": "1.82",
+      "Moins de": "1.84"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753234-cincinnati--orlando-",
+    "derniere_maj": "2026-09-12T05:52:56.227611+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Cincinnati ",
+    "equipe_2": "Nashville ",
+    "1X2": {
+      "V1": "2.37",
+      "X": "3.01",
+      "V2": "2.19"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753232-cincinnati--nashville-",
+    "derniere_maj": "2026-09-12T05:53:05.403467+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Nashville ",
+    "equipe_2": "Orlando ",
+    "1X2": {
+      "V1": "2.37",
+      "X": "3.01",
+      "V2": "2.19"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753238-nashville--orlando-",
+    "derniere_maj": "2026-09-12T05:53:14.405469+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Toronto",
+    "equipe_2": "Cincinnati ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.11",
+      "V2": "2.39"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753172-toronto-cincinnati-",
+    "derniere_maj": "2026-09-12T05:53:23.417389+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Toronto",
+    "equipe_2": "Nashville ",
+    "1X2": {
+      "V1": "2.18",
+      "X": "3.01",
+      "V2": "2.36"
+    },
+    "Total_2.5": {
+      "Plus de": "1.73",
+      "Moins de": "1.94"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753194-toronto-nashville-",
+    "derniere_maj": "2026-09-12T05:53:33.188386+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Toronto",
+    "equipe_2": "Orlando ",
+    "1X2": {
+      "V1": "2.19",
+      "X": "3.01",
+      "V2": "2.37"
+    },
+    "Total_2.5": {
+      "Plus de": "1.82",
+      "Moins de": "1.84"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753218-toronto-orlando-",
+    "derniere_maj": "2026-09-12T05:53:42.313113+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Austin ",
+    "equipe_2": "Fusion ",
+    "1X2": {
+      "V1": "2.37",
+      "X": "3.01",
+      "V2": "2.19"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753352-austin--fusion-",
+    "derniere_maj": "2026-09-12T05:53:51.331994+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Austin ",
+    "equipe_2": "St Louis ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.01",
+      "V2": "2.4"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.68"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753380-austin--st-louis-",
+    "derniere_maj": "2026-09-12T05:54:00.517928+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Birmingham ",
+    "equipe_2": "Charleston ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753360-birmingham--charleston-",
+    "derniere_maj": "2026-09-12T05:54:09.931167+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Birmingham ",
+    "equipe_2": "Hartford ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753376-birmingham--hartford-",
+    "derniere_maj": "2026-09-12T05:54:16.919722+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Birmingham ",
+    "equipe_2": "Loudoun ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753386-birmingham--loudoun-",
+    "derniere_maj": "2026-09-12T05:54:23.992718+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Charleston ",
+    "equipe_2": "Loudoun ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753366-charleston--loudoun-",
+    "derniere_maj": "2026-09-12T05:54:33.377807+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Charleston ",
+    "equipe_2": "Hartford ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753346-charleston--hartford-",
+    "derniere_maj": "2026-09-12T05:54:40.566169+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Hartford ",
+    "equipe_2": "Loudoun ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753348-hartford--loudoun-",
+    "derniere_maj": "2026-09-12T05:54:49.635048+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Los Angeles",
+    "equipe_2": " Austin ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.13",
+      "Moins de": "1.6"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753354-los-angeles--austin-",
+    "derniere_maj": "2026-09-12T05:54:57.339906+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Los Angeles ",
+    "equipe_2": "St Louis ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.11",
+      "V2": "2.39"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753344-los-angeles--st-louis-",
+    "derniere_maj": "2026-09-12T05:55:06.787137+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Los Angeles",
+    "equipe_2": " Fusion ",
+    "1X2": {
+      "V1": "2.5",
+      "X": "3.08",
+      "V2": "2.11"
+    },
+    "Total_2.5": {
+      "Plus de": "2.13",
+      "Moins de": "1.6"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753358-los-angeles--fusion-",
+    "derniere_maj": "2026-09-12T05:55:16.124072+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "St Louis",
+    "equipe_2": " Fusion ",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.68"
+    },
+    "url": "https://1xbet.cm/fr/line/football/2590430-mls/368753340-st-louis--fusion-",
+    "derniere_maj": "2026-09-12T05:55:23.458856+00:00",
     "statut": "ok"
   },
   {
@@ -98,7 +506,7 @@
       "Moins de": "1.38"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/325699846-andorra-malta",
-    "derniere_maj": "2026-09-12T01:57:50.017490+00:00",
+    "derniere_maj": "2026-09-12T05:55:34.707960+00:00",
     "statut": "ok"
   },
   {
@@ -115,7 +523,7 @@
       "Moins de": "2.28"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/325575974-austria-israel",
-    "derniere_maj": "2026-09-12T01:57:59.233449+00:00",
+    "derniere_maj": "2026-09-12T05:55:43.798166+00:00",
     "statut": "ok"
   },
   {
@@ -132,7 +540,7 @@
       "Moins de": "1.64"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/325575978-kosovo-republic-of-ireland",
-    "derniere_maj": "2026-09-12T01:58:10.302637+00:00",
+    "derniere_maj": "2026-09-12T05:55:53.091556+00:00",
     "statut": "ok"
   },
   {
@@ -140,16 +548,16 @@
     "equipe_1": "Liechtenstein",
     "equipe_2": "Lithuania",
     "1X2": {
-      "V1": "9.8",
+      "V1": "10.5",
       "X": "4.3",
-      "V2": "1.44"
+      "V2": "1.43"
     },
     "Total_2.5": {
       "Plus de": "2.31",
       "Moins de": "1.63"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/325699854-liechtenstein-lithuania",
-    "derniere_maj": "2026-09-12T01:58:19.722399+00:00",
+    "derniere_maj": "2026-09-12T05:56:04.686975+00:00",
     "statut": "ok"
   },
   {
@@ -166,7 +574,7 @@
       "Moins de": "2.35"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/325372158-netherlands-germany",
-    "derniere_maj": "2026-09-12T01:58:29.188523+00:00",
+    "derniere_maj": "2026-09-12T05:56:14.579109+00:00",
     "statut": "ok"
   },
   {
@@ -174,16 +582,16 @@
     "equipe_1": "Norway",
     "equipe_2": "Denmark",
     "1X2": {
-      "V1": "2",
-      "X": "3.72",
-      "V2": "3.845"
+      "V1": "1.97",
+      "X": "3.74",
+      "V2": "3.94"
     },
     "Total_2.5": {
-      "Plus de": "1.81",
-      "Moins de": "2.02"
+      "Plus de": "1.8",
+      "Moins de": "2.03"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/325372156-norway-denmark",
-    "derniere_maj": "2026-09-12T01:58:39.106930+00:00",
+    "derniere_maj": "2026-09-12T05:56:23.640136+00:00",
     "statut": "ok"
   },
   {
@@ -200,7 +608,7 @@
       "Moins de": "2.26"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/325407126-portugal-wales",
-    "derniere_maj": "2026-09-12T01:58:48.634007+00:00",
+    "derniere_maj": "2026-09-12T05:56:32.993499+00:00",
     "statut": "ok"
   },
   {
@@ -217,7 +625,7 @@
       "Moins de": "1.73"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/325407134-serbia-greece",
-    "derniere_maj": "2026-09-12T01:58:59.953003+00:00",
+    "derniere_maj": "2026-09-12T05:56:42.193336+00:00",
     "statut": "ok"
   },
   {
@@ -234,7 +642,7 @@
       "Moins de": "1.92"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/325871866-armenia-latvia",
-    "derniere_maj": "2026-09-12T01:59:09.286859+00:00",
+    "derniere_maj": "2026-09-12T05:56:51.286206+00:00",
     "statut": "ok"
   },
   {
@@ -251,7 +659,7 @@
       "Moins de": "1.82"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/325871868-georgia-northern-ireland",
-    "derniere_maj": "2026-09-12T01:59:18.517269+00:00",
+    "derniere_maj": "2026-09-12T05:57:00.514255+00:00",
     "statut": "ok"
   },
   {
@@ -268,7 +676,7 @@
       "Moins de": "1.77"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/326182838-hungary-ukraine",
-    "derniere_maj": "2026-09-12T01:59:30.074429+00:00",
+    "derniere_maj": "2026-09-12T05:57:10.048648+00:00",
     "statut": "ok"
   },
   {
@@ -285,7 +693,7 @@
       "Moins de": "2.01"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/325995556-italy-belgium",
-    "derniere_maj": "2026-09-12T01:59:43.555089+00:00",
+    "derniere_maj": "2026-09-12T05:57:19.187734+00:00",
     "statut": "ok"
   },
   {
@@ -293,8 +701,8 @@
     "equipe_1": "Poland Bosnia",
     "equipe_2": "And Herzegovina",
     "1X2": {
-      "V1": "1.69",
-      "X": "3.98",
+      "V1": "1.686",
+      "X": "4",
       "V2": "5.4"
     },
     "Total_2.5": {
@@ -302,7 +710,7 @@
       "Moins de": "1.89"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/326342396-poland-bosnia-and-herzegovina",
-    "derniere_maj": "2026-09-12T01:59:55.658088+00:00",
+    "derniere_maj": "2026-09-12T05:57:28.257972+00:00",
     "statut": "ok"
   },
   {
@@ -319,7 +727,7 @@
       "Moins de": "2.43"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/325995560-turkey-france",
-    "derniere_maj": "2026-09-12T02:00:05.221637+00:00",
+    "derniere_maj": "2026-09-12T05:57:35.604066+00:00",
     "statut": "ok"
   },
   {
@@ -327,16 +735,16 @@
     "equipe_1": "Montenegro",
     "equipe_2": "Cyprus",
     "1X2": {
-      "V1": "1.56",
-      "X": "4.05",
-      "V2": "7.2"
+      "V1": "X4.05",
+      "X": "1X2 (2UP)",
+      "V2": "Match nul4.05"
     },
     "Total_2.5": {
-      "Plus de": "2.01",
-      "Moins de": "1.82"
+      "Plus de": null,
+      "Moins de": null
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/326182840-montenegro-cyprus",
-    "derniere_maj": "2026-09-12T02:00:17.990381+00:00",
+    "derniere_maj": "2026-09-12T05:57:46.512768+00:00",
     "statut": "ok"
   },
   {
@@ -353,7 +761,7 @@
       "Moins de": "2.2"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/326342442-sweden-romania",
-    "derniere_maj": "2026-09-12T02:00:27.617402+00:00",
+    "derniere_maj": "2026-09-12T05:57:55.792453+00:00",
     "statut": "ok"
   },
   {
@@ -370,7 +778,7 @@
       "Moins de": "1.65"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/326503382-slovenia-scotland",
-    "derniere_maj": "2026-09-12T02:00:36.985550+00:00",
+    "derniere_maj": "2026-09-12T05:58:05.061780+00:00",
     "statut": "ok"
   },
   {
@@ -387,7 +795,7 @@
       "Moins de": "1.65"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/326646072-bulgaria-luxembourg",
-    "derniere_maj": "2026-09-12T02:00:48.425604+00:00",
+    "derniere_maj": "2026-09-12T05:58:16.533011+00:00",
     "statut": "ok"
   },
   {
@@ -404,7 +812,7 @@
       "Moins de": "1.909"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/326853884-iceland-estonia",
-    "derniere_maj": "2026-09-12T02:00:57.659710+00:00",
+    "derniere_maj": "2026-09-12T05:58:27.620980+00:00",
     "statut": "ok"
   },
   {
@@ -421,7 +829,7 @@
       "Moins de": "2.5"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/326853886-san-marino-finland",
-    "derniere_maj": "2026-09-12T02:01:08.022913+00:00",
+    "derniere_maj": "2026-09-12T05:58:36.653392+00:00",
     "statut": "ok"
   },
   {
@@ -438,415 +846,7 @@
       "Moins de": "1.49"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/326646082-faroe-islands-kazakhstan",
-    "derniere_maj": "2026-09-12T02:01:24.117295+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Albania",
-    "equipe_2": "Belarus",
-    "1X2": {
-      "V1": "1.45",
-      "X": "4.5",
-      "V2": "8.6"
-    },
-    "Total_2.5": {
-      "Plus de": "2.14",
-      "Moins de": "1.727"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/326971824-albania-belarus",
-    "derniere_maj": "2026-09-12T02:01:34.719797+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "England",
-    "equipe_2": "Spain",
-    "1X2": {
-      "V1": "2.922",
-      "X": "3.38",
-      "V2": "2.55"
-    },
-    "Total_2.5": {
-      "Plus de": "1.9",
-      "Moins de": "1.92"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/327162848-england-spain",
-    "derniere_maj": "2026-09-12T02:01:44.642389+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Republic Of",
-    "equipe_2": "North Macedonia Switzerland",
-    "1X2": {
-      "V1": "7.1",
-      "X": "4.6",
-      "V2": "1.49"
-    },
-    "Total_2.5": {
-      "Plus de": "1.8",
-      "Moins de": "2.03"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/326503384-republic-of-north-macedonia-switzerland",
-    "derniere_maj": "2026-09-12T02:01:54.389697+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Slovakia",
-    "equipe_2": "Moldova",
-    "1X2": {
-      "V1": "1.34",
-      "X": "5.25",
-      "V2": "11"
-    },
-    "Total_2.5": {
-      "Plus de": "1.77",
-      "Moins de": "2.07"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/326971822-slovakia-moldova",
-    "derniere_maj": "2026-09-12T02:02:05.897165+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Czech",
-    "equipe_2": "Republic Croatia",
-    "1X2": {
-      "V1": "3.13",
-      "X": "3.5",
-      "V2": "2.35"
-    },
-    "Total_2.5": {
-      "Plus de": "1.83",
-      "Moins de": "2"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/327162868-czech-republic-croatia",
-    "derniere_maj": "2026-09-12T02:02:15.255705+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Lithuania",
-    "equipe_2": "Azerbaijan",
-    "1X2": {
-      "V1": "2.77",
-      "X": "3.16",
-      "V2": "2.82"
-    },
-    "Total_2.5": {
-      "Plus de": "2.49",
-      "Moins de": "1.55"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/342637486-lithuania-azerbaijan",
-    "derniere_maj": "2026-09-12T02:02:25.136008+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Austria",
-    "equipe_2": "Kosovo",
-    "1X2": {
-      "V1": "1.5",
-      "X": "4.55",
-      "V2": "7.1"
-    },
-    "Total_2.5": {
-      "Plus de": "1.74",
-      "Moins de": "2.12"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/344907356-austria-kosovo",
-    "derniere_maj": "2026-09-12T02:02:36.521631+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Gibraltar",
-    "equipe_2": "Andorra",
-    "1X2": {
-      "V1": "2.88",
-      "X": "2.94",
-      "V2": "2.9"
-    },
-    "Total_2.5": {
-      "Plus de": "2.88",
-      "Moins de": "1.35"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/343404996-gibraltar-andorra",
-    "derniere_maj": "2026-09-12T02:02:45.797823+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Denmark",
-    "equipe_2": "Wales",
-    "1X2": {
-      "V1": "1.72",
-      "X": "3.85",
-      "V2": "5.35"
-    },
-    "Total_2.5": {
-      "Plus de": "2.12",
-      "Moins de": "1.74"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/343941588-denmark-wales",
-    "derniere_maj": "2026-09-12T02:02:55.767110+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Serbia",
-    "equipe_2": "Netherlands",
-    "1X2": {
-      "V1": "4.62",
-      "X": "3.98",
-      "V2": "1.78"
-    },
-    "Total_2.5": {
-      "Plus de": "1.87",
-      "Moins de": "1.95"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/344303610-serbia-netherlands",
-    "derniere_maj": "2026-09-12T02:03:05.193201+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Germany",
-    "equipe_2": "Greece",
-    "1X2": {
-      "V1": "1.28",
-      "X": "6",
-      "V2": "12.5"
-    },
-    "Total_2.5": {
-      "Plus de": "1.48",
-      "Moins de": "2.43"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/345183346-germany-greece",
-    "derniere_maj": "2026-09-12T02:03:14.691272+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Israel Republic",
-    "equipe_2": "Of Ireland",
-    "1X2": {
-      "V1": "3.045",
-      "X": "3.5",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": "2",
-      "Moins de": "1.83"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/345472100-israel-republic-of-ireland",
-    "derniere_maj": "2026-09-12T02:03:23.762429+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Norway",
-    "equipe_2": "Portugal",
-    "1X2": {
-      "V1": "2.938",
-      "X": "3.75",
-      "V2": "2.37"
-    },
-    "Total_2.5": {
-      "Plus de": "1.65",
-      "Moins de": "2.27"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/345183344-norway-portugal",
-    "derniere_maj": "2026-09-12T02:03:33.096206+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Georgia",
-    "equipe_2": "Ukraine",
-    "1X2": {
-      "V1": "2.931",
-      "X": "3.44",
-      "V2": "2.52"
-    },
-    "Total_2.5": {
-      "Plus de": "2.09",
-      "Moins de": "1.76"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/345472098-georgia-ukraine",
-    "derniere_maj": "2026-09-12T02:03:44.655999+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Armenia",
-    "equipe_2": "Montenegro",
-    "1X2": {
-      "V1": "2.54",
-      "X": "3.27",
-      "V2": "2.54"
-    },
-    "Total_2.5": {
-      "Plus de": "2.17",
-      "Moins de": "1.58"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/345782500-armenia-montenegro",
-    "derniere_maj": "2026-09-12T02:03:53.886885+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Latvia",
-    "equipe_2": "Cyprus",
-    "1X2": {
-      "V1": "2.48",
-      "X": "3.27",
-      "V2": "2.61"
-    },
-    "Total_2.5": {
-      "Plus de": "2.17",
-      "Moins de": "1.58"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/345782498-latvia-cyprus",
-    "derniere_maj": "2026-09-12T02:04:03.546157+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Belgium",
-    "equipe_2": "France",
-    "1X2": {
-      "V1": "3.035",
-      "X": "3.71",
-      "V2": "2.06"
-    },
-    "Total_2.5": {
-      "Plus de": "1.72",
-      "Moins de": "2.12"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/346384924-belgium-france",
-    "derniere_maj": "2026-09-12T02:04:13.714075+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Romania Bosnia",
-    "equipe_2": "And Herzegovina",
-    "1X2": {
-      "V1": "1.89",
-      "X": "3.61",
-      "V2": "3.595"
-    },
-    "Total_2.5": {
-      "Plus de": "1.95",
-      "Moins de": "1.86"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/346671942-romania-bosnia-and-herzegovina",
-    "derniere_maj": "2026-09-12T02:04:23.805608+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Northern",
-    "equipe_2": "Ireland Hungary",
-    "1X2": {
-      "V1": "2.52",
-      "X": "3.07",
-      "V2": "2.7"
-    },
-    "Total_2.5": {
-      "Plus de": "2.55",
-      "Moins de": "1.43"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/346671944-northern-ireland-hungary",
-    "derniere_maj": "2026-09-12T02:04:31.175467+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Turkey",
-    "equipe_2": "Italy",
-    "1X2": {
-      "V1": "2.82",
-      "X": "3.44",
-      "V2": "2.28"
-    },
-    "Total_2.5": {
-      "Plus de": "2",
-      "Moins de": "1.81"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/346384922-turkey-italy",
-    "derniere_maj": "2026-09-12T02:04:40.517311+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Sweden",
-    "equipe_2": "Poland",
-    "1X2": {
-      "V1": "1.91",
-      "X": "3.58",
-      "V2": "3.545"
-    },
-    "Total_2.5": {
-      "Plus de": "1.97",
-      "Moins de": "1.84"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/346671946-sweden-poland",
-    "derniere_maj": "2026-09-12T02:04:50.594298+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Moldova",
-    "equipe_2": "Faroe Islands",
-    "1X2": {
-      "V1": "2.3",
-      "X": "3.1",
-      "V2": "3.055"
-    },
-    "Total_2.5": {
-      "Plus de": "2.54",
-      "Moins de": "1.43"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/347416312-moldova-faroe-islands",
-    "derniere_maj": "2026-09-12T02:04:59.774340+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Finland",
-    "equipe_2": "Belarus",
-    "1X2": {
-      "V1": "1.82",
-      "X": "3.31",
-      "V2": "4.3"
-    },
-    "Total_2.5": {
-      "Plus de": "2.45",
-      "Moins de": "1.46"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/347416420-finland-belarus",
-    "derniere_maj": "2026-09-12T02:05:09.235595+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Bulgaria",
-    "equipe_2": "Estonia",
-    "1X2": {
-      "V1": "1.53",
-      "X": "3.72",
-      "V2": "6.19"
-    },
-    "Total_2.5": {
-      "Plus de": "2.32",
-      "Moins de": "1.51"
-    },
-    "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/348630106-bulgaria-estonia",
-    "derniere_maj": "2026-09-12T02:05:20.238110+00:00",
+    "derniere_maj": "2026-09-12T05:58:50.274566+00:00",
     "statut": "ok"
   }
 ]

@@ -13,7 +13,7 @@
       "Moins de": "3.14"
     },
     "url": "https://betwinner.cm/fr/line/football/96463-germany-bundesliga/364956144-borussia-dortmund-paderborn-07",
-    "derniere_maj": "2026-09-12T01:01:41.299479+00:00",
+    "derniere_maj": "2026-09-12T05:23:47.965689+00:00",
     "statut": "ok"
   },
   {
@@ -22,32 +22,15 @@
     "equipe_2": "Hull City",
     "1X2": {
       "V1": "1.225",
-      "X": "6.35",
-      "V2": "12"
+      "X": "6.5",
+      "V2": "11.5"
     },
     "Total_2.5": {
-      "Plus de": "1.37",
-      "Moins de": "2.8"
+      "Plus de": "1.36",
+      "Moins de": "2.84"
     },
     "url": "https://betwinner.cm/fr/line/football/88637-england-premier-league/364947828-chelsea-hull-city",
-    "derniere_maj": "2026-09-12T01:01:50.505675+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Real Madrid",
-    "equipe_2": "Rayo Vallecano",
-    "1X2": {
-      "V1": "1.1",
-      "X": "9.7",
-      "V2": "24"
-    },
-    "Total_2.5": {
-      "Plus de": "1.25",
-      "Moins de": "3.62"
-    },
-    "url": "https://betwinner.cm/fr/line/football/127733-spain-la-liga/366610592-real-madrid-rayo-vallecano",
-    "derniere_maj": "2026-09-12T01:01:59.513034+00:00",
+    "derniere_maj": "2026-09-12T05:23:56.939054+00:00",
     "statut": "ok"
   },
   {
@@ -55,16 +38,33 @@
     "equipe_1": "Sunderland",
     "equipe_2": "Arsenal",
     "1X2": {
-      "V1": "7.4",
-      "X": "4.2",
-      "V2": "1.47"
+      "V1": "6.85",
+      "X": "4",
+      "V2": "1.52"
     },
     "Total_2.5": {
-      "Plus de": "2.02",
-      "Moins de": "1.79"
+      "Plus de": "2.05",
+      "Moins de": "1.77"
     },
     "url": "https://betwinner.cm/fr/line/football/88637-england-premier-league/364947844-sunderland-arsenal",
-    "derniere_maj": "2026-09-12T01:02:08.559457+00:00",
+    "derniere_maj": "2026-09-12T05:24:07.978493+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Real Madrid",
+    "equipe_2": "Rayo Vallecano",
+    "1X2": {
+      "V1": "1.12",
+      "X": "9.1",
+      "V2": "20"
+    },
+    "Total_2.5": {
+      "Plus de": "1.26",
+      "Moins de": "3.54"
+    },
+    "url": "https://betwinner.cm/fr/line/football/127733-spain-la-liga/366610592-real-madrid-rayo-vallecano",
+    "derniere_maj": "2026-09-12T05:24:19.410217+00:00",
     "statut": "ok"
   },
   {
@@ -72,16 +72,424 @@
     "equipe_1": "Liverpool",
     "equipe_2": "Fulham",
     "1X2": {
-      "V1": "1.45",
-      "X": "4.94",
-      "V2": "6.15"
+      "V1": "1.5",
+      "X": "4.7",
+      "V2": "5.75"
     },
     "Total_2.5": {
       "Plus de": "1.44",
       "Moins de": "2.62"
     },
     "url": "https://betwinner.cm/fr/line/football/88637-england-premier-league/364947834-liverpool-fulham",
-    "derniere_maj": "2026-09-12T01:02:17.645937+00:00",
+    "derniere_maj": "2026-09-12T05:24:28.544502+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Chivas ",
+    "equipe_2": "Detroit ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753116-chivas--detroit-",
+    "derniere_maj": "2026-09-12T05:24:37.847903+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Chivas ",
+    "equipe_2": "Las Vegas ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753082-chivas--las-vegas-",
+    "derniere_maj": "2026-09-12T05:24:47.366951+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Chivas ",
+    "equipe_2": "Memphis ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753102-chivas--memphis-",
+    "derniere_maj": "2026-09-12T05:24:56.461521+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Detroit ",
+    "equipe_2": "Memphis ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753086-detroit--memphis-",
+    "derniere_maj": "2026-09-12T05:25:06.170093+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Detroit ",
+    "equipe_2": "Las Vegas ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753110-detroit--las-vegas-",
+    "derniere_maj": "2026-09-12T05:25:16.742533+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Las Vegas",
+    "equipe_2": " Memphis ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753076-las-vegas--memphis-",
+    "derniere_maj": "2026-09-12T05:25:26.021841+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Cincinnati ",
+    "equipe_2": "Orlando ",
+    "1X2": {
+      "V1": "2.36",
+      "X": "3.01",
+      "V2": "2.18"
+    },
+    "Total_2.5": {
+      "Plus de": "1.82",
+      "Moins de": "1.84"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753234-cincinnati--orlando-",
+    "derniere_maj": "2026-09-12T05:25:35.245580+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Cincinnati ",
+    "equipe_2": "Nashville ",
+    "1X2": {
+      "V1": "2.37",
+      "X": "3.01",
+      "V2": "2.19"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753232-cincinnati--nashville-",
+    "derniere_maj": "2026-09-12T05:25:46.359479+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Nashville ",
+    "equipe_2": "Orlando ",
+    "1X2": {
+      "V1": "2.37",
+      "X": "3.01",
+      "V2": "2.19"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753238-nashville--orlando-",
+    "derniere_maj": "2026-09-12T05:25:55.772455+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Toronto",
+    "equipe_2": "Cincinnati ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.11",
+      "V2": "2.39"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753172-toronto-cincinnati-",
+    "derniere_maj": "2026-09-12T05:26:05.251712+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Toronto",
+    "equipe_2": "Nashville ",
+    "1X2": {
+      "V1": "2.18",
+      "X": "3.01",
+      "V2": "2.36"
+    },
+    "Total_2.5": {
+      "Plus de": "1.73",
+      "Moins de": "1.94"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753194-toronto-nashville-",
+    "derniere_maj": "2026-09-12T05:26:14.451028+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Toronto",
+    "equipe_2": "Orlando ",
+    "1X2": {
+      "V1": "2.19",
+      "X": "3.01",
+      "V2": "2.37"
+    },
+    "Total_2.5": {
+      "Plus de": "1.82",
+      "Moins de": "1.84"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753218-toronto-orlando-",
+    "derniere_maj": "2026-09-12T05:26:23.533874+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Austin ",
+    "equipe_2": "Fusion ",
+    "1X2": {
+      "V1": "2.37",
+      "X": "3.01",
+      "V2": "2.19"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753352-austin--fusion-",
+    "derniere_maj": "2026-09-12T05:26:32.933842+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Austin ",
+    "equipe_2": "St Louis ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.01",
+      "V2": "2.4"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.68"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753380-austin--st-louis-",
+    "derniere_maj": "2026-09-12T05:26:42.061312+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Birmingham ",
+    "equipe_2": "Charleston ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753360-birmingham--charleston-",
+    "derniere_maj": "2026-09-12T05:26:53.187077+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Birmingham ",
+    "equipe_2": "Hartford ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753376-birmingham--hartford-",
+    "derniere_maj": "2026-09-12T05:27:02.528777+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Birmingham ",
+    "equipe_2": "Loudoun ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753386-birmingham--loudoun-",
+    "derniere_maj": "2026-09-12T05:27:11.857939+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Charleston ",
+    "equipe_2": "Loudoun ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753366-charleston--loudoun-",
+    "derniere_maj": "2026-09-12T05:27:20.944218+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Charleston ",
+    "equipe_2": "Hartford ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753346-charleston--hartford-",
+    "derniere_maj": "2026-09-12T05:27:30.052272+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Hartford ",
+    "equipe_2": "Loudoun ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": "2.07",
+      "Moins de": "1.64"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753348-hartford--loudoun-",
+    "derniere_maj": "2026-09-12T05:27:39.174458+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Los Angeles",
+    "equipe_2": " Austin ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.13",
+      "Moins de": "1.6"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753354-los-angeles--austin-",
+    "derniere_maj": "2026-09-12T05:27:48.292413+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Los Angeles ",
+    "equipe_2": "St Louis ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.11",
+      "V2": "2.39"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.76"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753344-los-angeles--st-louis-",
+    "derniere_maj": "2026-09-12T05:27:57.445347+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Los Angeles",
+    "equipe_2": " Fusion ",
+    "1X2": {
+      "V1": "2.5",
+      "X": "3.08",
+      "V2": "2.11"
+    },
+    "Total_2.5": {
+      "Plus de": "2.13",
+      "Moins de": "1.6"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753358-los-angeles--fusion-",
+    "derniere_maj": "2026-09-12T05:28:07.179502+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "St Louis",
+    "equipe_2": " Fusion ",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.68"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/368753340-st-louis--fusion-",
+    "derniere_maj": "2026-09-12T05:28:14.326868+00:00",
     "statut": "ok"
   },
   {
@@ -98,7 +506,7 @@
       "Moins de": "1.38"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/325699846-andorra-malta",
-    "derniere_maj": "2026-09-12T01:02:26.680071+00:00",
+    "derniere_maj": "2026-09-12T05:28:24.560753+00:00",
     "statut": "ok"
   },
   {
@@ -115,7 +523,7 @@
       "Moins de": "2.28"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/325575974-austria-israel",
-    "derniere_maj": "2026-09-12T01:02:33.794658+00:00",
+    "derniere_maj": "2026-09-12T05:28:33.971141+00:00",
     "statut": "ok"
   },
   {
@@ -132,7 +540,7 @@
       "Moins de": "1.63"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/325575978-kosovo-republic-of-ireland",
-    "derniere_maj": "2026-09-12T01:02:40.792456+00:00",
+    "derniere_maj": "2026-09-12T05:28:43.146258+00:00",
     "statut": "ok"
   },
   {
@@ -140,16 +548,16 @@
     "equipe_1": "Liechtenstein",
     "equipe_2": "Lithuania",
     "1X2": {
-      "V1": "9.5",
-      "X": "4.2",
-      "V2": "1.408"
+      "V1": "10",
+      "X": "4.18",
+      "V2": "1.392"
     },
     "Total_2.5": {
       "Plus de": "2.296",
       "Moins de": "1.62"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/325699854-liechtenstein-lithuania",
-    "derniere_maj": "2026-09-12T01:02:47.825259+00:00",
+    "derniere_maj": "2026-09-12T05:28:54.223858+00:00",
     "statut": "ok"
   },
   {
@@ -166,7 +574,7 @@
       "Moins de": "2.35"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/325372158-netherlands-germany",
-    "derniere_maj": "2026-09-12T01:02:56.892944+00:00",
+    "derniere_maj": "2026-09-12T05:29:03.237623+00:00",
     "statut": "ok"
   },
   {
@@ -183,7 +591,7 @@
       "Moins de": "2.01"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/325372156-norway-denmark",
-    "derniere_maj": "2026-09-12T01:03:04.003575+00:00",
+    "derniere_maj": "2026-09-12T05:29:12.408535+00:00",
     "statut": "ok"
   },
   {
@@ -200,7 +608,7 @@
       "Moins de": "2.26"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/325407126-portugal-wales",
-    "derniere_maj": "2026-09-12T01:03:11.167775+00:00",
+    "derniere_maj": "2026-09-12T05:29:21.429782+00:00",
     "statut": "ok"
   },
   {
@@ -209,15 +617,15 @@
     "equipe_2": "Greece",
     "1X2": {
       "V1": "2.584",
-      "X": "3.32",
-      "V2": "2.735"
+      "X": "3.34",
+      "V2": "2.725"
     },
     "Total_2.5": {
       "Plus de": "2.12",
       "Moins de": "1.72"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/325407134-serbia-greece",
-    "derniere_maj": "2026-09-12T01:03:20.514404+00:00",
+    "derniere_maj": "2026-09-12T05:29:30.680511+00:00",
     "statut": "ok"
   },
   {
@@ -234,7 +642,7 @@
       "Moins de": "1.91"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/325871866-armenia-latvia",
-    "derniere_maj": "2026-09-12T01:03:29.561384+00:00",
+    "derniere_maj": "2026-09-12T05:29:39.726036+00:00",
     "statut": "ok"
   },
   {
@@ -251,7 +659,7 @@
       "Moins de": "1.81"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/325871868-georgia-northern-ireland",
-    "derniere_maj": "2026-09-12T01:03:36.694855+00:00",
+    "derniere_maj": "2026-09-12T05:29:49.592851+00:00",
     "statut": "ok"
   },
   {
@@ -268,7 +676,7 @@
       "Moins de": "1.76"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/326182838-hungary-ukraine",
-    "derniere_maj": "2026-09-12T01:03:45.693613+00:00",
+    "derniere_maj": "2026-09-12T05:30:39.915856+00:00",
     "statut": "ok"
   },
   {
@@ -285,7 +693,7 @@
       "Moins de": "2"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/325995556-italy-belgium",
-    "derniere_maj": "2026-09-12T01:03:58.731334+00:00",
+    "derniere_maj": "2026-09-12T05:30:49.205794+00:00",
     "statut": "ok"
   },
   {
@@ -293,8 +701,8 @@
     "equipe_1": "Poland Bosnia",
     "equipe_2": "And Herzegovina",
     "1X2": {
-      "V1": "1.65",
-      "X": "3.88",
+      "V1": "1.648",
+      "X": "3.9",
       "V2": "5.25"
     },
     "Total_2.5": {
@@ -302,7 +710,7 @@
       "Moins de": "1.88"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/326342396-poland-bosnia-and-herzegovina",
-    "derniere_maj": "2026-09-12T01:04:08.370712+00:00",
+    "derniere_maj": "2026-09-12T05:30:58.164465+00:00",
     "statut": "ok"
   },
   {
@@ -319,7 +727,7 @@
       "Moins de": "2.43"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/325995560-turkey-france",
-    "derniere_maj": "2026-09-12T01:04:17.471855+00:00",
+    "derniere_maj": "2026-09-12T05:31:09.138971+00:00",
     "statut": "ok"
   },
   {
@@ -336,7 +744,7 @@
       "Moins de": "1.81"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/326182840-montenegro-cyprus",
-    "derniere_maj": "2026-09-12T01:04:28.647871+00:00",
+    "derniere_maj": "2026-09-12T05:31:18.190080+00:00",
     "statut": "ok"
   },
   {
@@ -353,7 +761,7 @@
       "Moins de": "2.2"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/326342442-sweden-romania",
-    "derniere_maj": "2026-09-12T01:04:37.798119+00:00",
+    "derniere_maj": "2026-09-12T05:31:27.174324+00:00",
     "statut": "ok"
   },
   {
@@ -370,7 +778,7 @@
       "Moins de": "1.64"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/326503382-slovenia-scotland",
-    "derniere_maj": "2026-09-12T01:04:52.900260+00:00",
+    "derniere_maj": "2026-09-12T05:31:36.353619+00:00",
     "statut": "ok"
   },
   {
@@ -387,7 +795,7 @@
       "Moins de": "1.64"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/326646072-bulgaria-luxembourg",
-    "derniere_maj": "2026-09-12T01:05:04.309938+00:00",
+    "derniere_maj": "2026-09-12T05:31:43.611930+00:00",
     "statut": "ok"
   },
   {
@@ -404,7 +812,7 @@
       "Moins de": "1.9"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/326853884-iceland-estonia",
-    "derniere_maj": "2026-09-12T01:05:13.393504+00:00",
+    "derniere_maj": "2026-09-12T05:31:52.740885+00:00",
     "statut": "ok"
   },
   {
@@ -421,7 +829,7 @@
       "Moins de": "2.5"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/326853886-san-marino-finland",
-    "derniere_maj": "2026-09-12T01:05:22.372957+00:00",
+    "derniere_maj": "2026-09-12T05:31:59.738151+00:00",
     "statut": "ok"
   },
   {
@@ -438,398 +846,7 @@
       "Moins de": "1.49"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/326646082-faroe-islands-kazakhstan",
-    "derniere_maj": "2026-09-12T01:05:31.768581+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Albania",
-    "equipe_2": "Belarus",
-    "1X2": {
-      "V1": "1.416",
-      "X": "4.38",
-      "V2": "8.4"
-    },
-    "Total_2.5": {
-      "Plus de": "2.125",
-      "Moins de": "1.715"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/326971824-albania-belarus",
-    "derniere_maj": "2026-09-12T01:05:42.897216+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "England",
-    "equipe_2": "Spain",
-    "1X2": {
-      "V1": "2.86",
-      "X": "3.3",
-      "V2": "2.496"
-    },
-    "Total_2.5": {
-      "Plus de": "1.9",
-      "Moins de": "1.9"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/327162848-england-spain",
-    "derniere_maj": "2026-09-12T01:05:52.025251+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Republic Of",
-    "equipe_2": "North Macedonia Switzerland",
-    "1X2": {
-      "V1": "6.9",
-      "X": "4.48",
-      "V2": "1.456"
-    },
-    "Total_2.5": {
-      "Plus de": "1.79",
-      "Moins de": "2.02"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/326503384-republic-of-north-macedonia-switzerland",
-    "derniere_maj": "2026-09-12T01:06:01.166960+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Czech",
-    "equipe_2": "Republic Croatia",
-    "1X2": {
-      "V1": "3.06",
-      "X": "3.44",
-      "V2": "2.296"
-    },
-    "Total_2.5": {
-      "Plus de": "1.82",
-      "Moins de": "1.99"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/327162868-czech-republic-croatia",
-    "derniere_maj": "2026-09-12T01:07:37.995227+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Lithuania",
-    "equipe_2": "Azerbaijan",
-    "1X2": {
-      "V1": "2.715",
-      "X": "3.1",
-      "V2": "2.765"
-    },
-    "Total_2.5": {
-      "Plus de": "2.475",
-      "Moins de": "1.54"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/342637486-lithuania-azerbaijan",
-    "derniere_maj": "2026-09-12T01:07:47.691249+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Austria",
-    "equipe_2": "Kosovo",
-    "1X2": {
-      "V1": "1.448",
-      "X": "4.54",
-      "V2": "7"
-    },
-    "Total_2.5": {
-      "Plus de": "1.73",
-      "Moins de": "2.105"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/344907356-austria-kosovo",
-    "derniere_maj": "2026-09-12T01:07:57.038045+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Gibraltar",
-    "equipe_2": "Andorra",
-    "1X2": {
-      "V1": "2.825",
-      "X": "2.88",
-      "V2": "2.845"
-    },
-    "Total_2.5": {
-      "Plus de": "2.88",
-      "Moins de": "1.35"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/343404996-gibraltar-andorra",
-    "derniere_maj": "2026-09-12T01:08:08.029039+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Denmark",
-    "equipe_2": "Wales",
-    "1X2": {
-      "V1": "1.68",
-      "X": "3.76",
-      "V2": "5.2"
-    },
-    "Total_2.5": {
-      "Plus de": "2.105",
-      "Moins de": "1.73"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/343941588-denmark-wales",
-    "derniere_maj": "2026-09-12T01:08:41.381391+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Serbia",
-    "equipe_2": "Netherlands",
-    "1X2": {
-      "V1": "4.5",
-      "X": "3.88",
-      "V2": "1.74"
-    },
-    "Total_2.5": {
-      "Plus de": "1.86",
-      "Moins de": "1.94"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/344303610-serbia-netherlands",
-    "derniere_maj": "2026-09-12T01:08:50.889799+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Germany",
-    "equipe_2": "Greece",
-    "1X2": {
-      "V1": "1.25",
-      "X": "5.85",
-      "V2": "12"
-    },
-    "Total_2.5": {
-      "Plus de": "1.48",
-      "Moins de": "2.43"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/345183346-germany-greece",
-    "derniere_maj": "2026-09-12T01:09:00.059279+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Israel Republic",
-    "equipe_2": "Of Ireland",
-    "1X2": {
-      "V1": "2.975",
-      "X": "3.42",
-      "V2": "2.355"
-    },
-    "Total_2.5": {
-      "Plus de": "1.99",
-      "Moins de": "1.82"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/345472100-israel-republic-of-ireland",
-    "derniere_maj": "2026-09-12T01:09:09.119074+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Norway",
-    "equipe_2": "Portugal",
-    "1X2": {
-      "V1": "2.84",
-      "X": "3.64",
-      "V2": "2.34"
-    },
-    "Total_2.5": {
-      "Plus de": "1.64",
-      "Moins de": "2.256"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/345183344-norway-portugal",
-    "derniere_maj": "2026-09-12T01:09:18.196816+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Georgia",
-    "equipe_2": "Ukraine",
-    "1X2": {
-      "V1": "2.856",
-      "X": "3.36",
-      "V2": "2.464"
-    },
-    "Total_2.5": {
-      "Plus de": "2.06",
-      "Moins de": "1.76"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/345472098-georgia-ukraine",
-    "derniere_maj": "2026-09-12T01:09:27.477372+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Armenia",
-    "equipe_2": "Montenegro",
-    "1X2": {
-      "V1": "2.54",
-      "X": "3.27",
-      "V2": "2.54"
-    },
-    "Total_2.5": {
-      "Plus de": "2.17",
-      "Moins de": "1.58"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/345782500-armenia-montenegro",
-    "derniere_maj": "2026-09-12T01:10:17.748952+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Latvia",
-    "equipe_2": "Cyprus",
-    "1X2": {
-      "V1": "2.48",
-      "X": "3.27",
-      "V2": "2.61"
-    },
-    "Total_2.5": {
-      "Plus de": "2.17",
-      "Moins de": "1.58"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/345782498-latvia-cyprus",
-    "derniere_maj": "2026-09-12T01:10:26.845174+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Belgium",
-    "equipe_2": "France",
-    "1X2": {
-      "V1": "3.035",
-      "X": "3.71",
-      "V2": "2.06"
-    },
-    "Total_2.5": {
-      "Plus de": "1.72",
-      "Moins de": "2.12"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/346384924-belgium-france",
-    "derniere_maj": "2026-09-12T01:10:37.387690+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Romania Bosnia",
-    "equipe_2": "And Herzegovina",
-    "1X2": {
-      "V1": "1.89",
-      "X": "3.61",
-      "V2": "3.595"
-    },
-    "Total_2.5": {
-      "Plus de": "1.944",
-      "Moins de": "1.856"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/346671942-romania-bosnia-and-herzegovina",
-    "derniere_maj": "2026-09-12T01:10:49.129414+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Northern",
-    "equipe_2": "Ireland Hungary",
-    "1X2": {
-      "V1": "2.52",
-      "X": "3.07",
-      "V2": "2.7"
-    },
-    "Total_2.5": {
-      "Plus de": "2.55",
-      "Moins de": "1.43"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/346671944-northern-ireland-hungary",
-    "derniere_maj": "2026-09-12T01:10:58.379112+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Turkey",
-    "equipe_2": "Italy",
-    "1X2": {
-      "V1": "2.82",
-      "X": "3.44",
-      "V2": "2.28"
-    },
-    "Total_2.5": {
-      "Plus de": "2",
-      "Moins de": "1.81"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/346384922-turkey-italy",
-    "derniere_maj": "2026-09-12T01:11:08.020435+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Sweden",
-    "equipe_2": "Poland",
-    "1X2": {
-      "V1": "1.91",
-      "X": "3.58",
-      "V2": "3.545"
-    },
-    "Total_2.5": {
-      "Plus de": "1.968",
-      "Moins de": "1.835"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/346671946-sweden-poland",
-    "derniere_maj": "2026-09-12T01:11:19.246747+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Moldova",
-    "equipe_2": "Faroe Islands",
-    "1X2": {
-      "V1": "2.3",
-      "X": "3.1",
-      "V2": "3.055"
-    },
-    "Total_2.5": {
-      "Plus de": "2.54",
-      "Moins de": "1.43"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/347416312-moldova-faroe-islands",
-    "derniere_maj": "2026-09-12T01:11:28.306090+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Finland",
-    "equipe_2": "Belarus",
-    "1X2": {
-      "V1": "1.82",
-      "X": "3.31",
-      "V2": "4.3"
-    },
-    "Total_2.5": {
-      "Plus de": "2.45",
-      "Moins de": "1.46"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/347416420-finland-belarus",
-    "derniere_maj": "2026-09-12T01:11:37.352862+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Bulgaria",
-    "equipe_2": "Estonia",
-    "1X2": {
-      "V1": "1.53",
-      "X": "3.72",
-      "V2": "6.19"
-    },
-    "Total_2.5": {
-      "Plus de": "2.32",
-      "Moins de": "1.51"
-    },
-    "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/348630106-bulgaria-estonia",
-    "derniere_maj": "2026-09-12T01:11:46.369557+00:00",
+    "derniere_maj": "2026-09-12T05:32:08.837315+00:00",
     "statut": "ok"
   }
 ]
