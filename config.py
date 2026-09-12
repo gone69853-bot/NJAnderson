@@ -44,6 +44,22 @@ MAX_MATCHES_PER_SITE = int(
 
 
 # ============================================================
+# PARALLELISATION
+# ============================================================
+#
+# Nombre de bookmakers scrapés EN MEME TEMPS (chacun dans son
+# propre navigateur). Plus haut = plus rapide, mais plus de RAM/
+# CPU utilisés sur le runner, et plus de connexions simultanées
+# ouvertes chez le fournisseur de proxy (Webshare) — à réduire
+# si ça déclenche des erreurs de connexion en plus grand nombre.
+# ============================================================
+
+MAX_PARALLEL_BOOKMAKERS = int(
+    os.getenv("MAX_PARALLEL_BOOKMAKERS", "4")
+)
+
+
+# ============================================================
 # BOOKMAKERS
 # ============================================================
 
@@ -84,6 +100,10 @@ BOOKMAKERS = {
 
 
 BOOKMAKERS_LIST = list(BOOKMAKERS.keys())
+
+
+
+
 
 
 
