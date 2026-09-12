@@ -1,3 +1,4 @@
+import concurrent.futures
 import datetime
 import json
 import re
@@ -11,6 +12,7 @@ from config import (
     BOOKMAKERS,
     BOOKMAKERS_LIST,
     MAX_MATCHES_PER_SITE,
+    MAX_PARALLEL_BOOKMAKERS,
     proxy_config,
 )
 
@@ -1011,46 +1013,47 @@ def scrape_1win(playwright):
 MAX_WAIT_CYCLES = 20  # réduit de 40 : 40s max d'attente par match au lieu de 80s
 
 
-def main():
+def scrape_one_bookmaker_isolated(bookmaker):
+    """Lance un navigateur Playwright dédié (proxy compris) pour un
+    seul bookmaker, dans son propre thread. Chaque thread a son
+    propre pilote Playwright (sync_playwright()) : c'est la façon
+    supportée d'utiliser l'API synchrone de Playwright depuis
+    plusieurs threads en parallèle — on ne partage jamais un même
+    Browser/Page entre threads."""
 
-    proxy = proxy_config()
+    config = BOOKMAKERS[bookmaker]
 
-    with sync_playwright() as playwright:
+    try:
 
-        browser = playwright.chromium.launch(
-            headless=True,
-            proxy=proxy
-        )
+        with sync_playwright() as playwright:
 
-        context = browser.new_context(
-            viewport={
-                "width": 390,
-                "height": 844
-            },
+            proxy = proxy_config()
 
-            java_script_enabled=True,
+            browser = playwright.chromium.launch(
+                headless=True,
+                proxy=proxy
+            )
 
-            service_workers="block",
+            context = browser.new_context(
+                viewport={
+                    "width": 390,
+                    "height": 844
+                },
 
-            locale="fr-FR",
-        )
+                java_script_enabled=True,
 
-        context.route(
-            "**/*",
-            lambda route:
-                route.abort()
-                if should_block(route)
-                else route.continue_()
-        )
+                service_workers="block",
 
-        for bookmaker in BOOKMAKERS_LIST:
+                locale="fr-FR",
+            )
 
-            if bookmaker == "1win":
-                # Traité séparément juste après (pas de proxy,
-                # navigateur dédié).
-                continue
-
-            config = BOOKMAKERS[bookmaker]
+            context.route(
+                "**/*",
+                lambda route:
+                    route.abort()
+                    if should_block(route)
+                    else route.continue_()
+            )
 
             page = context.new_page()
 
@@ -1062,18 +1065,73 @@ def main():
                 MAX_WAIT_CYCLES
             )
 
-            page.close()
+            browser.close()
 
-        browser.close()
+    except Exception as error:
 
-        # ------------------------------------------------------
-        # 1WIN : pas de proxy nécessaire (IP du runner non
-        # bloquée), donc navigateur séparé sans configuration
-        # proxy.
-        # ------------------------------------------------------
-        scrape_1win(playwright)
+        print(f"[{bookmaker}] ERREUR fatale (thread) : {error}")
+
+
+def run_1win_isolated():
+    """1win dans son propre pilote Playwright et son propre thread,
+    en parallèle des autres (pas besoin de proxy)."""
+
+    try:
+
+        with sync_playwright() as playwright:
+            scrape_1win(playwright)
+
+    except Exception as error:
+
+        print(f"[1win] ERREUR fatale (thread) : {error}")
+
+
+def main():
+
+    classic_bookmakers = [
+        b for b in BOOKMAKERS_LIST if b != "1win"
+    ]
+
+    # +1 pour 1win, qui tourne aussi en parallèle des autres.
+    max_workers = min(
+        MAX_PARALLEL_BOOKMAKERS,
+        len(classic_bookmakers) + 1
+    )
+
+    print(
+        f"Scraping de {len(classic_bookmakers) + 1} bookmaker(s), "
+        f"{max_workers} en parallèle à la fois"
+    )
+
+    with concurrent.futures.ThreadPoolExecutor(
+        max_workers=max_workers
+    ) as executor:
+
+        futures = {
+            executor.submit(scrape_one_bookmaker_isolated, bookmaker): bookmaker
+            for bookmaker in classic_bookmakers
+        }
+
+        futures[executor.submit(run_1win_isolated)] = "1win"
+
+        for future in concurrent.futures.as_completed(futures):
+
+            bookmaker = futures[future]
+
+            # scrape_one_bookmaker_isolated / run_1win_isolated
+            # attrapent déjà leurs propres erreurs et écrivent
+            # quand même un fichier JSON (vide au pire) : ce
+            # .result() ne devrait normalement jamais lever, mais
+            # on le garde par sécurité pour ne pas planter le run
+            # entier si un thread fait quelque chose d'inattendu.
+            try:
+                future.result()
+            except Exception as error:
+                print(f"[{bookmaker}] ERREUR imprévue : {error}")
 
 
 if __name__ == "__main__":
     main()
+
+
 
