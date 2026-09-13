@@ -67,33 +67,76 @@ def parser_carte(carte):
     }
 
 
+def cle_carte(carte):
+    """Clé unique pour dédupliquer une carte (équipes suffisent, les cotes
+    peuvent légèrement bouger entre deux extractions du même match)."""
+    return carte["teamsText"].strip()
+
+
 def main():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
         page = browser.new_page()
 
-        print("Chargement de la page de listing...")
+        print("[1win] Chargement de la page de listing...")
         page.goto(LISTING_URL, timeout=1200000, wait_until="domcontentloaded")
 
-        cartes = []
+        cartes_vues = {}  # clé équipes -> dernière carte extraite
+        hauteur_precedente = -1
+        stagnation = 0  # nb de scrolls consécutifs sans nouveau contenu
+
         for tentative in range(MAX_TENTATIVES):
             cartes = extraire_cartes(page)
-            nb_avec_cotes = sum(1 for c in cartes if MOTIF_COTE.search(c["oddsText"]))
-            if len(cartes) > 0 and nb_avec_cotes >= len(cartes) * 0.5:
-                print(f"{len(cartes)} carte(s) détectée(s), {nb_avec_cotes} avec cotes chargées, après {tentative*2}s")
-                break
-            if tentative % 15 == 0 and tentative > 0:
-                print(f"... toujours en attente ({tentative*2}s écoulées) — {len(cartes)} cartes, {nb_avec_cotes} avec cotes")
+            for carte in cartes:
+                cle = cle_carte(carte)
+                if cle:
+                    cartes_vues[cle] = carte
+
+            nb_avec_cotes = sum(
+                1 for c in cartes_vues.values() if MOTIF_COTE.search(c["oddsText"])
+            )
+
+            if tentative % 10 == 0:
+                print(
+                    f"[1win] ... {len(cartes_vues)} match(s) uniques repérés "
+                    f"({nb_avec_cotes} avec cotes) après {tentative*2}s"
+                )
+
+            # Scroll pour déclencher le chargement des matchs suivants
+            # (liste virtualisée : sans scroll, seuls les premiers
+            # matchs visibles sont présents dans le DOM).
+            hauteur_actuelle = page.evaluate("document.body.scrollHeight")
+            page.mouse.wheel(0, 2000)
             page.wait_for_timeout(2000)
+
+            if hauteur_actuelle == hauteur_precedente:
+                stagnation += 1
+            else:
+                stagnation = 0
+            hauteur_precedente = hauteur_actuelle
+
+            # Arrêt si plus rien de nouveau ne se charge après plusieurs
+            # scrolls consécutifs (on a atteint le bas de la liste).
+            if stagnation >= 8:
+                print(
+                    f"[1win] Fin de liste atteinte : {len(cartes_vues)} match(s) "
+                    f"uniques au total, après {tentative*2}s"
+                )
+                break
+        else:
+            print(
+                f"[1win] Temps maximum atteint : {len(cartes_vues)} match(s) "
+                f"uniques collectés."
+            )
 
         browser.close()
 
     resultats = []
-    for i, carte in enumerate(cartes):
+    for i, (cle, carte) in enumerate(cartes_vues.items()):
         if i < 3:  # affiche le détail des 3 premières cartes pour diagnostic
-            print(f"\n--- Carte {i} : teamsText ---")
+            print(f"\n[1win] --- Carte {i} : teamsText ---")
             print(repr(carte["teamsText"]))
-            print(f"--- Carte {i} : oddsText ---")
+            print(f"[1win] --- Carte {i} : oddsText ---")
             print(repr(carte["oddsText"]))
         parsed = parser_carte(carte)
         if parsed:
@@ -102,7 +145,7 @@ def main():
     with open("1win.json", "w", encoding="utf-8") as f:
         json.dump(resultats, f, ensure_ascii=False, indent=2)
 
-    print(f"\n{len(resultats)} match(s) avec cotes valides sauvegardés dans 1win.json")
+    print(f"\n[1win] {len(resultats)} match(s) avec cotes valides sauvegardés dans 1win.json")
 
 
 if __name__ == "__main__":
