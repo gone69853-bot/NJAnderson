@@ -5,7 +5,9 @@ import re
 from pathlib import Path
 from urllib.parse import urlparse
 
-from playwright.sync_api import sync_playwright
+import asyncio
+
+from playwright.async_api import async_playwright
 
 from config import (
     BOOKMAKERS,
@@ -153,11 +155,11 @@ def extract_teams_from_slug(href):
 # que ça stagne.
 # ============================================================
 
-def expand_accordions(page):
+async def expand_accordions(page):
 
     try:
 
-        return page.evaluate(
+        return await page.evaluate(
             """
             () => {
                 let compte = 0;
@@ -211,26 +213,26 @@ def expand_accordions(page):
         return 0
 
 
-def scroll_page(page):
+async def scroll_page(page):
 
     try:
-        page.mouse.wheel(0, 4000)
+        await page.mouse.wheel(0, 4000)
     except Exception:
         pass
 
     try:
-        page.keyboard.press("End")
+        await page.keyboard.press("End")
     except Exception:
         pass
 
     try:
-        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
     except Exception:
         pass
 
     try:
 
-        page.evaluate(
+        await page.evaluate(
             """
             () => {
                 document.querySelectorAll('div').forEach(el => {
@@ -246,9 +248,9 @@ def scroll_page(page):
         pass
 
 
-def count_match_links(page):
+async def count_match_links(page):
 
-    hrefs = page.eval_on_selector_all(
+    hrefs = await page.eval_on_selector_all(
         "a",
         "els => els.map(e => e.getAttribute('href'))"
     )
@@ -261,7 +263,7 @@ def count_match_links(page):
     return hrefs, count
 
 
-def find_competition_links(page, base_url):
+async def find_competition_links(page, base_url):
     """Récupère les liens vers les pages de championnat (ex.
     "Coupe d'Afrique des nations (48)"), triés par nombre de
     matchs annoncé décroissant, pour visiter les plus fournis
@@ -269,7 +271,7 @@ def find_competition_links(page, base_url):
 
     try:
 
-        items = page.eval_on_selector_all(
+        items = await page.eval_on_selector_all(
             "a",
             """
             els => els.map(e => ({
@@ -323,7 +325,7 @@ def find_competition_links(page, base_url):
     return [url for url, _ in links]
 
 
-def click_maximize_buttons(page, bookmaker="", max_rounds=10):
+async def click_maximize_buttons(page, bookmaker="", max_rounds=10):
     """
     Déploie les sections cachées derrière le bouton UI
     "Maximize" sur tous les bookmakers qui utilisent ce composant.
@@ -348,27 +350,27 @@ def click_maximize_buttons(page, bookmaker="", max_rounds=10):
         try:
             # Recompter à chaque tour : après un clic, le DOM peut être
             # recréé et de nouveaux boutons peuvent apparaître.
-            count = page.locator(selector).count()
+            count = await page.locator(selector).count()
 
             for i in range(count):
                 try:
                     btn = page.locator(selector).nth(i)
 
-                    if btn.is_visible():
-                        btn.click(timeout=3000, force=True)
+                    if await btn.is_visible():
+                        await btn.click(timeout=3000, force=True)
                         clicked_this_round += 1
                         total_clicked += 1
-                        page.wait_for_timeout(500)
+                        await page.wait_for_timeout(500)
 
                 except Exception:
                     pass
 
             if clicked_this_round:
-                page.wait_for_timeout(1800)
+                await page.wait_for_timeout(1800)
 
             # Faire apparaître les éventuelles sections situées plus bas.
-            scroll_page(page)
-            page.wait_for_timeout(800)
+            await scroll_page(page)
+            await page.wait_for_timeout(800)
 
             if clicked_this_round:
                 print(
@@ -388,31 +390,31 @@ def click_maximize_buttons(page, bookmaker="", max_rounds=10):
     return total_clicked
 
 
-def collect_hrefs_on_page(page, max_matches, max_stagnant=40):
+async def collect_hrefs_on_page(page, max_matches, max_stagnant=40):
     """Déplie les accordéons/boutons "Maximize" et scrolle la page
     actuellement chargée jusqu'à avoir assez de liens de match ou
     jusqu'à ce que ça stagne. Renvoie tous les hrefs vus."""
 
-    expand_accordions(page)
-    click_maximize_buttons(page, urlparse(page.url).netloc)
+    await expand_accordions(page)
+    await click_maximize_buttons(page, urlparse(page.url).netloc)
     # Délai plus long ici : la première passe peut ouvrir plusieurs
     # dizaines de championnats d'un coup (ex. "UEFA Europa League (22)"),
     # chacun déclenchant son propre chargement de matchs.
-    page.wait_for_timeout(4000)
+    await page.wait_for_timeout(4000)
 
-    hrefs, found = count_match_links(page)
+    hrefs, found = await count_match_links(page)
 
     stagnant = 0
 
     while found < max_matches and stagnant < max_stagnant:
 
-        scroll_page(page)
-        expand_accordions(page)
-        click_maximize_buttons(page, urlparse(page.url).netloc, max_rounds=3)
+        await scroll_page(page)
+        await expand_accordions(page)
+        await click_maximize_buttons(page, urlparse(page.url).netloc, max_rounds=3)
 
-        page.wait_for_timeout(3000)
+        await page.wait_for_timeout(3000)
 
-        hrefs, new_found = count_match_links(page)
+        hrefs, new_found = await count_match_links(page)
 
         if new_found <= found:
             stagnant += 1
@@ -424,7 +426,7 @@ def collect_hrefs_on_page(page, max_matches, max_stagnant=40):
     return hrefs
 
 
-def discover_matches(
+async def discover_matches(
     page,
     listing_url,
     max_matches,
@@ -434,14 +436,14 @@ def discover_matches(
 
     url = with_mobile_param(listing_url)
 
-    page.goto(
+    await page.goto(
         url,
         timeout=180000,
         wait_until="domcontentloaded"
     )
 
     # Laisser le premier lot de matchs se charger.
-    page.wait_for_timeout(15000)
+    await page.wait_for_timeout(15000)
 
     parsed = urlparse(listing_url)
     base_url = f"{parsed.scheme}://{parsed.netloc}"
@@ -479,7 +481,7 @@ def discover_matches(
                 break
 
     add_hrefs(
-        collect_hrefs_on_page(page, max_matches, max_stagnant)
+        await collect_hrefs_on_page(page, max_matches, max_stagnant)
     )
 
     # Sur certains bookmakers, la page d'accueil "/line/football" ne
@@ -489,7 +491,7 @@ def discover_matches(
     # alors visiter chaque championnat pour les récupérer.
     if len(matches) < max_matches:
 
-        competition_links = find_competition_links(page, base_url)
+        competition_links = await find_competition_links(page, base_url)
 
         for comp_url in competition_links[:max_competitions]:
 
@@ -498,15 +500,15 @@ def discover_matches(
 
             try:
 
-                page.goto(
+                await page.goto(
                     with_mobile_param(comp_url),
                     timeout=60000,
                     wait_until="domcontentloaded"
                 )
-                page.wait_for_timeout(4000)
+                await page.wait_for_timeout(4000)
 
                 add_hrefs(
-                    collect_hrefs_on_page(
+                    await collect_hrefs_on_page(
                         page,
                         max_matches,
                         max_stagnant=15
@@ -762,7 +764,7 @@ def parse_correct_score_block(lines, max_span=60):
     return result
 
 
-def scrape_match(
+async def scrape_match(
     page,
     bookmaker,
     match,
@@ -774,7 +776,7 @@ def scrape_match(
 
         try:
 
-            page.goto(
+            await page.goto(
                 match["url"],
                 timeout=120000,
                 wait_until="domcontentloaded"
@@ -785,13 +787,13 @@ def scrape_match(
 
             for _ in range(max_wait_cycles):
 
-                text = page.inner_text("body")
+                text = await page.inner_text("body")
 
                 if "1X2" in text:
                     found = True
                     break
 
-                page.wait_for_timeout(2000)
+                await page.wait_for_timeout(2000)
 
             if not found:
                 continue
@@ -855,12 +857,23 @@ def scrape_match(
 # SCRAPER D'UN BOOKMAKER
 # ============================================================
 
-def scrape_bookmaker(
-    page,
+# Nombre d'onglets ouverts EN MÊME TEMPS, pour un seul bookmaker,
+# lors de la visite des pages de match individuelles (la partie la
+# plus lente du run, car elle représente jusqu'à 50 navigations
+# séquentielles par site). Les bookmakers restent traités un par un
+# (comme avant) pour ne jamais dépasser ce nombre de connexions
+# simultanées via le proxy — seule la phase "détail de chaque match"
+# à l'intérieur d'un bookmaker est parallélisée.
+MATCH_CONCURRENCY = 8
+
+
+async def scrape_bookmaker(
+    context,
     bookmaker,
     config,
     max_matches,
-    max_wait_cycles
+    max_wait_cycles,
+    concurrency=MATCH_CONCURRENCY
 ):
 
     listing_url = config["url"]
@@ -870,44 +883,62 @@ def scrape_bookmaker(
 
     try:
 
-        for attempt in range(2):
+        discovery_page = await context.new_page()
 
-            try:
+        try:
 
-                matches = discover_matches(
-                    page,
-                    listing_url,
-                    max_matches
-                )
+            for attempt in range(2):
 
-                break
+                try:
 
-            except Exception as error:
+                    matches = await discover_matches(
+                        discovery_page,
+                        listing_url,
+                        max_matches
+                    )
 
-                print(
-                    f"[{bookmaker}] "
-                    f"erreur découverte (essai {attempt + 1}/2) : "
-                    f"{error}"
-                )
+                    break
 
-                page.wait_for_timeout(3000)
+                except Exception as error:
+
+                    print(
+                        f"[{bookmaker}] "
+                        f"erreur découverte (essai {attempt + 1}/2) : "
+                        f"{error}"
+                    )
+
+                    await discovery_page.wait_for_timeout(3000)
+
+        finally:
+            await discovery_page.close()
 
         print(
             f"[{bookmaker}] "
             f"{len(matches)} match(s) découvert(s)"
         )
 
-        for match in matches:
+        if matches:
 
-            data = scrape_match(
-                page,
-                bookmaker,
-                match,
-                max_wait_cycles
+            semaphore = asyncio.Semaphore(concurrency)
+
+            async def scrape_one(match):
+                async with semaphore:
+                    match_page = await context.new_page()
+                    try:
+                        return await scrape_match(
+                            match_page,
+                            bookmaker,
+                            match,
+                            max_wait_cycles
+                        )
+                    finally:
+                        await match_page.close()
+
+            scraped = await asyncio.gather(
+                *(scrape_one(match) for match in matches)
             )
 
-            if data:
-                result.append(data)
+            result = [data for data in scraped if data]
 
     except Exception as error:
 
@@ -946,9 +977,9 @@ WIN1_MAX_TENTATIVES = 300  # jusqu'à 10 min pour que les cartes se chargent
 WIN1_MOTIF_COTE = re.compile(r"\d\.\d")
 
 
-def extraire_cartes_1win(page):
+async def extraire_cartes_1win(page):
 
-    return page.evaluate(
+    return await page.evaluate(
         """
         () => {
             const cartes = document.querySelectorAll('[data-qa="match-card"]');
@@ -1037,7 +1068,7 @@ def parser_carte_1win(carte):
     }
 
 
-def ouvrir_plus_de_matchs_1win(page, max_tours=20):
+async def ouvrir_plus_de_matchs_1win(page, max_tours=20):
     """
     1win masque une partie des compétitions derrière des boutons
     "Maximize". On clique explicitement sur ces boutons pour déployer
@@ -1050,7 +1081,7 @@ def ouvrir_plus_de_matchs_1win(page, max_tours=20):
         try:
             # Cible le bouton fourni par l'interface 1win :
             # <button aria-label="Maximize" ... class="ui-nav-link-toggle ...">
-            cliques = page.locator(
+            cliques = await page.locator(
                 'button.ui-nav-link-toggle[aria-label="Maximize"]'
                 '[aria-expanded="false"]'
             ).count()
@@ -1058,7 +1089,7 @@ def ouvrir_plus_de_matchs_1win(page, max_tours=20):
             if cliques:
                 for i in range(cliques):
                     try:
-                        page.locator(
+                        await page.locator(
                             'button.ui-nav-link-toggle[aria-label="Maximize"]'
                             '[aria-expanded="false"]'
                         ).nth(i).click(
@@ -1068,14 +1099,14 @@ def ouvrir_plus_de_matchs_1win(page, max_tours=20):
                     except Exception:
                         pass
 
-                page.wait_for_timeout(1800)
+                await page.wait_for_timeout(1800)
 
             # Faire apparaître les sections éventuellement chargées plus bas.
-            page.mouse.wheel(0, 5000)
-            page.keyboard.press("End")
-            page.wait_for_timeout(1200)
+            await page.mouse.wheel(0, 5000)
+            await page.keyboard.press("End")
+            await page.wait_for_timeout(1200)
 
-            nb_cartes = page.locator(
+            nb_cartes = await page.locator(
                 '[data-qa="match-card"]'
             ).count()
 
@@ -1100,7 +1131,7 @@ def ouvrir_plus_de_matchs_1win(page, max_tours=20):
     return precedent
 
 
-def scrape_1win(playwright):
+async def scrape_1win(playwright):
 
     result = []
 
@@ -1108,28 +1139,28 @@ def scrape_1win(playwright):
 
         # Pas de proxy pour 1win : l'IP du runner n'est pas
         # bloquée sur ce site.
-        browser = playwright.chromium.launch(headless=True)
+        browser = await playwright.chromium.launch(headless=True)
 
-        page = browser.new_page()
+        page = await browser.new_page()
 
-        page.goto(
+        await page.goto(
             WIN1_LISTING_URL,
             timeout=1200000,
             wait_until="domcontentloaded"
         )
 
         # Laisser l'application Vue.js initialiser les championnats.
-        page.wait_for_timeout(5000)
+        await page.wait_for_timeout(5000)
 
         # Même logique que pour les autres bookmakers : on ouvre
         # les sections cachées derrière les boutons "Maximize".
-        click_maximize_buttons(page, "1win")
+        await click_maximize_buttons(page, "1win")
 
         cartes = []
 
         for tentative in range(WIN1_MAX_TENTATIVES):
 
-            cartes = extraire_cartes_1win(page)
+            cartes = await extraire_cartes_1win(page)
 
             nb_avec_cotes = sum(
                 1 for c in cartes
@@ -1149,9 +1180,9 @@ def scrape_1win(playwright):
 
                 break
 
-            page.wait_for_timeout(2000)
+            await page.wait_for_timeout(2000)
 
-        browser.close()
+        await browser.close()
 
         for carte in cartes:
 
@@ -1194,18 +1225,49 @@ def scrape_1win(playwright):
 MAX_WAIT_CYCLES = 20  # réduit de 40 : 40s max d'attente par match au lieu de 80s
 
 
-def main():
+async def route_handler(route):
+    if should_block(route):
+        await route.abort()
+    else:
+        await route.continue_()
+
+
+async def run_bookmakers(context):
+    """Traite les bookmakers (hors 1win) un par un, dans l'ordre —
+    chacun utilise jusqu'à MATCH_CONCURRENCY onglets en parallèle en
+    interne (voir scrape_bookmaker). On ne lance PAS les bookmakers
+    entre eux en parallèle : ça éviterait de cumuler encore plus de
+    connexions simultanées via un proxy dont on ne connaît pas les
+    limites exactes."""
+
+    for bookmaker in BOOKMAKERS_LIST:
+
+        if bookmaker == "1win":
+            continue
+
+        config = BOOKMAKERS[bookmaker]
+
+        await scrape_bookmaker(
+            context,
+            bookmaker,
+            config,
+            MAX_MATCHES_PER_SITE,
+            MAX_WAIT_CYCLES
+        )
+
+
+async def main():
 
     proxy = proxy_config()
 
-    with sync_playwright() as playwright:
+    async with async_playwright() as playwright:
 
-        browser = playwright.chromium.launch(
+        browser = await playwright.chromium.launch(
             headless=True,
             proxy=proxy
         )
 
-        context = browser.new_context(
+        context = await browser.new_context(
             viewport={
                 "width": 390,
                 "height": 844
@@ -1218,47 +1280,26 @@ def main():
             locale="fr-FR",
         )
 
-        context.route(
-            "**/*",
-            lambda route:
-                route.abort()
-                if should_block(route)
-                else route.continue_()
+        await context.route("**/*", route_handler)
+
+        # ------------------------------------------------------
+        # 1WIN tourne dans son PROPRE navigateur, sans proxy (l'IP
+        # du runner n'y est pas bloquée). Comme il n'utilise jamais
+        # le proxy, le lancer EN MÊME TEMPS que les autres bookmakers
+        # ne consomme aucune connexion proxy supplémentaire : c'est
+        # du temps gagné "gratuitement" sur la durée totale du run.
+        # ------------------------------------------------------
+        await asyncio.gather(
+            run_bookmakers(context),
+            scrape_1win(playwright),
         )
 
-        for bookmaker in BOOKMAKERS_LIST:
-
-            if bookmaker == "1win":
-                # Traité séparément juste après (pas de proxy,
-                # navigateur dédié).
-                continue
-
-            config = BOOKMAKERS[bookmaker]
-
-            page = context.new_page()
-
-            scrape_bookmaker(
-                page,
-                bookmaker,
-                config,
-                MAX_MATCHES_PER_SITE,
-                MAX_WAIT_CYCLES
-            )
-
-            page.close()
-
-        browser.close()
-
-        # ------------------------------------------------------
-        # 1WIN : pas de proxy nécessaire (IP du runner non
-        # bloquée), donc navigateur séparé sans configuration
-        # proxy.
-        # ------------------------------------------------------
-        scrape_1win(playwright)
+        await context.close()
+        await browser.close()
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
 
 
 
