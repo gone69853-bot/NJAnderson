@@ -4,9 +4,9 @@
     "equipe_1": "Internazionale Milano",
     "equipe_2": "Udinese Calcio",
     "1X2": {
-      "V1": "1.281",
-      "X": "6.4",
-      "V2": "12.7"
+      "V1": "1.271",
+      "X": "6.6",
+      "V2": "12.9"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -23,28 +23,28 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-4.5)": "7.9",
-      "2 (+4.5)": "1.021",
-      "1 (-4)": "7.4",
-      "2 (+4)": "1.031",
-      "1 (-3.5)": "4.35",
-      "2 (+3.5)": "1.142",
-      "1 (-3)": "3.75",
-      "2 (+3)": "1.21",
-      "1 (-2.5)": "2.57",
-      "2 (+2.5)": "1.444",
-      "1 (-2)": "2.08",
-      "2 (+2)": "1.7",
-      "1 (-1.5)": "1.76",
-      "2 (+1.5)": "2.236",
-      "1 (-1)": "1.32",
-      "2 (+1)": "3.2",
-      "1 (0)": "1.047",
-      "2 (0)": "7.6"
+      "1 (-4.5)": "7.5",
+      "2 (+4.5)": "1.029",
+      "1 (-4)": "6.9",
+      "2 (+4)": "1.041",
+      "1 (-3.5)": "4.15",
+      "2 (+3.5)": "1.157",
+      "1 (-3)": "3.58",
+      "2 (+3)": "1.23",
+      "1 (-2.5)": "2.47",
+      "2 (+2.5)": "1.48",
+      "1 (-2)": "2.01",
+      "2 (+2)": "1.75",
+      "1 (-1.5)": "1.721",
+      "2 (+1.5)": "2.302",
+      "1 (-1)": "1.3",
+      "2 (+1)": "3.34",
+      "1 (0)": "1.045",
+      "2 (0)": "7.7"
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/110163-italy-serie-a/364991998-internazionale-milano-udinese-calcio",
-    "derniere_maj": "2026-09-14T06:59:31.005231+00:00",
+    "derniere_maj": "2026-09-14T08:10:51.304113+00:00",
     "statut": "ok"
   },
   {
@@ -53,8 +53,8 @@
     "equipe_2": "Parma",
     "1X2": {
       "V1": "1.264",
-      "X": "6.38",
-      "V2": "14.8"
+      "X": "6.43",
+      "V2": "14.5"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -71,28 +71,28 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-4.5)": "9.2",
-      "2 (+4.5)": "1.003",
-      "1 (-4)": "8.6",
-      "2 (+4)": "1.011",
-      "1 (-3.5)": "4.8",
-      "2 (+3.5)": "1.116",
-      "1 (-3)": "4.1",
-      "2 (+3)": "1.162",
-      "1 (-2.5)": "2.64",
-      "2 (+2.5)": "1.4",
+      "1 (-4.5)": "9.1",
+      "2 (+4.5)": "1.004",
+      "1 (-4)": "8.5",
+      "2 (+4)": "1.013",
+      "1 (-3.5)": "4.75",
+      "2 (+3.5)": "1.118",
+      "1 (-3)": "4.05",
+      "2 (+3)": "1.166",
+      "1 (-2.5)": "2.61",
+      "2 (+2.5)": "1.41",
       "1 (-2)": "2.11",
       "2 (+2)": "1.65",
       "1 (-1.5)": "1.772",
       "2 (+1.5)": "2.218",
-      "1 (-1)": "1.3",
-      "2 (+1)": "3.22",
-      "1 (0)": "1.034",
-      "2 (0)": "7.6"
+      "1 (-1)": "1.29",
+      "2 (+1)": "3.28",
+      "1 (0)": "1.036",
+      "2 (0)": "7.5"
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/110163-italy-serie-a/365276048-como-parma",
-    "derniere_maj": "2026-09-14T06:59:31.009348+00:00",
+    "derniere_maj": "2026-09-14T08:10:14.736191+00:00",
     "statut": "ok"
   },
   {
@@ -100,9 +100,9 @@
     "equipe_1": "Torino",
     "equipe_2": "Roma",
     "1X2": {
-      "V1": "6.29",
-      "X": "4.345",
-      "V2": "1.596"
+      "V1": "6.24",
+      "X": "4.295",
+      "V2": "1.607"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -119,24 +119,24 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (0)": "4.5",
-      "2 (0)": "1.158",
+      "1 (0)": "4.45",
+      "2 (0)": "1.16",
       "1 (+1)": "1.9",
       "2 (-1)": "1.9",
       "1 (+1.5)": "1.598",
       "2 (-1.5)": "2.567",
       "1 (+2)": "1.21",
       "2 (-2)": "3.75",
-      "1 (+2.5)": "1.135",
+      "1 (+2.5)": "1.134",
       "2 (-2.5)": "4.5",
       "1 (+3)": "1.012",
       "2 (-3)": "8.5",
-      "1 (+3.5)": "1.002",
-      "2 (-3.5)": "9.3"
+      "1 (+3.5)": "1.03",
+      "2 (-3.5)": "9.5"
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/110163-italy-serie-a/365276052-torino-roma",
-    "derniere_maj": "2026-09-14T06:59:31.034497+00:00",
+    "derniere_maj": "2026-09-14T08:10:14.701651+00:00",
     "statut": "ok"
   },
   {
@@ -166,21 +166,21 @@
       "1 (-2.5)": "7.9",
       "2 (+2.5)": "1.022",
       "1 (-2)": "7.3",
-      "2 (+2)": "1.039",
+      "2 (+2)": "1.04",
       "1 (-1.5)": "4.05",
-      "2 (+1.5)": "1.19",
-      "1 (-1)": "3.34",
-      "2 (+1)": "1.29",
+      "2 (+1.5)": "1.191",
+      "1 (-1)": "3.28",
+      "2 (+1)": "1.3",
       "1 (0)": "1.71",
       "2 (0)": "2.322",
-      "1 (+1)": "1.129",
-      "2 (-1)": "5.3",
-      "1 (+1.5)": "1.086",
-      "2 (-1.5)": "6"
+      "1 (+1)": "1.127",
+      "2 (-1)": "5.35",
+      "1 (+1.5)": "1.084",
+      "2 (-1.5)": "6.1"
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/88637-england-premier-league/364947882-leeds-united-newcastle-united",
-    "derniere_maj": "2026-09-14T06:59:30.952965+00:00",
+    "derniere_maj": "2026-09-14T08:10:14.895874+00:00",
     "statut": "ok"
   },
   {
@@ -188,9 +188,9 @@
     "equipe_1": "Villarreal",
     "equipe_2": "Real Betis",
     "1X2": {
-      "V1": "2.001",
-      "X": "3.96",
-      "V2": "3.8"
+      "V1": "2.023",
+      "X": "3.94",
+      "V2": "3.74"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -207,24 +207,324 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "6.35",
-      "2 (+2.5)": "1.069",
-      "1 (-2)": "5.7",
-      "2 (+2)": "1.105",
-      "1 (-1.5)": "3.28",
-      "2 (+1.5)": "1.31",
-      "1 (-1)": "2.65",
-      "2 (+1)": "1.48",
-      "1 (0)": "1.514",
-      "2 (0)": "2.817",
-      "1 (+1)": "1.068",
-      "2 (-1)": "6.4",
-      "1 (+1.5)": "1.037",
-      "2 (-1.5)": "7.1"
+      "1 (-2.5)": "6.5",
+      "2 (+2.5)": "1.065",
+      "1 (-2)": "5.8",
+      "2 (+2)": "1.1",
+      "1 (-1.5)": "3.34",
+      "2 (+1.5)": "1.3",
+      "1 (-1)": "2.69",
+      "2 (+1)": "1.47",
+      "1 (0)": "1.53",
+      "2 (0)": "2.765",
+      "1 (+1)": "1.072",
+      "2 (-1)": "6.25",
+      "1 (+1.5)": "1.04",
+      "2 (-1.5)": "6.95"
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/127733-spain-la-liga/366610602-villarreal-real-betis",
-    "derniere_maj": "2026-09-14T06:59:30.671385+00:00",
+    "derniere_maj": "2026-09-14T08:10:14.716341+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Vido",
+    "equipe_2": "99 Emaljus",
+    "1X2": {
+      "V1": "2.16",
+      "X": "3.35",
+      "V2": "2.857"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.67",
+      "2 (+1)": "1.22",
+      "1 (0)": "1.62",
+      "2 (0)": "2.1"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665746-vido-99-emaljus",
+    "derniere_maj": "2026-09-14T08:10:13.119357+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Jp Young",
+    "equipe_2": "Stars Byt Academical",
+    "1X2": {
+      "V1": "2.51",
+      "X": "3.47",
+      "V2": "2.28"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "1.92",
+      "2 (0)": "1.75",
+      "1 (+1)": "1.19",
+      "2 (-1)": "3.97"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665750-jp-young-stars-byt-academical",
+    "derniere_maj": "2026-09-14T08:10:12.950498+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Newhope Naija",
+    "equipe_2": "Kiraa Fa",
+    "1X2": {
+      "V1": "2.11",
+      "X": "3.39",
+      "V2": "2.927"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.5",
+      "2 (+1)": "1.24",
+      "1 (0)": "1.59",
+      "2 (0)": "2.16"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665776-newhope-naija-kiraa-fa",
+    "derniere_maj": "2026-09-14T08:10:13.411702+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Ecas",
+    "equipe_2": "Fa Aux",
+    "1X2": {
+      "V1": "2.34",
+      "X": "3.27",
+      "V2": "2.56"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "1.75",
+      "2 (0)": "1.91"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665790-ecas-fa-aux",
+    "derniere_maj": "2026-09-14T08:10:26.778221+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Ajuwa Fa",
+    "equipe_2": "Joy Cometh",
+    "1X2": {
+      "V1": "2.06",
+      "X": "3.52",
+      "V2": "2.935"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.29",
+      "2 (+1)": "1.27",
+      "1 (0)": "1.57",
+      "2 (0)": "2.2"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665786-ajuwa-fa-joy-cometh",
+    "derniere_maj": "2026-09-14T08:10:29.177544+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Tonic",
+    "equipe_2": "Mega 22",
+    "1X2": {
+      "V1": "2.3",
+      "X": "3.25",
+      "V2": "2.62"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "1.72",
+      "2 (0)": "1.95"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665748-tonic-mega-22",
+    "derniere_maj": "2026-09-14T08:10:29.179678+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "36 Lion",
+    "equipe_2": "Ighalo Fa",
+    "1X2": {
+      "V1": "3.005",
+      "X": "3.6",
+      "V2": "2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "2.27",
+      "2 (0)": "1.53",
+      "1 (+1)": "1.3",
+      "2 (-1)": "3.11"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665798-36-lion-ighalo-fa",
+    "derniere_maj": "2026-09-14T08:10:30.592624+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Maryland United",
+    "equipe_2": "Crystal Lagos",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.37",
+      "V2": "2.45"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "1.81",
+      "2 (0)": "1.85"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665796-maryland-united-crystal-lagos",
+    "derniere_maj": "2026-09-14T08:10:30.789971+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Inspire Academy",
+    "equipe_2": "Young Strikers",
+    "1X2": {
+      "V1": "3.155",
+      "X": "3.7",
+      "V2": "1.91"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "2.41",
+      "2 (0)": "1.48",
+      "1 (+1)": "1.35",
+      "2 (-1)": "2.86"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665794-inspire-academy-young-strikers",
+    "derniere_maj": "2026-09-14T08:10:30.770711+00:00",
     "statut": "ok"
   },
   {
@@ -264,7 +564,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325699846-andorra-malta",
-    "derniere_maj": "2026-09-14T06:59:31.035695+00:00",
+    "derniere_maj": "2026-09-14T08:10:30.790580+00:00",
     "statut": "ok"
   },
   {
@@ -296,7 +596,7 @@
       "1 (-3.5)": "6.65",
       "2 (+3.5)": "1.047",
       "1 (-3)": "5.85",
-      "2 (+3)": "1.07",
+      "2 (+3)": "1.071",
       "1 (-2.5)": "3.42",
       "2 (+2.5)": "1.25",
       "1 (-2)": "2.81",
@@ -310,7 +610,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325575974-austria-israel",
-    "derniere_maj": "2026-09-14T07:00:13.177994+00:00",
+    "derniere_maj": "2026-09-14T08:11:22.866097+00:00",
     "statut": "ok"
   },
   {
@@ -354,7 +654,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325575978-kosovo-republic-of-ireland",
-    "derniere_maj": "2026-09-14T06:59:31.097355+00:00",
+    "derniere_maj": "2026-09-14T08:10:45.161446+00:00",
     "statut": "ok"
   },
   {
@@ -389,7 +689,7 @@
       "2 (-1.5)": "2.19",
       "1 (+2)": "1.27",
       "2 (-2)": "3.28",
-      "1 (+2.5)": "1.169",
+      "1 (+2.5)": "1.17",
       "2 (-2.5)": "4",
       "1 (+3)": "1.033",
       "2 (-3)": "7.3",
@@ -398,7 +698,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325699854-liechtenstein-lithuania",
-    "derniere_maj": "2026-09-14T06:59:42.180453+00:00",
+    "derniere_maj": "2026-09-14T08:10:45.162389+00:00",
     "statut": "ok"
   },
   {
@@ -425,8 +725,8 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "8.6",
-      "2 (+2.5)": "1.011",
+      "1 (-2.5)": "8.5",
+      "2 (+2.5)": "1.012",
       "1 (-2)": "7.7",
       "2 (+2)": "1.025",
       "1 (-1.5)": "4.1",
@@ -446,7 +746,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325372158-netherlands-germany",
-    "derniere_maj": "2026-09-14T06:59:44.729283+00:00",
+    "derniere_maj": "2026-09-14T08:10:46.353359+00:00",
     "statut": "ok"
   },
   {
@@ -490,7 +790,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325372156-norway-denmark",
-    "derniere_maj": "2026-09-14T06:59:44.792481+00:00",
+    "derniere_maj": "2026-09-14T08:10:46.680054+00:00",
     "statut": "ok"
   },
   {
@@ -538,7 +838,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325407126-portugal-wales",
-    "derniere_maj": "2026-09-14T06:59:44.791950+00:00",
+    "derniere_maj": "2026-09-14T08:10:46.692858+00:00",
     "statut": "ok"
   },
   {
@@ -584,7 +884,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325407134-serbia-greece",
-    "derniere_maj": "2026-09-14T06:59:43.414198+00:00",
+    "derniere_maj": "2026-09-14T08:10:46.916896+00:00",
     "statut": "ok"
   },
   {
@@ -630,7 +930,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325871866-armenia-latvia",
-    "derniere_maj": "2026-09-14T06:59:44.870668+00:00",
+    "derniere_maj": "2026-09-14T08:10:55.290977+00:00",
     "statut": "ok"
   },
   {
@@ -674,7 +974,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325871868-georgia-northern-ireland",
-    "derniere_maj": "2026-09-14T06:59:44.955285+00:00",
+    "derniere_maj": "2026-09-14T08:10:57.617847+00:00",
     "statut": "ok"
   },
   {
@@ -718,7 +1018,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326182838-hungary-ukraine",
-    "derniere_maj": "2026-09-14T06:59:51.743680+00:00",
+    "derniere_maj": "2026-09-14T08:10:59.077406+00:00",
     "statut": "ok"
   },
   {
@@ -764,7 +1064,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325995556-italy-belgium",
-    "derniere_maj": "2026-09-14T06:59:55.091196+00:00",
+    "derniere_maj": "2026-09-14T08:10:59.040557+00:00",
     "statut": "ok"
   },
   {
@@ -795,10 +1095,10 @@
       "2 (+3.5)": "1.01",
       "1 (-3)": "10.5",
       "2 (+3)": "1.02",
-      "1 (-2.5)": "5.5",
-      "2 (+2.5)": "1.084",
+      "1 (-2.5)": "5.45",
+      "2 (+2.5)": "1.085",
       "1 (-2)": "4.7",
-      "2 (+2)": "1.137",
+      "2 (+2)": "1.138",
       "1 (-1.5)": "2.77",
       "2 (+1.5)": "1.39",
       "1 (-1)": "2.14",
@@ -812,7 +1112,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326342396-poland-bosnia-and-herzegovina",
-    "derniere_maj": "2026-09-14T06:59:56.779947+00:00",
+    "derniere_maj": "2026-09-14T08:11:03.694960+00:00",
     "statut": "ok"
   },
   {
@@ -860,7 +1160,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325995560-turkey-france",
-    "derniere_maj": "2026-09-14T06:59:56.607410+00:00",
+    "derniere_maj": "2026-09-14T08:10:59.303620+00:00",
     "statut": "ok"
   },
   {
@@ -892,19 +1192,19 @@
       "1 (-3)": "8.3",
       "2 (+3)": "1.015",
       "1 (-2.5)": "4.45",
-      "2 (+2.5)": "1.137",
+      "2 (+2.5)": "1.138",
       "1 (-2)": "3.66",
       "2 (+2)": "1.22",
-      "1 (-1.5)": "2.41",
-      "2 (+1.5)": "1.5",
-      "1 (-1)": "1.88",
-      "2 (+1)": "1.92",
-      "1 (0)": "1.124",
+      "1 (-1.5)": "2.39",
+      "2 (+1.5)": "1.51",
+      "1 (-1)": "1.87",
+      "2 (+1)": "1.93",
+      "1 (0)": "1.123",
       "2 (0)": "5.1"
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326182840-montenegro-cyprus",
-    "derniere_maj": "2026-09-14T06:59:56.945604+00:00",
+    "derniere_maj": "2026-09-14T08:11:03.675597+00:00",
     "statut": "ok"
   },
   {
@@ -952,7 +1252,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326342442-sweden-romania",
-    "derniere_maj": "2026-09-14T06:59:57.163616+00:00",
+    "derniere_maj": "2026-09-14T08:11:05.569275+00:00",
     "statut": "ok"
   },
   {
@@ -996,7 +1296,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326503382-slovenia-scotland",
-    "derniere_maj": "2026-09-14T06:59:57.046535+00:00",
+    "derniere_maj": "2026-09-14T08:11:10.089166+00:00",
     "statut": "ok"
   },
   {
@@ -1040,7 +1340,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326646072-bulgaria-luxembourg",
-    "derniere_maj": "2026-09-14T07:00:03.792028+00:00",
+    "derniere_maj": "2026-09-14T08:11:11.426473+00:00",
     "statut": "ok"
   },
   {
@@ -1084,7 +1384,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326853884-iceland-estonia",
-    "derniere_maj": "2026-09-14T07:00:06.902718+00:00",
+    "derniere_maj": "2026-09-14T08:11:11.223841+00:00",
     "statut": "ok"
   },
   {
@@ -1134,7 +1434,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326853886-san-marino-finland",
-    "derniere_maj": "2026-09-14T07:00:10.485862+00:00",
+    "derniere_maj": "2026-09-14T08:11:11.224467+00:00",
     "statut": "ok"
   },
   {
@@ -1166,7 +1466,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326646082-faroe-islands-kazakhstan",
-    "derniere_maj": "2026-09-14T07:00:13.153088+00:00",
+    "derniere_maj": "2026-09-14T08:11:16.115729+00:00",
     "statut": "ok"
   },
   {
@@ -1174,8 +1474,8 @@
     "equipe_1": "Albania",
     "equipe_2": "Belarus",
     "1X2": {
-      "V1": "1.42",
-      "X": "4.34",
+      "V1": "1.416",
+      "X": "4.38",
       "V2": "8.4"
     },
     "Total_2.5": {
@@ -1205,12 +1505,12 @@
       "2 (+1.5)": "1.58",
       "1 (-1)": "1.71",
       "2 (+1)": "2.14",
-      "1 (0)": "1.092",
+      "1 (0)": "1.091",
       "2 (0)": "5.85"
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326971824-albania-belarus",
-    "derniere_maj": "2026-09-14T07:00:09.311273+00:00",
+    "derniere_maj": "2026-09-14T08:11:16.186248+00:00",
     "statut": "ok"
   },
   {
@@ -1256,7 +1556,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/327162848-england-spain",
-    "derniere_maj": "2026-09-14T07:00:11.315369+00:00",
+    "derniere_maj": "2026-09-14T08:11:17.677549+00:00",
     "statut": "ok"
   },
   {
@@ -1300,7 +1600,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326503384-republic-of-north-macedonia-switzerland",
-    "derniere_maj": "2026-09-14T07:00:12.722510+00:00",
+    "derniere_maj": "2026-09-14T08:11:22.958710+00:00",
     "statut": "ok"
   },
   {
@@ -1344,7 +1644,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326971822-slovakia-moldova",
-    "derniere_maj": "2026-09-14T07:00:18.893512+00:00",
+    "derniere_maj": "2026-09-14T08:11:23.856204+00:00",
     "statut": "ok"
   },
   {
@@ -1390,7 +1690,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/327162868-czech-republic-croatia",
-    "derniere_maj": "2026-09-14T07:00:19.279806+00:00",
+    "derniere_maj": "2026-09-14T08:11:23.857986+00:00",
     "statut": "ok"
   },
   {
@@ -1430,7 +1730,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/342637486-lithuania-azerbaijan",
-    "derniere_maj": "2026-09-14T07:00:21.229458+00:00",
+    "derniere_maj": "2026-09-14T08:11:23.936054+00:00",
     "statut": "ok"
   },
   {
@@ -1476,7 +1776,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/344907356-austria-kosovo",
-    "derniere_maj": "2026-09-14T07:00:22.129476+00:00",
+    "derniere_maj": "2026-09-14T08:11:29.291541+00:00",
     "statut": "ok"
   },
   {
@@ -1516,7 +1816,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/343404996-gibraltar-andorra",
-    "derniere_maj": "2026-09-14T07:00:23.210504+00:00",
+    "derniere_maj": "2026-09-14T08:11:29.048048+00:00",
     "statut": "ok"
   },
   {
@@ -1562,7 +1862,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/343941588-denmark-wales",
-    "derniere_maj": "2026-09-14T07:00:24.987564+00:00",
+    "derniere_maj": "2026-09-14T08:11:30.271562+00:00",
     "statut": "ok"
   },
   {
@@ -1570,9 +1870,9 @@
     "equipe_1": "Serbia",
     "equipe_2": "Netherlands",
     "1X2": {
-      "V1": "4.54",
+      "V1": "4.5",
       "X": "3.9",
-      "V2": "1.73"
+      "V2": "1.74"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1589,26 +1889,26 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1.5)": "9.2",
-      "2 (+1.5)": "1.003",
+      "1 (-1.5)": "9.1",
+      "2 (+1.5)": "1.004",
       "1 (-1)": "8.4",
-      "2 (+1)": "1.014",
+      "2 (+1)": "1.015",
       "1 (0)": "3.28",
       "2 (0)": "1.28",
-      "1 (+1)": "1.63",
-      "2 (-1)": "2.28",
+      "1 (+1)": "1.62",
+      "2 (-1)": "2.3",
       "1 (+1.5)": "1.36",
       "2 (-1.5)": "2.89",
-      "1 (+2)": "1.127",
+      "1 (+2)": "1.126",
       "2 (-2)": "4.9",
-      "1 (+2.5)": "1.083",
-      "2 (-2.5)": "5.5",
+      "1 (+2.5)": "1.082",
+      "2 (-2.5)": "5.55",
       "1 (+3)": "1.01",
       "2 (-3)": "12"
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/344303610-serbia-netherlands",
-    "derniere_maj": "2026-09-14T07:00:24.991119+00:00",
+    "derniere_maj": "2026-09-14T08:11:35.142911+00:00",
     "statut": "ok"
   },
   {
@@ -1656,7 +1956,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/345183346-germany-greece",
-    "derniere_maj": "2026-09-14T07:00:25.023633+00:00",
+    "derniere_maj": "2026-09-14T08:11:35.215662+00:00",
     "statut": "ok"
   },
   {
@@ -1700,7 +2000,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/345472100-israel-republic-of-ireland",
-    "derniere_maj": "2026-09-14T07:00:30.991753+00:00",
+    "derniere_maj": "2026-09-14T08:11:38.030882+00:00",
     "statut": "ok"
   },
   {
@@ -1748,7 +2048,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/345183344-norway-portugal",
-    "derniere_maj": "2026-09-14T07:00:31.156215+00:00",
+    "derniere_maj": "2026-09-14T08:11:36.215155+00:00",
     "statut": "ok"
   },
   {
@@ -1794,7 +2094,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/345472098-georgia-ukraine",
-    "derniere_maj": "2026-09-14T07:00:33.166390+00:00",
+    "derniere_maj": "2026-09-14T08:11:36.604664+00:00",
     "statut": "ok"
   },
   {
@@ -1826,309 +2126,7 @@
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/345782500-armenia-montenegro",
-    "derniere_maj": "2026-09-14T07:00:42.325877+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Latvia",
-    "equipe_2": "Cyprus",
-    "1X2": {
-      "V1": "2.48",
-      "X": "3.27",
-      "V2": "2.61"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "1.78",
-      "2 (0)": "1.88"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/345782498-latvia-cyprus",
-    "derniere_maj": "2026-09-14T07:00:35.133522+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Belgium",
-    "equipe_2": "France",
-    "1X2": {
-      "V1": "3.035",
-      "X": "3.71",
-      "V2": "2.06"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "2.27",
-      "2 (0)": "1.53",
-      "1 (+1)": "1.3",
-      "2 (-1)": "3.1"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/346384924-belgium-france",
-    "derniere_maj": "2026-09-14T07:00:37.610000+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Romania Bosnia",
-    "equipe_2": "And Herzegovina",
-    "1X2": {
-      "V1": "1.89",
-      "X": "3.61",
-      "V2": "3.595"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.76",
-      "2 (+1)": "1.37",
-      "1 (0)": "1.39",
-      "2 (0)": "2.66"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/346671942-romania-bosnia-and-herzegovina",
-    "derniere_maj": "2026-09-14T07:00:37.303638+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Northern",
-    "equipe_2": "Ireland Hungary",
-    "1X2": {
-      "V1": "2.52",
-      "X": "3.07",
-      "V2": "2.7"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "1.77",
-      "2 (0)": "1.9"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/346671944-northern-ireland-hungary",
-    "derniere_maj": "2026-09-14T07:00:37.590187+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Turkey",
-    "equipe_2": "Italy",
-    "1X2": {
-      "V1": "2.82",
-      "X": "3.44",
-      "V2": "2.28"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "2.05",
-      "2 (0)": "1.66",
-      "1 (+1)": "1.2",
-      "2 (-1)": "3.81"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/346384922-turkey-italy",
-    "derniere_maj": "2026-09-14T07:00:41.328933+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Sweden",
-    "equipe_2": "Poland",
-    "1X2": {
-      "V1": "1.91",
-      "X": "3.58",
-      "V2": "3.545"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.81",
-      "2 (+1)": "1.36",
-      "1 (0)": "1.41",
-      "2 (0)": "2.62"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/346671946-sweden-poland",
-    "derniere_maj": "2026-09-14T07:00:43.391718+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Moldova",
-    "equipe_2": "Faroe Islands",
-    "1X2": {
-      "V1": "2.3",
-      "X": "3.1",
-      "V2": "3.055"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "1.6",
-      "2 (0)": "2.13"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/347416312-moldova-faroe-islands",
-    "derniere_maj": "2026-09-14T07:00:43.390493+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Finland",
-    "equipe_2": "Belarus",
-    "1X2": {
-      "V1": "1.82",
-      "X": "3.31",
-      "V2": "4.3"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1.5)": "3.67",
-      "2 (+1.5)": "1.22",
-      "1 (-1)": "2.72",
-      "2 (+1)": "1.38",
-      "1 (0)": "1.3",
-      "2 (0)": "3.08"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/347416420-finland-belarus",
-    "derniere_maj": "2026-09-14T07:00:52.320102+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Bulgaria",
-    "equipe_2": "Estonia",
-    "1X2": {
-      "V1": "1.53",
-      "X": "3.72",
-      "V2": "6.19"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1.5)": "2.74",
-      "2 (+1.5)": "1.37",
-      "1 (-1)": "1.99",
-      "2 (+1)": "1.69"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/348630106-bulgaria-estonia",
-    "derniere_maj": "2026-09-14T07:00:44.718848+00:00",
+    "derniere_maj": "2026-09-14T08:11:38.911175+00:00",
     "statut": "ok"
   }
 ]
