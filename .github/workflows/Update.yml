@@ -78,15 +78,21 @@ jobs:
 
           git commit -m "Update odds"
 
-          # Le scraping peut durer longtemps : si quelqu'un a modifié
-          # le dépôt pendant ce temps (ex. edit manuel sur GitHub),
-          # on récupère ces changements avant de pousser, au lieu de
-          # se faire rejeter.
+          # Le scraping peut durer longtemps : si un autre run a déjà
+          # poussé pendant ce temps, on récupère ses changements.
+          # Comme docs/*.json et docs/*/index.html sont entièrement
+          # RÉGÉNÉRÉS à chaque run (pas modifiés ligne à ligne), un
+          # rebase classique échoue sur presque tout conflit — deux
+          # scrapes différents n'ont rien à "fusionner" entre eux.
+          # On utilise donc un merge avec -X ours : en cas de
+          # conflit sur un fichier généré, notre version (la plus
+          # récente, tout juste scrapée) l'emporte systématiquement,
+          # ce qui est exactement le comportement souhaité ici.
           git fetch origin main
 
-          if ! git rebase origin/main; then
-            echo "Conflit lors du rebase, abandon."
-            git rebase --abort
+          if ! git merge -X ours --no-edit origin/main; then
+            echo "Conflit non résolu automatiquement, abandon."
+            git merge --abort
             exit 1
           fi
 
