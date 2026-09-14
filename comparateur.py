@@ -1,4 +1,3 @@
-
 import datetime
 import json
 import re
@@ -164,6 +163,65 @@ def generate_match_pages(matches):
 
     print(
         f"{len(current_slugs)} fiches de match générées"
+    )
+
+    write_sitemap_and_robots(current_slugs)
+
+
+SITE_URL = "https://zicote.site"
+
+
+def write_sitemap_and_robots(slugs):
+    """Génère docs/sitemap.xml (page d'accueil + une entrée par fiche
+    de match) et docs/robots.txt, pour aider Google à découvrir et
+    indexer le site plus vite."""
+
+    today = datetime.date.today().isoformat()
+
+    urls = [
+        f"    <url>\n"
+        f"        <loc>{SITE_URL}/</loc>\n"
+        f"        <lastmod>{today}</lastmod>\n"
+        f"        <changefreq>hourly</changefreq>\n"
+        f"        <priority>1.0</priority>\n"
+        f"    </url>"
+    ]
+
+    for slug in slugs:
+        urls.append(
+            f"    <url>\n"
+            f"        <loc>{SITE_URL}/{slug}/</loc>\n"
+            f"        <lastmod>{today}</lastmod>\n"
+            f"        <changefreq>hourly</changefreq>\n"
+            f"        <priority>0.8</priority>\n"
+            f"    </url>"
+        )
+
+    sitemap = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "\n".join(urls) +
+        "\n</urlset>\n"
+    )
+
+    Path("docs/sitemap.xml").write_text(
+        sitemap,
+        encoding="utf-8"
+    )
+
+    robots = (
+        "User-agent: *\n"
+        "Allow: /\n\n"
+        f"Sitemap: {SITE_URL}/sitemap.xml\n"
+    )
+
+    Path("docs/robots.txt").write_text(
+        robots,
+        encoding="utf-8"
+    )
+
+    print(
+        f"sitemap.xml généré ({len(slugs) + 1} URL) + robots.txt"
     )
 
 
@@ -665,6 +723,5 @@ def build():
 if __name__ == "__main__":
 
     build()
-
 
 
