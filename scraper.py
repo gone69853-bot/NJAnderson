@@ -971,7 +971,7 @@ async def scrape_bookmaker(
 # pas bloquée sur ce site, contrairement aux autres.
 # ============================================================
 
-WIN1_LISTING_URL = "https://1win.com/betting/prematch?platform_type=mobile"
+WIN1_LISTING_URL = "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5"
 WIN1_MAX_TENTATIVES = 300  # jusqu'à 10 min pour que les cartes se chargent
 
 WIN1_MOTIF_COTE = re.compile(r"\d\.\d")
@@ -1152,9 +1152,11 @@ async def scrape_1win(playwright):
         # Laisser l'application Vue.js initialiser les championnats.
         await page.wait_for_timeout(5000)
 
-        # Même logique que pour les autres bookmakers : on ouvre
-        # les sections cachées derrière les boutons "Maximize".
-        await click_maximize_buttons(page, "1win")
+        # Fonction dédiée à 1win : clique sur les boutons "Maximize"
+        # (le chevron "v" à droite de chaque championnat) ET scrolle
+        # jusqu'en bas pour forcer le chargement des championnats
+        # suivants. C'est ce qui débloque le plafond à 13 matchs.
+        await ouvrir_plus_de_matchs_1win(page, max_tours=30)
 
         cartes = []
 
