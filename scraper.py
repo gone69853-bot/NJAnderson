@@ -972,13 +972,13 @@ async def scrape_bookmaker(
 # ============================================================
 
 WIN1_LISTING_URLS = [
-    "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
+    "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
     "https://1win.com/fr-CI/betting/prematch/football-18/"
-    "uefa-champions-league-39437?p=mvh5",
+    "uefa-champions-league-39437?p=mvh5&platform_type=mobile",
     "https://1win.com/fr-CI/betting/prematch/football-18/"
-    "league-cup-983?p=mvh5",
+    "league-cup-983?p=mvh5&platform_type=mobile",
     "https://1win.com/fr-CI/betting/prematch/football-18/"
-    "premier-league-919?p=mvh5",
+    "premier-league-919?p=mvh5&platform_type=mobile",
 ]
 WIN1_MAX_TENTATIVES = 300  # jusqu'à 10 min pour que les cartes se chargent
 
@@ -986,7 +986,10 @@ WIN1_MOTIF_COTE = re.compile(r"\d\.\d")
 
 
 async def extraire_cartes_1win(page):
-
+    """Extrait les cartes 1win sans dépendre d'un libellé de marché
+    précis. 1win change régulièrement les textes/classes des marchés.
+    On conserve le texte complet de la carte et les blocs de cotes pour
+    permettre au parser de reconnaître plusieurs variantes."""
     return await page.evaluate(
         """
         () => {
@@ -995,9 +998,16 @@ async def extraire_cartes_1win(page):
             cartes.forEach(carte => {
                 const teamsEl = carte.querySelector('[data-scope="TeamNames"]');
                 const oddsEl = carte.querySelector('[data-qa="matchCardBaseOdds"]');
+                const oddsNodes = [...carte.querySelectorAll(
+                    '[data-qa*="Odds"], [data-qa*="odd"], [class*="odd" i]'
+                )];
+                const oddsTexts = oddsNodes.map(e => (e.innerText || '').trim()).filter(Boolean);
                 resultat.push({
-                    teamsText: teamsEl ? teamsEl.innerText : "",
-                    oddsText: oddsEl ? oddsEl.innerText : ""
+                    teamsText: teamsEl ? teamsEl.innerText : '',
+                    oddsText: oddsEl ? oddsEl.innerText : '',
+                    cardText: carte.innerText || '',
+                    oddsTexts: oddsTexts,
+                    html: carte.innerHTML || ''
                 });
             });
             return resultat;
@@ -1006,72 +1016,141 @@ async def extraire_cartes_1win(page):
     )
 
 
-def parser_carte_1win(carte, url_source):
+def _normaliser_cote(valeur):
+    """Retourne une cote décimale plausible sous forme de chaîne."""
+    if valeur is None:
+        return None
+    valeur = str(valeur).strip().replace(',', '.')
+    m = re.fullmatch(r'(?:[1-9]\d?|0)\.\d{1,3}', valeur)
+    if not m:
+        return None
+    try:
+        n = float(valeur)
+        if 1.01 <= n <= 1000:
+            return valeur
+    except ValueError:
+        pass
+    return None
 
+
+def _extraire_cotes_texte(texte):
+    """Extrait les nombres qui ressemblent à des cotes, en évitant
+    les dates, scores et nombres entiers de l'interface."""
+    if not texte:
+        return []
+    valeurs = []
+    for m in re.finditer(r'(?<!\d)(\d{1,3}[\.,]\d{1,3})(?!\d)', texte):
+        cote = _normaliser_cote(m.group(1))
+        if cote and cote not in valeurs:
+            valeurs.append(cote)
+    return valeurs
+
+
+def parser_carte_1win(carte, url_source):
+    """Parser tolérant au nouveau rendu 1win.
+
+    Ancienne version : exigeait littéralement "Full Time Result" puis
+    les lignes 1/X/2. Nouveau rendu : le marché peut être traduit,
+    abrégé, ou ne plus exposer ce titre dans matchCardBaseOdds.
+    On essaie donc d'abord les libellés 1/X/2, puis les trois premières
+    cotes plausibles du bloc principal.
+    """
     lignes_equipes = [
-        l.strip() for l in carte["teamsText"].split("\n") if l.strip()
+        l.strip() for l in carte.get("teamsText", "").split("\n") if l.strip()
     ]
+
+    # Repli : certaines variantes n'alimentent plus TeamNames.
+    if len(lignes_equipes) < 2:
+        lignes_equipes = [
+            l.strip() for l in carte.get("cardText", "").split("\n") if l.strip()
+        ]
 
     if len(lignes_equipes) < 2:
         return None
 
     equipe_1, equipe_2 = lignes_equipes[0], lignes_equipes[1]
 
-    lignes_cotes = [
-        l.strip() for l in carte["oddsText"].split("\n") if l.strip()
-    ]
+    textes_cotes = []
+    for cle in ("oddsText", "cardText"):
+        if carte.get(cle):
+            textes_cotes.append(carte[cle])
+    textes_cotes.extend(carte.get("oddsTexts", []))
 
-    resultat_1x2 = {}
-
-    try:
-
-        i = next(
-            idx for idx, l in enumerate(lignes_cotes)
-            if "full time result" in l.lower()
+    lignes_cotes = []
+    for texte in textes_cotes:
+        lignes_cotes.extend(
+            l.strip() for l in texte.split("\n") if l.strip()
         )
 
-        correspondance = {"1": "V1", "x": "X", "2": "V2"}
-        pos = i + 1
+    resultat_1x2 = {}
+    correspondance = {"1": "V1", "x": "X", "2": "V2",
+                      "home": "V1", "draw": "X", "away": "V2",
+                      "n": "X", "nul": "X", "match nul": "X"}
 
-        while pos + 1 < len(lignes_cotes):
+    # 1) Cherche des couples label -> cote, avec ou sans titre de marché.
+    for i, label_brut in enumerate(lignes_cotes):
+        label = label_brut.strip().lower().rstrip('.')
+        if label in correspondance and i + 1 < len(lignes_cotes):
+            cote = _normaliser_cote(lignes_cotes[i + 1])
+            if cote:
+                resultat_1x2[correspondance[label]] = cote
 
-            label = lignes_cotes[pos].strip().lower()
-            valeur = lignes_cotes[pos + 1].strip()
-
-            if label in correspondance:
-                resultat_1x2[correspondance[label]] = valeur
-                pos += 2
-            else:
+    # 2) Cherche spécifiquement autour de "Full Time Result" et variantes.
+    if len(resultat_1x2) < 2:
+        texte_global = "\n".join(lignes_cotes)
+        motifs_marche = [
+            r'full\s*time\s*result', r'1x2', r'3\s*way',
+            r'resultat\s*final', r'resultat\s*du\s*match',
+            r'issue\s*du\s*match', r'ganador\s*del\s*partido'
+        ]
+        for motif in motifs_marche:
+            m = re.search(motif, texte_global, re.I)
+            if not m:
+                continue
+            apres = texte_global[m.end():m.end() + 700]
+            labels = re.findall(r'(?i)(?:^|\n)\s*(1|x|2)\s*(?:\n|\s)', apres)
+            cotes = _extraire_cotes_texte(apres)
+            for label, cote in zip(labels, cotes):
+                resultat_1x2[correspondance[label.lower()]] = cote
+            if resultat_1x2:
                 break
 
-    except StopIteration:
-        pass
+    # 3) Dernier repli : dans le bloc de base 1win, les 3 premières cotes
+    # décimales sont généralement le triplet 1/X/2 quand les libellés
+    # sont rendus uniquement sous forme de boutons.
+    if len(resultat_1x2) < 3:
+        bloc = carte.get("oddsText", "") or ""
+        cotes = _extraire_cotes_texte(bloc)
+        if len(cotes) >= 3:
+            resultat_1x2.setdefault("V1", cotes[0])
+            resultat_1x2.setdefault("X", cotes[1])
+            resultat_1x2.setdefault("V2", cotes[2])
 
     if not resultat_1x2:
         return None
 
+    # Total 2.5 : on ne l'invente jamais. On le récupère seulement si
+    # des libellés over/under (ou plus/moins) sont présents dans la carte.
+    total_25 = {"Plus de": None, "Moins de": None}
+    texte_total = "\n".join(textes_cotes)
+    lignes_total = [l.strip() for l in texte_total.split("\n") if l.strip()]
+    for i, ligne in enumerate(lignes_total):
+        low = ligne.lower().replace(',', '.')
+        if re.search(r'(plus|over|o)\s*(?:de|than)?\s*2[\.]?5', low):
+            if i + 1 < len(lignes_total):
+                total_25["Plus de"] = _normaliser_cote(lignes_total[i + 1]) or total_25["Plus de"]
+        if re.search(r'(moins|under|u)\s*(?:de|than)?\s*2[\.]?5', low):
+            if i + 1 < len(lignes_total):
+                total_25["Moins de"] = _normaliser_cote(lignes_total[i + 1]) or total_25["Moins de"]
+
     return {
-
         "bookmaker": "1win",
-
         "equipe_1": equipe_1,
-
         "equipe_2": equipe_2,
-
         "1X2": resultat_1x2,
-
-        "Total_2.5": {
-            "Plus de": None,
-            "Moins de": None,
-        },
-
+        "Total_2.5": total_25,
         "url": url_source,
-
-        "derniere_maj":
-            datetime.datetime.now(
-                datetime.timezone.utc
-            ).isoformat(),
-
+        "derniere_maj": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "statut": "ok",
     }
 
@@ -1201,11 +1280,13 @@ async def scrape_1win(playwright):
 
                     await page.wait_for_timeout(2000)
 
+                rejetes = 0
                 for carte in cartes:
 
                     parsed = parser_carte_1win(carte, url)
 
                     if not parsed:
+                        rejetes += 1
                         continue
 
                     cle = (parsed["equipe_1"], parsed["equipe_2"])
@@ -1218,6 +1299,9 @@ async def scrape_1win(playwright):
 
                     equipes_vues.add(cle)
                     result.append(parsed)
+
+                if rejetes:
+                    print(f"[1win] {url} : {rejetes} carte(s) rejetée(s) par le parser")
 
             except Exception as error:
 
@@ -1334,7 +1418,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
 
 
 
