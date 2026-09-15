@@ -4,40 +4,67 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<title>__TITLE__</title>
-<meta name="description" content="__DESCRIPTION__">
+<title>Zicote — Comparateur de cotes football</title>
 
-<link rel="icon" href="/favicon.ico">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="description"
+      content="Comparez les meilleures cotes football disponibles chez plusieurs bookmakers.">
+
+<meta name="robots" content="index,follow">
+
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 <style>
+
+/* ============================================================
+   VARIABLES
+============================================================ */
+
 :root{
     --bg:#f4f7f5;
     --card:#ffffff;
     --dark:#071b12;
+    --dark2:#0c2d1c;
+
     --green:#16a34a;
     --green-dark:#08752f;
+
     --yellow:#facc15;
     --yellow-dark:#a16207;
-    --text:#172019;
+
+    --text:#162019;
     --muted:#718078;
+
     --border:#e2e8e4;
-    --shadow:0 10px 30px rgba(0,0,0,.07);
+
+    --shadow:
+        0 10px 30px rgba(0,0,0,.07);
+
+    --shadow-hover:
+        0 16px 35px rgba(0,0,0,.11);
 }
+
+
+/* ============================================================
+   RESET
+============================================================ */
 
 *{
     box-sizing:border-box;
 }
 
 html{
-    -webkit-text-size-adjust:100%;
     scroll-behavior:smooth;
+    -webkit-text-size-adjust:100%;
 }
 
 body{
     margin:0;
+
     background:var(--bg);
+
     color:var(--text);
+
     font-family:
         Inter,
         system-ui,
@@ -47,437 +74,1354 @@ body{
         sans-serif;
 }
 
+button,
+input{
+    font:inherit;
+}
+
 a{
     color:inherit;
 }
 
-button{
-    font:inherit;
-}
 
-.topbar{
+/* ============================================================
+   HEADER
+============================================================ */
+
+.hero{
+
+    position:relative;
+
+    overflow:hidden;
+
+    color:white;
+
     background:
+
         radial-gradient(
             circle at 100% 0%,
-            rgba(250,204,21,.18),
+            rgba(250,204,21,.22),
+            transparent 32%
+        ),
+
+        radial-gradient(
+            circle at 0% 100%,
+            rgba(22,163,74,.22),
             transparent 35%
         ),
+
         linear-gradient(
             135deg,
-            #061a10,
-            #0a3522 55%,
-            #12613a
+            #06170e,
+            #0a3420 55%,
+            #12623a
         );
-    color:white;
 }
 
-.topbar-inner{
-    width:min(900px,100%);
+
+.hero:after{
+
+    content:"";
+
+    position:absolute;
+
+    width:520px;
+    height:520px;
+
+    right:-180px;
+    top:-280px;
+
+    border-radius:50%;
+
+    background:
+        rgba(250,204,21,.09);
+
+}
+
+
+.hero-inner{
+
+    position:relative;
+
+    z-index:2;
+
+    width:min(1050px,100%);
+
     margin:auto;
-    padding:14px 16px 26px;
+
+    padding:
+        28px 16px
+        35px;
+
 }
 
-.back{
-    display:inline-flex;
+
+.brand{
+
+    display:flex;
+
     align-items:center;
-    gap:7px;
-    color:#cde1d5;
-    text-decoration:none;
+
+    justify-content:space-between;
+
+    gap:15px;
+
+    margin-bottom:45px;
+
+}
+
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-size:23px;
+
+    font-weight:950;
+
+    letter-spacing:-.04em;
+
+}
+
+
+.logo-mark{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    width:39px;
+    height:39px;
+
+    border-radius:12px;
+
+    background:var(--yellow);
+
+    color:#263000;
+
+    font-weight:950;
+
+    box-shadow:
+        0 8px 20px
+        rgba(0,0,0,.2);
+}
+
+
+.hero-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    padding:7px 10px;
+
+    border:
+        1px solid
+        rgba(255,255,255,.16);
+
+    border-radius:999px;
+
+    color:#d9e9df;
+
+    background:
+        rgba(255,255,255,.05);
+
+    font-size:10px;
+
+    font-weight:850;
+
+}
+
+
+.hero h1{
+
+    max-width:760px;
+
+    margin:0;
+
+    font-size:
+        clamp(
+            30px,
+            7vw,
+            58px
+        );
+
+    line-height:1.02;
+
+    letter-spacing:-.055em;
+
+    font-weight:950;
+}
+
+
+.hero h1 span{
+
+    color:var(--yellow);
+
+}
+
+
+.hero-text{
+
+    max-width:650px;
+
+    margin:
+        18px 0 0;
+
+    color:#c9dbd0;
+
+    font-size:
+        clamp(13px,2vw,16px);
+
+    line-height:1.6;
+}
+
+
+/* ============================================================
+   STATS
+============================================================ */
+
+.stats{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap:10px;
+
+    margin-top:28px;
+
+    max-width:680px;
+
+}
+
+
+.stat{
+
+    padding:12px;
+
+    border:
+        1px solid
+        rgba(255,255,255,.11);
+
+    border-radius:13px;
+
+    background:
+        rgba(255,255,255,.055);
+}
+
+
+.stat strong{
+
+    display:block;
+
+    font-size:19px;
+
+    font-weight:950;
+
+}
+
+
+.stat span{
+
+    display:block;
+
+    margin-top:3px;
+
+    color:#a9c0b3;
+
+    font-size:9px;
+
+    font-weight:750;
+
+}
+
+
+/* ============================================================
+   MAIN
+============================================================ */
+
+main{
+
+    width:min(1050px,100%);
+
+    margin:auto;
+
+    padding:
+        22px 14px
+        80px;
+
+}
+
+
+/* ============================================================
+   CONTROLS
+============================================================ */
+
+.controls{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-bottom:18px;
+
+}
+
+
+.search{
+
+    flex:1;
+
+    min-width:0;
+
+    padding:
+        13px 15px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius:13px;
+
+    outline:none;
+
+    background:white;
+
+    color:var(--text);
+
+    box-shadow:
+        0 5px 18px
+        rgba(0,0,0,.04);
+
     font-size:13px;
-    font-weight:800;
-    margin-bottom:25px;
+
 }
 
-.back:hover{
+
+.search:focus{
+
+    border-color:
+        var(--green);
+
+    box-shadow:
+        0 0 0 3px
+        rgba(22,163,74,.10);
+
+}
+
+
+.count{
+
+    flex:none;
+
+    padding:
+        10px 12px;
+
+    border-radius:10px;
+
+    background:#e9f5ed;
+
+    color:var(--green-dark);
+
+    font-size:10px;
+
+    font-weight:900;
+
+}
+
+
+/* ============================================================
+   INFO
+============================================================ */
+
+.info{
+
+    margin-bottom:17px;
+
+    padding:
+        12px 14px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius:13px;
+
+    background:white;
+
+    color:var(--muted);
+
+    font-size:10px;
+
+    line-height:1.55;
+
+}
+
+
+.info strong{
+
+    color:var(--text);
+
+}
+
+
+/* ============================================================
+   MATCH GRID
+============================================================ */
+
+.matches{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fill,
+            minmax(
+                300px,
+                1fr
+            )
+        );
+
+    gap:15px;
+
+}
+
+
+/* ============================================================
+   MATCH CARD
+============================================================ */
+
+.match{
+
+    overflow:hidden;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius:18px;
+
+    background:
+        var(--card);
+
+    box-shadow:
+        var(--shadow);
+
+    transition:
+        transform .18s ease,
+        box-shadow .18s ease;
+
+}
+
+
+.match:hover{
+
+    transform:
+        translateY(-2px);
+
+    box-shadow:
+        var(--shadow-hover);
+
+}
+
+
+/* ============================================================
+   MATCH TOP
+============================================================ */
+
+.match-top{
+
+    padding:
+        15px 15px 13px;
+
     color:white;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--dark),
+            var(--dark2)
+        );
+
 }
 
-.match-header{
-    text-align:center;
+
+.match-meta{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:8px;
+
+    margin-bottom:13px;
+
 }
+
+
+.match-meta span{
+
+    color:#9db5a7;
+
+    font-size:9px;
+
+    font-weight:800;
+
+}
+
+
+.match-link{
+
+    color:#b9d6c5;
+
+    text-decoration:none;
+
+    font-size:9px;
+
+    font-weight:900;
+
+}
+
+
+.match-link:hover{
+
+    color:white;
+
+}
+
 
 .teams{
-    display:flex;
+
+    display:grid;
+
+    grid-template-columns:
+        1fr
+        auto
+        1fr;
+
     align-items:center;
-    justify-content:center;
-    gap:14px;
-    flex-wrap:wrap;
+
+    gap:10px;
+
 }
+
 
 .team{
-    max-width:42%;
-    font-size:clamp(21px,5vw,34px);
-    line-height:1.1;
-    font-weight:900;
+
+    font-size:15px;
+
+    line-height:1.2;
+
+    font-weight:950;
+
 }
+
+
+.team:last-child{
+
+    text-align:right;
+
+}
+
 
 .vs{
-    padding:7px 12px;
-    border:1px solid rgba(255,255,255,.2);
-    border-radius:999px;
-    color:#d7e7dc;
-    font-size:12px;
-    font-weight:900;
-}
 
-.spotlight{
-    margin-top:22px;
-}
-
-.spotlight-card{
     display:flex;
+
     align-items:center;
-    justify-content:space-between;
-    gap:14px;
-    padding:15px;
-    border-radius:17px;
-    background:linear-gradient(135deg,#fff9d9,#facc15);
-    color:#382d00;
-    box-shadow:0 12px 28px rgba(0,0,0,.22);
-    text-align:left;
-}
 
-.spotlight-label{
-    display:block;
-    font-size:10px;
-    text-transform:uppercase;
-    letter-spacing:.06em;
-    font-weight:900;
-    opacity:.7;
-}
+    justify-content:center;
 
-.spotlight-market{
-    margin-top:3px;
-    font-size:14px;
-    font-weight:900;
-}
+    width:35px;
+    height:35px;
 
-.spotlight-right{
-    text-align:right;
-}
+    border:
+        1px solid
+        rgba(255,255,255,.15);
 
-.spotlight-odd{
-    display:block;
-    font-size:27px;
-    line-height:1;
+    border-radius:50%;
+
+    color:#b9d1c3;
+
+    font-size:9px;
+
     font-weight:950;
-    font-variant-numeric:tabular-nums;
+
 }
 
-.spotlight-book{
+
+/* ============================================================
+   BEST OVERALL
+============================================================ */
+
+.best-overall{
+
+    margin:
+        12px 15px 0;
+
+    padding:11px;
+
+    border-radius:12px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fff8c9,
+            #facc15
+        );
+
+    color:#3b3000;
+
+}
+
+
+.best-overall-label{
+
     display:block;
-    margin-top:4px;
-    font-size:10px;
-    font-weight:800;
-    opacity:.7;
+
+    margin-bottom:3px;
+
+    text-transform:uppercase;
+
+    letter-spacing:.04em;
+
+    font-size:8px;
+
+    font-weight:950;
+
+    opacity:.65;
+
 }
 
-.main{
-    width:min(900px,100%);
-    margin:auto;
-    padding:18px 14px 70px;
+
+.best-overall-main{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:10px;
+
 }
 
-.notice{
-    margin:0 0 15px;
-    padding:12px 14px;
-    background:#fff;
-    border:1px solid var(--border);
-    border-radius:14px;
-    color:var(--muted);
+
+.best-overall-name{
+
     font-size:11px;
-    line-height:1.5;
+
+    font-weight:900;
+
 }
+
+
+.best-overall-odd{
+
+    font-size:21px;
+
+    line-height:1;
+
+    font-weight:950;
+
+}
+
+
+/* ============================================================
+   MARKETS
+============================================================ */
+
+.markets{
+
+    padding:13px 15px 15px;
+
+}
+
 
 .market{
-    margin-bottom:16px;
-    padding:15px;
-    background:var(--card);
-    border:1px solid var(--border);
-    border-radius:17px;
-    box-shadow:var(--shadow);
+
+    padding:
+        11px 0;
+
+    border-bottom:
+        1px solid
+        var(--border);
+
 }
+
+
+.market:last-child{
+
+    border-bottom:0;
+
+}
+
 
 .market-title{
+
     display:flex;
+
     align-items:center;
+
     justify-content:space-between;
-    gap:10px;
-    margin:0 0 12px;
-    font-size:14px;
-    font-weight:900;
+
+    gap:8px;
+
+    margin-bottom:8px;
+
+    font-size:10px;
+
+    font-weight:950;
+
 }
+
 
 .market-title span{
-    display:inline-flex;
+
+    display:flex;
+
     align-items:center;
-    gap:7px;
+
+    gap:6px;
+
 }
+
 
 .market-title span:before{
+
     content:"";
-    width:7px;
-    height:7px;
+
+    width:6px;
+    height:6px;
+
     border-radius:50%;
-    background:var(--green);
+
+    background:
+        var(--green);
+
 }
 
-.table-wrap{
-    width:100%;
-    overflow-x:auto;
-    border:1px solid var(--border);
-    border-radius:12px;
-}
 
-table{
-    width:100%;
-    min-width:520px;
-    border-collapse:collapse;
-}
+.best-tag{
 
-th,
-td{
-    padding:9px 7px;
-    border-bottom:1px solid var(--border);
-    text-align:center;
-    white-space:nowrap;
-}
+    color:
+        var(--yellow-dark);
 
-tr:last-child th,
-tr:last-child td{
-    border-bottom:0;
-}
-
-thead th{
-    background:#f7faf8;
-    color:#69776f;
-    font-size:10px;
-    font-weight:900;
-}
-
-tbody th{
-    position:sticky;
-    left:0;
-    z-index:2;
-    min-width:80px;
-    background:#f7faf8;
-    color:#354139;
-    font-size:11px;
-    text-align:left;
-}
-
-.bookmaker-name{
-    text-decoration:none;
-    font-size:10px;
-    font-weight:900;
-}
-
-.odds-cell{
-    min-width:78px;
-    font-size:13px;
-    font-weight:850;
-    font-variant-numeric:tabular-nums;
-}
-
-.odds-link{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    min-height:37px;
-    padding:5px;
-    border-radius:8px;
-    text-decoration:none;
-}
-
-.odds-link:hover{
-    background:#eef7f1;
-}
-
-.best{
-    background:#fff4bd;
-    box-shadow:inset 0 0 0 2px #eab308;
-}
-
-.best .odds-link{
-    color:#513d00;
-}
-
-.best-label{
-    display:block;
-    margin-top:2px;
-    color:#9a6900;
     font-size:7px;
-    line-height:1;
+
     font-weight:950;
+
 }
 
-.market-actions{
-    margin-top:12px;
-}
 
-.market-actions-title{
-    margin-bottom:8px;
-    color:#65746b;
-    font-size:10px;
-    font-weight:850;
-}
+.odds-grid{
 
-.best-buttons{
-    display:flex;
-    flex-wrap:wrap;
-    gap:7px;
-}
+    display:grid;
 
-.best-button{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(
+                125px,
+                1fr
+            )
+        );
+
     gap:6px;
-    min-height:40px;
-    padding:8px 11px;
-    border-radius:10px;
-    background:linear-gradient(135deg,#16a34a,#08752f);
-    color:white;
-    text-decoration:none;
-    font-size:10px;
-    font-weight:900;
-    box-shadow:0 5px 13px rgba(8,117,47,.2);
+
 }
 
-.best-button:hover{
-    transform:translateY(-1px);
-}
 
-.best-button .odd{
-    font-family:
-        ui-monospace,
-        SFMono-Regular,
-        Menlo,
-        monospace;
-    font-size:13px;
-}
+/* ============================================================
+   AFFILIATE BUTTON
+============================================================ */
 
-.best-button .arrow{
-    opacity:.8;
-}
+.odd-button{
 
-.no-link{
-    color:#a0aaa4;
-}
+    position:relative;
 
-.footer{
-    width:min(900px,100%);
-    margin:auto;
-    padding:0 16px 40px;
-    color:#87938c;
-    font-size:11px;
-    line-height:1.55;
-    text-align:center;
-}
-
-.share{
-    position:fixed;
-    right:15px;
-    bottom:15px;
-    z-index:20;
     display:flex;
+
     align-items:center;
+
+    justify-content:space-between;
+
     gap:7px;
-    min-height:48px;
-    padding:0 18px;
-    border:0;
-    border-radius:999px;
-    background:#111827;
-    color:white;
-    font-size:13px;
-    font-weight:900;
-    box-shadow:0 10px 25px rgba(0,0,0,.25);
-    cursor:pointer;
+
+    min-width:0;
+
+    padding:
+        9px 9px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius:10px;
+
+    background:#fafcfb;
+
+    color:var(--text);
+
+    text-decoration:none;
+
+    transition:
+        transform .12s ease,
+        border-color .12s ease,
+        background .12s ease;
+
 }
 
-@media(max-width:560px){
 
-    .topbar-inner{
-        padding:13px 13px 22px;
+.odd-button:hover{
+
+    transform:
+        translateY(-1px);
+
+    border-color:
+        #b9d8c2;
+
+    background:#f2faf4;
+
+}
+
+
+.odd-button.best{
+
+    border:
+        1px solid
+        #eab308;
+
+    background:
+        #fff8cf;
+
+}
+
+
+.odd-left{
+
+    min-width:0;
+
+}
+
+
+.odd-selection{
+
+    display:block;
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
+
+    white-space:nowrap;
+
+    font-size:9px;
+
+    font-weight:950;
+
+}
+
+
+.odd-book{
+
+    display:block;
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
+
+    white-space:nowrap;
+
+    margin-top:2px;
+
+    color:var(--muted);
+
+    font-size:7px;
+
+    font-weight:750;
+
+}
+
+
+.odd-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:5px;
+
+}
+
+
+.odd-value{
+
+    font-size:15px;
+
+    font-weight:950;
+
+    font-variant-numeric:
+        tabular-nums;
+
+}
+
+
+.arrow{
+
+    color:
+        var(--green-dark);
+
+    font-size:10px;
+
+    font-weight:950;
+
+}
+
+
+/* ============================================================
+   BEST MARKET CTA
+============================================================ */
+
+.market-best{
+
+    margin-top:7px;
+
+}
+
+
+.best-cta{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:8px;
+
+    width:100%;
+
+    min-height:36px;
+
+    padding:
+        8px 10px;
+
+    border-radius:9px;
+
+    background:
+        var(--green);
+
+    color:white;
+
+    text-decoration:none;
+
+    box-shadow:
+        0 4px 12px
+        rgba(8,117,47,.15);
+
+}
+
+
+.best-cta:hover{
+
+    background:
+        var(--green-dark);
+
+}
+
+
+.best-cta-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:7px;
+
+    min-width:0;
+
+}
+
+
+.best-cta-label{
+
+    font-size:8px;
+
+    font-weight:900;
+
+    opacity:.8;
+
+}
+
+
+.best-cta-book{
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
+
+    white-space:nowrap;
+
+    font-size:10px;
+
+    font-weight:950;
+
+}
+
+
+.best-cta-odd{
+
+    flex:none;
+
+    font-size:13px;
+
+    font-weight:950;
+
+    font-variant-numeric:
+        tabular-nums;
+
+}
+
+
+/* ============================================================
+   FOOTER
+============================================================ */
+
+footer{
+
+    padding:
+        28px 16px
+        50px;
+
+    border-top:
+        1px solid
+        var(--border);
+
+    color:var(--muted);
+
+    text-align:center;
+
+    font-size:10px;
+
+    line-height:1.6;
+
+}
+
+
+footer strong{
+
+    color:var(--text);
+
+}
+
+
+/* ============================================================
+   LOADING
+============================================================ */
+
+.loading{
+
+    padding:
+        45px 15px;
+
+    text-align:center;
+
+    color:var(--muted);
+
+    font-size:12px;
+
+}
+
+
+.spinner{
+
+    width:28px;
+    height:28px;
+
+    margin:
+        0 auto 12px;
+
+    border:
+        3px solid
+        #dce8df;
+
+    border-top-color:
+        var(--green);
+
+    border-radius:50%;
+
+    animation:
+        spin .8s linear infinite;
+
+}
+
+
+@keyframes spin{
+
+    to{
+        transform:rotate(360deg);
     }
+
+}
+
+
+/* ============================================================
+   EMPTY
+============================================================ */
+
+.empty{
+
+    padding:
+        45px 15px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius:16px;
+
+    background:white;
+
+    color:var(--muted);
+
+    text-align:center;
+
+    font-size:12px;
+
+}
+
+
+/* ============================================================
+   MOBILE
+============================================================ */
+
+@media(max-width:650px){
+
+    .hero-inner{
+
+        padding:
+            22px 13px
+            27px;
+
+    }
+
+
+    .brand{
+
+        margin-bottom:35px;
+
+    }
+
+
+    .hero-badge{
+
+        display:none;
+
+    }
+
+
+    .stats{
+
+        gap:7px;
+
+    }
+
+
+    .stat{
+
+        padding:10px 8px;
+
+    }
+
+
+    .stat strong{
+
+        font-size:16px;
+
+    }
+
+
+    main{
+
+        padding:
+            15px 10px
+            70px;
+
+    }
+
+
+    .controls{
+
+        align-items:stretch;
+
+    }
+
+
+    .count{
+
+        display:flex;
+
+        align-items:center;
+
+    }
+
+
+    .matches{
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .odds-grid{
+
+        grid-template-columns:
+            1fr
+            1fr;
+
+    }
+
+
+    .odd-button{
+
+        padding:9px 8px;
+
+    }
+
+
+    .best-overall{
+
+        margin-left:10px;
+        margin-right:10px;
+
+    }
+
+}
+
+
+/* ============================================================
+   TRÈS PETITS ÉCRANS
+============================================================ */
+
+@media(max-width:360px){
+
+    .odds-grid{
+
+        grid-template-columns:
+            1fr;
+
+    }
+
 
     .team{
-        max-width:39%;
-        font-size:21px;
+
+        font-size:14px;
+
     }
 
-    .spotlight-card{
-        padding:12px;
-    }
-
-    .spotlight-market{
-        font-size:12px;
-    }
-
-    .spotlight-odd{
-        font-size:24px;
-    }
-
-    .main{
-        padding:14px 10px 65px;
-    }
-
-    .market{
-        padding:12px;
-        border-radius:14px;
-    }
-
-    .best-buttons{
-        display:grid;
-        grid-template-columns:1fr 1fr;
-    }
-
-    .best-button{
-        width:100%;
-    }
 }
+
 </style>
 </head>
 
+
 <body>
 
-<header class="topbar">
 
-    <div class="topbar-inner">
+<!-- ==========================================================
+     HERO
+=========================================================== -->
 
-        <a class="back" href="../">
-            ← Zicote — tous les matchs
-        </a>
+<header class="hero">
 
-        <div class="match-header">
+    <div class="hero-inner">
 
-            <div class="teams">
+        <div class="brand">
 
-                <div
-                    class="team"
-                    id="team1"
-                >
-                    —
+            <div class="logo">
+
+                <div class="logo-mark">
+                    Z
                 </div>
 
-                <div class="vs">
-                    VS
-                </div>
-
-                <div
-                    class="team"
-                    id="team2"
-                >
-                    —
-                </div>
+                Zicote
 
             </div>
 
-            <div
-                class="spotlight"
-                id="spotlight"
-            >
+            <div class="hero-badge">
+                COMPARATEUR DE COTES
+            </div>
+
+        </div>
+
+
+        <h1>
+            Trouvez la
+            <span>meilleure cote</span>
+            pour chaque pari.
+        </h1>
+
+
+        <p class="hero-text">
+
+            Comparez les cotes disponibles chez plusieurs
+            bookmakers et accédez directement à l'offre
+            du bookmaker qui propose la meilleure cote.
+
+        </p>
+
+
+        <div class="stats">
+
+            <div class="stat">
+
+                <strong id="matchCount">
+                    —
+                </strong>
+
+                <span>
+                    MATCHS
+                </span>
+
+            </div>
+
+
+            <div class="stat">
+
+                <strong id="bookmakerCount">
+                    —
+                </strong>
+
+                <span>
+                    BOOKMAKERS
+                </span>
+
+            </div>
+
+
+            <div class="stat">
+
+                <strong>
+                    24/7
+                </strong>
+
+                <span>
+                    COMPARAISON
+                </span>
+
             </div>
 
         </div>
@@ -487,288 +1431,198 @@ tbody th{
 </header>
 
 
-<main class="main">
+<!-- ==========================================================
+     MAIN
+=========================================================== -->
 
-    <div class="notice">
+<main>
 
-        <strong>Zicote</strong>
-        compare les cotes disponibles chez plusieurs bookmakers.
 
-        Pour chaque pari, la meilleure cote est mise en évidence.
-        Appuie sur une cote ou sur le bouton du bookmaker pour
-        accéder directement à son offre.
+    <div class="controls">
+
+        <input
+            id="search"
+            class="search"
+            type="search"
+            placeholder="Rechercher une équipe..."
+            autocomplete="off"
+        >
+
+        <div
+            id="visibleCount"
+            class="count"
+        >
+            —
+        </div>
 
     </div>
 
-    <div id="markets"></div>
+
+    <div class="info">
+
+        <strong>
+            Comment ça fonctionne ?
+        </strong>
+
+        Chaque cote affichée peut être comparée.
+        La meilleure cote de chaque pari est mise en évidence.
+        Les boutons verts permettent d'accéder directement
+        au bookmaker proposant cette cote.
+
+    </div>
+
+
+    <div
+        id="content"
+        class="matches"
+    >
+
+        <div class="loading">
+
+            <div class="spinner"></div>
+
+            Chargement des cotes...
+
+        </div>
+
+    </div>
+
 
 </main>
 
 
-<footer class="footer">
+<!-- ==========================================================
+     FOOTER
+=========================================================== -->
 
-    <p>
-        Les cotes affichées sont publiques et peuvent changer
-        à tout moment. Vérifie toujours la cote finale et les
-        conditions du bookmaker avant toute décision.
-    </p>
+<footer>
+
+    <strong>Zicote</strong>
+    compare les cotes publiques disponibles chez les
+    bookmakers affichés.
+
+    <br>
+
+    Les cotes peuvent changer à tout moment.
+    Vérifiez toujours la cote finale et les conditions
+    applicables chez le bookmaker avant toute décision.
 
 </footer>
 
 
-<button
-    class="share"
-    id="shareButton"
-    type="button"
->
-    ↗ Partager
-</button>
-
-
-<!--
-    IMPORTANT :
-
-    NE PAS SUPPRIMER __MATCH_JSON__
-
-    comparateur.py remplace automatiquement cette valeur
-    lorsqu'il génère chaque fiche de match.
--->
-<script id="match-data" type="application/json">__MATCH_JSON__</script>
-
-
 <script>
 
-"use strict";
-
-
-/* =========================================================
-   BOOKMAKERS
-   ========================================================= */
+/* ============================================================
+   CONFIGURATION DES BOOKMAKERS
+============================================================ */
 
 const BOOKMAKERS = {
 
     betwinner: {
         name: "Betwinner",
-        url: "https://bw-prm.com/wc-2026-200-lite/?s1=Zicote.site&p=%2Fregistration%2F&id=38NP"
+        url:
+        "https://bw-prm.com/wc-2026-200-lite/?s1=Zicote.site&p=%2Fregistration%2F&id=38NP"
     },
+
 
     melbet: {
         name: "MelBet",
-        url: "https://refpa3665.com/L?tag=d_6076923m_66329c_&site=6076923&ad=66329"
+        url:
+        "https://refpa3665.com/L?tag=d_6076923m_66329c_&site=6076923&ad=66329"
     },
+
 
     megapari: {
         name: "MegaPari",
         url: null
     },
 
+
     "1win": {
         name: "1win",
-        url: "https://1win.com/?open=register&p=mvh5"
+        url:
+        "https://1win.com/?open=register&p=mvh5"
     },
+
 
     winwin: {
         name: "WinWin",
-        url: "https://refpa49781.com/L?tag=d_6076846m_94904c_&site=6076846&ad=94904"
+        url:
+        "https://refpa49781.com/L?tag=d_6076846m_94904c_&site=6076846&ad=94904"
     },
+
 
     "1xbet": {
         name: "1xBet",
-        url: "https://reffpa.com/L?tag=d_6076956m_1599c_&site=6076956&ad=1599"
+        url:
+        "https://reffpa.com/L?tag=d_6076956m_1599c_&site=6076956&ad=1599"
     },
+
 
     paripesa: {
         name: "Paripesa",
         url: null
     },
 
+
     "africa-bizbet": {
         name: "Africa BizBet",
-        url: "https://refpa83754.com/L?tag=d_6081525m_88974c_&site=6081525&ad=88974"
+        url:
+        "https://refpa83754.com/L?tag=d_6081525m_88974c_&site=6081525&ad=88974"
     }
 
 };
 
 
-/* =========================================================
+/* ============================================================
    NOMS DES MARCHÉS
-   ========================================================= */
+============================================================ */
 
 const MARKET_NAMES = {
 
-    "1X2": "Résultat du match",
+    "V1":
+        "Victoire équipe 1",
 
-    "Total_2.5": "Total buts — 2,5",
+    "X":
+        "Match nul",
 
-    "Double_Chance": "Double chance",
+    "V2":
+        "Victoire équipe 2",
 
-    "BTTS": "Les deux équipes marquent",
+    "Plus de":
+        "Plus de 2,5 buts",
 
-    "Handicap": "Handicap",
+    "Moins de":
+        "Moins de 2,5 buts",
 
-    "Totals": "Totaux de buts",
+    "1X":
+        "Double chance 1X",
 
-    "Score_Exact": "Score exact"
+    "12":
+        "Double chance 12",
+
+    "2X":
+        "Double chance X2",
+
+    "Oui":
+        "Les deux équipes marquent — Oui",
+
+    "Non":
+        "Les deux équipes marquent — Non"
 
 };
 
 
-/* =========================================================
-   LIBELLÉS DES SÉLECTIONS
-   ========================================================= */
-
-function selectionLabel(market){
-
-    const type = market.type;
-    const value = market.marche;
-
-    if(type === "1X2"){
-
-        if(value === "V1"){
-            return "1";
-        }
-
-        if(value === "X"){
-            return "X";
-        }
-
-        if(value === "V2"){
-            return "2";
-        }
-
-    }
-
-
-    if(type === "Total_2.5"){
-
-        if(value === "Plus de"){
-            return "+2,5";
-        }
-
-        if(value === "Moins de"){
-            return "-2,5";
-        }
-
-    }
-
-
-    if(type === "Double_Chance"){
-
-        if(value === "1X"){
-            return "1X";
-        }
-
-        if(value === "12"){
-            return "12";
-        }
-
-        if(value === "2X"){
-            return "X2";
-        }
-
-    }
-
-
-    if(type === "BTTS"){
-
-        if(value === "Oui"){
-            return "Oui";
-        }
-
-        if(value === "Non"){
-            return "Non";
-        }
-
-    }
-
-
-    if(type === "Totals"){
-
-        const parts = String(value).split("|");
-
-        if(parts.length === 2){
-
-            const line = parts[0];
-            const direction = parts[1];
-
-            return (
-                direction === "Plus de"
-                    ? "+"
-                    : "-"
-            ) + String(line).replace(".", ",");
-
-        }
-
-    }
-
-
-    return String(value || "—");
-
-}
-
-
-/* =========================================================
-   LIBELLÉ PLUS DÉTAILLÉ
-   ========================================================= */
-
-function selectionDescription(match, market){
-
-    const value = market.marche;
-
-    if(value === "V1"){
-        return "Victoire " + match.equipe_1;
-    }
-
-    if(value === "X"){
-        return "Match nul";
-    }
-
-    if(value === "V2"){
-        return "Victoire " + match.equipe_2;
-    }
-
-    if(value === "Plus de"){
-        return "Plus de 2,5 buts";
-    }
-
-    if(value === "Moins de"){
-        return "Moins de 2,5 buts";
-    }
-
-    if(value === "1X"){
-        return "Double chance 1X";
-    }
-
-    if(value === "12"){
-        return "Double chance 12";
-    }
-
-    if(value === "2X"){
-        return "Double chance X2";
-    }
-
-    if(value === "Oui"){
-        return "Les deux équipes marquent — Oui";
-    }
-
-    if(value === "Non"){
-        return "Les deux équipes marquent — Non";
-    }
-
-    return selectionLabel(market);
-}
-
-
-/* =========================================================
-   PROTECTION HTML
-   ========================================================= */
+/* ============================================================
+   ÉCHAPPEMENT HTML
+============================================================ */
 
 function escapeHTML(value){
 
     return String(value ?? "")
         .replace(
             /[&<>"']/g,
-            function(character){
+            function(c){
 
                 return {
 
@@ -778,7 +1632,7 @@ function escapeHTML(value){
                     '"':"&quot;",
                     "'":"&#039;"
 
-                }[character];
+                }[c];
 
             }
         );
@@ -786,488 +1640,665 @@ function escapeHTML(value){
 }
 
 
-/* =========================================================
-   LIEN AFFILIÉ
-   ========================================================= */
-
-function bookmakerURL(bookmaker){
-
-    const config = BOOKMAKERS[bookmaker];
-
-    if(!config){
-        return null;
-    }
-
-    return config.url || null;
-
-}
-
-
-/* =========================================================
+/* ============================================================
    NOM BOOKMAKER
-   ========================================================= */
+============================================================ */
 
-function bookmakerName(bookmaker){
+function bookmakerName(id){
 
     if(
-        BOOKMAKERS[bookmaker] &&
-        BOOKMAKERS[bookmaker].name
+        BOOKMAKERS[id] &&
+        BOOKMAKERS[id].name
     ){
-        return BOOKMAKERS[bookmaker].name;
+
+        return BOOKMAKERS[id].name;
+
     }
 
-    return bookmaker;
+    return id;
 
 }
 
 
-/* =========================================================
+/* ============================================================
+   URL AFFILIATION
+============================================================ */
+
+function bookmakerURL(id){
+
+    if(
+        BOOKMAKERS[id] &&
+        BOOKMAKERS[id].url
+    ){
+
+        return BOOKMAKERS[id].url;
+
+    }
+
+    return null;
+
+}
+
+
+/* ============================================================
    FORMAT COTE
-   ========================================================= */
+============================================================ */
 
 function formatOdd(value){
 
-    if(value === null || value === undefined){
+    const n =
+        Number(value);
+
+    if(
+        !Number.isFinite(n)
+    ){
+
         return "—";
+
     }
 
-    const number = Number(value);
-
-    if(!Number.isFinite(number)){
-        return escapeHTML(value);
-    }
-
-    return String(number);
+    return String(n);
 
 }
 
 
-/* =========================================================
+/* ============================================================
+   LABEL DU PARI
+============================================================ */
+
+function selectionLabel(match, market){
+
+    const selection =
+        market.marche ||
+        market.selection ||
+        "";
+
+    if(
+        selection === "V1"
+    ){
+
+        return "1";
+
+    }
+
+
+    if(
+        selection === "X"
+    ){
+
+        return "X";
+
+    }
+
+
+    if(
+        selection === "V2"
+    ){
+
+        return "2";
+
+    }
+
+
+    if(
+        selection === "Plus de"
+    ){
+
+        return "+2,5";
+
+    }
+
+
+    if(
+        selection === "Moins de"
+    ){
+
+        return "-2,5";
+
+    }
+
+
+    if(
+        selection === "1X"
+    ){
+
+        return "1X";
+
+    }
+
+
+    if(
+        selection === "12"
+    ){
+
+        return "12";
+
+    }
+
+
+    if(
+        selection === "2X"
+    ){
+
+        return "X2";
+
+    }
+
+
+    if(
+        selection === "Oui"
+    ){
+
+        return "Oui";
+
+    }
+
+
+    if(
+        selection === "Non"
+    ){
+
+        return "Non";
+
+    }
+
+
+    return selection;
+
+}
+
+
+/* ============================================================
+   NOM DU MARCHÉ
+============================================================ */
+
+function marketTitle(market){
+
+    const selection =
+        market.marche ||
+        market.selection ||
+        "";
+
+
+    if(
+        MARKET_NAMES[selection]
+    ){
+
+        return MARKET_NAMES[selection];
+
+    }
+
+
+    if(
+        market.type === "1X2"
+    ){
+
+        return "Résultat du match";
+
+    }
+
+
+    if(
+        market.type === "Total_2.5"
+    ){
+
+        return "Total buts — 2,5";
+
+    }
+
+
+    if(
+        market.type === "Double_Chance"
+    ){
+
+        return "Double chance";
+
+    }
+
+
+    if(
+        market.type === "BTTS"
+    ){
+
+        return "Les deux équipes marquent";
+
+    }
+
+
+    if(
+        market.type
+    ){
+
+        return market.type;
+
+    }
+
+
+    return selection || "Pari";
+
+}
+
+
+/* ============================================================
    MEILLEURE COTE
-   ========================================================= */
+============================================================ */
 
-function getBestMarket(market){
+function getBest(market){
 
-    let bestBookmaker = null;
-    let bestOdd = null;
+    let bestBookmaker =
+        null;
 
-    const values = market.valeurs || {};
+    let bestOdd =
+        null;
 
-    Object.keys(values).forEach(function(bookmaker){
 
-        const value = Number(values[bookmaker]);
+    const values =
+        market.valeurs || {};
 
-        if(!Number.isFinite(value)){
-            return;
-        }
 
-        if(
-            bestOdd === null ||
-            value > bestOdd
-        ){
+    Object.keys(values)
+        .forEach(
+            function(bookmaker){
 
-            bestOdd = value;
-            bestBookmaker = bookmaker;
+                const odd =
+                    Number(
+                        values[bookmaker]
+                    );
 
-        }
 
-    });
+                if(
+                    !Number.isFinite(odd)
+                ){
+
+                    return;
+
+                }
+
+
+                if(
+                    bestOdd === null ||
+                    odd > bestOdd
+                ){
+
+                    bestOdd =
+                        odd;
+
+                    bestBookmaker =
+                        bookmaker;
+
+                }
+
+            }
+        );
+
+
+    /*
+       Si comparateur.py fournit déjà la meilleure cote,
+       on l'utilise comme secours.
+    */
+
+    if(
+        bestBookmaker === null &&
+        market.meilleur_site
+    ){
+
+        bestBookmaker =
+            market.meilleur_site;
+
+        bestOdd =
+            Number(
+                market.meilleure_cote
+            );
+
+    }
+
 
     return {
 
-        bookmaker: bestBookmaker,
-        odd: bestOdd
+        bookmaker:
+            bestBookmaker,
+
+        odd:
+            bestOdd
 
     };
 
 }
 
 
-/* =========================================================
-   MEILLEURE COTE PAR MARCHÉ
-   ========================================================= */
-
-function renderMarket(match, type){
-
-    const markets = (match.marches || [])
-        .filter(function(market){
-
-            return market.type === type;
-
-        });
-
-    if(!markets.length){
-        return "";
-    }
-
-
-    const bookmakers = [];
-
-    markets.forEach(function(market){
-
-        Object.keys(market.valeurs || {})
-            .forEach(function(bookmaker){
-
-                if(
-                    !bookmakers.includes(bookmaker)
-                ){
-
-                    bookmakers.push(bookmaker);
-
-                }
-
-            });
-
-    });
-
-
-    if(!bookmakers.length){
-        return "";
-    }
-
-
-    let html = "";
-
-    html += '<section class="market">';
-
-    html +=
-        '<h2 class="market-title">' +
-            '<span>' +
-                escapeHTML(
-                    MARKET_NAMES[type] || type
-                ) +
-            '</span>' +
-        '</h2>';
-
-
-    html += '<div class="table-wrap">';
-
-    html += '<table>';
-
-    html += '<thead>';
-
-    html += '<tr>';
-
-    html += '<th>Pari</th>';
-
-
-    bookmakers.forEach(function(bookmaker){
-
-        const url = bookmakerURL(bookmaker);
-
-        const name = escapeHTML(
-            bookmakerName(bookmaker)
-        );
-
-        html += '<th>';
-
-        if(url){
-
-            html +=
-                '<a ' +
-                'class="bookmaker-name" ' +
-                'href="' +
-                escapeHTML(url) +
-                '" ' +
-                'target="_blank" ' +
-                'rel="noopener sponsored" ' +
-                '>' +
-                name +
-                '</a>';
-
-        }else{
-
-            html += name;
-
-        }
-
-        html += '</th>';
-
-    });
-
-
-    html += '</tr>';
-
-    html += '</thead>';
-
-    html += '<tbody>';
-
-
-    markets.forEach(function(market){
-
-        const best = getBestMarket(market);
-
-        html += '<tr>';
-
-        html +=
-            '<th>' +
-                escapeHTML(
-                    selectionLabel(market)
-                ) +
-            '</th>';
-
-
-        bookmakers.forEach(function(bookmaker){
-
-            const values = market.valeurs || {};
-
-            const value = values[bookmaker];
-
-            const exists =
-                value !== null &&
-                value !== undefined;
-
-            const isBest =
-                exists &&
-                bookmaker === best.bookmaker;
-
-            const url =
-                bookmakerURL(bookmaker);
-
-
-            html +=
-                '<td class="odds-cell ' +
-                (isBest ? "best" : "") +
-                '">';
-
-
-            if(exists){
-
-                if(url){
-
-                    html +=
-                        '<a ' +
-                        'class="odds-link" ' +
-                        'href="' +
-                        escapeHTML(url) +
-                        '" ' +
-                        'target="_blank" ' +
-                        'rel="noopener sponsored" ' +
-                        'aria-label="' +
-                        escapeHTML(
-                            selectionDescription(
-                                match,
-                                market
-                            ) +
-                            " " +
-                            formatOdd(value) +
-                            " chez " +
-                            bookmakerName(bookmaker)
-                        ) +
-                        '"' +
-                        '>';
-
-                    html += formatOdd(value);
-
-                    if(isBest){
-
-                        html +=
-                            '<span class="best-label">' +
-                            'MEILLEURE COTE' +
-                            '</span>';
-
-                    }
-
-                    html += '</a>';
-
-                }else{
-
-                    html +=
-                        '<span class="no-link">' +
-                        formatOdd(value) +
-                        '</span>';
-
-                }
-
-            }else{
-
-                html +=
-                    '<span class="no-link">—</span>';
-
-            }
-
-
-            html += '</td>';
-
-        });
-
-
-        html += '</tr>';
-
-    });
-
-
-    html += '</tbody>';
-
-    html += '</table>';
-
-    html += '</div>';
-
-
-    /*
-       ======================================================
-       BOUTONS D'AFFILIATION
-
-       UN BOUTON POUR CHAQUE TYPE DE PARI.
-
-       Exemple :
-
-       1 · 5.60 ↗ 1xBet
-
-       En cliquant, l'utilisateur arrive directement
-       chez le bookmaker possédant la meilleure cote.
-       ======================================================
-    */
-
-    html += '<div class="market-actions">';
-
-    html +=
-        '<div class="market-actions-title">' +
-        'Meilleure cote pour chaque pari' +
-        '</div>';
-
-    html += '<div class="best-buttons">';
-
-
-    markets.forEach(function(market){
-
-        const best = getBestMarket(market);
-
-        if(
-            !best.bookmaker ||
-            best.odd === null
-        ){
-            return;
-        }
-
-        const url =
-            bookmakerURL(best.bookmaker);
-
-        if(!url){
-            return;
-        }
-
-        html +=
-            '<a ' +
-            'class="best-button" ' +
-            'href="' +
-            escapeHTML(url) +
-            '" ' +
-            'target="_blank" ' +
-            'rel="noopener sponsored" ' +
-            '>';
-
-        html +=
-            '<span>' +
-            escapeHTML(
-                selectionLabel(market)
-            ) +
-            '</span>';
-
-        html +=
-            '<span class="odd">' +
-            escapeHTML(
-                formatOdd(best.odd)
-            ) +
-            '</span>';
-
-        html +=
-            '<span>' +
-            escapeHTML(
-                bookmakerName(
-                    best.bookmaker
-                )
-            ) +
-            '</span>';
-
-        html +=
-            '<span class="arrow">↗</span>';
-
-        html += '</a>';
-
-    });
-
-
-    html += '</div>';
-
-    html += '</div>';
-
-    html += '</section>';
-
-    return html;
+/* ============================================================
+   SLUG D'UNE FICHE
+============================================================ */
+
+function normalizeText(text){
+
+    return String(text || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(
+            /[\u0300-\u036f]/g,
+            ""
+        )
+        .replace(
+            /[^a-z0-9]+/g,
+            "-"
+        )
+        .replace(
+            /^-+|-+$/g,
+            "");
 
 }
 
 
-/* =========================================================
-   SPOTLIGHT
-   ========================================================= */
+/* ============================================================
+   CORRECTIONS DE SLUGS CONNUS
+============================================================ */
 
-function renderSpotlight(match){
+const SLUG_FIXES = {
 
-    const element =
-        document.getElementById(
-            "spotlight"
+    "turkey-france":
+        "turkey-france",
+
+    "england-spain":
+        "england-spain",
+
+    "rayo-vallecano-espanyol":
+        "rayo-vallecano-espanyol",
+
+    "leones-de-centro-habana-city-54":
+        "leones-de-centro-habana-city-54"
+
+};
+
+
+function getMatchSlug(match){
+
+    const raw =
+        normalizeText(
+            (match.equipe_1 || "") +
+            "-" +
+            (match.equipe_2 || "")
         );
 
-    const preferredTypes = [
-        "1X2",
-        "Total_2.5",
-        "Double_Chance",
-        "BTTS"
-    ];
+
+    if(
+        SLUG_FIXES[raw]
+    ){
+
+        return SLUG_FIXES[raw];
+
+    }
 
 
-    let best = null;
+    return raw;
+
+}
 
 
-    (match.marches || [])
-        .filter(function(market){
+/* ============================================================
+   LIEN FICHE
+============================================================ */
 
-            return preferredTypes.includes(
-                market.type
-            );
+function matchURL(match){
 
-        })
-        .forEach(function(market){
+    return (
+        getMatchSlug(match) +
+        "/"
+    );
 
-            const result =
-                getBestMarket(market);
+}
 
-            if(
-                !result.bookmaker ||
-                result.odd === null
-            ){
-                return;
+
+/* ============================================================
+   DATE / MÉTA
+============================================================ */
+
+function getMeta(match){
+
+    if(match.date){
+        return match.date;
+    }
+
+    if(match.heure){
+        return match.heure;
+    }
+
+    if(match.league){
+        return match.league;
+    }
+
+    return "Football";
+
+}
+
+
+/* ============================================================
+   TOUS LES BOOKMAKERS D'UN MARCHÉ
+============================================================ */
+
+function getBookmakers(market){
+
+    const values =
+        market.valeurs || {};
+
+
+    return Object.keys(values)
+        .filter(
+            function(bookmaker){
+
+                const odd =
+                    Number(
+                        values[bookmaker]
+                    );
+
+                return Number.isFinite(odd);
+
             }
+        )
+        .sort(
+            function(a,b){
 
-            if(
-                !best ||
-                result.odd > best.odd
-            ){
-
-                best = {
-
-                    market:market,
-
-                    bookmaker:
-                        result.bookmaker,
-
-                    odd:
-                        result.odd
-
-                };
+                return (
+                    Number(
+                        values[b]
+                    ) -
+                    Number(
+                        values[a]
+                    )
+                );
 
             }
+        );
 
-        });
+}
 
 
-    if(!best){
+/* ============================================================
+   BOUTON COTE
+============================================================ */
 
-        element.innerHTML = "";
+function renderOddButton(
+    match,
+    market,
+    bookmaker,
+    bestBookmaker
+){
 
-        return;
+    const values =
+        market.valeurs || {};
+
+
+    const odd =
+        Number(
+            values[bookmaker]
+        );
+
+
+    if(
+        !Number.isFinite(odd)
+    ){
+
+        return "";
+
+    }
+
+
+    const url =
+        bookmakerURL(
+            bookmaker
+        );
+
+
+    const isBest =
+        bookmaker === bestBookmaker;
+
+
+    /*
+       Si aucun lien affilié n'est disponible,
+       la cote reste visible mais n'est pas
+       transformée en faux lien.
+    */
+
+    if(!url){
+
+        return `
+
+            <div
+                class="odd-button ${
+                    isBest ? "best" : ""
+                }"
+            >
+
+                <div class="odd-left">
+
+                    <span class="odd-selection">
+
+                        ${escapeHTML(
+                            selectionLabel(
+                                match,
+                                market
+                            )
+                        )}
+
+                    </span>
+
+                    <span class="odd-book">
+
+                        ${escapeHTML(
+                            bookmakerName(
+                                bookmaker
+                            )
+                        )}
+
+                    </span>
+
+                </div>
+
+
+                <div class="odd-right">
+
+                    <span class="odd-value">
+
+                        ${escapeHTML(
+                            formatOdd(odd)
+                        )}
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        `;
+
+    }
+
+
+    return `
+
+        <a
+            class="odd-button ${
+                isBest ? "best" : ""
+            }"
+            href="${escapeHTML(url)}"
+            target="_blank"
+            rel="noopener sponsored"
+            aria-label="${escapeHTML(
+                selectionLabel(match,market)
+                + " "
+                + formatOdd(odd)
+                + " chez "
+                + bookmakerName(bookmaker)
+            )}"
+        >
+
+            <div class="odd-left">
+
+                <span class="odd-selection">
+
+                    ${escapeHTML(
+                        selectionLabel(
+                            match,
+                            market
+                        )
+                    )}
+
+                </span>
+
+                <span class="odd-book">
+
+                    ${escapeHTML(
+                        bookmakerName(
+                            bookmaker
+                        )
+                    )}
+
+                </span>
+
+            </div>
+
+
+            <div class="odd-right">
+
+                <span class="odd-value">
+
+                    ${escapeHTML(
+                        formatOdd(odd)
+                    )}
+
+                </span>
+
+                <span class="arrow">
+                    ↗
+                </span>
+
+            </div>
+
+        </a>
+
+    `;
+
+}
+
+
+/* ============================================================
+   BOUTON MEILLEURE COTE DU MARCHÉ
+============================================================ */
+
+function renderBestCTA(
+    match,
+    market,
+    best
+){
+
+    if(
+        !best ||
+        !best.bookmaker ||
+        !Number.isFinite(best.odd)
+    ){
+
+        return "";
+
     }
 
 
@@ -1277,312 +2308,727 @@ function renderSpotlight(match){
         );
 
 
-    let button = "";
+    if(!url){
 
-
-    if(url){
-
-        button =
-            '<a ' +
-            'class="best-button" ' +
-            'href="' +
-            escapeHTML(url) +
-            '" ' +
-            'target="_blank" ' +
-            'rel="noopener sponsored"' +
-            '>' +
-            'Voir chez ' +
-            escapeHTML(
-                bookmakerName(
-                    best.bookmaker
-                )
-            ) +
-            ' ↗' +
-            '</a>';
+        return "";
 
     }
 
 
-    element.innerHTML =
+    return `
 
-        '<div class="spotlight-card">' +
+        <div class="market-best">
 
-            '<div>' +
+            <a
+                class="best-cta"
+                href="${escapeHTML(url)}"
+                target="_blank"
+                rel="noopener sponsored"
+                aria-label="${escapeHTML(
+                    "Meilleure cote "
+                    +
+                    selectionLabel(
+                        match,
+                        market
+                    )
+                    +
+                    " "
+                    +
+                    formatOdd(best.odd)
+                    +
+                    " chez "
+                    +
+                    bookmakerName(
+                        best.bookmaker
+                    )
+                )}"
+            >
 
-                '<span class="spotlight-label">' +
-                    'Meilleure cote' +
-                '</span>' +
+                <div class="best-cta-left">
 
-                '<div class="spotlight-market">' +
-                    escapeHTML(
-                        selectionDescription(
-                            match,
-                            best.market
-                        )
-                    ) +
-                '</div>' +
+                    <span class="best-cta-label">
+                        MEILLEURE COTE
+                    </span>
 
-            '</div>' +
+                    <span class="best-cta-book">
 
-            '<div class="spotlight-right">' +
+                        ${escapeHTML(
+                            bookmakerName(
+                                best.bookmaker
+                            )
+                        )}
 
-                '<span class="spotlight-odd">' +
-                    escapeHTML(
+                    </span>
+
+                </div>
+
+
+                <span class="best-cta-odd">
+
+                    ${escapeHTML(
                         formatOdd(best.odd)
-                    ) +
-                '</span>' +
+                    )}
 
-                '<span class="spotlight-book">' +
-                    'chez ' +
-                    escapeHTML(
-                        bookmakerName(
-                            best.bookmaker
-                        )
-                    ) +
-                '</span>' +
+                    ↗
 
-                '<div style="margin-top:7px">' +
-                    button +
-                '</div>' +
+                </span>
 
-            '</div>' +
+            </a>
 
-        '</div>';
+        </div>
+
+    `;
 
 }
 
 
-/* =========================================================
-   RENDU COMPLET
-   ========================================================= */
+/* ============================================================
+   MARCHÉS D'UN MATCH
+============================================================ */
 
-function render(match){
+function renderMarkets(match){
 
-    document.getElementById(
-        "team1"
-    ).textContent =
-        match.equipe_1 || "—";
+    const markets =
+        match.marches || [];
 
 
-    document.getElementById(
-        "team2"
-    ).textContent =
-        match.equipe_2 || "—";
+    if(!markets.length){
+
+        return `
+            <div class="markets">
+
+                <div class="empty">
+
+                    Aucune cote disponible.
+
+                </div>
+
+            </div>
+        `;
+
+    }
 
 
-    renderSpotlight(match);
+    let html =
+        '<div class="markets">';
 
 
-    const types = [];
-
-    (match.marches || []).forEach(
+    markets.forEach(
         function(market){
 
-            if(
-                !types.includes(
-                    market.type
-                )
-            ){
+            const best =
+                getBest(market);
 
-                types.push(
-                    market.type
-                );
+
+            const bookmakers =
+                getBookmakers(market);
+
+
+            if(!bookmakers.length){
+
+                return;
 
             }
+
+
+            html += `
+
+                <div class="market">
+
+                    <div class="market-title">
+
+                        <span>
+
+                            ${escapeHTML(
+                                marketTitle(
+                                    market
+                                )
+                            )}
+
+                        </span>
+
+                        ${
+                            best.bookmaker
+                            ? `
+                                <span class="best-tag">
+                                    MEILLEURE
+                                </span>
+                              `
+                            : ""
+                        }
+
+                    </div>
+
+
+                    <div class="odds-grid">
+
+                        ${
+                            bookmakers
+                                .map(
+                                    function(bookmaker){
+
+                                        return renderOddButton(
+                                            match,
+                                            market,
+                                            bookmaker,
+                                            best.bookmaker
+                                        );
+
+                                    }
+                                )
+                                .join("")
+                        }
+
+                    </div>
+
+
+                    ${
+                        renderBestCTA(
+                            match,
+                            market,
+                            best
+                        )
+                    }
+
+                </div>
+
+            `;
 
         }
     );
 
 
-    const preferredOrder = [
-
-        "1X2",
-
-        "Total_2.5",
-
-        "Double_Chance",
-
-        "BTTS",
-
-        "Handicap",
-
-        "Totals",
-
-        "Score_Exact"
-
-    ];
+    html +=
+        "</div>";
 
 
-    types.sort(function(a,b){
-
-        const ia =
-            preferredOrder.indexOf(a);
-
-        const ib =
-            preferredOrder.indexOf(b);
-
-        if(ia === -1 && ib === -1){
-            return 0;
-        }
-
-        if(ia === -1){
-            return 1;
-        }
-
-        if(ib === -1){
-            return -1;
-        }
-
-        return ia - ib;
-
-    });
-
-
-    const html = types
-        .map(function(type){
-
-            return renderMarket(
-                match,
-                type
-            );
-
-        })
-        .join("");
-
-
-    document.getElementById(
-        "markets"
-    ).innerHTML =
-        html ||
-        '<p class="notice">' +
-        'Aucune cote disponible pour ce match.' +
-        '</p>';
+    return html;
 
 }
 
 
-/* =========================================================
-   PARTAGE
-   ========================================================= */
+/* ============================================================
+   MEILLEURE COTE GLOBALE
+============================================================ */
 
-document
-    .getElementById("shareButton")
-    .addEventListener(
-        "click",
-        async function(){
+function getOverallBest(match){
 
-            const title =
-                document.title;
-
-            const url =
-                window.location.href;
+    let best = null;
 
 
-            if(
-                navigator.share
-            ){
+    (match.marches || [])
+        .forEach(
+            function(market){
 
-                try{
+                const result =
+                    getBest(market);
 
-                    await navigator.share({
 
-                        title:title,
-
-                        url:url
-
-                    });
+                if(
+                    !result.bookmaker ||
+                    !Number.isFinite(
+                        result.odd
+                    )
+                ){
 
                     return;
 
-                }catch(error){
+                }
 
-                    /*
-                       L'utilisateur a annulé
-                       le partage.
-                    */
+
+                /*
+                   On privilégie les marchés
+                   principaux dans l'ordre :
+                   1X2 puis autres marchés.
+                */
+
+                let priority = 0;
+
+                if(
+                    market.marche === "V1" ||
+                    market.marche === "X" ||
+                    market.marche === "V2"
+                ){
+
+                    priority = 100000;
+
+                }
+
+
+                const score =
+                    priority +
+                    result.odd;
+
+
+                if(
+                    !best ||
+                    score > best.score
+                ){
+
+                    best = {
+
+                        score:score,
+
+                        market:market,
+
+                        bookmaker:
+                            result.bookmaker,
+
+                        odd:
+                            result.odd
+
+                    };
 
                 }
 
             }
+        );
 
 
-            try{
+    return best;
 
-                await navigator.clipboard
-                    .writeText(url);
+}
 
-                this.textContent =
-                    "✓ Lien copié";
 
-                setTimeout(
-                    () => {
-                        this.textContent =
-                            "↗ Partager";
-                    },
-                    1800
+/* ============================================================
+   CARTE MATCH
+============================================================ */
+
+function renderMatch(match){
+
+    const team1 =
+        match.equipe_1 ||
+        "Équipe 1";
+
+
+    const team2 =
+        match.equipe_2 ||
+        "Équipe 2";
+
+
+    const best =
+        getOverallBest(match);
+
+
+    let bestHTML = "";
+
+
+    if(
+        best &&
+        best.bookmaker
+    ){
+
+        const url =
+            bookmakerURL(
+                best.bookmaker
+            );
+
+
+        if(url){
+
+            bestHTML = `
+
+                <div class="best-overall">
+
+                    <span class="best-overall-label">
+
+                        Meilleure cote disponible
+
+                    </span>
+
+
+                    <div class="best-overall-main">
+
+                        <div class="best-overall-name">
+
+                            ${
+                                escapeHTML(
+                                    selectionLabel(
+                                        match,
+                                        best.market
+                                    )
+                                )
+                            }
+
+                            ·
+
+                            ${
+                                escapeHTML(
+                                    bookmakerName(
+                                        best.bookmaker
+                                    )
+                                )
+                            }
+
+                        </div>
+
+
+                        <div class="best-overall-odd">
+
+                            ${
+                                escapeHTML(
+                                    formatOdd(
+                                        best.odd
+                                    )
+                                )
+                            }
+
+                            ↗
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            `;
+
+        }
+
+    }
+
+
+    return `
+
+        <article
+            class="match"
+            data-search="${escapeHTML(
+                team1 + " " + team2
+            )}"
+        >
+
+            <div class="match-top">
+
+                <div class="match-meta">
+
+                    <span>
+
+                        ${escapeHTML(
+                            getMeta(match)
+                        )}
+
+                    </span>
+
+
+                    <a
+                        class="match-link"
+                        href="${escapeHTML(
+                            matchURL(match)
+                        )}"
+                    >
+
+                        Voir toutes les cotes
+                        →
+                        
+                    </a>
+
+                </div>
+
+
+                <div class="teams">
+
+                    <div class="team">
+
+                        ${escapeHTML(team1)}
+
+                    </div>
+
+
+                    <div class="vs">
+                        VS
+                    </div>
+
+
+                    <div class="team">
+
+                        ${escapeHTML(team2)}
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            ${bestHTML}
+
+
+            ${renderMarkets(match)}
+
+        </article>
+
+    `;
+
+}
+
+
+/* ============================================================
+   AFFICHAGE
+============================================================ */
+
+let ALL_MATCHES = [];
+
+
+function renderMatches(matches){
+
+    const content =
+        document.getElementById(
+            "content"
+        );
+
+
+    const visibleCount =
+        document.getElementById(
+            "visibleCount"
+        );
+
+
+    visibleCount.textContent =
+        matches.length;
+
+
+    if(!matches.length){
+
+        content.innerHTML = `
+
+            <div class="empty">
+
+                Aucun match ne correspond à votre recherche.
+
+            </div>
+
+        `;
+
+        return;
+
+    }
+
+
+    content.innerHTML =
+        matches
+            .map(
+                renderMatch
+            )
+            .join("");
+
+}
+
+
+/* ============================================================
+   RECHERCHE
+============================================================ */
+
+document
+    .getElementById("search")
+    .addEventListener(
+        "input",
+        function(){
+
+            const query =
+                this.value
+                    .trim()
+                    .toLowerCase();
+
+
+            if(!query){
+
+                renderMatches(
+                    ALL_MATCHES
                 );
 
-            }catch(error){
-
-                window.prompt(
-                    "Copie ce lien :",
-                    url
-                );
+                return;
 
             }
+
+
+            const filtered =
+                ALL_MATCHES.filter(
+                    function(match){
+
+                        const text =
+                            (
+                                match.equipe_1 ||
+                                ""
+                            )
+                            +
+                            " "
+                            +
+                            (
+                                match.equipe_2 ||
+                                ""
+                            );
+
+                        return text
+                            .toLowerCase()
+                            .includes(
+                                query
+                            );
+
+                    }
+                );
+
+
+            renderMatches(
+                filtered
+            );
 
         }
     );
 
 
-/* =========================================================
-   CHARGEMENT DU MATCH
-   ========================================================= */
+/* ============================================================
+   CHARGEMENT JSON
+============================================================ */
 
-(function(){
+async function loadMatches(){
 
-    const element =
+    const content =
         document.getElementById(
-            "match-data"
+            "content"
         );
-
-
-    if(!element){
-
-        console.error(
-            "match-data introuvable"
-        );
-
-        return;
-    }
 
 
     try{
 
-        const match =
-            JSON.parse(
-                element.textContent
+        const response =
+            await fetch(
+                "comparison.json?v=" +
+                Date.now()
             );
 
-        render(match);
+
+        if(!response.ok){
+
+            throw new Error(
+                "HTTP " +
+                response.status
+            );
+
+        }
+
+
+        const data =
+            await response.json();
+
+
+        if(
+            !Array.isArray(data)
+        ){
+
+            throw new Error(
+                "comparison.json n'est pas un tableau"
+            );
+
+        }
+
+
+        ALL_MATCHES =
+            data;
+
+
+        /*
+           Nombre de bookmakers
+        */
+
+        const bookmakerSet =
+            new Set();
+
+
+        data.forEach(
+            function(match){
+
+                (
+                    match.bookmakers ||
+                    []
+                ).forEach(
+                    function(bookmaker){
+
+                        bookmakerSet.add(
+                            bookmaker
+                        );
+
+                    }
+                );
+
+
+                (
+                    match.marches ||
+                    []
+                ).forEach(
+                    function(market){
+
+                        Object.keys(
+                            market.valeurs || {}
+                        ).forEach(
+                            function(bookmaker){
+
+                                bookmakerSet.add(
+                                    bookmaker
+                                );
+
+                            }
+                        );
+
+                    }
+                );
+
+            }
+        );
+
+
+        document.getElementById(
+            "matchCount"
+        ).textContent =
+            data.length;
+
+
+        document.getElementById(
+            "bookmakerCount"
+        ).textContent =
+            bookmakerSet.size;
+
+
+        renderMatches(
+            ALL_MATCHES
+        );
+
 
     }catch(error){
 
         console.error(
-            "Erreur JSON match :",
+            "Erreur chargement comparison.json:",
             error
         );
 
-        document.getElementById(
-            "markets"
-        ).innerHTML =
-            '<p class="notice">' +
-            'Impossible de charger les données du match.' +
-            '</p>';
+
+        content.innerHTML = `
+
+            <div class="empty">
+
+                Impossible de charger les matchs.
+
+                <br><br>
+
+                Vérifiez que
+                <strong>
+                    docs/comparison.json
+                </strong>
+                existe bien.
+
+            </div>
+
+        `;
 
     }
 
-})();
+}
+
+
+/* ============================================================
+   START
+============================================================ */
+
+loadMatches();
 
 </script>
 
