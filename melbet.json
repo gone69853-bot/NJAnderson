@@ -4,8 +4,8 @@
     "equipe_1": "Elche",
     "equipe_2": "Real Madrid",
     "1X2": {
-      "V1": "12",
-      "X": "7.3",
+      "V1": "12.5",
+      "X": "7.2",
       "V2": "1.195"
     },
     "Total_2.5": {
@@ -23,8 +23,8 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (0)": "8.2",
-      "2 (0)": "1.05",
+      "1 (0)": "8.9",
+      "2 (0)": "1.04",
       "1 (+1)": "3.62",
       "2 (-1)": "1.26",
       "1 (+1.5)": "2.408",
@@ -37,14 +37,14 @@
       "2 (-3)": "3.04",
       "1 (+3.5)": "1.22",
       "2 (-3.5)": "3.5",
-      "1 (+4)": "1.078",
+      "1 (+4)": "1.077",
       "2 (-4)": "5.65",
-      "1 (+4.5)": "1.06",
-      "2 (-4.5)": "6.15"
+      "1 (+4.5)": "1.059",
+      "2 (-4.5)": "6.2"
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/127733-spain-la-liga/367117006-elche-real-madrid",
-    "derniere_maj": "2026-09-15T17:19:16.125853+00:00",
+    "derniere_maj": "2026-09-15T18:30:37.156683+00:00",
     "statut": "ok"
   },
   {
@@ -52,9 +52,9 @@
     "equipe_1": "Ipswich",
     "equipe_2": "Town Arsenal",
     "1X2": {
-      "V1": "11",
-      "X": "5.9",
-      "V2": "1.26"
+      "V1": "7.5",
+      "X": "5",
+      "V2": "1.384"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -71,38 +71,38 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (0)": "7.4",
-      "2 (0)": "1.052",
-      "1 (+1)": "2.99",
-      "2 (-1)": "1.36",
-      "1 (+1.5)": "2.08",
-      "2 (-1.5)": "1.75",
-      "1 (+2)": "1.64",
-      "2 (-2)": "2.18",
-      "1 (+2.5)": "1.41",
-      "2 (-2.5)": "2.69",
-      "1 (+3)": "1.179",
-      "2 (-3)": "4.1",
-      "1 (+3.5)": "1.122",
-      "2 (-3.5)": "4.7",
-      "1 (+4)": "1.017",
-      "2 (-4)": "8.2",
-      "1 (+4.5)": "1.008",
-      "2 (-4.5)": "8.8"
+      "1 (0)": "5.6",
+      "2 (0)": "1.102",
+      "1 (+1)": "2.34",
+      "2 (-1)": "1.56",
+      "1 (+1.5)": "1.8",
+      "2 (-1.5)": "2.01",
+      "1 (+2)": "1.43",
+      "2 (-2)": "2.7",
+      "1 (+2.5)": "1.29",
+      "2 (-2.5)": "3.28",
+      "1 (+3)": "1.107",
+      "2 (-3)": "5.3",
+      "1 (+3.5)": "1.071",
+      "2 (-3.5)": "5.85",
+      "1 (+4)": "1.01",
+      "2 (-4)": "10.5",
+      "1 (+4.5)": "1.01",
+      "2 (-4.5)": "11.5"
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/119237-england-league-cup/366115958-ipswich-town-arsenal",
-    "derniere_maj": "2026-09-15T17:19:15.388584+00:00",
+    "derniere_maj": "2026-09-15T18:30:37.091128+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Deportivo",
-    "equipe_2": "Alaves Valencia",
+    "equipe_1": "Reading",
+    "equipe_2": "Brentford",
     "1X2": {
-      "V1": "1.675",
-      "X": "3.6",
-      "V2": "5.55"
+      "V1": "13",
+      "X": "7.2",
+      "V2": "1.19"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -119,70 +119,30 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "5.7",
-      "2 (+2.5)": "1.083",
-      "1 (-2)": "4.9",
-      "2 (+2)": "1.133",
-      "1 (-1.5)": "2.97",
-      "2 (+1.5)": "1.395",
-      "1 (-1)": "2.205",
-      "2 (+1)": "1.67",
-      "1 (0)": "1.21",
-      "2 (0)": "3.92",
-      "1 (+1)": "1.02",
-      "2 (-1)": "10.5"
+      "1 (0)": "8.4",
+      "2 (0)": "1.04",
+      "1 (+1)": "3.74",
+      "2 (-1)": "1.23",
+      "1 (+1.5)": "2.48",
+      "2 (-1.5)": "1.54",
+      "1 (+2)": "1.94",
+      "2 (-2)": "1.77",
+      "1 (+2.5)": "1.6",
+      "2 (-2.5)": "2.14",
+      "1 (+3)": "1.31",
+      "2 (-3)": "2.93",
+      "1 (+3.5)": "1.22",
+      "2 (-3.5)": "3.5",
+      "1 (+4)": "1.077",
+      "2 (-4)": "5.65",
+      "1 (+4.5)": "1.055",
+      "2 (-4.5)": "6.35",
+      "1 (+5)": "1.01",
+      "2 (-5)": "10.5"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/127733-spain-la-liga/367117000-deportivo-alaves-valencia",
-    "derniere_maj": "2026-09-15T17:19:16.123649+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Liverpool",
-    "equipe_2": "Tottenham Hotspur",
-    "1X2": {
-      "V1": "1.685",
-      "X": "4.16",
-      "V2": "4.54"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-3.5)": "9.1",
-      "2 (+3.5)": "1.004",
-      "1 (-3)": "8.4",
-      "2 (+3)": "1.015",
-      "1 (-2.5)": "4.65",
-      "2 (+2.5)": "1.139",
-      "1 (-2)": "3.92",
-      "2 (+2)": "1.21",
-      "1 (-1.5)": "2.675",
-      "2 (+1.5)": "1.475",
-      "1 (-1)": "2.11",
-      "2 (+1)": "1.727",
-      "1 (0)": "1.28",
-      "2 (0)": "3.4",
-      "1 (+1)": "1.025",
-      "2 (-1)": "8.5",
-      "1 (+1.5)": "1.003",
-      "2 (-1.5)": "9.3"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/119237-england-league-cup/366115944-liverpool-tottenham-hotspur",
-    "derniere_maj": "2026-09-15T17:19:15.501567+00:00",
+    "url": "https://melbet-cm.com/en/line/football/119237-england-league-cup/366115942-reading-brentford",
+    "derniere_maj": "2026-09-15T18:30:01.957425+00:00",
     "statut": "ok"
   },
   {
@@ -218,17 +178,17 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083266-city--united-",
-    "derniere_maj": "2026-09-15T17:19:16.124243+00:00",
+    "derniere_maj": "2026-09-15T18:30:01.992413+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
     "equipe_1": "Indy ",
-    "equipe_2": "Louisville ",
+    "equipe_2": "Rowdies ",
     "1X2": {
-      "V1": "2.4",
-      "X": "3.01",
-      "V2": "2.2"
+      "V1": "2.2",
+      "X": "3.11",
+      "V2": "2.39"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -245,16 +205,16 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1)": "3.36",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "2.98"
+      "1 (-1)": "2.94",
+      "2 (+1)": "1.33",
+      "1 (0)": "1.76",
+      "2 (0)": "1.91",
+      "1 (+1)": "1.26",
+      "2 (-1)": "3.31"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083242-indy--louisville-",
-    "derniere_maj": "2026-09-15T17:19:16.114264+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083246-indy--rowdies-",
+    "derniere_maj": "2026-09-15T18:30:37.087752+00:00",
     "statut": "ok"
   },
   {
@@ -290,7 +250,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083262-indy--tulsa-",
-    "derniere_maj": "2026-09-15T17:19:43.864136+00:00",
+    "derniere_maj": "2026-09-15T18:30:37.157596+00:00",
     "statut": "ok"
   },
   {
@@ -326,7 +286,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083268-louisville--tulsa-",
-    "derniere_maj": "2026-09-15T17:19:30.719394+00:00",
+    "derniere_maj": "2026-09-15T18:30:47.043790+00:00",
     "statut": "ok"
   },
   {
@@ -362,7 +322,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083294-louisville--rowdies-",
-    "derniere_maj": "2026-09-15T17:19:30.807800+00:00",
+    "derniere_maj": "2026-09-15T18:30:47.045920+00:00",
     "statut": "ok"
   },
   {
@@ -398,7 +358,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083264-revolution--real-",
-    "derniere_maj": "2026-09-15T17:19:30.739328+00:00",
+    "derniere_maj": "2026-09-15T18:30:47.403884+00:00",
     "statut": "ok"
   },
   {
@@ -434,7 +394,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083310-revolution--city-",
-    "derniere_maj": "2026-09-15T17:19:45.491029+00:00",
+    "derniere_maj": "2026-09-15T18:30:47.405956+00:00",
     "statut": "ok"
   },
   {
@@ -470,88 +430,16 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083316-revolution--united-",
-    "derniere_maj": "2026-09-15T17:19:41.094042+00:00",
+    "derniere_maj": "2026-09-15T18:31:02.351975+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Sounders ",
-    "equipe_2": "Bulls ",
+    "equipe_1": "Rowdies ",
+    "equipe_2": "Tulsa ",
     "1X2": {
-      "V1": "2.37",
+      "V1": "2.39",
       "X": "3.11",
-      "V2": "2.19"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.26",
-      "2 (+1)": "1.27",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.34",
-      "2 (-1)": "2.9"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083808-sounders--bulls-",
-    "derniere_maj": "2026-09-15T17:19:45.496431+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Sounders ",
-    "equipe_2": "Timber ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.01",
-      "V2": "2.4"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.98",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.36"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083846-sounders--timber-",
-    "derniere_maj": "2026-09-15T17:19:45.497165+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Whitecaps ",
-    "equipe_2": "Sounders ",
-    "1X2": {
-      "V1": "2.4",
-      "X": "3.01",
       "V2": "2.2"
     },
     "Total_2.5": {
@@ -569,16 +457,88 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1)": "3.36",
+      "1 (-1)": "3.31",
       "2 (+1)": "1.26",
       "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "2.98"
+      "2 (0)": "1.76",
+      "1 (+1)": "1.33",
+      "2 (-1)": "2.94"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083842-whitecaps--sounders-",
-    "derniere_maj": "2026-09-15T17:20:07.033492+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083304-rowdies--tulsa-",
+    "derniere_maj": "2026-09-15T18:30:57.534458+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "United ",
+    "equipe_2": "Real ",
+    "1X2": {
+      "V1": "2.11",
+      "X": "3.08",
+      "V2": "2.5"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "2.79",
+      "2 (+1)": "1.36",
+      "1 (0)": "1.69",
+      "2 (0)": "2",
+      "1 (+1)": "1.23",
+      "2 (-1)": "3.55"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083404-united--real-",
+    "derniere_maj": "2026-09-15T18:31:02.494561+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Timber ",
+    "equipe_2": "Bulls ",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.31",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.91",
+      "2 (0)": "1.76",
+      "1 (+1)": "1.33",
+      "2 (-1)": "2.94"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083862-timber--bulls-",
+    "derniere_maj": "2026-09-15T18:30:56.735038+00:00",
     "statut": "ok"
   },
   {
@@ -614,17 +574,17 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083818-whitecaps--timber-",
-    "derniere_maj": "2026-09-15T17:19:56.488909+00:00",
+    "derniere_maj": "2026-09-15T18:31:09.207175+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Whitecaps ",
-    "equipe_2": "Bulls ",
+    "equipe_1": "Inter ",
+    "equipe_2": "Union ",
     "1X2": {
-      "V1": "2.39",
-      "X": "3.11",
-      "V2": "2.2"
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -641,16 +601,16 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1)": "3.31",
-      "2 (+1)": "1.26",
+      "1 (-1)": "3.39",
+      "2 (+1)": "1.25",
       "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.33",
-      "2 (-1)": "2.94"
+      "2 (0)": "1.75",
+      "1 (+1)": "1.32",
+      "2 (-1)": "3"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083838-whitecaps--bulls-",
-    "derniere_maj": "2026-09-15T17:20:12.557289+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083850-inter--union-",
+    "derniere_maj": "2026-09-15T18:31:12.293676+00:00",
     "statut": "ok"
   },
   {
@@ -686,7 +646,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370084078-sporting--inter-",
-    "derniere_maj": "2026-09-15T17:20:18.304924+00:00",
+    "derniere_maj": "2026-09-15T18:31:12.287827+00:00",
     "statut": "ok"
   },
   {
@@ -722,7 +682,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370084052-sporting--union-",
-    "derniere_maj": "2026-09-15T17:20:09.019015+00:00",
+    "derniere_maj": "2026-09-15T18:31:16.253977+00:00",
     "statut": "ok"
   },
   {
@@ -758,7 +718,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083866-sporting--dynamo-",
-    "derniere_maj": "2026-09-15T17:20:24.468024+00:00",
+    "derniere_maj": "2026-09-15T18:31:29.001663+00:00",
     "statut": "ok"
   },
   {
@@ -794,7 +754,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370084056-union--dynamo-",
-    "derniere_maj": "2026-09-15T17:20:18.045890+00:00",
+    "derniere_maj": "2026-09-15T18:31:21.134480+00:00",
     "statut": "ok"
   },
   {
@@ -830,7 +790,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370084066-crew--minnesota-",
-    "derniere_maj": "2026-09-15T17:20:19.500388+00:00",
+    "derniere_maj": "2026-09-15T18:31:22.206764+00:00",
     "statut": "ok"
   },
   {
@@ -866,7 +826,43 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370084064-dcunited--minnesota-",
-    "derniere_maj": "2026-09-15T17:20:35.989294+00:00",
+    "derniere_maj": "2026-09-15T18:31:34.125271+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Dcunited ",
+    "equipe_2": "Crew ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.01",
+      "V2": "2.4"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "2.98",
+      "2 (+1)": "1.32",
+      "1 (0)": "1.75",
+      "2 (0)": "1.91",
+      "1 (+1)": "1.26",
+      "2 (-1)": "3.36"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370084098-dcunited--crew-",
+    "derniere_maj": "2026-09-15T18:31:37.040981+00:00",
     "statut": "ok"
   },
   {
@@ -902,7 +898,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370084088-dallas--dcunited-",
-    "derniere_maj": "2026-09-15T17:20:38.627600+00:00",
+    "derniere_maj": "2026-09-15T18:31:28.598828+00:00",
     "statut": "ok"
   },
   {
@@ -938,7 +934,43 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370084084-dallas--crew-",
-    "derniere_maj": "2026-09-15T17:20:37.715239+00:00",
+    "derniere_maj": "2026-09-15T18:31:28.999670+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Dallas ",
+    "equipe_2": "Minnesota ",
+    "1X2": {
+      "V1": "2.42",
+      "X": "3.01",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.43",
+      "2 (+1)": "1.25",
+      "1 (0)": "1.91",
+      "2 (0)": "1.75",
+      "1 (+1)": "1.31",
+      "2 (-1)": "3.02"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370084068-dallas--minnesota-",
+    "derniere_maj": "2026-09-15T18:31:31.333449+00:00",
     "statut": "ok"
   },
   {
@@ -974,43 +1006,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370084076-chivas--detroit-",
-    "derniere_maj": "2026-09-15T17:20:43.456190+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Chivas ",
-    "equipe_2": "Memphis ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370084092-chivas--memphis-",
-    "derniere_maj": "2026-09-15T17:20:38.576722+00:00",
+    "derniere_maj": "2026-09-15T18:32:11.859202+00:00",
     "statut": "ok"
   },
   {
@@ -1046,7 +1042,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370084140-detroit--memphis-",
-    "derniere_maj": "2026-09-15T17:20:50.258049+00:00",
+    "derniere_maj": "2026-09-15T18:31:39.042552+00:00",
     "statut": "ok"
   },
   {
@@ -1082,53 +1078,53 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370084062-detroit--las-vegas-",
-    "derniere_maj": "2026-09-15T17:20:50.651879+00:00",
+    "derniere_maj": "2026-09-15T18:31:52.976076+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Las Vegas",
+    "equipe_2": " Memphis ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3",
+      "2 (+1)": "1.32",
+      "1 (0)": "1.75",
+      "2 (0)": "1.91",
+      "1 (+1)": "1.25",
+      "2 (-1)": "3.39"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370084134-las-vegas--memphis-",
+    "derniere_maj": "2026-09-15T18:31:43.274113+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
     "equipe_1": "Cincinnati ",
-    "equipe_2": "Nashville ",
-    "1X2": {
-      "V1": "2.37",
-      "X": "3.01",
-      "V2": "2.19"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.26",
-      "2 (+1)": "1.27",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.34",
-      "2 (-1)": "2.9"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083406-cincinnati--nashville-",
-    "derniere_maj": "2026-09-15T17:20:51.659241+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Nashville ",
     "equipe_2": "Orlando ",
     "1X2": {
-      "V1": "2.37",
+      "V1": "2.36",
       "X": "3.01",
-      "V2": "2.19"
+      "V2": "2.18"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1145,16 +1141,16 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1)": "3.26",
-      "2 (+1)": "1.27",
+      "1 (-1)": "3.21",
+      "2 (+1)": "1.28",
       "1 (0)": "1.91",
       "2 (0)": "1.76",
       "1 (+1)": "1.34",
-      "2 (-1)": "2.9"
+      "2 (-1)": "2.87"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083416-nashville--orlando-",
-    "derniere_maj": "2026-09-15T17:21:07.425581+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083422-cincinnati--orlando-",
+    "derniere_maj": "2026-09-15T18:31:43.810574+00:00",
     "statut": "ok"
   },
   {
@@ -1190,7 +1186,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083408-toronto-cincinnati-",
-    "derniere_maj": "2026-09-15T17:20:57.043560+00:00",
+    "derniere_maj": "2026-09-15T18:32:02.683333+00:00",
     "statut": "ok"
   },
   {
@@ -1226,7 +1222,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083428-toronto-nashville-",
-    "derniere_maj": "2026-09-15T17:21:10.344185+00:00",
+    "derniere_maj": "2026-09-15T18:31:54.408196+00:00",
     "statut": "ok"
   },
   {
@@ -1262,7 +1258,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083412-toronto-orlando-",
-    "derniere_maj": "2026-09-15T17:21:02.317329+00:00",
+    "derniere_maj": "2026-09-15T18:31:57.856165+00:00",
     "statut": "ok"
   },
   {
@@ -1298,7 +1294,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083592-austin--fusion-",
-    "derniere_maj": "2026-09-15T17:21:13.216620+00:00",
+    "derniere_maj": "2026-09-15T18:32:05.700508+00:00",
     "statut": "ok"
   },
   {
@@ -1334,7 +1330,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083572-austin--st-louis-",
-    "derniere_maj": "2026-09-15T17:21:14.076517+00:00",
+    "derniere_maj": "2026-09-15T18:32:02.684909+00:00",
     "statut": "ok"
   }
 ]
