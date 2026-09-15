@@ -971,7 +971,15 @@ async def scrape_bookmaker(
 # pas bloquée sur ce site, contrairement aux autres.
 # ============================================================
 
-WIN1_LISTING_URL = "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5"
+WIN1_LISTING_URLS = [
+    "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
+    "https://1win.com/fr-CI/betting/prematch/football-18/"
+    "uefa-champions-league-39437?p=mvh5",
+    "https://1win.com/fr-CI/betting/prematch/football-18/"
+    "league-cup-983?p=mvh5",
+    "https://1win.com/fr-CI/betting/prematch/football-18/"
+    "premier-league-919?p=mvh5",
+]
 WIN1_MAX_TENTATIVES = 300  # jusqu'à 10 min pour que les cartes se chargent
 
 WIN1_MOTIF_COTE = re.compile(r"\d\.\d")
@@ -998,7 +1006,7 @@ async def extraire_cartes_1win(page):
     )
 
 
-def parser_carte_1win(carte):
+def parser_carte_1win(carte, url_source):
 
     lignes_equipes = [
         l.strip() for l in carte["teamsText"].split("\n") if l.strip()
@@ -1057,7 +1065,7 @@ def parser_carte_1win(carte):
             "Moins de": None,
         },
 
-        "url": WIN1_LISTING_URL,
+        "url": url_source,
 
         "derniere_maj":
             datetime.datetime.now(
@@ -1134,6 +1142,7 @@ async def ouvrir_plus_de_matchs_1win(page, max_tours=20):
 async def scrape_1win(playwright):
 
     result = []
+    equipes_vues = set()
 
     try:
 
@@ -1143,55 +1152,78 @@ async def scrape_1win(playwright):
 
         page = await browser.new_page()
 
-        await page.goto(
-            WIN1_LISTING_URL,
-            timeout=1200000,
-            wait_until="domcontentloaded"
-        )
+        # On visite la page générale ET les championnats spécifiques
+        # demandés (Ligue des Champions, Coupe de la Ligue, Premier
+        # League) : ça évite de dépendre uniquement du déploiement
+        # des sections sur la page "football-18" globale.
+        for url in WIN1_LISTING_URLS:
 
-        # Laisser l'application Vue.js initialiser les championnats.
-        await page.wait_for_timeout(5000)
+            try:
 
-        # Fonction dédiée à 1win : clique sur les boutons "Maximize"
-        # (le chevron "v" à droite de chaque championnat) ET scrolle
-        # jusqu'en bas pour forcer le chargement des championnats
-        # suivants. C'est ce qui débloque le plafond à 13 matchs.
-        await ouvrir_plus_de_matchs_1win(page, max_tours=30)
-
-        cartes = []
-
-        for tentative in range(WIN1_MAX_TENTATIVES):
-
-            cartes = await extraire_cartes_1win(page)
-
-            nb_avec_cotes = sum(
-                1 for c in cartes
-                if WIN1_MOTIF_COTE.search(c["oddsText"])
-            )
-
-            if (
-                len(cartes) > 0
-                and nb_avec_cotes >= len(cartes) * 0.5
-            ):
-
-                print(
-                    f"[1win] {len(cartes)} carte(s) détectée(s), "
-                    f"{nb_avec_cotes} avec cotes, "
-                    f"après {tentative * 2}s"
+                await page.goto(
+                    url,
+                    timeout=1200000,
+                    wait_until="domcontentloaded"
                 )
 
-                break
+                # Laisser l'application Vue.js initialiser les championnats.
+                await page.wait_for_timeout(5000)
 
-            await page.wait_for_timeout(2000)
+                # Fonction dédiée à 1win : clique sur les boutons "Maximize"
+                # (le chevron "v" à droite de chaque championnat) ET scrolle
+                # jusqu'en bas pour forcer le chargement des championnats
+                # suivants. C'est ce qui débloque le plafond à 13 matchs.
+                await ouvrir_plus_de_matchs_1win(page, max_tours=30)
+
+                cartes = []
+
+                for tentative in range(WIN1_MAX_TENTATIVES):
+
+                    cartes = await extraire_cartes_1win(page)
+
+                    nb_avec_cotes = sum(
+                        1 for c in cartes
+                        if WIN1_MOTIF_COTE.search(c["oddsText"])
+                    )
+
+                    if (
+                        len(cartes) > 0
+                        and nb_avec_cotes >= len(cartes) * 0.5
+                    ):
+
+                        print(
+                            f"[1win] {url} : {len(cartes)} carte(s) "
+                            f"détectée(s), {nb_avec_cotes} avec cotes, "
+                            f"après {tentative * 2}s"
+                        )
+
+                        break
+
+                    await page.wait_for_timeout(2000)
+
+                for carte in cartes:
+
+                    parsed = parser_carte_1win(carte, url)
+
+                    if not parsed:
+                        continue
+
+                    cle = (parsed["equipe_1"], parsed["equipe_2"])
+
+                    # On évite les doublons : un même match peut
+                    # apparaître à la fois sur la page générale et
+                    # sur la page de son championnat.
+                    if cle in equipes_vues:
+                        continue
+
+                    equipes_vues.add(cle)
+                    result.append(parsed)
+
+            except Exception as error:
+
+                print(f"[1win] ERREUR sur {url} : {error}")
 
         await browser.close()
-
-        for carte in cartes:
-
-            parsed = parser_carte_1win(carte)
-
-            if parsed:
-                result.append(parsed)
 
     except Exception as error:
 
