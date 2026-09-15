@@ -1,1 +1,189 @@
-[]
+[
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Genoa",
+    "equipe_2": "Südtirol",
+    "1X2": {
+      "V1": "1.62",
+      "X": "3.87",
+      "V2": "5.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-14T23:59:42.176238+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Fiorentina",
+    "equipe_2": "Pisa",
+    "1X2": {
+      "V1": "1.39",
+      "X": "4.65",
+      "V2": "7.6"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-14T23:59:42.176265+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Rayo Vallecano",
+    "equipe_2": "Espanyol",
+    "1X2": {
+      "V1": "2.24",
+      "X": "3.44",
+      "V2": "3.27"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-14T23:59:42.176276+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Alaves",
+    "equipe_2": "Valencia",
+    "1X2": {
+      "V1": "1.84",
+      "X": "3.33",
+      "V2": "4.98"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-14T23:59:42.176283+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Elche",
+    "equipe_2": "Real Madrid",
+    "1X2": {
+      "V1": "11.3",
+      "X": "7.0",
+      "V2": "1.24"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-14T23:59:42.176289+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Atletico Madrid",
+    "equipe_2": "Osasuna",
+    "1X2": {
+      "V1": "1.41",
+      "X": "4.71",
+      "V2": "7.8"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-14T23:59:42.176296+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Deportivo La Coruna",
+    "equipe_2": "Sevilla",
+    "1X2": {
+      "V1": "2.49",
+      "X": "3.13",
+      "V2": "3.07"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-14T23:59:42.176301+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Barcelona FC",
+    "equipe_2": "Racing Santander",
+    "1X2": {
+      "V1": "1.07",
+      "X": "14.7",
+      "V2": "26.4"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-14T23:59:42.176307+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Levante",
+    "equipe_2": "Athletic Bilbao",
+    "1X2": {
+      "V1": "3.44",
+      "X": "3.52",
+      "V2": "2.13"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-14T23:59:42.176313+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Real Betis",
+    "equipe_2": "Getafe",
+    "1X2": {
+      "V1": "1.74",
+      "X": "3.57",
+      "V2": "5.1"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-14T23:59:42.176318+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Malaga",
+    "equipe_2": "Villarreal",
+    "1X2": {
+      "V1": "3.64",
+      "X": "3.83",
+      "V2": "1.96"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/betting/prematch?platform_type=mobile",
+    "derniere_maj": "2026-09-14T23:59:42.176323+00:00",
+    "statut": "ok"
+  }
+]
