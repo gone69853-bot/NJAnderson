@@ -4,18 +4,18 @@
     "equipe_1": "Elche",
     "equipe_2": "Real Madrid",
     "1X2": {
-      "V1": "11.9",
-      "X": "7.22",
-      "V2": "1.261"
+      "V1": "12.7",
+      "X": "7.31",
+      "V2": "1.25"
     },
     "Total_2.5": {
       "Plus de": "1.3",
       "Moins de": "3.26"
     },
     "Double_Chance": {
-      "1X": "4.28",
-      "12": "1.127",
-      "2X": "1.05"
+      "1X": "4.42",
+      "12": "1.125",
+      "2X": "1.046"
     },
     "BTTS": {
       "Oui": "1.68",
@@ -24,7 +24,7 @@
     "Totals": {
       "0.5": {
         "Plus de": "1.01",
-        "Moins de": "26"
+        "Moins de": "30"
       },
       "1": {
         "Plus de": "1.02",
@@ -47,8 +47,8 @@
         "Moins de": "2.7"
       },
       "3.5": {
-        "Plus de": "1.886",
-        "Moins de": "2.061"
+        "Plus de": "1.877",
+        "Moins de": "2.073"
       },
       "4": {
         "Plus de": "2.26",
@@ -59,8 +59,8 @@
         "Moins de": "1.42"
       },
       "5": {
-        "Plus de": "3.94",
-        "Moins de": "1.2"
+        "Plus de": "3.84",
+        "Moins de": "1.21"
       },
       "5.5": {
         "Plus de": "4.4",
@@ -81,31 +81,35 @@
       "8.5": {
         "Plus de": "29",
         "Moins de": "1.007"
+      },
+      "9.5": {
+        "Plus de": "50",
+        "Moins de": "1.002"
       }
     },
     "Handicap": {
-      "1 (0)": "7.4",
-      "2 (0)": "1.052",
+      "1 (0)": "7.6",
+      "2 (0)": "1.047",
       "1 (+1)": "3.48",
       "2 (-1)": "1.28",
-      "1 (+1.5)": "2.394",
-      "2 (-1.5)": "1.674",
-      "1 (+2)": "1.83",
-      "2 (-2)": "1.92",
+      "1 (+1.5)": "2.404",
+      "2 (-1.5)": "1.668",
+      "1 (+2)": "1.833",
+      "2 (-2)": "1.909",
       "1 (+2.5)": "1.53",
       "2 (-2.5)": "2.34",
       "1 (+3)": "1.27",
       "2 (-3)": "3.28",
-      "1 (+3.5)": "1.185",
-      "2 (-3.5)": "3.84",
-      "1 (+4)": "1.059",
-      "2 (-4)": "6.2",
-      "1 (+4.5)": "1.044",
+      "1 (+3.5)": "1.188",
+      "2 (-3.5)": "3.8",
+      "1 (+4)": "1.06",
+      "2 (-4)": "6.15",
+      "1 (+4.5)": "1.045",
       "2 (-4.5)": "6.75"
     },
     "Score_Exact": {
       "1-0": "31",
-      "0-0": "26",
+      "0-0": "30",
       "0-1": "10",
       "2-0": "75",
       "1-1": "12",
@@ -136,7 +140,7 @@
       "3-4": "70"
     },
     "url": "https://5572183mp.pro/en/line/football/127733-spain-la-liga/367117006-elche-real-madrid",
-    "derniere_maj": "2026-09-15T00:21:33.263180+00:00",
+    "derniere_maj": "2026-09-15T02:52:26.195741+00:00",
     "statut": "ok"
   },
   {
@@ -144,18 +148,18 @@
     "equipe_1": "Ipswich",
     "equipe_2": "Town Arsenal",
     "1X2": {
-      "V1": "8.3",
-      "X": "4.82",
-      "V2": "1.375"
+      "V1": "8.5",
+      "X": "4.88",
+      "V2": "1.37"
     },
     "Total_2.5": {
-      "Plus de": "1.62",
-      "Moins de": "2.296"
+      "Plus de": "1.61",
+      "Moins de": "2.315"
     },
     "Double_Chance": {
-      "1X": "3.125",
-      "12": "1.2",
-      "2X": "1.085"
+      "1X": "3.16",
+      "12": "1.196",
+      "2X": "1.082"
     },
     "BTTS": {
       "Oui": "1.85",
@@ -163,28 +167,28 @@
     },
     "Totals": {
       "0.5": {
-        "Plus de": "1.002",
+        "Plus de": "1.001",
         "Moins de": "15"
       },
       "1": {
-        "Plus de": "1.003",
-        "Moins de": "11"
+        "Plus de": "1.002",
+        "Moins de": "11.2"
       },
       "1.5": {
-        "Plus de": "1.171",
-        "Moins de": "4.5"
+        "Plus de": "1.169",
+        "Moins de": "4.55"
       },
       "2": {
-        "Plus de": "1.27",
-        "Moins de": "3.62"
+        "Plus de": "1.26",
+        "Moins de": "3.7"
       },
       "2.5": {
-        "Plus de": "1.62",
-        "Moins de": "2.296"
+        "Plus de": "1.61",
+        "Moins de": "2.315"
       },
       "3": {
-        "Plus de": "1.97",
-        "Moins de": "1.8"
+        "Plus de": "1.952",
+        "Moins de": "1.81"
       },
       "3.5": {
         "Plus de": "2.45",
@@ -195,16 +199,16 @@
         "Moins de": "1.24"
       },
       "4.5": {
-        "Plus de": "4.2",
-        "Moins de": "1.162"
+        "Plus de": "4.15",
+        "Moins de": "1.165"
       },
       "5": {
-        "Plus de": "7.1",
-        "Moins de": "1.038"
+        "Plus de": "6.95",
+        "Moins de": "1.04"
       },
       "5.5": {
-        "Plus de": "7.7",
-        "Moins de": "1.026"
+        "Plus de": "7.6",
+        "Moins de": "1.027"
       },
       "6.5": {
         "Plus de": "15",
@@ -216,20 +220,20 @@
       }
     },
     "Handicap": {
-      "1 (0)": "6.05",
-      "2 (0)": "1.086",
-      "1 (+1)": "2.36",
-      "2 (-1)": "1.55",
-      "1 (+1.5)": "1.78",
-      "2 (-1.5)": "2.04",
-      "1 (+2)": "1.41",
-      "2 (-2)": "2.78",
-      "1 (+2.5)": "1.28",
-      "2 (-2.5)": "3.34",
-      "1 (+3)": "1.093",
-      "2 (-3)": "5.65",
-      "1 (+3.5)": "1.06",
-      "2 (-3.5)": "6.2"
+      "1 (0)": "6.15",
+      "2 (0)": "1.083",
+      "1 (+1)": "2.38",
+      "2 (-1)": "1.54",
+      "1 (+1.5)": "1.8",
+      "2 (-1.5)": "2.01",
+      "1 (+2)": "1.43",
+      "2 (-2)": "2.7",
+      "1 (+2.5)": "1.285",
+      "2 (-2.5)": "3.3",
+      "1 (+3)": "1.098",
+      "2 (-3)": "5.5",
+      "1 (+3.5)": "1.063",
+      "2 (-3.5)": "6.1"
     },
     "Score_Exact": {
       "1-0": "18",
@@ -238,18 +242,18 @@
       "2-0": "46",
       "1-1": "9",
       "0-2": "6.5",
-      "2-1": "18",
+      "2-1": "26",
       "2-2": "15",
       "1-2": "8",
       "3-0": "100",
-      "3-3": "60",
+      "3-3": "65",
       "0-3": "9",
-      "3-1": "65",
+      "3-1": "70",
       "4-4": "100",
       "1-3": "10",
       "3-2": "55",
       "5-5": "100",
-      "2-3": "19",
+      "2-3": "26",
       "4-0": "100",
       "6-6": "100",
       "0-4": "14",
@@ -258,13 +262,13 @@
       "1-4": "15",
       "4-2": "100",
       "8-8": "100",
-      "2-4": "31",
+      "2-4": "34",
       "4-3": "100",
       "9-9": "100",
       "3-4": "100"
     },
     "url": "https://5572183mp.pro/en/line/football/119237-england-league-cup/366115958-ipswich-town-arsenal",
-    "derniere_maj": "2026-09-15T00:21:33.506122+00:00",
+    "derniere_maj": "2026-09-15T02:52:23.159436+00:00",
     "statut": "ok"
   },
   {
@@ -272,9 +276,9 @@
     "equipe_1": "Barcelona Racing",
     "equipe_2": "De Santander",
     "1X2": {
-      "V1": "1.067",
-      "X": "19",
-      "V2": "38"
+      "V1": "1.066",
+      "X": "18.5",
+      "V2": "41"
     },
     "Total_2.5": {
       "Plus de": "1.065",
@@ -282,12 +286,12 @@
     },
     "Double_Chance": {
       "1X": "1.001",
-      "12": "1.027",
+      "12": "1.028",
       "2X": "11"
     },
     "BTTS": {
-      "Oui": "1.75",
-      "Non": "1.984"
+      "Oui": "1.76",
+      "Non": "1.973"
     },
     "Totals": {
       "0.5": {
@@ -363,17 +367,17 @@
       "1 (-5.5)": "5.05",
       "2 (+5.5)": "1.102",
       "1 (-5)": "4.5",
-      "2 (+5)": "1.133",
+      "2 (+5)": "1.134",
       "1 (-4.5)": "3.04",
       "2 (+4.5)": "1.3",
-      "1 (-4)": "2.61",
-      "2 (+4)": "1.42",
+      "1 (-4)": "2.58",
+      "2 (+4)": "1.43",
       "1 (-3.5)": "2.16",
       "2 (+3.5)": "1.811",
       "1 (-3)": "1.74",
       "2 (+3)": "2.12",
-      "1 (-2.5)": "1.49",
-      "2 (+2.5)": "2.48",
+      "1 (-2.5)": "1.48",
+      "2 (+2.5)": "2.5",
       "1 (-2)": "1.24",
       "2 (+2)": "3.56"
     },
@@ -410,7 +414,7 @@
       "3-4": "100"
     },
     "url": "https://5572183mp.pro/en/line/football/127733-spain-la-liga/367117368-barcelona-racing-de-santander",
-    "derniere_maj": "2026-09-15T00:21:33.565260+00:00",
+    "derniere_maj": "2026-09-15T02:52:23.008440+00:00",
     "statut": "ok"
   },
   {
@@ -552,7 +556,7 @@
       "3-4": "100"
     },
     "url": "https://5572183mp.pro/en/line/football/118593-uefa-europa-league/364904752-bayer-04-leverkusen-celje",
-    "derniere_maj": "2026-09-15T00:21:33.456051+00:00",
+    "derniere_maj": "2026-09-15T02:52:23.164336+00:00",
     "statut": "ok"
   },
   {
@@ -560,18 +564,18 @@
     "equipe_1": "Ajax",
     "equipe_2": "Willem Ii",
     "1X2": {
-      "V1": "1.096",
+      "V1": "1.1",
       "X": "10.5",
-      "V2": "20"
+      "V2": "19"
     },
     "Total_2.5": {
-      "Plus de": "1.16",
+      "Plus de": "1.161",
       "Moins de": "4.1"
     },
     "Double_Chance": {
       "1X": "1.001",
-      "12": "1.045",
-      "2X": "6.95"
+      "12": "1.047",
+      "2X": "6.85"
     },
     "BTTS": {
       "Oui": "1.75",
@@ -583,15 +587,15 @@
         "Moins de": "17"
       },
       "1.5": {
-        "Plus de": "1.005",
+        "Plus de": "1.006",
         "Moins de": "9"
       },
       "2": {
-        "Plus de": "1.017",
-        "Moins de": "8.2"
+        "Plus de": "1.018",
+        "Moins de": "8.1"
       },
       "2.5": {
-        "Plus de": "1.16",
+        "Plus de": "1.161",
         "Moins de": "4.1"
       },
       "3": {
@@ -619,8 +623,8 @@
         "Moins de": "1.25"
       },
       "6": {
-        "Plus de": "4.95",
-        "Moins de": "1.106"
+        "Plus de": "5",
+        "Moins de": "1.105"
       },
       "6.5": {
         "Plus de": "6",
@@ -640,26 +644,26 @@
       }
     },
     "Handicap": {
-      "1 (-5.5)": "7.7",
-      "2 (+5.5)": "1.025",
-      "1 (-5)": "7.1",
-      "2 (+5)": "1.036",
-      "1 (-4.5)": "4.4",
-      "2 (+4.5)": "1.14",
-      "1 (-4)": "3.82",
-      "2 (+4)": "1.185",
+      "1 (-5.5)": "7.8",
+      "2 (+5.5)": "1.024",
+      "1 (-5)": "7.2",
+      "2 (+5)": "1.035",
+      "1 (-4.5)": "4.45",
+      "2 (+4.5)": "1.137",
+      "1 (-4)": "3.86",
+      "2 (+4)": "1.181",
       "1 (-3.5)": "2.625",
       "2 (+3.5)": "1.38",
-      "1 (-3)": "2.18",
-      "2 (+3)": "1.55",
-      "1 (-2.5)": "1.845",
-      "2 (+2.5)": "1.955",
-      "1 (-2)": "1.44",
-      "2 (+2)": "2.44",
+      "1 (-3)": "2.2",
+      "2 (+3)": "1.54",
+      "1 (-2.5)": "1.856",
+      "2 (+2.5)": "1.945",
+      "1 (-2)": "1.444",
+      "2 (+2)": "2.43",
       "1 (-1.5)": "1.31",
       "2 (+1.5)": "2.92",
-      "1 (-1)": "1.102",
-      "2 (+1)": "5.05"
+      "1 (-1)": "1.105",
+      "2 (+1)": "5"
     },
     "Score_Exact": {
       "1-0": "13",
@@ -694,7 +698,7 @@
       "3-4": "100"
     },
     "url": "https://5572183mp.pro/en/line/football/2018750-netherlands-eredivisie/364943612-ajax-willem-ii",
-    "derniere_maj": "2026-09-15T00:21:33.489594+00:00",
+    "derniere_maj": "2026-09-15T02:52:24.259575+00:00",
     "statut": "ok"
   },
   {
@@ -765,7 +769,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665746-vido-99-emaljus",
-    "derniere_maj": "2026-09-15T00:21:33.481041+00:00",
+    "derniere_maj": "2026-09-15T02:52:23.982240+00:00",
     "statut": "ok"
   },
   {
@@ -836,7 +840,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665750-jp-young-stars-byt-academical",
-    "derniere_maj": "2026-09-15T00:21:33.418259+00:00",
+    "derniere_maj": "2026-09-15T02:52:24.744535+00:00",
     "statut": "ok"
   },
   {
@@ -907,7 +911,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665776-newhope-naija-kiraa-fa",
-    "derniere_maj": "2026-09-15T00:21:33.258556+00:00",
+    "derniere_maj": "2026-09-15T02:52:23.924148+00:00",
     "statut": "ok"
   },
   {
@@ -976,7 +980,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665790-ecas-fa-aux",
-    "derniere_maj": "2026-09-15T00:22:44.644892+00:00",
+    "derniere_maj": "2026-09-15T02:53:18.577705+00:00",
     "statut": "ok"
   },
   {
@@ -1047,7 +1051,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665786-ajuwa-fa-joy-cometh",
-    "derniere_maj": "2026-09-15T00:22:44.691852+00:00",
+    "derniere_maj": "2026-09-15T02:52:41.595058+00:00",
     "statut": "ok"
   },
   {
@@ -1116,7 +1120,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665748-tonic-mega-22",
-    "derniere_maj": "2026-09-15T00:22:44.521112+00:00",
+    "derniere_maj": "2026-09-15T02:53:23.689732+00:00",
     "statut": "ok"
   },
   {
@@ -1183,7 +1187,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665798-36-lion-ighalo-fa",
-    "derniere_maj": "2026-09-15T00:22:44.768617+00:00",
+    "derniere_maj": "2026-09-15T02:52:41.887712+00:00",
     "statut": "ok"
   },
   {
@@ -1252,7 +1256,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665796-maryland-united-crystal-lagos",
-    "derniere_maj": "2026-09-15T00:22:44.503573+00:00",
+    "derniere_maj": "2026-09-15T02:52:40.036024+00:00",
     "statut": "ok"
   },
   {
@@ -1319,7 +1323,7 @@
       "1-4": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/2726801-nigeria-1xbet-community-cup/369665794-inspire-academy-young-strikers",
-    "derniere_maj": "2026-09-15T00:22:44.345076+00:00",
+    "derniere_maj": "2026-09-15T02:53:22.612784+00:00",
     "statut": "ok"
   },
   {
@@ -1391,7 +1395,7 @@
       "4-1": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/358435650-azerbaijan-tajikistan",
-    "derniere_maj": "2026-09-15T00:22:44.617374+00:00",
+    "derniere_maj": "2026-09-15T02:52:41.599108+00:00",
     "statut": "ok"
   },
   {
@@ -1460,7 +1464,7 @@
       "5-1": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/368551148-gibraltar-sao-tome-and-principe",
-    "derniere_maj": "2026-09-15T00:22:44.523231+00:00",
+    "derniere_maj": "2026-09-15T02:52:41.003226+00:00",
     "statut": "ok"
   },
   {
@@ -1528,7 +1532,7 @@
       "0-5": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/365998418-turkmenistan-new-zealand",
-    "derniere_maj": "2026-09-15T00:23:17.950510+00:00",
+    "derniere_maj": "2026-09-15T02:52:55.906121+00:00",
     "statut": "ok"
   },
   {
@@ -1592,7 +1596,7 @@
       "3-2": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/359613910-south-korea-ecuador",
-    "derniere_maj": "2026-09-15T00:23:16.787378+00:00",
+    "derniere_maj": "2026-09-15T02:52:54.709529+00:00",
     "statut": "ok"
   },
   {
@@ -1661,7 +1665,7 @@
       "3-2": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/359613902-japan-uruguay",
-    "derniere_maj": "2026-09-15T00:23:16.753758+00:00",
+    "derniere_maj": "2026-09-15T02:52:59.386693+00:00",
     "statut": "ok"
   },
   {
@@ -1733,7 +1737,7 @@
       "4-1": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/364587010-china-palestine",
-    "derniere_maj": "2026-09-15T00:23:16.790495+00:00",
+    "derniere_maj": "2026-09-15T02:52:57.923318+00:00",
     "statut": "ok"
   },
   {
@@ -1796,7 +1800,7 @@
       "1-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/365998546-uzbekistan-iran",
-    "derniere_maj": "2026-09-15T00:23:16.801284+00:00",
+    "derniere_maj": "2026-09-15T02:52:56.706790+00:00",
     "statut": "ok"
   },
   {
@@ -1862,7 +1866,7 @@
       "1-4": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/348731848-australia-brazil",
-    "derniere_maj": "2026-09-15T00:23:16.795604+00:00",
+    "derniere_maj": "2026-09-15T02:53:08.615449+00:00",
     "statut": "ok"
   },
   {
@@ -1931,7 +1935,7 @@
       "1-4": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/364108328-india-panama",
-    "derniere_maj": "2026-09-15T00:23:16.901114+00:00",
+    "derniere_maj": "2026-09-15T02:53:09.450276+00:00",
     "statut": "ok"
   },
   {
@@ -2002,7 +2006,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/359613916-mexico-colombia",
-    "derniere_maj": "2026-09-15T00:23:16.912537+00:00",
+    "derniere_maj": "2026-09-15T02:53:10.512550+00:00",
     "statut": "ok"
   },
   {
@@ -2073,7 +2077,7 @@
       "4-1": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/359613912-usa-peru",
-    "derniere_maj": "2026-09-15T00:24:30.238473+00:00",
+    "derniere_maj": "2026-09-15T02:53:13.773045+00:00",
     "statut": "ok"
   },
   {
@@ -2145,7 +2149,7 @@
       "4-1": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/358441570-canada-chile",
-    "derniere_maj": "2026-09-15T00:25:38.664189+00:00",
+    "derniere_maj": "2026-09-15T02:53:15.084562+00:00",
     "statut": "ok"
   },
   {
@@ -2214,7 +2218,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/364587014-china-new-zealand",
-    "derniere_maj": "2026-09-15T00:24:31.752713+00:00",
+    "derniere_maj": "2026-09-15T02:53:27.718517+00:00",
     "statut": "ok"
   },
   {
@@ -2279,7 +2283,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/367908156-seychelles-sri-lanka",
-    "derniere_maj": "2026-09-15T00:24:31.704939+00:00",
+    "derniere_maj": "2026-09-15T02:53:29.720940+00:00",
     "statut": "ok"
   },
   {
@@ -2345,7 +2349,7 @@
       "4-1": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/358761990-malta-liechtenstein",
-    "derniere_maj": "2026-09-15T00:25:38.358778+00:00",
+    "derniere_maj": "2026-09-15T02:53:26.388136+00:00",
     "statut": "ok"
   },
   {
@@ -2414,7 +2418,7 @@
       "1-4": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/364112632-bolivia-paraguay",
-    "derniere_maj": "2026-09-15T00:24:32.028284+00:00",
+    "derniere_maj": "2026-09-15T02:53:32.316921+00:00",
     "statut": "ok"
   },
   {
@@ -2483,7 +2487,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/359623564-south-korea-uruguay",
-    "derniere_maj": "2026-09-15T00:25:38.681536+00:00",
+    "derniere_maj": "2026-09-15T02:53:33.557731+00:00",
     "statut": "ok"
   },
   {
@@ -2551,7 +2555,7 @@
       "5-0": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/359623590-japan-venezuela",
-    "derniere_maj": "2026-09-15T00:24:31.721576+00:00",
+    "derniere_maj": "2026-09-15T02:53:37.247222+00:00",
     "statut": "ok"
   },
   {
@@ -2617,7 +2621,7 @@
       "1-4": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/348731840-australia-brazil",
-    "derniere_maj": "2026-09-15T00:24:42.023068+00:00",
+    "derniere_maj": "2026-09-15T02:53:41.573347+00:00",
     "statut": "ok"
   },
   {
@@ -2741,7 +2745,7 @@
       "3-4": "100"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/360076828-russia-iran",
-    "derniere_maj": "2026-09-15T00:24:49.056285+00:00",
+    "derniere_maj": "2026-09-15T02:53:40.646291+00:00",
     "statut": "ok"
   },
   {
@@ -2813,7 +2817,7 @@
       "4-1": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/359623580-mexico-peru",
-    "derniere_maj": "2026-09-15T00:24:48.835149+00:00",
+    "derniere_maj": "2026-09-15T02:53:42.209212+00:00",
     "statut": "ok"
   },
   {
@@ -2883,7 +2887,7 @@
       "4-1": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/359623584-usa-chile",
-    "derniere_maj": "2026-09-15T00:24:49.049327+00:00",
+    "derniere_maj": "2026-09-15T02:53:43.643311+00:00",
     "statut": "ok"
   },
   {
@@ -2952,7 +2956,7 @@
       "3-2": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/366907354-mauritius-djibouti",
-    "derniere_maj": "2026-09-15T00:24:49.046475+00:00",
+    "derniere_maj": "2026-09-15T02:53:46.067392+00:00",
     "statut": "ok"
   },
   {
@@ -3017,7 +3021,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/367908198-seychelles-sri-lanka",
-    "derniere_maj": "2026-09-15T00:24:53.767234+00:00",
+    "derniere_maj": "2026-09-15T02:53:47.650008+00:00",
     "statut": "ok"
   },
   {
@@ -3083,7 +3087,7 @@
       "4-0": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/358458920-lithuania-andorra",
-    "derniere_maj": "2026-09-15T00:25:00.625722+00:00",
+    "derniere_maj": "2026-09-15T02:53:47.651268+00:00",
     "statut": "ok"
   },
   {
@@ -3154,7 +3158,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/361725978-panama-new-zealand",
-    "derniere_maj": "2026-09-15T00:25:00.734361+00:00",
+    "derniere_maj": "2026-09-15T02:53:53.324850+00:00",
     "statut": "ok"
   },
   {
@@ -3218,7 +3222,7 @@
       "3-2": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/361725982-japan-ecuador",
-    "derniere_maj": "2026-09-15T00:25:00.952806+00:00",
+    "derniere_maj": "2026-09-15T02:53:56.447017+00:00",
     "statut": "ok"
   },
   {
@@ -3284,7 +3288,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/366917282-tajikistan-palestine",
-    "derniere_maj": "2026-09-15T00:25:00.680250+00:00",
+    "derniere_maj": "2026-09-15T02:53:59.366771+00:00",
     "statut": "ok"
   },
   {
@@ -3354,7 +3358,7 @@
       "4-1": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/359630200-south-korea-venezuela",
-    "derniere_maj": "2026-09-15T00:25:05.697600+00:00",
+    "derniere_maj": "2026-09-15T02:53:59.125630+00:00",
     "statut": "ok"
   },
   {
@@ -3422,7 +3426,7 @@
       "5-0": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/366917284-china-turkmenistan",
-    "derniere_maj": "2026-09-15T00:25:12.114916+00:00",
+    "derniere_maj": "2026-09-15T02:53:59.741328+00:00",
     "statut": "ok"
   },
   {
@@ -3489,7 +3493,7 @@
       "4-0": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/366923752-colombia-paraguay",
-    "derniere_maj": "2026-09-15T00:25:12.346253+00:00",
+    "derniere_maj": "2026-09-15T02:54:00.484600+00:00",
     "statut": "ok"
   },
   {
@@ -3562,7 +3566,7 @@
       "0-6": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/364117232-india-brazil",
-    "derniere_maj": "2026-09-15T00:25:12.400329+00:00",
+    "derniere_maj": "2026-09-15T02:54:03.728307+00:00",
     "statut": "ok"
   },
   {
@@ -3627,7 +3631,7 @@
       "3-2": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/366923758-tunisia-mali",
-    "derniere_maj": "2026-09-15T00:25:12.907765+00:00",
+    "derniere_maj": "2026-09-15T02:54:03.726895+00:00",
     "statut": "ok"
   },
   {
@@ -3696,7 +3700,7 @@
       "2-3": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/366907352-sri-lanka-djibouti",
-    "derniere_maj": "2026-09-15T00:25:15.543369+00:00",
+    "derniere_maj": "2026-09-15T02:54:07.341185+00:00",
     "statut": "ok"
   },
   {
@@ -3826,7 +3830,7 @@
       "3-4": "100"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/367769750-russia-namibia",
-    "derniere_maj": "2026-09-15T00:25:37.648329+00:00",
+    "derniere_maj": "2026-09-15T02:54:10.376237+00:00",
     "statut": "ok"
   },
   {
@@ -3898,7 +3902,7 @@
       "4-1": "10"
     },
     "url": "https://5572183mp.pro/en/line/football/125983-friendlies-national-teams/358757940-canada-peru",
-    "derniere_maj": "2026-09-15T00:25:34.763924+00:00",
+    "derniere_maj": "2026-09-15T02:54:12.083703+00:00",
     "statut": "ok"
   }
 ]

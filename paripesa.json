@@ -4,22 +4,22 @@
     "equipe_1": "Elche",
     "equipe_2": "Real Madrid",
     "1X2": {
-      "V1": "11",
-      "X": "6.95",
-      "V2": "1.216"
+      "V1": "12",
+      "X": "7",
+      "V2": "1.205"
     },
     "Total_2.5": {
       "Plus de": "1.3",
       "Moins de": "3.26"
     },
     "Double_Chance": {
-      "1X": "4.28",
-      "12": "1.127",
-      "2X": "1.05"
+      "1X": "4.42",
+      "12": "1.125",
+      "2X": "1.046"
     },
     "BTTS": {
-      "Oui": "1.68",
-      "Non": "2.084"
+      "Oui": "1.69",
+      "Non": "2.066"
     },
     "Totals": {
       "0.5": {
@@ -59,8 +59,8 @@
         "Moins de": "1.42"
       },
       "5": {
-        "Plus de": "3.94",
-        "Moins de": "1.2"
+        "Plus de": "3.84",
+        "Moins de": "1.21"
       },
       "5.5": {
         "Plus de": "4.4",
@@ -88,28 +88,28 @@
       }
     },
     "Handicap": {
-      "1 (0)": "7.4",
-      "2 (0)": "1.052",
+      "1 (0)": "7.6",
+      "2 (0)": "1.047",
       "1 (+1)": "3.48",
       "2 (-1)": "1.28",
-      "1 (+1.5)": "2.31",
-      "2 (-1.5)": "1.615",
-      "1 (+2)": "1.83",
-      "2 (-2)": "1.92",
+      "1 (+1.5)": "2.32",
+      "2 (-1.5)": "1.61",
+      "1 (+2)": "1.833",
+      "2 (-2)": "1.909",
       "1 (+2.5)": "1.53",
       "2 (-2.5)": "2.34",
       "1 (+3)": "1.27",
       "2 (-3)": "3.28",
-      "1 (+3.5)": "1.185",
-      "2 (-3.5)": "3.84",
-      "1 (+4)": "1.059",
-      "2 (-4)": "6.2",
-      "1 (+4.5)": "1.044",
+      "1 (+3.5)": "1.188",
+      "2 (-3.5)": "3.8",
+      "1 (+4)": "1.06",
+      "2 (-4)": "6.15",
+      "1 (+4.5)": "1.045",
       "2 (-4.5)": "6.75"
     },
     "Score_Exact": {
       "1-0": "31",
-      "0-0": "29",
+      "0-0": "30",
       "0-1": "10",
       "2-0": "75",
       "1-1": "12",
@@ -140,7 +140,7 @@
       "3-4": "70"
     },
     "url": "https://paripesa.cm/fr/line/football/127733-spain-la-liga/367117006-elche-real-madrid",
-    "derniere_maj": "2026-09-15T00:41:50.164230+00:00",
+    "derniere_maj": "2026-09-15T03:09:58.059731+00:00",
     "statut": "ok"
   },
   {
@@ -148,18 +148,18 @@
     "equipe_1": "Ipswich",
     "equipe_2": "Town Arsenal",
     "1X2": {
-      "V1": "8.3",
-      "X": "4.82",
-      "V2": "1.375"
+      "V1": "8.5",
+      "X": "4.88",
+      "V2": "1.37"
     },
     "Total_2.5": {
-      "Plus de": "1.62",
-      "Moins de": "2.296"
+      "Plus de": "1.61",
+      "Moins de": "2.315"
     },
     "Double_Chance": {
-      "1X": "3.125",
-      "12": "1.2",
-      "2X": "1.085"
+      "1X": "3.16",
+      "12": "1.196",
+      "2X": "1.082"
     },
     "BTTS": {
       "Oui": "1.85",
@@ -175,20 +175,20 @@
         "Moins de": "11.2"
       },
       "1.5": {
-        "Plus de": "1.171",
-        "Moins de": "4.5"
+        "Plus de": "1.169",
+        "Moins de": "4.55"
       },
       "2": {
-        "Plus de": "1.27",
-        "Moins de": "3.62"
+        "Plus de": "1.26",
+        "Moins de": "3.7"
       },
       "2.5": {
-        "Plus de": "1.62",
-        "Moins de": "2.296"
+        "Plus de": "1.61",
+        "Moins de": "2.315"
       },
       "3": {
-        "Plus de": "1.97",
-        "Moins de": "1.8"
+        "Plus de": "1.952",
+        "Moins de": "1.81"
       },
       "3.5": {
         "Plus de": "2.45",
@@ -199,41 +199,41 @@
         "Moins de": "1.24"
       },
       "4.5": {
-        "Plus de": "4.2",
-        "Moins de": "1.162"
+        "Plus de": "4.15",
+        "Moins de": "1.165"
       },
       "5": {
-        "Plus de": "7.1",
-        "Moins de": "1.038"
+        "Plus de": "6.95",
+        "Moins de": "1.04"
       },
       "5.5": {
-        "Plus de": "7.7",
-        "Moins de": "1.026"
+        "Plus de": "7.6",
+        "Moins de": "1.027"
       },
       "6.5": {
         "Plus de": "15",
         "Moins de": "1.016"
       },
       "7.5": {
-        "Plus de": "18",
+        "Plus de": "17",
         "Moins de": "1.005"
       }
     },
     "Handicap": {
-      "1 (0)": "6.05",
-      "2 (0)": "1.086",
-      "1 (+1)": "2.36",
-      "2 (-1)": "1.55",
-      "1 (+1.5)": "1.785",
-      "2 (-1.5)": "2.025",
-      "1 (+2)": "1.41",
-      "2 (-2)": "2.78",
-      "1 (+2.5)": "1.28",
-      "2 (-2.5)": "3.34",
-      "1 (+3)": "1.094",
-      "2 (-3)": "5.6",
-      "1 (+3.5)": "1.06",
-      "2 (-3.5)": "6.2"
+      "1 (0)": "6.15",
+      "2 (0)": "1.083",
+      "1 (+1)": "2.4",
+      "2 (-1)": "1.533",
+      "1 (+1.5)": "1.8",
+      "2 (-1.5)": "2.01",
+      "1 (+2)": "1.43",
+      "2 (-2)": "2.7",
+      "1 (+2.5)": "1.285",
+      "2 (-2.5)": "3.3",
+      "1 (+3)": "1.098",
+      "2 (-3)": "5.5",
+      "1 (+3.5)": "1.064",
+      "2 (-3.5)": "6.05"
     },
     "Score_Exact": {
       "1-0": "18",
@@ -268,7 +268,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/119237-england-league-cup/366115958-ipswich-town-arsenal",
-    "derniere_maj": "2026-09-15T00:41:50.892006+00:00",
+    "derniere_maj": "2026-09-15T03:09:56.449003+00:00",
     "statut": "ok"
   },
   {
@@ -414,7 +414,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/127733-spain-la-liga/367117368-barcelona-racing-de-santander",
-    "derniere_maj": "2026-09-15T00:41:50.157842+00:00",
+    "derniere_maj": "2026-09-15T03:09:56.273232+00:00",
     "statut": "ok"
   },
   {
@@ -423,7 +423,7 @@
     "equipe_2": "Leverkusen Celje",
     "1X2": {
       "V1": "1.16",
-      "X": "7.9",
+      "X": "8",
       "V2": "15"
     },
     "Total_2.5": {
@@ -432,7 +432,7 @@
     },
     "Double_Chance": {
       "1X": "1.028",
-      "12": "1.095",
+      "12": "1.093",
       "2X": "5.2"
     },
     "BTTS": {
@@ -445,8 +445,8 @@
         "Moins de": "16"
       },
       "1.5": {
-        "Plus de": "1.033",
-        "Moins de": "7.3"
+        "Plus de": "1.034",
+        "Moins de": "7.2"
       },
       "2": {
         "Plus de": "1.054",
@@ -477,8 +477,8 @@
         "Moins de": "1.26"
       },
       "5.5": {
-        "Plus de": "3.75",
-        "Moins de": "1.192"
+        "Plus de": "3.76",
+        "Moins de": "1.191"
       },
       "6": {
         "Plus de": "5.8",
@@ -556,7 +556,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/118593-uefa-europa-league/364904752-bayer-04-leverkusen-celje",
-    "derniere_maj": "2026-09-15T00:41:50.631701+00:00",
+    "derniere_maj": "2026-09-15T03:09:58.186724+00:00",
     "statut": "ok"
   },
   {
@@ -564,18 +564,18 @@
     "equipe_1": "Ajax",
     "equipe_2": "Willem Ii",
     "1X2": {
-      "V1": "1.096",
+      "V1": "1.1",
       "X": "10.5",
-      "V2": "20"
+      "V2": "19"
     },
     "Total_2.5": {
-      "Plus de": "1.16",
+      "Plus de": "1.161",
       "Moins de": "4.1"
     },
     "Double_Chance": {
       "1X": "1.001",
-      "12": "1.045",
-      "2X": "6.95"
+      "12": "1.047",
+      "2X": "6.85"
     },
     "BTTS": {
       "Oui": "1.75",
@@ -587,15 +587,15 @@
         "Moins de": "17"
       },
       "1.5": {
-        "Plus de": "1.005",
+        "Plus de": "1.006",
         "Moins de": "9"
       },
       "2": {
-        "Plus de": "1.017",
-        "Moins de": "8.2"
+        "Plus de": "1.018",
+        "Moins de": "8.1"
       },
       "2.5": {
-        "Plus de": "1.16",
+        "Plus de": "1.161",
         "Moins de": "4.1"
       },
       "3": {
@@ -623,8 +623,8 @@
         "Moins de": "1.25"
       },
       "6": {
-        "Plus de": "4.95",
-        "Moins de": "1.106"
+        "Plus de": "5",
+        "Moins de": "1.105"
       },
       "6.5": {
         "Plus de": "6",
@@ -644,26 +644,26 @@
       }
     },
     "Handicap": {
-      "1 (-5.5)": "7.7",
-      "2 (+5.5)": "1.025",
-      "1 (-5)": "7.1",
-      "2 (+5)": "1.036",
-      "1 (-4.5)": "4.4",
-      "2 (+4.5)": "1.14",
-      "1 (-4)": "3.82",
-      "2 (+4)": "1.185",
+      "1 (-5.5)": "7.8",
+      "2 (+5.5)": "1.024",
+      "1 (-5)": "7.2",
+      "2 (+5)": "1.035",
+      "1 (-4.5)": "4.45",
+      "2 (+4.5)": "1.137",
+      "1 (-4)": "3.86",
+      "2 (+4)": "1.181",
       "1 (-3.5)": "2.625",
       "2 (+3.5)": "1.38",
-      "1 (-3)": "2.18",
-      "2 (+3)": "1.55",
-      "1 (-2.5)": "1.845",
-      "2 (+2.5)": "1.955",
-      "1 (-2)": "1.44",
-      "2 (+2)": "2.44",
+      "1 (-3)": "2.2",
+      "2 (+3)": "1.54",
+      "1 (-2.5)": "1.856",
+      "2 (+2.5)": "1.945",
+      "1 (-2)": "1.444",
+      "2 (+2)": "2.43",
       "1 (-1.5)": "1.31",
       "2 (+1.5)": "2.92",
-      "1 (-1)": "1.102",
-      "2 (+1)": "5.05"
+      "1 (-1)": "1.105",
+      "2 (+1)": "5"
     },
     "Score_Exact": {
       "1-0": "13",
@@ -698,7 +698,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/2018750-netherlands-eredivisie/364943612-ajax-willem-ii",
-    "derniere_maj": "2026-09-15T00:41:50.854364+00:00",
+    "derniere_maj": "2026-09-15T03:09:56.283440+00:00",
     "statut": "ok"
   },
   {
@@ -769,7 +769,7 @@
       "2-3": "10"
     },
     "url": "https://paripesa.cm/fr/line/football/2726801-nigeria-1xbet-community-cup/369665746-vido-99-emaljus",
-    "derniere_maj": "2026-09-15T00:41:50.884693+00:00",
+    "derniere_maj": "2026-09-15T03:09:56.056956+00:00",
     "statut": "ok"
   },
   {
@@ -840,7 +840,7 @@
       "2-3": "10"
     },
     "url": "https://paripesa.cm/fr/line/football/2726801-nigeria-1xbet-community-cup/369665750-jp-young-stars-byt-academical",
-    "derniere_maj": "2026-09-15T00:41:50.151751+00:00",
+    "derniere_maj": "2026-09-15T03:09:57.979065+00:00",
     "statut": "ok"
   },
   {
@@ -911,7 +911,7 @@
       "2-3": "10"
     },
     "url": "https://paripesa.cm/fr/line/football/2726801-nigeria-1xbet-community-cup/369665776-newhope-naija-kiraa-fa",
-    "derniere_maj": "2026-09-15T00:41:50.879773+00:00",
+    "derniere_maj": "2026-09-15T03:09:56.176205+00:00",
     "statut": "ok"
   },
   {
@@ -980,7 +980,7 @@
       "2-3": "10"
     },
     "url": "https://paripesa.cm/fr/line/football/2726801-nigeria-1xbet-community-cup/369665790-ecas-fa-aux",
-    "derniere_maj": "2026-09-15T00:42:05.518490+00:00",
+    "derniere_maj": "2026-09-15T03:10:10.675059+00:00",
     "statut": "ok"
   },
   {
@@ -1051,7 +1051,7 @@
       "2-3": "10"
     },
     "url": "https://paripesa.cm/fr/line/football/2726801-nigeria-1xbet-community-cup/369665786-ajuwa-fa-joy-cometh",
-    "derniere_maj": "2026-09-15T00:42:03.397784+00:00",
+    "derniere_maj": "2026-09-15T03:10:10.672735+00:00",
     "statut": "ok"
   },
   {
@@ -1120,7 +1120,7 @@
       "2-3": "10"
     },
     "url": "https://paripesa.cm/fr/line/football/2726801-nigeria-1xbet-community-cup/369665748-tonic-mega-22",
-    "derniere_maj": "2026-09-15T00:42:03.400358+00:00",
+    "derniere_maj": "2026-09-15T03:10:10.976943+00:00",
     "statut": "ok"
   },
   {
@@ -1187,7 +1187,7 @@
       "2-3": "10"
     },
     "url": "https://paripesa.cm/fr/line/football/2726801-nigeria-1xbet-community-cup/369665798-36-lion-ighalo-fa",
-    "derniere_maj": "2026-09-15T00:42:03.934003+00:00",
+    "derniere_maj": "2026-09-15T03:10:10.747130+00:00",
     "statut": "ok"
   },
   {
@@ -1256,7 +1256,7 @@
       "2-3": "10"
     },
     "url": "https://paripesa.cm/fr/line/football/2726801-nigeria-1xbet-community-cup/369665796-maryland-united-crystal-lagos",
-    "derniere_maj": "2026-09-15T00:42:04.099940+00:00",
+    "derniere_maj": "2026-09-15T03:10:11.010561+00:00",
     "statut": "ok"
   },
   {
@@ -1323,7 +1323,7 @@
       "1-4": "10"
     },
     "url": "https://paripesa.cm/fr/line/football/2726801-nigeria-1xbet-community-cup/369665794-inspire-academy-young-strikers",
-    "derniere_maj": "2026-09-15T00:42:03.509900+00:00",
+    "derniere_maj": "2026-09-15T03:10:12.694726+00:00",
     "statut": "ok"
   },
   {
@@ -1431,7 +1431,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325699846-andorra-malta",
-    "derniere_maj": "2026-09-15T00:42:04.370788+00:00",
+    "derniere_maj": "2026-09-15T03:10:12.709545+00:00",
     "statut": "ok"
   },
   {
@@ -1490,8 +1490,8 @@
         "Moins de": "1.26"
       },
       "4.5": {
-        "Plus de": "4.2",
-        "Moins de": "1.177"
+        "Plus de": "4.25",
+        "Moins de": "1.176"
       },
       "5": {
         "Plus de": "7.3",
@@ -1521,8 +1521,8 @@
       "2 (+2.5)": "1.26",
       "1 (-2)": "2.81",
       "2 (+2)": "1.39",
-      "1 (-1.5)": "2.064",
-      "2 (+1.5)": "1.76",
+      "1 (-1.5)": "2.05",
+      "2 (+1.5)": "1.77",
       "1 (-1)": "1.56",
       "2 (+1)": "2.3",
       "1 (0)": "1.089",
@@ -1561,7 +1561,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325575974-austria-israel",
-    "derniere_maj": "2026-09-15T00:42:05.562790+00:00",
+    "derniere_maj": "2026-09-15T03:10:12.847634+00:00",
     "statut": "ok"
   },
   {
@@ -1681,7 +1681,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325575978-kosovo-republic-of-ireland",
-    "derniere_maj": "2026-09-15T00:42:17.729729+00:00",
+    "derniere_maj": "2026-09-15T03:10:25.915716+00:00",
     "statut": "ok"
   },
   {
@@ -1797,7 +1797,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325699854-liechtenstein-lithuania",
-    "derniere_maj": "2026-09-15T00:42:17.647903+00:00",
+    "derniere_maj": "2026-09-15T03:10:25.813562+00:00",
     "statut": "ok"
   },
   {
@@ -1929,7 +1929,7 @@
       "3-4": "70"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325372158-netherlands-germany",
-    "derniere_maj": "2026-09-15T00:42:17.831153+00:00",
+    "derniere_maj": "2026-09-15T03:10:25.903543+00:00",
     "statut": "ok"
   },
   {
@@ -2057,7 +2057,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325372156-norway-denmark",
-    "derniere_maj": "2026-09-15T00:42:17.919508+00:00",
+    "derniere_maj": "2026-09-15T03:10:27.279668+00:00",
     "statut": "ok"
   },
   {
@@ -2079,8 +2079,8 @@
       "2X": "4.05"
     },
     "BTTS": {
-      "Oui": "2.09",
-      "Non": "1.676"
+      "Oui": "2.11",
+      "Non": "1.664"
     },
     "Totals": {
       "0.5": {
@@ -2140,19 +2140,19 @@
       "1 (-4.5)": "8.3",
       "2 (+4.5)": "1.015",
       "1 (-4)": "7.8",
-      "2 (+4)": "1.023",
-      "1 (-3.5)": "4.6",
-      "2 (+3.5)": "1.128",
+      "2 (+4)": "1.024",
+      "1 (-3.5)": "4.55",
+      "2 (+3.5)": "1.129",
       "1 (-3)": "3.98",
-      "2 (+3)": "1.179",
+      "2 (+3)": "1.18",
       "1 (-2.5)": "2.65",
       "2 (+2.5)": "1.41",
-      "1 (-2)": "2.15",
-      "2 (+2)": "1.64",
+      "1 (-2)": "2.13",
+      "2 (+2)": "1.65",
       "1 (-1.5)": "1.73",
       "2 (+1.5)": "2.105",
-      "1 (-1)": "1.34",
-      "2 (+1)": "3.04",
+      "1 (-1)": "1.333",
+      "2 (+1)": "3.08",
       "1 (0)": "1.039",
       "2 (0)": "7.7"
     },
@@ -2189,7 +2189,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325407126-portugal-wales",
-    "derniere_maj": "2026-09-15T00:42:19.269128+00:00",
+    "derniere_maj": "2026-09-15T03:10:26.092931+00:00",
     "statut": "ok"
   },
   {
@@ -2198,8 +2198,8 @@
     "equipe_2": "Greece",
     "1X2": {
       "V1": "2.625",
-      "X": "3.34",
-      "V2": "2.685"
+      "X": "3.32",
+      "V2": "2.696"
     },
     "Total_2.5": {
       "Plus de": "2.12",
@@ -2207,7 +2207,7 @@
     },
     "Double_Chance": {
       "1X": "1.49",
-      "12": "1.34",
+      "12": "1.35",
       "2X": "1.51"
     },
     "BTTS": {
@@ -2275,7 +2275,7 @@
       "2 (+1)": "1.16",
       "1 (0)": "1.88",
       "2 (0)": "1.92",
-      "1 (+1)": "1.15",
+      "1 (+1)": "1.149",
       "2 (-1)": "4.75",
       "1 (+1.5)": "1.088",
       "2 (-1.5)": "5.75",
@@ -2315,7 +2315,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325407134-serbia-greece",
-    "derniere_maj": "2026-09-15T00:42:18.479321+00:00",
+    "derniere_maj": "2026-09-15T03:10:28.183262+00:00",
     "statut": "ok"
   },
   {
@@ -2437,7 +2437,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325871866-armenia-latvia",
-    "derniere_maj": "2026-09-15T00:42:17.767380+00:00",
+    "derniere_maj": "2026-09-15T03:10:26.826043+00:00",
     "statut": "ok"
   },
   {
@@ -2561,7 +2561,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325871868-georgia-northern-ireland",
-    "derniere_maj": "2026-09-15T00:42:18.349302+00:00",
+    "derniere_maj": "2026-09-15T03:10:28.187810+00:00",
     "statut": "ok"
   },
   {
@@ -2685,7 +2685,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326182838-hungary-ukraine",
-    "derniere_maj": "2026-09-15T00:42:33.123038+00:00",
+    "derniere_maj": "2026-09-15T03:10:46.198888+00:00",
     "statut": "ok"
   },
   {
@@ -2815,7 +2815,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325995556-italy-belgium",
-    "derniere_maj": "2026-09-15T00:42:33.428025+00:00",
+    "derniere_maj": "2026-09-15T03:10:46.409050+00:00",
     "statut": "ok"
   },
   {
@@ -2943,7 +2943,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326342396-poland-bosnia-and-herzegovina",
-    "derniere_maj": "2026-09-15T00:42:33.131471+00:00",
+    "derniere_maj": "2026-09-15T03:10:46.390360+00:00",
     "statut": "ok"
   },
   {
@@ -3079,7 +3079,7 @@
       "3-4": "75"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/325995560-turkey-france",
-    "derniere_maj": "2026-09-15T00:42:33.184231+00:00",
+    "derniere_maj": "2026-09-15T03:10:46.364252+00:00",
     "statut": "ok"
   },
   {
@@ -3195,7 +3195,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326182840-montenegro-cyprus",
-    "derniere_maj": "2026-09-15T00:42:32.912436+00:00",
+    "derniere_maj": "2026-09-15T03:10:47.218862+00:00",
     "statut": "ok"
   },
   {
@@ -3279,8 +3279,8 @@
       "2 (+3.5)": "1.024",
       "1 (-3)": "7.1",
       "2 (+3)": "1.036",
-      "1 (-2.5)": "4.15",
-      "2 (+2.5)": "1.168",
+      "1 (-2.5)": "4.1",
+      "2 (+2.5)": "1.169",
       "1 (-2)": "3.48",
       "2 (+2)": "1.25",
       "1 (-1.5)": "2.35",
@@ -3327,7 +3327,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326342442-sweden-romania",
-    "derniere_maj": "2026-09-15T00:42:35.256269+00:00",
+    "derniere_maj": "2026-09-15T03:10:48.711986+00:00",
     "statut": "ok"
   },
   {
@@ -3447,7 +3447,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326503382-slovenia-scotland",
-    "derniere_maj": "2026-09-15T00:42:33.534135+00:00",
+    "derniere_maj": "2026-09-15T03:10:47.148353+00:00",
     "statut": "ok"
   },
   {
@@ -3559,7 +3559,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326646072-bulgaria-luxembourg",
-    "derniere_maj": "2026-09-15T00:42:33.989632+00:00",
+    "derniere_maj": "2026-09-15T03:10:48.688776+00:00",
     "statut": "ok"
   },
   {
@@ -3679,7 +3679,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326853884-iceland-estonia",
-    "derniere_maj": "2026-09-15T00:42:45.145295+00:00",
+    "derniere_maj": "2026-09-15T03:11:06.372518+00:00",
     "statut": "ok"
   },
   {
@@ -3805,7 +3805,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326853886-san-marino-finland",
-    "derniere_maj": "2026-09-15T00:42:45.877778+00:00",
+    "derniere_maj": "2026-09-15T03:11:07.889493+00:00",
     "statut": "ok"
   },
   {
@@ -3868,7 +3868,7 @@
       "1-3": "10"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326646082-faroe-islands-kazakhstan",
-    "derniere_maj": "2026-09-15T00:42:47.695685+00:00",
+    "derniere_maj": "2026-09-15T03:11:07.023088+00:00",
     "statut": "ok"
   },
   {
@@ -3980,7 +3980,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326971824-albania-belarus",
-    "derniere_maj": "2026-09-15T00:42:48.018318+00:00",
+    "derniere_maj": "2026-09-15T03:11:07.381651+00:00",
     "statut": "ok"
   },
   {
@@ -4110,7 +4110,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/327162848-england-spain",
-    "derniere_maj": "2026-09-15T00:42:47.890788+00:00",
+    "derniere_maj": "2026-09-15T03:11:07.386038+00:00",
     "statut": "ok"
   },
   {
@@ -4238,7 +4238,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326503384-republic-of-north-macedonia-switzerland",
-    "derniere_maj": "2026-09-15T00:42:46.053711+00:00",
+    "derniere_maj": "2026-09-15T03:11:07.390067+00:00",
     "statut": "ok"
   },
   {
@@ -4358,7 +4358,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/326971822-slovakia-moldova",
-    "derniere_maj": "2026-09-15T00:42:46.510164+00:00",
+    "derniere_maj": "2026-09-15T03:11:08.395786+00:00",
     "statut": "ok"
   },
   {
@@ -4405,8 +4405,8 @@
         "Moins de": "1.99"
       },
       "3": {
-        "Plus de": "2.35",
-        "Moins de": "1.54"
+        "Plus de": "2.32",
+        "Moins de": "1.55"
       },
       "3.5": {
         "Plus de": "2.88",
@@ -4443,14 +4443,14 @@
       "1 (-1.5)": "6.2",
       "2 (+1.5)": "1.074",
       "1 (-1)": "5.35",
-      "2 (+1)": "1.119",
+      "2 (+1)": "1.118",
       "1 (0)": "2.225",
       "2 (0)": "1.656",
       "1 (+1)": "1.27",
       "2 (-1)": "3.4",
       "1 (+1.5)": "1.171",
       "2 (-1.5)": "4.2",
-      "1 (+2)": "1.022",
+      "1 (+2)": "1.023",
       "2 (-2)": "7.9",
       "1 (+2.5)": "1.01",
       "2 (-2.5)": "8.7"
@@ -4488,7 +4488,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/327162868-czech-republic-croatia",
-    "derniere_maj": "2026-09-15T00:42:47.949717+00:00",
+    "derniere_maj": "2026-09-15T03:11:08.671274+00:00",
     "statut": "ok"
   },
   {
@@ -4600,7 +4600,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/342637486-lithuania-azerbaijan",
-    "derniere_maj": "2026-09-15T00:42:57.424162+00:00",
+    "derniere_maj": "2026-09-15T03:11:26.731173+00:00",
     "statut": "ok"
   },
   {
@@ -4726,7 +4726,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/344907356-austria-kosovo",
-    "derniere_maj": "2026-09-15T00:42:57.840082+00:00",
+    "derniere_maj": "2026-09-15T03:11:26.614007+00:00",
     "statut": "ok"
   },
   {
@@ -4834,7 +4834,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/343404996-gibraltar-andorra",
-    "derniere_maj": "2026-09-15T00:42:58.503326+00:00",
+    "derniere_maj": "2026-09-15T03:11:27.603606+00:00",
     "statut": "ok"
   },
   {
@@ -4842,18 +4842,18 @@
     "equipe_1": "Denmark",
     "equipe_2": "Wales",
     "1X2": {
-      "V1": "1.69",
-      "X": "3.74",
-      "V2": "5.1"
+      "V1": "1.675",
+      "X": "3.76",
+      "V2": "5.2"
     },
     "Total_2.5": {
       "Plus de": "2.105",
       "Moins de": "1.73"
     },
     "Double_Chance": {
-      "1X": "1.172",
+      "1X": "1.168",
       "12": "1.285",
-      "2X": "2.22"
+      "2X": "2.24"
     },
     "BTTS": {
       "Oui": "2",
@@ -4952,7 +4952,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/343941588-denmark-wales",
-    "derniere_maj": "2026-09-15T00:42:58.663358+00:00",
+    "derniere_maj": "2026-09-15T03:11:27.773097+00:00",
     "statut": "ok"
   },
   {
@@ -5074,7 +5074,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/344303610-serbia-netherlands",
-    "derniere_maj": "2026-09-15T00:43:00.790592+00:00",
+    "derniere_maj": "2026-09-15T03:11:28.453112+00:00",
     "statut": "ok"
   },
   {
@@ -5198,7 +5198,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/345183346-germany-greece",
-    "derniere_maj": "2026-09-15T00:43:00.730004+00:00",
+    "derniere_maj": "2026-09-15T03:11:27.596957+00:00",
     "statut": "ok"
   },
   {
@@ -5318,7 +5318,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/345472100-israel-republic-of-ireland",
-    "derniere_maj": "2026-09-15T00:43:00.743630+00:00",
+    "derniere_maj": "2026-09-15T03:11:27.534900+00:00",
     "statut": "ok"
   },
   {
@@ -5442,7 +5442,7 @@
       "3-4": "70"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/345183344-norway-portugal",
-    "derniere_maj": "2026-09-15T00:43:00.906338+00:00",
+    "derniere_maj": "2026-09-15T03:11:27.683317+00:00",
     "statut": "ok"
   },
   {
@@ -5564,7 +5564,7 @@
       "3-4": "100"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/345472098-georgia-ukraine",
-    "derniere_maj": "2026-09-15T00:43:07.246636+00:00",
+    "derniere_maj": "2026-09-15T03:11:36.491551+00:00",
     "statut": "ok"
   },
   {
@@ -5627,7 +5627,7 @@
       "1-3": "10"
     },
     "url": "https://paripesa.cm/fr/line/football/1706694-uefa-nations-league/345782500-armenia-montenegro",
-    "derniere_maj": "2026-09-15T00:43:07.651107+00:00",
+    "derniere_maj": "2026-09-15T03:11:38.768973+00:00",
     "statut": "ok"
   }
 ]
