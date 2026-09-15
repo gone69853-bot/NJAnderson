@@ -538,40 +538,24 @@ async def discover_matches(
 def to_lines(text):
 
     return [
-        re.sub(r"\s+", " ", line.strip())
+        line.strip()
         for line in text.split("\n")
         if line.strip()
     ]
 
 
-def _norm_label(value):
-    """Normalise les libellés pour accepter FR/EN et les variations
-    de casse/espacement des bookmakers."""
-    value = re.sub(r"\s+", " ", value.strip())
-    return value.casefold()
-
-
-def _find_market_index(lines, labels, start=0, max_scan=None):
-    labels = {_norm_label(x) for x in labels}
-    stop = len(lines) if max_scan is None else min(len(lines), start + max_scan)
-
-    for i in range(start, stop):
-        if _norm_label(lines[i]) in labels:
-            return i
-
-    return None
-
-
 def parse_1x2_block(lines):
 
-    i = _find_market_index(lines, {"1X2"})
-    if i is None:
+    try:
+        i = lines.index("1X2")
+    except ValueError:
         return None
 
     block = {}
     pos = i + 1
 
     for _ in range(3):
+
         if pos + 1 < len(lines):
             block[lines[pos]] = lines[pos + 1]
             pos += 2
@@ -579,86 +563,29 @@ def parse_1x2_block(lines):
     return block if len(block) == 3 else None
 
 
-def _parse_total_line(line):
-    """Retourne (ligne, côté) pour FR et EN.
-
-    Accepte par exemple :
-      2.5 Plus de
-      2.5 Moins de
-      Over 2.5
-      Under 2.5
-      Over 2,5
-      Under 2,5
-    """
-    value = _norm_label(line).replace(",", ".")
-
-    patterns = [
-        (r"^(\d+(?:\.\d+)?)\s+(plus de|moins de)$", "fr"),
-        (r"^(over|under)\s+(\d+(?:\.\d+)?)$", "en"),
-        (r"^(\d+(?:\.\d+)?)\s+(over|under)$", "en_reverse"),
-    ]
-
-    for pattern, kind in patterns:
-        m = re.match(pattern, value)
-        if not m:
-            continue
-
-        if kind == "fr":
-            line_value, side = m.group(1), m.group(2)
-            side = "Plus de" if side == "plus de" else "Moins de"
-        elif kind == "en":
-            side, line_value = m.group(1), m.group(2)
-            side = "Plus de" if side == "over" else "Moins de"
-        else:
-            line_value, side = m.group(1), m.group(2)
-            side = "Plus de" if side == "over" else "Moins de"
-
-        return line_value, side
-
-    return None
-
-
-def _find_total_heading(lines, start=0):
-    """Trouve le vrai bloc Total/Total Goals après le bloc 1X2."""
-    labels = {
-        "total",
-        "totals",
-        "total goals",
-        "total buts",
-        "total de buts",
-    }
-
-    for i in range(start, len(lines)):
-        if _norm_label(lines[i]) not in labels:
-            continue
-
-        # On valide le candidat uniquement s'il est suivi d'au moins
-        # une ligne de total reconnaissable dans les 80 lignes suivantes.
-        for j in range(i + 1, min(i + 80, len(lines))):
-            if _parse_total_line(lines[j]):
-                return i
-
-    return None
-
-
 def parse_total_block(lines):
 
-    i_1x2 = _find_market_index(lines, {"1X2"})
-    start = (i_1x2 + 1) if i_1x2 is not None else 0
-    i_total = _find_total_heading(lines, start)
-
-    if i_total is None:
+    try:
+        i_total = lines.index("Total")
+    except ValueError:
         return {"Plus de": None, "Moins de": None}
 
-    # Le parser détaillé ci-dessous gère toutes les lignes de Total.
-    totals = parse_all_totals_block(lines)
-    two_point_five = totals.get("2.5")
+    for j in range(i_total, min(i_total + 60, len(lines) - 3)):
 
-    if two_point_five:
-        return {
-            "Plus de": two_point_five.get("Plus de"),
-            "Moins de": two_point_five.get("Moins de"),
-        }
+        if lines[j] == "2.5 Plus de":
+
+            plus = lines[j + 1]
+
+            moins = (
+                lines[j + 3]
+                if (
+                    j + 2 < len(lines)
+                    and lines[j + 2] == "2.5 Moins de"
+                )
+                else None
+            )
+
+            return {"Plus de": plus, "Moins de": moins}
 
     return {"Plus de": None, "Moins de": None}
 
@@ -666,35 +593,37 @@ def parse_total_block(lines):
 # ============================================================
 # MARCHES SUPPLEMENTAIRES
 # ============================================================
+#
+# Même principe que 1X2/Total ci-dessus : chercher le titre du
+# marché dans le texte de la page, puis lire les paires
+# (libellé, cote) qui suivent, jusqu'à tomber sur une ligne qui
+# ne correspond plus au motif attendu (signe que le bloc suivant
+# a commencé).
+# ============================================================
 
-TOTAL_LINE_PLUS = re.compile(r"^\d+(?:[\.,]\d+)?\s+Plus de$", re.I)
-TOTAL_LINE_MOINS = re.compile(r"^\d+(?:[\.,]\d+)?\s+Moins de$", re.I)
-HANDICAP_LABEL = re.compile(r"^[12]\s+\([+-]?\d+(?:\.\d+)?\)$")
+TOTAL_LINE_PLUS = re.compile(r"^(\d+(?:\.\d+)?) Plus de$")
+TOTAL_LINE_MOINS = re.compile(r"^(\d+(?:\.\d+)?) Moins de$")
+HANDICAP_LABEL = re.compile(r"^[12] \([+-]?\d+(?:\.\d+)?\)$")
 SCORE_LABEL = re.compile(r"^\d+-\d+$")
 
 
 def parse_double_chance_block(lines):
 
-    i = _find_market_index(
-        lines,
-        {"Double chance", "Double Chance"}
-    )
-    if i is None:
+    try:
+        i = lines.index("Double chance")
+    except ValueError:
         return {"1X": None, "12": None, "2X": None}
 
     result = {}
     pos = i + 1
 
-    # Certains sites affichent X2, d'autres 2X. On conserve 2X dans
-    # le schéma interne de Zicote pour ne pas casser comparateur.py.
     for _ in range(3):
-        if pos + 1 >= len(lines):
-            break
 
-        label = lines[pos].strip().upper()
-        if label in ("1X", "12", "X2", "2X"):
-            key = "2X" if label in ("X2", "2X") else label
-            result[key] = lines[pos + 1]
+        if (
+            pos + 1 < len(lines)
+            and lines[pos] in ("1X", "12", "2X")
+        ):
+            result[lines[pos]] = lines[pos + 1]
             pos += 2
         else:
             break
@@ -708,34 +637,21 @@ def parse_double_chance_block(lines):
 
 def parse_btts_block(lines):
 
-    i = _find_market_index(
-        lines,
-        {
-            "Deux équipes vont marquer",
-            "Both Teams To Score",
-            "Both Teams to Score",
-            "Both teams score",
-            "Both teams to score",
-            "BTTS",
-        }
-    )
-    if i is None:
+    try:
+        i = lines.index("Deux équipes vont marquer")
+    except ValueError:
         return {"Oui": None, "Non": None}
 
     result = {}
     pos = i + 1
 
     for _ in range(2):
-        if pos + 1 >= len(lines):
-            break
 
-        label = _norm_label(lines[pos])
-
-        if label in ("oui", "yes"):
-            result["Oui"] = lines[pos + 1]
-            pos += 2
-        elif label in ("non", "no"):
-            result["Non"] = lines[pos + 1]
+        if (
+            pos + 1 < len(lines)
+            and lines[pos] in ("Oui", "Non")
+        ):
+            result[lines[pos]] = lines[pos + 1]
             pos += 2
         else:
             break
@@ -746,14 +662,15 @@ def parse_btts_block(lines):
     }
 
 
-def parse_all_totals_block(lines, max_span=100):
-    """Toutes les lignes de Total but disponibles, en français ou anglais."""
+def parse_all_totals_block(lines, max_span=60):
+    """Toutes les lignes de Total but disponibles (1.5, 2, 2.5,
+    etc.), pas seulement 2.5. Renvoie par ex. :
+    {"1.5": {"Plus de": "1.4", "Moins de": "2.64"}, "2": {...}, ...}
+    """
 
-    i_1x2 = _find_market_index(lines, {"1X2"})
-    start = (i_1x2 + 1) if i_1x2 is not None else 0
-    i = _find_total_heading(lines, start)
-
-    if i is None:
+    try:
+        i = lines.index("Total")
+    except ValueError:
         return {}
 
     result = {}
@@ -761,17 +678,24 @@ def parse_all_totals_block(lines, max_span=100):
     limit = min(i + max_span, len(lines))
 
     while pos < limit:
-        parsed = _parse_total_line(lines[pos])
 
-        if parsed and pos + 1 < len(lines):
-            line_value, side = parsed
-            result.setdefault(line_value, {})[side] = lines[pos + 1]
+        line = lines[pos]
+
+        m_plus = TOTAL_LINE_PLUS.match(line)
+        m_moins = TOTAL_LINE_MOINS.match(line) if not m_plus else None
+
+        if m_plus and pos + 1 < len(lines):
+            result.setdefault(m_plus.group(1), {})["Plus de"] = lines[pos + 1]
             pos += 2
             continue
 
-        # Une fois qu'un bloc a commencé, une ligne qui n'est plus une
-        # sélection Over/Under marque généralement le début du marché
-        # suivant.
+        if m_moins and pos + 1 < len(lines):
+            result.setdefault(m_moins.group(1), {})["Moins de"] = lines[pos + 1]
+            pos += 2
+            continue
+
+        # Une ligne qui ne colle plus au motif "X Plus de"/"X Moins
+        # de" signale la fin du bloc Total (ex. "Handicap").
         if result:
             break
 
@@ -781,10 +705,13 @@ def parse_all_totals_block(lines, max_span=100):
 
 
 def parse_handicap_block(lines, max_span=40):
-    """Renvoie les lignes de handicap telles qu'affichées."""
+    """Renvoie les lignes de handicap telles qu'affichées, ex. :
+    {"1 (-1)": "3.83", "2 (+1)": "1.2", "1 (0)": "1.56", "2 (0)": "2.21"}
+    """
 
-    i = _find_market_index(lines, {"Handicap"})
-    if i is None:
+    try:
+        i = lines.index("Handicap")
+    except ValueError:
         return {}
 
     result = {}
@@ -792,6 +719,7 @@ def parse_handicap_block(lines, max_span=40):
     limit = min(i + max_span, len(lines))
 
     while pos < limit:
+
         line = lines[pos]
 
         if HANDICAP_LABEL.match(line) and pos + 1 < len(lines):
@@ -808,13 +736,11 @@ def parse_handicap_block(lines, max_span=40):
 
 
 def parse_correct_score_block(lines, max_span=60):
-    """Score exact, ex. {"1-0": "5.85", "0-0": "7.19", ...}."""
+    """Score exact, ex. {"1-0": "5.85", "0-0": "7.19", ...}"""
 
-    i = _find_market_index(
-        lines,
-        {"Score exact", "Correct Score", "Correct score"}
-    )
-    if i is None:
+    try:
+        i = lines.index("Score exact")
+    except ValueError:
         return {}
 
     result = {}
@@ -822,6 +748,7 @@ def parse_correct_score_block(lines, max_span=60):
     limit = min(i + max_span, len(lines))
 
     while pos < limit:
+
         line = lines[pos]
 
         if SCORE_LABEL.match(line) and pos + 1 < len(lines):
@@ -1044,7 +971,7 @@ async def scrape_bookmaker(
 # pas bloquée sur ce site, contrairement aux autres.
 # ============================================================
 
-WIN1_LISTING_URL = "https://1win.com/betting/prematch?platform_type=mobile"
+WIN1_LISTING_URL = "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5"
 WIN1_MAX_TENTATIVES = 300  # jusqu'à 10 min pour que les cartes se chargent
 
 WIN1_MOTIF_COTE = re.compile(r"\d\.\d")
@@ -1214,10 +1141,7 @@ async def scrape_1win(playwright):
         # bloquée sur ce site.
         browser = await playwright.chromium.launch(headless=True)
 
-        page = await browser.new_page(
-            viewport={"width": 390, "height": 844},
-            locale="en-US",
-        )
+        page = await browser.new_page()
 
         await page.goto(
             WIN1_LISTING_URL,
@@ -1378,10 +1302,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
-
-
-
 
 
 
