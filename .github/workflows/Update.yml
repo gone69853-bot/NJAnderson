@@ -2,10 +2,7 @@ name: Zicote - Update Odds
 
 on:
   schedule:
-    # Toutes les 45 minutes (cron ne gère pas nativement les
-    # intervalles qui ne divisent pas 60, donc 4 lignes combinées
-    # pour couvrir :00, :45, :30, :15 en alternance — le cycle
-    # complet se reboucle toutes les 3h) :
+    # Toutes les 45 minutes
     # 0h00, 0h45, 1h30, 2h15, 3h00, 3h45, 4h30, 5h15, ...
     - cron: "0 0,3,6,9,12,15,18,21 * * *"
     - cron: "45 0,3,6,9,12,15,18,21 * * *"
@@ -60,6 +57,7 @@ jobs:
           git config user.name "zicote-bot"
           git config user.email "actions@users.noreply.github.com"
 
+          # Fichiers JSON des bookmakers
           git add \
             betwinner.json \
             melbet.json \
@@ -69,13 +67,14 @@ jobs:
             1xbet.json \
             paripesa.json
 
+          # Pages et données du comparateur
           git add -A docs/
 
-          # Fichiers de diagnostic (ex. debug_1win_carte.html) —
-          # générés seulement certaines fois, --ignore-unmatch évite
-          # que le run échoue quand aucun n'existe.
-          git add --ignore-unmatch -- debug_*.html debug_*.txt debug_*.json
+          # Fichiers de diagnostic.
+          # Le glob peut ne rien trouver : on ignore alors l'erreur.
+          git add debug_*.html debug_*.txt debug_*.json 2>/dev/null || true
 
+          # Vérifier s'il y a réellement quelque chose à publier
           if git diff --cached --quiet; then
             echo "Aucune modification."
             exit 0
@@ -83,18 +82,12 @@ jobs:
 
           git commit -m "Update odds"
 
-          # Le scraping peut durer longtemps : si un autre run a déjà
-          # poussé pendant ce temps, on récupère ses changements.
-          # Comme docs/*.json et docs/*/index.html sont entièrement
-          # RÉGÉNÉRÉS à chaque run (pas modifiés ligne à ligne), un
-          # rebase classique échoue sur presque tout conflit — deux
-          # scrapes différents n'ont rien à "fusionner" entre eux.
-          # On utilise donc un merge avec -X ours : en cas de
-          # conflit sur un fichier généré, notre version (la plus
-          # récente, tout juste scrapée) l'emporte systématiquement,
-          # ce qui est exactement le comportement souhaité ici.
+          # Récupérer les éventuelles modifications poussées
+          # par un autre run pendant le scraping.
           git fetch origin main
 
+          # En cas de conflit sur les fichiers générés,
+          # conserver notre version issue du scraping actuel.
           if ! git merge -X ours --no-edit origin/main; then
             echo "Conflit non résolu automatiquement, abandon."
             git merge --abort
