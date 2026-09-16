@@ -37,12 +37,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/olimpicos-habana-sporting-bellavista/</loc>
-        <lastmod>2026-09-16</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/ud-marianao-fr-santos-sporting/</loc>
         <lastmod>2026-09-16</lastmod>
         <changefreq>hourly</changefreq>
@@ -295,6 +289,12 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://zicote.site/finland-belarus/</loc>
+        <lastmod>2026-09-16</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://zicote.site/ac-omonia-celta/</loc>
         <lastmod>2026-09-16</lastmod>
         <changefreq>hourly</changefreq>
@@ -367,13 +367,13 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/olympiakos-le-piree-jagiellonia-bialystok/</loc>
+        <loc>https://zicote.site/ac-milan-sl-benfica-fc/</loc>
         <lastmod>2026-09-16</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/ac-milan-sl-benfica-fc/</loc>
+        <loc>https://zicote.site/olympiakos-le-piree-jagiellonia-bialystok/</loc>
         <lastmod>2026-09-16</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -529,6 +529,12 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://zicote.site/aston-villa-fenerbahce/</loc>
+        <lastmod>2026-09-16</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://zicote.site/manchester-city-paris-saint-germain/</loc>
         <lastmod>2026-09-16</lastmod>
         <changefreq>hourly</changefreq>
@@ -541,19 +547,13 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/aston-villa-fenerbahce/</loc>
+        <loc>https://zicote.site/real-betis-fc-porto/</loc>
         <lastmod>2026-09-16</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://zicote.site/fc-shakhtar-donetsk-aek-athenes/</loc>
-        <lastmod>2026-09-16</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/real-betis-fc-porto/</loc>
         <lastmod>2026-09-16</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -805,13 +805,7 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/finland-belarus/</loc>
-        <lastmod>2026-09-16</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/bulgaria-estonia/</loc>
+        <loc>https://zicote.site/v12-54-1x1-39/</loc>
         <lastmod>2026-09-16</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
