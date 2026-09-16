@@ -1533,6 +1533,20 @@ async def scrape_1win(playwright):
 
                         break
 
+                # Fichier de diagnostic (une seule fois) : aucun lien
+                # n'a été trouvé dans les cartes lors du dernier run
+                # (url_match toujours null) — on écrit le HTML brut
+                # d'une carte pour comprendre comment 1win structure
+                # la navigation vers la page d'un match.
+                debug_1win_html = ROOT / "debug_1win_carte.html"
+
+                if not debug_1win_html.exists() and cartes:
+
+                    debug_1win_html.write_text(
+                        cartes[0].get("html", ""),
+                        encoding="utf-8"
+                    )
+
                     await page.wait_for_timeout(2000)
 
                 rejetes = 0
@@ -1771,6 +1785,9 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
 
 
 
