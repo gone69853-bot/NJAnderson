@@ -498,28 +498,48 @@ async def discover_matches(
             if len(matches) >= max_matches:
                 break
 
-            try:
+            # Deux tentatives avec un court délai entre les deux :
+            # certains bookmakers (melbet en particulier) rebondissent
+            # entre plusieurs domaines miroirs au moment de la
+            # navigation ("interrupted by another navigation" /
+            # timeout), et retenter juste après laisse le temps à la
+            # redirection de se stabiliser au lieu d'abandonner tout
+            # le championnat dès le premier échec.
+            reussi = False
 
-                await page.goto(
-                    with_mobile_param(comp_url),
-                    timeout=60000,
-                    wait_until="domcontentloaded"
-                )
-                await page.wait_for_timeout(4000)
+            for tentative in range(2):
 
-                add_hrefs(
-                    await collect_hrefs_on_page(
-                        page,
-                        max_matches,
-                        max_stagnant=15
+                try:
+
+                    await page.goto(
+                        with_mobile_param(comp_url),
+                        timeout=60000,
+                        wait_until="domcontentloaded"
                     )
-                )
+                    await page.wait_for_timeout(4000)
 
-            except Exception as error:
+                    add_hrefs(
+                        await collect_hrefs_on_page(
+                            page,
+                            max_matches,
+                            max_stagnant=15
+                        )
+                    )
 
-                print(
-                    f"championnat ignoré ({comp_url}) : {error}"
-                )
+                    reussi = True
+                    break
+
+                except Exception as error:
+
+                    if tentative == 0:
+                        await page.wait_for_timeout(5000)
+                    else:
+                        print(
+                            f"championnat ignoré ({comp_url}) : "
+                            f"{error}"
+                        )
+
+            if not reussi:
                 continue
 
     return matches
@@ -848,6 +868,11 @@ async def scrape_match(
             }
 
         except Exception:
+            # Petite pause avant de retenter : sur melbet en
+            # particulier, retenter immédiatement retombe souvent
+            # dans la même redirection en boucle qu'à l'essai
+            # précédent.
+            await page.wait_for_timeout(4000)
             continue
 
     return None
@@ -979,6 +1004,8 @@ WIN1_LISTING_URLS = [
     "league-cup-983?p=mvh5&platform_type=mobile",
     "https://1win.com/fr-CI/betting/prematch/football-18/"
     "premier-league-919?p=mvh5&platform_type=mobile",
+    "https://1win.com/fr-CI/betting/prematch/football-18/"
+    "laliga-1232?p=mvh5&platform_type=mobile",
 ]
 WIN1_MAX_TENTATIVES = 300  # jusqu'à 10 min pour que les cartes se chargent
 
@@ -1002,12 +1029,15 @@ async def extraire_cartes_1win(page):
                     '[data-qa*="Odds"], [data-qa*="odd"], [class*="odd" i]'
                 )];
                 const oddsTexts = oddsNodes.map(e => (e.innerText || '').trim()).filter(Boolean);
+                const lienEl = carte.querySelector('a[href]')
+                    || carte.closest('a[href]');
                 resultat.push({
                     teamsText: teamsEl ? teamsEl.innerText : '',
                     oddsText: oddsEl ? oddsEl.innerText : '',
                     cardText: carte.innerText || '',
                     oddsTexts: oddsTexts,
-                    html: carte.innerHTML || ''
+                    html: carte.innerHTML || '',
+                    lien: lienEl ? lienEl.href : ''
                 });
             });
             return resultat;
@@ -1149,9 +1179,231 @@ def parser_carte_1win(carte, url_source):
         "equipe_2": equipe_2,
         "1X2": resultat_1x2,
         "Total_2.5": total_25,
+        # Lien vers la page individuelle du match (ex. .../betting/
+        # match/sport/brentford-vs-chelsea-39631841?p=mvh5), utilisé
+        # ensuite pour aller chercher les autres marchés.
+        "url_match": carte.get("lien") or None,
         "url": url_source,
         "derniere_maj": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "statut": "ok",
+    }
+
+
+WIN1_MOTIF_VALEUR_MARCHE = re.compile(r"^\d+(?:[.,]\d+)?$")
+WIN1_TOTAL_LIGNE = re.compile(
+    r"^(Moins De|Au-Dessus De)\s+(\d+(?:[.,]\d+)?)$", re.IGNORECASE
+)
+WIN1_HANDICAP_LIGNE = re.compile(r"^(.+?)\s+([+-]?\d+(?:[.,]\d+)?)$")
+WIN1_TITRES_BTTS = [
+    "Les deux équipes vont marquer",
+    "Deux équipes vont marquer",
+    "Les deux équipes marquent",
+]
+
+
+def parser_totals_1win(lignes):
+    """
+    1win affiche la table des Totaux sous forme "Moins De 0.5" /
+    valeur / "Au-Dessus De 0.5" / valeur (répété pour chaque seuil),
+    au lieu de "0.5 Plus de" comme les autres bookmakers. Renvoie
+    {"0.5": {"Plus de": "1.02", "Moins de": "13.5"}, "1.0": {...}, ...}
+    """
+    resultat = {}
+    for i, ligne in enumerate(lignes):
+        m = WIN1_TOTAL_LIGNE.match(ligne)
+        if not m or i + 1 >= len(lignes):
+            continue
+        sens = m.group(1).lower()
+        seuil = m.group(2).replace(",", ".")
+        valeur = lignes[i + 1]
+        cle = "Plus de" if sens == "au-dessus de" else "Moins de"
+        resultat.setdefault(seuil, {})[cle] = valeur
+    return resultat
+
+
+def parser_double_chance_1win(lignes, equipe_1, equipe_2):
+    """
+    1win libelle la double chance avec les noms d'équipe (ex.
+    "Brentford Ou Match Nul") plutôt qu'avec les jetons 1X/12/2X.
+    On retrouve le titre "Double chance" puis on associe chaque
+    libellé (parfois sur deux lignes) à 1X/12/2X selon les noms qui
+    y apparaissent.
+    """
+    try:
+        depart = lignes.index("Double chance")
+    except ValueError:
+        return {"1X": None, "12": None, "2X": None}
+
+    e1, e2 = equipe_1.lower(), equipe_2.lower()
+    resultat = {"1X": None, "12": None, "2X": None}
+    tampon = []
+    trouvees = 0
+
+    for ligne in lignes[depart + 1: depart + 31]:
+
+        if trouvees >= 3:
+            break
+
+        if WIN1_MOTIF_VALEUR_MARCHE.match(ligne):
+
+            if tampon:
+                libelle = " ".join(tampon).lower()
+                contient_e1 = e1 in libelle
+                contient_e2 = e2 in libelle
+                contient_nul = "nul" in libelle
+
+                if contient_e1 and contient_nul:
+                    resultat["1X"] = ligne
+                elif contient_e1 and contient_e2:
+                    resultat["12"] = ligne
+                elif contient_e2 and contient_nul:
+                    resultat["2X"] = ligne
+
+                trouvees += 1
+                tampon = []
+
+            continue
+
+        tampon.append(ligne)
+
+    return resultat
+
+
+def parser_handicap_1win(lignes, equipe_1, equipe_2):
+    """
+    1win libelle le handicap "Équipe -3.75" / "Équipe 3.75" (sans
+    parenthèses, et sans "+" explicite côté positif) — contrairement
+    à ma première hypothèse. On convertit en "1 (-1)" / "2 (+1)" pour
+    rester comparable aux autres bookmakers (voir HANDICAP_LABEL).
+    """
+    try:
+        depart = lignes.index("Handicap")
+    except ValueError:
+        return {}
+
+    e1, e2 = equipe_1.lower(), equipe_2.lower()
+    resultat = {}
+    limite = min(depart + 81, len(lignes) - 1)
+
+    for i in range(depart + 1, limite):
+
+        m = WIN1_HANDICAP_LIGNE.match(lignes[i])
+
+        if not m:
+            continue
+
+        nom = m.group(1).strip().lower()
+        valeur = m.group(2).replace(",", ".")
+
+        if e1 in nom:
+            jeton = "1"
+        elif e2 in nom:
+            jeton = "2"
+        else:
+            continue
+
+        # 1win n'affiche pas le "+" pour les valeurs positives
+        # (ex. "Lille 3.75") : on l'ajoute pour matcher le format
+        # "2 (+1)" utilisé par les autres bookmakers.
+        if not valeur.startswith(("-", "+")) and valeur != "0":
+            valeur = f"+{valeur}"
+
+        resultat[f"{jeton} ({valeur})"] = lignes[i + 1]
+
+    return resultat
+
+
+def parser_btts_1win(lignes):
+    """Titre exact inconnu côté 1win (non visible sur nos captures) :
+    on essaie plusieurs formulations plausibles."""
+
+    for titre in WIN1_TITRES_BTTS:
+
+        try:
+            depart = lignes.index(titre)
+        except ValueError:
+            continue
+
+        resultat = {}
+        pos = depart + 1
+
+        for _ in range(2):
+
+            if pos + 1 < len(lignes) and lignes[pos] in ("Oui", "Non"):
+                resultat[lignes[pos]] = lignes[pos + 1]
+                pos += 2
+            else:
+                break
+
+        return {"Oui": resultat.get("Oui"), "Non": resultat.get("Non")}
+
+    return {"Oui": None, "Non": None}
+
+
+def parser_score_exact_1win(lignes, max_span=60):
+    """Le format "1-0", "0-0" est le même quel que soit le bookmaker :
+    on réutilise directement SCORE_LABEL."""
+
+    try:
+        depart = lignes.index("Score exact")
+    except ValueError:
+        return {}
+
+    resultat = {}
+    pos = depart + 1
+    limite = min(depart + max_span, len(lignes))
+
+    while pos < limite:
+
+        ligne = lignes[pos]
+
+        if SCORE_LABEL.match(ligne) and pos + 1 < len(lignes):
+            resultat[ligne] = lignes[pos + 1]
+            pos += 2
+            continue
+
+        if resultat:
+            break
+
+        pos += 1
+
+    return resultat
+
+
+async def extraire_details_marches_1win(page, equipe_1, equipe_2):
+    """
+    Va chercher, sur la page individuelle d'un match 1win déjà
+    ouverte, les marchés Double chance / Total (tous les seuils) /
+    Handicap / BTTS / Score exact — pour que 1win soit comparable
+    aux autres bookmakers sur les mêmes marchés dans comparateur.py.
+    """
+
+    texte = ""
+
+    for _ in range(6):
+
+        texte = await page.inner_text("body")
+
+        if "Double chance" in texte or "Total" in texte:
+            break
+
+        await page.wait_for_timeout(2000)
+
+    lignes = to_lines(texte)
+
+    totals = parser_totals_1win(lignes)
+
+    return {
+        "Total_2.5": totals.get(
+            "2.5", {"Plus de": None, "Moins de": None}
+        ),
+        "Totals": totals,
+        "Double_Chance": parser_double_chance_1win(
+            lignes, equipe_1, equipe_2
+        ),
+        "Handicap": parser_handicap_1win(lignes, equipe_1, equipe_2),
+        "BTTS": parser_btts_1win(lignes),
+        "Score_Exact": parser_score_exact_1win(lignes),
     }
 
 
@@ -1229,7 +1481,10 @@ async def scrape_1win(playwright):
         # bloquée sur ce site.
         browser = await playwright.chromium.launch(headless=True)
 
-        page = await browser.new_page()
+        page = await browser.new_page(
+            locale="fr-FR",
+            extra_http_headers={"Accept-Language": "fr-FR,fr;q=0.9"}
+        )
 
         # On visite la page générale ET les championnats spécifiques
         # demandés (Ligue des Champions, Coupe de la Ligue, Premier
@@ -1306,6 +1561,104 @@ async def scrape_1win(playwright):
             except Exception as error:
 
                 print(f"[1win] ERREUR sur {url} : {error}")
+
+        # Deuxième passage : on va chercher, sur la page individuelle
+        # de CHAQUE match trouvé, les marchés Double chance, Total
+        # (tous les seuils), Handicap, BTTS et Score exact — pour que
+        # 1win soit comparable aux autres bookmakers sur ces mêmes
+        # marchés (voir comparateur.py). Plusieurs onglets en
+        # parallèle pour ne pas exploser la durée du run.
+        a_enrichir = [p for p in result if p.get("url_match")]
+
+        if a_enrichir:
+
+            semaphore = asyncio.Semaphore(MATCH_CONCURRENCY)
+
+            async def enrichir(parsed):
+
+                async with semaphore:
+
+                    detail_page = await browser.new_page(
+                        locale="fr-FR",
+                        extra_http_headers={
+                            "Accept-Language": "fr-FR,fr;q=0.9"
+                        }
+                    )
+
+                    try:
+
+                        for tentative in range(2):
+
+                            try:
+
+                                await detail_page.goto(
+                                    parsed["url_match"],
+                                    timeout=60000,
+                                    wait_until="domcontentloaded"
+                                )
+
+                                details = (
+                                    await extraire_details_marches_1win(
+                                        detail_page,
+                                        parsed["equipe_1"],
+                                        parsed["equipe_2"]
+                                    )
+                                )
+
+                                if (
+                                    details["Total_2.5"].get("Plus de")
+                                    or details["Total_2.5"].get(
+                                        "Moins de"
+                                    )
+                                ):
+                                    parsed["Total_2.5"] = (
+                                        details["Total_2.5"]
+                                    )
+
+                                parsed["Totals"] = details["Totals"]
+                                parsed["Double_Chance"] = (
+                                    details["Double_Chance"]
+                                )
+                                parsed["Handicap"] = details["Handicap"]
+                                parsed["BTTS"] = details["BTTS"]
+                                parsed["Score_Exact"] = (
+                                    details["Score_Exact"]
+                                )
+
+                                return
+
+                            except Exception:
+                                await detail_page.wait_for_timeout(4000)
+
+                        print(
+                            f"[1win] détail indisponible : "
+                            f"{parsed['equipe_1']} vs "
+                            f"{parsed['equipe_2']}"
+                        )
+
+                    finally:
+                        await detail_page.close()
+
+            await asyncio.gather(
+                *(enrichir(p) for p in a_enrichir)
+            )
+
+            print(
+                f"[1win] détail récupéré pour {len(a_enrichir)} "
+                f"match(s)"
+            )
+
+        # Les matchs sans lien de détail gardent quand même des
+        # champs vides pour ces marchés, pour rester dans le même
+        # format que les autres bookmakers.
+        for parsed in result:
+            parsed.setdefault("Totals", {})
+            parsed.setdefault(
+                "Double_Chance", {"1X": None, "12": None, "2X": None}
+            )
+            parsed.setdefault("Handicap", {})
+            parsed.setdefault("BTTS", {"Oui": None, "Non": None})
+            parsed.setdefault("Score_Exact", {})
 
         await browser.close()
 
@@ -1418,6 +1771,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
