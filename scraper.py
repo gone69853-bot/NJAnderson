@@ -1,6 +1,7 @@
 import datetime
 import json
 import re
+import unicodedata
 
 from pathlib import Path
 from urllib.parse import urlparse
@@ -836,6 +837,7 @@ async def scrape_match(
             if not block:
                 continue
 
+            noms_bloc = list(block.keys())
             values = list(block.values())
 
             odds = {
@@ -844,15 +846,43 @@ async def scrape_match(
                 "V2": values[2],
             }
 
+            # extract_teams_from_slug (utilisé à la découverte) coupe
+            # le slug de l'URL "en deux au milieu du nombre de mots" :
+            # ça casse dès qu'une équipe a un nom plus long que
+            # l'autre (ex. "barcelona-racing-de-santander" devient
+            # "Barcelona Racing" / "De Santander" au lieu de
+            # "Barcelona" / "Racing De Santander"). Les libellés
+            # affichés juste sous "1X2" sur la page sont les vrais
+            # noms d'équipe : on leur fait confiance quand ils sont
+            # disponibles, plutôt qu'au découpage du slug.
+            equipe_1 = match.get("equipe_1")
+            equipe_2 = match.get("equipe_2")
+
+            if len(noms_bloc) == 3:
+
+                candidat_1, candidat_2 = noms_bloc[0], noms_bloc[2]
+
+                if (
+                    len(candidat_1) > 2
+                    and candidat_1.lower() not in ("1", "x", "2", "draw", "nul")
+                ):
+                    equipe_1 = candidat_1
+
+                if (
+                    len(candidat_2) > 2
+                    and candidat_2.lower() not in ("1", "x", "2", "draw", "nul")
+                ):
+                    equipe_2 = candidat_2
+
             total = parse_total_block(lines)
 
             return {
 
                 "bookmaker": bookmaker,
 
-                "equipe_1": match.get("equipe_1"),
+                "equipe_1": equipe_1,
 
-                "equipe_2": match.get("equipe_2"),
+                "equipe_2": equipe_2,
 
                 "1X2": odds,
 
@@ -1057,6 +1087,45 @@ async def extraire_cartes_1win(page):
     )
 
 
+# 1win traduit certains noms d'équipe en français (ex. "Palais de
+# Cristal" pour Crystal Palace), ce qui empêche comparateur.py de les
+# rapprocher des mêmes matchs chez les autres bookmakers, qui gardent
+# la graphie standard. Table construite à partir des traductions
+# repérées dans nos runs — à compléter si d'autres apparaissent.
+WIN1_ALIAS_EQUIPES = {
+    "palais de cristal": "Crystal Palace",
+    "celtique": "Celtic",
+    "come": "Como",
+    "seville": "Sevilla",
+    "naples": "Napoli",
+    "lentille": "Lens",
+    "foret de nottingham": "Nottingham Forest",
+    "ville de coventry": "Coventry City",
+    "ville de norwich": "Norwich City",
+    "ville de hull": "Hull City",
+    "ville de fleetwood": "Fleetwood Town",
+    "ville d ipswich": "Ipswich Town",
+    "fc barcelone": "Barcelona",
+    "union royale saint gilloise": "Royale Union Saint-Gilloise",
+}
+
+
+def traduire_equipe_1win(nom):
+    """Convertit un nom d'équipe traduit par 1win vers la graphie
+    standard utilisée par les autres bookmakers, quand on la connaît."""
+
+    if not nom:
+        return nom
+
+    cle = unicodedata.normalize(
+        "NFKD", nom
+    ).encode("ascii", "ignore").decode("ascii").lower().strip()
+
+    cle = re.sub(r"[^a-z0-9]+", " ", cle).strip()
+
+    return WIN1_ALIAS_EQUIPES.get(cle, nom)
+
+
 def _normaliser_cote(valeur):
     """Retourne une cote décimale plausible sous forme de chaîne."""
     if valeur is None:
@@ -1110,6 +1179,8 @@ def parser_carte_1win(carte, url_source):
         return None
 
     equipe_1, equipe_2 = lignes_equipes[0], lignes_equipes[1]
+    equipe_1 = traduire_equipe_1win(equipe_1)
+    equipe_2 = traduire_equipe_1win(equipe_2)
 
     textes_cotes = []
     for cle in ("oddsText", "cardText"):
@@ -1796,6 +1867,10 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+
 
 
 
