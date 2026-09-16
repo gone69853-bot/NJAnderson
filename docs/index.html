@@ -587,11 +587,17 @@ function render(list) {
 
     const app = document.getElementById("app");
 
+    // Page d'accueil : uniquement le résultat 1X2, comme la plupart
+    // des bookmakers (liste de matchs épurée). Les autres marchés
+    // (Double chance, Total, Handicap, BTTS, Score exact) ne
+    // s'affichent que sur la fiche individuelle du match, au clic.
+    const HOME_TYPE_ORDER = ["1X2"];
+
     const sections = list.map(match => {
 
         const typesPresent = new Set(match.marches.map(m => m.type));
 
-        const tables = TYPE_ORDER
+        const tables = HOME_TYPE_ORDER
             .filter(type => typesPresent.has(type))
             .map(type => renderMarketTable(match, type, TYPE_TITLES[type] || type))
             .join("");
@@ -716,3 +722,4 @@ fetch("comparison.json", { cache: "no-store" })
 </script>
 </body>
 </html>
+
