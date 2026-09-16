@@ -71,6 +71,11 @@ jobs:
 
           git add -A docs/
 
+          # Fichiers de diagnostic (ex. debug_1win_carte.html) —
+          # générés seulement certaines fois, --ignore-unmatch évite
+          # que le run échoue quand aucun n'existe.
+          git add --ignore-unmatch -- debug_*.html debug_*.txt debug_*.json
+
           if git diff --cached --quiet; then
             echo "Aucune modification."
             exit 0
