@@ -498,16 +498,18 @@ async def discover_matches(
             if len(matches) >= max_matches:
                 break
 
-            # Deux tentatives avec un court délai entre les deux :
-            # certains bookmakers (melbet en particulier) rebondissent
-            # entre plusieurs domaines miroirs au moment de la
-            # navigation ("interrupted by another navigation" /
-            # timeout), et retenter juste après laisse le temps à la
-            # redirection de se stabiliser au lieu d'abandonner tout
-            # le championnat dès le premier échec.
+            # Sur melbet en particulier, le site rebondit entre
+            # plusieurs domaines miroirs au moment de la navigation
+            # ("interrupted by another navigation" / timeout) : on
+            # lui laisse plus de tentatives et un délai plus long
+            # entre chacune, le temps que la redirection se
+            # stabilise, au lieu d'abandonner tout le championnat
+            # dès le premier échec.
+            max_essais_champ = 4 if "melbet" in comp_url else 2
+
             reussi = False
 
-            for tentative in range(2):
+            for tentative in range(max_essais_champ):
 
                 try:
 
@@ -531,8 +533,10 @@ async def discover_matches(
 
                 except Exception as error:
 
-                    if tentative == 0:
-                        await page.wait_for_timeout(5000)
+                    if tentative < max_essais_champ - 1:
+                        await page.wait_for_timeout(
+                            5000 + tentative * 3000
+                        )
                     else:
                         print(
                             f"championnat ignoré ({comp_url}) : "
@@ -792,6 +796,13 @@ async def scrape_match(
     nb_essais=2
 ):
 
+    # melbet rebondit fréquemment entre domaines miroirs
+    # (melbet-cm.com <-> melbetjp.com) au moment de la navigation :
+    # on lui laisse plus de tentatives et plus de temps entre
+    # chacune pour que la redirection se stabilise.
+    if bookmaker == "melbet":
+        nb_essais = 4
+
     for attempt in range(nb_essais):
 
         try:
@@ -868,11 +879,11 @@ async def scrape_match(
             }
 
         except Exception:
-            # Petite pause avant de retenter : sur melbet en
-            # particulier, retenter immédiatement retombe souvent
-            # dans la même redirection en boucle qu'à l'essai
-            # précédent.
-            await page.wait_for_timeout(4000)
+            # Pause avant de retenter, plus longue à chaque échec
+            # successif : sur melbet en particulier, retenter
+            # immédiatement retombe souvent dans la même redirection
+            # en boucle qu'à l'essai précédent.
+            await page.wait_for_timeout(4000 + attempt * 3000)
             continue
 
     return None
