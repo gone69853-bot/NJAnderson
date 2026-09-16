@@ -1,156 +1,12 @@
 [
   {
     "bookmaker": "melbet",
-    "equipe_1": "Barcelona Racing",
-    "equipe_2": "De Santander",
-    "1X2": {
-      "V1": "1.056",
-      "X": "14",
-      "V2": "30"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-6.5)": "6.2",
-      "2 (+6.5)": "1.1",
-      "1 (-6)": "6.3",
-      "2 (+6)": "1.091",
-      "1 (-5.5)": "4.9",
-      "2 (+5.5)": "1.11",
-      "1 (-5)": "4.33",
-      "2 (+5)": "1.144",
-      "1 (-4.5)": "2.98",
-      "2 (+4.5)": "1.32",
-      "1 (-4)": "2.56",
-      "2 (+4)": "1.45",
-      "1 (-3.5)": "2.05",
-      "2 (+3.5)": "1.77",
-      "1 (-3)": "1.696",
-      "2 (+3)": "2.155",
-      "1 (-2.5)": "1.48",
-      "2 (+2.5)": "2.54",
-      "1 (-2)": "1.24",
-      "2 (+2)": "3.64"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/127733-spain-la-liga/367117368-barcelona-racing-de-santander",
-    "derniere_maj": "2026-09-16T08:11:04.277843+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Bayer 04",
-    "equipe_2": "Leverkusen Celje",
-    "1X2": {
-      "V1": "1.08",
-      "X": "11",
-      "V2": "24"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-5.5)": "6.55",
-      "2 (+5.5)": "1.05",
-      "1 (-5)": "6.05",
-      "2 (+5)": "1.064",
-      "1 (-4.5)": "3.86",
-      "2 (+4.5)": "1.181",
-      "1 (-4)": "3.35",
-      "2 (+4)": "1.24",
-      "1 (-3.5)": "2.43",
-      "2 (+3.5)": "1.47",
-      "1 (-3)": "2.03",
-      "2 (+3)": "1.7",
-      "1 (-2.5)": "1.715",
-      "2 (+2.5)": "2.125",
-      "1 (-2)": "1.38",
-      "2 (+2)": "2.81",
-      "1 (-1.5)": "1.27",
-      "2 (+1.5)": "3.28",
-      "1 (-1)": "1.095",
-      "2 (+1)": "5.25"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/118593-uefa-europa-league/364904752-bayer-04-leverkusen-celje",
-    "derniere_maj": "2026-09-16T08:10:29.366548+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Milan",
-    "equipe_2": "Benfica",
-    "1X2": {
-      "V1": "2.245",
-      "X": "3.54",
-      "V2": "3.075"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "7.9",
-      "2 (+2.5)": "1.033",
-      "1 (-2)": "7.3",
-      "2 (+2)": "1.056",
-      "1 (-1.5)": "4.1",
-      "2 (+1.5)": "1.21",
-      "1 (-1)": "3.38",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.656",
-      "2 (0)": "2.23",
-      "1 (+1)": "1.12",
-      "2 (-1)": "4.95",
-      "1 (+1.5)": "1.077",
-      "2 (-1.5)": "5.65"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/118593-uefa-europa-league/364904750-milan-benfica",
-    "derniere_maj": "2026-09-16T08:10:21.666622+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
     "equipe_1": "Anderlecht",
     "equipe_2": "Lyon",
     "1X2": {
-      "V1": "2.85",
+      "V1": "2.92",
       "X": "3.56",
-      "V2": "2.37"
+      "V2": "2.325"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -167,36 +23,36 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2)": "11",
+      "1 (-2)": "11.5",
       "2 (+2)": "1.01",
-      "1 (-1.5)": "5.6",
-      "2 (+1.5)": "1.102",
-      "1 (-1)": "4.75",
-      "2 (+1)": "1.156",
-      "1 (0)": "2.08",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.55",
-      "1 (+1.5)": "1.165",
-      "2 (-1.5)": "4.4",
-      "1 (+2)": "1.023",
-      "2 (-2)": "8.2",
-      "1 (+2.5)": "1.008",
-      "2 (-2.5)": "8.9"
+      "1 (-1.5)": "5.75",
+      "2 (+1.5)": "1.095",
+      "1 (-1)": "4.95",
+      "2 (+1)": "1.146",
+      "1 (0)": "2.14",
+      "2 (0)": "1.71",
+      "1 (+1)": "1.27",
+      "2 (-1)": "3.48",
+      "1 (+1.5)": "1.174",
+      "2 (-1.5)": "4.25",
+      "1 (+2)": "1.028",
+      "2 (-2)": "7.9",
+      "1 (+2.5)": "1.011",
+      "2 (-2.5)": "8.6"
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/118593-uefa-europa-league/364904754-anderlecht-lyon",
-    "derniere_maj": "2026-09-16T08:10:21.781051+00:00",
+    "derniere_maj": "2026-09-16T09:36:37.202618+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Austin ",
-    "equipe_2": "Fusion ",
+    "equipe_1": "Caernarfon Town",
+    "equipe_2": "Cambrian United",
     "1X2": {
-      "V1": "2.37",
-      "X": "3.01",
-      "V2": "2.19"
+      "V1": "1.42",
+      "X": "4.5",
+      "V2": "6.13"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -213,26 +69,22 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1)": "3.26",
-      "2 (+1)": "1.27",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.34",
-      "2 (-1)": "2.9"
+      "1 (0)": "1.16",
+      "2 (0)": "4.4"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083592-austin--fusion-",
-    "derniere_maj": "2026-09-16T08:11:04.266818+00:00",
+    "url": "https://melbet-cm.com/en/line/football/13721-wales-premier-league/369823166-caernarfon-town-cambrian-united",
+    "derniere_maj": "2026-09-16T09:36:18.840769+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Austin ",
-    "equipe_2": "St Louis ",
+    "equipe_1": "Colwyn Bay",
+    "equipe_2": "Barry Town",
     "1X2": {
-      "V1": "2.2",
-      "X": "3.01",
-      "V2": "2.4"
+      "V1": "2.44",
+      "X": "3.2",
+      "V2": "2.65"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -249,26 +101,22 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1)": "2.98",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.36"
+      "1 (0)": "1.78",
+      "2 (0)": "1.92"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083572-austin--st-louis-",
-    "derniere_maj": "2026-09-16T08:11:04.278273+00:00",
+    "url": "https://melbet-cm.com/en/line/football/13721-wales-premier-league/369512094-colwyn-bay-barry-town",
+    "derniere_maj": "2026-09-16T09:36:18.860475+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Charleston ",
+    "equipe_1": "Connahs Quay Nomads",
+    "equipe_2": "Cardiff Metropolitan University",
     "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
+      "V1": "1.72",
+      "X": "3.65",
+      "V2": "4.325"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -285,242 +133,22 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
+      "1 (0)": "1.29",
+      "2 (0)": "3.15"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083582-birmingham--charleston-",
-    "derniere_maj": "2026-09-16T08:10:21.807555+00:00",
+    "url": "https://melbet-cm.com/en/line/football/13721-wales-premier-league/369507318-connahs-quay-nomads-cardiff-metropolitan-university",
+    "derniere_maj": "2026-09-16T09:37:12.507786+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Hartford ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083560-birmingham--hartford-",
-    "derniere_maj": "2026-09-16T08:10:42.899206+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083584-birmingham--loudoun-",
-    "derniere_maj": "2026-09-16T08:10:31.552066+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Charleston ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083656-charleston--loudoun-",
-    "derniere_maj": "2026-09-16T08:10:42.896302+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Hartford ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083816-hartford--loudoun-",
-    "derniere_maj": "2026-09-16T08:10:47.085815+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Los Angeles",
-    "equipe_2": " Austin ",
-    "1X2": {
-      "V1": "2.4",
-      "X": "3.01",
-      "V2": "2.2"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.36",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "2.98"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083822-los-angeles--austin-",
-    "derniere_maj": "2026-09-16T08:10:51.036942+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Los Angeles ",
-    "equipe_2": "St Louis ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.11",
-      "V2": "2.39"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.94",
-      "2 (+1)": "1.33",
-      "1 (0)": "1.76",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.31"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083834-los-angeles--st-louis-",
-    "derniere_maj": "2026-09-16T08:11:04.873578+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Los Angeles",
-    "equipe_2": " Fusion ",
+    "equipe_1": "Airbus Uk Broughton",
+    "equipe_2": "Flint Town United",
     "1X2": {
       "V1": "2.5",
-      "X": "3.08",
-      "V2": "2.11"
+      "X": "3.45",
+      "V2": "2.44"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -537,16 +165,52 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1)": "3.55",
-      "2 (+1)": "1.23",
-      "1 (0)": "2",
-      "2 (0)": "1.69",
-      "1 (+1)": "1.36",
-      "2 (-1)": "2.79"
+      "1 (0)": "1.87",
+      "2 (0)": "1.83"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370083814-los-angeles--fusion-",
-    "derniere_maj": "2026-09-16T08:11:04.874012+00:00",
+    "url": "https://melbet-cm.com/en/line/football/13721-wales-premier-league/369507326-airbus-uk-broughton-flint-town-united",
+    "derniere_maj": "2026-09-16T09:36:39.272979+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Andorra",
+    "equipe_2": "Malta",
+    "1X2": {
+      "V1": "3.22",
+      "X": "2.86",
+      "V2": "2.544"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "7.2",
+      "2 (+1.5)": "1.048",
+      "1 (-1)": "6.3",
+      "2 (+1)": "1.084",
+      "1 (0)": "2.155",
+      "2 (0)": "1.7",
+      "1 (+1)": "1.172",
+      "2 (-1)": "4.4",
+      "1 (+1.5)": "1.105",
+      "2 (-1.5)": "5.35"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/325699846-andorra-malta",
+    "derniere_maj": "2026-09-16T09:37:02.605158+00:00",
     "statut": "ok"
   },
   {
@@ -590,17 +254,17 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/325575978-kosovo-republic-of-ireland",
-    "derniere_maj": "2026-09-16T08:11:16.964898+00:00",
+    "derniere_maj": "2026-09-16T09:37:48.643818+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Liechtenstein",
-    "equipe_2": "Lithuania",
+    "equipe_1": "Netherlands",
+    "equipe_2": "Germany",
     "1X2": {
-      "V1": "10",
-      "X": "4.16",
-      "V2": "1.395"
+      "V1": "2.3",
+      "X": "3.7",
+      "V2": "2.87"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -617,24 +281,72 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (0)": "6.85",
-      "2 (0)": "1.069",
-      "1 (+1)": "2.205",
-      "2 (-1)": "1.67",
-      "1 (+1.5)": "1.61",
-      "2 (-1.5)": "2.2",
-      "1 (+2)": "1.27",
-      "2 (-2)": "3.34",
-      "1 (+2.5)": "1.175",
-      "2 (-2.5)": "4.05",
-      "1 (+3)": "1.033",
-      "2 (-3)": "7.3",
-      "1 (+3.5)": "1.02",
-      "2 (-3.5)": "8"
+      "1 (-2.5)": "8.5",
+      "2 (+2.5)": "1.012",
+      "1 (-2)": "7.7",
+      "2 (+2)": "1.026",
+      "1 (-1.5)": "4.15",
+      "2 (+1.5)": "1.177",
+      "1 (-1)": "3.34",
+      "2 (+1)": "1.28",
+      "1 (0)": "1.71",
+      "2 (0)": "2.14",
+      "1 (+1)": "1.147",
+      "2 (-1)": "4.8",
+      "1 (+1.5)": "1.093",
+      "2 (-1.5)": "5.65",
+      "1 (+2)": "1.02",
+      "2 (-2)": "10.5",
+      "1 (+2.5)": "1.01",
+      "2 (-2.5)": "11.5"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/325699854-liechtenstein-lithuania",
-    "derniere_maj": "2026-09-16T08:11:29.762806+00:00",
+    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/325372158-netherlands-germany",
+    "derniere_maj": "2026-09-16T09:38:07.675572+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Georgia",
+    "equipe_2": "Northern Ireland",
+    "1X2": {
+      "V1": "1.925",
+      "X": "3.48",
+      "V2": "4.04"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "7.4",
+      "2 (+2.5)": "1.03",
+      "1 (-2)": "6.5",
+      "2 (+2)": "1.052",
+      "1 (-1.5)": "3.42",
+      "2 (+1.5)": "1.25",
+      "1 (-1)": "2.69",
+      "2 (+1)": "1.41",
+      "1 (0)": "1.4",
+      "2 (0)": "2.944",
+      "1 (+1)": "1.036",
+      "2 (-1)": "8.6",
+      "1 (+1.5)": "1.011",
+      "2 (-1.5)": "9.6"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/325871868-georgia-northern-ireland",
+    "derniere_maj": "2026-09-16T09:38:07.135083+00:00",
     "statut": "ok"
   },
   {
@@ -682,7 +394,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/326342396-poland-bosnia-and-herzegovina",
-    "derniere_maj": "2026-09-16T08:11:54.709740+00:00",
+    "derniere_maj": "2026-09-16T09:38:24.643702+00:00",
     "statut": "ok"
   },
   {
@@ -730,17 +442,17 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/325995560-turkey-france",
-    "derniere_maj": "2026-09-16T08:11:45.281427+00:00",
+    "derniere_maj": "2026-09-16T09:39:01.808060+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Faroe",
-    "equipe_2": "Islands Kazakhstan",
+    "equipe_1": "Montenegro",
+    "equipe_2": "Cyprus",
     "1X2": {
-      "V1": "2.58",
-      "X": "3.16",
-      "V2": "2.58"
+      "V1": "1.52",
+      "X": "3.92",
+      "V2": "7.1"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -757,22 +469,34 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (0)": "1.83",
-      "2 (0)": "1.83"
+      "1 (-3.5)": "8.9",
+      "2 (+3.5)": "1.007",
+      "1 (-3)": "8.1",
+      "2 (+3)": "1.018",
+      "1 (-2.5)": "4.4",
+      "2 (+2.5)": "1.148",
+      "1 (-2)": "3.65",
+      "2 (+2)": "1.23",
+      "1 (-1.5)": "2.375",
+      "2 (+1.5)": "1.53",
+      "1 (-1)": "1.848",
+      "2 (+1)": "1.955",
+      "1 (0)": "1.122",
+      "2 (0)": "5.3"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/326646082-faroe-islands-kazakhstan",
-    "derniere_maj": "2026-09-16T08:12:16.510849+00:00",
+    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/326182840-montenegro-cyprus",
+    "derniere_maj": "2026-09-16T09:39:21.687340+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Republic Of",
-    "equipe_2": "North Macedonia Switzerland",
+    "equipe_1": "Bulgaria",
+    "equipe_2": "Luxembourg",
     "1X2": {
-      "V1": "7.7",
-      "X": "4.72",
-      "V2": "1.4"
+      "V1": "1.904",
+      "X": "3.32",
+      "V2": "4.38"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -789,24 +513,118 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (0)": "5.9",
-      "2 (0)": "1.098",
-      "1 (+1)": "2.275",
-      "2 (-1)": "1.63",
-      "1 (+1.5)": "1.666",
-      "2 (-1.5)": "2.11",
-      "1 (+2)": "1.32",
-      "2 (-2)": "3.04",
-      "1 (+2.5)": "1.21",
-      "2 (-2.5)": "3.68",
-      "1 (+3)": "1.05",
-      "2 (-3)": "6.55",
-      "1 (+3.5)": "1.033",
-      "2 (-3.5)": "7.3"
+      "1 (-2.5)": "7.3",
+      "2 (+2.5)": "1.04",
+      "1 (-2)": "6.55",
+      "2 (+2)": "1.07",
+      "1 (-1.5)": "3.48",
+      "2 (+1.5)": "1.27",
+      "1 (-1)": "2.744",
+      "2 (+1)": "1.45",
+      "1 (0)": "1.33",
+      "2 (0)": "3.04",
+      "1 (+1)": "1.011",
+      "2 (-1)": "9.1",
+      "1 (+1.5)": "1.02",
+      "2 (-1.5)": "9.3"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/326503384-republic-of-north-macedonia-switzerland",
-    "derniere_maj": "2026-09-16T08:12:10.611843+00:00",
+    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/326646072-bulgaria-luxembourg",
+    "derniere_maj": "2026-09-16T09:39:29.060692+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "San",
+    "equipe_2": "Marino Finland",
+    "1X2": {
+      "V1": "27",
+      "X": "11",
+      "V2": "1.07"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "10",
+      "2 (0)": "1.01",
+      "1 (+1)": "5.9",
+      "2 (-1)": "1.08",
+      "1 (+1.5)": "3.1",
+      "2 (-1.5)": "1.31",
+      "1 (+2)": "2.4",
+      "2 (-2)": "1.51",
+      "1 (+2.5)": "1.8",
+      "2 (-2.5)": "1.94",
+      "1 (+3)": "1.45",
+      "2 (-3)": "2.55",
+      "1 (+3.5)": "1.29",
+      "2 (-3.5)": "3.2",
+      "1 (+4)": "1.12",
+      "2 (-4)": "5",
+      "1 (+4.5)": "1.09",
+      "2 (-4.5)": "5.7",
+      "1 (+5)": "1.01",
+      "2 (-5)": "9.8"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/326853886-san-marino-finland",
+    "derniere_maj": "2026-09-16T09:39:56.322418+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Albania",
+    "equipe_2": "Belarus",
+    "1X2": {
+      "V1": "1.42",
+      "X": "4.34",
+      "V2": "8.3"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "8.2",
+      "2 (+3.5)": "1.017",
+      "1 (-3)": "7.5",
+      "2 (+3)": "1.028",
+      "1 (-2.5)": "4.15",
+      "2 (+2.5)": "1.166",
+      "1 (-2)": "3.42",
+      "2 (+2)": "1.26",
+      "1 (-1.5)": "2.26",
+      "2 (+1.5)": "1.58",
+      "1 (-1)": "1.71",
+      "2 (+1)": "2.14",
+      "1 (0)": "1.096",
+      "2 (0)": "5.95"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/326971824-albania-belarus",
+    "derniere_maj": "2026-09-16T09:41:39.899547+00:00",
     "statut": "ok"
   },
   {
@@ -850,93 +668,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/326971822-slovakia-moldova",
-    "derniere_maj": "2026-09-16T08:12:23.931021+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Czech",
-    "equipe_2": "Republic Croatia",
-    "1X2": {
-      "V1": "3.056",
-      "X": "3.48",
-      "V2": "2.285"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2)": "12.5",
-      "2 (+2)": "1.01",
-      "1 (-1.5)": "6.2",
-      "2 (+1.5)": "1.073",
-      "1 (-1)": "5.35",
-      "2 (+1)": "1.118",
-      "1 (0)": "2.225",
-      "2 (0)": "1.656",
-      "1 (+1)": "1.27",
-      "2 (-1)": "3.4",
-      "1 (+1.5)": "1.171",
-      "2 (-1.5)": "4.2",
-      "1 (+2)": "1.023",
-      "2 (-2)": "7.9",
-      "1 (+2.5)": "1.01",
-      "2 (-2.5)": "8.7"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/327162868-czech-republic-croatia",
-    "derniere_maj": "2026-09-16T08:12:28.752874+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Lithuania",
-    "equipe_2": "Azerbaijan",
-    "1X2": {
-      "V1": "2.73",
-      "X": "3.07",
-      "V2": "2.77"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1.5)": "6.1",
-      "2 (+1.5)": "1.077",
-      "1 (-1)": "5",
-      "2 (+1)": "1.135",
-      "1 (0)": "1.89",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.128",
-      "2 (-1)": "5.15",
-      "1 (+1.5)": "1.072",
-      "2 (-1.5)": "6.25"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/342637486-lithuania-azerbaijan",
-    "derniere_maj": "2026-09-16T08:12:29.185691+00:00",
+    "derniere_maj": "2026-09-16T09:39:42.472566+00:00",
     "statut": "ok"
   },
   {
@@ -982,47 +714,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/344907356-austria-kosovo",
-    "derniere_maj": "2026-09-16T08:12:22.388335+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Gibraltar",
-    "equipe_2": "Andorra",
-    "1X2": {
-      "V1": "2.816",
-      "X": "2.885",
-      "V2": "2.85"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1.5)": "6.2",
-      "2 (+1.5)": "1.074",
-      "1 (-1)": "5.25",
-      "2 (+1)": "1.124",
-      "1 (0)": "1.89",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.12",
-      "2 (-1)": "5.3",
-      "1 (+1.5)": "1.071",
-      "2 (-1.5)": "6.3"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/343404996-gibraltar-andorra",
-    "derniere_maj": "2026-09-16T08:12:30.832315+00:00",
+    "derniere_maj": "2026-09-16T09:40:22.914109+00:00",
     "statut": "ok"
   },
   {
@@ -1068,7 +760,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/343941588-denmark-wales",
-    "derniere_maj": "2026-09-16T08:12:33.904312+00:00",
+    "derniere_maj": "2026-09-16T09:40:40.585053+00:00",
     "statut": "ok"
   },
   {
@@ -1107,14 +799,110 @@
       "2 (-1.5)": "2.94",
       "1 (+2)": "1.13",
       "2 (-2)": "4.95",
-      "1 (+2.5)": "1.086",
+      "1 (+2.5)": "1.087",
       "2 (-2.5)": "5.6",
       "1 (+3)": "1.01",
       "2 (-3)": "12"
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/344303610-serbia-netherlands",
-    "derniere_maj": "2026-09-16T08:12:27.246937+00:00",
+    "derniere_maj": "2026-09-16T09:40:53.561252+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Germany",
+    "equipe_2": "Greece",
+    "1X2": {
+      "V1": "1.336",
+      "X": "5.05",
+      "V2": "9.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-4.5)": "9",
+      "2 (+4.5)": "1.005",
+      "1 (-4)": "8.6",
+      "2 (+4)": "1.011",
+      "1 (-3.5)": "5.1",
+      "2 (+3.5)": "1.108",
+      "1 (-3)": "4.55",
+      "2 (+3)": "1.153",
+      "1 (-2.5)": "2.94",
+      "2 (+2.5)": "1.36",
+      "1 (-2)": "2.448",
+      "2 (+2)": "1.55",
+      "1 (-1.5)": "1.84",
+      "2 (+1.5)": "1.88",
+      "1 (-1)": "1.44",
+      "2 (+1)": "2.55",
+      "1 (0)": "1.066",
+      "2 (0)": "6.05"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/345183346-germany-greece",
+    "derniere_maj": "2026-09-16T09:40:46.162556+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Norway",
+    "equipe_2": "Portugal",
+    "1X2": {
+      "V1": "2.86",
+      "X": "3.66",
+      "V2": "2.32"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "11.5",
+      "2 (+2.5)": "1.01",
+      "1 (-2)": "10.5",
+      "2 (+2)": "1.02",
+      "1 (-1.5)": "5.55",
+      "2 (+1.5)": "1.096",
+      "1 (-1)": "4.75",
+      "2 (+1)": "1.149",
+      "1 (0)": "2.125",
+      "2 (0)": "1.715",
+      "1 (+1)": "1.27",
+      "2 (-1)": "3.4",
+      "1 (+1.5)": "1.173",
+      "2 (-1.5)": "4.15",
+      "1 (+2)": "1.026",
+      "2 (-2)": "7.7",
+      "1 (+2.5)": "1.013",
+      "2 (-2.5)": "8.5"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/345183344-norway-portugal",
+    "derniere_maj": "2026-09-16T09:40:38.649791+00:00",
     "statut": "ok"
   }
 ]
