@@ -65,7 +65,9 @@ jobs:
             1win.json \
             winwin.json \
             1xbet.json \
-            paripesa.json
+            paripesa.json \
+            africa-bizbet.json \
+            comparison.json
 
           # Pages et données du comparateur
           git add -A docs/
