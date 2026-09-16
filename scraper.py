@@ -355,6 +355,27 @@ async def find_competition_links(page, base_url):
         key=lambda item: (priorite(item[2]), -item[1])
     )
 
+    # Diagnostic : la liste réelle des championnats vus sur ce site,
+    # dans l'ordre où ils seront visités (donc avec la priorisation
+    # des grands championnats déjà appliquée), pour savoir précisément
+    # ce que le scraper a parcouru à ce run.
+    try:
+
+        site = urlparse(base_url).netloc or "site"
+
+        lignes = [
+            f"{texte or '(sans nom)'} — {count} match(s)"
+            for _, count, texte in links
+        ]
+
+        (ROOT / f"debug_championnats_{site}.txt").write_text(
+            "\n".join(lignes),
+            encoding="utf-8"
+        )
+
+    except Exception:
+        pass
+
     return [url for url, _, _ in links]
 
 
@@ -890,20 +911,30 @@ async def scrape_match(
             equipe_1 = match.get("equipe_1")
             equipe_2 = match.get("equipe_2")
 
+            # Sur certaines pages atypiques (paris "vainqueur du
+            # championnat", outrights...), ce qui suit "1X2" n'est
+            # pas un vrai nom d'équipe mais un fragment de cote mal
+            # étiqueté (ex. "W12.39", "1X1.63" vu en prod). On rejette
+            # tout candidat contenant un motif décimal (chiffre(s) +
+            # point + chiffre(s)), caractéristique d'une cote et
+            # quasi absent des vrais noms d'équipe.
+            MOTIF_COTE_DANS_NOM = re.compile(r"\d+\.\d+")
+
+            def ressemble_a_une_equipe(candidat):
+                return (
+                    len(candidat) > 2
+                    and candidat.lower() not in ("1", "x", "2", "draw", "nul")
+                    and not MOTIF_COTE_DANS_NOM.search(candidat)
+                )
+
             if len(noms_bloc) == 3:
 
                 candidat_1, candidat_2 = noms_bloc[0], noms_bloc[2]
 
-                if (
-                    len(candidat_1) > 2
-                    and candidat_1.lower() not in ("1", "x", "2", "draw", "nul")
-                ):
+                if ressemble_a_une_equipe(candidat_1):
                     equipe_1 = candidat_1
 
-                if (
-                    len(candidat_2) > 2
-                    and candidat_2.lower() not in ("1", "x", "2", "draw", "nul")
-                ):
+                if ressemble_a_une_equipe(candidat_2):
                     equipe_2 = candidat_2
 
             total = parse_total_block(lines)
@@ -1079,6 +1110,12 @@ WIN1_LISTING_URLS = [
     "premier-league-919?p=mvh5&platform_type=mobile",
     "https://1win.com/fr-CI/betting/prematch/football-18/"
     "laliga-1232?p=mvh5&platform_type=mobile",
+    "https://1win.com/fr-CI/betting/prematch/football-18/"
+    "bundesliga-1130?p=mvh5&platform_type=mobile",
+    "https://1win.com/fr-CI/betting/prematch/football-18/"
+    "league-1-1128?p=mvh5&platform_type=mobile",
+    "https://1win.com/fr-CI/betting/prematch/football-18/"
+    "uefa-nations-league-39440?p=mvh5&platform_type=mobile",
 ]
 WIN1_MAX_TENTATIVES = 300  # jusqu'à 10 min pour que les cartes se chargent
 
@@ -1899,6 +1936,21 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
