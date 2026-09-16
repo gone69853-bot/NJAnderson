@@ -319,11 +319,43 @@ async def find_competition_links(page, base_url):
 
         count = int(count_match.group(1)) if count_match else 0
 
-        links.append((full_url, count))
+        links.append((full_url, count, text.strip()))
 
-    links.sort(key=lambda pair: pair[1], reverse=True)
+    # On priorise les grands championnats qui reviennent partout,
+    # pour que TOUS les bookmakers regardent en premier les mêmes
+    # compétitions (Ligue des Champions, Premier League, Liga...).
+    # Sans ça, chaque site avance dans sa propre liste de championnats
+    # dans un ordre différent, et le plafond de matchs par bookmaker
+    # est atteint avant de croiser les mêmes matchs — donc rien à
+    # comparer entre eux. Ordre = priorité (0 = en premier).
+    GRANDS_CHAMPIONNATS = [
+        "champions league",
+        "premier league",
+        "la liga",
+        "laliga",
+        "ligue 1",
+        "serie a",
+        "bundesliga",
+        "europa league",
+        "liga portugal",
+        "eredivisie",
+    ]
 
-    return [url for url, _ in links]
+    def priorite(texte):
+
+        texte_bas = texte.lower()
+
+        for rang, mot_cle in enumerate(GRANDS_CHAMPIONNATS):
+            if mot_cle in texte_bas:
+                return rang
+
+        return len(GRANDS_CHAMPIONNATS)
+
+    links.sort(
+        key=lambda item: (priorite(item[2]), -item[1])
+    )
+
+    return [url for url, _, _ in links]
 
 
 async def click_maximize_buttons(page, bookmaker="", max_rounds=10):
@@ -1867,6 +1899,9 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
 
 
 
