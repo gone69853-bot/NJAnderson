@@ -857,6 +857,8 @@ async def scrape_match(
     if bookmaker == "melbet":
         nb_essais = 4
 
+    raison_echec = "raison inconnue"
+
     for attempt in range(nb_essais):
 
         try:
@@ -881,6 +883,10 @@ async def scrape_match(
                 await page.wait_for_timeout(2000)
 
             if not found:
+                raison_echec = (
+                    "le texte \"1X2\" n'est jamais apparu sur la "
+                    "page dans le temps imparti"
+                )
                 continue
 
             lines = to_lines(text)
@@ -888,6 +894,10 @@ async def scrape_match(
             block = parse_1x2_block(lines)
 
             if not block:
+                raison_echec = (
+                    "\"1X2\" trouvé sur la page mais le bloc de "
+                    "cotes qui suit n'a pas pu être reconnu"
+                )
                 continue
 
             noms_bloc = list(block.keys())
@@ -971,7 +981,8 @@ async def scrape_match(
                 "statut": "ok",
             }
 
-        except Exception:
+        except Exception as error:
+            raison_echec = f"exception : {error}"
             # Pause avant de retenter, plus longue à chaque échec
             # successif : sur melbet en particulier, retenter
             # immédiatement retombe souvent dans la même redirection
@@ -979,7 +990,17 @@ async def scrape_match(
             await page.wait_for_timeout(4000 + attempt * 3000)
             continue
 
-    return None
+    # Échec définitif après toutes les tentatives : on renvoie le
+    # détail (au lieu de None silencieux) pour pouvoir écrire un
+    # vrai diagnostic dans scrape_bookmaker.
+    return {
+        "_echec": True,
+        "equipe_1": match.get("equipe_1"),
+        "equipe_2": match.get("equipe_2"),
+        "url": match.get("url"),
+        "raison": raison_echec,
+        "tentatives": nb_essais,
+    }
 
 
 # ============================================================
@@ -1046,6 +1067,22 @@ async def scrape_bookmaker(
             f"{len(matches)} match(s) découvert(s)"
         )
 
+        # Diagnostic : la liste complète des matchs découverts avant
+        # tout filtrage, pour savoir si un match précis a seulement
+        # été manqué à la découverte (jamais dans cette liste) ou
+        # plus loin, lors de la visite de sa page individuelle.
+        try:
+            (ROOT / f"debug_matchs_decouverts_{bookmaker}.txt").write_text(
+                "\n".join(
+                    f"{m.get('equipe_1')} - {m.get('equipe_2')} "
+                    f"— {m.get('url')}"
+                    for m in matches
+                ),
+                encoding="utf-8"
+            )
+        except Exception:
+            pass
+
         if matches:
 
             semaphore = asyncio.Semaphore(concurrency)
@@ -1067,7 +1104,33 @@ async def scrape_bookmaker(
                 *(scrape_one(match) for match in matches)
             )
 
-            result = [data for data in scraped if data]
+            result = [
+                data for data in scraped
+                if data and not data.get("_echec")
+            ]
+
+            echecs = [
+                data for data in scraped
+                if data and data.get("_echec")
+            ]
+
+            # Diagnostic : pour chaque match découvert mais jamais
+            # récupéré, la raison précise de l'échec (au lieu d'une
+            # simple disparition silencieuse dans les 50 découverts
+            # / N enregistrés du résumé).
+            try:
+                (ROOT / f"debug_echecs_{bookmaker}.txt").write_text(
+                    "\n".join(
+                        f"{e.get('equipe_1')} - {e.get('equipe_2')} "
+                        f"— {e.get('raison')} "
+                        f"(après {e.get('tentatives')} tentative(s)) "
+                        f"— {e.get('url')}"
+                        for e in echecs
+                    ),
+                    encoding="utf-8"
+                )
+            except Exception:
+                pass
 
     except Exception as error:
 
@@ -1936,6 +1999,9 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
 
 
 
