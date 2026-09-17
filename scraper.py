@@ -1939,6 +1939,14 @@ async def run_bookmakers(context):
     connexions simultanées via un proxy dont on ne connaît pas les
     limites exactes."""
 
+    # Budget de temps maximum par bookmaker : sans ça, un problème
+    # réseau sur UN SEUL site peut bloquer tout le run pendant des
+    # heures (vu en pratique). Si ce délai est dépassé, on abandonne
+    # ce bookmaker pour ce run (son fichier .json garde son contenu
+    # du run précédent) et on passe au suivant, plutôt que de tout
+    # bloquer indéfiniment.
+    BUDGET_PAR_BOOKMAKER = 20 * 60  # 20 minutes
+
     for bookmaker in BOOKMAKERS_LIST:
 
         if bookmaker == "1win":
@@ -1946,13 +1954,27 @@ async def run_bookmakers(context):
 
         config = BOOKMAKERS[bookmaker]
 
-        await scrape_bookmaker(
-            context,
-            bookmaker,
-            config,
-            MAX_MATCHES_PER_SITE,
-            MAX_WAIT_CYCLES
-        )
+        try:
+
+            await asyncio.wait_for(
+                scrape_bookmaker(
+                    context,
+                    bookmaker,
+                    config,
+                    MAX_MATCHES_PER_SITE,
+                    MAX_WAIT_CYCLES
+                ),
+                timeout=BUDGET_PAR_BOOKMAKER
+            )
+
+        except asyncio.TimeoutError:
+
+            print(
+                f"[{bookmaker}] ABANDONNÉ après "
+                f"{BUDGET_PAR_BOOKMAKER // 60} minutes (problème "
+                f"réseau probable) — fichier .json non modifié "
+                f"pour ce run"
+            )
 
 
 async def main():
@@ -1988,9 +2010,23 @@ async def main():
         # ne consomme aucune connexion proxy supplémentaire : c'est
         # du temps gagné "gratuitement" sur la durée totale du run.
         # ------------------------------------------------------
+        async def scrape_1win_avec_budget():
+            try:
+                await asyncio.wait_for(
+                    scrape_1win(playwright),
+                    timeout=30 * 60  # 30 minutes (8 championnats +
+                    # visite individuelle de chaque match)
+                )
+            except asyncio.TimeoutError:
+                print(
+                    "[1win] ABANDONNÉ après 30 minutes (problème "
+                    "réseau probable) — fichier .json non modifié "
+                    "pour ce run"
+                )
+
         await asyncio.gather(
             run_bookmakers(context),
-            scrape_1win(playwright),
+            scrape_1win_avec_budget(),
         )
 
         await context.close()
@@ -1999,6 +2035,18 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
