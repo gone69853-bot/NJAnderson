@@ -84,16 +84,12 @@ jobs:
 
           git commit -m "Update odds"
 
-          # Récupérer les éventuelles modifications poussées
-          # par un autre run pendant le scraping.
+          # Tout ce contenu (JSON, docs/, diagnostics) est régénéré
+          # de zéro à chaque run, jamais modifié à la main : si un
+          # autre run a poussé entre-temps, il n'y a aucune raison de
+          # fusionner (les renommages de fichiers de pages entre deux
+          # runs créent sinon des conflits que git ne sait pas
+          # résoudre seul, ex. "renamed here, deleted there"). Le run
+          # le plus récent remplace toujours l'ancien.
           git fetch origin main
-
-          # En cas de conflit sur les fichiers générés,
-          # conserver notre version issue du scraping actuel.
-          if ! git merge -X ours --no-edit origin/main; then
-            echo "Conflit non résolu automatiquement, abandon."
-            git merge --abort
-            exit 1
-          fi
-
-          git push
+          git push --force-with-lease origin HEAD:main
