@@ -19,12 +19,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/manchester-city-norwich-city/</loc>
-        <lastmod>2026-09-17</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/besiktas-olympique-de-marseille/</loc>
         <lastmod>2026-09-17</lastmod>
         <changefreq>hourly</changefreq>
@@ -32,6 +26,12 @@
     </url>
     <url>
         <loc>https://zicote.site/celtic-ferencvarosi/</loc>
+        <lastmod>2026-09-17</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/real-sociedad-bournemouth/</loc>
         <lastmod>2026-09-17</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -1111,7 +1111,13 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/real-sociedad-bournemouth/</loc>
+        <loc>https://zicote.site/brighton-hove-albion-arsenal/</loc>
+        <lastmod>2026-09-17</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/manchester-city-sunderland/</loc>
         <lastmod>2026-09-17</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
