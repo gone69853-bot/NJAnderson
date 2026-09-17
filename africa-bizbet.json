@@ -4,9 +4,9 @@
     "equipe_1": "Juventus",
     "equipe_2": "Nec",
     "1X2": {
-      "V1": "1.184",
-      "X": "7.2",
-      "V2": "13.5"
+      "V1": "1.152",
+      "X": "7.9",
+      "V2": "16"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -23,28 +23,74 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-4.5)": "6.7",
-      "2 (+4.5)": "1.046",
-      "1 (-4)": "6.15",
-      "2 (+4)": "1.061",
-      "1 (-3.5)": "3.75",
-      "2 (+3.5)": "1.193",
-      "1 (-3)": "3.22",
-      "2 (+3)": "1.28",
-      "1 (-2.5)": "2.36",
-      "2 (+2.5)": "1.59",
-      "1 (-2)": "1.885",
-      "2 (+2)": "1.912",
-      "1 (-1.5)": "1.54",
-      "2 (+1.5)": "2.32",
-      "1 (-1)": "1.222",
-      "2 (+1)": "3.65",
-      "1 (0)": "1.03",
-      "2 (0)": "9.7"
+      "1 (-4.5)": "6.1",
+      "2 (+4.5)": "1.062",
+      "1 (-4)": "5.55",
+      "2 (+4)": "1.081",
+      "1 (-3.5)": "3.44",
+      "2 (+3.5)": "1.23",
+      "1 (-3)": "2.94",
+      "2 (+3)": "1.33",
+      "1 (-2.5)": "2.195",
+      "2 (+2.5)": "1.675",
+      "1 (-2)": "1.768",
+      "2 (+2)": "2.056",
+      "1 (-1.5)": "1.47",
+      "2 (+1.5)": "2.5",
+      "1 (-1)": "1.178",
+      "2 (+1)": "4.1",
+      "1 (0)": "1.025",
+      "2 (0)": "12.5"
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/118593-uefa-europa-league/364904966-juventus-nec",
-    "derniere_maj": "2026-09-17T07:08:59.650074+00:00",
+    "derniere_maj": "2026-09-17T12:24:43.525793+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Crystal Palace",
+    "equipe_2": "Lech Poznan",
+    "1X2": {
+      "V1": "1.34",
+      "X": "5.3",
+      "V2": "8.4"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-4)": "11.5",
+      "2 (+4)": "1.01",
+      "1 (-3.5)": "6",
+      "2 (+3.5)": "1.065",
+      "1 (-3)": "5.25",
+      "2 (+3)": "1.094",
+      "1 (-2.5)": "3.18",
+      "2 (+2.5)": "1.285",
+      "1 (-2)": "2.59",
+      "2 (+2)": "1.44",
+      "1 (-1.5)": "1.955",
+      "2 (+1.5)": "1.845",
+      "1 (-1)": "1.48",
+      "2 (+1)": "2.47",
+      "1 (0)": "1.079",
+      "2 (0)": "5.85"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/118593-uefa-europa-league/364907352-crystal-palace-lech-poznan",
+    "derniere_maj": "2026-09-17T12:23:58.412837+00:00",
     "statut": "ok"
   },
   {
@@ -52,8 +98,8 @@
     "equipe_1": "Manchester City",
     "equipe_2": "Norwich City",
     "1X2": {
-      "V1": "1.096",
-      "X": "10.5",
+      "V1": "1.09",
+      "X": "11",
       "V2": "21"
     },
     "Total_2.5": {
@@ -71,39 +117,647 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-5.5)": "7.5",
-      "2 (+5.5)": "1.028",
-      "1 (-5)": "7",
-      "2 (+5)": "1.039",
-      "1 (-4.5)": "4.4",
-      "2 (+4.5)": "1.141",
-      "1 (-4)": "3.9",
-      "2 (+4)": "1.196",
-      "1 (-3.5)": "2.69",
-      "2 (+3.5)": "1.41",
-      "1 (-3)": "2.25",
-      "2 (+3)": "1.6",
-      "1 (-2.5)": "1.825",
-      "2 (+2.5)": "1.98",
-      "1 (-2)": "1.46",
-      "2 (+2)": "2.6",
-      "1 (-1.5)": "1.32",
-      "2 (+1.5)": "3.1",
-      "1 (-1)": "1.119",
-      "2 (+1)": "5.05"
+      "1 (-5.5)": "7.2",
+      "2 (+5.5)": "1.034",
+      "1 (-5)": "6.7",
+      "2 (+5)": "1.046",
+      "1 (-4.5)": "4.2",
+      "2 (+4.5)": "1.153",
+      "1 (-4)": "3.66",
+      "2 (+4)": "1.22",
+      "1 (-3.5)": "2.62",
+      "2 (+3.5)": "1.43",
+      "1 (-3)": "2.18",
+      "2 (+3)": "1.64",
+      "1 (-2.5)": "1.785",
+      "2 (+2.5)": "2.025",
+      "1 (-2)": "1.44",
+      "2 (+2)": "2.67",
+      "1 (-1.5)": "1.3",
+      "2 (+1.5)": "3.22",
+      "1 (-1)": "1.112",
+      "2 (+1)": "5.2"
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/119237-england-league-cup/366115956-manchester-city-norwich-city",
-    "derniere_maj": "2026-09-17T07:08:59.839526+00:00",
+    "derniere_maj": "2026-09-17T12:23:58.420213+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "africa-bizbet",
-    "equipe_1": "Crystal Palace",
-    "equipe_2": "Lech Poznan",
+    "equipe_1": "Real",
+    "equipe_2": "Betis Getafe",
     "1X2": {
-      "V1": "1.37",
-      "X": "5.1",
+      "V1": "1.595",
+      "X": "3.8",
+      "V2": "6.1"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "11.5",
+      "2 (+3.5)": "1.01",
+      "1 (-3)": "10",
+      "2 (+3)": "1.02",
+      "1 (-2.5)": "5.25",
+      "2 (+2.5)": "1.109",
+      "1 (-2)": "4.45",
+      "2 (+2)": "1.168",
+      "1 (-1.5)": "2.71",
+      "2 (+1.5)": "1.46",
+      "1 (-1)": "2.05",
+      "2 (+1)": "1.77",
+      "1 (0)": "1.18",
+      "2 (0)": "4.4"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/127733-spain-la-liga/367117376-real-betis-getafe",
+    "derniere_maj": "2026-09-17T12:24:41.588400+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Celtic",
+    "equipe_2": "Ferencvarosi",
+    "1X2": {
+      "V1": "1.665",
+      "X": "4.1",
+      "V2": "4.76"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "9",
+      "2 (+3.5)": "1.005",
+      "1 (-3)": "8.4",
+      "2 (+3)": "1.014",
+      "1 (-2.5)": "4.65",
+      "2 (+2.5)": "1.125",
+      "1 (-2)": "4.05",
+      "2 (+2)": "1.185",
+      "1 (-1.5)": "2.66",
+      "2 (+1.5)": "1.48",
+      "1 (-1)": "2.096",
+      "2 (+1)": "1.736",
+      "1 (0)": "1.26",
+      "2 (0)": "3.42",
+      "1 (+1)": "1.013",
+      "2 (-1)": "8.5",
+      "1 (+1.5)": "1.002",
+      "2 (-1.5)": "9.4"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/118593-uefa-europa-league/364904986-celtic-ferencvarosi",
+    "derniere_maj": "2026-09-17T12:23:58.362610+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Almendras De",
+    "equipe_2": "Parraga Las Canas",
+    "1X2": {
+      "V1": "1.69",
+      "X": "4.81",
+      "V2": "3.23"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "2.65",
+      "2 (+1.5)": "1.4",
+      "1 (-1)": "2.15",
+      "2 (+1)": "1.59",
+      "1 (0)": "1.4",
+      "2 (0)": "2.65"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/2779554-cuba-liga-de-barrios/370480946-almendras-de-parraga-las-canas",
+    "derniere_maj": "2026-09-17T12:23:58.566894+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Dragones Del Cerro",
+    "equipe_2": "Leones De La Lisa",
+    "1X2": {
+      "V1": "1.48",
+      "X": "5.21",
+      "V2": "4.125"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "2.21",
+      "2 (+1.5)": "1.56",
+      "1 (-1)": "1.79",
+      "2 (+1)": "1.87",
+      "1 (0)": "1.26",
+      "2 (0)": "3.37"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/2779554-cuba-liga-de-barrios/370480950-dragones-del-cerro-leones-de-la-lisa",
+    "derniere_maj": "2026-09-17T12:24:43.522981+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Levski Sofia",
+    "equipe_2": "Fc Salzburg",
+    "1X2": {
+      "V1": "3.4",
+      "X": "3.54",
+      "V2": "2.09"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "7",
+      "2 (+1.5)": "1.046",
+      "1 (-1)": "6.15",
+      "2 (+1)": "1.083",
+      "1 (0)": "2.5",
+      "2 (0)": "1.53",
+      "1 (+1)": "1.35",
+      "2 (-1)": "2.89",
+      "1 (+1.5)": "1.22",
+      "2 (-1.5)": "3.6",
+      "1 (+2)": "1.047",
+      "2 (-2)": "6.65",
+      "1 (+2.5)": "1.028",
+      "2 (-2.5)": "7.5"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/118593-uefa-europa-league/364905970-levski-sofia-fc-salzburg",
+    "derniere_maj": "2026-09-17T12:24:44.786795+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Ofi Crete",
+    "equipe_2": "Tsg 1899 Hoffenheim",
+    "1X2": {
+      "V1": "9.3",
+      "X": "5.45",
+      "V2": "1.31"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "6.25",
+      "2 (0)": "1.067",
+      "1 (+1)": "2.66",
+      "2 (-1)": "1.42",
+      "1 (+1.5)": "1.955",
+      "2 (-1.5)": "1.845",
+      "1 (+2)": "1.53",
+      "2 (-2)": "2.34",
+      "1 (+2.5)": "1.34",
+      "2 (-2.5)": "2.89",
+      "1 (+3)": "1.131",
+      "2 (-3)": "4.55",
+      "1 (+3.5)": "1.093",
+      "2 (-3.5)": "5.25",
+      "1 (+4)": "1.02",
+      "2 (-4)": "9.8",
+      "1 (+4.5)": "1.02",
+      "2 (-4.5)": "10.5"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/118593-uefa-europa-league/364904978-ofi-crete-tsg-1899-hoffenheim",
+    "derniere_maj": "2026-09-17T12:24:07.472135+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Besiktas Olympique",
+    "equipe_2": "De Marseille",
+    "1X2": {
+      "V1": "1.784",
+      "X": "4.06",
+      "V2": "4.06"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "11",
+      "2 (+3.5)": "1.01",
+      "1 (-3)": "9.2",
+      "2 (+3)": "1.004",
+      "1 (-2.5)": "5.25",
+      "2 (+2.5)": "1.108",
+      "1 (-2)": "4.65",
+      "2 (+2)": "1.154",
+      "1 (-1.5)": "2.965",
+      "2 (+1.5)": "1.4",
+      "1 (-1)": "2.32",
+      "2 (+1)": "1.61",
+      "1 (0)": "1.35",
+      "2 (0)": "2.99",
+      "1 (+1)": "1.053",
+      "2 (-1)": "7",
+      "1 (+1.5)": "1.029",
+      "2 (-1.5)": "7.5"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/118593-uefa-europa-league/364904976-besiktas-olympique-de-marseille",
+    "derniere_maj": "2026-09-17T12:24:07.339351+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Viktoria Plzen Royale",
+    "equipe_2": "Union Saint Gilloise",
+    "1X2": {
+      "V1": "2.456",
+      "X": "3.54",
+      "V2": "2.744"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "9.7",
+      "2 (+2.5)": "1.03",
+      "1 (-2)": "9.2",
+      "2 (+2)": "1.003",
+      "1 (-1.5)": "4.65",
+      "2 (+1.5)": "1.134",
+      "1 (-1)": "3.75",
+      "2 (+1)": "1.22",
+      "1 (0)": "1.795",
+      "2 (0)": "2.016",
+      "1 (+1)": "1.156",
+      "2 (-1)": "4.55",
+      "1 (+1.5)": "1.096",
+      "2 (-1.5)": "5.4",
+      "1 (+2)": "1.02",
+      "2 (-2)": "10.5",
+      "1 (+2.5)": "1.01",
+      "2 (-2.5)": "12"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/118593-uefa-europa-league/364904980-viktoria-plzen-royale-union-saint-gilloise",
+    "derniere_maj": "2026-09-17T12:24:07.338987+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Lillestrom",
+    "equipe_2": "Scu Torreense",
+    "1X2": {
+      "V1": "1.6",
+      "X": "4.32",
+      "V2": "5.1"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "8.7",
+      "2 (+3.5)": "1.01",
+      "1 (-3)": "8.1",
+      "2 (+3)": "1.018",
+      "1 (-2.5)": "4.55",
+      "2 (+2.5)": "1.132",
+      "1 (-2)": "3.92",
+      "2 (+2)": "1.195",
+      "1 (-1.5)": "2.595",
+      "2 (+1.5)": "1.5",
+      "1 (-1)": "2",
+      "2 (+1)": "1.81",
+      "1 (0)": "1.23",
+      "2 (0)": "3.66",
+      "1 (+1)": "1.008",
+      "2 (-1)": "8.9",
+      "1 (+1.5)": "1.01",
+      "2 (-1.5)": "10.5"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/118593-uefa-europa-league/364904984-lillestrom-scu-torreense",
+    "derniere_maj": "2026-09-17T12:24:07.446378+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Real",
+    "equipe_2": "Sociedad Bournemouth",
+    "1X2": {
+      "V1": "3.06",
+      "X": "3.64",
+      "V2": "2.216"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "6.25",
+      "2 (+1.5)": "1.079",
+      "1 (-1)": "5.35",
+      "2 (+1)": "1.127",
+      "1 (0)": "2.24",
+      "2 (0)": "1.65",
+      "1 (+1)": "1.3",
+      "2 (-1)": "3.28",
+      "1 (+1.5)": "1.191",
+      "2 (-1.5)": "4.05",
+      "1 (+2)": "1.033",
+      "2 (-2)": "7.7",
+      "1 (+2.5)": "1.013",
+      "2 (-2.5)": "8.5"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/118593-uefa-europa-league/364905972-real-sociedad-bournemouth",
+    "derniere_maj": "2026-09-17T12:24:16.217502+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Home",
+    "equipe_2": "Away",
+    "1X2": {
+      "V1": "1.22",
+      "X": "13.5",
+      "V2": "4.89"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-10.5)": "7",
+      "2 (+10.5)": "1.1",
+      "1 (-10)": "6.73",
+      "2 (+10)": "1.106",
+      "1 (-9.5)": "5.25",
+      "2 (+9.5)": "1.155",
+      "1 (-9)": "5.04",
+      "2 (+9)": "1.17",
+      "1 (-8.5)": "4.11",
+      "2 (+8.5)": "1.235",
+      "1 (-8)": "3.88",
+      "2 (+8)": "1.256",
+      "1 (-7.5)": "3.285",
+      "2 (+7.5)": "1.336",
+      "1 (-7)": "3.09",
+      "2 (+7)": "1.371",
+      "1 (-6.5)": "2.704",
+      "2 (+6.5)": "1.464",
+      "1 (-6)": "2.533",
+      "2 (+6)": "1.52"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/118593-uefa-europa-league/369558002-home-away",
+    "derniere_maj": "2026-09-17T12:24:16.301282+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Home Special Bets",
+    "equipe_2": "Away Special Bets",
+    "1X2": {
+      "V1": "6",
+      "X": "7.4",
+      "V2": "1.33"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (+1)": "2.894",
+      "2 (-1)": "1.414",
+      "1 (+1.5)": "2.239",
+      "2 (-1.5)": "1.65",
+      "1 (+2)": "1.925",
+      "2 (-2)": "1.875",
+      "1 (+2.5)": "1.688",
+      "2 (-2.5)": "2.175",
+      "1 (+3)": "1.455",
+      "2 (-3)": "2.735",
+      "1 (+3.5)": "1.359",
+      "2 (-3.5)": "3.155",
+      "1 (+4)": "1.2",
+      "2 (-4)": "4.56",
+      "1 (+4.5)": "1.168",
+      "2 (-4.5)": "5.1"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/118593-uefa-europa-league/368028852-home-special-bets-away-special-bets",
+    "derniere_maj": "2026-09-17T12:24:18.332095+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Levski Sofia",
+    "equipe_2": "Yorbe Vertessen",
+    "1X2": {
+      "V1": "1.47",
+      "X": "3.05",
+      "V2": "9.6"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "3.1",
+      "2 (+1.5)": "1.3",
+      "1 (-1)": "2.13",
+      "2 (+1)": "1.6"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370412520-levski-sofia-yorbe-vertessen",
+    "derniere_maj": "2026-09-17T12:24:23.065560+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Levski Sofia",
+    "equipe_2": "Haris Tabakovic",
+    "1X2": {
+      "V1": "1.51",
+      "X": "3.04",
+      "V2": "8.5"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "3.18",
+      "2 (+1.5)": "1.28",
+      "1 (-1)": "2.21",
+      "2 (+1)": "1.56"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370412550-levski-sofia-haris-tabakovic",
+    "derniere_maj": "2026-09-17T12:24:23.169566+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Levski Sofia",
+    "equipe_2": "Karim Konate",
+    "1X2": {
+      "V1": "1.53",
+      "X": "3.04",
       "V2": "7.8"
     },
     "Total_2.5": {
@@ -121,76 +775,24 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-3.5)": "6.45",
-      "2 (+3.5)": "1.052",
-      "1 (-3)": "5.65",
-      "2 (+3)": "1.078",
-      "1 (-2.5)": "3.35",
-      "2 (+2.5)": "1.26",
-      "1 (-2)": "2.73",
-      "2 (+2)": "1.4",
-      "1 (-1.5)": "2.03",
-      "2 (+1.5)": "1.785",
-      "1 (-1)": "1.533",
-      "2 (+1)": "2.34",
-      "1 (0)": "1.09",
-      "2 (0)": "5.55"
+      "1 (-1.5)": "3.22",
+      "2 (+1.5)": "1.28",
+      "1 (-1)": "2.25",
+      "2 (+1)": "1.54"
     },
     "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/118593-uefa-europa-league/364907352-crystal-palace-lech-poznan",
-    "derniere_maj": "2026-09-17T07:08:59.650831+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Real",
-    "equipe_2": "Betis Getafe",
-    "1X2": {
-      "V1": "1.63",
-      "X": "3.76",
-      "V2": "5.75"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "5.95",
-      "2 (+2.5)": "1.082",
-      "1 (-2)": "5.05",
-      "2 (+2)": "1.132",
-      "1 (-1.5)": "2.95",
-      "2 (+1.5)": "1.4",
-      "1 (-1)": "2.155",
-      "2 (+1)": "1.696",
-      "1 (0)": "1.198",
-      "2 (0)": "4.15",
-      "1 (+1)": "1.01",
-      "2 (-1)": "11"
-    },
-    "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/127733-spain-la-liga/367117376-real-betis-getafe",
-    "derniere_maj": "2026-09-17T07:08:59.789119+00:00",
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370412534-levski-sofia-karim-konate",
+    "derniere_maj": "2026-09-17T12:24:27.213361+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "africa-bizbet",
     "equipe_1": "Ofi Crete",
-    "equipe_2": "Tsg 1899 Hoffenheim",
+    "equipe_2": "Andrej Kramaric",
     "1X2": {
-      "V1": "8",
-      "X": "5",
-      "V2": "1.37"
+      "V1": "2.25",
+      "X": "2.27",
+      "V2": "4.45"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -207,108 +809,22 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (0)": "6.1",
-      "2 (0)": "1.086",
-      "1 (+1)": "2.408",
-      "2 (-1)": "1.57",
-      "1 (+1.5)": "1.792",
-      "2 (-1.5)": "2.02",
-      "1 (+2)": "1.39",
-      "2 (-2)": "2.68",
-      "1 (+2.5)": "1.26",
-      "2 (-2.5)": "3.22",
-      "1 (+3)": "1.082",
-      "2 (-3)": "5.5",
-      "1 (+3.5)": "1.056",
-      "2 (-3.5)": "6.3"
+      "1 (0)": "1.39",
+      "2 (0)": "2.66"
     },
     "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/118593-uefa-europa-league/364904978-ofi-crete-tsg-1899-hoffenheim",
-    "derniere_maj": "2026-09-17T07:08:59.852713+00:00",
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370269978-ofi-crete-andrej-kramaric",
+    "derniere_maj": "2026-09-17T12:24:30.117991+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "africa-bizbet",
-    "equipe_1": "Toronto",
-    "equipe_2": "Cincinnati ",
-    "1X2": {
-      "V1": "2.085",
-      "X": "5.11",
-      "V2": "2.464"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1.5)": "3.184",
-      "2 (+1.5)": "1.285",
-      "1 (-1)": "2.765",
-      "2 (+1)": "1.37",
-      "1 (0)": "1.752",
-      "2 (0)": "2.075",
-      "1 (+1.5)": "1.19",
-      "2 (-1.5)": "3.94"
-    },
-    "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/2590430-mls/370402042-toronto-cincinnati-",
-    "derniere_maj": "2026-09-17T07:09:09.371082+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Austin ",
-    "equipe_2": "Fusion ",
-    "1X2": {
-      "V1": "2.37",
-      "X": "3.01",
-      "V2": "2.19"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.26",
-      "2 (+1)": "1.27",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.34",
-      "2 (-1)": "2.9"
-    },
-    "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/2590430-mls/370402228-austin--fusion-",
-    "derniere_maj": "2026-09-17T07:09:10.940489+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Austin ",
-    "equipe_2": "St Louis ",
+    "equipe_1": "Ofi Crete",
+    "equipe_2": "Fisnik Asllani",
     "1X2": {
       "V1": "2.2",
-      "X": "3.01",
-      "V2": "2.4"
+      "X": "2.25",
+      "V2": "4.75"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -325,26 +841,414 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1)": "2.98",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.36"
+      "1 (0)": "1.35",
+      "2 (0)": "2.82"
     },
     "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/2590430-mls/370402246-austin--st-louis-",
-    "derniere_maj": "2026-09-17T07:09:11.031448+00:00",
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370270028-ofi-crete-fisnik-asllani",
+    "derniere_maj": "2026-09-17T12:24:30.169185+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "africa-bizbet",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Charleston ",
+    "equipe_1": "Ofi Crete",
+    "equipe_2": "Adam Hlozek",
     "1X2": {
-      "V1": "2.21",
+      "V1": "2.13",
+      "X": "2.21",
+      "V2": "5.29"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "1.3",
+      "2 (0)": "3.09"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370269942-ofi-crete-adam-hlozek",
+    "derniere_maj": "2026-09-17T12:24:36.246145+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Ofi Crete",
+    "equipe_2": "Tim Lemperle",
+    "1X2": {
+      "V1": "2.1",
+      "X": "2.2",
+      "V2": "5.55"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "1.28",
+      "2 (0)": "3.22"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370269986-ofi-crete-tim-lemperle",
+    "derniere_maj": "2026-09-17T12:24:43.459963+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Baboucarr Faal Royale",
+    "equipe_2": "Union Saint Gilloise",
+    "1X2": {
+      "V1": "9.1",
+      "X": "3.05",
+      "V2": "1.49"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (+1)": "1.59",
+      "2 (-1)": "2.16",
+      "1 (+1.5)": "1.29",
+      "2 (-1.5)": "3.13"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370412522-baboucarr-faal-royale-union-saint-gilloise",
+    "derniere_maj": "2026-09-17T12:24:43.482986+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Benjamin",
+    "equipe_2": "Nygren Ferencvarosi",
+    "1X2": {
+      "V1": "6.31",
+      "X": "2.7",
+      "V2": "1.72"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (+1)": "1.35",
+      "2 (-1)": "2.86"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370425056-benjamin-nygren-ferencvarosi",
+    "derniere_maj": "2026-09-17T12:24:47.938698+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Dwight Mcneil",
+    "equipe_2": "Lech Poznan",
+    "1X2": {
+      "V1": "7.8",
+      "X": "2.12",
+      "V2": "1.96"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370412528-dwight-mcneil-lech-poznan",
+    "derniere_maj": "2026-09-17T12:24:52.740753+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Dusan Vlahovic",
+    "equipe_2": "Olympique De Marseille",
+    "1X2": {
+      "V1": "5.01",
+      "X": "2.73",
+      "V2": "1.84"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "3.34",
+      "2 (0)": "1.26",
+      "1 (+1)": "1.29",
+      "2 (-1)": "3.16"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370412548-dusan-vlahovic-olympique-de-marseille",
+    "derniere_maj": "2026-09-17T12:24:55.086068+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Yeremy Pino",
+    "equipe_2": "Lech Poznan",
+    "1X2": {
+      "V1": "7.37",
+      "X": "2.13",
+      "V2": "1.98"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370412530-yeremy-pino-lech-poznan",
+    "derniere_maj": "2026-09-17T12:24:55.086944+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Camilo",
+    "equipe_2": "Duran Ferencvarosi",
+    "1X2": {
+      "V1": "5.01",
+      "X": "2.73",
+      "V2": "1.84"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "3.34",
+      "2 (0)": "1.26",
+      "1 (+1)": "1.29",
+      "2 (-1)": "3.16"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370425062-camilo-duran-ferencvarosi",
+    "derniere_maj": "2026-09-17T12:24:55.021973+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Kasper",
+    "equipe_2": "Hogh Ferencvarosi",
+    "1X2": {
+      "V1": "5.01",
+      "X": "2.73",
+      "V2": "1.84"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "3.34",
+      "2 (0)": "1.26",
+      "1 (+1)": "1.29",
+      "2 (-1)": "3.16"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370425060-kasper-hogh-ferencvarosi",
+    "derniere_maj": "2026-09-17T12:24:55.060835+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Mikel",
+    "equipe_2": "Oyarzabal Bournemouth",
+    "1X2": {
+      "V1": "8.6",
+      "X": "3.17",
+      "V2": "1.47"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (+1)": "1.62",
+      "2 (-1)": "2.1",
+      "1 (+1.5)": "1.31",
+      "2 (-1.5)": "3.01"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370431044-mikel-oyarzabal-bournemouth",
+    "derniere_maj": "2026-09-17T12:24:56.168956+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Hyeon Gyu Oh",
+    "equipe_2": "Olympique De Marseille",
+    "1X2": {
+      "V1": "5.5",
+      "X": "2.71",
+      "V2": "1.79"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "3.64",
+      "2 (0)": "1.22",
+      "1 (+1)": "1.31",
+      "2 (-1)": "3.03"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370412524-hyeon-gyu-oh-olympique-de-marseille",
+    "derniere_maj": "2026-09-17T12:24:59.095044+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Orri Steinn",
+    "equipe_2": "Oskarsson Bournemouth",
+    "1X2": {
+      "V1": "9.05",
+      "X": "3.18",
+      "V2": "1.46"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (+1)": "1.64",
+      "2 (-1)": "2.07",
+      "1 (+1.5)": "1.32",
+      "2 (-1.5)": "2.97"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370425070-orri-steinn-oskarsson-bournemouth",
+    "derniere_maj": "2026-09-17T12:25:02.212808+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Prince Kwabena Adu",
+    "equipe_2": "Royale Union Saint Gilloise",
+    "1X2": {
+      "V1": "10.3",
       "X": "3.06",
-      "V2": "2.41"
+      "V2": "1.46"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -361,26 +1265,24 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
+      "1 (+1)": "1.63",
+      "2 (-1)": "2.09",
+      "1 (+1.5)": "1.31",
+      "2 (-1.5)": "3.04"
     },
     "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/2590430-mls/370402208-birmingham--charleston-",
-    "derniere_maj": "2026-09-17T07:09:55.701042+00:00",
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370412560-prince-kwabena-adu-royale-union-saint-gilloise",
+    "derniere_maj": "2026-09-17T12:25:06.487745+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "africa-bizbet",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Hartford ",
+    "equipe_1": "Rayan",
+    "equipe_2": "Vitor Bournemouth",
     "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
+      "V1": "11.9",
+      "X": "3.22",
+      "V2": "1.4"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -397,26 +1299,24 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
+      "1 (+1)": "1.74",
+      "2 (-1)": "1.93",
+      "1 (+1.5)": "1.36",
+      "2 (-1.5)": "2.81"
     },
     "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/2590430-mls/370402250-birmingham--hartford-",
-    "derniere_maj": "2026-09-17T07:09:55.862907+00:00",
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370425068-rayan-vitor-bournemouth",
+    "derniere_maj": "2026-09-17T12:25:04.191425+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "africa-bizbet",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Loudoun ",
+    "equipe_1": "Salim Fago Lawal",
+    "equipe_2": "Royale Union Saint Gilloise",
     "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
+      "V1": "9.6",
+      "X": "3.05",
+      "V2": "1.47"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -433,26 +1333,24 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
+      "1 (+1)": "1.6",
+      "2 (-1)": "2.13",
+      "1 (+1.5)": "1.3",
+      "2 (-1.5)": "3.1"
     },
     "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/2590430-mls/370402302-birmingham--loudoun-",
-    "derniere_maj": "2026-09-17T07:09:55.809427+00:00",
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370412526-salim-fago-lawal-royale-union-saint-gilloise",
+    "derniere_maj": "2026-09-17T12:25:06.192706+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "africa-bizbet",
-    "equipe_1": "Charleston ",
-    "equipe_2": "Loudoun ",
+    "equipe_1": "Semih Kilicsoy",
+    "equipe_2": "Olympique De Marseille",
     "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
+      "V1": "5.97",
+      "X": "2.7",
+      "V2": "1.75"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -469,232 +1367,516 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/2590430-mls/370402230-charleston--loudoun-",
-    "derniere_maj": "2026-09-17T07:10:06.911716+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Charleston ",
-    "equipe_2": "Hartford ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/2590430-mls/370402262-charleston--hartford-",
-    "derniere_maj": "2026-09-17T07:10:06.570848+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Hartford ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/2590430-mls/370402124-hartford--loudoun-",
-    "derniere_maj": "2026-09-17T07:10:06.377964+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Los Angeles",
-    "equipe_2": " Austin ",
-    "1X2": {
-      "V1": "2.4",
-      "X": "3.01",
-      "V2": "2.2"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.36",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "2.98"
-    },
-    "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/2590430-mls/370402240-los-angeles--austin-",
-    "derniere_maj": "2026-09-17T07:10:15.435785+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Los Angeles ",
-    "equipe_2": "St Louis ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.11",
-      "V2": "2.39"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.94",
-      "2 (+1)": "1.33",
-      "1 (0)": "1.76",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.31"
-    },
-    "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/2590430-mls/370402254-los-angeles--st-louis-",
-    "derniere_maj": "2026-09-17T07:10:15.765359+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Los Angeles",
-    "equipe_2": " Fusion ",
-    "1X2": {
-      "V1": "2.5",
-      "X": "3.08",
-      "V2": "2.11"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.55",
-      "2 (+1)": "1.23",
-      "1 (0)": "2",
-      "2 (0)": "1.69",
-      "1 (+1)": "1.36",
-      "2 (-1)": "2.79"
-    },
-    "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/2590430-mls/370402182-los-angeles--fusion-",
-    "derniere_maj": "2026-09-17T07:10:15.845418+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "St Louis",
-    "equipe_2": " Fusion ",
-    "1X2": {
-      "V1": "2.39",
-      "X": "3.11",
-      "V2": "2.2"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.31",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
+      "1 (0)": "3.94",
+      "2 (0)": "1.19",
       "1 (+1)": "1.33",
-      "2 (-1)": "2.94"
+      "2 (-1)": "2.92"
     },
     "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/2590430-mls/370402232-st-louis--fusion-",
-    "derniere_maj": "2026-09-17T07:10:26.391618+00:00",
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370412544-semih-kilicsoy-olympique-de-marseille",
+    "derniere_maj": "2026-09-17T12:25:06.459362+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Thomas Olsen",
+    "equipe_2": "Scu Torreense",
+    "1X2": {
+      "V1": "4.73",
+      "X": "2.42",
+      "V2": "2.06"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "2.94",
+      "2 (0)": "1.33"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370425054-thomas-olsen-scu-torreense",
+    "derniere_maj": "2026-09-17T12:25:07.194177+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Fredrik Gulbrandsen",
+    "equipe_2": "Scu Torreense",
+    "1X2": {
+      "V1": "4.73",
+      "X": "2.42",
+      "V2": "2.06"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "2.94",
+      "2 (0)": "1.33"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370425058-fredrik-gulbrandsen-scu-torreense",
+    "derniere_maj": "2026-09-17T12:25:08.195124+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Henrik Molvaer",
+    "equipe_2": "Melland Scu Torreense",
+    "1X2": {
+      "V1": "6.46",
+      "X": "2.35",
+      "V2": "1.89"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "3.9",
+      "2 (0)": "1.2",
+      "1 (+1)": "1.23",
+      "2 (-1)": "3.6"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370425064-henrik-molvaer-melland-scu-torreense",
+    "derniere_maj": "2026-09-17T12:25:14.097738+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Edward Nketiah",
+    "equipe_2": "Lech Poznan",
+    "1X2": {
+      "V1": "3.735",
+      "X": "2.34",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "2.29",
+      "2 (0)": "1.52"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1934516-uefa-europa-league-team-vs-player/370412546-edward-nketiah-lech-poznan",
+    "derniere_maj": "2026-09-17T12:25:13.076088+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Andorra",
+    "equipe_2": "Malta",
+    "1X2": {
+      "V1": "3.46",
+      "X": "2.925",
+      "V2": "2.365"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "7.6",
+      "2 (+1.5)": "1.041",
+      "1 (-1)": "6.7",
+      "2 (+1)": "1.073",
+      "1 (0)": "2.325",
+      "2 (0)": "1.605",
+      "1 (+1)": "1.22",
+      "2 (-1)": "3.82",
+      "1 (+1.5)": "1.135",
+      "2 (-1.5)": "4.75",
+      "1 (+2)": "1.003",
+      "2 (-2)": "9.3"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325699846-andorra-malta",
+    "derniere_maj": "2026-09-17T12:25:17.006394+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Austria",
+    "equipe_2": "Israel",
+    "1X2": {
+      "V1": "1.38",
+      "X": "4.92",
+      "V2": "7.8"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-4)": "12.5",
+      "2 (+4)": "1.01",
+      "1 (-3.5)": "6.65",
+      "2 (+3.5)": "1.047",
+      "1 (-3)": "5.9",
+      "2 (+3)": "1.076",
+      "1 (-2.5)": "3.42",
+      "2 (+2.5)": "1.26",
+      "1 (-2)": "2.81",
+      "2 (+2)": "1.39",
+      "1 (-1.5)": "2.05",
+      "2 (+1.5)": "1.77",
+      "1 (-1)": "1.55",
+      "2 (+1)": "2.33",
+      "1 (0)": "1.089",
+      "2 (0)": "5.75"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325575974-austria-israel",
+    "derniere_maj": "2026-09-17T12:25:58.631148+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Kosovo Republic",
+    "equipe_2": "Of Ireland",
+    "1X2": {
+      "V1": "2.875",
+      "X": "3.07",
+      "V2": "2.635"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "6.3",
+      "2 (+1.5)": "1.07",
+      "1 (-1)": "5.3",
+      "2 (+1)": "1.122",
+      "1 (0)": "1.99",
+      "2 (0)": "1.82",
+      "1 (+1)": "1.159",
+      "2 (-1)": "4.6",
+      "1 (+1.5)": "1.094",
+      "2 (-1.5)": "5.6",
+      "1 (+2)": "1.02",
+      "2 (-2)": "11",
+      "1 (+2.5)": "1.01",
+      "2 (-2.5)": "12"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325575978-kosovo-republic-of-ireland",
+    "derniere_maj": "2026-09-17T12:25:17.383639+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Liechtenstein",
+    "equipe_2": "Lithuania",
+    "1X2": {
+      "V1": "13",
+      "X": "5.1",
+      "V2": "1.275"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "8.1",
+      "2 (0)": "1.032",
+      "1 (+1)": "2.73",
+      "2 (-1)": "1.41",
+      "1 (+1.5)": "1.896",
+      "2 (-1.5)": "1.904",
+      "1 (+2)": "1.46",
+      "2 (-2)": "2.56",
+      "1 (+2.5)": "1.29",
+      "2 (-2.5)": "3.22",
+      "1 (+3)": "1.095",
+      "2 (-3)": "5.4",
+      "1 (+3.5)": "1.065",
+      "2 (-3.5)": "6"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325699854-liechtenstein-lithuania",
+    "derniere_maj": "2026-09-17T12:25:18.363296+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Netherlands",
+    "equipe_2": "Germany",
+    "1X2": {
+      "V1": "2.3",
+      "X": "3.7",
+      "V2": "2.87"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "8.5",
+      "2 (+2.5)": "1.012",
+      "1 (-2)": "7.7",
+      "2 (+2)": "1.026",
+      "1 (-1.5)": "4.15",
+      "2 (+1.5)": "1.177",
+      "1 (-1)": "3.34",
+      "2 (+1)": "1.28",
+      "1 (0)": "1.71",
+      "2 (0)": "2.14",
+      "1 (+1)": "1.147",
+      "2 (-1)": "4.8",
+      "1 (+1.5)": "1.093",
+      "2 (-1.5)": "5.65",
+      "1 (+2)": "1.02",
+      "2 (-2)": "10.5",
+      "1 (+2.5)": "1.01",
+      "2 (-2.5)": "11.5"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325372158-netherlands-germany",
+    "derniere_maj": "2026-09-17T12:25:18.049008+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Norway",
+    "equipe_2": "Denmark",
+    "1X2": {
+      "V1": "1.9",
+      "X": "3.68",
+      "V2": "3.9"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "6.7",
+      "2 (+2.5)": "1.046",
+      "1 (-2)": "5.8",
+      "2 (+2)": "1.072",
+      "1 (-1.5)": "3.22",
+      "2 (+1.5)": "1.28",
+      "1 (-1)": "2.56",
+      "2 (+1)": "1.45",
+      "1 (0)": "1.4",
+      "2 (0)": "2.944",
+      "1 (+1)": "1.046",
+      "2 (-1)": "8",
+      "1 (+1.5)": "1.019",
+      "2 (-1.5)": "9"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325372156-norway-denmark",
+    "derniere_maj": "2026-09-17T12:25:22.604708+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Namibia",
+    "equipe_2": "Congo",
+    "1X2": {
+      "V1": "2.16",
+      "X": "3.09",
+      "V2": "3.095"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.83",
+      "2 (+1)": "1.2",
+      "1 (0)": "1.56",
+      "2 (0)": "2.21"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/21317-africa-cup-of-nations/366841466-namibia-congo",
+    "derniere_maj": "2026-09-17T12:25:22.974997+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Dr Congo",
+    "equipe_2": "Equatorial Guinea",
+    "1X2": {
+      "V1": "1.29",
+      "X": "4.26",
+      "V2": "10.1"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2)": "3.47",
+      "2 (+2)": "1.24",
+      "1 (-1.5)": "2.16",
+      "2 (+1.5)": "1.59",
+      "1 (-1)": "1.57",
+      "2 (+1)": "2.2"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/21317-africa-cup-of-nations/366841488-dr-congo-equatorial-guinea",
+    "derniere_maj": "2026-09-17T12:25:27.893734+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Libya",
+    "equipe_2": "Botswana",
+    "1X2": {
+      "V1": "1.46",
+      "X": "3.62",
+      "V2": "6.77"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "2.69",
+      "2 (+1.5)": "1.39",
+      "1 (-1)": "1.95",
+      "2 (+1)": "1.72"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/21317-africa-cup-of-nations/366841484-libya-botswana",
+    "derniere_maj": "2026-09-17T12:25:28.429366+00:00",
     "statut": "ok"
   }
 ]

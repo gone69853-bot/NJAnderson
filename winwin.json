@@ -4,9 +4,9 @@
     "equipe_1": "Juventus",
     "equipe_2": "Nec",
     "1X2": {
-      "V1": "1.185",
-      "X": "7.2",
-      "V2": "13.5"
+      "V1": "1.16",
+      "X": "7.9",
+      "V2": "15"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -23,28 +23,74 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-4.5)": "6.75",
-      "2 (+4.5)": "1.045",
-      "1 (-4)": "6.15",
-      "2 (+4)": "1.061",
-      "1 (-3.5)": "3.76",
-      "2 (+3.5)": "1.192",
-      "1 (-3)": "3.22",
-      "2 (+3)": "1.28",
-      "1 (-2.5)": "2.36",
-      "2 (+2.5)": "1.59",
-      "1 (-2)": "1.896",
-      "2 (+2)": "1.904",
-      "1 (-1.5)": "1.54",
-      "2 (+1.5)": "2.32",
-      "1 (-1)": "1.23",
-      "2 (+1)": "3.58",
+      "1 (-4.5)": "6.1",
+      "2 (+4.5)": "1.062",
+      "1 (-4)": "5.5",
+      "2 (+4)": "1.082",
+      "1 (-3.5)": "3.44",
+      "2 (+3.5)": "1.23",
+      "1 (-3)": "2.94",
+      "2 (+3)": "1.33",
+      "1 (-2.5)": "2.195",
+      "2 (+2.5)": "1.675",
+      "1 (-2)": "1.768",
+      "2 (+2)": "2.056",
+      "1 (-1.5)": "1.47",
+      "2 (+1.5)": "2.5",
+      "1 (-1)": "1.181",
+      "2 (+1)": "4.1",
       "1 (0)": "1.03",
-      "2 (0)": "9.7"
+      "2 (0)": "12"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/118593-uefa-europa-league/364904966-juventus-nec",
-    "derniere_maj": "2026-09-17T06:26:04.044437+00:00",
+    "derniere_maj": "2026-09-17T11:47:08.526920+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Crystal Palace",
+    "equipe_2": "Lech Poznan",
+    "1X2": {
+      "V1": "1.34",
+      "X": "5.3",
+      "V2": "8.4"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-4)": "11.5",
+      "2 (+4)": "1.01",
+      "1 (-3.5)": "6.05",
+      "2 (+3.5)": "1.064",
+      "1 (-3)": "5.25",
+      "2 (+3)": "1.094",
+      "1 (-2.5)": "3.18",
+      "2 (+2.5)": "1.285",
+      "1 (-2)": "2.59",
+      "2 (+2)": "1.44",
+      "1 (-1.5)": "1.955",
+      "2 (+1.5)": "1.845",
+      "1 (-1)": "1.48",
+      "2 (+1)": "2.47",
+      "1 (0)": "1.079",
+      "2 (0)": "5.85"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/118593-uefa-europa-league/364907352-crystal-palace-lech-poznan",
+    "derniere_maj": "2026-09-17T11:47:08.526283+00:00",
     "statut": "ok"
   },
   {
@@ -52,8 +98,8 @@
     "equipe_1": "Manchester City",
     "equipe_2": "Norwich City",
     "1X2": {
-      "V1": "1.096",
-      "X": "10.5",
+      "V1": "1.09",
+      "X": "11",
       "V2": "21"
     },
     "Total_2.5": {
@@ -71,74 +117,30 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-5.5)": "7.5",
-      "2 (+5.5)": "1.028",
-      "1 (-5)": "7.1",
-      "2 (+5)": "1.038",
-      "1 (-4.5)": "4.4",
-      "2 (+4.5)": "1.141",
-      "1 (-4)": "3.9",
-      "2 (+4)": "1.195",
-      "1 (-3.5)": "2.69",
-      "2 (+3.5)": "1.41",
-      "1 (-3)": "2.25",
-      "2 (+3)": "1.6",
-      "1 (-2.5)": "1.825",
-      "2 (+2.5)": "1.98",
-      "1 (-2)": "1.46",
-      "2 (+2)": "2.6",
-      "1 (-1.5)": "1.32",
-      "2 (+1.5)": "3.1",
-      "1 (-1)": "1.118",
-      "2 (+1)": "5.05"
+      "1 (-5.5)": "6.85",
+      "2 (+5.5)": "1.042",
+      "1 (-5)": "6.35",
+      "2 (+5)": "1.055",
+      "1 (-4.5)": "4.05",
+      "2 (+4.5)": "1.168",
+      "1 (-4)": "3.5",
+      "2 (+4)": "1.24",
+      "1 (-3.5)": "2.53",
+      "2 (+3.5)": "1.46",
+      "1 (-3)": "2.13",
+      "2 (+3)": "1.67",
+      "1 (-2.5)": "1.76",
+      "2 (+2.5)": "2.064",
+      "1 (-2)": "1.42",
+      "2 (+2)": "2.74",
+      "1 (-1.5)": "1.29",
+      "2 (+1.5)": "3.28",
+      "1 (-1)": "1.111",
+      "2 (+1)": "5.2"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/119237-england-league-cup/366115956-manchester-city-norwich-city",
-    "derniere_maj": "2026-09-17T06:26:03.979016+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Crystal Palace",
-    "equipe_2": "Lech Poznan",
-    "1X2": {
-      "V1": "1.37",
-      "X": "5.05",
-      "V2": "7.9"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-3.5)": "6.5",
-      "2 (+3.5)": "1.051",
-      "1 (-3)": "5.7",
-      "2 (+3)": "1.076",
-      "1 (-2.5)": "3.35",
-      "2 (+2.5)": "1.26",
-      "1 (-2)": "2.73",
-      "2 (+2)": "1.4",
-      "1 (-1.5)": "2.03",
-      "2 (+1.5)": "1.785",
-      "1 (-1)": "1.53",
-      "2 (+1)": "2.34",
-      "1 (0)": "1.088",
-      "2 (0)": "5.6"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118593-uefa-europa-league/364907352-crystal-palace-lech-poznan",
-    "derniere_maj": "2026-09-17T06:26:03.930151+00:00",
+    "derniere_maj": "2026-09-17T11:47:08.039821+00:00",
     "statut": "ok"
   },
   {
@@ -146,9 +148,9 @@
     "equipe_1": "Real",
     "equipe_2": "Betis Getafe",
     "1X2": {
-      "V1": "1.635",
-      "X": "3.74",
-      "V2": "5.7"
+      "V1": "1.61",
+      "X": "3.76",
+      "V2": "6"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -165,32 +167,154 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "6",
-      "2 (+2.5)": "1.08",
-      "1 (-2)": "5.15",
-      "2 (+2)": "1.129",
-      "1 (-1.5)": "2.995",
-      "2 (+1.5)": "1.39",
-      "1 (-1)": "2.185",
-      "2 (+1)": "1.68",
-      "1 (0)": "1.21",
-      "2 (0)": "4.05",
-      "1 (+1)": "1.01",
-      "2 (-1)": "11"
+      "1 (-3.5)": "11.5",
+      "2 (+3.5)": "1.01",
+      "1 (-3)": "10",
+      "2 (+3)": "1.02",
+      "1 (-2.5)": "5.3",
+      "2 (+2.5)": "1.107",
+      "1 (-2)": "4.45",
+      "2 (+2)": "1.168",
+      "1 (-1.5)": "2.71",
+      "2 (+1.5)": "1.46",
+      "1 (-1)": "2.064",
+      "2 (+1)": "1.76",
+      "1 (0)": "1.183",
+      "2 (0)": "4.35"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/127733-spain-la-liga/367117376-real-betis-getafe",
-    "derniere_maj": "2026-09-17T06:26:04.041797+00:00",
+    "derniere_maj": "2026-09-17T11:47:08.630901+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Ofi Crete",
-    "equipe_2": "Tsg 1899 Hoffenheim",
+    "equipe_1": "Celtic",
+    "equipe_2": "Ferencvarosi",
+    "1X2": {
+      "V1": "1.688",
+      "X": "4.06",
+      "V2": "4.66"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "9.3",
+      "2 (+3.5)": "1.002",
+      "1 (-3)": "8.6",
+      "2 (+3)": "1.011",
+      "1 (-2.5)": "4.75",
+      "2 (+2.5)": "1.119",
+      "1 (-2)": "4.1",
+      "2 (+2)": "1.178",
+      "1 (-1.5)": "2.69",
+      "2 (+1.5)": "1.47",
+      "1 (-1)": "2.125",
+      "2 (+1)": "1.715",
+      "1 (0)": "1.27",
+      "2 (0)": "3.34",
+      "1 (+1)": "1.016",
+      "2 (-1)": "8.3",
+      "1 (+1.5)": "1.004",
+      "2 (-1.5)": "9.1"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/118593-uefa-europa-league/364904986-celtic-ferencvarosi",
+    "derniere_maj": "2026-09-17T11:47:08.630487+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Almendras De",
+    "equipe_2": "Parraga Las Canas",
+    "1X2": {
+      "V1": "1.69",
+      "X": "4.81",
+      "V2": "3.23"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "2.65",
+      "2 (+1.5)": "1.4",
+      "1 (-1)": "2.15",
+      "2 (+1)": "1.59",
+      "1 (0)": "1.4",
+      "2 (0)": "2.65"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/2779554-cuba-liga-de-barrios/370480946-almendras-de-parraga-las-canas",
+    "derniere_maj": "2026-09-17T11:47:08.603954+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Dragones Del Cerro",
+    "equipe_2": "Leones De La Lisa",
+    "1X2": {
+      "V1": "1.48",
+      "X": "5.21",
+      "V2": "4.125"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "2.21",
+      "2 (+1.5)": "1.56",
+      "1 (-1)": "1.79",
+      "2 (+1)": "1.87",
+      "1 (0)": "1.26",
+      "2 (0)": "3.37"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/2779554-cuba-liga-de-barrios/370480950-dragones-del-cerro-leones-de-la-lisa",
+    "derniere_maj": "2026-09-17T11:47:08.535880+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Slovan Bratislava",
+    "equipe_2": "Vfb Stuttgart",
     "1X2": {
       "V1": "8",
-      "X": "5",
-      "V2": "1.37"
+      "X": "5.55",
+      "V2": "1.336"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -207,720 +331,28 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (0)": "6.1",
-      "2 (0)": "1.086",
-      "1 (+1)": "2.408",
-      "2 (-1)": "1.57",
-      "1 (+1.5)": "1.792",
-      "2 (-1.5)": "2.02",
-      "1 (+2)": "1.4",
-      "2 (-2)": "2.65",
-      "1 (+2.5)": "1.26",
-      "2 (-2.5)": "3.22",
-      "1 (+3)": "1.083",
-      "2 (-3)": "5.5",
-      "1 (+3.5)": "1.058",
-      "2 (-3.5)": "6.25"
+      "1 (0)": "5.75",
+      "2 (0)": "1.092",
+      "1 (+1)": "2.56",
+      "2 (-1)": "1.46",
+      "1 (+1.5)": "1.91",
+      "2 (-1.5)": "1.89",
+      "1 (+2)": "1.52",
+      "2 (-2)": "2.4",
+      "1 (+2.5)": "1.35",
+      "2 (-2.5)": "2.89",
+      "1 (+3)": "1.143",
+      "2 (-3)": "4.5",
+      "1 (+3.5)": "1.103",
+      "2 (-3.5)": "5.05",
+      "1 (+4)": "1.012",
+      "2 (-4)": "8.5",
+      "1 (+4.5)": "1.005",
+      "2 (-4.5)": "9"
     },
     "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118593-uefa-europa-league/364904978-ofi-crete-tsg-1899-hoffenheim",
-    "derniere_maj": "2026-09-17T06:26:04.100635+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Cincinnati ",
-    "equipe_2": "Orlando ",
-    "1X2": {
-      "V1": "2.36",
-      "X": "3.01",
-      "V2": "2.18"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.21",
-      "2 (+1)": "1.28",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.34",
-      "2 (-1)": "2.87"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402078-cincinnati--orlando-",
-    "derniere_maj": "2026-09-17T06:26:03.944102+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Cincinnati ",
-    "equipe_2": "Nashville ",
-    "1X2": {
-      "V1": "2.37",
-      "X": "3.01",
-      "V2": "2.19"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.26",
-      "2 (+1)": "1.27",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.34",
-      "2 (-1)": "2.9"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402094-cincinnati--nashville-",
-    "derniere_maj": "2026-09-17T06:26:03.972752+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Nashville ",
-    "equipe_2": "Orlando ",
-    "1X2": {
-      "V1": "2.37",
-      "X": "3.01",
-      "V2": "2.19"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.26",
-      "2 (+1)": "1.27",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.34",
-      "2 (-1)": "2.9"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402038-nashville--orlando-",
-    "derniere_maj": "2026-09-17T06:26:01.885934+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Toronto",
-    "equipe_2": "Cincinnati ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.11",
-      "V2": "2.39"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.94",
-      "2 (+1)": "1.33",
-      "1 (0)": "1.76",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.31"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402042-toronto-cincinnati-",
-    "derniere_maj": "2026-09-17T06:26:13.269488+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Toronto",
-    "equipe_2": "Nashville ",
-    "1X2": {
-      "V1": "2.18",
-      "X": "3.01",
-      "V2": "2.36"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.87",
-      "2 (+1)": "1.34",
-      "1 (0)": "1.76",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.28",
-      "2 (-1)": "3.21"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402046-toronto-nashville-",
-    "derniere_maj": "2026-09-17T06:26:19.831483+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Toronto",
-    "equipe_2": "Orlando ",
-    "1X2": {
-      "V1": "2.19",
-      "X": "3.01",
-      "V2": "2.37"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.9",
-      "2 (+1)": "1.34",
-      "1 (0)": "1.76",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.27",
-      "2 (-1)": "3.26"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402186-toronto-orlando-",
-    "derniere_maj": "2026-09-17T06:26:56.763480+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Austin ",
-    "equipe_2": "Fusion ",
-    "1X2": {
-      "V1": "2.37",
-      "X": "3.01",
-      "V2": "2.19"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.26",
-      "2 (+1)": "1.27",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.34",
-      "2 (-1)": "2.9"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402228-austin--fusion-",
-    "derniere_maj": "2026-09-17T06:26:23.859818+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Austin ",
-    "equipe_2": "St Louis ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.01",
-      "V2": "2.4"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.98",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.36"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402246-austin--st-louis-",
-    "derniere_maj": "2026-09-17T06:26:19.362250+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Charleston ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402208-birmingham--charleston-",
-    "derniere_maj": "2026-09-17T06:26:20.349478+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Hartford ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402250-birmingham--hartford-",
-    "derniere_maj": "2026-09-17T06:26:19.853741+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402302-birmingham--loudoun-",
-    "derniere_maj": "2026-09-17T06:26:18.652027+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Charleston ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402230-charleston--loudoun-",
-    "derniere_maj": "2026-09-17T06:26:24.596461+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Charleston ",
-    "equipe_2": "Hartford ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402262-charleston--hartford-",
-    "derniere_maj": "2026-09-17T06:26:29.932762+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Hartford ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402124-hartford--loudoun-",
-    "derniere_maj": "2026-09-17T06:26:33.722435+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Los Angeles",
-    "equipe_2": " Austin ",
-    "1X2": {
-      "V1": "2.4",
-      "X": "3.01",
-      "V2": "2.2"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.36",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "2.98"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402240-los-angeles--austin-",
-    "derniere_maj": "2026-09-17T06:26:33.784863+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Los Angeles ",
-    "equipe_2": "St Louis ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.11",
-      "V2": "2.39"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.94",
-      "2 (+1)": "1.33",
-      "1 (0)": "1.76",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.31"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402254-los-angeles--st-louis-",
-    "derniere_maj": "2026-09-17T06:26:33.435789+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Los Angeles",
-    "equipe_2": " Fusion ",
-    "1X2": {
-      "V1": "2.5",
-      "X": "3.08",
-      "V2": "2.11"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.55",
-      "2 (+1)": "1.23",
-      "1 (0)": "2",
-      "2 (0)": "1.69",
-      "1 (+1)": "1.36",
-      "2 (-1)": "2.79"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402182-los-angeles--fusion-",
-    "derniere_maj": "2026-09-17T06:26:33.963907+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "St Louis",
-    "equipe_2": " Fusion ",
-    "1X2": {
-      "V1": "2.39",
-      "X": "3.11",
-      "V2": "2.2"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.31",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.33",
-      "2 (-1)": "2.94"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2590430-mls/370402232-st-louis--fusion-",
-    "derniere_maj": "2026-09-17T06:26:35.017720+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Rc Lens Sporting",
-    "equipe_2": "Clube De Portugal",
-    "1X2": {
-      "V1": "2.38",
-      "X": "3.7",
-      "V2": "2.755"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "8.1",
-      "2 (+2.5)": "1.019",
-      "1 (-2)": "7.4",
-      "2 (+2)": "1.031",
-      "1 (-1.5)": "4.2",
-      "2 (+1.5)": "1.171",
-      "1 (-1)": "3.48",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.78",
-      "2 (0)": "2.04",
-      "1 (+1)": "1.178",
-      "2 (-1)": "4.3",
-      "1 (+1.5)": "1.12",
-      "2 (-1.5)": "5",
-      "1 (+2)": "1.005",
-      "2 (-2)": "9.1",
-      "1 (+2.5)": "1.01",
-      "2 (-2.5)": "11"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590136-rc-lens-sporting-clube-de-portugal",
-    "derniere_maj": "2026-09-17T06:26:37.893623+00:00",
+    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590146-slovan-bratislava-vfb-stuttgart",
+    "derniere_maj": "2026-09-17T11:47:08.540004+00:00",
     "statut": "ok"
   },
   {
@@ -968,7 +400,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368594076-galatasaray-barcelona",
-    "derniere_maj": "2026-09-17T06:26:41.086369+00:00",
+    "derniere_maj": "2026-09-17T11:47:21.307473+00:00",
     "statut": "ok"
   },
   {
@@ -976,8 +408,8 @@
     "equipe_1": "Arsenal",
     "equipe_2": "Lille Osc",
     "1X2": {
-      "V1": "1.24",
-      "X": "6",
+      "V1": "1.25",
+      "X": "5.85",
       "V2": "12"
     },
     "Total_2.5": {
@@ -1007,630 +439,16 @@
       "2 (+2.5)": "1.39",
       "1 (-2)": "2.2",
       "2 (+2)": "1.61",
-      "1 (-1.5)": "1.76",
-      "2 (+1.5)": "2.064",
-      "1 (-1)": "1.34",
-      "2 (+1)": "3.04",
-      "1 (0)": "1.044",
-      "2 (0)": "7.6"
+      "1 (-1.5)": "1.77",
+      "2 (+1.5)": "2.05",
+      "1 (-1)": "1.35",
+      "2 (+1)": "2.99",
+      "1 (0)": "1.046",
+      "2 (0)": "7.5"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368594074-arsenal-lille-osc",
-    "derniere_maj": "2026-09-17T06:26:45.604280+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Sabah Baku",
-    "equipe_2": "Slavia Prague",
-    "1X2": {
-      "V1": "3.58",
-      "X": "3.7",
-      "V2": "1.984"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1.5)": "7.6",
-      "2 (+1.5)": "1.041",
-      "1 (-1)": "6.65",
-      "2 (+1)": "1.074",
-      "1 (0)": "2.645",
-      "2 (0)": "1.48",
-      "1 (+1)": "1.4",
-      "2 (-1)": "2.73",
-      "1 (+1.5)": "1.25",
-      "2 (-1.5)": "3.42",
-      "1 (+2)": "1.063",
-      "2 (-2)": "6.1",
-      "1 (+2.5)": "1.04",
-      "2 (-2.5)": "6.95"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590106-sabah-baku-slavia-prague",
-    "derniere_maj": "2026-09-17T06:26:45.725061+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Lask",
-    "equipe_2": "Linz Liverpool",
-    "1X2": {
-      "V1": "10.5",
-      "X": "6.55",
-      "V2": "1.24"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "6.35",
-      "2 (0)": "1.06",
-      "1 (+1)": "3.1",
-      "2 (-1)": "1.31",
-      "1 (+1.5)": "2.165",
-      "2 (-1.5)": "1.696",
-      "1 (+2)": "1.75",
-      "2 (-2)": "2.08",
-      "1 (+2.5)": "1.48",
-      "2 (-2.5)": "2.5",
-      "1 (+3)": "1.23",
-      "2 (-3)": "3.65",
-      "1 (+3.5)": "1.162",
-      "2 (-3.5)": "4.2",
-      "1 (+4)": "1.042",
-      "2 (-4)": "6.85",
-      "1 (+4.5)": "1.03",
-      "2 (-4.5)": "7.4"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368599548-lask-linz-liverpool",
-    "derniere_maj": "2026-09-17T06:26:45.604980+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Rasenballsport Leipzig",
-    "equipe_2": "Psv Eindhoven",
-    "1X2": {
-      "V1": "2.01",
-      "X": "4",
-      "V2": "3.26"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-3.5)": "12.5",
-      "2 (+3.5)": "1.025",
-      "1 (-3)": "10.5",
-      "2 (+3)": "1.04",
-      "1 (-2.5)": "6.1",
-      "2 (+2.5)": "1.069",
-      "1 (-2)": "5.55",
-      "2 (+2)": "1.104",
-      "1 (-1.5)": "3.34",
-      "2 (+1.5)": "1.29",
-      "1 (-1)": "2.744",
-      "2 (+1)": "1.45",
-      "1 (0)": "1.54",
-      "2 (0)": "2.475",
-      "1 (+1)": "1.103",
-      "2 (-1)": "5.2",
-      "1 (+1.5)": "1.067",
-      "2 (-1.5)": "5.95",
-      "1 (+2)": "1.01",
-      "2 (-2)": "11.5"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590082-rasenballsport-leipzig-psv-eindhoven",
-    "derniere_maj": "2026-09-17T06:26:45.618620+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Internazionale Milano",
-    "equipe_2": "Club Brugge",
-    "1X2": {
-      "V1": "1.28",
-      "X": "5.6",
-      "V2": "10.5"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-4.5)": "11",
-      "2 (+4.5)": "1.01",
-      "1 (-4)": "9",
-      "2 (+4)": "1.005",
-      "1 (-3.5)": "5.1",
-      "2 (+3.5)": "1.101",
-      "1 (-3)": "4.45",
-      "2 (+3)": "1.145",
-      "1 (-2.5)": "2.84",
-      "2 (+2.5)": "1.36",
-      "1 (-2)": "2.3",
-      "2 (+2)": "1.56",
-      "1 (-1.5)": "1.82",
-      "2 (+1.5)": "1.99",
-      "1 (-1)": "1.39",
-      "2 (+1)": "2.81",
-      "1 (0)": "1.06",
-      "2 (0)": "6.85"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590094-internazionale-milano-club-brugge",
-    "derniere_maj": "2026-09-17T06:26:46.093387+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Atletico Madrid",
-    "equipe_2": "Manchester United",
-    "1X2": {
-      "V1": "2.28",
-      "X": "3.82",
-      "V2": "2.835"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "7.1",
-      "2 (+2.5)": "1.036",
-      "1 (-2)": "6.5",
-      "2 (+2)": "1.052",
-      "1 (-1.5)": "3.75",
-      "2 (+1.5)": "1.21",
-      "1 (-1)": "3.15",
-      "2 (+1)": "1.31",
-      "1 (0)": "1.715",
-      "2 (0)": "2.125",
-      "1 (+1)": "1.174",
-      "2 (-1)": "4.4",
-      "1 (+1.5)": "1.119",
-      "2 (-1.5)": "5.05",
-      "1 (+2)": "1.008",
-      "2 (-2)": "8.9",
-      "1 (+2.5)": "1.01",
-      "2 (-2.5)": "10.5"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590142-atletico-madrid-manchester-united",
-    "derniere_maj": "2026-09-17T06:26:48.983274+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Slovan Bratislava",
-    "equipe_2": "Vfb Stuttgart",
-    "1X2": {
-      "V1": "8.1",
-      "X": "5.5",
-      "V2": "1.336"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "5.8",
-      "2 (0)": "1.091",
-      "1 (+1)": "2.56",
-      "2 (-1)": "1.46",
-      "1 (+1.5)": "1.91",
-      "2 (-1.5)": "1.89",
-      "1 (+2)": "1.52",
-      "2 (-2)": "2.4",
-      "1 (+2.5)": "1.35",
-      "2 (-2.5)": "2.89",
-      "1 (+3)": "1.143",
-      "2 (-3)": "4.5",
-      "1 (+3.5)": "1.104",
-      "2 (-3.5)": "5",
-      "1 (+4)": "1.012",
-      "2 (-4)": "8.5",
-      "1 (+4.5)": "1.005",
-      "2 (-4.5)": "9"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590146-slovan-bratislava-vfb-stuttgart",
-    "derniere_maj": "2026-09-17T06:26:54.764025+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Shakhtar Donetsk",
-    "equipe_2": "Aek Athens",
-    "1X2": {
-      "V1": "2.616",
-      "X": "3.44",
-      "V2": "2.63"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "11.5",
-      "2 (+2.5)": "1.01",
-      "1 (-2)": "10",
-      "2 (+2)": "1.02",
-      "1 (-1.5)": "5.25",
-      "2 (+1.5)": "1.109",
-      "1 (-1)": "4.33",
-      "2 (+1)": "1.176",
-      "1 (0)": "1.896",
-      "2 (0)": "1.904",
-      "1 (+1)": "1.175",
-      "2 (-1)": "4.35",
-      "1 (+1.5)": "1.108",
-      "2 (-1.5)": "5.25",
-      "1 (+2)": "1.02",
-      "2 (-2)": "10.5",
-      "1 (+2.5)": "1.01",
-      "2 (-2.5)": "11.5"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590224-shakhtar-donetsk-aek-athens",
-    "derniere_maj": "2026-09-17T06:27:01.026303+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Real",
-    "equipe_2": "Betis Porto",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.6",
-      "V2": "3.11"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "8.5",
-      "2 (+2.5)": "1.013",
-      "1 (-2)": "7.5",
-      "2 (+2)": "1.029",
-      "1 (-1.5)": "3.98",
-      "2 (+1.5)": "1.188",
-      "1 (-1)": "3.22",
-      "2 (+1)": "1.3",
-      "1 (0)": "1.63",
-      "2 (0)": "2.275",
-      "1 (+1)": "1.114",
-      "2 (-1)": "5.45",
-      "1 (+1.5)": "1.069",
-      "2 (-1.5)": "6.35"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590222-real-betis-porto",
-    "derniere_maj": "2026-09-17T06:26:58.815859+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Aston",
-    "equipe_2": "Villa Fenerbahce",
-    "1X2": {
-      "V1": "1.744",
-      "X": "3.74",
-      "V2": "4.7"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-3.5)": "11.5",
-      "2 (+3.5)": "1.01",
-      "1 (-3)": "10.5",
-      "2 (+3)": "1.02",
-      "1 (-2.5)": "5.55",
-      "2 (+2.5)": "1.088",
-      "1 (-2)": "4.85",
-      "2 (+2)": "1.137",
-      "1 (-1.5)": "3.02",
-      "2 (+1.5)": "1.384",
-      "1 (-1)": "2.296",
-      "2 (+1)": "1.62",
-      "1 (0)": "1.28",
-      "2 (0)": "3.34",
-      "1 (+1)": "1.007",
-      "2 (-1)": "9.4",
-      "1 (+1.5)": "1.03",
-      "2 (-1.5)": "9.5"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590144-aston-villa-fenerbahce",
-    "derniere_maj": "2026-09-17T06:26:58.996726+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Roma",
-    "equipe_2": "Real Madrid",
-    "1X2": {
-      "V1": "3.7",
-      "X": "4.06",
-      "V2": "1.864"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1.5)": "6.55",
-      "2 (+1.5)": "1.05",
-      "1 (-1)": "5.85",
-      "2 (+1)": "1.077",
-      "1 (0)": "2.765",
-      "2 (0)": "1.448",
-      "1 (+1)": "1.56",
-      "2 (-1)": "2.425",
-      "1 (+1.5)": "1.36",
-      "2 (-1.5)": "2.94",
-      "1 (+2)": "1.146",
-      "2 (-2)": "4.7",
-      "1 (+2.5)": "1.102",
-      "2 (-2.5)": "5.25",
-      "1 (+3)": "1.006",
-      "2 (-3)": "9",
-      "1 (+3.5)": "1.01",
-      "2 (-3.5)": "11.5"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590172-roma-real-madrid",
-    "derniere_maj": "2026-09-17T06:27:00.973455+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Feyenoord",
-    "equipe_2": "Como",
-    "1X2": {
-      "V1": "3.46",
-      "X": "3.92",
-      "V2": "1.965"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1.5)": "6.4",
-      "2 (+1.5)": "1.067",
-      "1 (-1)": "5.8",
-      "2 (+1)": "1.101",
-      "1 (0)": "2.61",
-      "2 (0)": "1.495",
-      "1 (+1)": "1.44",
-      "2 (-1)": "2.59",
-      "1 (+1.5)": "1.285",
-      "2 (-1.5)": "3.18",
-      "1 (+2)": "1.097",
-      "2 (-2)": "5.2",
-      "1 (+2.5)": "1.07",
-      "2 (-2.5)": "5.85"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368594078-feyenoord-como",
-    "derniere_maj": "2026-09-17T06:26:59.330248+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Villarreal",
-    "equipe_2": "Napoli",
-    "1X2": {
-      "V1": "2.33",
-      "X": "3.42",
-      "V2": "3.015"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "9.1",
-      "2 (+2.5)": "1.004",
-      "1 (-2)": "8.3",
-      "2 (+2)": "1.016",
-      "1 (-1.5)": "4.3",
-      "2 (+1.5)": "1.162",
-      "1 (-1)": "3.48",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.69",
-      "2 (0)": "2.168",
-      "1 (+1)": "1.126",
-      "2 (-1)": "5.2",
-      "1 (+1.5)": "1.078",
-      "2 (-1.5)": "6.05",
-      "1 (+2)": "1.01",
-      "2 (-2)": "11.5"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590140-villarreal-napoli",
-    "derniere_maj": "2026-09-17T06:27:02.886274+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Viking",
-    "equipe_2": "Bayern Munich",
-    "1X2": {
-      "V1": "20",
-      "X": "12.5",
-      "V2": "1.075"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "13.5",
-      "2 (0)": "1.02",
-      "1 (+1)": "5.05",
-      "2 (-1)": "1.103",
-      "1 (+1.5)": "3.15",
-      "2 (-1.5)": "1.28",
-      "1 (+2)": "2.65",
-      "2 (-2)": "1.41",
-      "1 (+2.5)": "2.03",
-      "2 (-2.5)": "1.784",
-      "1 (+3)": "1.67",
-      "2 (-3)": "2.205",
-      "1 (+3.5)": "1.44",
-      "2 (-3.5)": "2.625",
-      "1 (+4)": "1.22",
-      "2 (-4)": "3.74",
-      "1 (+4.5)": "1.158",
-      "2 (-4.5)": "4.25",
-      "1 (+5)": "1.043",
-      "2 (-5)": "6.8"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590086-viking-bayern-munich",
-    "derniere_maj": "2026-09-17T06:27:09.013822+00:00",
+    "derniere_maj": "2026-09-17T11:47:19.682338+00:00",
     "statut": "ok"
   },
   {
@@ -1680,7 +498,149 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590228-bodo-glimt-borussia-dortmund",
-    "derniere_maj": "2026-09-17T06:27:08.033068+00:00",
+    "derniere_maj": "2026-09-17T11:48:02.676735+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Rc Lens Sporting",
+    "equipe_2": "Clube De Portugal",
+    "1X2": {
+      "V1": "2.38",
+      "X": "3.7",
+      "V2": "2.755"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "8.1",
+      "2 (+2.5)": "1.019",
+      "1 (-2)": "7.4",
+      "2 (+2)": "1.031",
+      "1 (-1.5)": "4.2",
+      "2 (+1.5)": "1.171",
+      "1 (-1)": "3.48",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.78",
+      "2 (0)": "2.04",
+      "1 (+1)": "1.178",
+      "2 (-1)": "4.3",
+      "1 (+1.5)": "1.119",
+      "2 (-1.5)": "5.05",
+      "1 (+2)": "1.005",
+      "2 (-2)": "9.1",
+      "1 (+2.5)": "1.01",
+      "2 (-2.5)": "11"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590136-rc-lens-sporting-clube-de-portugal",
+    "derniere_maj": "2026-09-17T11:47:21.721945+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Viking",
+    "equipe_2": "Bayern Munich",
+    "1X2": {
+      "V1": "20",
+      "X": "12.5",
+      "V2": "1.075"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "13.5",
+      "2 (0)": "1.02",
+      "1 (+1)": "5.05",
+      "2 (-1)": "1.103",
+      "1 (+1.5)": "3.15",
+      "2 (-1.5)": "1.28",
+      "1 (+2)": "2.65",
+      "2 (-2)": "1.41",
+      "1 (+2.5)": "2.03",
+      "2 (-2.5)": "1.784",
+      "1 (+3)": "1.67",
+      "2 (-3)": "2.205",
+      "1 (+3.5)": "1.44",
+      "2 (-3.5)": "2.625",
+      "1 (+4)": "1.22",
+      "2 (-4)": "3.74",
+      "1 (+4.5)": "1.158",
+      "2 (-4.5)": "4.25",
+      "1 (+5)": "1.043",
+      "2 (-5)": "6.8"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590086-viking-bayern-munich",
+    "derniere_maj": "2026-09-17T11:47:21.882851+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Sabah Baku",
+    "equipe_2": "Slavia Prague",
+    "1X2": {
+      "V1": "3.58",
+      "X": "3.7",
+      "V2": "1.984"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "7.6",
+      "2 (+1.5)": "1.041",
+      "1 (-1)": "6.65",
+      "2 (+1)": "1.074",
+      "1 (0)": "2.645",
+      "2 (0)": "1.48",
+      "1 (+1)": "1.4",
+      "2 (-1)": "2.73",
+      "1 (+1.5)": "1.25",
+      "2 (-1.5)": "3.42",
+      "1 (+2)": "1.063",
+      "2 (-2)": "6.1",
+      "1 (+2.5)": "1.04",
+      "2 (-2.5)": "6.95"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590106-sabah-baku-slavia-prague",
+    "derniere_maj": "2026-09-17T11:47:19.735976+00:00",
     "statut": "ok"
   },
   {
@@ -1730,17 +690,17 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590154-manchester-city-paris-saint-germain",
-    "derniere_maj": "2026-09-17T06:27:12.242417+00:00",
+    "derniere_maj": "2026-09-17T11:47:21.864708+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Machida Zelvia Preah",
-    "equipe_2": "Khan Reach Svay Rieng",
+    "equipe_1": "Rasenballsport Leipzig",
+    "equipe_2": "Psv Eindhoven",
     "1X2": {
-      "V1": "1.178",
-      "X": "7.49",
-      "V2": "10.7"
+      "V1": "2.01",
+      "X": "4",
+      "V2": "3.26"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1757,40 +717,40 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-5.5)": "9.2",
-      "2 (+5.5)": "1.003",
-      "1 (-5)": "8.8",
-      "2 (+5)": "1.008",
-      "1 (-4.5)": "5.35",
-      "2 (+4.5)": "1.089",
-      "1 (-4)": "4.8",
-      "2 (+4)": "1.115",
-      "1 (-3.5)": "3.08",
-      "2 (+3.5)": "1.28",
-      "1 (-3)": "2.625",
-      "2 (+3)": "1.38",
-      "1 (-2.5)": "2.037",
-      "2 (+2.5)": "1.711",
-      "1 (-2)": "1.615",
-      "2 (+2)": "2.06",
-      "1 (-1.5)": "1.41",
-      "2 (+1.5)": "2.52",
-      "1 (-1)": "1.166",
-      "2 (+1)": "4.05"
+      "1 (-3.5)": "12.5",
+      "2 (+3.5)": "1.025",
+      "1 (-3)": "10.5",
+      "2 (+3)": "1.04",
+      "1 (-2.5)": "6.1",
+      "2 (+2.5)": "1.069",
+      "1 (-2)": "5.55",
+      "2 (+2)": "1.104",
+      "1 (-1.5)": "3.34",
+      "2 (+1.5)": "1.29",
+      "1 (-1)": "2.744",
+      "2 (+1)": "1.45",
+      "1 (0)": "1.54",
+      "2 (0)": "2.475",
+      "1 (+1)": "1.103",
+      "2 (-1)": "5.2",
+      "1 (+1.5)": "1.067",
+      "2 (-1.5)": "5.95",
+      "1 (+2)": "1.01",
+      "2 (-2)": "11.5"
     },
     "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2743971-afc-champions-league-2/369863012-machida-zelvia-preah-khan-reach-svay-rieng",
-    "derniere_maj": "2026-09-17T06:27:12.358747+00:00",
+    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590082-rasenballsport-leipzig-psv-eindhoven",
+    "derniere_maj": "2026-09-17T11:47:21.870351+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Adelaide United",
-    "equipe_2": "Wofoo Tai Po",
+    "equipe_1": "Lask",
+    "equipe_2": "Linz Liverpool",
     "1X2": {
-      "V1": "1.186",
-      "X": "6.51",
-      "V2": "12.7"
+      "V1": "10.5",
+      "X": "6.55",
+      "V2": "1.24"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1807,38 +767,38 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-4.5)": "8.5",
-      "2 (+4.5)": "1.013",
-      "1 (-4)": "7.7",
-      "2 (+4)": "1.025",
-      "1 (-3.5)": "4.4",
-      "2 (+3.5)": "1.14",
-      "1 (-3)": "3.72",
-      "2 (+3)": "1.196",
-      "1 (-2.5)": "2.46",
-      "2 (+2.5)": "1.43",
-      "1 (-2)": "1.98",
-      "2 (+2)": "1.666",
-      "1 (-1.5)": "1.647",
-      "2 (+1.5)": "2.135",
-      "1 (-1)": "1.28",
-      "2 (+1)": "3.08",
-      "1 (0)": "1.005",
-      "2 (0)": "9"
+      "1 (0)": "6.35",
+      "2 (0)": "1.06",
+      "1 (+1)": "3.1",
+      "2 (-1)": "1.31",
+      "1 (+1.5)": "2.165",
+      "2 (-1.5)": "1.696",
+      "1 (+2)": "1.75",
+      "2 (-2)": "2.08",
+      "1 (+2.5)": "1.48",
+      "2 (-2.5)": "2.5",
+      "1 (+3)": "1.23",
+      "2 (-3)": "3.65",
+      "1 (+3.5)": "1.162",
+      "2 (-3.5)": "4.2",
+      "1 (+4)": "1.042",
+      "2 (-4)": "6.85",
+      "1 (+4.5)": "1.03",
+      "2 (-4.5)": "7.4"
     },
     "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2743971-afc-champions-league-2/370267108-adelaide-united-wofoo-tai-po",
-    "derniere_maj": "2026-09-17T06:27:12.759644+00:00",
+    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368599548-lask-linz-liverpool",
+    "derniere_maj": "2026-09-17T11:47:39.079340+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Shanghai Shenhua",
-    "equipe_2": "Tampines Rovers",
+    "equipe_1": "Internazionale Milano",
+    "equipe_2": "Club Brugge",
     "1X2": {
-      "V1": "1.253",
-      "X": "5.78",
-      "V2": "9.55"
+      "V1": "1.28",
+      "X": "5.6",
+      "V2": "10.5"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1855,38 +815,38 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-4.5)": "8.3",
-      "2 (+4.5)": "1.03",
-      "1 (-4)": "7.5",
-      "2 (+4)": "1.04",
-      "1 (-3.5)": "5.2",
-      "2 (+3.5)": "1.096",
+      "1 (-4.5)": "11",
+      "2 (+4.5)": "1.01",
+      "1 (-4)": "9",
+      "2 (+4)": "1.006",
+      "1 (-3.5)": "5.05",
+      "2 (+3.5)": "1.102",
       "1 (-3)": "4.45",
-      "2 (+3)": "1.135",
-      "1 (-2.5)": "2.81",
-      "2 (+2.5)": "1.333",
-      "1 (-2)": "2.26",
-      "2 (+2)": "1.51",
-      "1 (-1.5)": "1.791",
-      "2 (+1.5)": "1.934",
-      "1 (-1)": "1.37",
-      "2 (+1)": "2.66",
-      "1 (0)": "1.036",
-      "2 (0)": "7.1"
+      "2 (+3)": "1.146",
+      "1 (-2.5)": "2.84",
+      "2 (+2.5)": "1.36",
+      "1 (-2)": "2.3",
+      "2 (+2)": "1.56",
+      "1 (-1.5)": "1.82",
+      "2 (+1.5)": "1.99",
+      "1 (-1)": "1.39",
+      "2 (+1)": "2.81",
+      "1 (0)": "1.06",
+      "2 (0)": "6.85"
     },
     "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2743971-afc-champions-league-2/369862980-shanghai-shenhua-tampines-rovers",
-    "derniere_maj": "2026-09-17T06:27:14.362621+00:00",
+    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590094-internazionale-milano-club-brugge",
+    "derniere_maj": "2026-09-17T11:47:39.112496+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Kitchee",
-    "equipe_2": "Gangwon",
+    "equipe_1": "Feyenoord",
+    "equipe_2": "Como",
     "1X2": {
-      "V1": "2.537",
-      "X": "3.305",
-      "V2": "2.641"
+      "V1": "3.46",
+      "X": "3.92",
+      "V2": "1.965"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1903,36 +863,172 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2)": "9.5",
-      "2 (+2)": "1.01",
-      "1 (-1.5)": "4.95",
-      "2 (+1.5)": "1.107",
-      "1 (-1)": "4.05",
-      "2 (+1)": "1.164",
-      "1 (0)": "1.83",
-      "2 (0)": "1.891",
-      "1 (+1)": "1.147",
-      "2 (-1)": "4.3",
-      "1 (+1.5)": "1.096",
-      "2 (-1.5)": "5.2",
-      "1 (+2)": "1.02",
-      "2 (-2)": "9.2",
-      "1 (+2.5)": "1.01",
-      "2 (-2.5)": "10"
+      "1 (-1.5)": "6.4",
+      "2 (+1.5)": "1.067",
+      "1 (-1)": "5.8",
+      "2 (+1)": "1.101",
+      "1 (0)": "2.61",
+      "2 (0)": "1.495",
+      "1 (+1)": "1.44",
+      "2 (-1)": "2.59",
+      "1 (+1.5)": "1.285",
+      "2 (-1.5)": "3.18",
+      "1 (+2)": "1.097",
+      "2 (-2)": "5.2",
+      "1 (+2.5)": "1.07",
+      "2 (-2.5)": "5.85"
     },
     "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2743971-afc-champions-league-2/369862976-kitchee-gangwon",
-    "derniere_maj": "2026-09-17T06:27:15.470284+00:00",
+    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368594078-feyenoord-como",
+    "derniere_maj": "2026-09-17T11:47:39.500384+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Lion City Sailors",
-    "equipe_2": "Bg Pathum United",
+    "equipe_1": "Villarreal",
+    "equipe_2": "Napoli",
     "1X2": {
-      "V1": "1.976",
-      "X": "3.72",
-      "V2": "3.325"
+      "V1": "2.33",
+      "X": "3.42",
+      "V2": "3.015"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "9.1",
+      "2 (+2.5)": "1.004",
+      "1 (-2)": "8.3",
+      "2 (+2)": "1.016",
+      "1 (-1.5)": "4.3",
+      "2 (+1.5)": "1.162",
+      "1 (-1)": "3.48",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.69",
+      "2 (0)": "2.168",
+      "1 (+1)": "1.126",
+      "2 (-1)": "5.2",
+      "1 (+1.5)": "1.078",
+      "2 (-1.5)": "6.05",
+      "1 (+2)": "1.01",
+      "2 (-2)": "11.5"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590140-villarreal-napoli",
+    "derniere_maj": "2026-09-17T11:47:41.506781+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Shakhtar Donetsk",
+    "equipe_2": "Aek Athens",
+    "1X2": {
+      "V1": "2.616",
+      "X": "3.44",
+      "V2": "2.63"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "11.5",
+      "2 (+2.5)": "1.01",
+      "1 (-2)": "10",
+      "2 (+2)": "1.02",
+      "1 (-1.5)": "5.25",
+      "2 (+1.5)": "1.109",
+      "1 (-1)": "4.33",
+      "2 (+1)": "1.176",
+      "1 (0)": "1.896",
+      "2 (0)": "1.904",
+      "1 (+1)": "1.175",
+      "2 (-1)": "4.35",
+      "1 (+1.5)": "1.108",
+      "2 (-1.5)": "5.25",
+      "1 (+2)": "1.02",
+      "2 (-2)": "10.5",
+      "1 (+2.5)": "1.01",
+      "2 (-2.5)": "11.5"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590224-shakhtar-donetsk-aek-athens",
+    "derniere_maj": "2026-09-17T11:47:39.499465+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Real",
+    "equipe_2": "Betis Porto",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.6",
+      "V2": "3.11"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "8.5",
+      "2 (+2.5)": "1.013",
+      "1 (-2)": "7.5",
+      "2 (+2)": "1.029",
+      "1 (-1.5)": "3.98",
+      "2 (+1.5)": "1.188",
+      "1 (-1)": "3.22",
+      "2 (+1)": "1.3",
+      "1 (0)": "1.63",
+      "2 (0)": "2.275",
+      "1 (+1)": "1.114",
+      "2 (-1)": "5.45",
+      "1 (+1.5)": "1.069",
+      "2 (-1.5)": "6.35"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590222-real-betis-porto",
+    "derniere_maj": "2026-09-17T11:47:41.769764+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Atletico Madrid",
+    "equipe_2": "Manchester United",
+    "1X2": {
+      "V1": "2.28",
+      "X": "3.82",
+      "V2": "2.835"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1951,22 +1047,214 @@
     "Handicap": {
       "1 (-2.5)": "7.1",
       "2 (+2.5)": "1.036",
-      "1 (-2)": "6.35",
-      "2 (+2)": "1.055",
-      "1 (-1.5)": "3.42",
-      "2 (+1.5)": "1.23",
-      "1 (-1)": "2.7",
-      "2 (+1)": "1.36",
-      "1 (0)": "1.497",
-      "2 (0)": "2.455",
-      "1 (+1)": "1.069",
-      "2 (-1)": "5.9",
-      "1 (+1.5)": "1.043",
-      "2 (-1.5)": "6.8"
+      "1 (-2)": "6.5",
+      "2 (+2)": "1.052",
+      "1 (-1.5)": "3.75",
+      "2 (+1.5)": "1.21",
+      "1 (-1)": "3.15",
+      "2 (+1)": "1.31",
+      "1 (0)": "1.715",
+      "2 (0)": "2.125",
+      "1 (+1)": "1.174",
+      "2 (-1)": "4.4",
+      "1 (+1.5)": "1.119",
+      "2 (-1.5)": "5.05",
+      "1 (+2)": "1.008",
+      "2 (-2)": "8.9",
+      "1 (+2.5)": "1.01",
+      "2 (-2.5)": "10.5"
     },
     "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/2743971-afc-champions-league-2/369862978-lion-city-sailors-bg-pathum-united",
-    "derniere_maj": "2026-09-17T06:27:16.732977+00:00",
+    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590142-atletico-madrid-manchester-united",
+    "derniere_maj": "2026-09-17T11:47:41.745660+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Aston",
+    "equipe_2": "Villa Fenerbahce",
+    "1X2": {
+      "V1": "1.744",
+      "X": "3.74",
+      "V2": "4.7"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "11.5",
+      "2 (+3.5)": "1.01",
+      "1 (-3)": "10.5",
+      "2 (+3)": "1.02",
+      "1 (-2.5)": "5.55",
+      "2 (+2.5)": "1.088",
+      "1 (-2)": "4.85",
+      "2 (+2)": "1.137",
+      "1 (-1.5)": "3.02",
+      "2 (+1.5)": "1.384",
+      "1 (-1)": "2.296",
+      "2 (+1)": "1.62",
+      "1 (0)": "1.28",
+      "2 (0)": "3.34",
+      "1 (+1)": "1.007",
+      "2 (-1)": "9.4",
+      "1 (+1.5)": "1.03",
+      "2 (-1.5)": "9.5"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590144-aston-villa-fenerbahce",
+    "derniere_maj": "2026-09-17T11:47:50.527870+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Roma",
+    "equipe_2": "Real Madrid",
+    "1X2": {
+      "V1": "3.7",
+      "X": "4.06",
+      "V2": "1.864"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "6.55",
+      "2 (+1.5)": "1.05",
+      "1 (-1)": "5.85",
+      "2 (+1)": "1.077",
+      "1 (0)": "2.765",
+      "2 (0)": "1.448",
+      "1 (+1)": "1.56",
+      "2 (-1)": "2.425",
+      "1 (+1.5)": "1.36",
+      "2 (-1.5)": "2.94",
+      "1 (+2)": "1.146",
+      "2 (-2)": "4.7",
+      "1 (+2.5)": "1.102",
+      "2 (-2.5)": "5.25",
+      "1 (+3)": "1.006",
+      "2 (-3)": "9",
+      "1 (+3.5)": "1.01",
+      "2 (-3.5)": "11.5"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/118587-uefa-champions-league/368590172-roma-real-madrid",
+    "derniere_maj": "2026-09-17T11:47:50.534450+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Kitchee",
+    "equipe_2": "Gangwon",
+    "1X2": {
+      "V1": "1.466",
+      "X": "4.68",
+      "V2": "5.56"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "7.9",
+      "2 (+3.5)": "1.022",
+      "1 (-3)": "7.1",
+      "2 (+3)": "1.036",
+      "1 (-2.5)": "3.98",
+      "2 (+2.5)": "1.171",
+      "1 (-2)": "3.28",
+      "2 (+2)": "1.25",
+      "1 (-1.5)": "2.273",
+      "2 (+1.5)": "1.574",
+      "1 (-1)": "1.72",
+      "2 (+1)": "1.95",
+      "1 (0)": "1.151",
+      "2 (0)": "4.25",
+      "1 (+1)": "1.02",
+      "2 (-1)": "9.4",
+      "1 (+1.5)": "1.01",
+      "2 (-1.5)": "10"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/2743971-afc-champions-league-2/369862976-kitchee-gangwon",
+    "derniere_maj": "2026-09-17T11:47:50.653214+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Shanghai Shenhua",
+    "equipe_2": "Tampines Rovers",
+    "1X2": {
+      "V1": "1.366",
+      "X": "4.995",
+      "V2": "6.98"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "6.55",
+      "2 (+3.5)": "1.05",
+      "1 (-3)": "5.8",
+      "2 (+3)": "1.072",
+      "1 (-2.5)": "3.34",
+      "2 (+2.5)": "1.24",
+      "1 (-2)": "2.74",
+      "2 (+2)": "1.35",
+      "1 (-1.5)": "2.037",
+      "2 (+1.5)": "1.711",
+      "1 (-1)": "1.56",
+      "2 (+1)": "2.15",
+      "1 (0)": "1.093",
+      "2 (0)": "5.25"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/2743971-afc-champions-league-2/369862980-shanghai-shenhua-tampines-rovers",
+    "derniere_maj": "2026-09-17T11:47:50.826309+00:00",
     "statut": "ok"
   },
   {
@@ -1974,9 +1262,9 @@
     "equipe_1": "Phnom Penh",
     "equipe_2": "Crown Kuching",
     "1X2": {
-      "V1": "2.797",
-      "X": "3.22",
-      "V2": "2.454"
+      "V1": "2.56",
+      "X": "3.475",
+      "V2": "2.519"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1993,34 +1281,38 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1.5)": "5.65",
-      "2 (+1.5)": "1.078",
-      "1 (-1)": "4.7",
-      "2 (+1)": "1.12",
-      "1 (0)": "1.984",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.181",
-      "2 (-1)": "3.86",
-      "1 (+1.5)": "1.118",
+      "1 (-2.5)": "9.8",
+      "2 (+2.5)": "1.01",
+      "1 (-2)": "8.8",
+      "2 (+2)": "1.02",
+      "1 (-1.5)": "4.9",
+      "2 (+1.5)": "1.11",
+      "1 (-1)": "4.05",
+      "2 (+1)": "1.166",
+      "1 (0)": "1.88",
+      "2 (0)": "1.84",
+      "1 (+1)": "1.177",
+      "2 (-1)": "3.9",
+      "1 (+1.5)": "1.117",
       "2 (-1.5)": "4.75",
-      "1 (+2)": "1.02",
-      "2 (-2)": "9.2",
-      "1 (+2.5)": "1.01",
-      "2 (-2.5)": "10.5"
+      "1 (+2)": "1.002",
+      "2 (-2)": "9.3",
+      "1 (+2.5)": "1.02",
+      "2 (-2.5)": "9.3"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2743971-afc-champions-league-2/369883390-phnom-penh-crown-kuching",
-    "derniere_maj": "2026-09-17T06:27:19.484977+00:00",
+    "derniere_maj": "2026-09-17T11:47:54.820064+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Everton",
-    "equipe_2": "Ipswich Town",
+    "equipe_1": "Levski Sofia",
+    "equipe_2": "Fc Salzburg",
     "1X2": {
-      "V1": "1.752",
-      "X": "3.86",
-      "V2": "4.46"
+      "V1": "3.34",
+      "X": "3.54",
+      "V2": "2.12"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -2037,36 +1329,130 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-3)": "11.5",
-      "2 (+3)": "1.01",
-      "1 (-2.5)": "5.4",
-      "2 (+2.5)": "1.095",
-      "1 (-2)": "4.75",
-      "2 (+2)": "1.141",
-      "1 (-1.5)": "3.02",
-      "2 (+1.5)": "1.384",
-      "1 (-1)": "2.315",
+      "1 (-1.5)": "6.85",
+      "2 (+1.5)": "1.05",
+      "1 (-1)": "5.95",
+      "2 (+1)": "1.089",
+      "1 (0)": "2.43",
+      "2 (0)": "1.56",
+      "1 (+1)": "1.33",
+      "2 (-1)": "2.99",
+      "1 (+1.5)": "1.21",
+      "2 (-1.5)": "3.68",
+      "1 (+2)": "1.042",
+      "2 (-2)": "6.85",
+      "1 (+2.5)": "1.024",
+      "2 (-2.5)": "7.8"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/118593-uefa-europa-league/364905970-levski-sofia-fc-salzburg",
+    "derniere_maj": "2026-09-17T11:47:54.782536+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Ofi Crete",
+    "equipe_2": "Tsg 1899 Hoffenheim",
+    "1X2": {
+      "V1": "9.5",
+      "X": "5.55",
+      "V2": "1.3"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "6.35",
+      "2 (0)": "1.064",
+      "1 (+1)": "2.69",
+      "2 (-1)": "1.41",
+      "1 (+1.5)": "1.955",
+      "2 (-1.5)": "1.845",
+      "1 (+2)": "1.53",
+      "2 (-2)": "2.34",
+      "1 (+2.5)": "1.35",
+      "2 (-2.5)": "2.84",
+      "1 (+3)": "1.132",
+      "2 (-3)": "4.55",
+      "1 (+3.5)": "1.094",
+      "2 (-3.5)": "5.25",
+      "1 (+4)": "1.02",
+      "2 (-4)": "9.8",
+      "1 (+4.5)": "1.02",
+      "2 (-4.5)": "10.5"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/118593-uefa-europa-league/364904978-ofi-crete-tsg-1899-hoffenheim",
+    "derniere_maj": "2026-09-17T11:47:54.916056+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Besiktas Olympique",
+    "equipe_2": "De Marseille",
+    "1X2": {
+      "V1": "1.775",
+      "X": "4.06",
+      "V2": "4.1"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "11",
+      "2 (+3.5)": "1.01",
+      "1 (-3)": "9.1",
+      "2 (+3)": "1.005",
+      "1 (-2.5)": "5.25",
+      "2 (+2.5)": "1.109",
+      "1 (-2)": "4.65",
+      "2 (+2)": "1.156",
+      "1 (-1.5)": "2.965",
+      "2 (+1.5)": "1.4",
+      "1 (-1)": "2.32",
       "2 (+1)": "1.61",
-      "1 (0)": "1.3",
-      "2 (0)": "3.22",
-      "1 (+1)": "1.027",
-      "2 (-1)": "8",
-      "1 (+1.5)": "1.011",
-      "2 (-1.5)": "8.6"
+      "1 (0)": "1.35",
+      "2 (0)": "2.99",
+      "1 (+1)": "1.052",
+      "2 (-1)": "7",
+      "1 (+1.5)": "1.028",
+      "2 (-1.5)": "7.6"
     },
     "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/88637-england-premier-league/366892140-everton-ipswich-town",
-    "derniere_maj": "2026-09-17T06:27:20.286384+00:00",
+    "url": "https://winwin.bet/en/line/football/118593-uefa-europa-league/364904976-besiktas-olympique-de-marseille",
+    "derniere_maj": "2026-09-17T11:48:01.978133+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Brighton ",
-    "equipe_2": "Hove Albion Arsenal",
+    "equipe_1": "Viktoria Plzen Royale",
+    "equipe_2": "Union Saint Gilloise",
     "1X2": {
-      "V1": "4.6",
-      "X": "3.96",
-      "V2": "1.712"
+      "V1": "2.456",
+      "X": "3.54",
+      "V2": "2.744"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -2083,36 +1469,38 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1.5)": "8.9",
-      "2 (+1.5)": "1.007",
-      "1 (-1)": "8.3",
-      "2 (+1)": "1.022",
-      "1 (0)": "3.3",
-      "2 (0)": "1.285",
-      "1 (+1)": "1.64",
-      "2 (-1)": "2.256",
-      "1 (+1.5)": "1.395",
-      "2 (-1.5)": "2.97",
-      "1 (+2)": "1.144",
-      "2 (-2)": "4.7",
-      "1 (+2.5)": "1.097",
-      "2 (-2.5)": "5.35",
-      "1 (+3)": "1.01",
-      "2 (-3)": "11"
+      "1 (-2.5)": "9.6",
+      "2 (+2.5)": "1.03",
+      "1 (-2)": "9.2",
+      "2 (+2)": "1.003",
+      "1 (-1.5)": "4.65",
+      "2 (+1.5)": "1.134",
+      "1 (-1)": "3.75",
+      "2 (+1)": "1.22",
+      "1 (0)": "1.795",
+      "2 (0)": "2.016",
+      "1 (+1)": "1.156",
+      "2 (-1)": "4.55",
+      "1 (+1.5)": "1.096",
+      "2 (-1.5)": "5.4",
+      "1 (+2)": "1.02",
+      "2 (-2)": "10.5",
+      "1 (+2.5)": "1.01",
+      "2 (-2.5)": "11.5"
     },
     "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/88637-england-premier-league/366892122-brighton--hove-albion-arsenal",
-    "derniere_maj": "2026-09-17T06:27:23.218586+00:00",
+    "url": "https://winwin.bet/en/line/football/118593-uefa-europa-league/364904980-viktoria-plzen-royale-union-saint-gilloise",
+    "derniere_maj": "2026-09-17T11:48:01.659132+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Newcastle United",
-    "equipe_2": "Hull City",
+    "equipe_1": "Lillestrom",
+    "equipe_2": "Scu Torreense",
     "1X2": {
-      "V1": "1.575",
-      "X": "4.36",
-      "V2": "5.25"
+      "V1": "1.61",
+      "X": "4.3",
+      "V2": "5"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -2129,28 +1517,590 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-3.5)": "8.2",
-      "2 (+3.5)": "1.017",
-      "1 (-3)": "7.8",
-      "2 (+3)": "1.031",
-      "1 (-2.5)": "4.45",
-      "2 (+2.5)": "1.161",
-      "1 (-2)": "3.72",
-      "2 (+2)": "1.24",
-      "1 (-1.5)": "2.525",
-      "2 (+1.5)": "1.52",
-      "1 (-1)": "1.89",
-      "2 (+1)": "1.83",
-      "1 (0)": "1.2",
-      "2 (0)": "3.85",
-      "1 (+1)": "1.002",
-      "2 (-1)": "9.3",
+      "1 (-3.5)": "8.7",
+      "2 (+3.5)": "1.009",
+      "1 (-3)": "8.2",
+      "2 (+3)": "1.017",
+      "1 (-2.5)": "4.6",
+      "2 (+2.5)": "1.129",
+      "1 (-2)": "3.94",
+      "2 (+2)": "1.192",
+      "1 (-1.5)": "2.595",
+      "2 (+1.5)": "1.5",
+      "1 (-1)": "2.016",
+      "2 (+1)": "1.795",
+      "1 (0)": "1.23",
+      "2 (0)": "3.66",
+      "1 (+1)": "1.009",
+      "2 (-1)": "8.8",
       "1 (+1.5)": "1.01",
-      "2 (-1.5)": "11"
+      "2 (-1.5)": "10.5"
     },
     "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/88637-england-premier-league/366892114-newcastle-united-hull-city",
-    "derniere_maj": "2026-09-17T06:27:23.217971+00:00",
+    "url": "https://winwin.bet/en/line/football/118593-uefa-europa-league/364904984-lillestrom-scu-torreense",
+    "derniere_maj": "2026-09-17T11:48:02.245179+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Real",
+    "equipe_2": "Sociedad Bournemouth",
+    "1X2": {
+      "V1": "3.04",
+      "X": "3.64",
+      "V2": "2.225"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "6.2",
+      "2 (+1.5)": "1.08",
+      "1 (-1)": "5.3",
+      "2 (+1)": "1.128",
+      "1 (0)": "2.24",
+      "2 (0)": "1.65",
+      "1 (+1)": "1.3",
+      "2 (-1)": "3.28",
+      "1 (+1.5)": "1.188",
+      "2 (-1.5)": "4.1",
+      "1 (+2)": "1.031",
+      "2 (-2)": "7.8",
+      "1 (+2.5)": "1.012",
+      "2 (-2.5)": "8.5"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/118593-uefa-europa-league/364905972-real-sociedad-bournemouth",
+    "derniere_maj": "2026-09-17T11:48:02.628109+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Home",
+    "equipe_2": "Away",
+    "1X2": {
+      "V1": "1.22",
+      "X": "14",
+      "V2": "4.795"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-10.5)": "7",
+      "2 (+10.5)": "1.1",
+      "1 (-10)": "6.7",
+      "2 (+10)": "1.104",
+      "1 (-9.5)": "5.25",
+      "2 (+9.5)": "1.155",
+      "1 (-9)": "5.04",
+      "2 (+9)": "1.17",
+      "1 (-8.5)": "4.11",
+      "2 (+8.5)": "1.235",
+      "1 (-8)": "3.88",
+      "2 (+8)": "1.256",
+      "1 (-7.5)": "3.285",
+      "2 (+7.5)": "1.336",
+      "1 (-7)": "3.09",
+      "2 (+7)": "1.371",
+      "1 (-6.5)": "2.704",
+      "2 (+6.5)": "1.464",
+      "1 (-6)": "2.535",
+      "2 (+6)": "1.52"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/118593-uefa-europa-league/369558002-home-away",
+    "derniere_maj": "2026-09-17T11:48:09.538674+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Home Special Bets",
+    "equipe_2": "Away Special Bets",
+    "1X2": {
+      "V1": "5.9",
+      "X": "7.3",
+      "V2": "1.336"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (+1)": "2.866",
+      "2 (-1)": "1.421",
+      "1 (+1.5)": "2.224",
+      "2 (-1.5)": "1.658",
+      "1 (+2)": "1.915",
+      "2 (-2)": "1.885",
+      "1 (+2.5)": "1.68",
+      "2 (-2.5)": "2.185",
+      "1 (+3)": "1.448",
+      "2 (-3)": "2.762",
+      "1 (+3.5)": "1.353",
+      "2 (-3.5)": "3.185",
+      "1 (+4)": "1.194",
+      "2 (-4)": "4.64",
+      "1 (+4.5)": "1.162",
+      "2 (-4.5)": "5.2"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/118593-uefa-europa-league/368028852-home-special-bets-away-special-bets",
+    "derniere_maj": "2026-09-17T11:48:09.652501+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Levski Sofia",
+    "equipe_2": "Yorbe Vertessen",
+    "1X2": {
+      "V1": "1.47",
+      "X": "3.05",
+      "V2": "9.6"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "3.1",
+      "2 (+1.5)": "1.3",
+      "1 (-1)": "2.13",
+      "2 (+1)": "1.6"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1934516-uefa-europa-league-team-vs-player/370412520-levski-sofia-yorbe-vertessen",
+    "derniere_maj": "2026-09-17T11:48:12.851169+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Levski Sofia",
+    "equipe_2": "Haris Tabakovic",
+    "1X2": {
+      "V1": "1.51",
+      "X": "3.04",
+      "V2": "8.5"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "3.18",
+      "2 (+1.5)": "1.28",
+      "1 (-1)": "2.21",
+      "2 (+1)": "1.56"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1934516-uefa-europa-league-team-vs-player/370412550-levski-sofia-haris-tabakovic",
+    "derniere_maj": "2026-09-17T11:48:13.171710+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Levski Sofia",
+    "equipe_2": "Karim Konate",
+    "1X2": {
+      "V1": "1.53",
+      "X": "3.04",
+      "V2": "7.8"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "3.22",
+      "2 (+1.5)": "1.28",
+      "1 (-1)": "2.25",
+      "2 (+1)": "1.54"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1934516-uefa-europa-league-team-vs-player/370412534-levski-sofia-karim-konate",
+    "derniere_maj": "2026-09-17T11:48:13.655301+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Ofi Crete",
+    "equipe_2": "Andrej Kramaric",
+    "1X2": {
+      "V1": "2.25",
+      "X": "2.27",
+      "V2": "4.45"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "1.39",
+      "2 (0)": "2.66"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1934516-uefa-europa-league-team-vs-player/370269978-ofi-crete-andrej-kramaric",
+    "derniere_maj": "2026-09-17T11:48:18.080743+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Ofi Crete",
+    "equipe_2": "Fisnik Asllani",
+    "1X2": {
+      "V1": "2.2",
+      "X": "2.25",
+      "V2": "4.75"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "1.35",
+      "2 (0)": "2.82"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1934516-uefa-europa-league-team-vs-player/370270028-ofi-crete-fisnik-asllani",
+    "derniere_maj": "2026-09-17T11:48:18.450723+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Ofi Crete",
+    "equipe_2": "Adam Hlozek",
+    "1X2": {
+      "V1": "2.13",
+      "X": "2.21",
+      "V2": "5.29"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "1.3",
+      "2 (0)": "3.09"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1934516-uefa-europa-league-team-vs-player/370269942-ofi-crete-adam-hlozek",
+    "derniere_maj": "2026-09-17T11:48:18.738549+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Ofi Crete",
+    "equipe_2": "Tim Lemperle",
+    "1X2": {
+      "V1": "2.1",
+      "X": "2.2",
+      "V2": "5.55"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "1.28",
+      "2 (0)": "3.22"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1934516-uefa-europa-league-team-vs-player/370269986-ofi-crete-tim-lemperle",
+    "derniere_maj": "2026-09-17T11:48:19.057641+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Baboucarr Faal Royale",
+    "equipe_2": "Union Saint Gilloise",
+    "1X2": {
+      "V1": "9.1",
+      "X": "3.05",
+      "V2": "1.49"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (+1)": "1.59",
+      "2 (-1)": "2.16",
+      "1 (+1.5)": "1.29",
+      "2 (-1.5)": "3.13"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1934516-uefa-europa-league-team-vs-player/370412522-baboucarr-faal-royale-union-saint-gilloise",
+    "derniere_maj": "2026-09-17T11:48:24.172793+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Benjamin",
+    "equipe_2": "Nygren Ferencvarosi",
+    "1X2": {
+      "V1": "6.31",
+      "X": "2.7",
+      "V2": "1.72"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (+1)": "1.35",
+      "2 (-1)": "2.86"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1934516-uefa-europa-league-team-vs-player/370425056-benjamin-nygren-ferencvarosi",
+    "derniere_maj": "2026-09-17T11:48:24.843582+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Dwight Mcneil",
+    "equipe_2": "Lech Poznan",
+    "1X2": {
+      "V1": "7.8",
+      "X": "2.12",
+      "V2": "1.96"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1934516-uefa-europa-league-team-vs-player/370412528-dwight-mcneil-lech-poznan",
+    "derniere_maj": "2026-09-17T11:48:25.409212+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Dusan Vlahovic",
+    "equipe_2": "Olympique De Marseille",
+    "1X2": {
+      "V1": "5.01",
+      "X": "2.73",
+      "V2": "1.84"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "3.34",
+      "2 (0)": "1.26",
+      "1 (+1)": "1.29",
+      "2 (-1)": "3.16"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1934516-uefa-europa-league-team-vs-player/370412548-dusan-vlahovic-olympique-de-marseille",
+    "derniere_maj": "2026-09-17T11:48:27.903548+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Yeremy Pino",
+    "equipe_2": "Lech Poznan",
+    "1X2": {
+      "V1": "7.37",
+      "X": "2.13",
+      "V2": "1.98"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1934516-uefa-europa-league-team-vs-player/370412530-yeremy-pino-lech-poznan",
+    "derniere_maj": "2026-09-17T11:48:27.896999+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Camilo",
+    "equipe_2": "Duran Ferencvarosi",
+    "1X2": {
+      "V1": "5.01",
+      "X": "2.73",
+      "V2": "1.84"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "3.34",
+      "2 (0)": "1.26",
+      "1 (+1)": "1.29",
+      "2 (-1)": "3.16"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/1934516-uefa-europa-league-team-vs-player/370425062-camilo-duran-ferencvarosi",
+    "derniere_maj": "2026-09-17T11:48:30.000779+00:00",
     "statut": "ok"
   }
 ]
