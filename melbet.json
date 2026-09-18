@@ -4,9 +4,9 @@
     "equipe_1": "Bayern Munich",
     "equipe_2": "Union Berlin",
     "1X2": {
-      "V1": "1.048",
+      "V1": "1.035",
       "X": "16",
-      "V2": "28"
+      "V2": "34"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -23,30 +23,30 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-6.5)": "8",
-      "2 (+6.5)": "1.05",
-      "1 (-5.5)": "4.9",
-      "2 (+5.5)": "1.111",
-      "1 (-5)": "4.45",
-      "2 (+5)": "1.153",
-      "1 (-4.5)": "3.04",
-      "2 (+4.5)": "1.33",
-      "1 (-4)": "2.6",
-      "2 (+4)": "1.46",
-      "1 (-3.5)": "2.05",
-      "2 (+3.5)": "1.77",
-      "1 (-3)": "1.67",
-      "2 (+3)": "2.13",
-      "1 (-2.5)": "1.46",
-      "2 (+2.5)": "2.53",
-      "1 (-2)": "1.22",
-      "2 (+2)": "3.66",
-      "1 (-1.5)": "1.146",
-      "2 (+1.5)": "4.3"
+      "1 (-6.5)": "6.9",
+      "2 (+6.5)": "1.08",
+      "1 (-5.5)": "4.15",
+      "2 (+5.5)": "1.158",
+      "1 (-5)": "3.66",
+      "2 (+5)": "1.22",
+      "1 (-4.5)": "2.65",
+      "2 (+4.5)": "1.42",
+      "1 (-4)": "2.27",
+      "2 (+4)": "1.59",
+      "1 (-3.5)": "1.88",
+      "2 (+3.5)": "1.92",
+      "1 (-3)": "1.533",
+      "2 (+3)": "2.4",
+      "1 (-2.5)": "1.38",
+      "2 (+2.5)": "2.81",
+      "1 (-2)": "1.163",
+      "2 (+2)": "4.3",
+      "1 (-1.5)": "1.113",
+      "2 (+1.5)": "4.85"
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/96463-germany-bundesliga/367216704-bayern-munich-union-berlin",
-    "derniere_maj": "2026-09-17T23:03:32.468968+00:00",
+    "derniere_maj": "2026-09-18T06:23:57.444869+00:00",
     "statut": "ok"
   },
   {
@@ -94,17 +94,17 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/88637-england-premier-league/366892122-brighton--hove-albion-arsenal",
-    "derniere_maj": "2026-09-17T23:03:32.245220+00:00",
+    "derniere_maj": "2026-09-18T06:23:57.909122+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Manchester",
-    "equipe_2": "City Sunderland",
+    "equipe_1": "Brentford",
+    "equipe_2": "Chelsea",
     "1X2": {
-      "V1": "1.28",
-      "X": "5.65",
-      "V2": "10"
+      "V1": "2.696",
+      "X": "3.76",
+      "V2": "2.405"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -121,28 +121,28 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-4.5)": "12",
-      "2 (+4.5)": "1.01",
-      "1 (-4)": "11",
-      "2 (+4)": "1.01",
-      "1 (-3.5)": "5.75",
-      "2 (+3.5)": "1.074",
-      "1 (-3)": "5",
-      "2 (+3)": "1.112",
-      "1 (-2.5)": "3.04",
-      "2 (+2.5)": "1.32",
-      "1 (-2)": "2.42",
-      "2 (+2)": "1.51",
-      "1 (-1.5)": "1.87",
-      "2 (+1.5)": "1.93",
-      "1 (-1)": "1.41",
-      "2 (+1)": "2.73",
-      "1 (0)": "1.063",
-      "2 (0)": "6.75"
+      "1 (-2.5)": "10",
+      "2 (+2.5)": "1.02",
+      "1 (-2)": "9.8",
+      "2 (+2)": "1.003",
+      "1 (-1.5)": "5.05",
+      "2 (+1.5)": "1.125",
+      "1 (-1)": "4.3",
+      "2 (+1)": "1.189",
+      "1 (0)": "2.01",
+      "2 (0)": "1.8",
+      "1 (+1)": "1.26",
+      "2 (-1)": "3.55",
+      "1 (+1.5)": "1.168",
+      "2 (-1.5)": "4.33",
+      "1 (+2)": "1.026",
+      "2 (-2)": "8.1",
+      "1 (+2.5)": "1.008",
+      "2 (-2.5)": "8.8"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/88637-england-premier-league/366892124-manchester-city-sunderland",
-    "derniere_maj": "2026-09-17T23:03:32.463238+00:00",
+    "url": "https://melbet-cm.com/en/line/football/88637-england-premier-league/366893142-brentford-chelsea",
+    "derniere_maj": "2026-09-18T06:24:02.461345+00:00",
     "statut": "ok"
   },
   {
@@ -150,8 +150,8 @@
     "equipe_1": "Sevilla",
     "equipe_2": "Barcelona",
     "1X2": {
-      "V1": "13",
-      "X": "7.4",
+      "V1": "12.5",
+      "X": "7.5",
       "V2": "1.185"
     },
     "Total_2.5": {
@@ -170,7 +170,7 @@
     "Totals": {},
     "Handicap": {
       "1 (0)": "8.9",
-      "2 (0)": "1.04",
+      "2 (0)": "1.041",
       "1 (+1)": "3.64",
       "2 (-1)": "1.25",
       "1 (+1.5)": "2.448",
@@ -186,21 +186,23 @@
       "1 (+4)": "1.094",
       "2 (-4)": "5.25",
       "1 (+4.5)": "1.073",
-      "2 (-4.5)": "5.75"
+      "2 (-4.5)": "5.75",
+      "1 (+5)": "1.01",
+      "2 (-5)": "11.5"
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/127733-spain-la-liga/369119550-sevilla-barcelona",
-    "derniere_maj": "2026-09-17T23:03:32.444022+00:00",
+    "derniere_maj": "2026-09-18T06:23:33.908219+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Pure Swansea",
-    "equipe_2": "Trethomas Bluebirds",
+    "equipe_1": "Alex",
+    "equipe_2": "Calatrava Elche",
     "1X2": {
-      "V1": "1.22",
-      "X": "6",
-      "V2": "9.6"
+      "V1": "8.25",
+      "X": "2.55",
+      "V2": "1.67"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -216,35 +218,20 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {
-      "1 (-4.5)": "8.1",
-      "2 (+4.5)": "1.04",
-      "1 (-3.5)": "4.4",
-      "2 (+3.5)": "1.17",
-      "1 (-3)": "3.7",
-      "2 (+3)": "1.23",
-      "1 (-2.5)": "2.5",
-      "2 (+2.5)": "1.46",
-      "1 (-2)": "2",
-      "2 (+2)": "1.72",
-      "1 (-1.5)": "1.62",
-      "2 (+1.5)": "2.16",
-      "1 (-1)": "1.31",
-      "2 (+1)": "3.1"
-    },
+    "Handicap": {},
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/121143-welsh-cup/370738008-pure-swansea-trethomas-bluebirds",
-    "derniere_maj": "2026-09-17T23:03:50.376143+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913694-alex-calatrava-elche",
+    "derniere_maj": "2026-09-18T06:23:44.194848+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Caerphilly Athletic",
-    "equipe_2": "Treowen Stars",
+    "equipe_1": "Marcos",
+    "equipe_2": "Fernandez Elche",
     "1X2": {
-      "V1": "11.7",
-      "X": "5.6",
-      "V2": "1.21"
+      "V1": "7.06",
+      "X": "2.57",
+      "V2": "1.73"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -260,35 +247,20 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {
-      "1 (+1)": "3.3",
-      "2 (-1)": "1.28",
-      "1 (+1.5)": "2.25",
-      "2 (-1.5)": "1.57",
-      "1 (+2)": "1.8",
-      "2 (-2)": "1.9",
-      "1 (+2.5)": "1.51",
-      "2 (-2.5)": "2.38",
-      "1 (+3)": "1.27",
-      "2 (-3)": "3.4",
-      "1 (+3.5)": "1.2",
-      "2 (-3.5)": "4.1",
-      "1 (+4.5)": "1.06",
-      "2 (-4.5)": "7.5"
-    },
+    "Handicap": {},
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/121143-welsh-cup/370738006-caerphilly-athletic-treowen-stars",
-    "derniere_maj": "2026-09-17T23:03:32.451022+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913678-marcos-fernandez-elche",
+    "derniere_maj": "2026-09-18T06:23:33.909500+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Espanyol",
-    "equipe_2": "Elche",
+    "equipe_1": "Pere Milla",
+    "equipe_2": "Pena Elche",
     "1X2": {
-      "V1": "1.845",
-      "X": "3.52",
-      "V2": "4.4"
+      "V1": "8.1",
+      "X": "2.55",
+      "V2": "1.68"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -304,35 +276,20 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "6.25",
-      "2 (+2.5)": "1.057",
-      "1 (-2)": "5.45",
-      "2 (+2)": "1.092",
-      "1 (-1.5)": "3.15",
-      "2 (+1.5)": "1.3",
-      "1 (-1)": "2.45",
-      "2 (+1)": "1.5",
-      "1 (0)": "1.336",
-      "2 (0)": "3.28",
-      "1 (+1)": "1.034",
-      "2 (-1)": "9.2",
-      "1 (+1.5)": "1.011",
-      "2 (-1.5)": "10.2"
-    },
+    "Handicap": {},
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/127733-spain-la-liga/367240808-espanyol-elche",
-    "derniere_maj": "2026-09-17T23:03:32.238530+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913710-pere-milla-pena-elche",
+    "derniere_maj": "2026-09-18T06:24:07.628228+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Montevideo City Torque",
-    "equipe_2": "Club Cienciano Cusco",
+    "equipe_1": "Roberto Fernandez",
+    "equipe_2": "Jaen Elche",
     "1X2": {
-      "V1": "1.51",
-      "X": "4.38",
-      "V2": "6.1"
+      "V1": "5.3",
+      "X": "2.61",
+      "V2": "1.86"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -348,39 +305,20 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {
-      "1 (-3.5)": "7.9",
-      "2 (+3.5)": "1.021",
-      "1 (-3)": "7.3",
-      "2 (+3)": "1.033",
-      "1 (-2.5)": "4.1",
-      "2 (+2.5)": "1.161",
-      "1 (-2)": "3.34",
-      "2 (+2)": "1.24",
-      "1 (-1.5)": "2.37",
-      "2 (+1.5)": "1.584",
-      "1 (-1)": "1.78",
-      "2 (+1)": "1.95",
-      "1 (0)": "1.138",
-      "2 (0)": "4.4",
-      "1 (+1)": "1.02",
-      "2 (-1)": "13.5",
-      "1 (+1.5)": "1.01",
-      "2 (-1.5)": "15"
-    },
+    "Handicap": {},
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1528791-copa-sudamericana/368662450-montevideo-city-torque-club-cienciano-cusco",
-    "derniere_maj": "2026-09-17T23:03:56.680544+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913734-roberto-fernandez-jaen-elche",
+    "derniere_maj": "2026-09-18T06:24:33.212445+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Sounders ",
-    "equipe_2": "Bulls ",
+    "equipe_1": "Ante Budimir",
+    "equipe_2": "Rayo Vallecano",
     "1X2": {
-      "V1": "2.37",
-      "X": "3.11",
-      "V2": "2.19"
+      "V1": "4.7",
+      "X": "2.66",
+      "V2": "1.92"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -396,27 +334,20 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.26",
-      "2 (+1)": "1.27",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.34",
-      "2 (-1)": "2.9"
-    },
+    "Handicap": {},
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718526-sounders--bulls-",
-    "derniere_maj": "2026-09-17T23:03:56.792299+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913674-ante-budimir-rayo-vallecano",
+    "derniere_maj": "2026-09-18T06:24:33.317089+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Sounders ",
-    "equipe_2": "Timber ",
+    "equipe_1": "Raul Garcia De",
+    "equipe_2": "Haro Rayo Vallecano",
     "1X2": {
-      "V1": "2.2",
-      "X": "3.01",
-      "V2": "2.4"
+      "V1": "6.43",
+      "X": "2.61",
+      "V2": "1.75"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -432,27 +363,310 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.98",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.36"
-    },
+    "Handicap": {},
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718694-sounders--timber-",
-    "derniere_maj": "2026-09-17T23:03:56.679779+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913746-raul-garcia-de-haro-rayo-vallecano",
+    "derniere_maj": "2026-09-18T06:23:57.378906+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Timber ",
-    "equipe_2": "Bulls ",
+    "equipe_1": "Gorka Guruzeta",
+    "equipe_2": "Deportivo Alaves",
+    "1X2": {
+      "V1": "5.15",
+      "X": "2.37",
+      "V2": "2.03"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913764-gorka-guruzeta-deportivo-alaves",
+    "derniere_maj": "2026-09-18T06:24:09.632302+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Inaki Williams",
+    "equipe_2": "Deportivo Alaves",
+    "1X2": {
+      "V1": "5.04",
+      "X": "2.37",
+      "V2": "2.04"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913722-inaki-williams-deportivo-alaves",
+    "derniere_maj": "2026-09-18T06:24:09.677770+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Maroan Sannadi",
+    "equipe_2": "Harrouch Deportivo Alaves",
+    "1X2": {
+      "V1": "6.36",
+      "X": "2.32",
+      "V2": "1.92"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913690-maroan-sannadi-harrouch-deportivo-alaves",
+    "derniere_maj": "2026-09-18T06:24:09.934872+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Nico Williams",
+    "equipe_2": "Deportivo Alaves",
+    "1X2": {
+      "V1": "6.9",
+      "X": "2.31",
+      "V2": "1.88"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913698-nico-williams-deportivo-alaves",
+    "derniere_maj": "2026-09-18T06:24:14.561766+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Borja Iglesias",
+    "equipe_2": "Racing De Santander",
+    "1X2": {
+      "V1": "4.825",
+      "X": "2.79",
+      "V2": "1.84"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913732-borja-iglesias-racing-de-santander",
+    "derniere_maj": "2026-09-18T06:24:55.086263+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Pablo Duran",
+    "equipe_2": "Racing De Santander",
+    "1X2": {
+      "V1": "6.84",
+      "X": "2.75",
+      "V2": "1.67"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913766-pablo-duran-racing-de-santander",
+    "derniere_maj": "2026-09-18T06:24:44.704264+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Ferran Jutgla",
+    "equipe_2": "Racing De Santander",
+    "1X2": {
+      "V1": "5.45",
+      "X": "2.77",
+      "V2": "1.77"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913680-ferran-jutgla-racing-de-santander",
+    "derniere_maj": "2026-09-18T06:25:04.129606+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Sevilla Raphael",
+    "equipe_2": "Dias Belloli",
+    "1X2": {
+      "V1": "2.54",
+      "X": "2.51",
+      "V2": "3.15"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913744-sevilla-raphael-dias-belloli",
+    "derniere_maj": "2026-09-18T06:25:17.859234+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Sevilla",
+    "equipe_2": "Lamine Yamal",
+    "1X2": {
+      "V1": "2.47",
+      "X": "2.47",
+      "V2": "3.32"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913700-sevilla-lamine-yamal",
+    "derniere_maj": "2026-09-18T06:25:03.058692+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Sevilla",
+    "equipe_2": "Anthony Gordon",
+    "1X2": {
+      "V1": "2.35",
+      "X": "2.4",
+      "V2": "3.725"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913682-sevilla-anthony-gordon",
+    "derniere_maj": "2026-09-18T06:25:04.111771+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Sevilla",
+    "equipe_2": "Karim Adeyemi",
     "1X2": {
       "V1": "2.39",
-      "X": "3.11",
-      "V2": "2.2"
+      "X": "2.42",
+      "V2": "3.6"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -468,207 +682,20 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.31",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.33",
-      "2 (-1)": "2.94"
-    },
+    "Handicap": {},
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718744-timber--bulls-",
-    "derniere_maj": "2026-09-17T23:04:16.812893+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913728-sevilla-karim-adeyemi",
+    "derniere_maj": "2026-09-18T06:25:27.023649+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Whitecaps ",
-    "equipe_2": "Sounders ",
-    "1X2": {
-      "V1": "2.4",
-      "X": "3.01",
-      "V2": "2.2"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.36",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "2.98"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718874-whitecaps--sounders-",
-    "derniere_maj": "2026-09-17T23:03:44.587954+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Whitecaps ",
-    "equipe_2": "Timber ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.11",
-      "V2": "2.39"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.94",
-      "2 (+1)": "1.33",
-      "1 (0)": "1.76",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.31"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718930-whitecaps--timber-",
-    "derniere_maj": "2026-09-17T23:03:44.463840+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Whitecaps ",
-    "equipe_2": "Bulls ",
-    "1X2": {
-      "V1": "2.39",
-      "X": "3.11",
-      "V2": "2.2"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.31",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.33",
-      "2 (-1)": "2.94"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718740-whitecaps--bulls-",
-    "derniere_maj": "2026-09-17T23:03:56.869376+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Inter ",
-    "equipe_2": "Union ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718832-inter--union-",
-    "derniere_maj": "2026-09-17T23:04:00.606469+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Sporting ",
-    "equipe_2": "Inter ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718886-sporting--inter-",
-    "derniere_maj": "2026-09-17T23:04:09.367635+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Sporting ",
-    "equipe_2": "Union ",
+    "equipe_1": "Sevilla",
+    "equipe_2": "Hamza Abdelkarim",
     "1X2": {
       "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
+      "X": "2.34",
+      "V2": "4.33"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -684,27 +711,20 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
+    "Handicap": {},
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718742-sporting--union-",
-    "derniere_maj": "2026-09-17T23:04:20.607267+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913716-sevilla-hamza-abdelkarim",
+    "derniere_maj": "2026-09-18T06:25:43.575434+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Sporting ",
-    "equipe_2": "Dynamo ",
+    "equipe_1": "Sevilla Fermin",
+    "equipe_2": "Lopez Marin",
     "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
+      "V1": "2.13",
+      "X": "2.3",
+      "V2": "4.84"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -720,27 +740,20 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
+    "Handicap": {},
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718882-sporting--dynamo-",
-    "derniere_maj": "2026-09-17T23:04:09.460255+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913752-sevilla-fermin-lopez-marin",
+    "derniere_maj": "2026-09-18T06:25:20.898810+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Union ",
-    "equipe_2": "Dynamo ",
+    "equipe_1": "Borja",
+    "equipe_2": "Mayoral Malaga",
     "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
+      "V1": "5.61",
+      "X": "2.26",
+      "V2": "2.04"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -756,27 +769,20 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
+    "Handicap": {},
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718880-union--dynamo-",
-    "derniere_maj": "2026-09-17T23:04:20.590559+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913684-borja-mayoral-malaga",
+    "derniere_maj": "2026-09-18T06:25:20.914496+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Crew ",
-    "equipe_2": "Minnesota ",
+    "equipe_1": "Martin",
+    "equipe_2": "Satriano Malaga",
     "1X2": {
-      "V1": "2.4",
-      "X": "3.01",
-      "V2": "2.2"
+      "V1": "6.35",
+      "X": "2.24",
+      "V2": "1.98"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -792,27 +798,20 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.36",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "2.98"
-    },
+    "Handicap": {},
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718898-crew--minnesota-",
-    "derniere_maj": "2026-09-17T23:04:46.844976+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913702-martin-satriano-malaga",
+    "derniere_maj": "2026-09-18T06:25:35.411107+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Dcunited ",
-    "equipe_2": "Minnesota ",
+    "equipe_1": "Atletico Madrid Endrick",
+    "equipe_2": "Double Chance",
     "1X2": {
-      "V1": "2.11",
-      "X": "3.08",
-      "V2": "2.5"
+      "V1": "1.32",
+      "X": "3.55",
+      "V2": "12"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -828,27 +827,20 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.79",
-      "2 (+1)": "1.36",
-      "1 (0)": "1.69",
-      "2 (0)": "2",
-      "1 (+1)": "1.23",
-      "2 (-1)": "3.55"
-    },
+    "Handicap": {},
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718878-dcunited--minnesota-",
-    "derniere_maj": "2026-09-17T23:04:41.572799+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913730-atletico-madrid-endrick-felipe-moreira-de-sousa",
+    "derniere_maj": "2026-09-18T06:25:39.517012+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Dcunited ",
-    "equipe_2": "Crew ",
+    "equipe_1": "Atletico Madrid",
+    "equipe_2": "Vinicius Junior",
     "1X2": {
-      "V1": "2.2",
-      "X": "3.01",
-      "V2": "2.4"
+      "V1": "1.37",
+      "X": "3.5",
+      "V2": "10.4"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -864,27 +856,20 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.98",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.36"
-    },
+    "Handicap": {},
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718890-dcunited--crew-",
-    "derniere_maj": "2026-09-17T23:04:41.573188+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913724-atletico-madrid-vinicius-junior",
+    "derniere_maj": "2026-09-18T06:25:34.346508+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Dallas ",
-    "equipe_2": "Dcunited ",
+    "equipe_1": "Atletico Madrid",
+    "equipe_2": "Carlos Espi",
     "1X2": {
-      "V1": "2.2",
-      "X": "3.01",
-      "V2": "2.4"
+      "V1": "1.47",
+      "X": "3.42",
+      "V2": "7.23"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -900,27 +885,310 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.98",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.36"
-    },
+    "Handicap": {},
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718922-dallas--dcunited-",
-    "derniere_maj": "2026-09-17T23:04:41.572304+00:00",
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913726-atletico-madrid-carlos-espi",
+    "derniere_maj": "2026-09-18T06:25:51.280509+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Dallas ",
-    "equipe_2": "Crew ",
+    "equipe_1": "Ayoze Perez",
+    "equipe_2": "Levante Ud",
     "1X2": {
-      "V1": "2.5",
-      "X": "3.08",
-      "V2": "2.11"
+      "V1": "6.46",
+      "X": "2.75",
+      "V2": "1.69"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913748-ayoze-perez-levante-ud",
+    "derniere_maj": "2026-09-18T06:25:35.495028+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Deportivo De A",
+    "equipe_2": "Coruna Abdessamad Ezzalzouli",
+    "1X2": {
+      "V1": "1.53",
+      "X": "2.84",
+      "V2": "9.5"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913778-deportivo-de-a-coruna-abdessamad-ezzalzouli",
+    "derniere_maj": "2026-09-18T06:26:06.463708+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Deportivo De A",
+    "equipe_2": "Coruna Troy Parrott",
+    "1X2": {
+      "V1": "1.65",
+      "X": "2.84",
+      "V2": "6.55"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913692-deportivo-de-a-coruna-troy-parrott",
+    "derniere_maj": "2026-09-18T06:26:06.419335+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Deportivo De A",
+    "equipe_2": "Coruna Nelson Deossa",
+    "1X2": {
+      "V1": "1.53",
+      "X": "2.84",
+      "V2": "9.5"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913676-deportivo-de-a-coruna-nelson-deossa",
+    "derniere_maj": "2026-09-18T06:26:37.491461+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Georges Mikautadze",
+    "equipe_2": "Levante Ud",
+    "1X2": {
+      "V1": "5.32",
+      "X": "2.77",
+      "V2": "1.78"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913736-georges-mikautadze-levante-ud",
+    "derniere_maj": "2026-09-18T06:25:58.115451+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Nicolas Pepe",
+    "equipe_2": "Levante Ud",
+    "1X2": {
+      "V1": "7.44",
+      "X": "2.74",
+      "V2": "1.64"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913688-nicolas-pepe-levante-ud",
+    "derniere_maj": "2026-09-18T06:26:06.107880+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Tajon Buchanan",
+    "equipe_2": "Levante Ud",
+    "1X2": {
+      "V1": "8.1",
+      "X": "2.74",
+      "V2": "1.61"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913742-tajon-buchanan-levante-ud",
+    "derniere_maj": "2026-09-18T06:26:06.464239+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Gerard Moreno",
+    "equipe_2": "Levante Ud",
+    "1X2": {
+      "V1": "5.78",
+      "X": "2.76",
+      "V2": "1.74"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913760-gerard-moreno-levante-ud",
+    "derniere_maj": "2026-09-18T06:26:18.636030+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Valencia Orri",
+    "equipe_2": "Steinn Oskarsson",
+    "1X2": {
+      "V1": "1.49",
+      "X": "3.03",
+      "V2": "9"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913794-valencia-orri-steinn-oskarsson",
+    "derniere_maj": "2026-09-18T06:26:23.142371+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Valencia",
+    "equipe_2": "Mikel Oyarzabal",
+    "1X2": {
+      "V1": "1.49",
+      "X": "3.03",
+      "V2": "9"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {},
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/2809583-spain-la-liga-team-vs-player/370913696-valencia-mikel-oyarzabal",
+    "derniere_maj": "2026-09-18T06:26:21.224576+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Monza 1912",
+    "equipe_2": "Sassuolo Calcio",
+    "1X2": {
+      "V1": "2.795",
+      "X": "3.34",
+      "V2": "2.52"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -937,160 +1205,26 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1)": "3.55",
-      "2 (+1)": "1.23",
+      "1 (-2)": "11",
+      "2 (+2)": "1.01",
+      "1 (-1.5)": "5.55",
+      "2 (+1.5)": "1.103",
+      "1 (-1)": "4.7",
+      "2 (+1)": "1.161",
       "1 (0)": "2",
-      "2 (0)": "1.69",
-      "1 (+1)": "1.36",
-      "2 (-1)": "2.79"
+      "2 (0)": "1.81",
+      "1 (+1)": "1.22",
+      "2 (-1)": "3.92",
+      "1 (+1.5)": "1.138",
+      "2 (-1.5)": "4.8",
+      "1 (+2)": "1.007",
+      "2 (-2)": "9.4",
+      "1 (+2.5)": "1.02",
+      "2 (-2.5)": "10.5"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718912-dallas--crew-",
-    "derniere_maj": "2026-09-17T23:04:40.807516+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Chivas ",
-    "equipe_2": "Detroit ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718894-chivas--detroit-",
-    "derniere_maj": "2026-09-17T23:04:46.637541+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Chivas ",
-    "equipe_2": "Las Vegas ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718918-chivas--las-vegas-",
-    "derniere_maj": "2026-09-17T23:04:53.040530+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Detroit ",
-    "equipe_2": "Memphis ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718910-detroit--memphis-",
-    "derniere_maj": "2026-09-17T23:05:05.654450+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Las Vegas",
-    "equipe_2": " Memphis ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718960-las-vegas--memphis-",
-    "derniere_maj": "2026-09-17T23:04:59.223229+00:00",
+    "url": "https://melbet-cm.com/en/line/football/110163-italy-serie-a/367240036-monza-1912-sassuolo-calcio",
+    "derniere_maj": "2026-09-18T06:27:03.418794+00:00",
     "statut": "ok"
   },
   {
@@ -1126,7 +1260,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718514-cincinnati--orlando-",
-    "derniere_maj": "2026-09-17T23:04:59.498245+00:00",
+    "derniere_maj": "2026-09-18T06:26:33.869246+00:00",
     "statut": "ok"
   },
   {
@@ -1162,511 +1296,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718498-cincinnati--nashville-",
-    "derniere_maj": "2026-09-17T23:05:06.327409+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Nashville ",
-    "equipe_2": "Orlando ",
-    "1X2": {
-      "V1": "2.37",
-      "X": "3.01",
-      "V2": "2.19"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.26",
-      "2 (+1)": "1.27",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.34",
-      "2 (-1)": "2.9"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718512-nashville--orlando-",
-    "derniere_maj": "2026-09-17T23:05:11.750543+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Toronto",
-    "equipe_2": "Cincinnati ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.11",
-      "V2": "2.39"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.94",
-      "2 (+1)": "1.33",
-      "1 (0)": "1.76",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.31"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718502-toronto-cincinnati-",
-    "derniere_maj": "2026-09-17T23:05:12.085874+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Toronto",
-    "equipe_2": "Orlando ",
-    "1X2": {
-      "V1": "2.19",
-      "X": "3.01",
-      "V2": "2.37"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.9",
-      "2 (+1)": "1.34",
-      "1 (0)": "1.76",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.27",
-      "2 (-1)": "3.26"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718598-toronto-orlando-",
-    "derniere_maj": "2026-09-17T23:05:23.288882+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Austin ",
-    "equipe_2": "Fusion ",
-    "1X2": {
-      "V1": "2.37",
-      "X": "3.01",
-      "V2": "2.19"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.26",
-      "2 (+1)": "1.27",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.34",
-      "2 (-1)": "2.9"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718748-austin--fusion-",
-    "derniere_maj": "2026-09-17T23:05:17.886502+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Austin ",
-    "equipe_2": "St Louis ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.01",
-      "V2": "2.4"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.98",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.36"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718716-austin--st-louis-",
-    "derniere_maj": "2026-09-17T23:05:32.145727+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Charleston ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718560-birmingham--charleston-",
-    "derniere_maj": "2026-09-17T23:05:23.902806+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Hartford ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718702-birmingham--hartford-",
-    "derniere_maj": "2026-09-17T23:05:24.013689+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718728-birmingham--loudoun-",
-    "derniere_maj": "2026-09-17T23:05:32.145026+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Charleston ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718706-charleston--loudoun-",
-    "derniere_maj": "2026-09-17T23:05:55.305430+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Charleston ",
-    "equipe_2": "Hartford ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718708-charleston--hartford-",
-    "derniere_maj": "2026-09-17T23:06:06.871406+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Hartford ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718720-hartford--loudoun-",
-    "derniere_maj": "2026-09-17T23:05:38.666120+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Los Angeles",
-    "equipe_2": " Austin ",
-    "1X2": {
-      "V1": "2.4",
-      "X": "3.01",
-      "V2": "2.2"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.36",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "2.98"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718734-los-angeles--austin-",
-    "derniere_maj": "2026-09-17T23:05:51.407310+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Los Angeles ",
-    "equipe_2": "St Louis ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.11",
-      "V2": "2.39"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.94",
-      "2 (+1)": "1.33",
-      "1 (0)": "1.76",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.31"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718724-los-angeles--st-louis-",
-    "derniere_maj": "2026-09-17T23:06:02.804449+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Los Angeles",
-    "equipe_2": " Fusion ",
-    "1X2": {
-      "V1": "2.5",
-      "X": "3.08",
-      "V2": "2.11"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.55",
-      "2 (+1)": "1.23",
-      "1 (0)": "2",
-      "2 (0)": "1.69",
-      "1 (+1)": "1.36",
-      "2 (-1)": "2.79"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2590430-mls/370718686-los-angeles--fusion-",
-    "derniere_maj": "2026-09-17T23:05:55.318784+00:00",
+    "derniere_maj": "2026-09-18T06:26:57.459352+00:00",
     "statut": "ok"
   }
 ]
