@@ -37,78 +37,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/sounders-bulls/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/sounders-timber/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/timber-bulls/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/whitecaps-sounders/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/whitecaps-timber/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/whitecaps-bulls/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/inter-dynamo/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/inter-union/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/sporting-inter/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/sporting-union/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/sporting-dynamo/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/union-dynamo/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/crew-minnesota/</loc>
         <lastmod>2026-09-18</lastmod>
         <changefreq>hourly</changefreq>
@@ -277,19 +205,91 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/bournemouth-liverpool/</loc>
+        <loc>https://zicote.site/everton-ipswich-town/</loc>
         <lastmod>2026-09-18</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/leeds-united-crystal-palace/</loc>
+        <loc>https://zicote.site/sunderland-brighton-hove-albion/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/crystal-palace-nottingham-forest/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/arsenal-leeds-united/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/hull-city-everton/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/manchester-united-tottenham-hotspur/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/ipswich-town-fulham/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/liverpool-manchester-city/</loc>
         <lastmod>2026-09-18</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://zicote.site/coventry-city-newcastle-united/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/aston-villa-brentford/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/chelsea-bournemouth/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/nottingham-forest-coventry-city/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/newcastle-united-hull-city/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/tottenham-hotspur-aston-villa/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/fulham-manchester-united/</loc>
         <lastmod>2026-09-18</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -314,6 +314,78 @@
     </url>
     <url>
         <loc>https://zicote.site/montevideo-city-torque-club-cienciano-cusco/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/sounders-bulls/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/sounders-timber/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/timber-bulls/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/whitecaps-sounders/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/whitecaps-timber/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/whitecaps-bulls/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/inter-union/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/sporting-inter/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/sporting-union/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/sporting-dynamo/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/union-dynamo/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/inter-dynamo/</loc>
         <lastmod>2026-09-18</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -595,55 +667,25 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/tottenham-hotspur-aston-villa/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/newcastle-united-hull-city/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/everton-ipswich-town/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/nottingham-forest-coventry-city/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/manchester-city-sunderland/</loc>
         <lastmod>2026-09-18</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/fulham-manchester-united/</loc>
+        <loc>https://zicote.site/afc-bournemouth-liverpool/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/leeds-united-crystal-palace/</loc>
         <lastmod>2026-09-18</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://zicote.site/brighton-et-hove-albion-arsenal/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/arsenal-leeds-united/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/chelsea-afc-bournemouth/</loc>
         <lastmod>2026-09-18</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -667,25 +709,7 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/manchester-united-tottenham-hotspur/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/crystal-palace-nottingham-forest/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/hull-city-everton/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/liverpool-manchester-city/</loc>
         <lastmod>2026-09-18</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -1117,7 +1141,13 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/sunderland-brighton-hove-albion/</loc>
+        <loc>https://zicote.site/aston-villa-fenerbahce/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/real-betis-porto/</loc>
         <lastmod>2026-09-18</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
