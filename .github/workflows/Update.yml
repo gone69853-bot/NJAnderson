@@ -11,6 +11,17 @@ on:
 
   workflow_dispatch:
 
+# Empêche deux runs de tourner en même temps : comme un run peut
+# parfois durer plusieurs heures (panne réseau, retentatives), un
+# nouveau déclenchement toutes les 45 min pourrait sinon se lancer
+# PENDANT qu'un précédent tourne encore, doublant la charge sur le
+# proxy — probablement une des causes des pannes réseau simultanées
+# observées. cancel-in-progress: false = le nouveau run attend
+# sagement son tour au lieu d'annuler celui en cours.
+concurrency:
+  group: zicote-update-odds
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
