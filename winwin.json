@@ -1,6 +1,54 @@
 [
   {
     "bookmaker": "winwin",
+    "equipe_1": "Brentford",
+    "equipe_2": "Chelsea",
+    "1X2": {
+      "V1": "2.57",
+      "X": "3.64",
+      "V2": "2.57"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "9.8",
+      "2 (+2.5)": "1.003",
+      "1 (-2)": "9",
+      "2 (+2)": "1.013",
+      "1 (-1.5)": "4.75",
+      "2 (+1.5)": "1.143",
+      "1 (-1)": "3.92",
+      "2 (+1)": "1.22",
+      "1 (0)": "1.9",
+      "2 (0)": "1.9",
+      "1 (+1)": "1.22",
+      "2 (-1)": "3.92",
+      "1 (+1.5)": "1.144",
+      "2 (-1.5)": "4.7",
+      "1 (+2)": "1.014",
+      "2 (-2)": "8.9",
+      "1 (+2.5)": "1.004",
+      "2 (-2.5)": "9.7"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/88637-england-premier-league/366893142-brentford-chelsea",
+    "derniere_maj": "2026-09-18T13:31:00.016006+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
     "equipe_1": "Bayern Munich",
     "equipe_2": "Union Berlin",
     "1X2": {
@@ -33,68 +81,20 @@
       "2 (+4.5)": "1.49",
       "1 (-4)": "2.08",
       "2 (+4)": "1.7",
-      "1 (-3.5)": "1.78",
-      "2 (+3.5)": "2.04",
-      "1 (-3)": "1.47",
-      "2 (+3)": "2.57",
+      "1 (-3.5)": "1.77",
+      "2 (+3.5)": "2.05",
+      "1 (-3)": "1.46",
+      "2 (+3)": "2.6",
       "1 (-2.5)": "1.33",
       "2 (+2.5)": "3.04",
-      "1 (-2)": "1.143",
+      "1 (-2)": "1.142",
       "2 (+2)": "4.6",
-      "1 (-1.5)": "1.1",
-      "2 (+1.5)": "5.1"
+      "1 (-1.5)": "1.099",
+      "2 (+1.5)": "5.15"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/96463-germany-bundesliga/367216704-bayern-munich-union-berlin",
-    "derniere_maj": "2026-09-18T12:31:22.247551+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Brentford",
-    "equipe_2": "Chelsea",
-    "1X2": {
-      "V1": "2.57",
-      "X": "3.68",
-      "V2": "2.55"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "9.9",
-      "2 (+2.5)": "1.002",
-      "1 (-2)": "9.1",
-      "2 (+2)": "1.011",
-      "1 (-1.5)": "4.75",
-      "2 (+1.5)": "1.141",
-      "1 (-1)": "3.92",
-      "2 (+1)": "1.22",
-      "1 (0)": "1.91",
-      "2 (0)": "1.89",
-      "1 (+1)": "1.22",
-      "2 (-1)": "3.92",
-      "1 (+1.5)": "1.146",
-      "2 (-1.5)": "4.7",
-      "1 (+2)": "1.014",
-      "2 (-2)": "8.9",
-      "1 (+2.5)": "1.004",
-      "2 (-2.5)": "9.7"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/88637-england-premier-league/366893142-brentford-chelsea",
-    "derniere_maj": "2026-09-18T12:31:22.491099+00:00",
+    "derniere_maj": "2026-09-18T13:30:58.451054+00:00",
     "statut": "ok"
   },
   {
@@ -102,9 +102,9 @@
     "equipe_1": "As Monaco",
     "equipe_2": "Rc Lens",
     "1X2": {
-      "V1": "1.97",
+      "V1": "1.98",
       "X": "3.66",
-      "V2": "3.66"
+      "V2": "3.64"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -129,16 +129,60 @@
       "2 (+1.5)": "1.28",
       "1 (-1)": "2.66",
       "2 (+1)": "1.43",
-      "1 (0)": "1.47",
-      "2 (0)": "2.688",
-      "1 (+1)": "1.088",
-      "2 (-1)": "6.4",
-      "1 (+1.5)": "1.057",
-      "2 (-1.5)": "7.1"
+      "1 (0)": "1.48",
+      "2 (0)": "2.65",
+      "1 (+1)": "1.09",
+      "2 (-1)": "6.35",
+      "1 (+1.5)": "1.059",
+      "2 (-1.5)": "7"
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/12821-france-ligue-1/367187738-as-monaco-rc-lens",
-    "derniere_maj": "2026-09-18T12:31:22.489888+00:00",
+    "derniere_maj": "2026-09-18T13:30:57.885109+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Espanyol",
+    "equipe_2": "Elche",
+    "1X2": {
+      "V1": "1.825",
+      "X": "3.6",
+      "V2": "4.4"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "6",
+      "2 (+2.5)": "1.065",
+      "1 (-2)": "5.25",
+      "2 (+2)": "1.102",
+      "1 (-1.5)": "3.48",
+      "2 (+1.5)": "1.304",
+      "1 (-1)": "2.4",
+      "2 (+1)": "1.52",
+      "1 (0)": "1.35",
+      "2 (0)": "3.2",
+      "1 (+1)": "1.035",
+      "2 (-1)": "9.2",
+      "1 (+1.5)": "1.013",
+      "2 (-1.5)": "10"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/127733-spain-la-liga/367240808-espanyol-elche",
+    "derniere_maj": "2026-09-18T13:30:58.608576+00:00",
     "statut": "ok"
   },
   {
@@ -186,51 +230,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/88637-england-premier-league/366892122-brighton--hove-albion-arsenal",
-    "derniere_maj": "2026-09-18T12:31:23.081236+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Espanyol",
-    "equipe_2": "Elche",
-    "1X2": {
-      "V1": "1.82",
-      "X": "3.56",
-      "V2": "4.44"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "6.05",
-      "2 (+2.5)": "1.064",
-      "1 (-2)": "5.25",
-      "2 (+2)": "1.101",
-      "1 (-1.5)": "3.48",
-      "2 (+1.5)": "1.304",
-      "1 (-1)": "2.4",
-      "2 (+1)": "1.52",
-      "1 (0)": "1.35",
-      "2 (0)": "3.2",
-      "1 (+1)": "1.035",
-      "2 (-1)": "9.2",
-      "1 (+1.5)": "1.012",
-      "2 (-1.5)": "10.2"
-    },
-    "Score_Exact": {},
-    "url": "https://winwin.bet/en/line/football/127733-spain-la-liga/367240808-espanyol-elche",
-    "derniere_maj": "2026-09-18T12:31:22.561644+00:00",
+    "derniere_maj": "2026-09-18T13:30:58.611023+00:00",
     "statut": "ok"
   },
   {
@@ -266,7 +266,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981364-city--united-",
-    "derniere_maj": "2026-09-18T12:31:21.628978+00:00",
+    "derniere_maj": "2026-09-18T13:30:58.541834+00:00",
     "statut": "ok"
   },
   {
@@ -302,7 +302,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981400-city--real-",
-    "derniere_maj": "2026-09-18T12:32:02.552800+00:00",
+    "derniere_maj": "2026-09-18T13:30:58.442942+00:00",
     "statut": "ok"
   },
   {
@@ -338,7 +338,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981462-indy--louisville-",
-    "derniere_maj": "2026-09-18T12:31:22.532695+00:00",
+    "derniere_maj": "2026-09-18T13:30:56.328805+00:00",
     "statut": "ok"
   },
   {
@@ -374,7 +374,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981362-indy--rowdies-",
-    "derniere_maj": "2026-09-18T12:31:33.543367+00:00",
+    "derniere_maj": "2026-09-18T13:31:09.982287+00:00",
     "statut": "ok"
   },
   {
@@ -410,7 +410,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981420-indy--tulsa-",
-    "derniere_maj": "2026-09-18T12:31:37.616728+00:00",
+    "derniere_maj": "2026-09-18T13:31:13.442698+00:00",
     "statut": "ok"
   },
   {
@@ -446,7 +446,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981394-louisville--tulsa-",
-    "derniere_maj": "2026-09-18T12:31:35.890805+00:00",
+    "derniere_maj": "2026-09-18T13:31:14.051893+00:00",
     "statut": "ok"
   },
   {
@@ -482,7 +482,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981412-louisville--rowdies-",
-    "derniere_maj": "2026-09-18T12:31:38.046340+00:00",
+    "derniere_maj": "2026-09-18T13:31:14.026894+00:00",
     "statut": "ok"
   },
   {
@@ -518,7 +518,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981476-revolution--real-",
-    "derniere_maj": "2026-09-18T12:31:36.041140+00:00",
+    "derniere_maj": "2026-09-18T13:31:14.097929+00:00",
     "statut": "ok"
   },
   {
@@ -554,7 +554,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981416-revolution--city-",
-    "derniere_maj": "2026-09-18T12:31:36.044420+00:00",
+    "derniere_maj": "2026-09-18T13:31:14.820783+00:00",
     "statut": "ok"
   },
   {
@@ -590,7 +590,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981456-revolution--united-",
-    "derniere_maj": "2026-09-18T12:31:36.341881+00:00",
+    "derniere_maj": "2026-09-18T13:31:14.819874+00:00",
     "statut": "ok"
   },
   {
@@ -626,7 +626,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981372-rowdies--tulsa-",
-    "derniere_maj": "2026-09-18T12:31:44.837543+00:00",
+    "derniere_maj": "2026-09-18T13:31:15.630707+00:00",
     "statut": "ok"
   },
   {
@@ -662,7 +662,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981384-united--real-",
-    "derniere_maj": "2026-09-18T12:31:51.375341+00:00",
+    "derniere_maj": "2026-09-18T13:31:19.424629+00:00",
     "statut": "ok"
   },
   {
@@ -698,7 +698,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981584-sounders--bulls-",
-    "derniere_maj": "2026-09-18T12:31:49.358615+00:00",
+    "derniere_maj": "2026-09-18T13:31:30.995997+00:00",
     "statut": "ok"
   },
   {
@@ -734,7 +734,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981592-sounders--timber-",
-    "derniere_maj": "2026-09-18T12:31:51.561961+00:00",
+    "derniere_maj": "2026-09-18T13:31:31.727014+00:00",
     "statut": "ok"
   },
   {
@@ -770,7 +770,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981652-timber--bulls-",
-    "derniere_maj": "2026-09-18T12:31:49.629130+00:00",
+    "derniere_maj": "2026-09-18T13:31:29.901529+00:00",
     "statut": "ok"
   },
   {
@@ -806,7 +806,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981844-whitecaps--sounders-",
-    "derniere_maj": "2026-09-18T12:31:51.117707+00:00",
+    "derniere_maj": "2026-09-18T13:31:31.724355+00:00",
     "statut": "ok"
   },
   {
@@ -842,7 +842,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981800-whitecaps--timber-",
-    "derniere_maj": "2026-09-18T12:31:52.325806+00:00",
+    "derniere_maj": "2026-09-18T13:31:30.974624+00:00",
     "statut": "ok"
   },
   {
@@ -878,7 +878,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981578-whitecaps--bulls-",
-    "derniere_maj": "2026-09-18T12:32:01.146932+00:00",
+    "derniere_maj": "2026-09-18T13:31:30.967178+00:00",
     "statut": "ok"
   },
   {
@@ -914,7 +914,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981794-inter--dynamo-",
-    "derniere_maj": "2026-09-18T12:32:02.516719+00:00",
+    "derniere_maj": "2026-09-18T13:31:30.996510+00:00",
     "statut": "ok"
   },
   {
@@ -950,7 +950,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981654-inter--union-",
-    "derniere_maj": "2026-09-18T12:32:01.752977+00:00",
+    "derniere_maj": "2026-09-18T13:31:35.190856+00:00",
     "statut": "ok"
   },
   {
@@ -986,7 +986,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981912-sporting--inter-",
-    "derniere_maj": "2026-09-18T12:32:12.089596+00:00",
+    "derniere_maj": "2026-09-18T13:31:45.820818+00:00",
     "statut": "ok"
   },
   {
@@ -1022,7 +1022,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981604-sporting--union-",
-    "derniere_maj": "2026-09-18T12:32:10.085356+00:00",
+    "derniere_maj": "2026-09-18T13:31:44.311577+00:00",
     "statut": "ok"
   },
   {
@@ -1058,7 +1058,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981834-sporting--dynamo-",
-    "derniere_maj": "2026-09-18T12:32:10.061580+00:00",
+    "derniere_maj": "2026-09-18T13:31:44.743540+00:00",
     "statut": "ok"
   },
   {
@@ -1094,17 +1094,17 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981738-union--dynamo-",
-    "derniere_maj": "2026-09-18T12:32:09.836930+00:00",
+    "derniere_maj": "2026-09-18T13:31:46.823535+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Dallas ",
-    "equipe_2": "Crew ",
+    "equipe_1": "Crew ",
+    "equipe_2": "Minnesota ",
     "1X2": {
-      "V1": "X3.08",
-      "X": "Double Chance",
-      "V2": "121.15"
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1120,10 +1120,161 @@
       "Non": null
     },
     "Totals": {},
-    "Handicap": {},
+    "Handicap": {
+      "1 (-1)": "3.36",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.91",
+      "2 (0)": "1.75",
+      "1 (+1)": "1.32",
+      "2 (-1)": "2.98"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/2590430-mls/370981858-crew--minnesota-",
+    "derniere_maj": "2026-09-18T13:31:44.794927+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Dcunited ",
+    "equipe_2": "Minnesota ",
+    "1X2": {
+      "V1": "2.11",
+      "X": "3.08",
+      "V2": "2.5"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "2.79",
+      "2 (+1)": "1.36",
+      "1 (0)": "1.69",
+      "2 (0)": "2",
+      "1 (+1)": "1.23",
+      "2 (-1)": "3.55"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/2590430-mls/370981724-dcunited--minnesota-",
+    "derniere_maj": "2026-09-18T13:31:47.906038+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Dcunited ",
+    "equipe_2": "Crew ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.01",
+      "V2": "2.4"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "2.98",
+      "2 (+1)": "1.32",
+      "1 (0)": "1.75",
+      "2 (0)": "1.91",
+      "1 (+1)": "1.26",
+      "2 (-1)": "3.36"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/2590430-mls/370981790-dcunited--crew-",
+    "derniere_maj": "2026-09-18T13:31:47.956182+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Dallas ",
+    "equipe_2": "Dcunited ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.01",
+      "V2": "2.4"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "2.98",
+      "2 (+1)": "1.32",
+      "1 (0)": "1.75",
+      "2 (0)": "1.91",
+      "1 (+1)": "1.26",
+      "2 (-1)": "3.36"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/2590430-mls/370981884-dallas--dcunited-",
+    "derniere_maj": "2026-09-18T13:31:50.957902+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Dallas ",
+    "equipe_2": "Crew ",
+    "1X2": {
+      "V1": "2.5",
+      "X": "3.08",
+      "V2": "2.11"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.55",
+      "2 (+1)": "1.23",
+      "1 (0)": "2",
+      "2 (0)": "1.69",
+      "1 (+1)": "1.36",
+      "2 (-1)": "2.79"
+    },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981862-dallas--crew-",
-    "derniere_maj": "2026-09-18T12:33:29.072055+00:00",
+    "derniere_maj": "2026-09-18T13:31:57.832820+00:00",
     "statut": "ok"
   },
   {
@@ -1159,7 +1310,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981630-dallas--minnesota-",
-    "derniere_maj": "2026-09-18T12:33:31.131021+00:00",
+    "derniere_maj": "2026-09-18T13:32:00.627378+00:00",
     "statut": "ok"
   },
   {
@@ -1195,7 +1346,187 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981850-chivas--detroit-",
-    "derniere_maj": "2026-09-18T12:33:31.058522+00:00",
+    "derniere_maj": "2026-09-18T13:31:58.556776+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Chivas ",
+    "equipe_2": "Las Vegas ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.39",
+      "2 (+1)": "1.25",
+      "1 (0)": "1.91",
+      "2 (0)": "1.75",
+      "1 (+1)": "1.32",
+      "2 (-1)": "3"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/2590430-mls/370981888-chivas--las-vegas-",
+    "derniere_maj": "2026-09-18T13:32:01.539886+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Chivas ",
+    "equipe_2": "Memphis ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.39",
+      "2 (+1)": "1.25",
+      "1 (0)": "1.91",
+      "2 (0)": "1.75",
+      "1 (+1)": "1.32",
+      "2 (-1)": "3"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/2590430-mls/370981796-chivas--memphis-",
+    "derniere_maj": "2026-09-18T13:32:02.808789+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Detroit ",
+    "equipe_2": "Memphis ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3",
+      "2 (+1)": "1.32",
+      "1 (0)": "1.75",
+      "2 (0)": "1.91",
+      "1 (+1)": "1.25",
+      "2 (-1)": "3.39"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/2590430-mls/370981788-detroit--memphis-",
+    "derniere_maj": "2026-09-18T13:32:01.615818+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Detroit ",
+    "equipe_2": "Las Vegas ",
+    "1X2": {
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.39",
+      "2 (+1)": "1.25",
+      "1 (0)": "1.91",
+      "2 (0)": "1.75",
+      "1 (+1)": "1.32",
+      "2 (-1)": "3"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/2590430-mls/370981856-detroit--las-vegas-",
+    "derniere_maj": "2026-09-18T13:32:04.817026+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Las Vegas",
+    "equipe_2": " Memphis ",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.06",
+      "V2": "2.41"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3",
+      "2 (+1)": "1.32",
+      "1 (0)": "1.75",
+      "2 (0)": "1.91",
+      "1 (+1)": "1.25",
+      "2 (-1)": "3.39"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/2590430-mls/370981864-las-vegas--memphis-",
+    "derniere_maj": "2026-09-18T13:32:04.891140+00:00",
     "statut": "ok"
   },
   {
@@ -1231,7 +1562,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981466-cincinnati--orlando-",
-    "derniere_maj": "2026-09-18T12:33:30.535934+00:00",
+    "derniere_maj": "2026-09-18T13:32:09.522996+00:00",
     "statut": "ok"
   },
   {
@@ -1267,7 +1598,43 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981446-cincinnati--nashville-",
-    "derniere_maj": "2026-09-18T12:33:30.826696+00:00",
+    "derniere_maj": "2026-09-18T13:32:10.396863+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Nashville ",
+    "equipe_2": "Orlando ",
+    "1X2": {
+      "V1": "2.37",
+      "X": "3.01",
+      "V2": "2.19"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.26",
+      "2 (+1)": "1.27",
+      "1 (0)": "1.91",
+      "2 (0)": "1.76",
+      "1 (+1)": "1.34",
+      "2 (-1)": "2.9"
+    },
+    "Score_Exact": {},
+    "url": "https://winwin.bet/en/line/football/2590430-mls/370981468-nashville--orlando-",
+    "derniere_maj": "2026-09-18T13:32:14.230218+00:00",
     "statut": "ok"
   },
   {
@@ -1303,7 +1670,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981398-toronto-cincinnati-",
-    "derniere_maj": "2026-09-18T12:33:30.827206+00:00",
+    "derniere_maj": "2026-09-18T13:32:17.211417+00:00",
     "statut": "ok"
   },
   {
@@ -1339,7 +1706,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981470-toronto-nashville-",
-    "derniere_maj": "2026-09-18T12:33:34.620766+00:00",
+    "derniere_maj": "2026-09-18T13:32:17.211867+00:00",
     "statut": "ok"
   },
   {
@@ -1375,7 +1742,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981600-toronto-orlando-",
-    "derniere_maj": "2026-09-18T12:33:42.000852+00:00",
+    "derniere_maj": "2026-09-18T13:32:16.577829+00:00",
     "statut": "ok"
   },
   {
@@ -1411,7 +1778,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981648-austin--fusion-",
-    "derniere_maj": "2026-09-18T12:33:42.329314+00:00",
+    "derniere_maj": "2026-09-18T13:32:21.170035+00:00",
     "statut": "ok"
   },
   {
@@ -1447,7 +1814,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981614-austin--st-louis-",
-    "derniere_maj": "2026-09-18T12:33:42.329847+00:00",
+    "derniere_maj": "2026-09-18T13:32:20.363095+00:00",
     "statut": "ok"
   },
   {
@@ -1483,7 +1850,7 @@
     },
     "Score_Exact": {},
     "url": "https://winwin.bet/en/line/football/2590430-mls/370981576-birmingham--charleston-",
-    "derniere_maj": "2026-09-18T12:33:42.288881+00:00",
+    "derniere_maj": "2026-09-18T13:32:21.255098+00:00",
     "statut": "ok"
   }
 ]
