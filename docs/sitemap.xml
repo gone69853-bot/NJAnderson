@@ -31,7 +31,7 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/manchester-city-sunderland/</loc>
+        <loc>https://zicote.site/espanyol-elche/</loc>
         <lastmod>2026-09-18</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -44,6 +44,12 @@
     </url>
     <url>
         <loc>https://zicote.site/city-real/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/indy-louisville/</loc>
         <lastmod>2026-09-18</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -296,12 +302,6 @@
     </url>
     <url>
         <loc>https://zicote.site/birmingham-charleston/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/indy-louisville/</loc>
         <lastmod>2026-09-18</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -668,12 +668,6 @@
     </url>
     <url>
         <loc>https://zicote.site/coventry-city-newcastle-united/</loc>
-        <lastmod>2026-09-18</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/espagnol-elche/</loc>
         <lastmod>2026-09-18</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
