@@ -4,9 +4,9 @@
     "equipe_1": "Bayern Munich",
     "equipe_2": "Union Berlin",
     "1X2": {
-      "V1": "1.069",
-      "X": "19",
-      "V2": "35"
+      "V1": "1.054",
+      "X": "21",
+      "V2": "48"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -23,30 +23,122 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-6.5)": "8",
-      "2 (+6.5)": "1.05",
-      "1 (-5.5)": "4.95",
-      "2 (+5.5)": "1.107",
-      "1 (-5)": "4.5",
-      "2 (+5)": "1.148",
-      "1 (-4.5)": "3.1",
-      "2 (+4.5)": "1.32",
-      "1 (-4)": "2.65",
-      "2 (+4)": "1.444",
-      "1 (-3.5)": "2.156",
-      "2 (+3.5)": "1.814",
-      "1 (-3)": "1.69",
-      "2 (+3)": "2.1",
-      "1 (-2.5)": "1.47",
-      "2 (+2.5)": "2.5",
-      "1 (-2)": "1.22",
-      "2 (+2)": "3.66",
-      "1 (-1.5)": "1.151",
-      "2 (+1.5)": "4.25"
+      "1 (-6.5)": "6.4",
+      "2 (+6.5)": "1.1",
+      "1 (-5.5)": "3.7",
+      "2 (+5.5)": "1.198",
+      "1 (-5)": "3.28",
+      "2 (+5)": "1.27",
+      "1 (-4.5)": "2.47",
+      "2 (+4.5)": "1.48",
+      "1 (-4)": "2.1",
+      "2 (+4)": "1.69",
+      "1 (-3.5)": "1.844",
+      "2 (+3.5)": "2.114",
+      "1 (-3)": "1.47",
+      "2 (+3)": "2.57",
+      "1 (-2.5)": "1.34",
+      "2 (+2.5)": "2.99",
+      "1 (-2)": "1.146",
+      "2 (+2)": "4.55",
+      "1 (-1.5)": "1.102",
+      "2 (+1.5)": "5.05"
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/96463-germany-bundesliga/367216704-bayern-munich-union-berlin",
-    "derniere_maj": "2026-09-18T01:03:49.661902+00:00",
+    "derniere_maj": "2026-09-18T12:05:01.780656+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Brentford",
+    "equipe_2": "Chelsea",
+    "1X2": {
+      "V1": "2.674",
+      "X": "3.82",
+      "V2": "2.633"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "9.9",
+      "2 (+2.5)": "1.002",
+      "1 (-2)": "9.1",
+      "2 (+2)": "1.011",
+      "1 (-1.5)": "4.75",
+      "2 (+1.5)": "1.141",
+      "1 (-1)": "3.92",
+      "2 (+1)": "1.22",
+      "1 (0)": "1.98",
+      "2 (0)": "1.96",
+      "1 (+1)": "1.222",
+      "2 (-1)": "3.9",
+      "1 (+1.5)": "1.147",
+      "2 (-1.5)": "4.65",
+      "1 (+2)": "1.015",
+      "2 (-2)": "8.8",
+      "1 (+2.5)": "1.004",
+      "2 (-2.5)": "9.7"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/88637-england-premier-league/366893142-brentford-chelsea",
+    "derniere_maj": "2026-09-18T12:05:47.975729+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "As Monaco",
+    "equipe_2": "Rc Lens",
+    "1X2": {
+      "V1": "2.074",
+      "X": "3.78",
+      "V2": "3.72"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "6.15",
+      "2 (+2.5)": "1.06",
+      "1 (-2)": "5.6",
+      "2 (+2)": "1.087",
+      "1 (-1.5)": "3.34",
+      "2 (+1.5)": "1.27",
+      "1 (-1)": "2.7",
+      "2 (+1)": "1.42",
+      "1 (0)": "1.545",
+      "2 (0)": "2.717",
+      "1 (+1)": "1.094",
+      "2 (-1)": "6.2",
+      "1 (+1.5)": "1.062",
+      "2 (-1.5)": "6.9"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/12821-france-ligue-1/367187738-as-monaco-rc-lens",
+    "derniere_maj": "2026-09-18T12:05:46.527669+00:00",
     "statut": "ok"
   },
   {
@@ -54,9 +146,9 @@
     "equipe_1": "Brighton ",
     "equipe_2": "Hove Albion Arsenal",
     "1X2": {
-      "V1": "4.875",
-      "X": "4.155",
-      "V2": "1.755"
+      "V1": "4.87",
+      "X": "4.21",
+      "V2": "1.746"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -73,28 +165,28 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1.5)": "9.1",
-      "2 (+1.5)": "1.005",
-      "1 (-1)": "8.5",
-      "2 (+1)": "1.019",
+      "1 (-1.5)": "9.3",
+      "2 (+1.5)": "1.009",
+      "1 (-1)": "8.7",
+      "2 (+1)": "1.023",
       "1 (0)": "3.4",
-      "2 (0)": "1.27",
+      "2 (0)": "1.28",
       "1 (+1)": "1.68",
-      "2 (-1)": "2.22",
-      "1 (+1.5)": "1.468",
-      "2 (-1.5)": "2.992",
-      "1 (+2)": "1.155",
-      "2 (-2)": "4.55",
-      "1 (+2.5)": "1.105",
-      "2 (-2.5)": "5.15",
-      "1 (+3)": "1.002",
+      "2 (-1)": "2.19",
+      "1 (+1.5)": "1.484",
+      "2 (-1.5)": "2.927",
+      "1 (+2)": "1.16",
+      "2 (-2)": "4.6",
+      "1 (+2.5)": "1.109",
+      "2 (-2.5)": "5.25",
+      "1 (+3)": "1.003",
       "2 (-3)": "9.3",
       "1 (+3.5)": "1.01",
       "2 (-3.5)": "11.5"
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/88637-england-premier-league/366892122-brighton--hove-albion-arsenal",
-    "derniere_maj": "2026-09-18T01:03:48.235107+00:00",
+    "derniere_maj": "2026-09-18T12:05:46.835513+00:00",
     "statut": "ok"
   },
   {
@@ -102,9 +194,9 @@
     "equipe_1": "Manchester",
     "equipe_2": "City Sunderland",
     "1X2": {
-      "V1": "1.33",
-      "X": "5.9",
-      "V2": "10.6"
+      "V1": "1.319",
+      "X": "6.03",
+      "V2": "10.9"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -125,34 +217,34 @@
       "2 (+4.5)": "1.01",
       "1 (-4)": "11",
       "2 (+4)": "1.01",
-      "1 (-3.5)": "5.75",
-      "2 (+3.5)": "1.074",
-      "1 (-3)": "5",
-      "2 (+3)": "1.112",
-      "1 (-2.5)": "3.04",
-      "2 (+2.5)": "1.32",
-      "1 (-2)": "2.45",
-      "2 (+2)": "1.5",
-      "1 (-1.5)": "1.939",
-      "2 (+1.5)": "2.001",
-      "1 (-1)": "1.41",
-      "2 (+1)": "2.73",
-      "1 (0)": "1.063",
-      "2 (0)": "6.75"
+      "1 (-3.5)": "5.6",
+      "2 (+3.5)": "1.079",
+      "1 (-3)": "4.85",
+      "2 (+3)": "1.12",
+      "1 (-2.5)": "2.98",
+      "2 (+2.5)": "1.33",
+      "1 (-2)": "2.4",
+      "2 (+2)": "1.52",
+      "1 (-1.5)": "1.915",
+      "2 (+1.5)": "2.028",
+      "1 (-1)": "1.39",
+      "2 (+1)": "2.81",
+      "1 (0)": "1.06",
+      "2 (0)": "6.85"
     },
     "Score_Exact": {},
     "url": "https://5572183mp.pro/en/line/football/88637-england-premier-league/366892124-manchester-city-sunderland",
-    "derniere_maj": "2026-09-18T01:03:49.661416+00:00",
+    "derniere_maj": "2026-09-18T12:05:45.928026+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Brentford",
-    "equipe_2": "Chelsea",
+    "equipe_1": "City ",
+    "equipe_2": "United ",
     "1X2": {
-      "V1": "2.836",
-      "X": "3.9",
-      "V2": "2.46"
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -169,38 +261,26 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "10.5",
-      "2 (+2.5)": "1.02",
-      "1 (-2)": "10.2",
-      "2 (+2)": "1.006",
-      "1 (-1.5)": "5.15",
-      "2 (+1.5)": "1.121",
-      "1 (-1)": "4.35",
-      "2 (+1)": "1.183",
-      "1 (0)": "2.114",
-      "2 (0)": "1.844",
-      "1 (+1)": "1.27",
-      "2 (-1)": "3.48",
-      "1 (+1.5)": "1.173",
-      "2 (-1.5)": "4.3",
-      "1 (+2)": "1.029",
-      "2 (-2)": "7.9",
-      "1 (+2.5)": "1.01",
-      "2 (-2.5)": "8.7"
+      "1 (-1)": "3.36",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.91",
+      "2 (0)": "1.75",
+      "1 (+1)": "1.32",
+      "2 (-1)": "2.98"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/88637-england-premier-league/366893142-brentford-chelsea",
-    "derniere_maj": "2026-09-18T01:03:49.663891+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981364-city--united-",
+    "derniere_maj": "2026-09-18T12:05:02.215811+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Sevilla",
-    "equipe_2": "Barcelona",
+    "equipe_1": "City ",
+    "equipe_2": "Real ",
     "1X2": {
-      "V1": "13.3",
-      "X": "7.8",
-      "V2": "1.231"
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -217,28 +297,592 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (0)": "8.9",
-      "2 (0)": "1.041",
-      "1 (+1)": "3.64",
-      "2 (-1)": "1.25",
-      "1 (+1.5)": "2.46",
-      "2 (-1.5)": "1.56",
-      "1 (+2)": "1.95",
-      "2 (-2)": "1.78",
-      "1 (+2.5)": "1.723",
-      "2 (-2.5)": "2.3",
-      "1 (+3)": "1.33",
-      "2 (-3)": "2.88",
-      "1 (+3.5)": "1.24",
-      "2 (-3.5)": "3.34",
-      "1 (+4)": "1.094",
-      "2 (-4)": "5.25",
-      "1 (+4.5)": "1.073",
-      "2 (-4.5)": "5.75"
+      "1 (-1)": "3.31",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.91",
+      "2 (0)": "1.76",
+      "1 (+1)": "1.33",
+      "2 (-1)": "2.94"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/127733-spain-la-liga/369119550-sevilla-barcelona",
-    "derniere_maj": "2026-09-18T01:03:49.660858+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981400-city--real-",
+    "derniere_maj": "2026-09-18T12:05:46.137936+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Indy ",
+    "equipe_2": "Louisville ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.36",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.91",
+      "2 (0)": "1.75",
+      "1 (+1)": "1.32",
+      "2 (-1)": "2.98"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981462-indy--louisville-",
+    "derniere_maj": "2026-09-18T12:05:45.862546+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Indy ",
+    "equipe_2": "Rowdies ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.11",
+      "V2": "2.39"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "2.94",
+      "2 (+1)": "1.33",
+      "1 (0)": "1.76",
+      "2 (0)": "1.91",
+      "1 (+1)": "1.26",
+      "2 (-1)": "3.31"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981362-indy--rowdies-",
+    "derniere_maj": "2026-09-18T12:05:11.013473+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Indy ",
+    "equipe_2": "Tulsa ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.36",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.91",
+      "2 (0)": "1.75",
+      "1 (+1)": "1.32",
+      "2 (-1)": "2.98"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981420-indy--tulsa-",
+    "derniere_maj": "2026-09-18T12:05:11.618877+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Louisville ",
+    "equipe_2": "Tulsa ",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.31",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.91",
+      "2 (0)": "1.76",
+      "1 (+1)": "1.33",
+      "2 (-1)": "2.94"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981394-louisville--tulsa-",
+    "derniere_maj": "2026-09-18T12:05:20.362751+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Louisville ",
+    "equipe_2": "Rowdies ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.01",
+      "V2": "2.4"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "2.98",
+      "2 (+1)": "1.32",
+      "1 (0)": "1.75",
+      "2 (0)": "1.91",
+      "1 (+1)": "1.26",
+      "2 (-1)": "3.36"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981412-louisville--rowdies-",
+    "derniere_maj": "2026-09-18T12:05:19.064041+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Revolution ",
+    "equipe_2": "Real ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.01",
+      "V2": "2.4"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "2.98",
+      "2 (+1)": "1.32",
+      "1 (0)": "1.75",
+      "2 (0)": "1.91",
+      "1 (+1)": "1.26",
+      "2 (-1)": "3.36"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981476-revolution--real-",
+    "derniere_maj": "2026-09-18T12:05:30.302856+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Revolution ",
+    "equipe_2": "City ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.36",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.91",
+      "2 (0)": "1.75",
+      "1 (+1)": "1.32",
+      "2 (-1)": "2.98"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981416-revolution--city-",
+    "derniere_maj": "2026-09-18T12:05:29.649453+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Revolution ",
+    "equipe_2": "United ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.36",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.91",
+      "2 (0)": "1.75",
+      "1 (+1)": "1.32",
+      "2 (-1)": "2.98"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981456-revolution--united-",
+    "derniere_maj": "2026-09-18T12:05:40.988066+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Rowdies ",
+    "equipe_2": "Tulsa ",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.31",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.91",
+      "2 (0)": "1.76",
+      "1 (+1)": "1.33",
+      "2 (-1)": "2.94"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981372-rowdies--tulsa-",
+    "derniere_maj": "2026-09-18T12:05:42.512269+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "United ",
+    "equipe_2": "Real ",
+    "1X2": {
+      "V1": "2.11",
+      "X": "3.08",
+      "V2": "2.5"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "2.79",
+      "2 (+1)": "1.36",
+      "1 (0)": "1.69",
+      "2 (0)": "2",
+      "1 (+1)": "1.23",
+      "2 (-1)": "3.55"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981384-united--real-",
+    "derniere_maj": "2026-09-18T12:05:53.029447+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Sounders ",
+    "equipe_2": "Bulls ",
+    "1X2": {
+      "V1": "2.37",
+      "X": "3.11",
+      "V2": "2.19"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.26",
+      "2 (+1)": "1.27",
+      "1 (0)": "1.91",
+      "2 (0)": "1.76",
+      "1 (+1)": "1.34",
+      "2 (-1)": "2.9"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981584-sounders--bulls-",
+    "derniere_maj": "2026-09-18T12:05:54.466844+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Sounders ",
+    "equipe_2": "Timber ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.01",
+      "V2": "2.4"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "2.98",
+      "2 (+1)": "1.32",
+      "1 (0)": "1.75",
+      "2 (0)": "1.91",
+      "1 (+1)": "1.26",
+      "2 (-1)": "3.36"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981592-sounders--timber-",
+    "derniere_maj": "2026-09-18T12:06:00.575318+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Timber ",
+    "equipe_2": "Bulls ",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.31",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.91",
+      "2 (0)": "1.76",
+      "1 (+1)": "1.33",
+      "2 (-1)": "2.94"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981652-timber--bulls-",
+    "derniere_maj": "2026-09-18T12:06:00.196855+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Whitecaps ",
+    "equipe_2": "Sounders ",
+    "1X2": {
+      "V1": "2.4",
+      "X": "3.01",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.36",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.91",
+      "2 (0)": "1.75",
+      "1 (+1)": "1.32",
+      "2 (-1)": "2.98"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981844-whitecaps--sounders-",
+    "derniere_maj": "2026-09-18T12:05:58.963323+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Whitecaps ",
+    "equipe_2": "Timber ",
+    "1X2": {
+      "V1": "2.2",
+      "X": "3.11",
+      "V2": "2.39"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "2.94",
+      "2 (+1)": "1.33",
+      "1 (0)": "1.76",
+      "2 (0)": "1.91",
+      "1 (+1)": "1.26",
+      "2 (-1)": "3.31"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981800-whitecaps--timber-",
+    "derniere_maj": "2026-09-18T12:05:58.891004+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Whitecaps ",
+    "equipe_2": "Bulls ",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.31",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.91",
+      "2 (0)": "1.76",
+      "1 (+1)": "1.33",
+      "2 (-1)": "2.94"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981578-whitecaps--bulls-",
+    "derniere_maj": "2026-09-18T12:05:58.902784+00:00",
     "statut": "ok"
   },
   {
@@ -273,8 +917,8 @@
       "2 (-1)": "3"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718904-inter--dynamo-",
-    "derniere_maj": "2026-09-18T01:03:48.239919+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981794-inter--dynamo-",
+    "derniere_maj": "2026-09-18T12:06:00.647840+00:00",
     "statut": "ok"
   },
   {
@@ -309,8 +953,8 @@
       "2 (-1)": "3"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718832-inter--union-",
-    "derniere_maj": "2026-09-18T01:03:47.655911+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981654-inter--union-",
+    "derniere_maj": "2026-09-18T12:06:04.981670+00:00",
     "statut": "ok"
   },
   {
@@ -345,8 +989,8 @@
       "2 (-1)": "3"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718886-sporting--inter-",
-    "derniere_maj": "2026-09-18T01:03:48.225280+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981912-sporting--inter-",
+    "derniere_maj": "2026-09-18T12:06:09.471696+00:00",
     "statut": "ok"
   },
   {
@@ -381,8 +1025,8 @@
       "2 (-1)": "3.39"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718742-sporting--union-",
-    "derniere_maj": "2026-09-18T01:03:57.566489+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981604-sporting--union-",
+    "derniere_maj": "2026-09-18T12:06:11.367160+00:00",
     "statut": "ok"
   },
   {
@@ -417,8 +1061,8 @@
       "2 (-1)": "3.39"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718882-sporting--dynamo-",
-    "derniere_maj": "2026-09-18T01:04:01.842811+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981834-sporting--dynamo-",
+    "derniere_maj": "2026-09-18T12:06:10.936689+00:00",
     "statut": "ok"
   },
   {
@@ -453,8 +1097,8 @@
       "2 (-1)": "3.39"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718880-union--dynamo-",
-    "derniere_maj": "2026-09-18T01:04:01.812713+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981738-union--dynamo-",
+    "derniere_maj": "2026-09-18T12:06:13.126380+00:00",
     "statut": "ok"
   },
   {
@@ -489,8 +1133,8 @@
       "2 (-1)": "2.98"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718898-crew--minnesota-",
-    "derniere_maj": "2026-09-18T01:04:01.678892+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981858-crew--minnesota-",
+    "derniere_maj": "2026-09-18T12:06:15.169644+00:00",
     "statut": "ok"
   },
   {
@@ -525,8 +1169,8 @@
       "2 (-1)": "3.55"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718878-dcunited--minnesota-",
-    "derniere_maj": "2026-09-18T01:04:03.653040+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981724-dcunited--minnesota-",
+    "derniere_maj": "2026-09-18T12:06:15.175682+00:00",
     "statut": "ok"
   },
   {
@@ -561,8 +1205,8 @@
       "2 (-1)": "3.36"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718890-dcunited--crew-",
-    "derniere_maj": "2026-09-18T01:04:04.464023+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981790-dcunited--crew-",
+    "derniere_maj": "2026-09-18T12:06:15.200841+00:00",
     "statut": "ok"
   },
   {
@@ -597,8 +1241,8 @@
       "2 (-1)": "3.36"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718922-dallas--dcunited-",
-    "derniere_maj": "2026-09-18T01:04:04.439497+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981884-dallas--dcunited-",
+    "derniere_maj": "2026-09-18T12:06:19.315283+00:00",
     "statut": "ok"
   },
   {
@@ -633,8 +1277,8 @@
       "2 (-1)": "2.79"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718912-dallas--crew-",
-    "derniere_maj": "2026-09-18T01:04:04.371165+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981862-dallas--crew-",
+    "derniere_maj": "2026-09-18T12:06:23.414170+00:00",
     "statut": "ok"
   },
   {
@@ -669,8 +1313,8 @@
       "2 (-1)": "3.02"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718838-dallas--minnesota-",
-    "derniere_maj": "2026-09-18T01:04:09.149599+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981630-dallas--minnesota-",
+    "derniere_maj": "2026-09-18T12:06:25.036322+00:00",
     "statut": "ok"
   },
   {
@@ -705,8 +1349,8 @@
       "2 (-1)": "3"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718894-chivas--detroit-",
-    "derniere_maj": "2026-09-18T01:04:15.474607+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981850-chivas--detroit-",
+    "derniere_maj": "2026-09-18T12:06:25.587321+00:00",
     "statut": "ok"
   },
   {
@@ -741,8 +1385,8 @@
       "2 (-1)": "3"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718918-chivas--las-vegas-",
-    "derniere_maj": "2026-09-18T01:04:15.474226+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981888-chivas--las-vegas-",
+    "derniere_maj": "2026-09-18T12:06:26.883269+00:00",
     "statut": "ok"
   },
   {
@@ -777,8 +1421,8 @@
       "2 (-1)": "3"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718906-chivas--memphis-",
-    "derniere_maj": "2026-09-18T01:04:15.475411+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981796-chivas--memphis-",
+    "derniere_maj": "2026-09-18T12:06:29.752256+00:00",
     "statut": "ok"
   },
   {
@@ -813,8 +1457,8 @@
       "2 (-1)": "3.39"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718910-detroit--memphis-",
-    "derniere_maj": "2026-09-18T01:04:19.288784+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981788-detroit--memphis-",
+    "derniere_maj": "2026-09-18T12:06:29.707552+00:00",
     "statut": "ok"
   },
   {
@@ -849,8 +1493,8 @@
       "2 (-1)": "3"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718948-detroit--las-vegas-",
-    "derniere_maj": "2026-09-18T01:04:20.067434+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981856-detroit--las-vegas-",
+    "derniere_maj": "2026-09-18T12:06:29.609958+00:00",
     "statut": "ok"
   },
   {
@@ -885,8 +1529,8 @@
       "2 (-1)": "3.39"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718960-las-vegas--memphis-",
-    "derniere_maj": "2026-09-18T01:04:20.069088+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981864-las-vegas--memphis-",
+    "derniere_maj": "2026-09-18T12:06:31.604014+00:00",
     "statut": "ok"
   },
   {
@@ -921,8 +1565,8 @@
       "2 (-1)": "2.87"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718514-cincinnati--orlando-",
-    "derniere_maj": "2026-09-18T01:04:20.756159+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981466-cincinnati--orlando-",
+    "derniere_maj": "2026-09-18T12:06:37.707692+00:00",
     "statut": "ok"
   },
   {
@@ -957,8 +1601,8 @@
       "2 (-1)": "2.9"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718498-cincinnati--nashville-",
-    "derniere_maj": "2026-09-18T01:04:23.462567+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981446-cincinnati--nashville-",
+    "derniere_maj": "2026-09-18T12:06:37.774868+00:00",
     "statut": "ok"
   },
   {
@@ -993,8 +1637,8 @@
       "2 (-1)": "2.9"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718512-nashville--orlando-",
-    "derniere_maj": "2026-09-18T01:04:26.862149+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981468-nashville--orlando-",
+    "derniere_maj": "2026-09-18T12:06:37.697850+00:00",
     "statut": "ok"
   },
   {
@@ -1029,8 +1673,8 @@
       "2 (-1)": "3.31"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718502-toronto-cincinnati-",
-    "derniere_maj": "2026-09-18T01:04:27.130676+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981398-toronto-cincinnati-",
+    "derniere_maj": "2026-09-18T12:06:39.141588+00:00",
     "statut": "ok"
   },
   {
@@ -1065,8 +1709,8 @@
       "2 (-1)": "3.21"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718510-toronto-nashville-",
-    "derniere_maj": "2026-09-18T01:04:27.532554+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981470-toronto-nashville-",
+    "derniere_maj": "2026-09-18T12:06:41.753487+00:00",
     "statut": "ok"
   },
   {
@@ -1101,8 +1745,8 @@
       "2 (-1)": "3.26"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718598-toronto-orlando-",
-    "derniere_maj": "2026-09-18T01:04:29.134184+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981600-toronto-orlando-",
+    "derniere_maj": "2026-09-18T12:06:45.888004+00:00",
     "statut": "ok"
   },
   {
@@ -1137,8 +1781,8 @@
       "2 (-1)": "2.9"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718748-austin--fusion-",
-    "derniere_maj": "2026-09-18T01:04:31.548574+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981648-austin--fusion-",
+    "derniere_maj": "2026-09-18T12:06:43.753017+00:00",
     "statut": "ok"
   },
   {
@@ -1173,8 +1817,8 @@
       "2 (-1)": "3.36"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718716-austin--st-louis-",
-    "derniere_maj": "2026-09-18T01:04:31.566847+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981614-austin--st-louis-",
+    "derniere_maj": "2026-09-18T12:06:47.763297+00:00",
     "statut": "ok"
   },
   {
@@ -1209,760 +1853,8 @@
       "2 (-1)": "3.39"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718560-birmingham--charleston-",
-    "derniere_maj": "2026-09-18T01:04:34.479832+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Hartford ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718702-birmingham--hartford-",
-    "derniere_maj": "2026-09-18T01:04:36.019481+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718728-birmingham--loudoun-",
-    "derniere_maj": "2026-09-18T01:04:40.219944+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Charleston ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718706-charleston--loudoun-",
-    "derniere_maj": "2026-09-18T01:04:40.570566+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Charleston ",
-    "equipe_2": "Hartford ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718708-charleston--hartford-",
-    "derniere_maj": "2026-09-18T01:04:39.350671+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Hartford ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718720-hartford--loudoun-",
-    "derniere_maj": "2026-09-18T01:04:39.463648+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Los Angeles",
-    "equipe_2": " Austin ",
-    "1X2": {
-      "V1": "2.4",
-      "X": "3.01",
-      "V2": "2.2"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.36",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "2.98"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718734-los-angeles--austin-",
-    "derniere_maj": "2026-09-18T01:04:41.384615+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Los Angeles ",
-    "equipe_2": "St Louis ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.11",
-      "V2": "2.39"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.94",
-      "2 (+1)": "1.33",
-      "1 (0)": "1.76",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.31"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718724-los-angeles--st-louis-",
-    "derniere_maj": "2026-09-18T01:04:43.400785+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Los Angeles",
-    "equipe_2": " Fusion ",
-    "1X2": {
-      "V1": "2.5",
-      "X": "3.08",
-      "V2": "2.11"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.55",
-      "2 (+1)": "1.23",
-      "1 (0)": "2",
-      "2 (0)": "1.69",
-      "1 (+1)": "1.36",
-      "2 (-1)": "2.79"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718686-los-angeles--fusion-",
-    "derniere_maj": "2026-09-18T01:04:46.330114+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "St Louis",
-    "equipe_2": " Fusion ",
-    "1X2": {
-      "V1": "2.39",
-      "X": "3.11",
-      "V2": "2.2"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.31",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.33",
-      "2 (-1)": "2.94"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370718758-st-louis--fusion-",
-    "derniere_maj": "2026-09-18T01:04:46.162417+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Rc Lens Sporting",
-    "equipe_2": "Clube De Portugal",
-    "1X2": {
-      "V1": "2.467",
-      "X": "3.845",
-      "V2": "2.858"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "8.1",
-      "2 (+2.5)": "1.019",
-      "1 (-2)": "7.4",
-      "2 (+2)": "1.031",
-      "1 (-1.5)": "4.2",
-      "2 (+1.5)": "1.172",
-      "1 (-1)": "3.48",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.845",
-      "2 (0)": "2.113",
-      "1 (+1)": "1.178",
-      "2 (-1)": "4.3",
-      "1 (+1.5)": "1.119",
-      "2 (-1.5)": "5.05",
-      "1 (+2)": "1.005",
-      "2 (-2)": "9.1",
-      "1 (+2.5)": "1.01",
-      "2 (-2.5)": "11"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/368590136-rc-lens-sporting-clube-de-portugal",
-    "derniere_maj": "2026-09-18T01:04:49.524216+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Sabah Baku",
-    "equipe_2": "Slavia Prague",
-    "1X2": {
-      "V1": "3.72",
-      "X": "3.845",
-      "V2": "2.056"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1.5)": "7.6",
-      "2 (+1.5)": "1.041",
-      "1 (-1)": "6.65",
-      "2 (+1)": "1.074",
-      "1 (0)": "2.743",
-      "2 (0)": "1.537",
-      "1 (+1)": "1.4",
-      "2 (-1)": "2.73",
-      "1 (+1.5)": "1.25",
-      "2 (-1.5)": "3.42",
-      "1 (+2)": "1.063",
-      "2 (-2)": "6.1",
-      "1 (+2.5)": "1.04",
-      "2 (-2.5)": "6.95"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/368590106-sabah-baku-slavia-prague",
-    "derniere_maj": "2026-09-18T01:04:49.532239+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Arsenal",
-    "equipe_2": "Lille Osc",
-    "1X2": {
-      "V1": "1.33",
-      "X": "5.62",
-      "V2": "11.7"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-4)": "9.1",
-      "2 (+4)": "1.004",
-      "1 (-3.5)": "5.1",
-      "2 (+3.5)": "1.099",
-      "1 (-3)": "4.5",
-      "2 (+3)": "1.142",
-      "1 (-2.5)": "2.84",
-      "2 (+2.5)": "1.36",
-      "1 (-2)": "2.3",
-      "2 (+2)": "1.56",
-      "1 (-1.5)": "1.886",
-      "2 (+1.5)": "2.061",
-      "1 (-1)": "1.39",
-      "2 (+1)": "2.81",
-      "1 (0)": "1.053",
-      "2 (0)": "7.2"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/368594074-arsenal-lille-osc",
-    "derniere_maj": "2026-09-18T01:04:49.598415+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Atletico Madrid",
-    "equipe_2": "Manchester United",
-    "1X2": {
-      "V1": "2.364",
-      "X": "3.965",
-      "V2": "2.94"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "7.1",
-      "2 (+2.5)": "1.036",
-      "1 (-2)": "6.5",
-      "2 (+2)": "1.052",
-      "1 (-1.5)": "3.75",
-      "2 (+1.5)": "1.21",
-      "1 (-1)": "3.15",
-      "2 (+1)": "1.31",
-      "1 (0)": "1.78",
-      "2 (0)": "2.205",
-      "1 (+1)": "1.174",
-      "2 (-1)": "4.4",
-      "1 (+1.5)": "1.119",
-      "2 (-1.5)": "5.05",
-      "1 (+2)": "1.008",
-      "2 (-2)": "8.9",
-      "1 (+2.5)": "1.01",
-      "2 (-2.5)": "10.5"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/368590142-atletico-madrid-manchester-united",
-    "derniere_maj": "2026-09-18T01:04:55.074959+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Viking",
-    "equipe_2": "Bayern Munich",
-    "1X2": {
-      "V1": "22",
-      "X": "13.8",
-      "V2": "1.112"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "15",
-      "2 (0)": "1.03",
-      "1 (+1)": "5.05",
-      "2 (-1)": "1.103",
-      "1 (+1.5)": "3.15",
-      "2 (-1.5)": "1.28",
-      "1 (+2)": "2.65",
-      "2 (-2)": "1.41",
-      "1 (+2.5)": "2.105",
-      "2 (-2.5)": "1.851",
-      "1 (+3)": "1.68",
-      "2 (-3)": "2.22",
-      "1 (+3.5)": "1.44",
-      "2 (-3.5)": "2.625",
-      "1 (+4)": "1.22",
-      "2 (-4)": "3.74",
-      "1 (+4.5)": "1.158",
-      "2 (-4.5)": "4.25",
-      "1 (+5)": "1.043",
-      "2 (-5)": "6.8"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/368590086-viking-bayern-munich",
-    "derniere_maj": "2026-09-18T01:04:53.164853+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Villarreal",
-    "equipe_2": "Napoli",
-    "1X2": {
-      "V1": "2.415",
-      "X": "3.555",
-      "V2": "3.125"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "9.1",
-      "2 (+2.5)": "1.004",
-      "1 (-2)": "8.3",
-      "2 (+2)": "1.016",
-      "1 (-1.5)": "4.3",
-      "2 (+1.5)": "1.162",
-      "1 (-1)": "3.48",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.753",
-      "2 (0)": "2.248",
-      "1 (+1)": "1.126",
-      "2 (-1)": "5.2",
-      "1 (+1.5)": "1.078",
-      "2 (-1.5)": "6.05",
-      "1 (+2)": "1.01",
-      "2 (-2)": "11.5"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/368590140-villarreal-napoli",
-    "derniere_maj": "2026-09-18T01:04:53.706504+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Galatasaray",
-    "equipe_2": "Barcelona",
-    "1X2": {
-      "V1": "9.1",
-      "X": "6.02",
-      "V2": "1.352"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "6.1",
-      "2 (0)": "1.079",
-      "1 (+1)": "2.77",
-      "2 (-1)": "1.4",
-      "1 (+1.5)": "2.185",
-      "2 (-1.5)": "1.793",
-      "1 (+2)": "1.71",
-      "2 (-2)": "2.04",
-      "1 (+2.5)": "1.48",
-      "2 (-2.5)": "2.43",
-      "1 (+3)": "1.26",
-      "2 (-3)": "3.28",
-      "1 (+3.5)": "1.186",
-      "2 (-3.5)": "3.82",
-      "1 (+4)": "1.067",
-      "2 (-4)": "5.95",
-      "1 (+4.5)": "1.052",
-      "2 (-4.5)": "6.45"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/368594076-galatasaray-barcelona",
-    "derniere_maj": "2026-09-18T01:04:55.810471+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Internazionale Milano",
-    "equipe_2": "Club Brugge",
-    "1X2": {
-      "V1": "1.33",
-      "X": "5.82",
-      "V2": "10.9"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-4.5)": "11",
-      "2 (+4.5)": "1.01",
-      "1 (-4)": "9",
-      "2 (+4)": "1.006",
-      "1 (-3.5)": "5.05",
-      "2 (+3.5)": "1.102",
-      "1 (-3)": "4.45",
-      "2 (+3)": "1.146",
-      "1 (-2.5)": "2.83",
-      "2 (+2.5)": "1.363",
-      "1 (-2)": "2.3",
-      "2 (+2)": "1.56",
-      "1 (-1.5)": "1.886",
-      "2 (+1.5)": "2.061",
-      "1 (-1)": "1.39",
-      "2 (+1)": "2.81",
-      "1 (0)": "1.06",
-      "2 (0)": "6.85"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/368590094-internazionale-milano-club-brugge",
-    "derniere_maj": "2026-09-18T01:05:37.009558+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Rasenballsport Leipzig",
-    "equipe_2": "Psv Eindhoven",
-    "1X2": {
-      "V1": "2.085",
-      "X": "4.155",
-      "V2": "3.385"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-3.5)": "13",
-      "2 (+3.5)": "1.04",
-      "1 (-3)": "12",
-      "2 (+3)": "1.06",
-      "1 (-2.5)": "6.1",
-      "2 (+2.5)": "1.069",
-      "1 (-2)": "5.55",
-      "2 (+2)": "1.104",
-      "1 (-1.5)": "3.34",
-      "2 (+1.5)": "1.29",
-      "1 (-1)": "2.76",
-      "2 (+1)": "1.46",
-      "1 (0)": "1.598",
-      "2 (0)": "2.567",
-      "1 (+1)": "1.103",
-      "2 (-1)": "5.2",
-      "1 (+1.5)": "1.067",
-      "2 (-1.5)": "5.95",
-      "1 (+2)": "1.01",
-      "2 (-2)": "11.5"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/368590082-rasenballsport-leipzig-psv-eindhoven",
-    "derniere_maj": "2026-09-18T01:04:56.947535+00:00",
+    "url": "https://5572183mp.pro/en/line/football/2590430-mls/370981576-birmingham--charleston-",
+    "derniere_maj": "2026-09-18T12:06:50.196728+00:00",
     "statut": "ok"
   }
 ]
