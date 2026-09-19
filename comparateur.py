@@ -232,7 +232,6 @@ BOOKMAKERS = [
     "1win",
     "winwin",
     "1xbet",
-    "paripesa",
     "africa-bizbet",
 ]
 
