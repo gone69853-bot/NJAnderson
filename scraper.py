@@ -312,6 +312,23 @@ async def find_competition_links(page, base_url):
 
         seen.add(full_url)
 
+        # Certaines "compétitions" ne sont pas de vrais matchs
+        # équipe-contre-équipe mais des paris spéciaux (ex. "England
+        # Premier League. Team vs Player" — un joueur marquera-t-il
+        # contre telle équipe, "Statistics Round" — paris sur des
+        # stats de la journée). On les exclut : elles gonflaient le
+        # plafond de 50 matchs découverts sans être de vrais matchs,
+        # au détriment de vrais matchs jamais atteints (vu en prod
+        # avec Hull City vs Everton, jamais découvert chez betwinner
+        # à cause de ce bruit).
+        url_ou_texte = (full_url + " " + text).lower()
+
+        if "team-vs-player" in url_ou_texte or "team vs player" in url_ou_texte:
+            continue
+
+        if "statistics round" in url_ou_texte:
+            continue
+
         count_match = re.search(
             r"\((\d+)\)\s*$",
             text.strip()
@@ -1947,10 +1964,15 @@ async def run_bookmakers(context):
     # bloquer indéfiniment.
     BUDGET_PAR_BOOKMAKER = 20 * 60  # 20 minutes
 
-    for bookmaker in BOOKMAKERS_LIST:
+    # Deuxième chance, avec un budget plus court : une panne réseau
+    # ou côté proxy touche parfois plusieurs sites EN MÊME TEMPS
+    # (vu en prod : melbet + megapari + africa-bizbet abandonnés au
+    # même run) — souvent temporaire. Au lieu d'abandonner ces sites
+    # pour tout le run, on les retente une dernière fois une fois
+    # que tous les autres sont passés, le temps que ça se rétablisse.
+    BUDGET_RETENTATIVE = 12 * 60  # 12 minutes
 
-        if bookmaker == "1win":
-            continue
+    async def tenter(bookmaker, budget):
 
         config = BOOKMAKERS[bookmaker]
 
@@ -1964,17 +1986,57 @@ async def run_bookmakers(context):
                     MAX_MATCHES_PER_SITE,
                     MAX_WAIT_CYCLES
                 ),
-                timeout=BUDGET_PAR_BOOKMAKER
+                timeout=budget
             )
+
+            return True
 
         except asyncio.TimeoutError:
 
             print(
                 f"[{bookmaker}] ABANDONNÉ après "
-                f"{BUDGET_PAR_BOOKMAKER // 60} minutes (problème "
-                f"réseau probable) — fichier .json non modifié "
-                f"pour ce run"
+                f"{budget // 60} minutes (problème "
+                f"réseau probable)"
             )
+            return False
+
+        except Exception as error:
+
+            print(
+                f"[{bookmaker}] ERREUR inattendue : {error} — "
+                f"fichier .json non modifié pour ce run"
+            )
+            return False
+
+    en_echec = []
+
+    for bookmaker in BOOKMAKERS_LIST:
+
+        if bookmaker == "1win":
+            continue
+
+        reussi = await tenter(bookmaker, BUDGET_PAR_BOOKMAKER)
+
+        if not reussi:
+            en_echec.append(bookmaker)
+
+    if en_echec:
+
+        print(
+            f"[retentative] {len(en_echec)} bookmaker(s) en échec, "
+            f"deuxième chance : {', '.join(en_echec)}"
+        )
+
+        for bookmaker in en_echec:
+
+            reussi = await tenter(bookmaker, BUDGET_RETENTATIVE)
+
+            if not reussi:
+                print(
+                    f"[{bookmaker}] toujours en échec après la "
+                    f"deuxième tentative — fichier .json non "
+                    f"modifié pour ce run"
+                )
 
 
 async def main():
@@ -2035,6 +2097,51 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
