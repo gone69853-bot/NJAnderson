@@ -89,10 +89,6 @@ BOOKMAKERS = {
         "url": "https://1xbet.cm/fr/line/football",
     },
 
-    "paripesa": {
-        "url": "https://paripesa.cm/fr/line/football",
-    },
-
     "africa-bizbet": {
         "url": "https://africa-bizbet.com/en/line/football",
     },
@@ -100,6 +96,8 @@ BOOKMAKERS = {
 
 
 BOOKMAKERS_LIST = list(BOOKMAKERS.keys())
+
+
 
 
 
