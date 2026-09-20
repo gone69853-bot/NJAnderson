@@ -1,162 +1,12 @@
 [
   {
     "bookmaker": "1win",
-    "equipe_1": "Fiorentina",
-    "equipe_2": "Napoli",
-    "1X2": {
-      "X": "3.44",
-      "V1": "3.25",
-      "V2": "2.25"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:11.899345+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Frosinone",
-    "equipe_2": "Como",
-    "1X2": {
-      "X": "4.55",
-      "V1": "6.0",
-      "V2": "1.52"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:11.908333+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Parme",
-    "equipe_2": "Gênes",
-    "1X2": {
-      "X": "3.0",
-      "V1": "3.15",
-      "V2": "2.54"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:11.908483+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Juventus",
-    "equipe_2": "Atalante",
-    "1X2": {
-      "X": "3.81",
-      "V1": "1.72",
-      "V2": "5.1"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:11.908618+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "AC Milan",
-    "equipe_2": "Lecce",
-    "1X2": {
-      "X": "5.9",
-      "V1": "1.26",
-      "V2": "11.5"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:11.908783+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
     "equipe_1": "Getafe",
     "equipe_2": "Malaga",
     "1X2": {
-      "X": "3.19",
-      "V1": "2.02",
-      "V2": "4.23"
+      "X": "3.22",
+      "V1": "1.97",
+      "V2": "4.44"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -164,7 +14,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:11.908927+00:00",
+    "derniere_maj": "2026-09-20T10:55:39.049483+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -184,9 +34,9 @@
     "equipe_1": "Atlético Madrid",
     "equipe_2": "Real Madrid",
     "1X2": {
-      "X": "3.73",
-      "V1": "3.48",
-      "V2": "2.07"
+      "X": "3.74",
+      "V1": "3.53",
+      "V2": "2.05"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -194,7 +44,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:11.909041+00:00",
+    "derniere_maj": "2026-09-20T10:55:39.059154+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -216,7 +66,7 @@
     "1X2": {
       "X": "4.73",
       "V1": "1.52",
-      "V2": "5.7"
+      "V2": "5.6"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -224,7 +74,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:11.909145+00:00",
+    "derniere_maj": "2026-09-20T10:55:39.059312+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -244,9 +94,9 @@
     "equipe_1": "Deportivo La Corogne",
     "equipe_2": "Real Betis",
     "1X2": {
-      "X": "3.71",
-      "V1": "3.6",
-      "V2": "2.01"
+      "X": "3.75",
+      "V1": "3.63",
+      "V2": "1.99"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -254,7 +104,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:11.909253+00:00",
+    "derniere_maj": "2026-09-20T10:55:39.059489+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -274,8 +124,248 @@
     "equipe_1": "Valencia",
     "equipe_2": "Real Sociedad",
     "1X2": {
-      "X": "3.38",
-      "V1": "2.78",
+      "X": "3.4",
+      "V1": "2.8",
+      "V2": "2.56"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url_match": null,
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
+    "derniere_maj": "2026-09-20T10:55:39.059638+00:00",
+    "statut": "ok",
+    "Totals": {},
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "Handicap": {},
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Score_Exact": {}
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Manchester City",
+    "equipe_2": "Sunderland",
+    "1X2": {
+      "X": "5.4",
+      "V1": "1.35",
+      "V2": "8.7"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url_match": null,
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
+    "derniere_maj": "2026-09-20T10:55:39.059779+00:00",
+    "statut": "ok",
+    "Totals": {},
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "Handicap": {},
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Score_Exact": {}
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "AFC Bournemouth",
+    "equipe_2": "Liverpool",
+    "1X2": {
+      "X": "3.77",
+      "V1": "3.1",
+      "V2": "2.19"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url_match": null,
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
+    "derniere_maj": "2026-09-20T10:55:39.059917+00:00",
+    "statut": "ok",
+    "Totals": {},
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "Handicap": {},
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Score_Exact": {}
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Leeds United",
+    "equipe_2": "Crystal Palace",
+    "1X2": {
+      "X": "3.9",
+      "V1": "1.71",
+      "V2": "4.94"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url_match": null,
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
+    "derniere_maj": "2026-09-20T10:55:39.060054+00:00",
+    "statut": "ok",
+    "Totals": {},
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "Handicap": {},
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Score_Exact": {}
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Fulham",
+    "equipe_2": "Manchester United",
+    "1X2": {
+      "X": "3.83",
+      "V1": "3.5",
+      "V2": "2.03"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url_match": null,
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
+    "derniere_maj": "2026-09-20T10:55:39.060190+00:00",
+    "statut": "ok",
+    "Totals": {},
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "Handicap": {},
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Score_Exact": {}
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Arsenal",
+    "equipe_2": "Leeds United",
+    "1X2": {
+      "X": "5.2",
+      "V1": "1.33",
+      "V2": "9.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url_match": null,
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
+    "derniere_maj": "2026-09-20T10:55:39.060311+00:00",
+    "statut": "ok",
+    "Totals": {},
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "Handicap": {},
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Score_Exact": {}
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Chelsea",
+    "equipe_2": "AFC Bournemouth",
+    "1X2": {
+      "X": "4.06",
+      "V1": "1.79",
+      "V2": "4.04"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url_match": null,
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
+    "derniere_maj": "2026-09-20T10:55:39.060439+00:00",
+    "statut": "ok",
+    "Totals": {},
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "Handicap": {},
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Score_Exact": {}
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Sunderland",
+    "equipe_2": "Brighton et Hove Albion",
+    "1X2": {
+      "X": "3.4",
+      "V1": "2.8",
+      "V2": "2.5"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url_match": null,
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
+    "derniere_maj": "2026-09-20T10:55:39.060561+00:00",
+    "statut": "ok",
+    "Totals": {},
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "Handicap": {},
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Score_Exact": {}
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Aston Villa",
+    "equipe_2": "Brentford",
+    "1X2": {
+      "X": "3.47",
+      "V1": "2.67",
       "V2": "2.58"
     },
     "Total_2.5": {
@@ -284,7 +374,157 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:11.909358+00:00",
+    "derniere_maj": "2026-09-20T10:55:39.060676+00:00",
+    "statut": "ok",
+    "Totals": {},
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "Handicap": {},
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Score_Exact": {}
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Ipswich Town",
+    "equipe_2": "Fulham",
+    "1X2": {
+      "X": "3.52",
+      "V1": "2.7",
+      "V2": "2.52"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url_match": null,
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
+    "derniere_maj": "2026-09-20T10:55:39.060789+00:00",
+    "statut": "ok",
+    "Totals": {},
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "Handicap": {},
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Score_Exact": {}
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Manchester United",
+    "equipe_2": "Tottenham Hotspur",
+    "1X2": {
+      "X": "4.2",
+      "V1": "1.64",
+      "V2": "4.85"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url_match": null,
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
+    "derniere_maj": "2026-09-20T10:55:39.060892+00:00",
+    "statut": "ok",
+    "Totals": {},
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "Handicap": {},
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Score_Exact": {}
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Hull City",
+    "equipe_2": "Everton",
+    "1X2": {
+      "X": "3.32",
+      "V1": "3.68",
+      "V2": "2.08"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url_match": null,
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
+    "derniere_maj": "2026-09-20T10:55:39.060995+00:00",
+    "statut": "ok",
+    "Totals": {},
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "Handicap": {},
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Score_Exact": {}
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Crystal Palace",
+    "equipe_2": "Nottingham Forest",
+    "1X2": {
+      "X": "3.3",
+      "V1": "2.68",
+      "V2": "2.65"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url_match": null,
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
+    "derniere_maj": "2026-09-20T10:55:39.061101+00:00",
+    "statut": "ok",
+    "Totals": {},
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "Handicap": {},
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Score_Exact": {}
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Liverpool",
+    "equipe_2": "Manchester City",
+    "1X2": {
+      "X": "3.67",
+      "V1": "3.0",
+      "V2": "2.23"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url_match": null,
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5&platform_type=mobile",
+    "derniere_maj": "2026-09-20T10:55:39.061204+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -314,7 +554,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.194557+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.386748+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -344,7 +584,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.194717+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.386882+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -374,7 +614,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.194836+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.387016+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -404,7 +644,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.194942+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.387141+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -434,7 +674,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.195046+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.387250+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -464,7 +704,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.195150+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.387356+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -484,8 +724,8 @@
     "equipe_1": "Atlético Madrid",
     "equipe_2": "Manchester United",
     "1X2": {
-      "X": "3.83",
-      "V1": "2.27",
+      "X": "3.82",
+      "V1": "2.26",
       "V2": "2.86"
     },
     "Total_2.5": {
@@ -494,7 +734,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.195258+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.387496+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -524,7 +764,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.195359+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.387610+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -554,7 +794,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.195462+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.387718+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -584,7 +824,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.195567+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.387823+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -614,7 +854,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.195699+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.387928+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -644,7 +884,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.195813+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.388033+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -674,7 +914,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.195919+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.388139+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -704,7 +944,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.196022+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.388251+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -734,7 +974,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.196126+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.388359+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -764,7 +1004,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.196236+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.388496+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -784,7 +1024,7 @@
     "equipe_1": "Real Betis",
     "equipe_2": "FC Porto",
     "1X2": {
-      "X": "3.64",
+      "X": "3.65",
       "V1": "2.21",
       "V2": "3.1"
     },
@@ -794,7 +1034,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.196339+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.388617+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -824,7 +1064,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:22.196443+00:00",
+    "derniere_maj": "2026-09-20T10:55:49.388728+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -844,9 +1084,9 @@
     "equipe_1": "Ville de Bradford",
     "equipe_2": "Peterborough United",
     "1X2": {
-      "X": "3.55",
+      "X": "3.61",
       "V1": "1.84",
-      "V2": "4.28"
+      "V2": "4.19"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -854,7 +1094,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-cup-983?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:32.405820+00:00",
+    "derniere_maj": "2026-09-20T10:55:59.596082+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -874,8 +1114,8 @@
     "equipe_1": "Fleetwood Town",
     "equipe_2": "Arsenal",
     "1X2": {
-      "X": "10.6",
-      "V1": "32.8",
+      "X": "11.2",
+      "V1": "29.1",
       "V2": "1.08"
     },
     "Total_2.5": {
@@ -884,7 +1124,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-cup-983?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:32.405948+00:00",
+    "derniere_maj": "2026-09-20T10:55:59.596214+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -904,9 +1144,9 @@
     "equipe_1": "Manchester City",
     "equipe_2": "Brighton et Hove Albion",
     "1X2": {
-      "X": "4.31",
+      "X": "4.49",
       "V1": "1.54",
-      "V2": "5.9"
+      "V2": "5.7"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -914,7 +1154,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-cup-983?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:32.406061+00:00",
+    "derniere_maj": "2026-09-20T10:55:59.596334+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -934,9 +1174,9 @@
     "equipe_1": "Fulham",
     "equipe_2": "Crystal Palace",
     "1X2": {
-      "X": "3.5",
-      "V1": "2.23",
-      "V2": "3.19"
+      "X": "3.53",
+      "V1": "2.16",
+      "V2": "3.31"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -944,7 +1184,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-cup-983?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:32.406169+00:00",
+    "derniere_maj": "2026-09-20T10:55:59.596471+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -964,9 +1204,9 @@
     "equipe_1": "AFC Bournemouth",
     "equipe_2": "Aston Villa",
     "1X2": {
-      "X": "3.56",
-      "V1": "2.38",
-      "V2": "2.87"
+      "X": "3.59",
+      "V1": "2.35",
+      "V2": "2.88"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -974,7 +1214,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-cup-983?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:32.406276+00:00",
+    "derniere_maj": "2026-09-20T10:55:59.596590+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -994,9 +1234,9 @@
     "equipe_1": "Sunderland",
     "equipe_2": "Brentford",
     "1X2": {
-      "X": "3.39",
+      "X": "3.41",
       "V1": "2.9",
-      "V2": "2.42"
+      "V2": "2.41"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1004,7 +1244,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-cup-983?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:32.406383+00:00",
+    "derniere_maj": "2026-09-20T10:55:59.596699+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1024,9 +1264,9 @@
     "equipe_1": "Liverpool",
     "equipe_2": "Chelsea",
     "1X2": {
-      "X": "3.63",
-      "V1": "2.33",
-      "V2": "2.9"
+      "X": "3.66",
+      "V1": "2.28",
+      "V2": "2.93"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1034,7 +1274,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-cup-983?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:32.406487+00:00",
+    "derniere_maj": "2026-09-20T10:55:59.596805+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1054,9 +1294,9 @@
     "equipe_1": "Everton",
     "equipe_2": "Newcastle United",
     "1X2": {
-      "X": "3.4",
-      "V1": "2.42",
-      "V2": "2.9"
+      "X": "3.48",
+      "V1": "2.4",
+      "V2": "2.88"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1064,397 +1304,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-cup-983?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:32.406594+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Manchester City",
-    "equipe_2": "Sunderland",
-    "1X2": {
-      "X": "5.5",
-      "V1": "1.34",
-      "V2": "8.8"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.611974+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "AFC Bournemouth",
-    "equipe_2": "Liverpool",
-    "1X2": {
-      "X": "3.8",
-      "V1": "3.12",
-      "V2": "2.17"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.612102+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Leeds United",
-    "equipe_2": "Crystal Palace",
-    "1X2": {
-      "X": "3.94",
-      "V1": "1.72",
-      "V2": "4.79"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.612212+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Fulham",
-    "equipe_2": "Manchester United",
-    "1X2": {
-      "X": "3.88",
-      "V1": "3.57",
-      "V2": "1.99"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.612319+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Arsenal",
-    "equipe_2": "Leeds United",
-    "1X2": {
-      "X": "5.2",
-      "V1": "1.33",
-      "V2": "9.2"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.612423+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Chelsea",
-    "equipe_2": "AFC Bournemouth",
-    "1X2": {
-      "X": "4.06",
-      "V1": "1.79",
-      "V2": "4.04"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.612528+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Sunderland",
-    "equipe_2": "Brighton et Hove Albion",
-    "1X2": {
-      "X": "3.4",
-      "V1": "2.81",
-      "V2": "2.5"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.612634+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Aston Villa",
-    "equipe_2": "Brentford",
-    "1X2": {
-      "X": "3.47",
-      "V1": "2.67",
-      "V2": "2.58"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.612769+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Ipswich Town",
-    "equipe_2": "Fulham",
-    "1X2": {
-      "X": "3.52",
-      "V1": "2.7",
-      "V2": "2.52"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.612880+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Manchester United",
-    "equipe_2": "Tottenham Hotspur",
-    "1X2": {
-      "X": "4.21",
-      "V1": "1.64",
-      "V2": "4.86"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.612986+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Hull City",
-    "equipe_2": "Everton",
-    "1X2": {
-      "X": "3.32",
-      "V1": "3.68",
-      "V2": "2.08"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.613089+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Crystal Palace",
-    "equipe_2": "Nottingham Forest",
-    "1X2": {
-      "X": "3.3",
-      "V1": "2.68",
-      "V2": "2.65"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.613198+00:00",
-    "statut": "ok",
-    "Totals": {},
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "Handicap": {},
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Score_Exact": {}
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Liverpool",
-    "equipe_2": "Manchester City",
-    "1X2": {
-      "X": "3.67",
-      "V1": "3.0",
-      "V2": "2.23"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url_match": null,
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.613302+00:00",
+    "derniere_maj": "2026-09-20T10:55:59.596911+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1484,7 +1334,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.613406+00:00",
+    "derniere_maj": "2026-09-20T10:56:09.805850+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1514,7 +1364,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.613508+00:00",
+    "derniere_maj": "2026-09-20T10:56:09.805953+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1544,7 +1394,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.613608+00:00",
+    "derniere_maj": "2026-09-20T10:56:09.806056+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1574,7 +1424,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.613743+00:00",
+    "derniere_maj": "2026-09-20T10:56:09.806160+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1604,7 +1454,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.613855+00:00",
+    "derniere_maj": "2026-09-20T10:56:09.806262+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1634,7 +1484,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.613960+00:00",
+    "derniere_maj": "2026-09-20T10:56:09.806364+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1664,7 +1514,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.614065+00:00",
+    "derniere_maj": "2026-09-20T10:56:09.806482+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1694,7 +1544,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.614172+00:00",
+    "derniere_maj": "2026-09-20T10:56:09.806593+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1724,7 +1574,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.614277+00:00",
+    "derniere_maj": "2026-09-20T10:56:09.806696+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1754,7 +1604,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.614384+00:00",
+    "derniere_maj": "2026-09-20T10:56:09.806803+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1784,7 +1634,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:42.614489+00:00",
+    "derniere_maj": "2026-09-20T10:56:09.806907+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1814,7 +1664,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/laliga-1232?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:52.809308+00:00",
+    "derniere_maj": "2026-09-20T10:56:20.019639+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1844,7 +1694,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/laliga-1232?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:52.809428+00:00",
+    "derniere_maj": "2026-09-20T10:56:20.019744+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1874,7 +1724,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/laliga-1232?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:52.809540+00:00",
+    "derniere_maj": "2026-09-20T10:56:20.019851+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1904,7 +1754,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/laliga-1232?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:52.809646+00:00",
+    "derniere_maj": "2026-09-20T10:56:20.019952+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1934,7 +1784,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/laliga-1232?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:52.809773+00:00",
+    "derniere_maj": "2026-09-20T10:56:20.020050+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1964,7 +1814,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/laliga-1232?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:52.809879+00:00",
+    "derniere_maj": "2026-09-20T10:56:20.020150+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -1986,7 +1836,7 @@
     "1X2": {
       "X": "3.58",
       "V1": "1.91",
-      "V2": "3.97"
+      "V2": "3.96"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1994,7 +1844,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/laliga-1232?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:52.809984+00:00",
+    "derniere_maj": "2026-09-20T10:56:20.020253+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2014,7 +1864,7 @@
     "equipe_1": "Real Betis",
     "equipe_2": "Osasuna",
     "1X2": {
-      "X": "4.19",
+      "X": "4.22",
       "V1": "1.56",
       "V2": "5.6"
     },
@@ -2024,7 +1874,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/laliga-1232?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:52.810084+00:00",
+    "derniere_maj": "2026-09-20T10:56:20.020352+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2054,7 +1904,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/laliga-1232?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:52.810185+00:00",
+    "derniere_maj": "2026-09-20T10:56:20.020469+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2084,7 +1934,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/laliga-1232?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:21:52.810287+00:00",
+    "derniere_maj": "2026-09-20T10:56:20.020575+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2104,9 +1954,9 @@
     "equipe_1": "Bayer 04 Leverkusen",
     "equipe_2": "RB Leipzig",
     "1X2": {
-      "X": "4.23",
-      "V1": "1.91",
-      "V2": "3.54"
+      "X": "4.3",
+      "V1": "1.87",
+      "V2": "3.62"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -2114,7 +1964,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/bundesliga-1130?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:02.990034+00:00",
+    "derniere_maj": "2026-09-20T10:56:30.231214+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2134,9 +1984,9 @@
     "equipe_1": "FC Schalke 04",
     "equipe_2": "SV Elversberg",
     "1X2": {
-      "X": "3.8",
-      "V1": "1.96",
-      "V2": "3.73"
+      "X": "3.82",
+      "V1": "1.93",
+      "V2": "3.77"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -2144,7 +1994,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/bundesliga-1130?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:02.990162+00:00",
+    "derniere_maj": "2026-09-20T10:56:30.231344+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2165,7 +2015,7 @@
     "equipe_2": "TSG 1899 Hoffenheim",
     "1X2": {
       "X": "4.38",
-      "V1": "4.23",
+      "V1": "4.22",
       "V2": "1.73"
     },
     "Total_2.5": {
@@ -2174,7 +2024,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/bundesliga-1130?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:02.990274+00:00",
+    "derniere_maj": "2026-09-20T10:56:30.231478+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2204,7 +2054,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/bundesliga-1130?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:02.990387+00:00",
+    "derniere_maj": "2026-09-20T10:56:30.231599+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2234,7 +2084,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/bundesliga-1130?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:02.990494+00:00",
+    "derniere_maj": "2026-09-20T10:56:30.231707+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2264,7 +2114,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/bundesliga-1130?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:02.990601+00:00",
+    "derniere_maj": "2026-09-20T10:56:30.231813+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2294,7 +2144,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/bundesliga-1130?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:02.990727+00:00",
+    "derniere_maj": "2026-09-20T10:56:30.231920+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2324,7 +2174,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/bundesliga-1130?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:02.990839+00:00",
+    "derniere_maj": "2026-09-20T10:56:30.232031+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2354,7 +2204,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/bundesliga-1130?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:02.990943+00:00",
+    "derniere_maj": "2026-09-20T10:56:30.232139+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2384,7 +2234,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/bundesliga-1130?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:02.991047+00:00",
+    "derniere_maj": "2026-09-20T10:56:30.232243+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2405,7 +2255,7 @@
     "equipe_2": "Borussia Mönchengladbach",
     "1X2": {
       "X": "3.95",
-      "V1": "1.95",
+      "V1": "1.96",
       "V2": "3.44"
     },
     "Total_2.5": {
@@ -2414,7 +2264,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/bundesliga-1130?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:02.991154+00:00",
+    "derniere_maj": "2026-09-20T10:56:30.232352+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2444,7 +2294,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/bundesliga-1130?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:02.991260+00:00",
+    "derniere_maj": "2026-09-20T10:56:30.232475+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2464,9 +2314,9 @@
     "equipe_1": "Auxerre",
     "equipe_2": "Stade Brestois (Brest)",
     "1X2": {
-      "X": "3.54",
-      "V1": "3.08",
-      "V2": "2.29"
+      "X": "3.53",
+      "V1": "3.11",
+      "V2": "2.28"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -2474,7 +2324,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-1-1128?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:13.221024+00:00",
+    "derniere_maj": "2026-09-20T10:56:40.449408+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2494,9 +2344,9 @@
     "equipe_1": "Bon",
     "equipe_2": "Lille",
     "1X2": {
-      "X": "3.53",
-      "V1": "3.42",
-      "V2": "2.14"
+      "X": "3.48",
+      "V1": "3.32",
+      "V2": "2.19"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -2504,7 +2354,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-1-1128?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:13.221148+00:00",
+    "derniere_maj": "2026-09-20T10:56:40.449636+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2525,8 +2375,8 @@
     "equipe_2": "Paris Saint-Germain",
     "1X2": {
       "X": "5.1",
-      "V1": "6.2",
-      "V2": "1.46"
+      "V1": "6.3",
+      "V2": "1.45"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -2534,7 +2384,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-1-1128?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:13.221261+00:00",
+    "derniere_maj": "2026-09-20T10:56:40.449830+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2554,9 +2404,9 @@
     "equipe_1": "Lens",
     "equipe_2": "Lyon",
     "1X2": {
-      "X": "3.65",
+      "X": "3.68",
       "V1": "2.2",
-      "V2": "3.08"
+      "V2": "3.07"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -2564,7 +2414,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-1-1128?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:13.221371+00:00",
+    "derniere_maj": "2026-09-20T10:56:40.449949+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2586,7 +2436,7 @@
     "1X2": {
       "X": "4.66",
       "V1": "1.41",
-      "V2": "7.7"
+      "V2": "7.6"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -2594,7 +2444,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-1-1128?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:13.221478+00:00",
+    "derniere_maj": "2026-09-20T10:56:40.450054+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2614,9 +2464,9 @@
     "equipe_1": "Paris Saint-Germain",
     "equipe_2": "Le Mans",
     "1X2": {
-      "X": "11.2",
+      "X": "11.3",
       "V1": "1.09",
-      "V2": "21.1"
+      "V2": "20.9"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -2624,7 +2474,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-1-1128?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:13.221585+00:00",
+    "derniere_maj": "2026-09-20T10:56:40.450159+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2654,7 +2504,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-1-1128?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:13.221709+00:00",
+    "derniere_maj": "2026-09-20T10:56:40.450261+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2684,7 +2534,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-1-1128?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:13.221818+00:00",
+    "derniere_maj": "2026-09-20T10:56:40.450361+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2714,7 +2564,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-1-1128?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:13.221923+00:00",
+    "derniere_maj": "2026-09-20T10:56:40.450498+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2734,7 +2584,7 @@
     "equipe_1": "Bon",
     "equipe_2": "Strasbourg",
     "1X2": {
-      "X": "3.53",
+      "X": "3.55",
       "V1": "2.23",
       "V2": "3.1"
     },
@@ -2744,7 +2594,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-1-1128?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:13.222025+00:00",
+    "derniere_maj": "2026-09-20T10:56:40.450610+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2766,7 +2616,7 @@
     "1X2": {
       "X": "4.94",
       "V1": "1.42",
-      "V2": "6.9"
+      "V2": "6.8"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -2774,7 +2624,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-1-1128?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:13.222125+00:00",
+    "derniere_maj": "2026-09-20T10:56:40.450709+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2794,7 +2644,7 @@
     "equipe_1": "Troyes AC",
     "equipe_2": "Olympique de Marseille",
     "1X2": {
-      "X": "3.79",
+      "X": "3.8",
       "V1": "3.66",
       "V2": "1.94"
     },
@@ -2804,7 +2654,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/league-1-1128?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:13.222229+00:00",
+    "derniere_maj": "2026-09-20T10:56:40.450813+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2834,7 +2684,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.418760+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.655711+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2864,7 +2714,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.418890+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.655855+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2884,9 +2734,9 @@
     "equipe_1": "Portugal",
     "equipe_2": "Pays de Galles",
     "1X2": {
-      "X": "5.8",
-      "V1": "1.25",
-      "V2": "12.2"
+      "X": "5.9",
+      "V1": "1.24",
+      "V2": "13.2"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -2894,7 +2744,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.418999+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.655972+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2924,7 +2774,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.419105+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.656078+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2944,9 +2794,9 @@
     "equipe_1": "Norvège",
     "equipe_2": "Danemark",
     "1X2": {
-      "X": "3.8",
-      "V1": "1.87",
-      "V2": "3.92"
+      "X": "3.95",
+      "V1": "1.77",
+      "V2": "4.23"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -2954,7 +2804,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.419210+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.656186+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -2984,7 +2834,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.419313+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.656290+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3014,7 +2864,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.419416+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.656393+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3044,7 +2894,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.419517+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.656520+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3074,7 +2924,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.419619+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.656630+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3104,7 +2954,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.419743+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.656736+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3134,7 +2984,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.419848+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.656838+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3164,7 +3014,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.419951+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.656940+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3194,7 +3044,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.420061+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.657045+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3224,7 +3074,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.420162+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.657149+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3254,7 +3104,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.420261+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.657250+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3282,7 +3132,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.420361+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.657350+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3312,7 +3162,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.420464+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.657470+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3333,8 +3183,8 @@
     "equipe_2": "Finlande",
     "1X2": {
       "X": "8.2",
-      "V1": "32.4",
-      "V2": "1.12"
+      "V1": "30.7",
+      "V2": "1.13"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -3342,7 +3192,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.420567+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.657579+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3372,7 +3222,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.420700+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.657701+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3392,9 +3242,9 @@
     "equipe_1": "Îles Féroé",
     "equipe_2": "Kazakhstan",
     "1X2": {
-      "X": "3.2",
-      "V1": "2.77",
-      "V2": "2.67"
+      "X": "3.23",
+      "V1": "2.71",
+      "V2": "2.74"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -3402,7 +3252,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.420820+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.657806+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3432,7 +3282,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.420925+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.657912+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3462,7 +3312,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.421025+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.658014+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3492,7 +3342,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.421127+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.658117+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3512,7 +3362,7 @@
     "equipe_1": "Macédoine du Nord",
     "equipe_2": "Suisse",
     "1X2": {
-      "X": "4.85",
+      "X": "4.84",
       "V1": "7.7",
       "V2": "1.39"
     },
@@ -3522,7 +3372,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.421230+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.658225+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3543,8 +3393,8 @@
     "equipe_2": "Espagne",
     "1X2": {
       "X": "3.32",
-      "V1": "2.78",
-      "V2": "2.54"
+      "V1": "2.83",
+      "V2": "2.52"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -3552,7 +3402,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.421328+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.658326+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3582,7 +3432,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.421431+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.658462+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3604,7 +3454,7 @@
     "1X2": {
       "X": "3.08",
       "V1": "2.51",
-      "V2": "3.02"
+      "V2": "3.03"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -3612,7 +3462,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.421535+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.658580+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3642,7 +3492,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.421635+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.658684+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3672,7 +3522,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.421753+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.658793+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3702,7 +3552,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.421856+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.658895+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3722,7 +3572,9 @@
     "equipe_1": "Gibraltar",
     "equipe_2": "Andorre",
     "1X2": {
-      "X": "2.88"
+      "X": "2.9",
+      "V1": "3.17",
+      "V2": "2.54"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -3730,7 +3582,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.421954+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.658994+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3760,7 +3612,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.422070+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.659096+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3790,7 +3642,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.422203+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.659198+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3820,7 +3672,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.422313+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.659298+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
@@ -3840,9 +3692,9 @@
     "equipe_1": "Géorgie",
     "equipe_2": "Ukraine",
     "1X2": {
-      "X": "3.38",
-      "V1": "2.87",
-      "V2": "2.47"
+      "X": "3.33",
+      "V1": "2.85",
+      "V2": "2.54"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -3850,7 +3702,7 @@
     },
     "url_match": null,
     "url": "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5&platform_type=mobile",
-    "derniere_maj": "2026-09-20T08:22:23.422414+00:00",
+    "derniere_maj": "2026-09-20T10:56:50.659404+00:00",
     "statut": "ok",
     "Totals": {},
     "Double_Chance": {
