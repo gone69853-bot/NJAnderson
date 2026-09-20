@@ -619,12 +619,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/getafe-malaga/</loc>
-        <lastmod>2026-09-20</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/villarreal-levante/</loc>
         <lastmod>2026-09-20</lastmod>
         <changefreq>hourly</changefreq>
@@ -643,7 +637,7 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/manchester-city-sunderland/</loc>
+        <loc>https://zicote.site/bon-lille/</loc>
         <lastmod>2026-09-20</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -668,6 +662,12 @@
     </url>
     <url>
         <loc>https://zicote.site/hull-city-everton/</loc>
+        <lastmod>2026-09-20</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/brighton-et-hove-albion-crystal-palace/</loc>
         <lastmod>2026-09-20</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -829,12 +829,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/brighton-et-hove-albion-crystal-palace/</loc>
-        <lastmod>2026-09-20</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/nottingham-forest-arsenal/</loc>
         <lastmod>2026-09-20</lastmod>
         <changefreq>hourly</changefreq>
@@ -901,12 +895,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/bayer-04-leverkusen-rb-leipzig/</loc>
-        <lastmod>2026-09-20</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/fc-schalke-04-sv-elversberg/</loc>
         <lastmod>2026-09-20</lastmod>
         <changefreq>hourly</changefreq>
@@ -968,18 +956,6 @@
     </url>
     <url>
         <loc>https://zicote.site/club-sportif-de-fribourg-fc-schalke-04/</loc>
-        <lastmod>2026-09-20</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/auxerre-stade-brestois-brest/</loc>
-        <lastmod>2026-09-20</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/bon-lille/</loc>
         <lastmod>2026-09-20</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -1291,49 +1267,91 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/fulham-bryan-mbeumo/</loc>
+        <loc>https://zicote.site/milan-lecce/</loc>
         <lastmod>2026-09-20</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/dominic-calvert-lewin-crystal-palace/</loc>
+        <loc>https://zicote.site/deportivo-de-a-coruna-real-betis/</loc>
         <lastmod>2026-09-20</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/antoine-semenyo-sunderland/</loc>
+        <loc>https://zicote.site/berkhamsted-hanworth-villa/</loc>
         <lastmod>2026-09-20</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/rayan-cherki-sunderland/</loc>
+        <loc>https://zicote.site/hanwell-town-uxbridge/</loc>
         <lastmod>2026-09-20</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/jeremy-doku-sunderland/</loc>
+        <loc>https://zicote.site/plymouth-parkway-frome-town/</loc>
         <lastmod>2026-09-20</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/enzo-fernandez-sunderland/</loc>
+        <loc>https://zicote.site/chichester-city-chertsey-town/</loc>
         <lastmod>2026-09-20</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/fulham-benjamin-sesko/</loc>
+        <loc>https://zicote.site/malvern-town-gloucester-city/</loc>
         <lastmod>2026-09-20</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/fulham-matheus-cunha/</loc>
+        <loc>https://zicote.site/poole-town-wimborne-town/</loc>
+        <lastmod>2026-09-20</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/taunton-town-bath-city/</loc>
+        <lastmod>2026-09-20</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/yate-town-evesham-united/</loc>
+        <lastmod>2026-09-20</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/chippenham-town-sholing/</loc>
+        <lastmod>2026-09-20</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/stratford-town-bromsgrove/</loc>
+        <lastmod>2026-09-20</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/stourbridge-real-bedford/</loc>
+        <lastmod>2026-09-20</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/worcester-city-banbury-united/</loc>
+        <lastmod>2026-09-20</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/anstey-nomads-alvechurch/</loc>
         <lastmod>2026-09-20</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
