@@ -1,6 +1,56 @@
 [
   {
     "bookmaker": "africa-bizbet",
+    "equipe_1": "Inter Miami",
+    "equipe_2": "San Diego",
+    "1X2": {
+      "V1": "1.355",
+      "X": "5.95",
+      "V2": "6.7"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-4.5)": "7.4",
+      "2 (+4.5)": "1.03",
+      "1 (-4)": "6.95",
+      "2 (+4)": "1.04",
+      "1 (-3.5)": "4.33",
+      "2 (+3.5)": "1.144",
+      "1 (-3)": "3.8",
+      "2 (+3)": "1.188",
+      "1 (-2.5)": "2.625",
+      "2 (+2.5)": "1.38",
+      "1 (-2)": "2.19",
+      "2 (+2)": "1.54",
+      "1 (-1.5)": "1.855",
+      "2 (+1.5)": "1.945",
+      "1 (-1)": "1.48",
+      "2 (+1)": "2.51",
+      "1 (0)": "1.11",
+      "2 (0)": "4.9",
+      "1 (+1)": "1.02",
+      "2 (-1)": "9.3"
+    },
+    "Score_Exact": {},
+    "url": "https://africa-bizbet.com/en/line/football/828065-usa-mls/369385754-inter-miami-san-diego",
+    "derniere_maj": "2026-09-20T21:39:30.653769+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "africa-bizbet",
     "equipe_1": "Galatasaray",
     "equipe_2": "Barcelona",
     "1X2": {
@@ -44,57 +94,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/118587-uefa-champions-league/368594076-galatasaray-barcelona",
-    "derniere_maj": "2026-09-20T20:44:30.491943+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Inter Miami",
-    "equipe_2": "San Diego",
-    "1X2": {
-      "V1": "1.4",
-      "X": "5.65",
-      "V2": "6.1"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-4.5)": "8",
-      "2 (+4.5)": "1.02",
-      "1 (-4)": "7.5",
-      "2 (+4)": "1.029",
-      "1 (-3.5)": "4.65",
-      "2 (+3.5)": "1.124",
-      "1 (-3)": "4.1",
-      "2 (+3)": "1.161",
-      "1 (-2.5)": "2.78",
-      "2 (+2.5)": "1.34",
-      "1 (-2)": "2.3",
-      "2 (+2)": "1.49",
-      "1 (-1.5)": "1.92",
-      "2 (+1.5)": "1.88",
-      "1 (-1)": "1.533",
-      "2 (+1)": "2.375",
-      "1 (0)": "1.129",
-      "2 (0)": "4.55",
-      "1 (+1)": "1.02",
-      "2 (-1)": "9"
-    },
-    "Score_Exact": {},
-    "url": "https://africa-bizbet.com/en/line/football/828065-usa-mls/369385754-inter-miami-san-diego",
-    "derniere_maj": "2026-09-20T20:44:33.135845+00:00",
+    "derniere_maj": "2026-09-20T21:38:47.129021+00:00",
     "statut": "ok"
   },
   {
@@ -142,7 +142,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/118587-uefa-champions-league/368594074-arsenal-lille-osc",
-    "derniere_maj": "2026-09-20T20:44:32.464114+00:00",
+    "derniere_maj": "2026-09-20T21:39:30.654217+00:00",
     "statut": "ok"
   },
   {
@@ -173,8 +173,8 @@
       "2 (0)": "1.02",
       "1 (+1)": "5.2",
       "2 (-1)": "1.096",
-      "1 (+1.5)": "3.22",
-      "2 (-1.5)": "1.27",
+      "1 (+1.5)": "3.28",
+      "2 (-1.5)": "1.26",
       "1 (+2)": "2.72",
       "2 (-2)": "1.39",
       "1 (+2.5)": "2.07",
@@ -185,14 +185,14 @@
       "2 (-3.5)": "2.56",
       "1 (+4)": "1.24",
       "2 (-4)": "3.56",
-      "1 (+4.5)": "1.166",
+      "1 (+4.5)": "1.168",
       "2 (-4.5)": "4.15",
-      "1 (+5)": "1.047",
-      "2 (-5)": "6.65"
+      "1 (+5)": "1.048",
+      "2 (-5)": "6.6"
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/118587-uefa-champions-league/368590086-viking-bayern-munich",
-    "derniere_maj": "2026-09-20T20:44:32.821163+00:00",
+    "derniere_maj": "2026-09-20T21:39:31.144559+00:00",
     "statut": "ok"
   },
   {
@@ -240,7 +240,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/118587-uefa-champions-league/368590094-internazionale-milano-club-brugge",
-    "derniere_maj": "2026-09-20T20:45:14.190533+00:00",
+    "derniere_maj": "2026-09-20T21:38:49.092099+00:00",
     "statut": "ok"
   },
   {
@@ -276,7 +276,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1791926-china-champions-league/371063104-liaoning-shengjing-xinrui-yulin-mobei-miners",
-    "derniere_maj": "2026-09-20T20:45:12.940962+00:00",
+    "derniere_maj": "2026-09-20T21:39:30.689291+00:00",
     "statut": "ok"
   },
   {
@@ -310,7 +310,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1791926-china-champions-league/371063096-guangdong-chenxing-chuangert-sichuan-318-double-dragon",
-    "derniere_maj": "2026-09-20T20:45:12.735762+00:00",
+    "derniere_maj": "2026-09-20T21:39:28.670954+00:00",
     "statut": "ok"
   },
   {
@@ -344,7 +344,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1791926-china-champions-league/371063094-xinjiang-bingchao-shaanxi-lianteng",
-    "derniere_maj": "2026-09-20T20:44:32.812973+00:00",
+    "derniere_maj": "2026-09-20T21:38:47.118541+00:00",
     "statut": "ok"
   },
   {
@@ -378,7 +378,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1791926-china-champions-league/371063098-xinjiang-jindun-xingtai-shahe-wanlu",
-    "derniere_maj": "2026-09-20T20:44:39.748841+00:00",
+    "derniere_maj": "2026-09-20T21:38:54.134428+00:00",
     "statut": "ok"
   },
   {
@@ -412,7 +412,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1791926-china-champions-league/371063128-wuhan-lianzhen-guangdong-wuchuan-youth",
-    "derniere_maj": "2026-09-20T20:44:43.933034+00:00",
+    "derniere_maj": "2026-09-20T21:38:54.133955+00:00",
     "statut": "ok"
   },
   {
@@ -448,7 +448,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1791926-china-champions-league/371063110-jiangsu-changjin-guangzhou-zhicheng",
-    "derniere_maj": "2026-09-20T20:44:44.141465+00:00",
+    "derniere_maj": "2026-09-20T21:38:58.172628+00:00",
     "statut": "ok"
   },
   {
@@ -482,7 +482,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1791926-china-champions-league/371063114-qingdao-ful-dalian-juxing-shengheng",
-    "derniere_maj": "2026-09-20T20:44:44.142970+00:00",
+    "derniere_maj": "2026-09-20T21:39:03.187014+00:00",
     "statut": "ok"
   },
   {
@@ -516,7 +516,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1791926-china-champions-league/371063120-chongqing-handa-shenzhen-eastcom-jixiang",
-    "derniere_maj": "2026-09-20T20:44:44.678586+00:00",
+    "derniere_maj": "2026-09-20T21:39:03.187393+00:00",
     "statut": "ok"
   },
   {
@@ -558,7 +558,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325699846-andorra-malta",
-    "derniere_maj": "2026-09-20T20:44:50.829709+00:00",
+    "derniere_maj": "2026-09-20T21:39:07.184892+00:00",
     "statut": "ok"
   },
   {
@@ -595,14 +595,14 @@
       "2 (+2)": "1.4",
       "1 (-1.5)": "2.04",
       "2 (+1.5)": "1.78",
-      "1 (-1)": "1.55",
-      "2 (+1)": "2.33",
+      "1 (-1)": "1.54",
+      "2 (+1)": "2.35",
       "1 (0)": "1.086",
       "2 (0)": "5.85"
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325575974-austria-israel",
-    "derniere_maj": "2026-09-20T20:44:57.094692+00:00",
+    "derniere_maj": "2026-09-20T21:39:12.084790+00:00",
     "statut": "ok"
   },
   {
@@ -644,7 +644,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325575978-kosovo-republic-of-ireland",
-    "derniere_maj": "2026-09-20T20:44:55.377713+00:00",
+    "derniere_maj": "2026-09-20T21:39:11.225774+00:00",
     "statut": "ok"
   },
   {
@@ -688,7 +688,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325699854-liechtenstein-lithuania",
-    "derniere_maj": "2026-09-20T20:44:57.556405+00:00",
+    "derniere_maj": "2026-09-20T21:39:16.058245+00:00",
     "statut": "ok"
   },
   {
@@ -696,9 +696,9 @@
     "equipe_1": "Netherlands",
     "equipe_2": "Germany",
     "1X2": {
-      "V1": "2.4",
+      "V1": "2.408",
       "X": "3.7",
-      "V2": "2.736"
+      "V2": "2.712"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -715,20 +715,20 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "9.2",
-      "2 (+2.5)": "1.003",
+      "1 (-2.5)": "9.3",
+      "2 (+2.5)": "1.002",
       "1 (-2)": "8.4",
-      "2 (+2)": "1.015",
+      "2 (+2)": "1.014",
       "1 (-1.5)": "4.4",
-      "2 (+1.5)": "1.156",
-      "1 (-1)": "3.56",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.785",
-      "2 (0)": "2.025",
-      "1 (+1)": "1.171",
+      "2 (+1.5)": "1.155",
+      "1 (-1)": "3.64",
+      "2 (+1)": "1.24",
+      "1 (0)": "1.8",
+      "2 (0)": "2.01",
+      "1 (+1)": "1.174",
       "2 (-1)": "4.4",
-      "1 (+1.5)": "1.109",
-      "2 (-1.5)": "5.25",
+      "1 (+1.5)": "1.111",
+      "2 (-1.5)": "5.2",
       "1 (+2)": "1.03",
       "2 (-2)": "9.4",
       "1 (+2.5)": "1.02",
@@ -736,7 +736,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325372158-netherlands-germany",
-    "derniere_maj": "2026-09-20T20:44:56.196935+00:00",
+    "derniere_maj": "2026-09-20T21:39:20.310777+00:00",
     "statut": "ok"
   },
   {
@@ -782,7 +782,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325372156-norway-denmark",
-    "derniere_maj": "2026-09-20T20:45:02.322403+00:00",
+    "derniere_maj": "2026-09-20T21:39:21.224489+00:00",
     "statut": "ok"
   },
   {
@@ -830,7 +830,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325407126-portugal-wales",
-    "derniere_maj": "2026-09-20T20:45:08.680961+00:00",
+    "derniere_maj": "2026-09-20T21:39:29.149622+00:00",
     "statut": "ok"
   },
   {
@@ -876,7 +876,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325407134-serbia-greece",
-    "derniere_maj": "2026-09-20T20:45:07.647054+00:00",
+    "derniere_maj": "2026-09-20T21:39:31.884908+00:00",
     "statut": "ok"
   },
   {
@@ -926,7 +926,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/371577370-home-away",
-    "derniere_maj": "2026-09-20T20:45:10.724727+00:00",
+    "derniere_maj": "2026-09-20T21:39:32.657391+00:00",
     "statut": "ok"
   },
   {
@@ -976,7 +976,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/371577456-home-special-bets-away-special-bets",
-    "derniere_maj": "2026-09-20T20:45:12.758274+00:00",
+    "derniere_maj": "2026-09-20T21:39:41.972420+00:00",
     "statut": "ok"
   },
   {
@@ -1020,7 +1020,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325871866-armenia-latvia",
-    "derniere_maj": "2026-09-20T20:45:18.228892+00:00",
+    "derniere_maj": "2026-09-20T21:39:42.733807+00:00",
     "statut": "ok"
   },
   {
@@ -1064,7 +1064,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325871868-georgia-northern-ireland",
-    "derniere_maj": "2026-09-20T20:45:20.863890+00:00",
+    "derniere_maj": "2026-09-20T21:39:45.173193+00:00",
     "statut": "ok"
   },
   {
@@ -1101,14 +1101,14 @@
       "2 (+1)": "1.26",
       "1 (0)": "1.6",
       "2 (0)": "2.336",
-      "1 (+1)": "1.082",
-      "2 (-1)": "6.4",
+      "1 (+1)": "1.083",
+      "2 (-1)": "6.35",
       "1 (+1.5)": "1.044",
       "2 (-1.5)": "7.4"
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/326182838-hungary-ukraine",
-    "derniere_maj": "2026-09-20T20:45:22.322725+00:00",
+    "derniere_maj": "2026-09-20T21:39:43.295171+00:00",
     "statut": "ok"
   },
   {
@@ -1152,7 +1152,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325995556-italy-belgium",
-    "derniere_maj": "2026-09-20T20:45:26.355895+00:00",
+    "derniere_maj": "2026-09-20T21:39:45.305701+00:00",
     "statut": "ok"
   },
   {
@@ -1186,7 +1186,7 @@
       "1 (-2.5)": "5.55",
       "2 (+2.5)": "1.089",
       "1 (-2)": "4.75",
-      "2 (+2)": "1.142",
+      "2 (+2)": "1.143",
       "1 (-1.5)": "2.77",
       "2 (+1.5)": "1.4",
       "1 (-1)": "2.14",
@@ -1200,7 +1200,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/326342396-poland-bosnia-and-herzegovina",
-    "derniere_maj": "2026-09-20T20:45:29.861949+00:00",
+    "derniere_maj": "2026-09-20T21:39:45.158927+00:00",
     "statut": "ok"
   },
   {
@@ -1231,24 +1231,24 @@
       "2 (+1.5)": "1.01",
       "1 (-1)": "10.5",
       "2 (+1)": "1.02",
-      "1 (0)": "4.9",
-      "2 (0)": "1.141",
-      "1 (+1)": "2.064",
-      "2 (-1)": "1.76",
+      "1 (0)": "4.95",
+      "2 (0)": "1.139",
+      "1 (+1)": "2.08",
+      "2 (-1)": "1.75",
       "1 (+1.5)": "1.615",
       "2 (-1.5)": "2.19",
       "1 (+2)": "1.31",
       "2 (-2)": "3.1",
       "1 (+2.5)": "1.21",
       "2 (-2.5)": "3.68",
-      "1 (+3)": "1.053",
+      "1 (+3)": "1.054",
       "2 (-3)": "6.4",
-      "1 (+3.5)": "1.035",
-      "2 (-3.5)": "7.2"
+      "1 (+3.5)": "1.036",
+      "2 (-3.5)": "7.1"
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325995560-turkey-france",
-    "derniere_maj": "2026-09-20T20:45:29.753577+00:00",
+    "derniere_maj": "2026-09-20T21:39:45.301773+00:00",
     "statut": "ok"
   },
   {
@@ -1292,7 +1292,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/326182840-montenegro-cyprus",
-    "derniere_maj": "2026-09-20T20:45:29.585075+00:00",
+    "derniere_maj": "2026-09-20T21:39:46.367566+00:00",
     "statut": "ok"
   },
   {
@@ -1340,7 +1340,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/326342442-sweden-romania",
-    "derniere_maj": "2026-09-20T20:45:29.921080+00:00",
+    "derniere_maj": "2026-09-20T21:39:53.149632+00:00",
     "statut": "ok"
   },
   {
@@ -1390,7 +1390,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/371577518-home-away",
-    "derniere_maj": "2026-09-20T20:45:33.878005+00:00",
+    "derniere_maj": "2026-09-20T21:39:52.868145+00:00",
     "statut": "ok"
   },
   {
@@ -1434,7 +1434,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/371577610-home-special-bets-away-special-bets",
-    "derniere_maj": "2026-09-20T20:45:36.361500+00:00",
+    "derniere_maj": "2026-09-20T21:39:54.965738+00:00",
     "statut": "ok"
   },
   {
@@ -1484,7 +1484,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/371577706-home-special-bets-away-special-bets",
-    "derniere_maj": "2026-09-20T20:45:37.827202+00:00",
+    "derniere_maj": "2026-09-20T21:39:59.123439+00:00",
     "statut": "ok"
   },
   {
@@ -1492,9 +1492,9 @@
     "equipe_1": "Slovenia",
     "equipe_2": "Scotland",
     "1X2": {
-      "V1": "2.784",
+      "V1": "2.675",
       "X": "3.15",
-      "V2": "2.656"
+      "V2": "2.765"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1511,24 +1511,24 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2)": "12.5",
+      "1 (-2)": "11.5",
       "2 (+2)": "1.01",
-      "1 (-1.5)": "5.65",
-      "2 (+1.5)": "1.092",
-      "1 (-1)": "4.8",
-      "2 (+1)": "1.146",
-      "1 (0)": "1.94",
-      "2 (0)": "1.86",
-      "1 (+1)": "1.166",
-      "2 (-1)": "4.5",
-      "1 (+1.5)": "1.105",
-      "2 (-1.5)": "5.35",
+      "1 (-1.5)": "5.4",
+      "2 (+1.5)": "1.103",
+      "1 (-1)": "4.55",
+      "2 (+1)": "1.163",
+      "1 (0)": "1.88",
+      "2 (0)": "1.92",
+      "1 (+1)": "1.149",
+      "2 (-1)": "4.75",
+      "1 (+1.5)": "1.094",
+      "2 (-1.5)": "5.6",
       "1 (+2)": "1.01",
-      "2 (-2)": "11.5"
+      "2 (-2)": "12.5"
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/326503382-slovenia-scotland",
-    "derniere_maj": "2026-09-20T20:45:41.965377+00:00",
+    "derniere_maj": "2026-09-20T21:39:59.121022+00:00",
     "statut": "ok"
   },
   {
@@ -1572,7 +1572,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/326646072-bulgaria-luxembourg",
-    "derniere_maj": "2026-09-20T20:45:47.420423+00:00",
+    "derniere_maj": "2026-09-20T21:39:59.122271+00:00",
     "statut": "ok"
   },
   {
@@ -1616,7 +1616,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/326853884-iceland-estonia",
-    "derniere_maj": "2026-09-20T20:45:47.453028+00:00",
+    "derniere_maj": "2026-09-20T21:39:59.122982+00:00",
     "statut": "ok"
   },
   {
@@ -1666,7 +1666,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/326853886-san-marino-finland",
-    "derniere_maj": "2026-09-20T20:45:46.095016+00:00",
+    "derniere_maj": "2026-09-20T21:39:57.957663+00:00",
     "statut": "ok"
   },
   {
@@ -1706,7 +1706,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/326646082-faroe-islands-kazakhstan",
-    "derniere_maj": "2026-09-20T20:45:46.204847+00:00",
+    "derniere_maj": "2026-09-20T21:40:05.087786+00:00",
     "statut": "ok"
   },
   {
@@ -1738,19 +1738,19 @@
       "1 (-3)": "8.7",
       "2 (+3)": "1.01",
       "1 (-2.5)": "4.7",
-      "2 (+2.5)": "1.129",
-      "1 (-2)": "3.98",
-      "2 (+2)": "1.197",
-      "1 (-1.5)": "2.48",
-      "2 (+1.5)": "1.49",
+      "2 (+2.5)": "1.13",
+      "1 (-2)": "3.96",
+      "2 (+2)": "1.198",
+      "1 (-1.5)": "2.45",
+      "2 (+1.5)": "1.5",
       "1 (-1)": "1.87",
       "2 (+1)": "1.93",
-      "1 (0)": "1.123",
-      "2 (0)": "5.25"
+      "1 (0)": "1.122",
+      "2 (0)": "5.3"
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/326971824-albania-belarus",
-    "derniere_maj": "2026-09-20T20:45:48.265578+00:00",
+    "derniere_maj": "2026-09-20T21:40:06.288052+00:00",
     "statut": "ok"
   },
   {
@@ -1784,7 +1784,7 @@
       "1 (-1.5)": "5.4",
       "2 (+1.5)": "1.102",
       "1 (-1)": "4.65",
-      "2 (+1)": "1.155",
+      "2 (+1)": "1.156",
       "1 (0)": "2.01",
       "2 (0)": "1.8",
       "1 (+1)": "1.22",
@@ -1798,7 +1798,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/327162848-england-spain",
-    "derniere_maj": "2026-09-20T20:46:16.444511+00:00",
+    "derniere_maj": "2026-09-20T21:40:06.331076+00:00",
     "statut": "ok"
   },
   {
@@ -1842,7 +1842,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/326503384-republic-of-north-macedonia-switzerland",
-    "derniere_maj": "2026-09-20T20:46:18.404150+00:00",
+    "derniere_maj": "2026-09-20T21:40:12.389056+00:00",
     "statut": "ok"
   },
   {
@@ -1886,7 +1886,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/326971822-slovakia-moldova",
-    "derniere_maj": "2026-09-20T20:46:19.616413+00:00",
+    "derniere_maj": "2026-09-20T21:40:13.179183+00:00",
     "statut": "ok"
   },
   {
@@ -1930,7 +1930,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/327162868-czech-republic-croatia",
-    "derniere_maj": "2026-09-20T20:46:36.599619+00:00",
+    "derniere_maj": "2026-09-20T21:40:11.355426+00:00",
     "statut": "ok"
   },
   {
@@ -1938,9 +1938,9 @@
     "equipe_1": "Home",
     "equipe_2": "Away",
     "1X2": {
-      "V1": "1.918",
+      "V1": "1.903",
       "X": "10.7",
-      "V2": "2.168"
+      "V2": "2.188"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1957,30 +1957,30 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-6.5)": "7.12",
-      "2 (+6.5)": "1.096",
-      "1 (-6)": "6.8",
-      "2 (+6)": "1.104",
-      "1 (-5.5)": "5.25",
-      "2 (+5.5)": "1.155",
-      "1 (-5)": "5.03",
-      "2 (+5)": "1.171",
-      "1 (-4.5)": "4.06",
-      "2 (+4.5)": "1.24",
-      "1 (-4)": "3.83",
-      "2 (+4)": "1.263",
-      "1 (-3.5)": "3.22",
-      "2 (+3.5)": "1.347",
-      "1 (-3)": "3.015",
-      "2 (+3)": "1.386",
-      "1 (-2.5)": "2.633",
-      "2 (+2.5)": "1.486",
-      "1 (-2)": "2.459",
-      "2 (+2)": "1.548"
+      "1 (-6.5)": "6.99",
+      "2 (+6.5)": "1.099",
+      "1 (-6)": "6.69",
+      "2 (+6)": "1.107",
+      "1 (-5.5)": "5.2",
+      "2 (+5.5)": "1.162",
+      "1 (-5)": "4.94",
+      "2 (+5)": "1.175",
+      "1 (-4.5)": "4",
+      "2 (+4.5)": "1.245",
+      "1 (-4)": "3.76",
+      "2 (+4)": "1.27",
+      "1 (-3.5)": "3.18",
+      "2 (+3.5)": "1.355",
+      "1 (-3)": "2.98",
+      "2 (+3)": "1.392",
+      "1 (-2.5)": "2.605",
+      "2 (+2.5)": "1.496",
+      "1 (-2)": "2.431",
+      "2 (+2)": "1.559"
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/371577720-home-away",
-    "derniere_maj": "2026-09-20T20:46:26.909327+00:00",
+    "derniere_maj": "2026-09-20T21:40:13.390778+00:00",
     "statut": "ok"
   },
   {
@@ -2030,7 +2030,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/371577800-home-special-bets-away-special-bets",
-    "derniere_maj": "2026-09-20T20:46:25.744337+00:00",
+    "derniere_maj": "2026-09-20T21:40:11.299058+00:00",
     "statut": "ok"
   },
   {
@@ -2080,7 +2080,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/371577802-home-special-bets-away-special-bets",
-    "derniere_maj": "2026-09-20T20:46:25.719555+00:00",
+    "derniere_maj": "2026-09-20T21:40:16.656076+00:00",
     "statut": "ok"
   },
   {
@@ -2120,7 +2120,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/342637486-lithuania-azerbaijan",
-    "derniere_maj": "2026-09-20T20:46:38.717237+00:00",
+    "derniere_maj": "2026-09-20T21:40:18.231527+00:00",
     "statut": "ok"
   },
   {
@@ -2168,7 +2168,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/344907356-austria-kosovo",
-    "derniere_maj": "2026-09-20T20:46:29.630832+00:00",
+    "derniere_maj": "2026-09-20T21:40:16.462357+00:00",
     "statut": "ok"
   },
   {
@@ -2208,7 +2208,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/343404996-gibraltar-andorra",
-    "derniere_maj": "2026-09-20T20:46:32.935153+00:00",
+    "derniere_maj": "2026-09-20T21:40:22.573398+00:00",
     "statut": "ok"
   }
 ]
