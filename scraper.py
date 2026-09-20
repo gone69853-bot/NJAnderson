@@ -27,12 +27,6 @@ ROOT = Path(".")
 # ============================================================
 # RESSOURCES A BLOQUER
 # ============================================================
-#
-# On NE bloque PAS les feuilles de style : certains de ces sites
-# s'appuient sur le layout réel (dimensions/visibilité calculées
-# via CSS) pour déclencher le chargement de la liste des matchs
-# (listes virtualisées). Bloquer le CSS cassait ce déclenchement.
-# ============================================================
 
 BLOCKED_TYPES = {
     "image",
@@ -43,12 +37,7 @@ BLOCKED_TYPES = {
 }
 
 
-# ============================================================
-# ANALYTICS / TRACKERS / PUBLICITE
-# ============================================================
-
 BLOCKED_DOMAINS = (
-
     "google-analytics",
     "googletagmanager",
     "doubleclick",
@@ -87,19 +76,8 @@ def should_block(route):
     return False
 
 
-# ============================================================
-# MOTIF DE DETECTION DES LIENS DE MATCH
-# ============================================================
-#
-# Format "classique" (Betwinner, Melbet, Megapari, Paripesa,
-# Winwin, 1xbet) : /line/football/ID-championnat/ID-equipe1-equipe2
-# ============================================================
-
 MATCH_PATTERN = re.compile(r"/line/football/\d+-[^/]+/\d+-[^/?]+")
 
-# Lien vers la page d'un championnat entier (ex. .../118593-uefa-
-# europa-league), PAS vers un match précis : un seul segment
-# "ID-slug" après /line/football/, pas deux.
 COMPETITION_PATTERN = re.compile(
     r"/line/football/\d+-[^/?]+/?(?:\?.*)?$"
 )
@@ -116,9 +94,6 @@ def with_mobile_param(url):
 
 
 def extract_teams_from_slug(href):
-    """Best-effort : extrait les noms d'équipes depuis le slug de
-    l'URL (.../ID-equipe1-equipe2), utilisé en repli si la page
-    elle-même n'affiche pas clairement les noms."""
 
     try:
 
@@ -144,17 +119,6 @@ def extract_teams_from_slug(href):
     return None, None
 
 
-# ============================================================
-# DECOUVERTE DES MATCHS SUR LA PAGE DE LISTING
-# ============================================================
-#
-# On scrolle (molette + touche Fin + JS + scroll des conteneurs
-# internes, combinés car les sites ne réagissent pas tous au
-# même déclencheur) et on déplie les accordéons de championnats
-# repliés, jusqu'à avoir assez de liens de match ou jusqu'à ce
-# que ça stagne.
-# ============================================================
-
 async def expand_accordions(page):
 
     try:
@@ -164,10 +128,6 @@ async def expand_accordions(page):
             () => {
                 let compte = 0;
 
-                // Méthode principale : attribut ARIA standard, utilisé
-                // par la quasi-totalité des composants d'accordéon
-                // (React/Vue...), quel que soit le nom de classe CSS
-                // propre à chaque site.
                 document.querySelectorAll(
                     '[aria-expanded="false"]'
                 ).forEach(el => {
@@ -175,9 +135,6 @@ async def expand_accordions(page):
                     compte++;
                 });
 
-                // Repli : ancienne classe personnalisée déjà repérée
-                // sur certains sites de ce réseau, au cas où un site
-                // n'utilise pas aria-expanded.
                 document.querySelectorAll(
                     '.ui-accordion-trigger__arrow:not([data-deja-clique])'
                 ).forEach(f => {
@@ -186,15 +143,6 @@ async def expand_accordions(page):
                     compte++;
                 });
 
-                // Repli n°2 : sur Betwinner/Melbet/Megapari/Winwin/1xbet/
-                // Paripesa, le bouton "flèche" qui replie chaque
-                // championnat (ex. "UEFA Europa League (22)") porte
-                // directement la classe "ui-accordion__trigger" /
-                // "ui-accordion-trigger", SANS aria-expanded. On le
-                // cible donc lui-même, en le marquant après le premier
-                // clic pour ne jamais le re-cliquer (sinon on le
-                // refermerait au tour suivant au lieu de le laisser
-                // ouvert).
                 document.querySelectorAll(
                     '[class*="accordion__trigger"]:not([data-deja-ouvert]), ' +
                     '[class*="accordion-trigger"]:not([data-deja-ouvert])'
@@ -264,10 +212,6 @@ async def count_match_links(page):
 
 
 async def find_competition_links(page, base_url):
-    """Récupère les liens vers les pages de championnat (ex.
-    "Coupe d'Afrique des nations (48)"), triés par nombre de
-    matchs annoncé décroissant, pour visiter les plus fournis
-    en premier."""
 
     try:
 
@@ -326,17 +270,7 @@ async def find_competition_links(page, base_url):
 
 
 async def click_maximize_buttons(page, bookmaker="", max_rounds=10):
-    """
-    Déploie les sections cachées derrière le bouton UI
-    "Maximize" sur tous les bookmakers qui utilisent ce composant.
 
-    Le sélecteur est volontairement précis pour ne pas cliquer sur
-    d'autres contrôles :
-      button.ui-nav-link-toggle[aria-label="Maximize"]
-             [aria-expanded="false"]
-
-    Si un bookmaker n'utilise pas ce bouton, la fonction ne fait rien.
-    """
     selector = (
         'button.ui-nav-link-toggle[aria-label="Maximize"]'
         '[aria-expanded="false"]'
@@ -348,8 +282,6 @@ async def click_maximize_buttons(page, bookmaker="", max_rounds=10):
         clicked_this_round = 0
 
         try:
-            # Recompter à chaque tour : après un clic, le DOM peut être
-            # recréé et de nouveaux boutons peuvent apparaître.
             count = await page.locator(selector).count()
 
             for i in range(count):
@@ -368,7 +300,6 @@ async def click_maximize_buttons(page, bookmaker="", max_rounds=10):
             if clicked_this_round:
                 await page.wait_for_timeout(1800)
 
-            # Faire apparaître les éventuelles sections situées plus bas.
             await scroll_page(page)
             await page.wait_for_timeout(800)
 
@@ -379,7 +310,6 @@ async def click_maximize_buttons(page, bookmaker="", max_rounds=10):
                     f"(tour {tour + 1})"
                 )
             else:
-                # Deux tours sans bouton = probablement tout est déjà ouvert.
                 if tour >= 1:
                     break
 
@@ -391,15 +321,9 @@ async def click_maximize_buttons(page, bookmaker="", max_rounds=10):
 
 
 async def collect_hrefs_on_page(page, max_matches, max_stagnant=40):
-    """Déplie les accordéons/boutons "Maximize" et scrolle la page
-    actuellement chargée jusqu'à avoir assez de liens de match ou
-    jusqu'à ce que ça stagne. Renvoie tous les hrefs vus."""
 
     await expand_accordions(page)
     await click_maximize_buttons(page, urlparse(page.url).netloc)
-    # Délai plus long ici : la première passe peut ouvrir plusieurs
-    # dizaines de championnats d'un coup (ex. "UEFA Europa League (22)"),
-    # chacun déclenchant son propre chargement de matchs.
     await page.wait_for_timeout(4000)
 
     hrefs, found = await count_match_links(page)
@@ -442,7 +366,6 @@ async def discover_matches(
         wait_until="domcontentloaded"
     )
 
-    # Laisser le premier lot de matchs se charger.
     await page.wait_for_timeout(15000)
 
     parsed = urlparse(listing_url)
@@ -484,11 +407,6 @@ async def discover_matches(
         await collect_hrefs_on_page(page, max_matches, max_stagnant)
     )
 
-    # Sur certains bookmakers, la page d'accueil "/line/football" ne
-    # montre qu'un résumé (quelques matchs à la une + un widget de
-    # championnats avec leur nombre de matchs, ex. "Coupe d'Afrique
-    # des nations (48)"), sans lister les matchs eux-mêmes : il faut
-    # alors visiter chaque championnat pour les récupérer.
     if len(matches) < max_matches:
 
         competition_links = await find_competition_links(page, base_url)
@@ -524,16 +442,6 @@ async def discover_matches(
 
     return matches
 
-
-# ============================================================
-# PARSING DES COTES SUR LA PAGE DE MATCH
-# ============================================================
-#
-# On cherche la ligne exacte "1X2" puis on prend les 3 paires
-# (libellé, cote) qui suivent — peu importe si le libellé exact
-# est "1"/"X"/"2" ou "V1"/"Draw"/"V2", l'ORDRE (victoire équipe 1,
-# nul, victoire équipe 2) est toujours le même sur ces sites.
-# ============================================================
 
 def to_lines(text):
 
@@ -589,17 +497,6 @@ def parse_total_block(lines):
 
     return {"Plus de": None, "Moins de": None}
 
-
-# ============================================================
-# MARCHES SUPPLEMENTAIRES
-# ============================================================
-#
-# Même principe que 1X2/Total ci-dessus : chercher le titre du
-# marché dans le texte de la page, puis lire les paires
-# (libellé, cote) qui suivent, jusqu'à tomber sur une ligne qui
-# ne correspond plus au motif attendu (signe que le bloc suivant
-# a commencé).
-# ============================================================
 
 TOTAL_LINE_PLUS = re.compile(r"^(\d+(?:\.\d+)?) Plus de$")
 TOTAL_LINE_MOINS = re.compile(r"^(\d+(?:\.\d+)?) Moins de$")
@@ -663,10 +560,6 @@ def parse_btts_block(lines):
 
 
 def parse_all_totals_block(lines, max_span=60):
-    """Toutes les lignes de Total but disponibles (1.5, 2, 2.5,
-    etc.), pas seulement 2.5. Renvoie par ex. :
-    {"1.5": {"Plus de": "1.4", "Moins de": "2.64"}, "2": {...}, ...}
-    """
 
     try:
         i = lines.index("Total")
@@ -694,8 +587,6 @@ def parse_all_totals_block(lines, max_span=60):
             pos += 2
             continue
 
-        # Une ligne qui ne colle plus au motif "X Plus de"/"X Moins
-        # de" signale la fin du bloc Total (ex. "Handicap").
         if result:
             break
 
@@ -705,9 +596,6 @@ def parse_all_totals_block(lines, max_span=60):
 
 
 def parse_handicap_block(lines, max_span=40):
-    """Renvoie les lignes de handicap telles qu'affichées, ex. :
-    {"1 (-1)": "3.83", "2 (+1)": "1.2", "1 (0)": "1.56", "2 (0)": "2.21"}
-    """
 
     try:
         i = lines.index("Handicap")
@@ -736,7 +624,6 @@ def parse_handicap_block(lines, max_span=40):
 
 
 def parse_correct_score_block(lines, max_span=60):
-    """Score exact, ex. {"1-0": "5.85", "0-0": "7.19", ...}"""
 
     try:
         i = lines.index("Score exact")
@@ -771,6 +658,12 @@ async def scrape_match(
     max_wait_cycles,
     nb_essais=2
 ):
+
+    # melbet rebondit fréquemment entre domaines miroirs
+    # (melbet-cm.com <-> melbetjp.com) au moment de la navigation :
+    # on lui laisse plus de tentatives.
+    if bookmaker == "melbet":
+        nb_essais = 4
 
     for attempt in range(nb_essais):
 
@@ -848,22 +741,16 @@ async def scrape_match(
             }
 
         except Exception:
+            # Pause avant de retenter, plus longue à chaque échec
+            # successif : sur melbet en particulier, retenter
+            # immédiatement retombe souvent dans la même redirection
+            # en boucle qu'à l'essai précédent.
+            await page.wait_for_timeout(4000 + attempt * 3000)
             continue
 
     return None
 
 
-# ============================================================
-# SCRAPER D'UN BOOKMAKER
-# ============================================================
-
-# Nombre d'onglets ouverts EN MÊME TEMPS, pour un seul bookmaker,
-# lors de la visite des pages de match individuelles (la partie la
-# plus lente du run, car elle représente jusqu'à 50 navigations
-# séquentielles par site). Les bookmakers restent traités un par un
-# (comme avant) pour ne jamais dépasser ce nombre de connexions
-# simultanées via le proxy — seule la phase "détail de chaque match"
-# à l'intérieur d'un bookmaker est parallélisée.
 MATCH_CONCURRENCY = 8
 
 
@@ -965,14 +852,8 @@ async def scrape_bookmaker(
     )
 
 
-# ============================================================
-# 1WIN — moteur totalement différent (app Vue.js), et surtout
-# pas besoin de proxy : l'IP US (celle du runner GitHub) n'est
-# pas bloquée sur ce site, contrairement aux autres.
-# ============================================================
-
 WIN1_LISTING_URL = "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5"
-WIN1_MAX_TENTATIVES = 300  # jusqu'à 10 min pour que les cartes se chargent
+WIN1_MAX_TENTATIVES = 300
 
 WIN1_MOTIF_COTE = re.compile(r"\d\.\d")
 
@@ -998,6 +879,19 @@ async def extraire_cartes_1win(page):
     )
 
 
+# ------------------------------------------------------------
+# CORRECTIF : 1win affiche désormais tout en FRANÇAIS
+# ("Résultat du temps réglementaire", puis les noms des équipes
+# et "Match Nul" comme libellés) — l'ancien code cherchait le
+# texte anglais "full time result" et des libellés "1"/"x"/"2",
+# qui n'existent plus nulle part sur la page. Résultat : 0 match
+# jamais extrait, même quand les cartes sont bien détectées.
+# On repère maintenant le titre français, puis on prend les 3
+# paires (libellé, cote) qui suivent DANS L'ORDRE où 1win les
+# affiche (équipe 1, nul, équipe 2) — peu importe le texte exact
+# du libellé.
+# ------------------------------------------------------------
+
 def parser_carte_1win(carte):
 
     lignes_equipes = [
@@ -1019,22 +913,21 @@ def parser_carte_1win(carte):
 
         i = next(
             idx for idx, l in enumerate(lignes_cotes)
-            if "full time result" in l.lower()
+            if "résultat du temps réglementaire" in l.lower()
         )
 
-        correspondance = {"1": "V1", "x": "X", "2": "V2"}
         pos = i + 1
+        cles_ordre = ["V1", "X", "V2"]
 
-        while pos + 1 < len(lignes_cotes):
+        for cle in cles_ordre:
 
-            label = lignes_cotes[pos].strip().lower()
+            if pos + 1 >= len(lignes_cotes):
+                break
+
             valeur = lignes_cotes[pos + 1].strip()
 
-            if label in correspondance:
-                resultat_1x2[correspondance[label]] = valeur
-                pos += 2
-            else:
-                break
+            resultat_1x2[cle] = valeur
+            pos += 2
 
     except StopIteration:
         pass
@@ -1069,18 +962,12 @@ def parser_carte_1win(carte):
 
 
 async def ouvrir_plus_de_matchs_1win(page, max_tours=20):
-    """
-    1win masque une partie des compétitions derrière des boutons
-    "Maximize". On clique explicitement sur ces boutons pour déployer
-    davantage de matchs avant de lire les cartes.
-    """
+
     precedent = -1
     sans_nouveau = 0
 
     for tour in range(max_tours):
         try:
-            # Cible le bouton fourni par l'interface 1win :
-            # <button aria-label="Maximize" ... class="ui-nav-link-toggle ...">
             cliques = await page.locator(
                 'button.ui-nav-link-toggle[aria-label="Maximize"]'
                 '[aria-expanded="false"]'
@@ -1101,7 +988,6 @@ async def ouvrir_plus_de_matchs_1win(page, max_tours=20):
 
                 await page.wait_for_timeout(1800)
 
-            # Faire apparaître les sections éventuellement chargées plus bas.
             await page.mouse.wheel(0, 5000)
             await page.keyboard.press("End")
             await page.wait_for_timeout(1200)
@@ -1126,8 +1012,6 @@ async def ouvrir_plus_de_matchs_1win(page, max_tours=20):
         except Exception:
             break
 
-    # Remonter en haut n'est pas nécessaire pour extraire les cartes :
-    # le DOM contient aussi les cartes chargées hors écran.
     return precedent
 
 
@@ -1137,8 +1021,6 @@ async def scrape_1win(playwright):
 
     try:
 
-        # Pas de proxy pour 1win : l'IP du runner n'est pas
-        # bloquée sur ce site.
         browser = await playwright.chromium.launch(headless=True)
 
         page = await browser.new_page()
@@ -1149,13 +1031,8 @@ async def scrape_1win(playwright):
             wait_until="domcontentloaded"
         )
 
-        # Laisser l'application Vue.js initialiser les championnats.
         await page.wait_for_timeout(5000)
 
-        # Fonction dédiée à 1win : clique sur les boutons "Maximize"
-        # (le chevron "v" à droite de chaque championnat) ET scrolle
-        # jusqu'en bas pour forcer le chargement des championnats
-        # suivants. C'est ce qui débloque le plafond à 13 matchs.
         await ouvrir_plus_de_matchs_1win(page, max_tours=30)
 
         cartes = []
@@ -1214,17 +1091,7 @@ async def scrape_1win(playwright):
     )
 
 
-# ============================================================
-# MAIN
-# ============================================================
-
-# Nombre de cycles d'attente (2s chacun) avant d'abandonner un
-# match si les cotes "1X2" ne s'affichent pas. 40 cycles = 80s
-# max par match — un compromis entre patience et durée totale
-# du run (avec plusieurs sites x plusieurs matchs, 90 cycles
-# comme dans le script d'origine ferait un run bien trop long
-# en CI si plusieurs matchs échouent).
-MAX_WAIT_CYCLES = 20  # réduit de 40 : 40s max d'attente par match au lieu de 80s
+MAX_WAIT_CYCLES = 20
 
 
 async def route_handler(route):
@@ -1235,12 +1102,6 @@ async def route_handler(route):
 
 
 async def run_bookmakers(context):
-    """Traite les bookmakers (hors 1win) un par un, dans l'ordre —
-    chacun utilise jusqu'à MATCH_CONCURRENCY onglets en parallèle en
-    interne (voir scrape_bookmaker). On ne lance PAS les bookmakers
-    entre eux en parallèle : ça éviterait de cumuler encore plus de
-    connexions simultanées via un proxy dont on ne connaît pas les
-    limites exactes."""
 
     for bookmaker in BOOKMAKERS_LIST:
 
@@ -1284,13 +1145,6 @@ async def main():
 
         await context.route("**/*", route_handler)
 
-        # ------------------------------------------------------
-        # 1WIN tourne dans son PROPRE navigateur, sans proxy (l'IP
-        # du runner n'y est pas bloquée). Comme il n'utilise jamais
-        # le proxy, le lancer EN MÊME TEMPS que les autres bookmakers
-        # ne consomme aucune connexion proxy supplémentaire : c'est
-        # du temps gagné "gratuitement" sur la durée totale du run.
-        # ------------------------------------------------------
         await asyncio.gather(
             run_bookmakers(context),
             scrape_1win(playwright),
@@ -1302,11 +1156,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
-
-
-
-
 
 
 
