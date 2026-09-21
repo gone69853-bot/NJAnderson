@@ -2,28 +2,19 @@ name: Zicote - Update Odds
 
 on:
   schedule:
-    # Toutes les 45 minutes
-    # 0h00, 0h45, 1h30, 2h15, 3h00, 3h45, 4h30, 5h15, ...
-    - cron: "0 0,3,6,9,12,15,18,21 * * *"
-    - cron: "45 0,3,6,9,12,15,18,21 * * *"
-    - cron: "30 1,4,7,10,13,16,19,22 * * *"
-    - cron: "15 2,5,8,11,14,17,20,23 * * *"
-
+    # Filet de sécurité : relance la chaîne si elle s'est arrêtée
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
-# Empêche deux runs de tourner en même temps : comme un run peut
-# parfois durer plusieurs heures (panne réseau, retentatives), un
-# nouveau déclenchement toutes les 45 min pourrait sinon se lancer
-# PENDANT qu'un précédent tourne encore, doublant la charge sur le
-# proxy — probablement une des causes des pannes réseau simultanées
-# observées. cancel-in-progress: false = le nouveau run attend
-# sagement son tour au lieu d'annuler celui en cours.
+# Un seul run à la fois. Le nouveau attend son tour au lieu
+# d'annuler celui en cours (cancel-in-progress: false).
 concurrency:
   group: zicote-update-odds
   cancel-in-progress: false
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   update:
@@ -53,9 +44,7 @@ jobs:
           PROXY_SERVER: "http://p.webshare.io:80"
           PROXY_USERNAME: "kecsytba-rotate"
           PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
-
           MAX_MATCHES_PER_SITE: "50"
-
         run: |
           python scraper.py
 
@@ -82,11 +71,10 @@ jobs:
           # Pages et données du comparateur
           git add -A docs/
 
-          # Fichiers de diagnostic.
-          # Le glob peut ne rien trouver : on ignore alors l'erreur.
+          # Fichiers de diagnostic (le glob peut ne rien trouver)
           git add debug_*.html debug_*.txt debug_*.json 2>/dev/null || true
 
-          # Vérifier s'il y a réellement quelque chose à publier
+          # Rien à publier ?
           if git diff --cached --quiet; then
             echo "Aucune modification."
             exit 0
@@ -94,12 +82,20 @@ jobs:
 
           git commit -m "Update odds"
 
-          # Tout ce contenu (JSON, docs/, diagnostics) est régénéré
-          # de zéro à chaque run, jamais modifié à la main : si un
-          # autre run a poussé entre-temps, il n'y a aucune raison de
-          # fusionner (les renommages de fichiers de pages entre deux
-          # runs créent sinon des conflits que git ne sait pas
-          # résoudre seul, ex. "renamed here, deleted there"). Le run
-          # le plus récent remplace toujours l'ancien.
+          # Contenu régénéré à chaque run : le plus récent
+          # remplace toujours l'ancien, pas de fusion.
           git fetch origin main
           git push --force-with-lease origin HEAD:main
+
+  relaunch:
+    needs: update
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pause puis relancer le workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sleep 300
+          gh workflow run "${{ github.workflow }}" \
+            --repo "${{ github.repository }}" --ref main
