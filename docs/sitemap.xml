@@ -223,12 +223,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/denmark-wales/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/serbia-netherlands/</loc>
         <lastmod>2026-09-21</lastmod>
         <changefreq>hourly</changefreq>
@@ -265,18 +259,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/wuhan-lianzhen-guangdong-wuchuan-youth/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/chongqing-handa-shenzhen-eastcom-jixiang/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/xinjiang-jindun-xingtai-shahe-wanlu/</loc>
         <lastmod>2026-09-21</lastmod>
         <changefreq>hourly</changefreq>
@@ -290,6 +272,18 @@
     </url>
     <url>
         <loc>https://zicote.site/qingdao-ful-dalian-juxing-shengheng/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/chongqing-handa-shenzhen-eastcom-jixiang/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/wuhan-lianzhen-guangdong-wuchuan-youth/</loc>
         <lastmod>2026-09-21</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
