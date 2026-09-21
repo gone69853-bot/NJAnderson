@@ -1,6 +1,23 @@
 [
   {
     "bookmaker": "1win",
+    "equipe_1": "FC Bayern Munich W",
+    "equipe_2": "Manchester City LFC W",
+    "1X2": {
+      "V1": "2.08",
+      "X": "3.67",
+      "V2": "2.86"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
+    "derniere_maj": "2026-09-21T09:03:52.821917+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
     "equipe_1": "Inter Milano W",
     "equipe_2": "BK Hacken W",
     "1X2": {
@@ -13,24 +30,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772176+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "FC Bayern Munich W",
-    "equipe_2": "Manchester City LFC W",
-    "1X2": {
-      "V1": "2.07",
-      "X": "3.67",
-      "V2": "2.86"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772211+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.821951+00:00",
     "statut": "ok"
   },
   {
@@ -47,7 +47,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772224+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.821963+00:00",
     "statut": "ok"
   },
   {
@@ -55,16 +55,16 @@
     "equipe_1": "Juventus W",
     "equipe_2": "SL Benfica W",
     "1X2": {
-      "V1": "1.78",
+      "V1": "1.77",
       "X": "3.71",
-      "V2": "3.64"
+      "V2": "3.67"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772234+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.821972+00:00",
     "statut": "ok"
   },
   {
@@ -72,16 +72,16 @@
     "equipe_1": "Andorre",
     "equipe_2": "Malte",
     "1X2": {
-      "V1": "3.64",
-      "X": "2.74",
-      "V2": "2.39"
+      "V1": "3.65",
+      "X": "2.72",
+      "V2": "2.4"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772247+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.821981+00:00",
     "statut": "ok"
   },
   {
@@ -90,7 +90,7 @@
     "equipe_2": "Israël",
     "1X2": {
       "V1": "1.39",
-      "X": "4.99",
+      "X": "4.97",
       "V2": "7.5"
     },
     "Total_2.5": {
@@ -98,7 +98,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772256+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.821991+00:00",
     "statut": "ok"
   },
   {
@@ -115,7 +115,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772265+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.821999+00:00",
     "statut": "ok"
   },
   {
@@ -132,7 +132,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772273+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822007+00:00",
     "statut": "ok"
   },
   {
@@ -149,7 +149,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772282+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822016+00:00",
     "statut": "ok"
   },
   {
@@ -157,7 +157,7 @@
     "equipe_1": "Pays-Bas",
     "equipe_2": "Allemagne",
     "1X2": {
-      "V1": "2.34",
+      "V1": "2.35",
       "X": "3.74",
       "V2": "2.78"
     },
@@ -166,7 +166,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772291+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822024+00:00",
     "statut": "ok"
   },
   {
@@ -183,7 +183,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772300+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822032+00:00",
     "statut": "ok"
   },
   {
@@ -191,16 +191,16 @@
     "equipe_1": "Kosovo",
     "equipe_2": "Irlande",
     "1X2": {
-      "V1": "2.64",
+      "V1": "2.68",
       "X": "3.11",
-      "V2": "2.81"
+      "V2": "2.77"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772309+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822041+00:00",
     "statut": "ok"
   },
   {
@@ -210,14 +210,14 @@
     "1X2": {
       "V1": "1.85",
       "X": "3.6",
-      "V2": "4.18"
+      "V2": "4.22"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772318+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822051+00:00",
     "statut": "ok"
   },
   {
@@ -234,7 +234,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772329+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822056+00:00",
     "statut": "ok"
   },
   {
@@ -251,7 +251,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772339+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822062+00:00",
     "statut": "ok"
   },
   {
@@ -268,7 +268,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772348+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822067+00:00",
     "statut": "ok"
   },
   {
@@ -285,7 +285,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772357+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822073+00:00",
     "statut": "ok"
   },
   {
@@ -302,7 +302,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772366+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822078+00:00",
     "statut": "ok"
   },
   {
@@ -310,16 +310,16 @@
     "equipe_1": "Italie",
     "equipe_2": "Belgique",
     "1X2": {
-      "V1": "2.17",
+      "V1": "2.15",
       "X": "3.58",
-      "V2": "3.2"
+      "V2": "3.24"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772377+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822084+00:00",
     "statut": "ok"
   },
   {
@@ -336,7 +336,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772386+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822089+00:00",
     "statut": "ok"
   },
   {
@@ -353,7 +353,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772398+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822096+00:00",
     "statut": "ok"
   },
   {
@@ -370,7 +370,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772407+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822105+00:00",
     "statut": "ok"
   },
   {
@@ -378,16 +378,16 @@
     "equipe_1": "Islande",
     "equipe_2": "Estonie",
     "1X2": {
-      "V1": "1.39",
-      "X": "4.74",
-      "V2": "8.4"
+      "V1": "1.38",
+      "X": "4.76",
+      "V2": "8.5"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772417+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822111+00:00",
     "statut": "ok"
   },
   {
@@ -404,7 +404,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772426+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822116+00:00",
     "statut": "ok"
   },
   {
@@ -412,16 +412,16 @@
     "equipe_1": "Îles Féroé",
     "equipe_2": "Kazakhstan",
     "1X2": {
-      "V1": "2.57",
-      "X": "3.23",
-      "V2": "2.89"
+      "V1": "2.29",
+      "X": "3.24",
+      "V2": "3.36"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772434+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822122+00:00",
     "statut": "ok"
   },
   {
@@ -431,14 +431,14 @@
     "1X2": {
       "V1": "1.29",
       "X": "5.4",
-      "V2": "10.8"
+      "V2": "10.9"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772444+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822127+00:00",
     "statut": "ok"
   },
   {
@@ -455,7 +455,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772453+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822133+00:00",
     "statut": "ok"
   },
   {
@@ -472,7 +472,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772462+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822138+00:00",
     "statut": "ok"
   },
   {
@@ -489,7 +489,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772471+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822143+00:00",
     "statut": "ok"
   },
   {
@@ -506,7 +506,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772480+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822148+00:00",
     "statut": "ok"
   },
   {
@@ -523,7 +523,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772490+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822153+00:00",
     "statut": "ok"
   },
   {
@@ -540,7 +540,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772499+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822158+00:00",
     "statut": "ok"
   },
   {
@@ -557,7 +557,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772507+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822162+00:00",
     "statut": "ok"
   },
   {
@@ -574,7 +574,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772516+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822167+00:00",
     "statut": "ok"
   },
   {
@@ -582,16 +582,16 @@
     "equipe_1": "Gibraltar",
     "equipe_2": "Andorre",
     "1X2": {
-      "V1": "3.05",
-      "X": "2.9",
-      "V2": "2.63"
+      "V1": "3.22",
+      "X": "2.88",
+      "V2": "2.53"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772525+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822171+00:00",
     "statut": "ok"
   },
   {
@@ -608,7 +608,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772534+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822176+00:00",
     "statut": "ok"
   },
   {
@@ -625,7 +625,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772543+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822180+00:00",
     "statut": "ok"
   },
   {
@@ -642,7 +642,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772552+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822184+00:00",
     "statut": "ok"
   },
   {
@@ -659,7 +659,24 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-21T08:12:07.772562+00:00",
+    "derniere_maj": "2026-09-21T09:03:52.822189+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Roumanie",
+    "equipe_2": "Bosnie-Herzégovine",
+    "1X2": {
+      "V1": "2.11",
+      "X": "3.46",
+      "V2": "3.52"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
+    "derniere_maj": "2026-09-21T09:03:52.822193+00:00",
     "statut": "ok"
   }
 ]
