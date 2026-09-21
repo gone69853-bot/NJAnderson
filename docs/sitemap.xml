@@ -67,7 +67,19 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://zicote.site/norway-denmark/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://zicote.site/portugal-wales/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/serbia-greece/</loc>
         <lastmod>2026-09-21</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -85,31 +97,7 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/northern-ireland-hungary/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/sweden-poland/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/denmark-wales/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/romania-bosnia-and-herzegovina/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/austria-kosovo/</loc>
+        <loc>https://zicote.site/armenia-latvia/</loc>
         <lastmod>2026-09-21</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -121,37 +109,7 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/sweden-romania/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/republic-of-north-macedonia-switzerland/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/georgia-ukraine/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/hungary-ukraine/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/turkey-france/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/slovenia-scotland/</loc>
         <lastmod>2026-09-21</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -163,61 +121,13 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/turkey-italy/</loc>
+        <loc>https://zicote.site/poland-bosnia-and-herzegovina/</loc>
         <lastmod>2026-09-21</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/germany-greece/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/czech-republic-england/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/england-spain/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/serbia-netherlands/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/belgium-france/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/serbia-greece/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/norway-portugal/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/norway-denmark/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/czech-republic-croatia/</loc>
+        <loc>https://zicote.site/turkey-france/</loc>
         <lastmod>2026-09-21</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -229,19 +139,13 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/armenia-latvia/</loc>
+        <loc>https://zicote.site/sweden-romania/</loc>
         <lastmod>2026-09-21</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/slovakia-moldova/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/iceland-estonia/</loc>
+        <loc>https://zicote.site/slovenia-scotland/</loc>
         <lastmod>2026-09-21</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -253,19 +157,7 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/faroe-islands-kazakhstan/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/gibraltar-andorra/</loc>
-        <lastmod>2026-09-21</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/lithuania-azerbaijan/</loc>
+        <loc>https://zicote.site/iceland-estonia/</loc>
         <lastmod>2026-09-21</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -277,7 +169,79 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://zicote.site/faroe-islands-kazakhstan/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://zicote.site/albania-belarus/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/england-spain/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/republic-of-north-macedonia-switzerland/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/slovakia-moldova/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/czech-republic-croatia/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/lithuania-azerbaijan/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/austria-kosovo/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/gibraltar-andorra/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/denmark-wales/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/serbia-netherlands/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/germany-greece/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/norway-portugal/</loc>
         <lastmod>2026-09-21</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -421,13 +385,13 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/albanie-bielorussie/</loc>
+        <loc>https://zicote.site/macedoine-du-nord-suisse/</loc>
         <lastmod>2026-09-21</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/macedoine-du-nord-suisse/</loc>
+        <loc>https://zicote.site/albanie-bielorussie/</loc>
         <lastmod>2026-09-21</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -475,7 +439,55 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://zicote.site/georgie-ukraine/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://zicote.site/roumanie-bosnie-herzegovine/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/scotland-switzerland/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/slovenia-republic-of-north-macedonia/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/sweden-poland/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/czech-republic-england/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/turkey-italy/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/belgium-france/</loc>
+        <lastmod>2026-09-21</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/spain-croatia/</loc>
         <lastmod>2026-09-21</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
