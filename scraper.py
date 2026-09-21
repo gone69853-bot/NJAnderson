@@ -255,6 +255,16 @@ async def find_competition_links(page, base_url):
 
         seen.add(full_url)
 
+        # Certaines "compétitions" ne sont pas de vrais matchs
+        # équipe-contre-équipe mais des paris spéciaux (ex. "England
+        # Premier League. Team vs Player" — un joueur marquera-t-il
+        # contre telle équipe). On les exclut : elles gonflaient le
+        # plafond de 50 matchs découverts sans être de vrais matchs.
+        url_ou_texte = (full_url + " " + text).lower()
+
+        if "team-vs-player" in url_ou_texte or "team vs player" in url_ou_texte:
+            continue
+
         count_match = re.search(
             r"\((\d+)\)\s*$",
             text.strip()
@@ -1156,20 +1166,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
