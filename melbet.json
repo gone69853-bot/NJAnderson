@@ -1,12 +1,12 @@
 [
   {
     "bookmaker": "melbet",
-    "equipe_1": "Viking",
-    "equipe_2": "Bayern Munich",
+    "equipe_1": "Galatasaray",
+    "equipe_2": "Barcelona",
     "1X2": {
-      "V1": "23",
-      "X": "13.5",
-      "V2": "1.064"
+      "V1": "9.1",
+      "X": "5.85",
+      "V2": "1.296"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -23,30 +23,28 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (0)": "13.5",
-      "2 (0)": "1.02",
-      "1 (+1)": "5.4",
-      "2 (-1)": "1.087",
-      "1 (+1.5)": "3.42",
-      "2 (-1.5)": "1.24",
-      "1 (+2)": "2.84",
-      "2 (-2)": "1.36",
-      "1 (+2.5)": "2.152",
-      "2 (-2.5)": "1.7",
-      "1 (+3)": "1.76",
-      "2 (-3)": "2.064",
-      "1 (+3.5)": "1.5",
-      "2 (-3.5)": "2.45",
-      "1 (+4)": "1.26",
-      "2 (-4)": "3.42",
-      "1 (+4.5)": "1.184",
-      "2 (-4.5)": "3.94",
-      "1 (+5)": "1.059",
-      "2 (-5)": "6.2"
+      "1 (0)": "6.3",
+      "2 (0)": "1.075",
+      "1 (+1)": "2.85",
+      "2 (-1)": "1.38",
+      "1 (+1.5)": "2.136",
+      "2 (-1.5)": "1.71",
+      "1 (+2)": "1.73",
+      "2 (-2)": "2.01",
+      "1 (+2.5)": "1.5",
+      "2 (-2.5)": "2.38",
+      "1 (+3)": "1.27",
+      "2 (-3)": "3.22",
+      "1 (+3.5)": "1.194",
+      "2 (-3.5)": "3.74",
+      "1 (+4)": "1.072",
+      "2 (-4)": "5.8",
+      "1 (+4.5)": "1.056",
+      "2 (-4.5)": "6.3"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/368590086-viking-bayern-munich",
-    "derniere_maj": "2026-09-22T05:08:42.059655+00:00",
+    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/368594076-galatasaray-barcelona",
+    "derniere_maj": "2026-09-22T05:56:08.292643+00:00",
     "statut": "ok"
   },
   {
@@ -94,7 +92,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/368590094-internazionale-milano-club-brugge",
-    "derniere_maj": "2026-09-22T05:08:27.269062+00:00",
+    "derniere_maj": "2026-09-22T05:55:47.870128+00:00",
     "statut": "ok"
   },
   {
@@ -142,43 +140,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/368590172-roma-real-madrid",
-    "derniere_maj": "2026-09-22T05:08:28.773222+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Santos Sporting",
-    "equipe_2": "Real Castilla Kholy",
-    "1X2": {
-      "V1": "6.43",
-      "X": "5.82",
-      "V2": "1.28"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (+1)": "2.47",
-      "2 (-1)": "1.45",
-      "1 (+1.5)": "1.86",
-      "2 (-1.5)": "1.8",
-      "1 (+2)": "1.5",
-      "2 (-2)": "2.34"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/2779554-cuba-liga-de-barrios/372048634-santos-sporting-real-castilla-kholy",
-    "derniere_maj": "2026-09-22T05:08:28.793362+00:00",
+    "derniere_maj": "2026-09-22T05:56:31.300983+00:00",
     "statut": "ok"
   },
   {
@@ -214,17 +176,17 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/2779554-cuba-liga-de-barrios/372048648-sporting-bellavista-uccfd-manuel-fajardo",
-    "derniere_maj": "2026-09-22T05:08:03.682873+00:00",
+    "derniere_maj": "2026-09-22T05:55:48.684332+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Liechtenstein",
-    "equipe_2": "Lithuania",
+    "equipe_1": "Gibraltar Sao",
+    "equipe_2": "Tome And Principe",
     "1X2": {
-      "V1": "12",
-      "X": "4.88",
-      "V2": "1.304"
+      "V1": "1.26",
+      "X": "5.9",
+      "V2": "11"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -241,34 +203,38 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (0)": "7.7",
-      "2 (0)": "1.039",
-      "1 (+1)": "2.59",
-      "2 (-1)": "1.45",
-      "1 (+1.5)": "1.825",
-      "2 (-1.5)": "1.975",
-      "1 (+2)": "1.41",
-      "2 (-2)": "2.73",
-      "1 (+2.5)": "1.26",
-      "2 (-2.5)": "3.42",
-      "1 (+3)": "1.077",
-      "2 (-3)": "5.85",
-      "1 (+3.5)": "1.051",
-      "2 (-3.5)": "6.5"
+      "1 (-4.5)": "9.7",
+      "2 (+4.5)": "1.01",
+      "1 (-4)": "8.9",
+      "2 (+4)": "1.007",
+      "1 (-3.5)": "5.05",
+      "2 (+3.5)": "1.103",
+      "1 (-3)": "4.4",
+      "2 (+3)": "1.141",
+      "1 (-2.5)": "2.78",
+      "2 (+2.5)": "1.34",
+      "1 (-2)": "2.24",
+      "2 (+2)": "1.52",
+      "1 (-1.5)": "1.83",
+      "2 (+1.5)": "1.975",
+      "1 (-1)": "1.37",
+      "2 (+1)": "2.66",
+      "1 (0)": "1.044",
+      "2 (0)": "7.4"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/325699854-liechtenstein-lithuania",
-    "derniere_maj": "2026-09-22T05:08:59.780188+00:00",
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/368551148-gibraltar-sao-tome-and-principe",
+    "derniere_maj": "2026-09-22T05:56:24.542181+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Norway",
-    "equipe_2": "Denmark",
+    "equipe_1": "Palestine",
+    "equipe_2": "New Zealand",
     "1X2": {
-      "V1": "1.768",
-      "X": "3.98",
-      "V2": "4.22"
+      "V1": "4.79",
+      "X": "3.58",
+      "V2": "1.61"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -285,36 +251,26 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-3)": "12",
-      "2 (+3)": "1.01",
-      "1 (-2.5)": "6.1",
-      "2 (+2.5)": "1.07",
-      "1 (-2)": "5.3",
-      "2 (+2)": "1.114",
-      "1 (-1.5)": "3.04",
-      "2 (+1.5)": "1.34",
-      "1 (-1)": "2.38",
-      "2 (+1)": "1.58",
-      "1 (0)": "1.31",
-      "2 (0)": "3.15",
-      "1 (+1)": "1.017",
-      "2 (-1)": "8.7",
-      "1 (+1.5)": "1.05",
-      "2 (-1.5)": "8.5"
+      "1 (0)": "3.59",
+      "2 (0)": "1.23",
+      "1 (+1)": "1.54",
+      "2 (-1)": "2.25",
+      "1 (+1.5)": "1.31",
+      "2 (-1.5)": "3.02"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/325372156-norway-denmark",
-    "derniere_maj": "2026-09-22T05:10:14.057887+00:00",
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/370039152-palestine-new-zealand",
+    "derniere_maj": "2026-09-22T05:56:23.987540+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Serbia",
-    "equipe_2": "Greece",
+    "equipe_1": "Japan",
+    "equipe_2": "Uruguay",
     "1X2": {
-      "V1": "2.61",
-      "X": "3.28",
-      "V2": "2.736"
+      "V1": "2.448",
+      "X": "3.192",
+      "V2": "3.02"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -331,218 +287,32 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "12",
-      "2 (+2.5)": "1.01",
-      "1 (-2)": "10.5",
-      "2 (+2)": "1.02",
-      "1 (-1.5)": "6.15",
-      "2 (+1.5)": "1.075",
-      "1 (-1)": "4.95",
-      "2 (+1)": "1.137",
-      "1 (0)": "1.86",
-      "2 (0)": "1.94",
-      "1 (+1)": "1.119",
-      "2 (-1)": "5.35",
-      "1 (+1.5)": "1.063",
-      "2 (-1.5)": "6.55",
-      "1 (+2)": "1.01",
-      "2 (-2)": "11.5"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/325407134-serbia-greece",
-    "derniere_maj": "2026-09-22T05:09:26.991066+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Home Special Bets",
-    "equipe_2": "Away Special Bets",
-    "1X2": {
-      "V1": "1.407",
-      "X": "11.2",
-      "V2": "3.865"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-8.5)": "8.2",
-      "2 (+8.5)": "1.07",
-      "1 (-8)": "7.9",
-      "2 (+8)": "1.079",
-      "1 (-7.5)": "5.82",
-      "2 (+7.5)": "1.135",
-      "1 (-7)": "5.5",
-      "2 (+7)": "1.148",
-      "1 (-6.5)": "4.255",
-      "2 (+6.5)": "1.223",
-      "1 (-6)": "3.98",
-      "2 (+6)": "1.25",
-      "1 (-5.5)": "3.245",
-      "2 (+5.5)": "1.343",
-      "1 (-5)": "3.01",
-      "2 (+5)": "1.388",
-      "1 (-4.5)": "2.575",
-      "2 (+4.5)": "1.504",
-      "1 (-4)": "2.38",
-      "2 (+4)": "1.58"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/371577456-home-special-bets-away-special-bets",
-    "derniere_maj": "2026-09-22T05:09:43.548693+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Georgia",
-    "equipe_2": "Northern Ireland",
-    "1X2": {
-      "V1": "1.89",
-      "X": "3.54",
-      "V2": "4.14"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "7.1",
-      "2 (+2.5)": "1.036",
-      "1 (-2)": "6.2",
-      "2 (+2)": "1.06",
-      "1 (-1.5)": "3.34",
-      "2 (+1.5)": "1.26",
-      "1 (-1)": "2.59",
-      "2 (+1)": "1.44",
-      "1 (0)": "1.375",
-      "2 (0)": "3.085",
-      "1 (+1)": "1.029",
-      "2 (-1)": "9.2",
-      "1 (+1.5)": "1.006",
-      "2 (-1.5)": "10.2"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/325871868-georgia-northern-ireland",
-    "derniere_maj": "2026-09-22T05:09:35.705634+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Hungary",
-    "equipe_2": "Ukraine",
-    "1X2": {
-      "V1": "2.28",
-      "X": "3.24",
-      "V2": "3.26"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "9.4",
-      "2 (+2.5)": "1.03",
-      "1 (-2)": "9",
-      "2 (+2)": "1.006",
-      "1 (-1.5)": "4.45",
-      "2 (+1.5)": "1.154",
-      "1 (-1)": "3.48",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.61",
-      "2 (0)": "2.315",
-      "1 (+1)": "1.086",
-      "2 (-1)": "6.25",
-      "1 (+1.5)": "1.047",
-      "2 (-1.5)": "7.3"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/326182838-hungary-ukraine",
-    "derniere_maj": "2026-09-22T05:09:35.939161+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Faroe",
-    "equipe_2": "Islands Kazakhstan",
-    "1X2": {
-      "V1": "2.32",
-      "X": "3.2",
-      "V2": "3.22"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "9.8",
-      "2 (+2.5)": "1.01",
-      "1 (-2)": "9.8",
-      "2 (+2)": "1.003",
+      "1 (-2)": "9.7",
+      "2 (+2)": "1.001",
       "1 (-1.5)": "4.7",
-      "2 (+1.5)": "1.137",
-      "1 (-1)": "3.74",
-      "2 (+1)": "1.23",
-      "1 (0)": "1.63",
-      "2 (0)": "2.275",
-      "1 (+1)": "1.082",
-      "2 (-1)": "6.4",
-      "1 (+1.5)": "1.045",
-      "2 (-1.5)": "7.4"
+      "2 (+1.5)": "1.12",
+      "1 (-1)": "3.82",
+      "2 (+1)": "1.186",
+      "1 (0)": "1.72",
+      "2 (0)": "2.12",
+      "1 (+1)": "1.096",
+      "2 (-1)": "5.2",
+      "1 (+1.5)": "1.061",
+      "2 (-1.5)": "6.15"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/326646082-faroe-islands-kazakhstan",
-    "derniere_maj": "2026-09-22T05:11:32.465605+00:00",
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/359613902-japan-uruguay",
+    "derniere_maj": "2026-09-22T05:56:31.300426+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Slovakia",
-    "equipe_2": "Moldova",
+    "equipe_1": "South",
+    "equipe_2": "Korea Ecuador",
     "1X2": {
-      "V1": "1.256",
-      "X": "5.7",
-      "V2": "12"
+      "V1": "2.675",
+      "X": "3.18",
+      "V2": "2.744"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -559,36 +329,30 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-4)": "9.1",
-      "2 (+4)": "1.004",
-      "1 (-3.5)": "5.2",
-      "2 (+3.5)": "1.096",
-      "1 (-3)": "4.55",
-      "2 (+3)": "1.138",
-      "1 (-2.5)": "2.84",
-      "2 (+2.5)": "1.36",
-      "1 (-2)": "2.3",
-      "2 (+2)": "1.56",
-      "1 (-1.5)": "1.785",
-      "2 (+1.5)": "2.025",
-      "1 (-1)": "1.35",
-      "2 (+1)": "2.99",
-      "1 (0)": "1.037",
-      "2 (0)": "7.8"
+      "1 (-1.5)": "5.3",
+      "2 (+1.5)": "1.09",
+      "1 (-1)": "4.4",
+      "2 (+1)": "1.14",
+      "1 (0)": "1.875",
+      "2 (0)": "1.925",
+      "1 (+1)": "1.128",
+      "2 (-1)": "4.6",
+      "1 (+1.5)": "1.083",
+      "2 (-1.5)": "5.5"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/326971822-slovakia-moldova",
-    "derniere_maj": "2026-09-22T05:11:50.013555+00:00",
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/359613910-south-korea-ecuador",
+    "derniere_maj": "2026-09-22T05:56:56.656790+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Gibraltar",
-    "equipe_2": "Andorra",
+    "equipe_1": "China",
+    "equipe_2": "Maldives",
     "1X2": {
-      "V1": "3.38",
-      "X": "2.896",
-      "V2": "2.43"
+      "V1": "1.001",
+      "X": "10",
+      "V2": "17"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -605,30 +369,26 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1.5)": "7.8",
-      "2 (+1.5)": "1.037",
-      "1 (-1)": "6.85",
-      "2 (+1)": "1.069",
-      "1 (0)": "2.275",
-      "2 (0)": "1.63",
-      "1 (+1)": "1.193",
-      "2 (-1)": "4.15",
-      "1 (+1.5)": "1.116",
-      "2 (-1.5)": "5.1"
+      "1 (-4.5)": "2.24",
+      "2 (+4.5)": "1.55",
+      "1 (-4)": "1.83",
+      "2 (+4)": "1.83",
+      "1 (-3.5)": "1.55",
+      "2 (+3.5)": "2.24"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/343404996-gibraltar-andorra",
-    "derniere_maj": "2026-09-22T05:13:13.427013+00:00",
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/370039062-china-maldives",
+    "derniere_maj": "2026-09-22T05:56:42.209091+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Denmark",
-    "equipe_2": "Wales",
+    "equipe_1": "Uzbekistan",
+    "equipe_2": "Iran",
     "1X2": {
-      "V1": "1.74",
-      "X": "3.68",
-      "V2": "4.84"
+      "V1": "2.63",
+      "X": "3.12",
+      "V2": "2.36"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -645,34 +405,146 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "6.2",
-      "2 (+2.5)": "1.066",
-      "1 (-2)": "5.45",
+      "1 (0)": "1.93",
+      "2 (0)": "1.74"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/365998546-uzbekistan-iran",
+    "derniere_maj": "2026-09-22T05:56:58.593199+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Mexico",
+    "equipe_2": "Colombia",
+    "1X2": {
+      "V1": "2.825",
+      "X": "3.44",
+      "V2": "2.45"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "5.55",
+      "2 (+1.5)": "1.08",
+      "1 (-1)": "4.65",
+      "2 (+1)": "1.124",
+      "1 (0)": "2.05",
+      "2 (0)": "1.77",
+      "1 (+1)": "1.195",
+      "2 (-1)": "3.72",
+      "1 (+1.5)": "1.127",
+      "2 (-1.5)": "4.6",
+      "1 (+2)": "1.004",
+      "2 (-2)": "9.1",
+      "1 (+2.5)": "1.03",
+      "2 (-2.5)": "8.6"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/359613916-mexico-colombia",
+    "derniere_maj": "2026-09-22T05:56:58.537332+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Usa",
+    "equipe_2": "Peru",
+    "1X2": {
+      "V1": "1.28",
+      "X": "4.66",
+      "V2": "8.65"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2)": "3.07",
+      "2 (+2)": "1.3",
+      "1 (-1.5)": "2.04",
+      "2 (+1.5)": "1.66",
+      "1 (-1)": "1.53",
+      "2 (+1)": "2.28"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/359613912-usa-peru",
+    "derniere_maj": "2026-09-22T05:56:58.538168+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Canada",
+    "equipe_2": "Chile",
+    "1X2": {
+      "V1": "1.72",
+      "X": "3.74",
+      "V2": "4.88"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "5.75",
+      "2 (+2.5)": "1.073",
+      "1 (-2)": "4.95",
       "2 (+2)": "1.107",
-      "1 (-1.5)": "3.04",
-      "2 (+1.5)": "1.34",
-      "1 (-1)": "2.36",
+      "1 (-1.5)": "3.36",
+      "2 (+1.5)": "1.32",
+      "1 (-1)": "2.23",
       "2 (+1)": "1.59",
-      "1 (0)": "1.26",
-      "2 (0)": "3.48",
-      "1 (+1)": "1.004",
-      "2 (-1)": "10.5",
+      "1 (0)": "1.24",
+      "2 (0)": "3.34",
+      "1 (+1)": "1.03",
+      "2 (-1)": "8.2",
       "1 (+1.5)": "1.02",
-      "2 (-1.5)": "10.5"
+      "2 (-1.5)": "9.3"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/343941588-denmark-wales",
-    "derniere_maj": "2026-09-22T05:13:32.620229+00:00",
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/358441570-canada-chile",
+    "derniere_maj": "2026-09-22T05:57:10.585689+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Germany",
-    "equipe_2": "Greece",
+    "equipe_1": "Seychelles",
+    "equipe_2": "Sri Lanka",
     "1X2": {
-      "V1": "1.392",
-      "X": "5",
-      "V2": "7.3"
+      "V1": "2.39",
+      "X": "3.48",
+      "V2": "2.39"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -689,36 +561,22 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-4)": "12",
-      "2 (+4)": "1.01",
-      "1 (-3.5)": "6.05",
-      "2 (+3.5)": "1.064",
-      "1 (-3)": "5.5",
-      "2 (+3)": "1.091",
-      "1 (-2.5)": "3.34",
-      "2 (+2.5)": "1.27",
-      "1 (-2)": "2.77",
-      "2 (+2)": "1.4",
-      "1 (-1.5)": "2.05",
-      "2 (+1.5)": "1.77",
-      "1 (-1)": "1.56",
-      "2 (+1)": "2.3",
-      "1 (0)": "1.102",
-      "2 (0)": "5.4"
+      "1 (0)": "1.83",
+      "2 (0)": "1.83"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/345183346-germany-greece",
-    "derniere_maj": "2026-09-22T05:13:15.891868+00:00",
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/367908156-seychelles-sri-lanka",
+    "derniere_maj": "2026-09-22T05:58:44.598334+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Israel Republic",
-    "equipe_2": "Of Ireland",
+    "equipe_1": "Malta",
+    "equipe_2": "Liechtenstein",
     "1X2": {
-      "V1": "2.92",
-      "X": "3.4",
-      "V2": "2.4"
+      "V1": "1.28",
+      "X": "4.29",
+      "V2": "10.6"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -735,36 +593,26 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2)": "12.5",
-      "2 (+2)": "1.01",
-      "1 (-1.5)": "6.1",
-      "2 (+1.5)": "1.077",
-      "1 (-1)": "5.2",
-      "2 (+1)": "1.126",
-      "1 (0)": "2.105",
-      "2 (0)": "1.73",
-      "1 (+1)": "1.222",
-      "2 (-1)": "3.8",
-      "1 (+1.5)": "1.138",
-      "2 (-1.5)": "4.7",
-      "1 (+2)": "1.003",
-      "2 (-2)": "9.3",
-      "1 (+2.5)": "1.02",
-      "2 (-2.5)": "10"
+      "1 (-2)": "3.43",
+      "2 (+2)": "1.25",
+      "1 (-1.5)": "2.13",
+      "2 (+1.5)": "1.6",
+      "1 (-1)": "1.55",
+      "2 (+1)": "2.23"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/371939086-israel-republic-of-ireland",
-    "derniere_maj": "2026-09-22T05:13:00.879195+00:00",
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/358761990-malta-liechtenstein",
+    "derniere_maj": "2026-09-22T05:57:24.508118+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Norway",
-    "equipe_2": "Portugal",
+    "equipe_1": "Jordan",
+    "equipe_2": "Syria",
     "1X2": {
-      "V1": "2.86",
-      "X": "3.6",
-      "V2": "2.34"
+      "V1": "1.42",
+      "X": "3.7",
+      "V2": "7.32"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -781,38 +629,24 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "11.5",
-      "2 (+2.5)": "1.01",
-      "1 (-2)": "10.5",
-      "2 (+2)": "1.02",
-      "1 (-1.5)": "5.5",
-      "2 (+1.5)": "1.098",
-      "1 (-1)": "4.7",
-      "2 (+1)": "1.151",
-      "1 (0)": "2.105",
-      "2 (0)": "1.73",
-      "1 (+1)": "1.27",
-      "2 (-1)": "3.4",
-      "1 (+1.5)": "1.17",
-      "2 (-1.5)": "4.2",
-      "1 (+2)": "1.025",
-      "2 (-2)": "7.7",
-      "1 (+2.5)": "1.013",
-      "2 (-2.5)": "8.5"
+      "1 (-1.5)": "2.59",
+      "2 (+1.5)": "1.41",
+      "1 (-1)": "1.88",
+      "2 (+1)": "1.79"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/345183344-norway-portugal",
-    "derniere_maj": "2026-09-22T05:13:21.434131+00:00",
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/370437142-jordan-syria",
+    "derniere_maj": "2026-09-22T05:58:44.623684+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Home",
-    "equipe_2": "Away",
+    "equipe_1": "Bolivia",
+    "equipe_2": "Paraguay",
     "1X2": {
-      "V1": "1.577",
-      "X": "10.4",
-      "V2": "3.005"
+      "V1": "7.45",
+      "X": "4.48",
+      "V2": "1.33"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -829,30 +663,656 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-7.5)": "7.42",
-      "2 (+7.5)": "1.089",
-      "1 (-7)": "7",
-      "2 (+7)": "1.096",
-      "1 (-6.5)": "5.32",
-      "2 (+6.5)": "1.156",
-      "1 (-6)": "5",
-      "2 (+6)": "1.17",
-      "1 (-5.5)": "3.965",
-      "2 (+5.5)": "1.249",
-      "1 (-5)": "3.705",
-      "2 (+5)": "1.277",
-      "1 (-4.5)": "3.075",
-      "2 (+4.5)": "1.375",
-      "1 (-4)": "2.854",
-      "2 (+4)": "1.424",
-      "1 (-3.5)": "2.476",
-      "2 (+3.5)": "1.541",
-      "1 (-3)": "2.29",
-      "2 (+3)": "1.623"
+      "1 (+1)": "2.11",
+      "2 (-1)": "1.62",
+      "1 (+1.5)": "1.59",
+      "2 (-1.5)": "2.16"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/371577922-home-away",
-    "derniere_maj": "2026-09-22T05:13:16.719981+00:00",
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/364112632-bolivia-paraguay",
+    "derniere_maj": "2026-09-22T05:58:44.622600+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Kyrgyzstan",
+    "equipe_2": "Maldives",
+    "1X2": {
+      "V1": "1.001",
+      "X": "10",
+      "V2": "17"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "2.44",
+      "2 (+3.5)": "1.46",
+      "1 (-3)": "1.94",
+      "2 (+3)": "1.73",
+      "1 (-2.5)": "1.57",
+      "2 (+2.5)": "2.18"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/370437138-kyrgyzstan-maldives",
+    "derniere_maj": "2026-09-22T05:58:44.588202+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Australia",
+    "equipe_2": "Brazil",
+    "1X2": {
+      "V1": "6.22",
+      "X": "4.43",
+      "V2": "1.38"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (+1)": "1.97",
+      "2 (-1)": "1.71",
+      "1 (+1.5)": "1.54",
+      "2 (-1.5)": "2.25"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/348731840-australia-brazil",
+    "derniere_maj": "2026-09-22T05:59:01.740449+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Usa",
+    "equipe_2": "Chile",
+    "1X2": {
+      "V1": "1.49",
+      "X": "3.93",
+      "V2": "5.38"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "2.63",
+      "2 (+1.5)": "1.4",
+      "1 (-1)": "1.97",
+      "2 (+1)": "1.71"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/359623584-usa-chile",
+    "derniere_maj": "2026-09-22T06:00:07.370784+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Argentina",
+    "equipe_2": "Bolivia",
+    "1X2": {
+      "V1": "1.001",
+      "X": "10",
+      "V2": "17"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3)": "2.09",
+      "2 (+3)": "1.63",
+      "1 (-2.5)": "1.66",
+      "2 (+2.5)": "2.03",
+      "1 (-2)": "1.33",
+      "2 (+2)": "2.92"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/370397700-argentina-bolivia",
+    "derniere_maj": "2026-09-22T05:59:14.583309+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Panama",
+    "equipe_2": "New Zealand",
+    "1X2": {
+      "V1": "2.13",
+      "X": "3.5",
+      "V2": "2.82"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.47",
+      "2 (+1)": "1.24",
+      "1 (0)": "1.62",
+      "2 (0)": "2.11"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/361725978-panama-new-zealand",
+    "derniere_maj": "2026-09-22T05:59:39.701959+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Japan",
+    "equipe_2": "Ecuador",
+    "1X2": {
+      "V1": "1.85",
+      "X": "3.33",
+      "V2": "3.73"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "2.86",
+      "2 (+1)": "1.35",
+      "1 (0)": "1.38",
+      "2 (0)": "2.73"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/361725982-japan-ecuador",
+    "derniere_maj": "2026-09-22T05:59:39.219278+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Lebanon",
+    "equipe_2": "Maldives",
+    "1X2": {
+      "V1": "1.01",
+      "X": "9.7",
+      "V2": "17"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3)": "2.7",
+      "2 (+3)": "1.38",
+      "1 (-2.5)": "1.94",
+      "2 (+2.5)": "1.73",
+      "1 (-2)": "1.5",
+      "2 (+2)": "2.35"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/370437000-lebanon-maldives",
+    "derniere_maj": "2026-09-22T05:59:52.290322+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Uzbekistan",
+    "equipe_2": "Syria",
+    "1X2": {
+      "V1": "1.37",
+      "X": "3.92",
+      "V2": "8"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "2.4",
+      "2 (+1.5)": "1.48",
+      "1 (-1)": "1.74",
+      "2 (+1)": "1.93"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/371382470-uzbekistan-syria",
+    "derniere_maj": "2026-09-22T05:59:52.304992+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Tajikistan",
+    "equipe_2": "Palestine",
+    "1X2": {
+      "V1": "2.918",
+      "X": "3.2",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "2.1",
+      "2 (0)": "1.62",
+      "1 (+1)": "1.2",
+      "2 (-1)": "3.9"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/366917282-tajikistan-palestine",
+    "derniere_maj": "2026-09-22T06:00:16.797310+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "South",
+    "equipe_2": "Korea Venezuela",
+    "1X2": {
+      "V1": "1.47",
+      "X": "3.91",
+      "V2": "5.77"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "2.59",
+      "2 (+1.5)": "1.41",
+      "1 (-1)": "1.93",
+      "2 (+1)": "1.74"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/359630200-south-korea-venezuela",
+    "derniere_maj": "2026-09-22T05:59:59.820491+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "China",
+    "equipe_2": "Turkmenistan",
+    "1X2": {
+      "V1": "1.19",
+      "X": "5.46",
+      "V2": "11.4"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2)": "2.41",
+      "2 (+2)": "1.47",
+      "1 (-1.5)": "1.76",
+      "2 (+1.5)": "1.9",
+      "1 (-1)": "1.35",
+      "2 (+1)": "2.84"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/366917284-china-turkmenistan",
+    "derniere_maj": "2026-09-22T06:00:04.670509+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Dr",
+    "equipe_2": "Congo Uganda",
+    "1X2": {
+      "V1": "1.63",
+      "X": "3.39",
+      "V2": "4.98"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "3.18",
+      "2 (+1.5)": "1.28",
+      "1 (-1)": "2.34",
+      "2 (+1)": "1.5",
+      "1 (0)": "1.22",
+      "2 (0)": "3.65"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/370444122-dr-congo-uganda",
+    "derniere_maj": "2026-09-22T06:00:04.927545+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Colombia",
+    "equipe_2": "Paraguay",
+    "1X2": {
+      "V1": "1.67",
+      "X": "3.46",
+      "V2": "4.47"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "3.24",
+      "2 (+1.5)": "1.27",
+      "1 (-1)": "2.42",
+      "2 (+1)": "1.47",
+      "1 (0)": "1.27",
+      "2 (0)": "3.3"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/366923752-colombia-paraguay",
+    "derniere_maj": "2026-09-22T06:00:20.366918+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "India",
+    "equipe_2": "Brazil",
+    "1X2": {
+      "V1": "17",
+      "X": "10",
+      "V2": "1.001"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (+2.5)": "2.2",
+      "2 (-2.5)": "1.56",
+      "1 (+3)": "1.76",
+      "2 (-3)": "1.91",
+      "1 (+3.5)": "1.48",
+      "2 (-3.5)": "2.39"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/364117232-india-brazil",
+    "derniere_maj": "2026-09-22T06:00:04.773912+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Tunisia",
+    "equipe_2": "Mali",
+    "1X2": {
+      "V1": "2.15",
+      "X": "3.2",
+      "V2": "3"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1)": "3.75",
+      "2 (+1)": "1.21",
+      "1 (0)": "1.58",
+      "2 (0)": "2.17"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/366923758-tunisia-mali",
+    "derniere_maj": "2026-09-22T06:00:04.833804+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Sri",
+    "equipe_2": "Lanka Djibouti",
+    "1X2": {
+      "V1": "2.49",
+      "X": "3.43",
+      "V2": "2.32"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "1.9",
+      "2 (0)": "1.77"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/366907352-sri-lanka-djibouti",
+    "derniere_maj": "2026-09-22T06:00:20.354470+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Russia",
+    "equipe_2": "Namibia",
+    "1X2": {
+      "V1": "1.07",
+      "X": "10.5",
+      "V2": "38"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-5.5)": "7.7",
+      "2 (+5.5)": "1.025",
+      "1 (-5)": "7.2",
+      "2 (+5)": "1.035",
+      "1 (-4.5)": "4.45",
+      "2 (+4.5)": "1.136",
+      "1 (-4)": "3.9",
+      "2 (+4)": "1.178",
+      "1 (-3.5)": "2.66",
+      "2 (+3.5)": "1.37",
+      "1 (-3)": "2.19",
+      "2 (+3)": "1.54",
+      "1 (-2.5)": "1.845",
+      "2 (+2.5)": "1.96",
+      "1 (-2)": "1.47",
+      "2 (+2)": "2.54",
+      "1 (-1.5)": "1.3",
+      "2 (+1.5)": "2.98",
+      "1 (-1)": "1.095",
+      "2 (+1)": "5.2"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/367769750-russia-namibia",
+    "derniere_maj": "2026-09-22T06:00:24.551335+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Canada",
+    "equipe_2": "Peru",
+    "1X2": {
+      "V1": "1.6",
+      "X": "3.62",
+      "V2": "4.775"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "2.98",
+      "2 (+1.5)": "1.32",
+      "1 (-1)": "2.22",
+      "2 (+1)": "1.56",
+      "1 (0)": "1.23",
+      "2 (0)": "3.58"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/125983-friendlies-national-teams/358757940-canada-peru",
+    "derniere_maj": "2026-09-22T06:00:25.315171+00:00",
     "statut": "ok"
   }
 ]
