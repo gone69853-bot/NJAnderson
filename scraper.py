@@ -252,11 +252,6 @@ async def find_competition_links(page, base_url):
 
         seen.add(full_url)
 
-        # Certaines "compétitions" ne sont pas de vrais matchs
-        # équipe-contre-équipe mais des paris spéciaux (ex. "England
-        # Premier League. Team vs Player" — un joueur marquera-t-il
-        # contre telle équipe). On les exclut : elles gonflaient le
-        # plafond de 50 matchs découverts sans être de vrais matchs.
         url_ou_texte = (full_url + " " + text).lower()
 
         if "team-vs-player" in url_ou_texte or "team vs player" in url_ou_texte:
@@ -705,6 +700,7 @@ async def scrape_match(
             if not block:
                 continue
 
+            noms_bloc = list(block.keys())
             values = list(block.values())
 
             odds = {
@@ -713,15 +709,54 @@ async def scrape_match(
                 "V2": values[2],
             }
 
+            # extract_teams_from_slug (utilisé à la découverte) coupe
+            # le slug de l'URL "en deux au milieu du nombre de mots" :
+            # ça casse dès qu'une équipe a un nom plus long que
+            # l'autre (ex. "barcelona-racing-de-santander" devient
+            # "Barcelona Racing" / "De Santander" au lieu de
+            # "Barcelona" / "Racing De Santander"). Les libellés
+            # affichés juste sous "1X2" sur la page sont les vrais
+            # noms d'équipe : on leur fait confiance quand ils sont
+            # disponibles, plutôt qu'au découpage du slug.
+            equipe_1 = match.get("equipe_1")
+            equipe_2 = match.get("equipe_2")
+
+            # Certaines pages (paris "vainqueur du championnat",
+            # outrights...) matchent le même motif d'URL qu'un vrai
+            # match, mais affichent des libellés qui n'ont rien à
+            # voir avec un nom d'équipe (vu en prod : "W12.39",
+            # "1X1.63"). On rejette tout candidat qui ressemble à une
+            # cote (motif chiffre.chiffre), pour ne pas remplacer un
+            # nom correct par du bruit.
+            MOTIF_COTE_DANS_NOM = re.compile(r"\d+\.\d+")
+
+            if len(noms_bloc) == 3:
+
+                candidat_1, candidat_2 = noms_bloc[0], noms_bloc[2]
+
+                if (
+                    len(candidat_1) > 2
+                    and candidat_1.lower() not in ("1", "x", "2", "draw", "nul")
+                    and not MOTIF_COTE_DANS_NOM.search(candidat_1)
+                ):
+                    equipe_1 = candidat_1
+
+                if (
+                    len(candidat_2) > 2
+                    and candidat_2.lower() not in ("1", "x", "2", "draw", "nul")
+                    and not MOTIF_COTE_DANS_NOM.search(candidat_2)
+                ):
+                    equipe_2 = candidat_2
+
             total = parse_total_block(lines)
 
             return {
 
                 "bookmaker": bookmaker,
 
-                "equipe_1": match.get("equipe_1"),
+                "equipe_1": equipe_1,
 
-                "equipe_2": match.get("equipe_2"),
+                "equipe_2": equipe_2,
 
                 "1X2": odds,
 
@@ -885,19 +920,6 @@ async def extraire_cartes_1win(page):
         """
     )
 
-
-# ------------------------------------------------------------
-# CORRECTIF : 1win affiche désormais tout en FRANÇAIS
-# ("Résultat du temps réglementaire", puis les noms des équipes
-# et "Match Nul" comme libellés) — l'ancien code cherchait le
-# texte anglais "full time result" et des libellés "1"/"x"/"2",
-# qui n'existent plus nulle part sur la page. Résultat : 0 match
-# jamais extrait, même quand les cartes sont bien détectées.
-# On repère maintenant le titre français, puis on prend les 3
-# paires (libellé, cote) qui suivent DANS L'ORDRE où 1win les
-# affiche (équipe 1, nul, équipe 2) — peu importe le texte exact
-# du libellé.
-# ------------------------------------------------------------
 
 def parser_carte_1win(carte):
 
@@ -1163,11 +1185,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
-
-
-
-
 
 
 
