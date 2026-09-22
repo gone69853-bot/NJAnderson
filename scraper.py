@@ -55,6 +55,7 @@ BLOCKED_DOMAINS = (
     "tracker",
     "adservice",
     "adsystem",
+    "ads",
     "pixel",
 )
 
@@ -76,7 +77,9 @@ def should_block(route):
     return False
 
 
-MATCH_PATTERN = re.compile(r"/line/football/\d+-[^/]+/\d+-[^/?]+")
+MATCH_PATTERN = re.compile(
+    r"/line/football/\d+-[^/]+/\d+-[^/?]+"
+)
 
 COMPETITION_PATTERN = re.compile(
     r"/line/football/\d+-[^/?]+/?(?:\?.*)?$"
@@ -97,7 +100,10 @@ def extract_teams_from_slug(href):
 
     try:
 
-        match = re.search(r"/\d+-([^/?]+)$", href)
+        match = re.search(
+            r"/\d+-([^/?]+)$",
+            href
+        )
 
         if match:
 
@@ -108,8 +114,13 @@ def extract_teams_from_slug(href):
 
                 middle = len(parts) // 2
 
-                team1 = " ".join(parts[:middle]).title()
-                team2 = " ".join(parts[middle:]).title()
+                team1 = " ".join(
+                    parts[:middle]
+                ).title()
+
+                team2 = " ".join(
+                    parts[middle:]
+                ).title()
 
                 return team1, team2
 
@@ -174,7 +185,9 @@ async def scroll_page(page):
         pass
 
     try:
-        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        await page.evaluate(
+            "window.scrollTo(0, document.body.scrollHeight)"
+        )
     except Exception:
         pass
 
@@ -204,7 +217,8 @@ async def count_match_links(page):
     )
 
     count = sum(
-        1 for h in hrefs
+        1
+        for h in hrefs
         if h and MATCH_PATTERN.search(h)
     )
 
@@ -246,7 +260,8 @@ async def find_competition_links(page, base_url):
             continue
 
         full_url = (
-            href if href.startswith("http")
+            href
+            if href.startswith("http")
             else base_url + href
         )
 
@@ -255,14 +270,14 @@ async def find_competition_links(page, base_url):
 
         seen.add(full_url)
 
-        # Certaines "compétitions" ne sont pas de vrais matchs
-        # équipe-contre-équipe mais des paris spéciaux (ex. "England
-        # Premier League. Team vs Player" — un joueur marquera-t-il
-        # contre telle équipe). On les exclut : elles gonflaient le
-        # plafond de 50 matchs découverts sans être de vrais matchs.
-        url_ou_texte = (full_url + " " + text).lower()
+        url_ou_texte = (
+            full_url + " " + text
+        ).lower()
 
-        if "team-vs-player" in url_ou_texte or "team vs player" in url_ou_texte:
+        if (
+            "team-vs-player" in url_ou_texte
+            or "team vs player" in url_ou_texte
+        ):
             continue
 
         count_match = re.search(
@@ -270,16 +285,32 @@ async def find_competition_links(page, base_url):
             text.strip()
         )
 
-        count = int(count_match.group(1)) if count_match else 0
+        count = (
+            int(count_match.group(1))
+            if count_match
+            else 0
+        )
 
-        links.append((full_url, count))
+        links.append(
+            (full_url, count)
+        )
 
-    links.sort(key=lambda pair: pair[1], reverse=True)
+    links.sort(
+        key=lambda pair: pair[1],
+        reverse=True
+    )
 
-    return [url for url, _ in links]
+    return [
+        url
+        for url, _ in links
+    ]
 
 
-async def click_maximize_buttons(page, bookmaker="", max_rounds=10):
+async def click_maximize_buttons(
+    page,
+    bookmaker="",
+    max_rounds=10
+):
 
     selector = (
         'button.ui-nav-link-toggle[aria-label="Maximize"]'
@@ -289,20 +320,36 @@ async def click_maximize_buttons(page, bookmaker="", max_rounds=10):
     total_clicked = 0
 
     for tour in range(max_rounds):
+
         clicked_this_round = 0
 
         try:
-            count = await page.locator(selector).count()
+
+            count = await page.locator(
+                selector
+            ).count()
 
             for i in range(count):
+
                 try:
-                    btn = page.locator(selector).nth(i)
+
+                    btn = page.locator(
+                        selector
+                    ).nth(i)
 
                     if await btn.is_visible():
-                        await btn.click(timeout=3000, force=True)
+
+                        await btn.click(
+                            timeout=3000,
+                            force=True
+                        )
+
                         clicked_this_round += 1
                         total_clicked += 1
-                        await page.wait_for_timeout(500)
+
+                        await page.wait_for_timeout(
+                            500
+                        )
 
                 except Exception:
                     pass
@@ -311,44 +358,76 @@ async def click_maximize_buttons(page, bookmaker="", max_rounds=10):
                 await page.wait_for_timeout(1800)
 
             await scroll_page(page)
+
             await page.wait_for_timeout(800)
 
             if clicked_this_round:
+
                 print(
                     f"[{bookmaker}] Maximize : "
-                    f"{clicked_this_round} bouton(s) ouvert(s) "
+                    f"{clicked_this_round} bouton(s) "
+                    f"ouvert(s) "
                     f"(tour {tour + 1})"
                 )
+
             else:
+
                 if tour >= 1:
                     break
 
         except Exception as error:
-            print(f"[{bookmaker}] erreur Maximize : {error}")
+
+            print(
+                f"[{bookmaker}] "
+                f"erreur Maximize : {error}"
+            )
+
             break
 
     return total_clicked
 
 
-async def collect_hrefs_on_page(page, max_matches, max_stagnant=40):
+async def collect_hrefs_on_page(
+    page,
+    max_matches,
+    max_stagnant=40
+):
 
     await expand_accordions(page)
-    await click_maximize_buttons(page, urlparse(page.url).netloc)
+
+    await click_maximize_buttons(
+        page,
+        urlparse(page.url).netloc
+    )
+
     await page.wait_for_timeout(4000)
 
-    hrefs, found = await count_match_links(page)
+    hrefs, found = await count_match_links(
+        page
+    )
 
     stagnant = 0
 
-    while found < max_matches and stagnant < max_stagnant:
+    while (
+        found < max_matches
+        and stagnant < max_stagnant
+    ):
 
         await scroll_page(page)
+
         await expand_accordions(page)
-        await click_maximize_buttons(page, urlparse(page.url).netloc, max_rounds=3)
+
+        await click_maximize_buttons(
+            page,
+            urlparse(page.url).netloc,
+            max_rounds=3
+        )
 
         await page.wait_for_timeout(3000)
 
-        hrefs, new_found = await count_match_links(page)
+        hrefs, new_found = await count_match_links(
+            page
+        )
 
         if new_found <= found:
             stagnant += 1
@@ -360,26 +439,50 @@ async def collect_hrefs_on_page(page, max_matches, max_stagnant=40):
     return hrefs
 
 
+# ============================================================
+# DECOUVERTE DES MATCHS
+# ============================================================
+
 async def discover_matches(
     page,
     listing_url,
     max_matches,
     max_stagnant=40,
-    max_competitions=15
+    max_competitions=15,
+    bookmaker=""
 ):
 
-    url = with_mobile_param(listing_url)
+    url = with_mobile_param(
+        listing_url
+    )
+
+    # WINWIN est parfois lent à répondre.
+    # On utilise un timeout spécifique beaucoup
+    # plus court afin d'éviter les longues attentes.
+    if bookmaker == "winwin":
+        navigation_timeout = 45000
+        initial_wait = 8000
+    else:
+        navigation_timeout = 180000
+        initial_wait = 15000
 
     await page.goto(
         url,
-        timeout=180000,
+        timeout=navigation_timeout,
         wait_until="domcontentloaded"
     )
 
-    await page.wait_for_timeout(15000)
+    await page.wait_for_timeout(
+        initial_wait
+    )
 
-    parsed = urlparse(listing_url)
-    base_url = f"{parsed.scheme}://{parsed.netloc}"
+    parsed = urlparse(
+        listing_url
+    )
+
+    base_url = (
+        f"{parsed.scheme}://{parsed.netloc}"
+    )
 
     matches = []
     seen = set()
@@ -394,7 +497,8 @@ async def discover_matches(
             if MATCH_PATTERN.search(href):
 
                 full_url = (
-                    href if href.startswith("http")
+                    href
+                    if href.startswith("http")
                     else base_url + href
                 )
 
@@ -402,26 +506,43 @@ async def discover_matches(
 
                     seen.add(full_url)
 
-                    team1, team2 = extract_teams_from_slug(href)
+                    team1, team2 = (
+                        extract_teams_from_slug(
+                            href
+                        )
+                    )
 
-                    matches.append({
-                        "url": full_url,
-                        "equipe_1": team1,
-                        "equipe_2": team2,
-                    })
+                    matches.append(
+                        {
+                            "url": full_url,
+                            "equipe_1": team1,
+                            "equipe_2": team2,
+                        }
+                    )
 
             if len(matches) >= max_matches:
                 break
 
     add_hrefs(
-        await collect_hrefs_on_page(page, max_matches, max_stagnant)
+        await collect_hrefs_on_page(
+            page,
+            max_matches,
+            max_stagnant
+        )
     )
 
     if len(matches) < max_matches:
 
-        competition_links = await find_competition_links(page, base_url)
+        competition_links = (
+            await find_competition_links(
+                page,
+                base_url
+            )
+        )
 
-        for comp_url in competition_links[:max_competitions]:
+        for comp_url in competition_links[
+            :max_competitions
+        ]:
 
             if len(matches) >= max_matches:
                 break
@@ -429,11 +550,18 @@ async def discover_matches(
             try:
 
                 await page.goto(
-                    with_mobile_param(comp_url),
+                    with_mobile_param(
+                        comp_url
+                    ),
                     timeout=60000,
                     wait_until="domcontentloaded"
                 )
-                await page.wait_for_timeout(4000)
+
+                await page.wait_for_timeout(
+                    3000
+                    if bookmaker == "winwin"
+                    else 4000
+                )
 
                 add_hrefs(
                     await collect_hrefs_on_page(
@@ -446,12 +574,19 @@ async def discover_matches(
             except Exception as error:
 
                 print(
-                    f"championnat ignoré ({comp_url}) : {error}"
+                    f"[{bookmaker}] "
+                    f"championnat ignoré "
+                    f"({comp_url}) : {error}"
                 )
+
                 continue
 
     return matches
 
+
+# ============================================================
+# PARSING
+# ============================================================
 
 def to_lines(text):
 
@@ -475,10 +610,18 @@ def parse_1x2_block(lines):
     for _ in range(3):
 
         if pos + 1 < len(lines):
-            block[lines[pos]] = lines[pos + 1]
+
+            block[
+                lines[pos]
+            ] = lines[pos + 1]
+
             pos += 2
 
-    return block if len(block) == 3 else None
+    return (
+        block
+        if len(block) == 3
+        else None
+    )
 
 
 def parse_total_block(lines):
@@ -486,9 +629,15 @@ def parse_total_block(lines):
     try:
         i_total = lines.index("Total")
     except ValueError:
-        return {"Plus de": None, "Moins de": None}
+        return {
+            "Plus de": None,
+            "Moins de": None
+        }
 
-    for j in range(i_total, min(i_total + 60, len(lines) - 3)):
+    for j in range(
+        i_total,
+        min(i_total + 60, len(lines) - 3)
+    ):
 
         if lines[j] == "2.5 Plus de":
 
@@ -498,20 +647,38 @@ def parse_total_block(lines):
                 lines[j + 3]
                 if (
                     j + 2 < len(lines)
-                    and lines[j + 2] == "2.5 Moins de"
+                    and lines[j + 2]
+                    == "2.5 Moins de"
                 )
                 else None
             )
 
-            return {"Plus de": plus, "Moins de": moins}
+            return {
+                "Plus de": plus,
+                "Moins de": moins
+            }
 
-    return {"Plus de": None, "Moins de": None}
+    return {
+        "Plus de": None,
+        "Moins de": None
+    }
 
 
-TOTAL_LINE_PLUS = re.compile(r"^(\d+(?:\.\d+)?) Plus de$")
-TOTAL_LINE_MOINS = re.compile(r"^(\d+(?:\.\d+)?) Moins de$")
-HANDICAP_LABEL = re.compile(r"^[12] \([+-]?\d+(?:\.\d+)?\)$")
-SCORE_LABEL = re.compile(r"^\d+-\d+$")
+TOTAL_LINE_PLUS = re.compile(
+    r"^(\d+(?:\.\d+)?) Plus de$"
+)
+
+TOTAL_LINE_MOINS = re.compile(
+    r"^(\d+(?:\.\d+)?) Moins de$"
+)
+
+HANDICAP_LABEL = re.compile(
+    r"^[12] \([+-]?\d+(?:\.\d+)?\)$"
+)
+
+SCORE_LABEL = re.compile(
+    r"^\d+-\d+$"
+)
 
 
 def parse_double_chance_block(lines):
@@ -519,7 +686,11 @@ def parse_double_chance_block(lines):
     try:
         i = lines.index("Double chance")
     except ValueError:
-        return {"1X": None, "12": None, "2X": None}
+        return {
+            "1X": None,
+            "12": None,
+            "2X": None
+        }
 
     result = {}
     pos = i + 1
@@ -528,10 +699,16 @@ def parse_double_chance_block(lines):
 
         if (
             pos + 1 < len(lines)
-            and lines[pos] in ("1X", "12", "2X")
+            and lines[pos]
+            in ("1X", "12", "2X")
         ):
-            result[lines[pos]] = lines[pos + 1]
+
+            result[
+                lines[pos]
+            ] = lines[pos + 1]
+
             pos += 2
+
         else:
             break
 
@@ -545,9 +722,14 @@ def parse_double_chance_block(lines):
 def parse_btts_block(lines):
 
     try:
-        i = lines.index("Deux équipes vont marquer")
+        i = lines.index(
+            "Deux équipes vont marquer"
+        )
     except ValueError:
-        return {"Oui": None, "Non": None}
+        return {
+            "Oui": None,
+            "Non": None
+        }
 
     result = {}
     pos = i + 1
@@ -556,10 +738,16 @@ def parse_btts_block(lines):
 
         if (
             pos + 1 < len(lines)
-            and lines[pos] in ("Oui", "Non")
+            and lines[pos]
+            in ("Oui", "Non")
         ):
-            result[lines[pos]] = lines[pos + 1]
+
+            result[
+                lines[pos]
+            ] = lines[pos + 1]
+
             pos += 2
+
         else:
             break
 
@@ -569,7 +757,10 @@ def parse_btts_block(lines):
     }
 
 
-def parse_all_totals_block(lines, max_span=60):
+def parse_all_totals_block(
+    lines,
+    max_span=60
+):
 
     try:
         i = lines.index("Total")
@@ -578,22 +769,48 @@ def parse_all_totals_block(lines, max_span=60):
 
     result = {}
     pos = i + 1
-    limit = min(i + max_span, len(lines))
+    limit = min(
+        i + max_span,
+        len(lines)
+    )
 
     while pos < limit:
 
         line = lines[pos]
 
-        m_plus = TOTAL_LINE_PLUS.match(line)
-        m_moins = TOTAL_LINE_MOINS.match(line) if not m_plus else None
+        m_plus = TOTAL_LINE_PLUS.match(
+            line
+        )
 
-        if m_plus and pos + 1 < len(lines):
-            result.setdefault(m_plus.group(1), {})["Plus de"] = lines[pos + 1]
+        m_moins = (
+            TOTAL_LINE_MOINS.match(line)
+            if not m_plus
+            else None
+        )
+
+        if (
+            m_plus
+            and pos + 1 < len(lines)
+        ):
+
+            result.setdefault(
+                m_plus.group(1),
+                {}
+            )["Plus de"] = lines[pos + 1]
+
             pos += 2
             continue
 
-        if m_moins and pos + 1 < len(lines):
-            result.setdefault(m_moins.group(1), {})["Moins de"] = lines[pos + 1]
+        if (
+            m_moins
+            and pos + 1 < len(lines)
+        ):
+
+            result.setdefault(
+                m_moins.group(1),
+                {}
+            )["Moins de"] = lines[pos + 1]
+
             pos += 2
             continue
 
@@ -605,7 +822,10 @@ def parse_all_totals_block(lines, max_span=60):
     return result
 
 
-def parse_handicap_block(lines, max_span=40):
+def parse_handicap_block(
+    lines,
+    max_span=40
+):
 
     try:
         i = lines.index("Handicap")
@@ -614,14 +834,22 @@ def parse_handicap_block(lines, max_span=40):
 
     result = {}
     pos = i + 1
-    limit = min(i + max_span, len(lines))
+    limit = min(
+        i + max_span,
+        len(lines)
+    )
 
     while pos < limit:
 
         line = lines[pos]
 
-        if HANDICAP_LABEL.match(line) and pos + 1 < len(lines):
+        if (
+            HANDICAP_LABEL.match(line)
+            and pos + 1 < len(lines)
+        ):
+
             result[line] = lines[pos + 1]
+
             pos += 2
             continue
 
@@ -633,7 +861,10 @@ def parse_handicap_block(lines, max_span=40):
     return result
 
 
-def parse_correct_score_block(lines, max_span=60):
+def parse_correct_score_block(
+    lines,
+    max_span=60
+):
 
     try:
         i = lines.index("Score exact")
@@ -642,14 +873,22 @@ def parse_correct_score_block(lines, max_span=60):
 
     result = {}
     pos = i + 1
-    limit = min(i + max_span, len(lines))
+    limit = min(
+        i + max_span,
+        len(lines)
+    )
 
     while pos < limit:
 
         line = lines[pos]
 
-        if SCORE_LABEL.match(line) and pos + 1 < len(lines):
+        if (
+            SCORE_LABEL.match(line)
+            and pos + 1 < len(lines)
+        ):
+
             result[line] = lines[pos + 1]
+
             pos += 2
             continue
 
@@ -660,6 +899,10 @@ def parse_correct_score_block(lines, max_span=60):
 
     return result
 
+
+# ============================================================
+# SCRAPE MATCH
+# ============================================================
 
 async def scrape_match(
     page,
@@ -669,9 +912,6 @@ async def scrape_match(
     nb_essais=2
 ):
 
-    # melbet rebondit fréquemment entre domaines miroirs
-    # (melbet-cm.com <-> melbetjp.com) au moment de la navigation :
-    # on lui laisse plus de tentatives.
     if bookmaker == "melbet":
         nb_essais = 4
 
@@ -688,27 +928,38 @@ async def scrape_match(
             text = ""
             found = False
 
-            for _ in range(max_wait_cycles):
+            for _ in range(
+                max_wait_cycles
+            ):
 
-                text = await page.inner_text("body")
+                text = await page.inner_text(
+                    "body"
+                )
 
                 if "1X2" in text:
+
                     found = True
                     break
 
-                await page.wait_for_timeout(2000)
+                await page.wait_for_timeout(
+                    2000
+                )
 
             if not found:
                 continue
 
             lines = to_lines(text)
 
-            block = parse_1x2_block(lines)
+            block = parse_1x2_block(
+                lines
+            )
 
             if not block:
                 continue
 
-            values = list(block.values())
+            values = list(
+                block.values()
+            )
 
             odds = {
                 "V1": values[0],
@@ -716,29 +967,49 @@ async def scrape_match(
                 "V2": values[2],
             }
 
-            total = parse_total_block(lines)
+            total = parse_total_block(
+                lines
+            )
 
             return {
-
                 "bookmaker": bookmaker,
 
-                "equipe_1": match.get("equipe_1"),
+                "equipe_1": match.get(
+                    "equipe_1"
+                ),
 
-                "equipe_2": match.get("equipe_2"),
+                "equipe_2": match.get(
+                    "equipe_2"
+                ),
 
                 "1X2": odds,
 
                 "Total_2.5": total,
 
-                "Double_Chance": parse_double_chance_block(lines),
+                "Double_Chance":
+                    parse_double_chance_block(
+                        lines
+                    ),
 
-                "BTTS": parse_btts_block(lines),
+                "BTTS":
+                    parse_btts_block(
+                        lines
+                    ),
 
-                "Totals": parse_all_totals_block(lines),
+                "Totals":
+                    parse_all_totals_block(
+                        lines
+                    ),
 
-                "Handicap": parse_handicap_block(lines),
+                "Handicap":
+                    parse_handicap_block(
+                        lines
+                    ),
 
-                "Score_Exact": parse_correct_score_block(lines),
+                "Score_Exact":
+                    parse_correct_score_block(
+                        lines
+                    ),
 
                 "url": match["url"],
 
@@ -751,11 +1022,11 @@ async def scrape_match(
             }
 
         except Exception:
-            # Pause avant de retenter, plus longue à chaque échec
-            # successif : sur melbet en particulier, retenter
-            # immédiatement retombe souvent dans la même redirection
-            # en boucle qu'à l'essai précédent.
-            await page.wait_for_timeout(4000 + attempt * 3000)
+
+            await page.wait_for_timeout(
+                4000 + attempt * 3000
+            )
+
             continue
 
     return None
@@ -763,6 +1034,10 @@ async def scrape_match(
 
 MATCH_CONCURRENCY = 8
 
+
+# ============================================================
+# SCRAPE BOOKMAKER
+# ============================================================
 
 async def scrape_bookmaker(
     context,
@@ -780,7 +1055,9 @@ async def scrape_bookmaker(
 
     try:
 
-        discovery_page = await context.new_page()
+        discovery_page = (
+            await context.new_page()
+        )
 
         try:
 
@@ -791,7 +1068,8 @@ async def scrape_bookmaker(
                     matches = await discover_matches(
                         discovery_page,
                         listing_url,
-                        max_matches
+                        max_matches,
+                        bookmaker=bookmaker
                     )
 
                     break
@@ -800,13 +1078,19 @@ async def scrape_bookmaker(
 
                     print(
                         f"[{bookmaker}] "
-                        f"erreur découverte (essai {attempt + 1}/2) : "
+                        f"erreur découverte "
+                        f"(essai {attempt + 1}/2) : "
                         f"{error}"
                     )
 
-                    await discovery_page.wait_for_timeout(3000)
+                    if attempt == 0:
+
+                        await discovery_page.wait_for_timeout(
+                            3000
+                        )
 
         finally:
+
             await discovery_page.close()
 
         print(
@@ -816,26 +1100,43 @@ async def scrape_bookmaker(
 
         if matches:
 
-            semaphore = asyncio.Semaphore(concurrency)
+            semaphore = asyncio.Semaphore(
+                concurrency
+            )
 
             async def scrape_one(match):
+
                 async with semaphore:
-                    match_page = await context.new_page()
+
+                    match_page = (
+                        await context.new_page()
+                    )
+
                     try:
+
                         return await scrape_match(
                             match_page,
                             bookmaker,
                             match,
                             max_wait_cycles
                         )
+
                     finally:
+
                         await match_page.close()
 
             scraped = await asyncio.gather(
-                *(scrape_one(match) for match in matches)
+                *(
+                    scrape_one(match)
+                    for match in matches
+                )
             )
 
-            result = [data for data in scraped if data]
+            result = [
+                data
+                for data in scraped
+                if data
+            ]
 
     except Exception as error:
 
@@ -862,10 +1163,20 @@ async def scrape_bookmaker(
     )
 
 
-WIN1_LISTING_URL = "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5"
+# ============================================================
+# 1WIN
+# ============================================================
+
+WIN1_LISTING_URL = (
+    "https://1win.com/fr-CI/betting/"
+    "prematch/football-18?p=mvh5"
+)
+
 WIN1_MAX_TENTATIVES = 300
 
-WIN1_MOTIF_COTE = re.compile(r"\d\.\d")
+WIN1_MOTIF_COTE = re.compile(
+    r"\d\.\d"
+)
 
 
 async def extraire_cartes_1win(page):
@@ -873,48 +1184,62 @@ async def extraire_cartes_1win(page):
     return await page.evaluate(
         """
         () => {
-            const cartes = document.querySelectorAll('[data-qa="match-card"]');
+            const cartes =
+                document.querySelectorAll(
+                    '[data-qa="match-card"]'
+                );
+
             const resultat = [];
+
             cartes.forEach(carte => {
-                const teamsEl = carte.querySelector('[data-scope="TeamNames"]');
-                const oddsEl = carte.querySelector('[data-qa="matchCardBaseOdds"]');
+
+                const teamsEl =
+                    carte.querySelector(
+                        '[data-scope="TeamNames"]'
+                    );
+
+                const oddsEl =
+                    carte.querySelector(
+                        '[data-qa="matchCardBaseOdds"]'
+                    );
+
                 resultat.push({
-                    teamsText: teamsEl ? teamsEl.innerText : "",
-                    oddsText: oddsEl ? oddsEl.innerText : ""
+                    teamsText:
+                        teamsEl
+                            ? teamsEl.innerText
+                            : "",
+
+                    oddsText:
+                        oddsEl
+                            ? oddsEl.innerText
+                            : ""
                 });
             });
+
             return resultat;
         }
         """
     )
 
 
-# ------------------------------------------------------------
-# CORRECTIF : 1win affiche désormais tout en FRANÇAIS
-# ("Résultat du temps réglementaire", puis les noms des équipes
-# et "Match Nul" comme libellés) — l'ancien code cherchait le
-# texte anglais "full time result" et des libellés "1"/"x"/"2",
-# qui n'existent plus nulle part sur la page. Résultat : 0 match
-# jamais extrait, même quand les cartes sont bien détectées.
-# On repère maintenant le titre français, puis on prend les 3
-# paires (libellé, cote) qui suivent DANS L'ORDRE où 1win les
-# affiche (équipe 1, nul, équipe 2) — peu importe le texte exact
-# du libellé.
-# ------------------------------------------------------------
-
 def parser_carte_1win(carte):
 
     lignes_equipes = [
-        l.strip() for l in carte["teamsText"].split("\n") if l.strip()
+        l.strip()
+        for l in carte["teamsText"].split("\n")
+        if l.strip()
     ]
 
     if len(lignes_equipes) < 2:
         return None
 
-    equipe_1, equipe_2 = lignes_equipes[0], lignes_equipes[1]
+    equipe_1 = lignes_equipes[0]
+    equipe_2 = lignes_equipes[1]
 
     lignes_cotes = [
-        l.strip() for l in carte["oddsText"].split("\n") if l.strip()
+        l.strip()
+        for l in carte["oddsText"].split("\n")
+        if l.strip()
     ]
 
     resultat_1x2 = {}
@@ -922,21 +1247,38 @@ def parser_carte_1win(carte):
     try:
 
         i = next(
-            idx for idx, l in enumerate(lignes_cotes)
-            if "résultat du temps réglementaire" in l.lower()
+            idx
+            for idx, l in enumerate(
+                lignes_cotes
+            )
+            if (
+                "résultat du temps réglementaire"
+                in l.lower()
+            )
         )
 
         pos = i + 1
-        cles_ordre = ["V1", "X", "V2"]
+
+        cles_ordre = [
+            "V1",
+            "X",
+            "V2"
+        ]
 
         for cle in cles_ordre:
 
-            if pos + 1 >= len(lignes_cotes):
+            if pos + 1 >= len(
+                lignes_cotes
+            ):
                 break
 
-            valeur = lignes_cotes[pos + 1].strip()
+            valeur = (
+                lignes_cotes[pos + 1]
+                .strip()
+            )
 
             resultat_1x2[cle] = valeur
+
             pos += 2
 
     except StopIteration:
@@ -971,47 +1313,74 @@ def parser_carte_1win(carte):
     }
 
 
-async def ouvrir_plus_de_matchs_1win(page, max_tours=20):
+async def ouvrir_plus_de_matchs_1win(
+    page,
+    max_tours=20
+):
 
     precedent = -1
     sans_nouveau = 0
 
     for tour in range(max_tours):
+
         try:
+
             cliques = await page.locator(
-                'button.ui-nav-link-toggle[aria-label="Maximize"]'
+                'button.ui-nav-link-toggle'
+                '[aria-label="Maximize"]'
                 '[aria-expanded="false"]'
             ).count()
 
             if cliques:
+
                 for i in range(cliques):
+
                     try:
+
                         await page.locator(
-                            'button.ui-nav-link-toggle[aria-label="Maximize"]'
+                            'button.ui-nav-link-toggle'
+                            '[aria-label="Maximize"]'
                             '[aria-expanded="false"]'
                         ).nth(i).click(
                             timeout=3000,
                             force=True
                         )
+
                     except Exception:
                         pass
 
-                await page.wait_for_timeout(1800)
+                await page.wait_for_timeout(
+                    1800
+                )
 
-            await page.mouse.wheel(0, 5000)
-            await page.keyboard.press("End")
-            await page.wait_for_timeout(1200)
+            await page.mouse.wheel(
+                0,
+                5000
+            )
+
+            await page.keyboard.press(
+                "End"
+            )
+
+            await page.wait_for_timeout(
+                1200
+            )
 
             nb_cartes = await page.locator(
                 '[data-qa="match-card"]'
             ).count()
 
             if nb_cartes <= precedent:
+
                 sans_nouveau += 1
+
             else:
+
                 sans_nouveau = 0
+
                 print(
-                    f"[1win] déploiement : {nb_cartes} carte(s)"
+                    f"[1win] déploiement : "
+                    f"{nb_cartes} carte(s)"
                 )
 
             precedent = nb_cartes
@@ -1031,7 +1400,9 @@ async def scrape_1win(playwright):
 
     try:
 
-        browser = await playwright.chromium.launch(headless=True)
+        browser = await playwright.chromium.launch(
+            headless=True
+        )
 
         page = await browser.new_page()
 
@@ -1041,48 +1412,77 @@ async def scrape_1win(playwright):
             wait_until="domcontentloaded"
         )
 
-        await page.wait_for_timeout(5000)
+        await page.wait_for_timeout(
+            5000
+        )
 
-        await ouvrir_plus_de_matchs_1win(page, max_tours=30)
+        await ouvrir_plus_de_matchs_1win(
+            page,
+            max_tours=30
+        )
 
         cartes = []
 
-        for tentative in range(WIN1_MAX_TENTATIVES):
+        for tentative in range(
+            WIN1_MAX_TENTATIVES
+        ):
 
-            cartes = await extraire_cartes_1win(page)
+            cartes = (
+                await extraire_cartes_1win(
+                    page
+                )
+            )
 
             nb_avec_cotes = sum(
-                1 for c in cartes
-                if WIN1_MOTIF_COTE.search(c["oddsText"])
+                1
+                for c in cartes
+                if WIN1_MOTIF_COTE.search(
+                    c["oddsText"]
+                )
             )
 
             if (
                 len(cartes) > 0
-                and nb_avec_cotes >= len(cartes) * 0.5
+                and nb_avec_cotes
+                >= len(cartes) * 0.5
             ):
 
                 print(
-                    f"[1win] {len(cartes)} carte(s) détectée(s), "
-                    f"{nb_avec_cotes} avec cotes, "
-                    f"après {tentative * 2}s"
+                    f"[1win] "
+                    f"{len(cartes)} carte(s) "
+                    f"détectée(s), "
+                    f"{nb_avec_cotes} "
+                    f"avec cotes, "
+                    f"après "
+                    f"{tentative * 2}s"
                 )
 
                 break
 
-            await page.wait_for_timeout(2000)
+            await page.wait_for_timeout(
+                2000
+            )
 
         await browser.close()
 
         for carte in cartes:
 
-            parsed = parser_carte_1win(carte)
+            parsed = (
+                parser_carte_1win(
+                    carte
+                )
+            )
 
             if parsed:
-                result.append(parsed)
+                result.append(
+                    parsed
+                )
 
     except Exception as error:
 
-        print(f"[1win] ERREUR : {error}")
+        print(
+            f"[1win] ERREUR : {error}"
+        )
 
     output = ROOT / "1win.json"
 
@@ -1101,10 +1501,15 @@ async def scrape_1win(playwright):
     )
 
 
+# ============================================================
+# EXECUTION
+# ============================================================
+
 MAX_WAIT_CYCLES = 20
 
 
 async def route_handler(route):
+
     if should_block(route):
         await route.abort()
     else:
@@ -1141,6 +1546,7 @@ async def main():
         )
 
         context = await browser.new_context(
+
             viewport={
                 "width": 390,
                 "height": 844
@@ -1153,29 +1559,29 @@ async def main():
             locale="fr-FR",
         )
 
-        await context.route("**/*", route_handler)
+        await context.route(
+            "**/*",
+            route_handler
+        )
 
         await asyncio.gather(
-            run_bookmakers(context),
-            scrape_1win(playwright),
+
+            run_bookmakers(
+                context
+            ),
+
+            scrape_1win(
+                playwright
+            ),
         )
 
         await context.close()
+
         await browser.close()
 
 
 if __name__ == "__main__":
     asyncio.run(main())
-
-
-
-
-
-
-
-
-
-
 
 
 
