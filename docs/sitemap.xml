@@ -7,6 +7,18 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://zicote.site/galatasaray-barcelona/</loc>
+        <lastmod>2026-09-22</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/arsenal-lille-osc/</loc>
+        <lastmod>2026-09-22</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://zicote.site/portugal-wales/</loc>
         <lastmod>2026-09-22</lastmod>
         <changefreq>hourly</changefreq>
@@ -26,6 +38,12 @@
     </url>
     <url>
         <loc>https://zicote.site/city-united/</loc>
+        <lastmod>2026-09-22</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/city-real/</loc>
         <lastmod>2026-09-22</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -98,6 +116,12 @@
     </url>
     <url>
         <loc>https://zicote.site/sounders-timber/</loc>
+        <lastmod>2026-09-22</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/timber-bulls/</loc>
         <lastmod>2026-09-22</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -283,30 +307,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/city-real/</loc>
-        <lastmod>2026-09-22</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/galatasaray-barcelona/</loc>
-        <lastmod>2026-09-22</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/arsenal-lille-osc/</loc>
-        <lastmod>2026-09-22</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/timber-bulls/</loc>
-        <lastmod>2026-09-22</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/juventus-w-sl-benfica-w/</loc>
         <lastmod>2026-09-22</lastmod>
         <changefreq>hourly</changefreq>
@@ -475,13 +475,13 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/angleterre-espagne/</loc>
+        <loc>https://zicote.site/macedoine-du-nord-suisse/</loc>
         <lastmod>2026-09-22</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/macedoine-du-nord-suisse/</loc>
+        <loc>https://zicote.site/angleterre-espagne/</loc>
         <lastmod>2026-09-22</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
