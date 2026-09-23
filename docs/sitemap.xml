@@ -7,102 +7,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://zicote.site/portugal-wales/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/galatasaray-barcelona/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/arsenal-lille-osc/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/internazionale-milano-club-brugge/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/viking-bayern-munich/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/city-united/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/city-real/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/indy-louisville/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/indy-rowdies/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/indy-tulsa/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/louisville-tulsa/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/louisville-rowdies/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/revolution-real/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/revolution-city/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/revolution-united/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/rowdies-tulsa/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/united-real/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
@@ -307,6 +211,102 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://zicote.site/portugal-wales/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/galatasaray-barcelona/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/arsenal-lille-osc/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/city-united/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/city-real/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/indy-louisville/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/indy-rowdies/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/indy-tulsa/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/louisville-tulsa/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/louisville-rowdies/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/revolution-real/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/revolution-united/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/rowdies-tulsa/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/internazionale-milano-club-brugge/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/turkey-france/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/revolution-city/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://zicote.site/oud-heverlee-louvain-w-roma-w/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
@@ -349,13 +349,13 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/liechtenstein-lituanie/</loc>
+        <loc>https://zicote.site/pays-bas-allemagne/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/pays-bas-allemagne/</loc>
+        <loc>https://zicote.site/liechtenstein-lituanie/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -451,13 +451,13 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/slovaquie-moldavie/</loc>
+        <loc>https://zicote.site/macedoine-du-nord-suisse/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/macedoine-du-nord-suisse/</loc>
+        <loc>https://zicote.site/slovaquie-moldavie/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -596,12 +596,6 @@
     </url>
     <url>
         <loc>https://zicote.site/slovenie-macedoine-du-nord/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/turkey-france/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
