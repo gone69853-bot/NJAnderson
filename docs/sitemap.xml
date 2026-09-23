@@ -37,42 +37,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/inter-dynamo/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/inter-union/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/sporting-inter/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/sporting-union/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/sporting-dynamo/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/union-dynamo/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/crew-minnesota/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
@@ -241,7 +205,25 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://zicote.site/villarreal-napoli/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://zicote.site/bodo-glimt-borussia-dortmund/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/rc-lens-sporting-clube-de-portugal/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/sabah-baku-slavia-prague/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -253,13 +235,25 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/feyenoord-como/</loc>
+        <loc>https://zicote.site/rasenballsport-leipzig-psv-eindhoven/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/rasenballsport-leipzig-psv-eindhoven/</loc>
+        <loc>https://zicote.site/lask-linz-liverpool/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/slovan-bratislava-vfb-stuttgart/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/real-betis-porto/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -277,85 +271,19 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://zicote.site/shakhtar-donetsk-aek-athens/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://zicote.site/aston-villa-fenerbahce/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/lask-linz-liverpool/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/barry-town-connahs-quay-nomads/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/colwyn-bay-haverfordwest-county/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/cambrian-united-llandudno/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/pen-y-bont-airbus-uk-broughton/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/flint-town-united-ammanford-afc/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/holywell-town-briton-ferry/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/namibia-congo/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/libya-botswana/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/mauritania-central-african-republic/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/ivory-coast-ghana/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/sierra-leone-zimbabwe/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/tunisia-uganda/</loc>
+        <loc>https://zicote.site/feyenoord-como/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -379,12 +307,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/liechtenstein-lithuania/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/netherlands-germany/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
@@ -397,13 +319,37 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/serbia-greece/</loc>
+        <loc>https://zicote.site/home-away/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/home-away/</loc>
+        <loc>https://zicote.site/georgia-northern-ireland/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/italy-belgium/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/turkey-france/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/liechtenstein-lithuania/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/serbia-greece/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -421,31 +367,13 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/georgia-northern-ireland/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/hungary-ukraine/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/italy-belgium/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/poland-bosnia-and-herzegovina/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/turkey-france/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -704,42 +632,6 @@
     </url>
     <url>
         <loc>https://zicote.site/ecosse-suisse/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/villarreal-napoli/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/rc-lens-sporting-clube-de-portugal/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/sabah-baku-slavia-prague/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/slovan-bratislava-vfb-stuttgart/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/shakhtar-donetsk-aek-athens/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/real-betis-porto/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
