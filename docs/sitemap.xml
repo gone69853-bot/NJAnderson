@@ -337,13 +337,13 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/liechtenstein-lituanie/</loc>
+        <loc>https://zicote.site/pays-bas-allemagne/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/pays-bas-allemagne/</loc>
+        <loc>https://zicote.site/liechtenstein-lituanie/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -439,12 +439,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/slovaquie-moldavie/</loc>
-        <lastmod>2026-09-23</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/macedoine-du-nord-suisse/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
@@ -457,13 +451,19 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/albanie-bielorussie/</loc>
+        <loc>https://zicote.site/slovaquie-moldavie/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://zicote.site/republique-tcheque-croatie/</loc>
+        <lastmod>2026-09-23</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/albanie-bielorussie/</loc>
         <lastmod>2026-09-23</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
