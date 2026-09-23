@@ -718,34 +718,34 @@ async def scrape_match(
             # affichés juste sous "1X2" sur la page sont les vrais
             # noms d'équipe : on leur fait confiance quand ils sont
             # disponibles, plutôt qu'au découpage du slug.
+            #
+            # Garde-fou : sur certaines pages atypiques (paris
+            # "vainqueur du championnat", outrights...), ce qui suit
+            # "1X2" n'est pas un vrai nom d'équipe mais un fragment de
+            # cote mal étiqueté (ex. "W12.39" vu en prod). On rejette
+            # tout candidat contenant un motif décimal (chiffre(s) +
+            # point + chiffre(s)), caractéristique d'une cote et
+            # quasi absent des vrais noms d'équipe.
+            MOTIF_COTE_DANS_NOM = re.compile(r"\d+\.\d+")
+
+            def ressemble_a_une_equipe(candidat):
+                return (
+                    len(candidat) > 2
+                    and candidat.lower() not in ("1", "x", "2", "draw", "nul")
+                    and not MOTIF_COTE_DANS_NOM.search(candidat)
+                )
+
             equipe_1 = match.get("equipe_1")
             equipe_2 = match.get("equipe_2")
-
-            # Certaines pages (paris "vainqueur du championnat",
-            # outrights...) matchent le même motif d'URL qu'un vrai
-            # match, mais affichent des libellés qui n'ont rien à
-            # voir avec un nom d'équipe (vu en prod : "W12.39",
-            # "1X1.63"). On rejette tout candidat qui ressemble à une
-            # cote (motif chiffre.chiffre), pour ne pas remplacer un
-            # nom correct par du bruit.
-            MOTIF_COTE_DANS_NOM = re.compile(r"\d+\.\d+")
 
             if len(noms_bloc) == 3:
 
                 candidat_1, candidat_2 = noms_bloc[0], noms_bloc[2]
 
-                if (
-                    len(candidat_1) > 2
-                    and candidat_1.lower() not in ("1", "x", "2", "draw", "nul")
-                    and not MOTIF_COTE_DANS_NOM.search(candidat_1)
-                ):
+                if ressemble_a_une_equipe(candidat_1):
                     equipe_1 = candidat_1
 
-                if (
-                    len(candidat_2) > 2
-                    and candidat_2.lower() not in ("1", "x", "2", "draw", "nul")
-                    and not MOTIF_COTE_DANS_NOM.search(candidat_2)
-                ):
+                if ressemble_a_une_equipe(candidat_2):
                     equipe_2 = candidat_2
 
             total = parse_total_block(lines)
@@ -1185,9 +1185,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
-
-
 
 
 
