@@ -1,6 +1,146 @@
 [
   {
     "bookmaker": "betwinner",
+    "equipe_1": "Galatasaray",
+    "equipe_2": "Barcelona",
+    "1X2": {
+      "V1": "8.8",
+      "X": "6",
+      "V2": "1.29"
+    },
+    "Total_2.5": {
+      "Plus de": "1.184",
+      "Moins de": "4.15"
+    },
+    "Double_Chance": {
+      "1X": "3.56",
+      "12": "1.155",
+      "2X": "1.078"
+    },
+    "BTTS": {
+      "Oui": "1.41",
+      "Non": "2.734"
+    },
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.005",
+        "Moins de": "17"
+      },
+      "1.5": {
+        "Plus de": "1.014",
+        "Moins de": "8.4"
+      },
+      "2": {
+        "Plus de": "1.03",
+        "Moins de": "7.8"
+      },
+      "2.5": {
+        "Plus de": "1.184",
+        "Moins de": "4.15"
+      },
+      "3": {
+        "Plus de": "1.26",
+        "Moins de": "3.54"
+      },
+      "3.5": {
+        "Plus de": "1.54",
+        "Moins de": "2.475"
+      },
+      "4": {
+        "Plus de": "1.75",
+        "Moins de": "1.99"
+      },
+      "4.5": {
+        "Plus de": "2.165",
+        "Moins de": "1.69"
+      },
+      "5": {
+        "Plus de": "2.67",
+        "Moins de": "1.38"
+      },
+      "5.5": {
+        "Plus de": "3.08",
+        "Moins de": "1.28"
+      },
+      "6": {
+        "Plus de": "4.6",
+        "Moins de": "1.126"
+      },
+      "6.5": {
+        "Plus de": "6",
+        "Moins de": "1.125"
+      },
+      "7.5": {
+        "Plus de": "10.5",
+        "Moins de": "1.04"
+      },
+      "8.5": {
+        "Plus de": "15",
+        "Moins de": "1.016"
+      },
+      "9.5": {
+        "Plus de": "17",
+        "Moins de": "1.005"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "6.1",
+      "2 (0)": "1.079",
+      "1 (+1)": "2.85",
+      "2 (-1)": "1.38",
+      "1 (+1.5)": "2.136",
+      "2 (-1.5)": "1.71",
+      "1 (+2)": "1.727",
+      "2 (-2)": "2.02",
+      "1 (+2.5)": "1.49",
+      "2 (-2.5)": "2.41",
+      "1 (+3)": "1.26",
+      "2 (-3)": "3.28",
+      "1 (+3.5)": "1.189",
+      "2 (-3.5)": "3.78",
+      "1 (+4)": "1.069",
+      "2 (-4)": "5.9",
+      "1 (+4.5)": "1.054",
+      "2 (-4.5)": "6.4"
+    },
+    "Score_Exact": {
+      "1-0": "36",
+      "0-0": "29",
+      "0-1": "14",
+      "2-0": "65",
+      "1-1": "13",
+      "0-2": "11",
+      "2-1": "26",
+      "2-2": "13",
+      "1-2": "9",
+      "3-0": "100",
+      "3-3": "26",
+      "0-3": "11",
+      "3-1": "55",
+      "4-4": "100",
+      "1-3": "9",
+      "3-2": "31",
+      "5-5": "100",
+      "2-3": "13",
+      "4-0": "100",
+      "6-6": "100",
+      "0-4": "14",
+      "4-1": "100",
+      "7-7": "100",
+      "1-4": "12",
+      "4-2": "100",
+      "8-8": "100",
+      "2-4": "15",
+      "4-3": "90",
+      "9-9": "100",
+      "3-4": "36"
+    },
+    "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/368594076-galatasaray-barcelona",
+    "derniere_maj": "2026-09-23T00:53:07.428367+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
     "equipe_1": "Arsenal",
     "equipe_2": "Lille Osc",
     "1X2": {
@@ -55,12 +195,12 @@
         "Moins de": "1.26"
       },
       "4.5": {
-        "Plus de": "4.2",
-        "Moins de": "1.177"
+        "Plus de": "4.25",
+        "Moins de": "1.176"
       },
       "5": {
-        "Plus de": "6.95",
-        "Moins de": "1.046"
+        "Plus de": "7",
+        "Moins de": "1.045"
       },
       "5.5": {
         "Plus de": "7.5",
@@ -82,8 +222,8 @@
       "2 (+4)": "1.004",
       "1 (-3.5)": "5.1",
       "2 (+3.5)": "1.1",
-      "1 (-3)": "4.45",
-      "2 (+3)": "1.144",
+      "1 (-3)": "4.5",
+      "2 (+3)": "1.143",
       "1 (-2.5)": "2.84",
       "2 (+2.5)": "1.36",
       "1 (-2)": "2.3",
@@ -128,7 +268,7 @@
       "3-4": "100"
     },
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/368594074-arsenal-lille-osc",
-    "derniere_maj": "2026-09-22T23:52:40.094169+00:00",
+    "derniere_maj": "2026-09-23T00:53:07.413838+00:00",
     "statut": "ok"
   },
   {
@@ -260,7 +400,7 @@
       "3-4": "100"
     },
     "url": "https://betwinner.cm/fr/line/football/1706694-uefa-nations-league/325407126-portugal-wales",
-    "derniere_maj": "2026-09-22T23:52:40.193967+00:00",
+    "derniere_maj": "2026-09-23T00:53:08.046399+00:00",
     "statut": "ok"
   },
   {
@@ -396,7 +536,7 @@
       "3-4": "100"
     },
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/368590094-internazionale-milano-club-brugge",
-    "derniere_maj": "2026-09-22T23:52:39.648268+00:00",
+    "derniere_maj": "2026-09-23T00:53:07.425077+00:00",
     "statut": "ok"
   },
   {
@@ -538,7 +678,7 @@
       "3-4": "80"
     },
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/368590086-viking-bayern-munich",
-    "derniere_maj": "2026-09-22T23:52:40.240693+00:00",
+    "derniere_maj": "2026-09-23T00:53:08.045070+00:00",
     "statut": "ok"
   },
   {
@@ -621,7 +761,7 @@
       "2-5": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345462-sounders--bulls-",
-    "derniere_maj": "2026-09-22T23:52:40.240095+00:00",
+    "derniere_maj": "2026-09-23T00:53:06.958133+00:00",
     "statut": "ok"
   },
   {
@@ -700,7 +840,89 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345468-sounders--timber-",
-    "derniere_maj": "2026-09-22T23:53:22.237737+00:00",
+    "derniere_maj": "2026-09-23T00:53:07.516899+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Timber ",
+    "equipe_2": "Bulls ",
+    "1X2": {
+      "V1": "2.39",
+      "X": "3.11",
+      "V2": "2.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.68"
+    },
+    "Double_Chance": {
+      "1X": "1.63",
+      "12": "1.14",
+      "2X": "1.54"
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.23",
+        "Moins de": "3.59"
+      },
+      "4": {
+        "Plus de": "1.32",
+        "Moins de": "2.66"
+      },
+      "4.5": {
+        "Plus de": "1.6",
+        "Moins de": "1.95"
+      },
+      "5": {
+        "Plus de": "1.9",
+        "Moins de": "1.43"
+      },
+      "5.5": {
+        "Plus de": "2.31",
+        "Moins de": "1.18"
+      },
+      "6": {
+        "Plus de": "3.14",
+        "Moins de": "1.08"
+      },
+      "6.5": {
+        "Plus de": "3.69",
+        "Moins de": "1.03"
+      }
+    },
+    "Handicap": {
+      "1 (-1)": "3.31",
+      "2 (+1)": "1.26",
+      "1 (0)": "1.91",
+      "2 (0)": "1.76",
+      "1 (+1)": "1.33",
+      "2 (-1)": "2.94"
+    },
+    "Score_Exact": {
+      "2-1": "10",
+      "1-1": "10",
+      "0-2": "10",
+      "3-1": "10",
+      "2-2": "10",
+      "1-2": "10",
+      "3-2": "10",
+      "3-3": "10",
+      "1-3": "10",
+      "4-1": "10",
+      "2-3": "10",
+      "4-2": "10",
+      "1-4": "10",
+      "4-3": "10",
+      "2-4": "10",
+      "3-4": "10"
+    },
+    "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345452-timber--bulls-",
+    "derniere_maj": "2026-09-23T00:53:08.036028+00:00",
     "statut": "ok"
   },
   {
@@ -779,7 +1001,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345524-whitecaps--sounders-",
-    "derniere_maj": "2026-09-22T23:52:48.924524+00:00",
+    "derniere_maj": "2026-09-23T00:53:22.402011+00:00",
     "statut": "ok"
   },
   {
@@ -861,7 +1083,7 @@
       "4-3": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345446-whitecaps--timber-",
-    "derniere_maj": "2026-09-22T23:52:49.374391+00:00",
+    "derniere_maj": "2026-09-23T00:53:23.063878+00:00",
     "statut": "ok"
   },
   {
@@ -943,7 +1165,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345428-whitecaps--bulls-",
-    "derniere_maj": "2026-09-22T23:52:49.635534+00:00",
+    "derniere_maj": "2026-09-23T00:53:23.063482+00:00",
     "statut": "ok"
   },
   {
@@ -1024,7 +1246,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345364-inter--dynamo-",
-    "derniere_maj": "2026-09-22T23:52:49.627739+00:00",
+    "derniere_maj": "2026-09-23T00:53:23.144401+00:00",
     "statut": "ok"
   },
   {
@@ -1105,7 +1327,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345528-inter--union-",
-    "derniere_maj": "2026-09-22T23:52:49.626815+00:00",
+    "derniere_maj": "2026-09-23T00:53:23.976196+00:00",
     "statut": "ok"
   },
   {
@@ -1186,7 +1408,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345472-sporting--inter-",
-    "derniere_maj": "2026-09-22T23:52:58.088861+00:00",
+    "derniere_maj": "2026-09-23T00:53:23.904836+00:00",
     "statut": "ok"
   },
   {
@@ -1267,7 +1489,7 @@
       "4-3": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345676-sporting--union-",
-    "derniere_maj": "2026-09-22T23:52:58.665671+00:00",
+    "derniere_maj": "2026-09-23T00:53:23.976716+00:00",
     "statut": "ok"
   },
   {
@@ -1348,7 +1570,7 @@
       "4-3": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345484-sporting--dynamo-",
-    "derniere_maj": "2026-09-22T23:52:59.018019+00:00",
+    "derniere_maj": "2026-09-23T00:53:24.390955+00:00",
     "statut": "ok"
   },
   {
@@ -1429,7 +1651,7 @@
       "4-3": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345674-union--dynamo-",
-    "derniere_maj": "2026-09-22T23:52:58.835729+00:00",
+    "derniere_maj": "2026-09-23T00:53:36.894764+00:00",
     "statut": "ok"
   },
   {
@@ -1508,7 +1730,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345672-crew--minnesota-",
-    "derniere_maj": "2026-09-22T23:52:59.054555+00:00",
+    "derniere_maj": "2026-09-23T00:53:39.592804+00:00",
     "statut": "ok"
   },
   {
@@ -1590,7 +1812,7 @@
       "4-3": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345688-dcunited--minnesota-",
-    "derniere_maj": "2026-09-22T23:53:07.429915+00:00",
+    "derniere_maj": "2026-09-23T00:53:39.466347+00:00",
     "statut": "ok"
   },
   {
@@ -1669,7 +1891,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345572-dcunited--crew-",
-    "derniere_maj": "2026-09-22T23:53:11.097934+00:00",
+    "derniere_maj": "2026-09-23T00:53:37.108079+00:00",
     "statut": "ok"
   },
   {
@@ -1748,7 +1970,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345738-dallas--dcunited-",
-    "derniere_maj": "2026-09-22T23:53:11.136320+00:00",
+    "derniere_maj": "2026-09-23T00:53:39.655192+00:00",
     "statut": "ok"
   },
   {
@@ -1830,7 +2052,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345678-dallas--crew-",
-    "derniere_maj": "2026-09-22T23:53:11.094546+00:00",
+    "derniere_maj": "2026-09-23T00:53:39.622991+00:00",
     "statut": "ok"
   },
   {
@@ -1908,7 +2130,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345700-dallas--minnesota-",
-    "derniere_maj": "2026-09-22T23:53:11.095137+00:00",
+    "derniere_maj": "2026-09-23T00:53:37.620560+00:00",
     "statut": "ok"
   },
   {
@@ -1989,7 +2211,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345680-chivas--detroit-",
-    "derniere_maj": "2026-09-22T23:53:18.692221+00:00",
+    "derniere_maj": "2026-09-23T00:53:40.299646+00:00",
     "statut": "ok"
   },
   {
@@ -2070,7 +2292,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345712-chivas--las-vegas-",
-    "derniere_maj": "2026-09-22T23:53:22.701329+00:00",
+    "derniere_maj": "2026-09-23T00:53:48.188466+00:00",
     "statut": "ok"
   },
   {
@@ -2151,7 +2373,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345670-chivas--memphis-",
-    "derniere_maj": "2026-09-22T23:53:22.741447+00:00",
+    "derniere_maj": "2026-09-23T00:53:50.754081+00:00",
     "statut": "ok"
   },
   {
@@ -2232,7 +2454,7 @@
       "4-3": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345696-detroit--memphis-",
-    "derniere_maj": "2026-09-22T23:53:22.730655+00:00",
+    "derniere_maj": "2026-09-23T00:53:49.517668+00:00",
     "statut": "ok"
   },
   {
@@ -2313,7 +2535,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345692-detroit--las-vegas-",
-    "derniere_maj": "2026-09-22T23:54:04.076216+00:00",
+    "derniere_maj": "2026-09-23T00:53:54.804201+00:00",
     "statut": "ok"
   },
   {
@@ -2394,7 +2616,7 @@
       "4-3": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345654-las-vegas--memphis-",
-    "derniere_maj": "2026-09-22T23:53:28.995087+00:00",
+    "derniere_maj": "2026-09-23T00:53:57.409213+00:00",
     "statut": "ok"
   },
   {
@@ -2473,7 +2695,7 @@
       "2-5": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345294-cincinnati--orlando-",
-    "derniere_maj": "2026-09-22T23:53:33.547039+00:00",
+    "derniere_maj": "2026-09-23T00:53:57.640862+00:00",
     "statut": "ok"
   },
   {
@@ -2556,7 +2778,7 @@
       "2-5": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345318-cincinnati--nashville-",
-    "derniere_maj": "2026-09-22T23:53:32.014331+00:00",
+    "derniere_maj": "2026-09-23T00:53:57.444359+00:00",
     "statut": "ok"
   },
   {
@@ -2639,7 +2861,7 @@
       "2-5": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345256-nashville--orlando-",
-    "derniere_maj": "2026-09-22T23:53:33.736664+00:00",
+    "derniere_maj": "2026-09-23T00:53:58.662843+00:00",
     "statut": "ok"
   },
   {
@@ -2721,7 +2943,7 @@
       "4-3": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345254-toronto-cincinnati-",
-    "derniere_maj": "2026-09-22T23:53:32.048205+00:00",
+    "derniere_maj": "2026-09-23T00:54:02.684876+00:00",
     "statut": "ok"
   },
   {
@@ -2800,7 +3022,7 @@
       "5-2": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345252-toronto-nashville-",
-    "derniere_maj": "2026-09-22T23:53:40.173515+00:00",
+    "derniere_maj": "2026-09-23T00:54:03.286988+00:00",
     "statut": "ok"
   },
   {
@@ -2883,7 +3105,7 @@
       "5-2": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345282-toronto-orlando-",
-    "derniere_maj": "2026-09-22T23:53:43.473909+00:00",
+    "derniere_maj": "2026-09-23T00:54:04.526658+00:00",
     "statut": "ok"
   },
   {
@@ -2966,7 +3188,7 @@
       "2-5": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345272-austin--fusion-",
-    "derniere_maj": "2026-09-22T23:53:43.459103+00:00",
+    "derniere_maj": "2026-09-23T00:54:08.962656+00:00",
     "statut": "ok"
   },
   {
@@ -3045,7 +3267,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345332-austin--st-louis-",
-    "derniere_maj": "2026-09-22T23:53:44.685153+00:00",
+    "derniere_maj": "2026-09-23T00:54:10.979348+00:00",
     "statut": "ok"
   },
   {
@@ -3126,7 +3348,7 @@
       "4-3": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345266-birmingham--charleston-",
-    "derniere_maj": "2026-09-22T23:53:44.826298+00:00",
+    "derniere_maj": "2026-09-23T00:54:12.979147+00:00",
     "statut": "ok"
   },
   {
@@ -3207,7 +3429,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345336-birmingham--hartford-",
-    "derniere_maj": "2026-09-22T23:53:49.512644+00:00",
+    "derniere_maj": "2026-09-23T00:54:13.512385+00:00",
     "statut": "ok"
   },
   {
@@ -3288,7 +3510,7 @@
       "4-3": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345328-birmingham--loudoun-",
-    "derniere_maj": "2026-09-22T23:53:52.936977+00:00",
+    "derniere_maj": "2026-09-23T00:54:12.361717+00:00",
     "statut": "ok"
   },
   {
@@ -3369,7 +3591,7 @@
       "4-3": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345510-charleston--loudoun-",
-    "derniere_maj": "2026-09-22T23:53:52.570220+00:00",
+    "derniere_maj": "2026-09-23T00:54:14.451029+00:00",
     "statut": "ok"
   },
   {
@@ -3377,39 +3599,80 @@
     "equipe_1": "Charleston ",
     "equipe_2": "Hartford ",
     "1X2": {
-      "V1": "X3.06",
-      "X": "Double chance",
-      "V2": "121.15"
+      "V1": "2.41",
+      "X": "3.06",
+      "V2": "2.21"
     },
     "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
+      "Plus de": "2.07",
+      "Moins de": "1.64"
     },
     "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
+      "1X": "1.62",
+      "12": "1.15",
+      "2X": "1.53"
     },
     "BTTS": {
       "Oui": null,
       "Non": null
     },
-    "Totals": {},
-    "Handicap": {},
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.3",
+        "Moins de": "3.08"
+      },
+      "4": {
+        "Plus de": "1.44",
+        "Moins de": "2.52"
+      },
+      "4.5": {
+        "Plus de": "1.76",
+        "Moins de": "1.91"
+      },
+      "5": {
+        "Plus de": "2.19",
+        "Moins de": "1.43"
+      },
+      "5.5": {
+        "Plus de": "2.65",
+        "Moins de": "1.18"
+      },
+      "6": {
+        "Plus de": "3.82",
+        "Moins de": "1.08"
+      }
+    },
+    "Handicap": {
+      "1 (-1)": "3.39",
+      "2 (+1)": "1.25",
+      "1 (0)": "1.91",
+      "2 (0)": "1.75",
+      "1 (+1)": "1.32",
+      "2 (-1)": "3"
+    },
     "Score_Exact": {
-      "2-010": "1-110",
-      "0-110": "2-110",
-      "2-210": "0-210",
-      "3-110": "3-310",
-      "1-210": "3-210",
-      "0-310": "4-110",
-      "1-310": "4-210",
-      "2-310": "4-310",
-      "1-410": "2-410",
-      "3-410": "Total pair"
+      "2-0": "10",
+      "1-1": "10",
+      "0-1": "10",
+      "2-1": "10",
+      "2-2": "10",
+      "0-2": "10",
+      "3-1": "10",
+      "3-3": "10",
+      "1-2": "10",
+      "3-2": "10",
+      "0-3": "10",
+      "4-1": "10",
+      "1-3": "10",
+      "4-2": "10",
+      "2-3": "10",
+      "4-3": "10",
+      "1-4": "10",
+      "2-4": "10",
+      "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345440-charleston--hartford-",
-    "derniere_maj": "2026-09-22T23:53:54.965000+00:00",
+    "derniere_maj": "2026-09-23T00:54:16.911828+00:00",
     "statut": "ok"
   },
   {
@@ -3490,7 +3753,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345464-hartford--loudoun-",
-    "derniere_maj": "2026-09-22T23:53:55.173587+00:00",
+    "derniere_maj": "2026-09-23T00:54:16.370425+00:00",
     "statut": "ok"
   },
   {
@@ -3569,7 +3832,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345378-los-angeles--austin-",
-    "derniere_maj": "2026-09-22T23:54:01.060863+00:00",
+    "derniere_maj": "2026-09-23T00:54:22.589025+00:00",
     "statut": "ok"
   },
   {
@@ -3651,7 +3914,7 @@
       "4-3": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345476-los-angeles--st-louis-",
-    "derniere_maj": "2026-09-22T23:54:03.825136+00:00",
+    "derniere_maj": "2026-09-23T00:54:26.170017+00:00",
     "statut": "ok"
   },
   {
@@ -3733,7 +3996,7 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345522-los-angeles--fusion-",
-    "derniere_maj": "2026-09-22T23:54:43.603557+00:00",
+    "derniere_maj": "2026-09-23T00:54:28.272083+00:00",
     "statut": "ok"
   },
   {
@@ -3815,7 +4078,149 @@
       "3-4": "10"
     },
     "url": "https://betwinner.cm/fr/line/football/2590430-mls/372345520-st-louis--fusion-",
-    "derniere_maj": "2026-09-22T23:54:03.985793+00:00",
+    "derniere_maj": "2026-09-23T00:54:27.577637+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Bodo Glimt",
+    "equipe_2": "Borussia Dortmund",
+    "1X2": {
+      "V1": "3.3",
+      "X": "4",
+      "V2": "1.995"
+    },
+    "Total_2.5": {
+      "Plus de": "1.35",
+      "Moins de": "2.88"
+    },
+    "Double_Chance": {
+      "1X": "1.846",
+      "12": "1.273",
+      "2X": "1.361"
+    },
+    "BTTS": {
+      "Oui": "1.35",
+      "Non": "2.984"
+    },
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.008",
+        "Moins de": "16"
+      },
+      "1": {
+        "Plus de": "1.008",
+        "Moins de": "16"
+      },
+      "1.5": {
+        "Plus de": "1.068",
+        "Moins de": "5.9"
+      },
+      "2": {
+        "Plus de": "1.105",
+        "Moins de": "5.15"
+      },
+      "2.5": {
+        "Plus de": "1.35",
+        "Moins de": "2.88"
+      },
+      "3": {
+        "Plus de": "1.53",
+        "Moins de": "2.375"
+      },
+      "3.5": {
+        "Plus de": "1.93",
+        "Moins de": "1.87"
+      },
+      "4": {
+        "Plus de": "2.47",
+        "Moins de": "1.49"
+      },
+      "4.5": {
+        "Plus de": "2.93",
+        "Moins de": "1.34"
+      },
+      "5": {
+        "Plus de": "4.4",
+        "Moins de": "1.148"
+      },
+      "5.5": {
+        "Plus de": "4.9",
+        "Moins de": "1.11"
+      },
+      "6": {
+        "Plus de": "8",
+        "Moins de": "1.02"
+      },
+      "6.5": {
+        "Plus de": "10.5",
+        "Moins de": "1.04"
+      },
+      "7.5": {
+        "Plus de": "15",
+        "Moins de": "1.016"
+      },
+      "8.5": {
+        "Plus de": "17",
+        "Moins de": "1.005"
+      }
+    },
+    "Handicap": {
+      "1 (-2)": "11.5",
+      "2 (+2)": "1.01",
+      "1 (-1.5)": "5.85",
+      "2 (+1.5)": "1.084",
+      "1 (-1)": "5.25",
+      "2 (+1)": "1.123",
+      "1 (0)": "2.504",
+      "2 (0)": "1.53",
+      "1 (+1)": "1.44",
+      "2 (-1)": "2.59",
+      "1 (+1.5)": "1.29",
+      "2 (-1.5)": "3.15",
+      "1 (+2)": "1.104",
+      "2 (-2)": "5.05",
+      "1 (+2.5)": "1.077",
+      "2 (-2.5)": "5.65",
+      "1 (+3)": "1.01",
+      "2 (-3)": "11.5",
+      "1 (+3.5)": "1.03",
+      "2 (-3.5)": "11.5"
+    },
+    "Score_Exact": {
+      "1-0": "15",
+      "0-0": "26",
+      "0-1": "13",
+      "2-0": "18",
+      "1-1": "9",
+      "0-2": "13",
+      "2-1": "11",
+      "2-2": "10",
+      "1-2": "9",
+      "3-0": "31",
+      "3-3": "21",
+      "0-3": "15",
+      "3-1": "17",
+      "4-4": "90",
+      "1-3": "13",
+      "3-2": "15",
+      "5-5": "100",
+      "2-3": "13",
+      "4-0": "75",
+      "6-6": "100",
+      "0-4": "31",
+      "4-1": "41",
+      "7-7": "100",
+      "1-4": "21",
+      "4-2": "36",
+      "8-8": "100",
+      "2-4": "23",
+      "4-3": "55",
+      "9-9": "100",
+      "3-4": "41"
+    },
+    "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/368590228-bodo-glimt-borussia-dortmund",
+    "derniere_maj": "2026-09-23T00:54:27.830631+00:00",
     "statut": "ok"
   },
   {
@@ -3947,135 +4352,7 @@
       "3-4": "70"
     },
     "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/368590136-rc-lens-sporting-clube-de-portugal",
-    "derniere_maj": "2026-09-22T23:54:07.196653+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Sabah Baku",
-    "equipe_2": "Slavia Prague",
-    "1X2": {
-      "V1": "3.6",
-      "X": "3.72",
-      "V2": "1.975"
-    },
-    "Total_2.5": {
-      "Plus de": "1.65",
-      "Moins de": "2.235"
-    },
-    "Double_Chance": {
-      "1X": "1.863",
-      "12": "1.304",
-      "2X": "1.319"
-    },
-    "BTTS": {
-      "Oui": "1.55",
-      "Non": "2.323"
-    },
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.008",
-        "Moins de": "15"
-      },
-      "1": {
-        "Plus de": "1.01",
-        "Moins de": "11.5"
-      },
-      "1.5": {
-        "Plus de": "1.162",
-        "Moins de": "4.4"
-      },
-      "2": {
-        "Plus de": "1.27",
-        "Moins de": "3.48"
-      },
-      "2.5": {
-        "Plus de": "1.65",
-        "Moins de": "2.235"
-      },
-      "3": {
-        "Plus de": "2.02",
-        "Moins de": "1.727"
-      },
-      "3.5": {
-        "Plus de": "2.53",
-        "Moins de": "1.444"
-      },
-      "4": {
-        "Plus de": "3.84",
-        "Moins de": "1.191"
-      },
-      "4.5": {
-        "Plus de": "4.55",
-        "Moins de": "1.131"
-      },
-      "5": {
-        "Plus de": "8.1",
-        "Moins de": "1.019"
-      },
-      "5.5": {
-        "Plus de": "8.8",
-        "Moins de": "1.008"
-      },
-      "6.5": {
-        "Plus de": "15",
-        "Moins de": "1.016"
-      },
-      "7.5": {
-        "Plus de": "17",
-        "Moins de": "1.005"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "7.6",
-      "2 (+1.5)": "1.04",
-      "1 (-1)": "6.7",
-      "2 (+1)": "1.073",
-      "1 (0)": "2.645",
-      "2 (0)": "1.48",
-      "1 (+1)": "1.41",
-      "2 (-1)": "2.69",
-      "1 (+1.5)": "1.25",
-      "2 (-1.5)": "3.42",
-      "1 (+2)": "1.063",
-      "2 (-2)": "6.1",
-      "1 (+2.5)": "1.04",
-      "2 (-2.5)": "6.95"
-    },
-    "Score_Exact": {
-      "1-0": "12",
-      "0-0": "15.5",
-      "0-1": "9.5",
-      "2-0": "15",
-      "1-1": "7",
-      "0-2": "10",
-      "2-1": "11",
-      "2-2": "11",
-      "1-2": "8",
-      "3-0": "34",
-      "3-3": "36",
-      "0-3": "15",
-      "3-1": "26",
-      "4-4": "100",
-      "1-3": "13",
-      "3-2": "21",
-      "5-5": "100",
-      "2-3": "15",
-      "4-0": "100",
-      "6-6": "100",
-      "0-4": "34",
-      "4-1": "60",
-      "7-7": "100",
-      "1-4": "26",
-      "4-2": "65",
-      "8-8": "100",
-      "2-4": "36",
-      "4-3": "90",
-      "9-9": "100",
-      "3-4": "80"
-    },
-    "url": "https://betwinner.cm/fr/line/football/118587-uefa-champions-league/368590106-sabah-baku-slavia-prague",
-    "derniere_maj": "2026-09-22T23:54:46.383126+00:00",
+    "derniere_maj": "2026-09-23T00:54:29.981089+00:00",
     "statut": "ok"
   }
 ]
