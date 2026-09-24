@@ -1,12 +1,12 @@
 [
   {
     "bookmaker": "megapari",
-    "equipe_1": "Portugal",
-    "equipe_2": "Wales",
+    "equipe_1": "Rostov",
+    "equipe_2": "Akron Tolyatti",
     "1X2": {
-      "V1": "1.2",
-      "X": "6.55",
-      "V2": "14.5"
+      "V1": "1.836",
+      "X": "3.835",
+      "V2": "4.765"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -23,1136 +23,34 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-4.5)": "7.1",
-      "2 (+4.5)": "1.036",
-      "1 (-4)": "6.55",
-      "2 (+4)": "1.05",
-      "1 (-3.5)": "3.94",
-      "2 (+3.5)": "1.174",
-      "1 (-3)": "3.34",
-      "2 (+3)": "1.25",
-      "1 (-2.5)": "2.36",
-      "2 (+2.5)": "1.51",
-      "1 (-2)": "1.9",
-      "2 (+2)": "1.82",
-      "1 (-1.5)": "1.6",
-      "2 (+1.5)": "2.336",
-      "1 (-1)": "1.25",
-      "2 (+1)": "3.64",
-      "1 (0)": "1.03",
-      "2 (0)": "9.4"
+      "1 (-2.5)": "6.6",
+      "2 (+2.5)": "1.052",
+      "1 (-2)": "5.8",
+      "2 (+2)": "1.091",
+      "1 (-1.5)": "3.625",
+      "2 (+1.5)": "1.352",
+      "1 (-1)": "2.45",
+      "2 (+1)": "1.56",
+      "1 (0)": "1.285",
+      "2 (0)": "3.28",
+      "1 (+1)": "1.005",
+      "2 (-1)": "9.9",
+      "1 (+1.5)": "1.02",
+      "2 (-1.5)": "9.7"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325407126-portugal-wales",
-    "derniere_maj": "2026-09-24T05:54:18.599241+00:00",
+    "url": "https://5572183mp.pro/en/line/football/225733-russia-premier-league/369544746-rostov-akron-tolyatti",
+    "derniere_maj": "2026-09-24T07:03:55.656813+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Norway",
-    "equipe_2": "Denmark",
+    "equipe_1": "Orenburg",
+    "equipe_2": "Dynamo Makhachkala",
     "1X2": {
-      "V1": "1.696",
-      "X": "4.14",
-      "V2": "4.5"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-3.5)": "10.5",
-      "2 (+3.5)": "1.02",
-      "1 (-3)": "9.7",
-      "2 (+3)": "1.03",
-      "1 (-2.5)": "5.25",
-      "2 (+2.5)": "1.102",
-      "1 (-2)": "4.5",
-      "2 (+2)": "1.157",
-      "1 (-1.5)": "2.856",
-      "2 (+1.5)": "1.42",
-      "1 (-1)": "2.185",
-      "2 (+1)": "1.68",
-      "1 (0)": "1.28",
-      "2 (0)": "3.34",
-      "1 (+1)": "1.015",
-      "2 (-1)": "8.8",
-      "1 (+1.5)": "1.04",
-      "2 (-1.5)": "9"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325372156-norway-denmark",
-    "derniere_maj": "2026-09-24T05:54:17.546499+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Galatasaray",
-    "equipe_2": "Barcelona",
-    "1X2": {
-      "V1": "9.25",
-      "X": "6.19",
-      "V2": "1.341"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "6.15",
-      "2 (0)": "1.079",
-      "1 (+1)": "2.85",
-      "2 (-1)": "1.38",
-      "1 (+1.5)": "2.216",
-      "2 (-1.5)": "1.773",
-      "1 (+2)": "1.73",
-      "2 (-2)": "2.01",
-      "1 (+2.5)": "1.5",
-      "2 (-2.5)": "2.38",
-      "1 (+3)": "1.26",
-      "2 (-3)": "3.28",
-      "1 (+3.5)": "1.192",
-      "2 (-3.5)": "3.75",
-      "1 (+4)": "1.071",
-      "2 (-4)": "5.8",
-      "1 (+4.5)": "1.055",
-      "2 (-4.5)": "6.35"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/118587-uefa-champions-league/368594076-galatasaray-barcelona",
-    "derniere_maj": "2026-09-24T05:54:17.310877+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Austria",
-    "equipe_2": "Israel",
-    "1X2": {
-      "V1": "1.425",
-      "X": "4.84",
-      "V2": "6.8"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-3.5)": "7.1",
-      "2 (+3.5)": "1.038",
-      "1 (-3)": "6.3",
-      "2 (+3)": "1.064",
-      "1 (-2.5)": "3.56",
-      "2 (+2.5)": "1.24",
-      "1 (-2)": "2.99",
-      "2 (+2)": "1.35",
-      "1 (-1.5)": "2.155",
-      "2 (+1.5)": "1.696",
-      "1 (-1)": "1.63",
-      "2 (+1)": "2.17",
-      "1 (0)": "1.115",
-      "2 (0)": "5.1",
-      "1 (+1)": "1.01",
-      "2 (-1)": "11",
-      "1 (+1.5)": "1.01",
-      "2 (-1.5)": "12.5"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325575974-austria-israel",
-    "derniere_maj": "2026-09-24T05:54:18.636910+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Netherlands",
-    "equipe_2": "Germany",
-    "1X2": {
-      "V1": "2.36",
-      "X": "3.78",
-      "V2": "2.744"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "8.5",
-      "2 (+2.5)": "1.012",
-      "1 (-2)": "7.7",
-      "2 (+2)": "1.026",
-      "1 (-1.5)": "4.2",
-      "2 (+1.5)": "1.171",
-      "1 (-1)": "3.4",
-      "2 (+1)": "1.27",
-      "1 (0)": "1.77",
-      "2 (0)": "2.05",
-      "1 (+1)": "1.176",
-      "2 (-1)": "4.33",
-      "1 (+1.5)": "1.114",
-      "2 (-1.5)": "5.15",
-      "1 (+2)": "1.04",
-      "2 (-2)": "9.2",
-      "1 (+2.5)": "1.02",
-      "2 (-2.5)": "10"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325372158-netherlands-germany",
-    "derniere_maj": "2026-09-24T05:55:09.200358+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Chivas ",
-    "equipe_2": "Detroit ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372666200-chivas--detroit-",
-    "derniere_maj": "2026-09-24T05:55:09.636779+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Chivas ",
-    "equipe_2": "Las Vegas ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372666194-chivas--las-vegas-",
-    "derniere_maj": "2026-09-24T05:54:18.998220+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Chivas ",
-    "equipe_2": "Memphis ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372666084-chivas--memphis-",
-    "derniere_maj": "2026-09-24T05:55:08.808937+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Detroit ",
-    "equipe_2": "Memphis ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372666130-detroit--memphis-",
-    "derniere_maj": "2026-09-24T05:54:31.019839+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Detroit ",
-    "equipe_2": "Las Vegas ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372666186-detroit--las-vegas-",
-    "derniere_maj": "2026-09-24T05:54:29.119885+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Las Vegas",
-    "equipe_2": " Memphis ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372666214-las-vegas--memphis-",
-    "derniere_maj": "2026-09-24T05:54:30.372084+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Cincinnati ",
-    "equipe_2": "Orlando ",
-    "1X2": {
-      "V1": "2.36",
-      "X": "3.01",
-      "V2": "2.18"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.21",
-      "2 (+1)": "1.28",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.34",
-      "2 (-1)": "2.87"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665772-cincinnati--orlando-",
-    "derniere_maj": "2026-09-24T05:54:32.361461+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Cincinnati ",
-    "equipe_2": "Nashville ",
-    "1X2": {
-      "V1": "2.37",
-      "X": "3.01",
-      "V2": "2.19"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.26",
-      "2 (+1)": "1.27",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.34",
-      "2 (-1)": "2.9"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665724-cincinnati--nashville-",
-    "derniere_maj": "2026-09-24T05:54:34.695525+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Nashville ",
-    "equipe_2": "Orlando ",
-    "1X2": {
-      "V1": "2.37",
-      "X": "3.01",
-      "V2": "2.19"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.26",
-      "2 (+1)": "1.27",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.34",
-      "2 (-1)": "2.9"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665670-nashville--orlando-",
-    "derniere_maj": "2026-09-24T05:54:44.281028+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Toronto",
-    "equipe_2": "Cincinnati ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.11",
-      "V2": "2.39"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.94",
-      "2 (+1)": "1.33",
-      "1 (0)": "1.76",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.31"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665780-toronto-cincinnati-",
-    "derniere_maj": "2026-09-24T05:54:45.433221+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Toronto",
-    "equipe_2": "Nashville ",
-    "1X2": {
-      "V1": "2.18",
-      "X": "3.01",
-      "V2": "2.36"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.87",
-      "2 (+1)": "1.34",
-      "1 (0)": "1.76",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.28",
-      "2 (-1)": "3.21"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665776-toronto-nashville-",
-    "derniere_maj": "2026-09-24T05:54:46.234643+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Toronto",
-    "equipe_2": "Orlando ",
-    "1X2": {
-      "V1": "2.19",
-      "X": "3.01",
-      "V2": "2.37"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.9",
-      "2 (+1)": "1.34",
-      "1 (0)": "1.76",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.27",
-      "2 (-1)": "3.26"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665908-toronto-orlando-",
-    "derniere_maj": "2026-09-24T05:54:45.015193+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Austin ",
-    "equipe_2": "Fusion ",
-    "1X2": {
-      "V1": "2.37",
-      "X": "3.01",
-      "V2": "2.19"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.26",
-      "2 (+1)": "1.27",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.34",
-      "2 (-1)": "2.9"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665922-austin--fusion-",
-    "derniere_maj": "2026-09-24T05:54:47.141513+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Austin ",
-    "equipe_2": "St Louis ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.01",
-      "V2": "2.4"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.98",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.36"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665948-austin--st-louis-",
-    "derniere_maj": "2026-09-24T05:55:04.696855+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Charleston ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665782-birmingham--charleston-",
-    "derniere_maj": "2026-09-24T05:55:09.249784+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Hartford ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665920-birmingham--hartford-",
-    "derniere_maj": "2026-09-24T05:55:09.636356+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Birmingham ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665940-birmingham--loudoun-",
-    "derniere_maj": "2026-09-24T05:55:08.868040+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Charleston ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665892-charleston--loudoun-",
-    "derniere_maj": "2026-09-24T05:55:09.200814+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Charleston ",
-    "equipe_2": "Hartford ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665918-charleston--hartford-",
-    "derniere_maj": "2026-09-24T05:55:16.621200+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Hartford ",
-    "equipe_2": "Loudoun ",
-    "1X2": {
-      "V1": "2.41",
-      "X": "3.06",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.39",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "3"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665894-hartford--loudoun-",
-    "derniere_maj": "2026-09-24T05:55:25.228634+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Los Angeles",
-    "equipe_2": " Austin ",
-    "1X2": {
-      "V1": "2.4",
-      "X": "3.01",
-      "V2": "2.2"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.36",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.91",
-      "2 (0)": "1.75",
-      "1 (+1)": "1.32",
-      "2 (-1)": "2.98"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665932-los-angeles--austin-",
-    "derniere_maj": "2026-09-24T05:55:24.929658+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Los Angeles ",
-    "equipe_2": "St Louis ",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.11",
-      "V2": "2.39"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "2.94",
-      "2 (+1)": "1.33",
-      "1 (0)": "1.76",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.31"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665910-los-angeles--st-louis-",
-    "derniere_maj": "2026-09-24T05:55:25.579152+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Los Angeles",
-    "equipe_2": " Fusion ",
-    "1X2": {
-      "V1": "2.5",
-      "X": "3.08",
-      "V2": "2.11"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.55",
-      "2 (+1)": "1.23",
-      "1 (0)": "2",
-      "2 (0)": "1.69",
-      "1 (+1)": "1.36",
-      "2 (-1)": "2.79"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665830-los-angeles--fusion-",
-    "derniere_maj": "2026-09-24T05:55:25.646906+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "St Louis",
-    "equipe_2": " Fusion ",
-    "1X2": {
-      "V1": "2.39",
-      "X": "3.11",
-      "V2": "2.2"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1)": "3.31",
-      "2 (+1)": "1.26",
-      "1 (0)": "1.91",
-      "2 (0)": "1.76",
-      "1 (+1)": "1.33",
-      "2 (-1)": "2.94"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/2590430-mls/372665924-st-louis--fusion-",
-    "derniere_maj": "2026-09-24T05:55:27.656374+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Andorra",
-    "equipe_2": "Malta",
-    "1X2": {
-      "V1": "3.7",
-      "X": "2.775",
-      "V2": "2.37"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1.5)": "8.5",
-      "2 (+1.5)": "1.026",
-      "1 (-1)": "7.7",
-      "2 (+1)": "1.052",
-      "1 (0)": "2.425",
-      "2 (0)": "1.56",
-      "1 (+1)": "1.21",
-      "2 (-1)": "3.92",
-      "1 (+1.5)": "1.127",
-      "2 (-1.5)": "4.9",
-      "1 (+2)": "1.001",
-      "2 (-2)": "10.5"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325699846-andorra-malta",
-    "derniere_maj": "2026-09-24T05:55:27.975568+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Kosovo Republic",
-    "equipe_2": "Of Ireland",
-    "1X2": {
-      "V1": "2.416",
-      "X": "3.11",
-      "V2": "3.15"
+      "V1": "2.605",
+      "X": "3.485",
+      "V2": "2.902"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1171,32 +69,32 @@
     "Handicap": {
       "1 (-2.5)": "11.5",
       "2 (+2.5)": "1.01",
-      "1 (-2)": "10",
-      "2 (+2)": "1.03",
-      "1 (-1.5)": "4.95",
-      "2 (+1.5)": "1.122",
-      "1 (-1)": "3.92",
-      "2 (+1)": "1.21",
-      "1 (0)": "1.68",
-      "2 (0)": "2.185",
-      "1 (+1)": "1.09",
-      "2 (-1)": "6.1",
-      "1 (+1.5)": "1.049",
-      "2 (-1.5)": "7.2"
+      "1 (-2)": "9.5",
+      "2 (+2)": "1.003",
+      "1 (-1.5)": "4.9",
+      "2 (+1.5)": "1.123",
+      "1 (-1)": "4.05",
+      "2 (+1)": "1.194",
+      "1 (0)": "1.872",
+      "2 (0)": "2.079",
+      "1 (+1)": "1.145",
+      "2 (-1)": "4.75",
+      "1 (+1.5)": "1.091",
+      "2 (-1.5)": "5.6"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325575978-kosovo-republic-of-ireland",
-    "derniere_maj": "2026-09-24T05:55:25.775022+00:00",
+    "url": "https://5572183mp.pro/en/line/football/225733-russia-premier-league/369545742-orenburg-dynamo-makhachkala",
+    "derniere_maj": "2026-09-24T07:03:55.663355+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Liechtenstein",
-    "equipe_2": "Lithuania",
+    "equipe_1": "Fakel Voronezh",
+    "equipe_2": "Lokomotiv Moscow",
     "1X2": {
-      "V1": "12",
-      "X": "4.84",
-      "V2": "1.31"
+      "V1": "2.841",
+      "X": "3.32",
+      "V2": "2.759"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1213,34 +111,30 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (0)": "7.6",
-      "2 (0)": "1.042",
-      "1 (+1)": "2.56",
-      "2 (-1)": "1.46",
-      "1 (+1.5)": "1.82",
-      "2 (-1.5)": "1.99",
-      "1 (+2)": "1.41",
-      "2 (-2)": "2.73",
-      "1 (+2.5)": "1.26",
-      "2 (-2.5)": "3.42",
-      "1 (+3)": "1.078",
-      "2 (-3)": "5.85",
-      "1 (+3.5)": "1.052",
-      "2 (-3.5)": "6.45"
+      "1 (-1.5)": "5.85",
+      "2 (+1.5)": "1.081",
+      "1 (-1)": "4.9",
+      "2 (+1)": "1.138",
+      "1 (0)": "1.996",
+      "2 (0)": "1.944",
+      "1 (+1)": "1.151",
+      "2 (-1)": "4.65",
+      "1 (+1.5)": "1.09",
+      "2 (-1.5)": "5.6"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325699854-liechtenstein-lithuania",
-    "derniere_maj": "2026-09-24T05:55:33.551276+00:00",
+    "url": "https://5572183mp.pro/en/line/football/225733-russia-premier-league/369545774-fakel-voronezh-lokomotiv-moscow",
+    "derniere_maj": "2026-09-24T07:03:55.415633+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Serbia",
-    "equipe_2": "Greece",
+    "equipe_1": "Krylia Sovetov",
+    "equipe_2": "Spartak Moscow",
     "1X2": {
-      "V1": "2.688",
-      "X": "3.26",
-      "V2": "2.665"
+      "V1": "4.765",
+      "X": "3.975",
+      "V2": "1.805"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1257,38 +151,452 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "12.5",
-      "2 (+2.5)": "1.01",
+      "1 (-1.5)": "9.8",
+      "2 (+1.5)": "1.02",
+      "1 (-1)": "9.4",
+      "2 (+1)": "1.004",
+      "1 (0)": "3.3",
+      "2 (0)": "1.28",
+      "1 (+1)": "1.61",
+      "2 (-1)": "2.33",
+      "1 (+1.5)": "1.385",
+      "2 (-1.5)": "3.41",
+      "1 (+2)": "1.115",
+      "2 (-2)": "5.2",
+      "1 (+2.5)": "1.07",
+      "2 (-2.5)": "6"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/225733-russia-premier-league/369545748-krylia-sovetov-spartak-moscow",
+    "derniere_maj": "2026-09-24T07:03:55.719525+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Krasnodar Zenit",
+    "equipe_2": "Saint Petersburg",
+    "1X2": {
+      "V1": "2.772",
+      "X": "3.47",
+      "V2": "2.73"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
       "1 (-2)": "11.5",
       "2 (+2)": "1.01",
-      "1 (-1.5)": "6.4",
-      "2 (+1.5)": "1.068",
-      "1 (-1)": "5.2",
-      "2 (+1)": "1.126",
-      "1 (0)": "1.904",
-      "2 (0)": "1.896",
-      "1 (+1)": "1.13",
-      "2 (-1)": "5.1",
-      "1 (+1.5)": "1.07",
-      "2 (-1.5)": "6.3",
+      "1 (-1.5)": "5.25",
+      "2 (+1.5)": "1.104",
+      "1 (-1)": "4.45",
+      "2 (+1)": "1.164",
+      "1 (0)": "1.986",
+      "2 (0)": "1.955",
+      "1 (+1)": "1.173",
+      "2 (-1)": "4.33",
+      "1 (+1.5)": "1.109",
+      "2 (-1.5)": "5.15",
+      "1 (+2)": "1.01",
+      "2 (-2)": "11"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/225733-russia-premier-league/369545756-krasnodar-zenit-saint-petersburg",
+    "derniere_maj": "2026-09-24T07:03:55.718128+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Akhmat",
+    "equipe_2": "Baltika Kaliningrad",
+    "1X2": {
+      "V1": "2.399",
+      "X": "3.38",
+      "V2": "3.3"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "10.5",
+      "2 (+2.5)": "1.01",
+      "1 (-2)": "8.7",
+      "2 (+2)": "1.009",
+      "1 (-1.5)": "4.5",
+      "2 (+1.5)": "1.146",
+      "1 (-1)": "3.6",
+      "2 (+1)": "1.24",
+      "1 (0)": "1.715",
+      "2 (0)": "2.314",
+      "1 (+1)": "1.097",
+      "2 (-1)": "5.8",
+      "1 (+1.5)": "1.058",
+      "2 (-1.5)": "6.65"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/225733-russia-premier-league/369545768-akhmat-baltika-kaliningrad",
+    "derniere_maj": "2026-09-24T07:03:55.715568+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Cska Moscow",
+    "equipe_2": "Rodina Moscow",
+    "1X2": {
+      "V1": "1.341",
+      "X": "5.51",
+      "V2": "11.3"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "6.35",
+      "2 (+3.5)": "1.055",
+      "1 (-3)": "5.55",
+      "2 (+3)": "1.085",
+      "1 (-2.5)": "3.24",
+      "2 (+2.5)": "1.28",
+      "1 (-2)": "2.61",
+      "2 (+2)": "1.44",
+      "1 (-1.5)": "1.996",
+      "2 (+1.5)": "1.944",
+      "1 (-1)": "1.43",
+      "2 (+1)": "2.64",
+      "1 (0)": "1.057",
+      "2 (0)": "6.85"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/225733-russia-premier-league/369545758-cska-moscow-rodina-moscow",
+    "derniere_maj": "2026-09-24T07:03:55.399905+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Rubin Kazan",
+    "equipe_2": "Dynamo Moscow",
+    "1X2": {
+      "V1": "3.155",
+      "X": "3.4",
+      "V2": "2.471"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "6.6",
+      "2 (+1.5)": "1.059",
+      "1 (-1)": "5.6",
+      "2 (+1)": "1.105",
+      "1 (0)": "2.223",
+      "2 (0)": "1.768",
+      "1 (+1)": "1.22",
+      "2 (-1)": "3.78",
+      "1 (+1.5)": "1.129",
+      "2 (-1.5)": "4.75",
+      "1 (+2)": "1.03",
+      "2 (-2)": "9.4",
+      "1 (+2.5)": "1.02",
+      "2 (-2.5)": "10.5"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/225733-russia-premier-league/369545728-rubin-kazan-dynamo-moscow",
+    "derniere_maj": "2026-09-24T07:03:53.389476+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Borussia Dortmund",
+    "equipe_2": "Werder Bremen",
+    "1X2": {
+      "V1": "1.396",
+      "X": "5.77",
+      "V2": "7.9"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-4.5)": "9.2",
+      "2 (+4.5)": "1.003",
+      "1 (-4)": "8.7",
+      "2 (+4)": "1.009",
+      "1 (-3.5)": "5.15",
+      "2 (+3.5)": "1.098",
+      "1 (-3)": "4.6",
+      "2 (+3)": "1.136",
+      "1 (-2.5)": "2.97",
+      "2 (+2.5)": "1.333",
+      "1 (-2)": "2.45",
+      "2 (+2)": "1.5",
+      "1 (-1.5)": "1.98",
+      "2 (+1.5)": "1.96",
+      "1 (-1)": "1.49",
+      "2 (+1)": "2.48",
+      "1 (0)": "1.1",
+      "2 (0)": "5.55"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/96463-germany-bundesliga/369677476-borussia-dortmund-werder-bremen",
+    "derniere_maj": "2026-09-24T07:04:06.870409+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Augsburg",
+    "equipe_2": "Bayern Munich",
+    "1X2": {
+      "V1": "11.1",
+      "X": "8.25",
+      "V2": "1.242"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "6.35",
+      "2 (0)": "1.057",
+      "1 (+1)": "3.56",
+      "2 (-1)": "1.24",
+      "1 (+1.5)": "2.4",
+      "2 (-1.5)": "1.52",
+      "1 (+2)": "2.02",
+      "2 (-2)": "1.81",
+      "1 (+2.5)": "1.748",
+      "2 (-2.5)": "2.256",
+      "1 (+3)": "1.36",
+      "2 (-3)": "2.84",
+      "1 (+3.5)": "1.26",
+      "2 (-3.5)": "3.28",
+      "1 (+4)": "1.097",
+      "2 (-4)": "5.15",
+      "1 (+4.5)": "1.073",
+      "2 (-4.5)": "5.75",
+      "1 (+5)": "1.02",
+      "2 (-5)": "10.5"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/96463-germany-bundesliga/369676166-augsburg-bayern-munich",
+    "derniere_maj": "2026-09-24T07:04:11.637507+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "1 Fsv Mainz",
+    "equipe_2": "05 Bayer 04 Leverkusen",
+    "1X2": {
+      "V1": "3.02",
+      "X": "3.965",
+      "V2": "2.313"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "11",
+      "2 (+2.5)": "1.01",
+      "1 (-2)": "10",
+      "2 (+2)": "1.02",
+      "1 (-1.5)": "5.4",
+      "2 (+1.5)": "1.103",
+      "1 (-1)": "4.65",
+      "2 (+1)": "1.155",
+      "1 (0)": "2.267",
+      "2 (0)": "1.742",
+      "1 (+1)": "1.31",
+      "2 (-1)": "3.15",
+      "1 (+1.5)": "1.21",
+      "2 (-1.5)": "3.75",
+      "1 (+2)": "1.048",
+      "2 (-2)": "6.65",
+      "1 (+2.5)": "1.031",
+      "2 (-2.5)": "7.4"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/96463-germany-bundesliga/369676564-1-fsv-mainz-05-bayer-04-leverkusen",
+    "derniere_maj": "2026-09-24T07:04:11.194976+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Paderborn 07",
+    "equipe_2": "Vfb Stuttgart",
+    "1X2": {
+      "V1": "5.13",
+      "X": "4.88",
+      "V2": "1.624"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "9.5",
+      "2 (+1.5)": "1.03",
+      "1 (-1)": "9.4",
+      "2 (+1)": "1.008",
+      "1 (0)": "3.74",
+      "2 (0)": "1.23",
+      "1 (+1)": "1.909",
+      "2 (-1)": "1.92",
+      "1 (+1.5)": "1.619",
+      "2 (-1.5)": "2.514",
+      "1 (+2)": "1.25",
+      "2 (-2)": "3.48",
+      "1 (+2.5)": "1.166",
+      "2 (-2.5)": "4.15",
+      "1 (+3)": "1.032",
+      "2 (-3)": "7.3",
+      "1 (+3.5)": "1.018",
+      "2 (-3.5)": "8.1"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/96463-germany-bundesliga/369677472-paderborn-07-vfb-stuttgart",
+    "derniere_maj": "2026-09-24T07:04:11.623893+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Union",
+    "equipe_2": "Berlin Elversberg",
+    "1X2": {
+      "V1": "2.3",
+      "X": "3.92",
+      "V2": "3.07"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "7.9",
+      "2 (+2.5)": "1.022",
+      "1 (-2)": "7.1",
+      "2 (+2)": "1.037",
+      "1 (-1.5)": "3.92",
+      "2 (+1.5)": "1.193",
+      "1 (-1)": "3.22",
+      "2 (+1)": "1.3",
+      "1 (0)": "1.73",
+      "2 (0)": "2.287",
+      "1 (+1)": "1.14",
+      "2 (-1)": "4.9",
+      "1 (+1.5)": "1.09",
+      "2 (-1.5)": "5.7",
       "1 (+2)": "1.02",
-      "2 (-2)": "11",
+      "2 (-2)": "10.5",
       "1 (+2.5)": "1.01",
-      "2 (-2.5)": "12.5"
+      "2 (-2.5)": "12"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325407134-serbia-greece",
-    "derniere_maj": "2026-09-24T05:55:47.160214+00:00",
+    "url": "https://5572183mp.pro/en/line/football/96463-germany-bundesliga/369679492-union-berlin-elversberg",
+    "derniere_maj": "2026-09-24T07:04:11.997066+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Home",
-    "equipe_2": "Away",
+    "equipe_1": "Tsg 1899",
+    "equipe_2": "Hoffenheim Hamburger",
     "1X2": {
-      "V1": "1.45",
-      "X": "11.5",
-      "V2": "3.58"
+      "V1": "1.48",
+      "X": "5.03",
+      "V2": "7.09"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1305,40 +613,38 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-8.5)": "7.6",
-      "2 (+8.5)": "1.085",
-      "1 (-8)": "7.3",
-      "2 (+8)": "1.092",
-      "1 (-7.5)": "5.5",
-      "2 (+7.5)": "1.148",
-      "1 (-7)": "5.2",
-      "2 (+7)": "1.16",
-      "1 (-6.5)": "4.1",
-      "2 (+6.5)": "1.235",
-      "1 (-6)": "3.865",
-      "2 (+6)": "1.259",
-      "1 (-5.5)": "3.2",
-      "2 (+5.5)": "1.351",
-      "1 (-5)": "2.982",
-      "2 (+5)": "1.394",
-      "1 (-4.5)": "2.578",
-      "2 (+4.5)": "1.504",
-      "1 (-4)": "2.391",
-      "2 (+4)": "1.576"
+      "1 (-4.5)": "11.5",
+      "2 (+4.5)": "1.01",
+      "1 (-4)": "11",
+      "2 (+4)": "1.01",
+      "1 (-3.5)": "5.7",
+      "2 (+3.5)": "1.076",
+      "1 (-3)": "5.15",
+      "2 (+3)": "1.106",
+      "1 (-2.5)": "3.24",
+      "2 (+2.5)": "1.285",
+      "1 (-2)": "2.73",
+      "2 (+2)": "1.41",
+      "1 (-1.5)": "2.142",
+      "2 (+1.5)": "1.823",
+      "1 (-1)": "1.6",
+      "2 (+1)": "2.22",
+      "1 (0)": "1.121",
+      "2 (0)": "5"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/371577370-home-away",
-    "derniere_maj": "2026-09-24T05:55:49.127664+00:00",
+    "url": "https://5572183mp.pro/en/line/football/96463-germany-bundesliga/369676568-tsg-1899-hoffenheim-hamburger",
+    "derniere_maj": "2026-09-24T07:05:18.732357+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Home Special Bets",
-    "equipe_2": "Away Special Bets",
+    "equipe_1": "Rasenballsport Leipzig",
+    "equipe_2": "Eintracht Frankfurt",
     "1X2": {
-      "V1": "1.384",
-      "X": "11.5",
-      "V2": "4.04"
+      "V1": "1.57",
+      "X": "5.18",
+      "V2": "5.38"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1355,40 +661,38 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-8.5)": "7.5",
-      "2 (+8.5)": "1.087",
-      "1 (-8)": "7.17",
-      "2 (+8)": "1.095",
-      "1 (-7.5)": "5.35",
-      "2 (+7.5)": "1.155",
-      "1 (-7)": "5.05",
-      "2 (+7)": "1.17",
-      "1 (-6.5)": "3.975",
-      "2 (+6.5)": "1.248",
-      "1 (-6)": "3.715",
-      "2 (+6)": "1.276",
-      "1 (-5.5)": "3.07",
-      "2 (+5.5)": "1.375",
-      "1 (-5)": "2.85",
-      "2 (+5)": "1.425",
-      "1 (-4.5)": "2.468",
-      "2 (+4.5)": "1.544",
-      "1 (-4)": "2.28",
-      "2 (+4)": "1.628"
+      "1 (-3.5)": "6.55",
+      "2 (+3.5)": "1.049",
+      "1 (-3)": "5.9",
+      "2 (+3)": "1.068",
+      "1 (-2.5)": "3.58",
+      "2 (+2.5)": "1.22",
+      "1 (-2)": "3.04",
+      "2 (+2)": "1.32",
+      "1 (-1.5)": "2.331",
+      "2 (+1.5)": "1.706",
+      "1 (-1)": "1.81",
+      "2 (+1)": "2.02",
+      "1 (0)": "1.21",
+      "2 (0)": "3.92",
+      "1 (+1)": "1.013",
+      "2 (-1)": "9",
+      "1 (+1.5)": "1.004",
+      "2 (-1.5)": "9.7"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/371577456-home-special-bets-away-special-bets",
-    "derniere_maj": "2026-09-24T05:55:50.008034+00:00",
+    "url": "https://5572183mp.pro/en/line/football/96463-germany-bundesliga/369678708-rasenballsport-leipzig-eintracht-frankfurt",
+    "derniere_maj": "2026-09-24T07:04:11.972562+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Armenia",
-    "equipe_2": "Latvia",
+    "equipe_1": "1 Koln",
+    "equipe_2": "Borussia Monchengladbach",
     "1X2": {
-      "V1": "1.704",
-      "X": "3.76",
-      "V2": "4.98"
+      "V1": "2.022",
+      "X": "4.155",
+      "V2": "3.57"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1405,36 +709,358 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-3)": "10",
-      "2 (+3)": "1.01",
-      "1 (-2.5)": "5.7",
-      "2 (+2.5)": "1.084",
-      "1 (-2)": "4.95",
-      "2 (+2)": "1.13",
-      "1 (-1.5)": "2.99",
-      "2 (+1.5)": "1.392",
-      "1 (-1)": "2.256",
-      "2 (+1)": "1.64",
+      "1 (-2.5)": "5.9",
+      "2 (+2.5)": "1.076",
+      "1 (-2)": "5.35",
+      "2 (+2)": "1.111",
+      "1 (-1.5)": "3.22",
+      "2 (+1.5)": "1.31",
+      "1 (-1)": "2.66",
+      "2 (+1)": "1.49",
+      "1 (0)": "1.553",
+      "2 (0)": "2.692",
+      "1 (+1)": "1.09",
+      "2 (-1)": "5.5",
+      "1 (+1.5)": "1.059",
+      "2 (-1.5)": "6.2"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/96463-germany-bundesliga/369677480-1-koln-borussia-monchengladbach",
+    "derniere_maj": "2026-09-24T07:04:12.003259+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Freiburg",
+    "equipe_2": "Schalke 04",
+    "1X2": {
+      "V1": "1.685",
+      "X": "4.11",
+      "V2": "5.6"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "8.1",
+      "2 (+3.5)": "1.019",
+      "1 (-3)": "7.5",
+      "2 (+3)": "1.029",
+      "1 (-2.5)": "4.35",
+      "2 (+2.5)": "1.151",
+      "1 (-2)": "3.74",
+      "2 (+2)": "1.22",
+      "1 (-1.5)": "2.649",
+      "2 (+1.5)": "1.568",
+      "1 (-1)": "2.01",
+      "2 (+1)": "1.82",
+      "1 (0)": "1.22",
+      "2 (0)": "3.82",
+      "1 (+1)": "1.007",
+      "2 (-1)": "9.4",
+      "1 (+1.5)": "1.01",
+      "2 (-1.5)": "11.5"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/96463-germany-bundesliga/369677484-freiburg-schalke-04",
+    "derniere_maj": "2026-09-24T07:04:18.998525+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Rc",
+    "equipe_2": "Lens Lyon",
+    "1X2": {
+      "V1": "2.261",
+      "X": "3.82",
+      "V2": "3.21"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "7.3",
+      "2 (+2.5)": "1.033",
+      "1 (-2)": "6.55",
+      "2 (+2)": "1.05",
+      "1 (-1.5)": "3.66",
+      "2 (+1.5)": "1.22",
+      "1 (-1)": "3.04",
+      "2 (+1)": "1.33",
+      "1 (0)": "1.69",
+      "2 (0)": "2.36",
+      "1 (+1)": "1.131",
+      "2 (-1)": "5.1",
+      "1 (+1.5)": "1.085",
+      "2 (-1.5)": "5.85",
+      "1 (+2)": "1.01",
+      "2 (-2)": "11.5"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/12821-france-ligue-1/370200908-rc-lens-lyon",
+    "derniere_maj": "2026-09-24T07:04:26.842990+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Lille Osc",
+    "equipe_2": "Le Havre",
+    "1X2": {
+      "V1": "1.49",
+      "X": "4.78",
+      "V2": "7.4"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "7.1",
+      "2 (+3.5)": "1.036",
+      "1 (-3)": "6.6",
+      "2 (+3)": "1.056",
+      "1 (-2.5)": "3.84",
+      "2 (+2.5)": "1.21",
+      "1 (-2)": "3.22",
+      "2 (+2)": "1.31",
+      "1 (-1.5)": "2.32",
+      "2 (+1.5)": "1.712",
+      "1 (-1)": "1.67",
+      "2 (+1)": "2.1",
+      "1 (0)": "1.115",
+      "2 (0)": "5.1"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/12821-france-ligue-1/369751682-lille-osc-le-havre",
+    "derniere_maj": "2026-09-24T07:04:27.645802+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "As",
+    "equipe_2": "Monaco Toulouse",
+    "1X2": {
+      "V1": "1.746",
+      "X": "4.21",
+      "V2": "4.875"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "11",
+      "2 (+3.5)": "1.01",
+      "1 (-3)": "9.8",
+      "2 (+3)": "1.02",
+      "1 (-2.5)": "5.3",
+      "2 (+2.5)": "1.099",
+      "1 (-2)": "4.55",
+      "2 (+2)": "1.154",
+      "1 (-1.5)": "2.992",
+      "2 (+1.5)": "1.468",
+      "1 (-1)": "2.18",
+      "2 (+1)": "1.7",
       "1 (0)": "1.26",
       "2 (0)": "3.48",
-      "1 (+1)": "1.002",
-      "2 (-1)": "9.9",
-      "1 (+1.5)": "1.01",
-      "2 (-1.5)": "9.9"
+      "1 (+1)": "1.007",
+      "2 (-1)": "9.4",
+      "1 (+1.5)": "1.03",
+      "2 (-1.5)": "9.7"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325871866-armenia-latvia",
-    "derniere_maj": "2026-09-24T05:55:49.927678+00:00",
+    "url": "https://5572183mp.pro/en/line/football/12821-france-ligue-1/369751678-as-monaco-toulouse",
+    "derniere_maj": "2026-09-24T07:04:25.194620+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Georgia",
-    "equipe_2": "Northern Ireland",
+    "equipe_1": "Lorient",
+    "equipe_2": "Paris",
     "1X2": {
-      "V1": "1.84",
-      "X": "3.56",
-      "V2": "4.34"
+      "V1": "3.18",
+      "X": "3.47",
+      "V2": "2.423"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "6.45",
+      "2 (+1.5)": "1.066",
+      "1 (-1)": "5.55",
+      "2 (+1)": "1.111",
+      "1 (0)": "2.267",
+      "2 (0)": "1.742",
+      "1 (+1)": "1.25",
+      "2 (-1)": "3.56",
+      "1 (+1.5)": "1.151",
+      "2 (-1.5)": "4.5",
+      "1 (+2)": "1.008",
+      "2 (-2)": "8.9",
+      "1 (+2.5)": "1.02",
+      "2 (-2.5)": "9.7"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/12821-france-ligue-1/369751680-lorient-paris",
+    "derniere_maj": "2026-09-24T07:04:28.189772+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Paris Saint",
+    "equipe_2": "Germain Le Mans",
+    "1X2": {
+      "V1": "1.107",
+      "X": "13.4",
+      "V2": "26"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-5.5)": "7.6",
+      "2 (+5.5)": "1.027",
+      "1 (-5)": "7",
+      "2 (+5)": "1.039",
+      "1 (-4.5)": "4.3",
+      "2 (+4.5)": "1.147",
+      "1 (-4)": "3.68",
+      "2 (+4)": "1.21",
+      "1 (-3.5)": "2.61",
+      "2 (+3.5)": "1.42",
+      "1 (-3)": "2.17",
+      "2 (+3)": "1.63",
+      "1 (-2.5)": "1.845",
+      "2 (+2.5)": "2.113",
+      "1 (-2)": "1.42",
+      "2 (+2)": "2.7",
+      "1 (-1.5)": "1.285",
+      "2 (+1.5)": "3.24",
+      "1 (-1)": "1.098",
+      "2 (+1)": "5.35"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/12821-france-ligue-1/369751686-paris-saint-germain-le-mans",
+    "derniere_maj": "2026-09-24T07:04:28.190476+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Stade Brestois",
+    "equipe_2": "29 Angers Sco",
+    "1X2": {
+      "V1": "1.962",
+      "X": "3.945",
+      "V2": "3.965"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "6.2",
+      "2 (+2.5)": "1.066",
+      "1 (-2)": "5.65",
+      "2 (+2)": "1.1",
+      "1 (-1.5)": "3.28",
+      "2 (+1.5)": "1.3",
+      "1 (-1)": "2.625",
+      "2 (+1)": "1.5",
+      "1 (0)": "1.462",
+      "2 (0)": "3.015",
+      "1 (+1)": "1.053",
+      "2 (-1)": "6.7",
+      "1 (+1.5)": "1.03",
+      "2 (-1.5)": "7.4"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/12821-france-ligue-1/369751674-stade-brestois-29-angers-sco",
+    "derniere_maj": "2026-09-24T07:04:28.219336+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Nice",
+    "equipe_2": "Strasbourg",
+    "1X2": {
+      "V1": "2.282",
+      "X": "3.76",
+      "V2": "3.21"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1452,33 +1078,33 @@
     "Totals": {},
     "Handicap": {
       "1 (-2.5)": "7.5",
-      "2 (+2.5)": "1.036",
-      "1 (-2)": "6.6",
-      "2 (+2)": "1.069",
-      "1 (-1.5)": "3.4",
-      "2 (+1.5)": "1.28",
-      "1 (-1)": "2.645",
-      "2 (+1)": "1.48",
-      "1 (0)": "1.336",
-      "2 (0)": "3.28",
-      "1 (+1)": "1.008",
-      "2 (-1)": "9.4",
-      "1 (+1.5)": "1.03",
-      "2 (-1.5)": "9.8"
+      "2 (+2.5)": "1.028",
+      "1 (-2)": "6.85",
+      "2 (+2)": "1.043",
+      "1 (-1.5)": "3.85",
+      "2 (+1.5)": "1.2",
+      "1 (-1)": "3.15",
+      "2 (+1)": "1.31",
+      "1 (0)": "1.69",
+      "2 (0)": "2.36",
+      "1 (+1)": "1.126",
+      "2 (-1)": "5.2",
+      "1 (+1.5)": "1.082",
+      "2 (-1.5)": "5.95"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325871868-georgia-northern-ireland",
-    "derniere_maj": "2026-09-24T05:55:48.351259+00:00",
+    "url": "https://5572183mp.pro/en/line/football/12821-france-ligue-1/370200916-nice-strasbourg",
+    "derniere_maj": "2026-09-24T07:04:33.830076+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Hungary",
-    "equipe_2": "Ukraine",
+    "equipe_1": "Stade",
+    "equipe_2": "Rennais Auxerre",
     "1X2": {
-      "V1": "2.31",
-      "X": "3.26",
-      "V2": "3.19"
+      "V1": "1.459",
+      "X": "5.24",
+      "V2": "7.19"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1495,34 +1121,34 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "9.4",
-      "2 (+2.5)": "1.03",
-      "1 (-2)": "9.3",
-      "2 (+2)": "1.002",
-      "1 (-1.5)": "4.55",
-      "2 (+1.5)": "1.145",
-      "1 (-1)": "3.64",
-      "2 (+1)": "1.24",
-      "1 (0)": "1.64",
-      "2 (0)": "2.256",
-      "1 (+1)": "1.092",
-      "2 (-1)": "6.05",
-      "1 (+1.5)": "1.051",
-      "2 (-1.5)": "7.1"
+      "1 (-3.5)": "6.4",
+      "2 (+3.5)": "1.053",
+      "1 (-3)": "5.8",
+      "2 (+3)": "1.08",
+      "1 (-2.5)": "3.42",
+      "2 (+2.5)": "1.26",
+      "1 (-2)": "2.85",
+      "2 (+2)": "1.38",
+      "1 (-1.5)": "2.167",
+      "2 (+1.5)": "1.806",
+      "1 (-1)": "1.6",
+      "2 (+1)": "2.22",
+      "1 (0)": "1.113",
+      "2 (0)": "5.15"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326182838-hungary-ukraine",
-    "derniere_maj": "2026-09-24T05:55:51.932496+00:00",
+    "url": "https://5572183mp.pro/en/line/football/12821-france-ligue-1/370200932-stade-rennais-auxerre",
+    "derniere_maj": "2026-09-24T07:05:04.992890+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Italy",
-    "equipe_2": "Belgium",
+    "equipe_1": "Malaga",
+    "equipe_2": "Espanyol",
     "1X2": {
-      "V1": "2.22",
-      "X": "3.5",
-      "V2": "3.15"
+      "V1": "2.743",
+      "X": "3.37",
+      "V2": "2.825"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1539,34 +1165,34 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "9",
-      "2 (+2.5)": "1.006",
-      "1 (-2)": "8",
+      "1 (-2.5)": "12",
+      "2 (+2.5)": "1.01",
+      "1 (-2)": "10.5",
       "2 (+2)": "1.02",
-      "1 (-1.5)": "4.15",
-      "2 (+1.5)": "1.176",
-      "1 (-1)": "3.3",
-      "2 (+1)": "1.285",
-      "1 (0)": "1.62",
-      "2 (0)": "2.296",
-      "1 (+1)": "1.104",
-      "2 (-1)": "5.7",
-      "1 (+1.5)": "1.061",
-      "2 (-1.5)": "6.65"
+      "1 (-1.5)": "5.3",
+      "2 (+1.5)": "1.107",
+      "1 (-1)": "4.4",
+      "2 (+1)": "1.171",
+      "1 (0)": "1.949",
+      "2 (0)": "1.991",
+      "1 (+1)": "1.157",
+      "2 (-1)": "4.65",
+      "1 (+1.5)": "1.098",
+      "2 (-1.5)": "5.5"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325995556-italy-belgium",
-    "derniere_maj": "2026-09-24T05:55:50.655501+00:00",
+    "url": "https://5572183mp.pro/en/line/football/127733-spain-la-liga/370685100-malaga-espanyol",
+    "derniere_maj": "2026-09-24T07:05:06.614491+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Poland Bosnia",
-    "equipe_2": "And Herzegovina",
+    "equipe_1": "Rayo Vallecano",
+    "equipe_2": "Athletic Bilbao",
     "1X2": {
-      "V1": "1.656",
-      "X": "3.86",
-      "V2": "5.25"
+      "V1": "3.21",
+      "X": "3.49",
+      "V2": "2.394"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1583,38 +1209,314 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-3.5)": "12",
-      "2 (+3.5)": "1.01",
-      "1 (-3)": "11",
-      "2 (+3)": "1.02",
-      "1 (-2.5)": "5.7",
-      "2 (+2.5)": "1.083",
+      "1 (-1.5)": "6",
+      "2 (+1.5)": "1.079",
+      "1 (-1)": "5.25",
+      "2 (+1)": "1.123",
+      "1 (0)": "2.287",
+      "2 (0)": "1.73",
+      "1 (+1)": "1.27",
+      "2 (-1)": "3.4",
+      "1 (+1.5)": "1.17",
+      "2 (-1.5)": "4.2",
+      "1 (+2)": "1.027",
+      "2 (-2)": "7.6",
+      "1 (+2.5)": "1.015",
+      "2 (-2.5)": "8.3"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/127733-spain-la-liga/370685104-rayo-vallecano-athletic-bilbao",
+    "derniere_maj": "2026-09-24T07:05:06.860200+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Deportivo Alaves",
+    "equipe_2": "Atletico Madrid",
+    "1X2": {
+      "V1": "4.025",
+      "X": "3.8",
+      "V2": "1.984"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "7.9",
+      "2 (+1.5)": "1.035",
+      "1 (-1)": "7.2",
+      "2 (+1)": "1.061",
+      "1 (0)": "2.965",
+      "2 (0)": "1.475",
+      "1 (+1)": "1.44",
+      "2 (-1)": "2.59",
+      "1 (+1.5)": "1.27",
+      "2 (-1.5)": "3.28",
+      "1 (+2)": "1.077",
+      "2 (-2)": "5.65",
+      "1 (+2.5)": "1.054",
+      "2 (-2.5)": "6.4"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/127733-spain-la-liga/370685118-deportivo-alaves-atletico-madrid",
+    "derniere_maj": "2026-09-24T07:05:06.909503+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Barcelona",
+    "equipe_2": "Getafe",
+    "1X2": {
+      "V1": "1.057",
+      "X": "20",
+      "V2": "46"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-6)": "11.5",
+      "2 (+6)": "1.01",
+      "1 (-5.5)": "6.4",
+      "2 (+5.5)": "1.053",
+      "1 (-5)": "5.8",
+      "2 (+5)": "1.072",
+      "1 (-4.5)": "3.58",
+      "2 (+4.5)": "1.22",
+      "1 (-4)": "3.1",
+      "2 (+4)": "1.31",
+      "1 (-3.5)": "2.394",
+      "2 (+3.5)": "1.674",
+      "1 (-3)": "1.9",
+      "2 (+3)": "1.92",
+      "1 (-2.5)": "1.56",
+      "2 (+2.5)": "2.3",
+      "1 (-2)": "1.27",
+      "2 (+2)": "3.34",
+      "1 (-1.5)": "1.175",
+      "2 (+1.5)": "4.05"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/127733-spain-la-liga/370685124-barcelona-getafe",
+    "derniere_maj": "2026-09-24T07:05:06.845134+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Real",
+    "equipe_2": "Madrid Villarreal",
+    "1X2": {
+      "V1": "1.319",
+      "X": "6.4",
+      "V2": "9.85"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-4.5)": "8.3",
+      "2 (+4.5)": "1.016",
+      "1 (-4)": "7.5",
+      "2 (+4)": "1.028",
+      "1 (-3.5)": "4.45",
+      "2 (+3.5)": "1.146",
+      "1 (-3)": "3.74",
+      "2 (+3)": "1.22",
+      "1 (-2.5)": "2.61",
+      "2 (+2.5)": "1.444",
+      "1 (-2)": "2.17",
+      "2 (+2)": "1.71",
+      "1 (-1.5)": "1.811",
+      "2 (+1.5)": "2.16",
+      "1 (-1)": "1.36",
+      "2 (+1)": "2.84",
+      "1 (0)": "1.071",
+      "2 (0)": "5.95"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/127733-spain-la-liga/370685134-real-madrid-villarreal",
+    "derniere_maj": "2026-09-24T07:05:06.838312+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Elche",
+    "equipe_2": "Celta",
+    "1X2": {
+      "V1": "2.967",
+      "X": "3.325",
+      "V2": "2.649"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "6.05",
+      "2 (+1.5)": "1.078",
+      "1 (-1)": "5.1",
+      "2 (+1)": "1.131",
+      "1 (0)": "2.084",
+      "2 (0)": "1.867",
+      "1 (+1)": "1.182",
+      "2 (-1)": "4.25",
+      "1 (+1.5)": "1.111",
+      "2 (-1.5)": "5.2",
+      "1 (+2)": "1.02",
+      "2 (-2)": "10",
+      "1 (+2.5)": "1.01",
+      "2 (-2.5)": "11.5"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/127733-spain-la-liga/370685138-elche-celta",
+    "derniere_maj": "2026-09-24T07:05:27.279314+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Real Sociedad Deportivo",
+    "equipe_2": "De A Coruna",
+    "1X2": {
+      "V1": "1.806",
+      "X": "3.9",
+      "V2": "4.875"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3)": "11.5",
+      "2 (+3)": "1.01",
+      "1 (-2.5)": "5.6",
+      "2 (+2.5)": "1.087",
       "1 (-2)": "4.9",
       "2 (+2)": "1.134",
-      "1 (-1.5)": "2.9",
-      "2 (+1.5)": "1.41",
-      "1 (-1)": "2.185",
-      "2 (+1)": "1.68",
-      "1 (0)": "1.222",
-      "2 (0)": "3.8",
-      "1 (+1)": "1.03",
-      "2 (-1)": "9.8",
+      "1 (-1.5)": "3.325",
+      "2 (+1.5)": "1.399",
+      "1 (-1)": "2.31",
+      "2 (+1)": "1.63",
+      "1 (0)": "1.28",
+      "2 (0)": "3.34",
+      "1 (+1)": "1.012",
+      "2 (-1)": "9",
+      "1 (+1.5)": "1.002",
+      "2 (-1.5)": "9.9"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/127733-spain-la-liga/370685110-real-sociedad-deportivo-de-a-coruna",
+    "derniere_maj": "2026-09-24T07:05:20.759334+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Real",
+    "equipe_2": "Betis Osasuna",
+    "1X2": {
+      "V1": "1.715",
+      "X": "4.21",
+      "V2": "5.13"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "11.5",
+      "2 (+3.5)": "1.01",
+      "1 (-3)": "10.5",
+      "2 (+3)": "1.02",
+      "1 (-2.5)": "5.3",
+      "2 (+2.5)": "1.098",
+      "1 (-2)": "4.55",
+      "2 (+2)": "1.153",
+      "1 (-1.5)": "2.892",
+      "2 (+1.5)": "1.494",
+      "1 (-1)": "2.15",
+      "2 (+1)": "1.72",
+      "1 (0)": "1.24",
+      "2 (0)": "3.64",
+      "1 (+1)": "1.002",
+      "2 (-1)": "10.5",
       "1 (+1.5)": "1.02",
-      "2 (-1.5)": "11"
+      "2 (-1.5)": "10"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326342396-poland-bosnia-and-herzegovina",
-    "derniere_maj": "2026-09-24T05:55:52.267327+00:00",
+    "url": "https://5572183mp.pro/en/line/football/127733-spain-la-liga/370685130-real-betis-osasuna",
+    "derniere_maj": "2026-09-24T07:05:20.530034+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Turkey",
-    "equipe_2": "France",
+    "equipe_1": "Arsenal",
+    "equipe_2": "Leeds United",
     "1X2": {
-      "V1": "7",
-      "X": "4.64",
-      "V2": "1.435"
+      "V1": "1.399",
+      "X": "5.19",
+      "V2": "9.25"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1631,38 +1533,34 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-1.5)": "12.5",
-      "2 (+1.5)": "1.01",
-      "1 (-1)": "11.5",
-      "2 (+1)": "1.01",
-      "1 (0)": "5.3",
-      "2 (0)": "1.12",
-      "1 (+1)": "2.205",
-      "2 (-1)": "1.67",
-      "1 (+1.5)": "1.712",
-      "2 (-1.5)": "2.13",
-      "1 (+2)": "1.35",
-      "2 (-2)": "2.89",
-      "1 (+2.5)": "1.24",
-      "2 (-2.5)": "3.42",
-      "1 (+3)": "1.069",
-      "2 (-3)": "5.9",
-      "1 (+3.5)": "1.047",
-      "2 (-3.5)": "6.65"
+      "1 (-3.5)": "7.3",
+      "2 (+3.5)": "1.033",
+      "1 (-3)": "6.45",
+      "2 (+3)": "1.059",
+      "1 (-2.5)": "3.56",
+      "2 (+2.5)": "1.24",
+      "1 (-2)": "2.93",
+      "2 (+2)": "1.363",
+      "1 (-1.5)": "2.155",
+      "2 (+1.5)": "1.814",
+      "1 (-1)": "1.533",
+      "2 (+1)": "2.375",
+      "1 (0)": "1.078",
+      "2 (0)": "6.2"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/325995560-turkey-france",
-    "derniere_maj": "2026-09-24T05:56:03.336385+00:00",
+    "url": "https://5572183mp.pro/en/line/football/88637-england-premier-league/369147714-arsenal-leeds-united",
+    "derniere_maj": "2026-09-24T07:05:20.471829+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Montenegro",
-    "equipe_2": "Cyprus",
+    "equipe_1": "Aston",
+    "equipe_2": "Villa Brentford",
     "1X2": {
-      "V1": "1.735",
-      "X": "3.68",
-      "V2": "4.88"
+      "V1": "2.63",
+      "X": "3.575",
+      "V2": "2.815"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1679,34 +1577,458 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "5.95",
-      "2 (+2.5)": "1.075",
-      "1 (-2)": "5.2",
-      "2 (+2)": "1.118",
-      "1 (-1.5)": "3.17",
-      "2 (+1.5)": "1.355",
-      "1 (-1)": "2.336",
-      "2 (+1)": "1.6",
+      "1 (-2.5)": "11.5",
+      "2 (+2.5)": "1.01",
+      "1 (-2)": "8.7",
+      "2 (+2)": "1.01",
+      "1 (-1.5)": "4.65",
+      "2 (+1.5)": "1.139",
+      "1 (-1)": "3.82",
+      "2 (+1)": "1.22",
+      "1 (0)": "1.915",
+      "2 (0)": "2.028",
+      "1 (+1)": "1.179",
+      "2 (-1)": "4.3",
+      "1 (+1.5)": "1.117",
+      "2 (-1.5)": "5.05",
+      "1 (+2)": "1.004",
+      "2 (-2)": "9.7",
+      "1 (+2.5)": "1.02",
+      "2 (-2.5)": "10.5"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/88637-england-premier-league/369147744-aston-villa-brentford",
+    "derniere_maj": "2026-09-24T07:05:58.767648+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Ipswich",
+    "equipe_2": "Town Fulham",
+    "1X2": {
+      "V1": "2.786",
+      "X": "3.615",
+      "V2": "2.632"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "11.5",
+      "2 (+2.5)": "1.01",
+      "1 (-2)": "10.5",
+      "2 (+2)": "1.02",
+      "1 (-1.5)": "5.35",
+      "2 (+1.5)": "1.104",
+      "1 (-1)": "4.45",
+      "2 (+1)": "1.168",
+      "1 (0)": "2.028",
+      "2 (0)": "1.915",
+      "1 (+1)": "1.198",
+      "2 (-1)": "4.05",
+      "1 (+1.5)": "1.124",
+      "2 (-1.5)": "4.95",
+      "1 (+2)": "1.03",
+      "2 (-2)": "9.4",
+      "1 (+2.5)": "1.02",
+      "2 (-2.5)": "10.5"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/88637-england-premier-league/369147834-ipswich-town-fulham",
+    "derniere_maj": "2026-09-24T07:05:20.522826+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Sunderland Brighton",
+    "equipe_2": " Hove Albion",
+    "1X2": {
+      "V1": "2.888",
+      "X": "3.555",
+      "V2": "2.579"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2)": "11",
+      "2 (+2)": "1.01",
+      "1 (-1.5)": "5.45",
+      "2 (+1.5)": "1.1",
+      "1 (-1)": "4.65",
+      "2 (+1)": "1.157",
+      "1 (0)": "2.084",
+      "2 (0)": "1.867",
+      "1 (+1)": "1.22",
+      "2 (-1)": "3.82",
+      "1 (+1.5)": "1.137",
+      "2 (-1.5)": "4.7",
+      "1 (+2)": "1.006",
+      "2 (-2)": "9",
+      "1 (+2.5)": "1.02",
+      "2 (-2.5)": "10.5"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/88637-england-premier-league/369147852-sunderland-brighton--hove-albion",
+    "derniere_maj": "2026-09-24T07:05:20.789702+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Chelsea",
+    "equipe_2": "Bournemouth",
+    "1X2": {
+      "V1": "1.909",
+      "X": "4.155",
+      "V2": "3.98"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "11",
+      "2 (+3.5)": "1.01",
+      "1 (-3)": "9",
+      "2 (+3)": "1.006",
+      "1 (-2.5)": "5.2",
+      "2 (+2.5)": "1.104",
+      "1 (-2)": "4.65",
+      "2 (+2)": "1.148",
+      "1 (-1.5)": "2.94",
+      "2 (+1.5)": "1.36",
+      "1 (-1)": "2.42",
+      "2 (+1)": "1.58",
+      "1 (0)": "1.452",
+      "2 (0)": "3.06",
+      "1 (+1)": "1.066",
+      "2 (-1)": "6.2",
+      "1 (+1.5)": "1.042",
+      "2 (-1.5)": "6.85"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/88637-england-premier-league/369147822-chelsea-bournemouth",
+    "derniere_maj": "2026-09-24T07:05:32.211454+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Manchester United",
+    "equipe_2": "Tottenham Hotspur",
+    "1X2": {
+      "V1": "1.748",
+      "X": "4.315",
+      "V2": "4.725"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3.5)": "10.5",
+      "2 (+3.5)": "1.02",
+      "1 (-3)": "9.1",
+      "2 (+3)": "1.004",
+      "1 (-2.5)": "4.9",
+      "2 (+2.5)": "1.119",
+      "1 (-2)": "4.2",
+      "2 (+2)": "1.179",
+      "1 (-1.5)": "2.817",
+      "2 (+1.5)": "1.514",
+      "1 (-1)": "2.15",
+      "2 (+1)": "1.72",
       "1 (0)": "1.27",
       "2 (0)": "3.4",
-      "1 (+1)": "1.003",
-      "2 (-1)": "9.8",
-      "1 (+1.5)": "1.01",
-      "2 (-1.5)": "9.6"
+      "1 (+1)": "1.016",
+      "2 (-1)": "8.7",
+      "1 (+1.5)": "1.04",
+      "2 (-1.5)": "8.8"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326182840-montenegro-cyprus",
-    "derniere_maj": "2026-09-24T05:56:06.657829+00:00",
+    "url": "https://5572183mp.pro/en/line/football/88637-england-premier-league/369147780-manchester-united-tottenham-hotspur",
+    "derniere_maj": "2026-09-24T07:05:36.678355+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Sweden",
-    "equipe_2": "Romania",
+    "equipe_1": "Crystal Palace",
+    "equipe_2": "Nottingham Forest",
     "1X2": {
-      "V1": "1.496",
-      "X": "4.56",
-      "V2": "6"
+      "V1": "2.744",
+      "X": "3.47",
+      "V2": "2.755"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2)": "11",
+      "2 (+2)": "1.01",
+      "1 (-1.5)": "5.5",
+      "2 (+1.5)": "1.097",
+      "1 (-1)": "4.55",
+      "2 (+1)": "1.161",
+      "1 (0)": "1.964",
+      "2 (0)": "1.976",
+      "1 (+1)": "1.159",
+      "2 (-1)": "4.6",
+      "1 (+1.5)": "1.096",
+      "2 (-1.5)": "5.55",
+      "1 (+2)": "1.01",
+      "2 (-2)": "11"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/88637-england-premier-league/369147840-crystal-palace-nottingham-forest",
+    "derniere_maj": "2026-09-24T07:05:36.677874+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Hull",
+    "equipe_2": "City Everton",
+    "1X2": {
+      "V1": "3.8",
+      "X": "3.545",
+      "V2": "2.127"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "8.1",
+      "2 (+1.5)": "1.031",
+      "1 (-1)": "7.3",
+      "2 (+1)": "1.06",
+      "1 (0)": "2.709",
+      "2 (0)": "1.548",
+      "1 (+1)": "1.333",
+      "2 (-1)": "3.02",
+      "1 (+1.5)": "1.21",
+      "2 (-1.5)": "3.75",
+      "1 (+2)": "1.034",
+      "2 (-2)": "7.3",
+      "1 (+2.5)": "1.018",
+      "2 (-2.5)": "8.1"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/88637-england-premier-league/369147830-hull-city-everton",
+    "derniere_maj": "2026-09-24T07:05:36.712348+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Liverpool",
+    "equipe_2": "Manchester City",
+    "1X2": {
+      "V1": "2.816",
+      "X": "3.8",
+      "V2": "2.518"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "10.5",
+      "2 (+2.5)": "1.02",
+      "1 (-2)": "8.9",
+      "2 (+2)": "1.008",
+      "1 (-1.5)": "4.9",
+      "2 (+1.5)": "1.125",
+      "1 (-1)": "4.2",
+      "2 (+1)": "1.186",
+      "1 (0)": "2.084",
+      "2 (0)": "1.867",
+      "1 (+1)": "1.25",
+      "2 (-1)": "3.56",
+      "1 (+1.5)": "1.166",
+      "2 (-1.5)": "4.25",
+      "1 (+2)": "1.029",
+      "2 (-2)": "7.5",
+      "1 (+2.5)": "1.018",
+      "2 (-2.5)": "8.1"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/88637-england-premier-league/369147786-liverpool-manchester-city",
+    "derniere_maj": "2026-09-24T07:05:36.668767+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Genoa",
+    "equipe_2": "Fiorentina",
+    "1X2": {
+      "V1": "3.25",
+      "X": "3.48",
+      "V2": "2.378"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-1.5)": "6.8",
+      "2 (+1.5)": "1.051",
+      "1 (-1)": "5.85",
+      "2 (+1)": "1.093",
+      "1 (0)": "2.322",
+      "2 (0)": "1.71",
+      "1 (+1)": "1.24",
+      "2 (-1)": "3.58",
+      "1 (+1.5)": "1.145",
+      "2 (-1.5)": "4.45",
+      "1 (+2)": "1.004",
+      "2 (-2)": "9.1",
+      "1 (+2.5)": "1.02",
+      "2 (-2.5)": "9.8"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/110163-italy-serie-a/370382558-genoa-fiorentina",
+    "derniere_maj": "2026-09-24T07:05:37.166239+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Internazionale",
+    "equipe_2": "Milano Parma",
+    "1X2": {
+      "V1": "1.159",
+      "X": "9.8",
+      "V2": "19.5"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-5)": "11.5",
+      "2 (+5)": "1.01",
+      "1 (-4.5)": "5.65",
+      "2 (+4.5)": "1.078",
+      "1 (-4)": "5.05",
+      "2 (+4)": "1.103",
+      "1 (-3.5)": "3.28",
+      "2 (+3.5)": "1.27",
+      "1 (-3)": "2.77",
+      "2 (+3)": "1.39",
+      "1 (-2.5)": "2.174",
+      "2 (+2.5)": "1.801",
+      "1 (-2)": "1.64",
+      "2 (+2)": "2.13",
+      "1 (-1.5)": "1.41",
+      "2 (+1.5)": "2.61",
+      "1 (-1)": "1.146",
+      "2 (+1)": "4.33",
+      "1 (0)": "1.03",
+      "2 (0)": "13"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/110163-italy-serie-a/370382534-internazionale-milano-parma",
+    "derniere_maj": "2026-09-24T07:05:42.287035+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Napoli",
+    "equipe_2": "Frosinone Calcio",
+    "1X2": {
+      "V1": "1.504",
+      "X": "4.84",
+      "V2": "6.95"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1725,36 +2047,126 @@
     "Handicap": {
       "1 (-3.5)": "7.5",
       "2 (+3.5)": "1.029",
-      "1 (-3)": "6.85",
-      "2 (+3)": "1.042",
-      "1 (-2.5)": "3.98",
-      "2 (+2.5)": "1.179",
-      "1 (-2)": "3.34",
-      "2 (+2)": "1.27",
-      "1 (-1.5)": "2.33",
-      "2 (+1.5)": "1.605",
-      "1 (-1)": "1.81",
-      "2 (+1)": "2",
-      "1 (0)": "1.168",
-      "2 (0)": "4.45",
+      "1 (-3)": "6.7",
+      "2 (+3)": "1.046",
+      "1 (-2.5)": "3.75",
+      "2 (+2.5)": "1.193",
+      "1 (-2)": "3.1",
+      "2 (+2)": "1.3",
+      "1 (-1.5)": "2.308",
+      "2 (+1.5)": "1.718",
+      "1 (-1)": "1.72",
+      "2 (+1)": "2.13",
+      "1 (0)": "1.127",
+      "2 (0)": "5.05"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/110163-italy-serie-a/370382542-napoli-frosinone-calcio",
+    "derniere_maj": "2026-09-24T07:05:44.071360+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Como",
+    "equipe_2": "Roma",
+    "1X2": {
+      "V1": "2.647",
+      "X": "3.685",
+      "V2": "2.73"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-2.5)": "10.5",
+      "2 (+2.5)": "1.02",
+      "1 (-2)": "9.4",
+      "2 (+2)": "1.03",
+      "1 (-1.5)": "4.9",
+      "2 (+1.5)": "1.118",
+      "1 (-1)": "4.1",
+      "2 (+1)": "1.19",
+      "1 (0)": "1.944",
+      "2 (0)": "1.996",
+      "1 (+1)": "1.174",
+      "2 (-1)": "4.3",
+      "1 (+1.5)": "1.108",
+      "2 (-1.5)": "5.1",
+      "1 (+2)": "1.02",
+      "2 (-2)": "9.9",
+      "1 (+2.5)": "1.01",
+      "2 (-2.5)": "11"
+    },
+    "Score_Exact": {},
+    "url": "https://5572183mp.pro/en/line/football/110163-italy-serie-a/370382538-como-roma",
+    "derniere_maj": "2026-09-24T07:05:49.741406+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Lazio",
+    "equipe_2": "Monza 1912",
+    "1X2": {
+      "V1": "1.78",
+      "X": "3.855",
+      "V2": "5.15"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (-3)": "12",
+      "2 (+3)": "1.01",
+      "1 (-2.5)": "5.75",
+      "2 (+2.5)": "1.075",
+      "1 (-2)": "5",
+      "2 (+2)": "1.12",
+      "1 (-1.5)": "3.345",
+      "2 (+1.5)": "1.396",
+      "1 (-1)": "2.28",
+      "2 (+1)": "1.63",
+      "1 (0)": "1.25",
+      "2 (0)": "3.5",
       "1 (+1)": "1.02",
       "2 (-1)": "10.5",
       "1 (+1.5)": "1.01",
-      "2 (-1.5)": "12"
+      "2 (-1.5)": "11.5"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326342442-sweden-romania",
-    "derniere_maj": "2026-09-24T05:56:05.470465+00:00",
+    "url": "https://5572183mp.pro/en/line/football/110163-italy-serie-a/370382984-lazio-monza-1912",
+    "derniere_maj": "2026-09-24T07:05:50.450944+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Home",
-    "equipe_2": "Away",
+    "equipe_1": "Lecce",
+    "equipe_2": "Bologna 1909",
     "1X2": {
-      "V1": "1.325",
-      "X": "13",
-      "V2": "4.5"
+      "V1": "4.46",
+      "X": "3.5",
+      "V2": "1.978"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1771,40 +2183,34 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-9.5)": "8.3",
-      "2 (+9.5)": "1.07",
-      "1 (-9)": "8",
-      "2 (+9)": "1.077",
-      "1 (-8.5)": "5.95",
-      "2 (+8.5)": "1.13",
-      "1 (-8)": "5.66",
-      "2 (+8)": "1.141",
-      "1 (-7.5)": "4.415",
-      "2 (+7.5)": "1.21",
-      "1 (-7)": "4.15",
-      "2 (+7)": "1.232",
-      "1 (-6.5)": "3.395",
-      "2 (+6.5)": "1.319",
-      "1 (-6)": "3.165",
-      "2 (+6)": "1.357",
-      "1 (-5.5)": "2.704",
-      "2 (+5.5)": "1.464",
-      "1 (-5)": "2.511",
-      "2 (+5)": "1.528"
+      "1 (-1.5)": "8.7",
+      "2 (+1.5)": "1.017",
+      "1 (-1)": "8.1",
+      "2 (+1)": "1.038",
+      "1 (0)": "3.18",
+      "2 (0)": "1.427",
+      "1 (+1)": "1.44",
+      "2 (-1)": "2.55",
+      "1 (+1.5)": "1.27",
+      "2 (-1.5)": "3.22",
+      "1 (+2)": "1.081",
+      "2 (-2)": "5.55",
+      "1 (+2.5)": "1.057",
+      "2 (-2.5)": "6.25"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/371577518-home-away",
-    "derniere_maj": "2026-09-24T05:56:42.598150+00:00",
+    "url": "https://5572183mp.pro/en/line/football/110163-italy-serie-a/370382992-lecce-bologna-1909",
+    "derniere_maj": "2026-09-24T07:05:51.398554+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Home Special Bets",
-    "equipe_2": "Away Special Bets",
+    "equipe_1": "Sassuolo",
+    "equipe_2": "Calcio Milan",
     "1X2": {
-      "V1": "1.504",
-      "X": "5.75",
-      "V2": "4.66"
+      "V1": "4.38",
+      "X": "3.935",
+      "V2": "1.876"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1821,32 +2227,34 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-3.5)": "4.89",
-      "2 (+3.5)": "1.179",
-      "1 (-3)": "4.26",
-      "2 (+3)": "1.22",
-      "1 (-2.5)": "2.888",
-      "2 (+2.5)": "1.416",
-      "1 (-2)": "2.439",
-      "2 (+2)": "1.556",
-      "1 (-1.5)": "1.96",
-      "2 (+1.5)": "1.845",
-      "1 (-1)": "1.65",
-      "2 (+1)": "2.235"
+      "1 (-1.5)": "8.9",
+      "2 (+1.5)": "1.007",
+      "1 (-1)": "8",
+      "2 (+1)": "1.022",
+      "1 (0)": "3.55",
+      "2 (0)": "1.363",
+      "1 (+1)": "1.55",
+      "2 (-1)": "2.46",
+      "1 (+1.5)": "1.32",
+      "2 (-1.5)": "3.1",
+      "1 (+2)": "1.104",
+      "2 (-2)": "5.35",
+      "1 (+2.5)": "1.064",
+      "2 (-2.5)": "6.1"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/371577610-home-special-bets-away-special-bets",
-    "derniere_maj": "2026-09-24T05:56:05.738384+00:00",
+    "url": "https://5572183mp.pro/en/line/football/110163-italy-serie-a/370382572-sassuolo-calcio-milan",
+    "derniere_maj": "2026-09-24T07:05:51.553165+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Home Special Bets",
-    "equipe_2": "Away Special Bets",
+    "equipe_1": "Cagliari",
+    "equipe_2": "Calcio Juventus",
     "1X2": {
-      "V1": "1.53",
-      "X": "9.7",
-      "V2": "3.36"
+      "V1": "6.64",
+      "X": "4.12",
+      "V2": "1.607"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -1863,214 +2271,24 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-6.5)": "6.13",
-      "2 (+6.5)": "1.124",
-      "1 (-6)": "5.75",
-      "2 (+6)": "1.136",
-      "1 (-5.5)": "4.34",
-      "2 (+5.5)": "1.216",
-      "1 (-5)": "4.04",
-      "2 (+5)": "1.242",
-      "1 (-4.5)": "3.23",
-      "2 (+4.5)": "1.345",
-      "1 (-4)": "2.978",
-      "2 (+4)": "1.395",
-      "1 (-3.5)": "2.525",
-      "2 (+3.5)": "1.525",
-      "1 (-3)": "2.311",
-      "2 (+3)": "1.613",
-      "1 (-2.5)": "2.06",
-      "2 (+2.5)": "1.765",
-      "1 (-2)": "1.89",
-      "2 (+2)": "1.91"
+      "1 (0)": "4.55",
+      "2 (0)": "1.156",
+      "1 (+1)": "1.88",
+      "2 (-1)": "1.93",
+      "1 (+1.5)": "1.575",
+      "2 (-1.5)": "2.629",
+      "1 (+2)": "1.195",
+      "2 (-2)": "3.92",
+      "1 (+2.5)": "1.129",
+      "2 (-2.5)": "4.6",
+      "1 (+3)": "1.015",
+      "2 (-3)": "8.3",
+      "1 (+3.5)": "1.006",
+      "2 (-3.5)": "9"
     },
     "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/371577706-home-special-bets-away-special-bets",
-    "derniere_maj": "2026-09-24T05:56:09.540223+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Slovenia",
-    "equipe_2": "Scotland",
-    "1X2": {
-      "V1": "2.65",
-      "X": "3.15",
-      "V2": "2.795"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2)": "11.5",
-      "2 (+2)": "1.01",
-      "1 (-1.5)": "5.3",
-      "2 (+1.5)": "1.106",
-      "1 (-1)": "4.45",
-      "2 (+1)": "1.169",
-      "1 (0)": "1.848",
-      "2 (0)": "1.955",
-      "1 (+1)": "1.144",
-      "2 (-1)": "4.85",
-      "1 (+1.5)": "1.091",
-      "2 (-1.5)": "5.7",
-      "1 (+2)": "1.01",
-      "2 (-2)": "12.5"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326503382-slovenia-scotland",
-    "derniere_maj": "2026-09-24T05:56:09.344354+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Bulgaria",
-    "equipe_2": "Luxembourg",
-    "1X2": {
-      "V1": "2.26",
-      "X": "3.12",
-      "V2": "3.44"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "10.2",
-      "2 (+2.5)": "1.005",
-      "1 (-2)": "9.5",
-      "2 (+2)": "1.019",
-      "1 (-1.5)": "4.6",
-      "2 (+1.5)": "1.165",
-      "1 (-1)": "3.74",
-      "2 (+1)": "1.275",
-      "1 (0)": "1.58",
-      "2 (0)": "2.38",
-      "1 (+1)": "1.055",
-      "2 (-1)": "6.6",
-      "1 (+1.5)": "1.027",
-      "2 (-1.5)": "7.6"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326646072-bulgaria-luxembourg",
-    "derniere_maj": "2026-09-24T05:56:11.351038+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Iceland",
-    "equipe_2": "Estonia",
-    "1X2": {
-      "V1": "1.275",
-      "X": "5.55",
-      "V2": "11"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-4)": "9",
-      "2 (+4)": "1.006",
-      "1 (-3.5)": "5.15",
-      "2 (+3.5)": "1.098",
-      "1 (-3)": "4.55",
-      "2 (+3)": "1.138",
-      "1 (-2.5)": "2.89",
-      "2 (+2.5)": "1.35",
-      "1 (-2)": "2.33",
-      "2 (+2)": "1.55",
-      "1 (-1.5)": "1.82",
-      "2 (+1.5)": "1.984",
-      "1 (-1)": "1.38",
-      "2 (+1)": "2.85",
-      "1 (0)": "1.048",
-      "2 (0)": "7.3"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326853884-iceland-estonia",
-    "derniere_maj": "2026-09-24T05:56:15.272331+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "San",
-    "equipe_2": "Marino Finland",
-    "1X2": {
-      "V1": "39",
-      "X": "9.3",
-      "V2": "1.088"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "15",
-      "2 (0)": "1.01",
-      "1 (+1)": "6.1",
-      "2 (-1)": "1.08",
-      "1 (+1.5)": "3.1",
-      "2 (-1.5)": "1.3",
-      "1 (+2)": "2.4",
-      "2 (-2)": "1.5",
-      "1 (+2.5)": "1.84",
-      "2 (-2.5)": "1.965",
-      "1 (+3)": "1.45",
-      "2 (-3)": "2.55",
-      "1 (+3.5)": "1.3",
-      "2 (-3.5)": "3.1",
-      "1 (+4)": "1.12",
-      "2 (-4)": "5",
-      "1 (+4.5)": "1.09",
-      "2 (-4.5)": "5.7",
-      "1 (+5)": "1.01",
-      "2 (-5)": "9.8"
-    },
-    "Score_Exact": {},
-    "url": "https://5572183mp.pro/en/line/football/1706694-uefa-nations-league/326853886-san-marino-finland",
-    "derniere_maj": "2026-09-24T05:56:15.865996+00:00",
+    "url": "https://5572183mp.pro/en/line/football/110163-italy-serie-a/370382990-cagliari-calcio-juventus",
+    "derniere_maj": "2026-09-24T07:05:49.842372+00:00",
     "statut": "ok"
   }
 ]
