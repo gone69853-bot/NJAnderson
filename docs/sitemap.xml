@@ -331,24 +331,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/russie-iran/</loc>
-        <lastmod>2026-09-24</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/russie-namibie/</loc>
-        <lastmod>2026-09-24</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/russie-nigeria/</loc>
-        <lastmod>2026-09-24</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/inde-panama/</loc>
         <lastmod>2026-09-24</lastmod>
         <changefreq>hourly</changefreq>
@@ -373,7 +355,25 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://zicote.site/russie-iran/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://zicote.site/usa-chili/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/russie-namibie/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/russie-nigeria/</loc>
         <lastmod>2026-09-24</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>

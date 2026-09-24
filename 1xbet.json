@@ -4,67 +4,67 @@
     "equipe_1": "Turkey",
     "equipe_2": "France",
     "1X2": {
-      "V1": "7.4",
-      "X": "4.95",
-      "V2": "1.441"
+      "V1": "7.9",
+      "X": "5.1",
+      "V2": "1.411"
     },
     "Total_2.5": {
-      "Plus de": "1.41",
-      "Moins de": "2.73"
+      "Plus de": "1.4",
+      "Moins de": "2.77"
     },
     "Double_Chance": {
-      "1X": "2.922",
-      "12": "1.198",
-      "2X": "1.109"
+      "1X": "3.05",
+      "12": "1.19",
+      "2X": "1.099"
     },
     "BTTS": {
-      "Oui": "1.59",
-      "Non": "2.24"
+      "Oui": "1.6",
+      "Non": "2.22"
     },
     "Totals": {
       "0.5": {
         "Plus de": "1.018",
-        "Moins de": "20"
+        "Moins de": "21"
       },
       "1": {
         "Plus de": "1.02",
-        "Moins de": "15"
+        "Moins de": "16"
       },
       "1.5": {
-        "Plus de": "1.081",
-        "Moins de": "5.75"
+        "Plus de": "1.078",
+        "Moins de": "5.8"
       },
       "2": {
-        "Plus de": "1.136",
-        "Moins de": "4.85"
+        "Plus de": "1.131",
+        "Moins de": "4.95"
       },
       "2.5": {
-        "Plus de": "1.41",
-        "Moins de": "2.73"
+        "Plus de": "1.4",
+        "Moins de": "2.77"
       },
       "3": {
-        "Plus de": "1.64",
-        "Moins de": "2.2"
+        "Plus de": "1.62",
+        "Moins de": "2.24"
       },
       "3.5": {
-        "Plus de": "2.122",
-        "Moins de": "1.787"
+        "Plus de": "2.092",
+        "Moins de": "1.808"
       },
       "4": {
-        "Plus de": "2.78",
-        "Moins de": "1.42"
+        "Plus de": "2.74",
+        "Moins de": "1.43"
       },
       "4.5": {
-        "Plus de": "3.36",
-        "Moins de": "1.285"
+        "Plus de": "3.26",
+        "Moins de": "1.3"
       },
       "5": {
-        "Plus de": "5.3",
-        "Moins de": "1.113"
+        "Plus de": "5.2",
+        "Moins de": "1.118"
       },
       "5.5": {
-        "Plus de": "5.9",
-        "Moins de": "1.076"
+        "Plus de": "5.75",
+        "Moins de": "1.08"
       },
       "6.5": {
         "Plus de": "13",
@@ -80,30 +80,28 @@
       }
     },
     "Handicap": {
-      "1 (-1)": "12.5",
-      "2 (+1)": "1.01",
-      "1 (0)": "5.65",
-      "2 (0)": "1.114",
-      "1 (+1)": "2.31",
-      "2 (-1)": "1.615",
-      "1 (+1.5)": "1.805",
-      "2 (-1.5)": "2.096",
-      "1 (+2)": "1.4",
-      "2 (-2)": "2.73",
-      "1 (+2.5)": "1.27",
-      "2 (-2.5)": "3.28",
-      "1 (+3)": "1.088",
-      "2 (-3)": "5.4",
-      "1 (+3.5)": "1.061",
-      "2 (-3.5)": "6.15",
-      "1 (+4)": "1.01",
-      "2 (-4)": "11.5",
+      "1 (0)": "5.9",
+      "2 (0)": "1.104",
+      "1 (+1)": "2.38",
+      "2 (-1)": "1.58",
+      "1 (+1.5)": "1.846",
+      "2 (-1.5)": "2.043",
+      "1 (+2)": "1.43",
+      "2 (-2)": "2.62",
+      "1 (+2.5)": "1.285",
+      "2 (-2.5)": "3.18",
+      "1 (+3)": "1.098",
+      "2 (-3)": "5.15",
+      "1 (+3.5)": "1.07",
+      "2 (-3.5)": "5.85",
+      "1 (+4)": "1.02",
+      "2 (-4)": "11",
       "1 (+4.5)": "1.01",
-      "2 (-4.5)": "12.5"
+      "2 (-4.5)": "11.5"
     },
     "Score_Exact": {
       "1-0": "21",
-      "0-0": "21",
+      "0-0": "22",
       "0-1": "9.5",
       "2-0": "41",
       "1-1": "9.5",
@@ -134,7 +132,7 @@
       "3-4": "60"
     },
     "url": "https://1xbet.cm/fr/line/football/1706694-uefa-nations-league/325995560-turkey-france",
-    "derniere_maj": "2026-09-24T20:44:21.704241+00:00",
+    "derniere_maj": "2026-09-24T21:04:43.551871+00:00",
     "statut": "ok"
   },
   {
@@ -274,7 +272,7 @@
       "3-4": "36"
     },
     "url": "https://1xbet.cm/fr/line/football/118587-uefa-champions-league/368594076-galatasaray-barcelona",
-    "derniere_maj": "2026-09-24T20:44:19.885481+00:00",
+    "derniere_maj": "2026-09-24T21:04:43.499717+00:00",
     "statut": "ok"
   },
   {
@@ -406,7 +404,7 @@
       "3-4": "100"
     },
     "url": "https://1xbet.cm/fr/line/football/118587-uefa-champions-league/368594074-arsenal-lille-osc",
-    "derniere_maj": "2026-09-24T20:44:23.617664+00:00",
+    "derniere_maj": "2026-09-24T21:04:43.832967+00:00",
     "statut": "ok"
   },
   {
@@ -538,7 +536,7 @@
       "3-4": "65"
     },
     "url": "https://1xbet.cm/fr/line/football/21317-africa-cup-of-nations/366841850-nigeria-madagascar",
-    "derniere_maj": "2026-09-24T20:44:23.697389+00:00",
+    "derniere_maj": "2026-09-24T21:04:57.971870+00:00",
     "statut": "ok"
   },
   {
@@ -546,31 +544,131 @@
     "equipe_1": "Morocco",
     "equipe_2": "Gabon",
     "1X2": {
-      "V1": "X6.55",
-      "X": "1X2 (2UP)",
-      "V2": "Match nul6.55"
+      "V1": "1.161",
+      "X": "6.55",
+      "V2": "15.5"
     },
     "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
+      "Plus de": "1.63",
+      "Moins de": "2.17"
     },
     "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
+      "1X": "1.009",
+      "12": "1.072",
+      "2X": "4.65"
     },
     "BTTS": {
-      "Oui": null,
-      "Non": null
+      "Oui": "2.51",
+      "Non": "1.465"
     },
-    "Totals": {},
-    "Handicap": {},
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.019",
+        "Moins de": "14.3"
+      },
+      "1": {
+        "Plus de": "1.02",
+        "Moins de": "10.5"
+      },
+      "1.5": {
+        "Plus de": "1.157",
+        "Moins de": "4.15"
+      },
+      "2": {
+        "Plus de": "1.25",
+        "Moins de": "3.3"
+      },
+      "2.5": {
+        "Plus de": "1.63",
+        "Moins de": "2.17"
+      },
+      "3": {
+        "Plus de": "1.99",
+        "Moins de": "1.666"
+      },
+      "3.5": {
+        "Plus de": "2.49",
+        "Moins de": "1.42"
+      },
+      "4": {
+        "Plus de": "3.82",
+        "Moins de": "1.186"
+      },
+      "4.5": {
+        "Plus de": "4.5",
+        "Moins de": "1.134"
+      },
+      "5": {
+        "Plus de": "7.8",
+        "Moins de": "1.023"
+      },
+      "5.5": {
+        "Plus de": "8.5",
+        "Moins de": "1.013"
+      },
+      "6.5": {
+        "Plus de": "11",
+        "Moins de": "1.02"
+      },
+      "7.5": {
+        "Plus de": "17",
+        "Moins de": "1.005"
+      }
+    },
+    "Handicap": {
+      "1 (-4.5)": "8.6",
+      "2 (+4.5)": "1.011",
+      "1 (-4)": "7.9",
+      "2 (+4)": "1.021",
+      "1 (-3.5)": "4.45",
+      "2 (+3.5)": "1.135",
+      "1 (-3)": "3.76",
+      "2 (+3)": "1.191",
+      "1 (-2.5)": "2.43",
+      "2 (+2.5)": "1.44",
+      "1 (-2)": "1.92",
+      "2 (+2)": "1.71",
+      "1 (-1.5)": "1.59",
+      "2 (+1.5)": "2.23",
+      "1 (-1)": "1.21",
+      "2 (+1)": "3.58",
+      "1 (0)": "1.01",
+      "2 (0)": "11.5"
+    },
     "Score_Exact": {
-      "0-117": "2-05",
-      "1-111": "0-255"
+      "1-0": "6.5",
+      "0-0": "14.5",
+      "0-1": "17",
+      "2-0": "5",
+      "1-1": "11",
+      "0-2": "55",
+      "2-1": "9.5",
+      "2-2": "26",
+      "1-2": "29",
+      "3-0": "6",
+      "3-3": "65",
+      "0-3": "65",
+      "3-1": "10",
+      "4-4": "65",
+      "1-3": "65",
+      "3-2": "41",
+      "5-5": "65",
+      "2-3": "65",
+      "4-0": "9",
+      "6-6": "100",
+      "0-4": "65",
+      "4-1": "15",
+      "7-7": "100",
+      "1-4": "65",
+      "4-2": "60",
+      "8-8": "100",
+      "2-4": "65",
+      "4-3": "65",
+      "9-9": "100",
+      "3-4": "65"
     },
     "url": "https://1xbet.cm/fr/line/football/21317-africa-cup-of-nations/366365672-morocco-gabon",
-    "derniere_maj": "2026-09-24T20:44:21.592010+00:00",
+    "derniere_maj": "2026-09-24T21:04:43.138497+00:00",
     "statut": "ok"
   },
   {
@@ -649,7 +747,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372987754-city--united-",
-    "derniere_maj": "2026-09-24T20:44:21.667240+00:00",
+    "derniere_maj": "2026-09-24T21:04:43.831691+00:00",
     "statut": "ok"
   },
   {
@@ -731,7 +829,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372987746-city--real-",
-    "derniere_maj": "2026-09-24T20:44:17.685813+00:00",
+    "derniere_maj": "2026-09-24T21:04:43.107668+00:00",
     "statut": "ok"
   },
   {
@@ -810,7 +908,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372987770-indy--louisville-",
-    "derniere_maj": "2026-09-24T20:44:21.614569+00:00",
+    "derniere_maj": "2026-09-24T21:04:43.833550+00:00",
     "statut": "ok"
   },
   {
@@ -892,7 +990,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372987786-indy--rowdies-",
-    "derniere_maj": "2026-09-24T20:44:29.298215+00:00",
+    "derniere_maj": "2026-09-24T21:04:54.331811+00:00",
     "statut": "ok"
   },
   {
@@ -971,7 +1069,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372987774-indy--tulsa-",
-    "derniere_maj": "2026-09-24T20:44:33.451788+00:00",
+    "derniere_maj": "2026-09-24T21:04:54.360558+00:00",
     "statut": "ok"
   },
   {
@@ -1053,7 +1151,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372987790-louisville--tulsa-",
-    "derniere_maj": "2026-09-24T20:44:35.466465+00:00",
+    "derniere_maj": "2026-09-24T21:04:54.753088+00:00",
     "statut": "ok"
   },
   {
@@ -1132,7 +1230,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372987780-louisville--rowdies-",
-    "derniere_maj": "2026-09-24T20:44:35.451056+00:00",
+    "derniere_maj": "2026-09-24T21:04:57.106151+00:00",
     "statut": "ok"
   },
   {
@@ -1211,7 +1309,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372987966-revolution--real-",
-    "derniere_maj": "2026-09-24T20:44:35.462702+00:00",
+    "derniere_maj": "2026-09-24T21:04:59.358279+00:00",
     "statut": "ok"
   },
   {
@@ -1290,7 +1388,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988016-revolution--city-",
-    "derniere_maj": "2026-09-24T20:44:35.582819+00:00",
+    "derniere_maj": "2026-09-24T21:04:57.511929+00:00",
     "statut": "ok"
   },
   {
@@ -1369,7 +1467,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372987962-revolution--united-",
-    "derniere_maj": "2026-09-24T20:44:35.122263+00:00",
+    "derniere_maj": "2026-09-24T21:04:57.514188+00:00",
     "statut": "ok"
   },
   {
@@ -1451,7 +1549,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372987996-rowdies--tulsa-",
-    "derniere_maj": "2026-09-24T20:44:38.102023+00:00",
+    "derniere_maj": "2026-09-24T21:05:09.674865+00:00",
     "statut": "ok"
   },
   {
@@ -1533,7 +1631,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988060-united--real-",
-    "derniere_maj": "2026-09-24T20:44:45.437420+00:00",
+    "derniere_maj": "2026-09-24T21:05:11.977984+00:00",
     "statut": "ok"
   },
   {
@@ -1616,7 +1714,7 @@
       "2-5": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988414-sounders--bulls-",
-    "derniere_maj": "2026-09-24T20:44:47.462197+00:00",
+    "derniere_maj": "2026-09-24T21:05:10.259639+00:00",
     "statut": "ok"
   },
   {
@@ -1695,7 +1793,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988456-sounders--timber-",
-    "derniere_maj": "2026-09-24T20:44:50.821707+00:00",
+    "derniere_maj": "2026-09-24T21:05:12.763555+00:00",
     "statut": "ok"
   },
   {
@@ -1777,7 +1875,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988394-timber--bulls-",
-    "derniere_maj": "2026-09-24T20:44:49.434817+00:00",
+    "derniere_maj": "2026-09-24T21:05:13.311850+00:00",
     "statut": "ok"
   },
   {
@@ -1856,7 +1954,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988430-whitecaps--sounders-",
-    "derniere_maj": "2026-09-24T20:44:49.437477+00:00",
+    "derniere_maj": "2026-09-24T21:05:13.311430+00:00",
     "statut": "ok"
   },
   {
@@ -1938,7 +2036,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988436-whitecaps--timber-",
-    "derniere_maj": "2026-09-24T20:44:49.288869+00:00",
+    "derniere_maj": "2026-09-24T21:05:12.433737+00:00",
     "statut": "ok"
   },
   {
@@ -2020,7 +2118,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988450-whitecaps--bulls-",
-    "derniere_maj": "2026-09-24T20:44:49.436153+00:00",
+    "derniere_maj": "2026-09-24T21:05:13.100763+00:00",
     "statut": "ok"
   },
   {
@@ -2101,7 +2199,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988478-inter--dynamo-",
-    "derniere_maj": "2026-09-24T20:44:51.886823+00:00",
+    "derniere_maj": "2026-09-24T21:05:21.774067+00:00",
     "statut": "ok"
   },
   {
@@ -2182,7 +2280,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988398-inter--union-",
-    "derniere_maj": "2026-09-24T20:44:57.339973+00:00",
+    "derniere_maj": "2026-09-24T21:05:21.974501+00:00",
     "statut": "ok"
   },
   {
@@ -2263,7 +2361,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988408-sporting--inter-",
-    "derniere_maj": "2026-09-24T20:44:59.118903+00:00",
+    "derniere_maj": "2026-09-24T21:06:18.835628+00:00",
     "statut": "ok"
   },
   {
@@ -2344,88 +2442,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988466-sporting--union-",
-    "derniere_maj": "2026-09-24T20:45:03.130557+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Sporting ",
-    "equipe_2": "Dynamo ",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.06",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": "2.07",
-      "Moins de": "1.64"
-    },
-    "Double_Chance": {
-      "1X": "1.53",
-      "12": "1.15",
-      "2X": "1.62"
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.3",
-        "Moins de": "3.08"
-      },
-      "4": {
-        "Plus de": "1.44",
-        "Moins de": "2.52"
-      },
-      "4.5": {
-        "Plus de": "1.76",
-        "Moins de": "1.91"
-      },
-      "5": {
-        "Plus de": "2.19",
-        "Moins de": "1.43"
-      },
-      "5.5": {
-        "Plus de": "2.65",
-        "Moins de": "1.18"
-      },
-      "6": {
-        "Plus de": "3.82",
-        "Moins de": "1.08"
-      }
-    },
-    "Handicap": {
-      "1 (-1)": "3",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.75",
-      "2 (0)": "1.91",
-      "1 (+1)": "1.25",
-      "2 (-1)": "3.39"
-    },
-    "Score_Exact": {
-      "1-0": "10",
-      "1-1": "10",
-      "0-2": "10",
-      "2-0": "10",
-      "2-2": "10",
-      "1-2": "10",
-      "2-1": "10",
-      "3-3": "10",
-      "1-3": "10",
-      "3-0": "10",
-      "2-3": "10",
-      "3-1": "10",
-      "1-4": "10",
-      "3-2": "10",
-      "2-4": "10",
-      "4-1": "10",
-      "3-4": "10",
-      "4-2": "10",
-      "4-3": "10"
-    },
-    "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988474-sporting--dynamo-",
-    "derniere_maj": "2026-09-24T20:45:03.382354+00:00",
+    "derniere_maj": "2026-09-24T21:06:18.817065+00:00",
     "statut": "ok"
   },
   {
@@ -2506,7 +2523,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988446-union--dynamo-",
-    "derniere_maj": "2026-09-24T20:45:03.380397+00:00",
+    "derniere_maj": "2026-09-24T21:06:18.902763+00:00",
     "statut": "ok"
   },
   {
@@ -2585,7 +2602,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988402-crew--minnesota-",
-    "derniere_maj": "2026-09-24T20:45:03.090268+00:00",
+    "derniere_maj": "2026-09-24T21:06:19.906893+00:00",
     "statut": "ok"
   },
   {
@@ -2667,7 +2684,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988586-dcunited--minnesota-",
-    "derniere_maj": "2026-09-24T20:45:04.332831+00:00",
+    "derniere_maj": "2026-09-24T21:06:18.599297+00:00",
     "statut": "ok"
   },
   {
@@ -2746,7 +2763,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988442-dcunited--crew-",
-    "derniere_maj": "2026-09-24T20:45:04.333969+00:00",
+    "derniere_maj": "2026-09-24T21:06:17.054846+00:00",
     "statut": "ok"
   },
   {
@@ -2825,7 +2842,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988550-dallas--dcunited-",
-    "derniere_maj": "2026-09-24T20:45:09.089108+00:00",
+    "derniere_maj": "2026-09-24T21:06:19.878908+00:00",
     "statut": "ok"
   },
   {
@@ -2907,7 +2924,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988540-dallas--crew-",
-    "derniere_maj": "2026-09-24T20:45:13.077139+00:00",
+    "derniere_maj": "2026-09-24T21:06:26.846105+00:00",
     "statut": "ok"
   },
   {
@@ -2985,7 +3002,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988544-dallas--minnesota-",
-    "derniere_maj": "2026-09-24T20:45:16.426246+00:00",
+    "derniere_maj": "2026-09-24T21:06:30.019431+00:00",
     "statut": "ok"
   },
   {
@@ -3066,7 +3083,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988546-chivas--detroit-",
-    "derniere_maj": "2026-09-24T20:45:16.428615+00:00",
+    "derniere_maj": "2026-09-24T21:07:07.255703+00:00",
     "statut": "ok"
   },
   {
@@ -3147,7 +3164,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988552-chivas--las-vegas-",
-    "derniere_maj": "2026-09-24T20:45:16.982980+00:00",
+    "derniere_maj": "2026-09-24T21:06:30.902469+00:00",
     "statut": "ok"
   },
   {
@@ -3228,7 +3245,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988576-chivas--memphis-",
-    "derniere_maj": "2026-09-24T20:45:17.822856+00:00",
+    "derniere_maj": "2026-09-24T21:06:30.895401+00:00",
     "statut": "ok"
   },
   {
@@ -3309,7 +3326,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988548-detroit--memphis-",
-    "derniere_maj": "2026-09-24T20:45:16.421657+00:00",
+    "derniere_maj": "2026-09-24T21:06:31.399487+00:00",
     "statut": "ok"
   },
   {
@@ -3390,7 +3407,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988590-detroit--las-vegas-",
-    "derniere_maj": "2026-09-24T20:45:18.436304+00:00",
+    "derniere_maj": "2026-09-24T21:07:08.687654+00:00",
     "statut": "ok"
   },
   {
@@ -3471,7 +3488,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988582-las-vegas--memphis-",
-    "derniere_maj": "2026-09-24T20:45:20.442415+00:00",
+    "derniere_maj": "2026-09-24T21:06:34.525638+00:00",
     "statut": "ok"
   },
   {
@@ -3550,7 +3567,7 @@
       "2-5": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988098-cincinnati--orlando-",
-    "derniere_maj": "2026-09-24T20:45:27.524890+00:00",
+    "derniere_maj": "2026-09-24T21:06:39.588534+00:00",
     "statut": "ok"
   },
   {
@@ -3633,7 +3650,7 @@
       "2-5": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372987972-cincinnati--nashville-",
-    "derniere_maj": "2026-09-24T20:45:27.874621+00:00",
+    "derniere_maj": "2026-09-24T21:06:40.185286+00:00",
     "statut": "ok"
   },
   {
@@ -3716,7 +3733,7 @@
       "2-5": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988018-nashville--orlando-",
-    "derniere_maj": "2026-09-24T20:45:27.634083+00:00",
+    "derniere_maj": "2026-09-24T21:06:40.278104+00:00",
     "statut": "ok"
   },
   {
@@ -3798,7 +3815,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988058-toronto-cincinnati-",
-    "derniere_maj": "2026-09-24T20:45:30.038645+00:00",
+    "derniere_maj": "2026-09-24T21:06:40.883250+00:00",
     "statut": "ok"
   },
   {
@@ -3877,7 +3894,7 @@
       "5-2": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988034-toronto-nashville-",
-    "derniere_maj": "2026-09-24T20:45:31.021376+00:00",
+    "derniere_maj": "2026-09-24T21:06:43.891618+00:00",
     "statut": "ok"
   },
   {
@@ -3960,7 +3977,7 @@
       "5-2": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988032-toronto-orlando-",
-    "derniere_maj": "2026-09-24T20:45:31.062387+00:00",
+    "derniere_maj": "2026-09-24T21:06:47.108914+00:00",
     "statut": "ok"
   },
   {
@@ -4043,7 +4060,7 @@
       "2-5": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988042-austin--fusion-",
-    "derniere_maj": "2026-09-24T20:45:31.882097+00:00",
+    "derniere_maj": "2026-09-24T21:06:49.649961+00:00",
     "statut": "ok"
   },
   {
@@ -4122,7 +4139,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988022-austin--st-louis-",
-    "derniere_maj": "2026-09-24T20:45:32.557983+00:00",
+    "derniere_maj": "2026-09-24T21:06:49.662471+00:00",
     "statut": "ok"
   },
   {
@@ -4203,7 +4220,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/372988118-birmingham--charleston-",
-    "derniere_maj": "2026-09-24T20:45:37.009730+00:00",
+    "derniere_maj": "2026-09-24T21:06:50.124954+00:00",
     "statut": "ok"
   }
 ]
