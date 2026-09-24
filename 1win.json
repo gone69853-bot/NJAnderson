@@ -1,36 +1,19 @@
 [
   {
     "bookmaker": "1win",
-    "equipe_1": "Japon",
-    "equipe_2": "Uruguay",
-    "1X2": {
-      "V1": "1.72",
-      "X": "3.77",
-      "V2": "4.65"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-24T09:00:38.418300+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
     "equipe_1": "République de Corée",
     "equipe_2": "Équateur",
     "1X2": {
-      "V1": "2.22",
-      "X": "3.33",
-      "V2": "3.21"
+      "V1": "2.26",
+      "X": "3.3",
+      "V2": "3.15"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-24T09:00:38.418322+00:00",
+    "derniere_maj": "2026-09-24T10:21:03.254221+00:00",
     "statut": "ok"
   },
   {
@@ -38,16 +21,16 @@
     "equipe_1": "Australie",
     "equipe_2": "Brésil",
     "1X2": {
-      "V1": "8.8",
+      "V1": "8.5",
       "X": "5.1",
-      "V2": "1.33"
+      "V2": "1.34"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-24T09:00:38.418333+00:00",
+    "derniere_maj": "2026-09-24T10:21:03.254254+00:00",
     "statut": "ok"
   },
   {
@@ -56,7 +39,7 @@
     "equipe_2": "Colombie",
     "1X2": {
       "V1": "2.54",
-      "X": "3.31",
+      "X": "3.28",
       "V2": "2.71"
     },
     "Total_2.5": {
@@ -64,7 +47,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-24T09:00:38.418339+00:00",
+    "derniere_maj": "2026-09-24T10:21:03.254267+00:00",
     "statut": "ok"
   },
   {
@@ -73,15 +56,15 @@
     "equipe_2": "Pérou",
     "1X2": {
       "V1": "1.46",
-      "X": "4.26",
-      "V2": "6.7"
+      "X": "4.21",
+      "V2": "6.8"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-24T09:00:38.418343+00:00",
+    "derniere_maj": "2026-09-24T10:21:03.254278+00:00",
     "statut": "ok"
   },
   {
@@ -98,7 +81,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-24T09:00:38.418347+00:00",
+    "derniere_maj": "2026-09-24T10:21:03.254288+00:00",
     "statut": "ok"
   },
   {
@@ -115,7 +98,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-24T09:00:38.418350+00:00",
+    "derniere_maj": "2026-09-24T10:21:03.254299+00:00",
     "statut": "ok"
   },
   {
@@ -132,7 +115,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-24T09:00:38.418354+00:00",
+    "derniere_maj": "2026-09-24T10:21:03.254325+00:00",
     "statut": "ok"
   },
   {
@@ -149,24 +132,7 @@
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-24T09:00:38.418357+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "1win",
-    "equipe_1": "Palestine",
-    "equipe_2": "Nouvelle-Zélande",
-    "1X2": {
-      "V1": "4.04",
-      "X": "3.4",
-      "V2": "1.89"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-24T09:00:38.418361+00:00",
+    "derniere_maj": "2026-09-24T10:21:03.254336+00:00",
     "statut": "ok"
   },
   {
@@ -176,14 +142,14 @@
     "1X2": {
       "V1": "1.02",
       "X": "17.9",
-      "V2": "60.9"
+      "V2": "45.7"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-24T09:00:38.418364+00:00",
+    "derniere_maj": "2026-09-24T10:21:03.254346+00:00",
     "statut": "ok"
   },
   {
@@ -192,15 +158,32 @@
     "equipe_2": "Iran",
     "1X2": {
       "V1": "2.87",
-      "X": "3.06",
-      "V2": "2.56"
+      "X": "3.03",
+      "V2": "2.58"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
-    "derniere_maj": "2026-09-24T09:00:38.418368+00:00",
+    "derniere_maj": "2026-09-24T10:21:03.254357+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "1win",
+    "equipe_1": "Inde",
+    "equipe_2": "Panama",
+    "1X2": {
+      "V1": "9.0",
+      "X": "4.51",
+      "V2": "1.37"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5",
+    "derniere_maj": "2026-09-24T10:21:03.254366+00:00",
     "statut": "ok"
   }
 ]
