@@ -23,30 +23,30 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-5.5)": "11.5",
-      "2 (+5.5)": "1.01",
-      "1 (-5)": "9",
-      "2 (+5)": "1.005",
-      "1 (-4.5)": "5.45",
-      "2 (+4.5)": "1.084",
-      "1 (-4)": "4.95",
-      "2 (+4)": "1.109",
-      "1 (-3.5)": "3.22",
-      "2 (+3.5)": "1.28",
-      "1 (-3)": "2.73",
-      "2 (+3)": "1.4",
-      "1 (-2.5)": "2.1",
-      "2 (+2.5)": "1.736",
-      "1 (-2)": "1.69",
-      "2 (+2)": "2.17",
-      "1 (-1.5)": "1.45",
-      "2 (+1.5)": "2.63",
+      "1 (-5.5)": "9.3",
+      "2 (+5.5)": "1.002",
+      "1 (-5)": "8.9",
+      "2 (+5)": "1.007",
+      "1 (-4.5)": "5.4",
+      "2 (+4.5)": "1.087",
+      "1 (-4)": "4.85",
+      "2 (+4)": "1.114",
+      "1 (-3.5)": "3.18",
+      "2 (+3.5)": "1.285",
+      "1 (-3)": "2.69",
+      "2 (+3)": "1.41",
+      "1 (-2.5)": "2.08",
+      "2 (+2.5)": "1.744",
+      "1 (-2)": "1.68",
+      "2 (+2)": "2.185",
+      "1 (-1.5)": "1.444",
+      "2 (+1.5)": "2.65",
       "1 (-1)": "1.178",
       "2 (+1)": "4.3"
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325407126-portugal-wales",
-    "derniere_maj": "2026-09-24T18:01:40.562270+00:00",
+    "derniere_maj": "2026-09-24T18:24:00.167666+00:00",
     "statut": "ok"
   },
   {
@@ -76,7 +76,7 @@
       "1 (-3.5)": "9.2",
       "2 (+3.5)": "1.003",
       "1 (-3)": "8.4",
-      "2 (+3)": "1.014",
+      "2 (+3)": "1.015",
       "1 (-2.5)": "4.6",
       "2 (+2.5)": "1.144",
       "1 (-2)": "3.82",
@@ -94,7 +94,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325372156-norway-denmark",
-    "derniere_maj": "2026-09-24T18:01:40.705465+00:00",
+    "derniere_maj": "2026-09-24T18:23:59.713343+00:00",
     "statut": "ok"
   },
   {
@@ -102,9 +102,9 @@
     "equipe_1": "Netherlands",
     "equipe_2": "Germany",
     "1X2": {
-      "V1": "2.696",
-      "X": "3.7",
-      "V2": "2.43"
+      "V1": "2.635",
+      "X": "3.68",
+      "V2": "2.49"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -121,28 +121,28 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "9.9",
+      "1 (-2.5)": "9.6",
       "2 (+2.5)": "1.03",
-      "1 (-2)": "9.3",
-      "2 (+2)": "1.006",
-      "1 (-1.5)": "4.95",
-      "2 (+1.5)": "1.128",
-      "1 (-1)": "4.2",
-      "2 (+1)": "1.193",
-      "1 (0)": "1.992",
-      "2 (0)": "1.816",
-      "1 (+1)": "1.26",
-      "2 (-1)": "3.52",
-      "1 (+1.5)": "1.168",
-      "2 (-1.5)": "4.3",
-      "1 (+2)": "1.027",
-      "2 (-2)": "7.8",
-      "1 (+2.5)": "1.011",
-      "2 (-2.5)": "8.6"
+      "1 (-2)": "9.2",
+      "2 (+2)": "1.008",
+      "1 (-1.5)": "4.85",
+      "2 (+1.5)": "1.134",
+      "1 (-1)": "3.98",
+      "2 (+1)": "1.21",
+      "1 (0)": "1.95",
+      "2 (0)": "1.85",
+      "1 (+1)": "1.24",
+      "2 (-1)": "3.7",
+      "1 (+1.5)": "1.156",
+      "2 (-1.5)": "4.45",
+      "1 (+2)": "1.02",
+      "2 (-2)": "8.3",
+      "1 (+2.5)": "1.006",
+      "2 (-2.5)": "9"
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325372158-netherlands-germany",
-    "derniere_maj": "2026-09-24T18:01:40.646960+00:00",
+    "derniere_maj": "2026-09-24T18:24:00.554409+00:00",
     "statut": "ok"
   },
   {
@@ -150,9 +150,9 @@
     "equipe_1": "Austria",
     "equipe_2": "Israel",
     "1X2": {
-      "V1": "1.47",
-      "X": "4.7",
-      "V2": "6.25"
+      "V1": "1.448",
+      "X": "4.64",
+      "V2": "6.75"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -169,28 +169,26 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-3.5)": "7.7",
-      "2 (+3.5)": "1.025",
-      "1 (-3)": "6.95",
-      "2 (+3)": "1.047",
-      "1 (-2.5)": "3.84",
-      "2 (+2.5)": "1.21",
-      "1 (-2)": "3.22",
-      "2 (+2)": "1.31",
+      "1 (-3.5)": "7.9",
+      "2 (+3.5)": "1.022",
+      "1 (-3)": "7.1",
+      "2 (+3)": "1.044",
+      "1 (-2.5)": "3.94",
+      "2 (+2.5)": "1.2",
+      "1 (-2)": "3.28",
+      "2 (+2)": "1.3",
       "1 (-1.5)": "2.256",
       "2 (+1.5)": "1.64",
-      "1 (-1)": "1.71",
-      "2 (+1)": "2.04",
-      "1 (0)": "1.131",
-      "2 (0)": "4.8",
-      "1 (+1)": "1.02",
-      "2 (-1)": "11",
-      "1 (+1.5)": "1.01",
-      "2 (-1.5)": "12.5"
+      "1 (-1)": "1.69",
+      "2 (+1)": "2.07",
+      "1 (0)": "1.118",
+      "2 (0)": "5.05",
+      "1 (+1)": "1.01",
+      "2 (-1)": "12"
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/1706694-uefa-nations-league/325575974-austria-israel",
-    "derniere_maj": "2026-09-24T18:02:20.868676+00:00",
+    "derniere_maj": "2026-09-24T18:24:00.060045+00:00",
     "statut": "ok"
   },
   {
@@ -217,24 +215,24 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-3.5)": "8",
-      "2 (+3.5)": "1.02",
-      "1 (-3)": "7.2",
-      "2 (+3)": "1.035",
-      "1 (-2.5)": "3.84",
-      "2 (+2.5)": "1.183",
+      "1 (-3.5)": "8.1",
+      "2 (+3.5)": "1.019",
+      "1 (-3)": "7.3",
+      "2 (+3)": "1.033",
+      "1 (-2.5)": "3.88",
+      "2 (+2.5)": "1.18",
       "1 (-2)": "3.08",
       "2 (+2)": "1.28",
       "1 (-1.5)": "2.1",
       "2 (+1.5)": "1.66",
-      "1 (-1)": "1.51",
-      "2 (+1)": "2.26",
-      "1 (0)": "1.034",
-      "2 (0)": "7.2"
+      "1 (-1)": "1.52",
+      "2 (+1)": "2.24",
+      "1 (0)": "1.036",
+      "2 (0)": "7.1"
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/21317-africa-cup-of-nations/366841468-cameroon-comoro-islands",
-    "derniere_maj": "2026-09-24T18:01:40.379660+00:00",
+    "derniere_maj": "2026-09-24T18:23:59.584463+00:00",
     "statut": "ok"
   },
   {
@@ -270,7 +268,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372987754-city--united-",
-    "derniere_maj": "2026-09-24T18:01:40.723846+00:00",
+    "derniere_maj": "2026-09-24T18:23:59.558840+00:00",
     "statut": "ok"
   },
   {
@@ -306,7 +304,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372987746-city--real-",
-    "derniere_maj": "2026-09-24T18:02:20.793491+00:00",
+    "derniere_maj": "2026-09-24T18:23:59.643933+00:00",
     "statut": "ok"
   },
   {
@@ -342,7 +340,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372987770-indy--louisville-",
-    "derniere_maj": "2026-09-24T18:01:39.716368+00:00",
+    "derniere_maj": "2026-09-24T18:24:00.170119+00:00",
     "statut": "ok"
   },
   {
@@ -378,7 +376,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372987786-indy--rowdies-",
-    "derniere_maj": "2026-09-24T18:01:52.880722+00:00",
+    "derniere_maj": "2026-09-24T18:24:10.795842+00:00",
     "statut": "ok"
   },
   {
@@ -414,7 +412,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372987774-indy--tulsa-",
-    "derniere_maj": "2026-09-24T18:01:53.429504+00:00",
+    "derniere_maj": "2026-09-24T18:24:10.786005+00:00",
     "statut": "ok"
   },
   {
@@ -450,7 +448,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372987790-louisville--tulsa-",
-    "derniere_maj": "2026-09-24T18:01:54.378461+00:00",
+    "derniere_maj": "2026-09-24T18:24:14.442756+00:00",
     "statut": "ok"
   },
   {
@@ -486,7 +484,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372987780-louisville--rowdies-",
-    "derniere_maj": "2026-09-24T18:01:54.454418+00:00",
+    "derniere_maj": "2026-09-24T18:24:14.443201+00:00",
     "statut": "ok"
   },
   {
@@ -522,7 +520,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372987966-revolution--real-",
-    "derniere_maj": "2026-09-24T18:01:54.456622+00:00",
+    "derniere_maj": "2026-09-24T18:24:14.444078+00:00",
     "statut": "ok"
   },
   {
@@ -558,7 +556,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988016-revolution--city-",
-    "derniere_maj": "2026-09-24T18:01:52.534868+00:00",
+    "derniere_maj": "2026-09-24T18:24:14.847331+00:00",
     "statut": "ok"
   },
   {
@@ -594,7 +592,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372987962-revolution--united-",
-    "derniere_maj": "2026-09-24T18:02:03.783489+00:00",
+    "derniere_maj": "2026-09-24T18:24:14.789591+00:00",
     "statut": "ok"
   },
   {
@@ -630,7 +628,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372987996-rowdies--tulsa-",
-    "derniere_maj": "2026-09-24T18:02:04.065424+00:00",
+    "derniere_maj": "2026-09-24T18:24:14.806990+00:00",
     "statut": "ok"
   },
   {
@@ -666,7 +664,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988060-united--real-",
-    "derniere_maj": "2026-09-24T18:02:04.808564+00:00",
+    "derniere_maj": "2026-09-24T18:24:24.788453+00:00",
     "statut": "ok"
   },
   {
@@ -702,7 +700,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988414-sounders--bulls-",
-    "derniere_maj": "2026-09-24T18:02:05.953890+00:00",
+    "derniere_maj": "2026-09-24T18:24:24.202974+00:00",
     "statut": "ok"
   },
   {
@@ -738,7 +736,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988456-sounders--timber-",
-    "derniere_maj": "2026-09-24T18:02:05.996769+00:00",
+    "derniere_maj": "2026-09-24T18:24:30.021043+00:00",
     "statut": "ok"
   },
   {
@@ -774,7 +772,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988394-timber--bulls-",
-    "derniere_maj": "2026-09-24T18:02:06.116454+00:00",
+    "derniere_maj": "2026-09-24T18:24:30.025022+00:00",
     "statut": "ok"
   },
   {
@@ -810,7 +808,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988430-whitecaps--sounders-",
-    "derniere_maj": "2026-09-24T18:02:17.092350+00:00",
+    "derniere_maj": "2026-09-24T18:24:29.867753+00:00",
     "statut": "ok"
   },
   {
@@ -846,7 +844,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988436-whitecaps--timber-",
-    "derniere_maj": "2026-09-24T18:02:17.556065+00:00",
+    "derniere_maj": "2026-09-24T18:25:07.563159+00:00",
     "statut": "ok"
   },
   {
@@ -882,7 +880,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988450-whitecaps--bulls-",
-    "derniere_maj": "2026-09-24T18:02:18.147325+00:00",
+    "derniere_maj": "2026-09-24T18:24:30.024609+00:00",
     "statut": "ok"
   },
   {
@@ -918,7 +916,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988478-inter--dynamo-",
-    "derniere_maj": "2026-09-24T18:02:20.757422+00:00",
+    "derniere_maj": "2026-09-24T18:24:30.081385+00:00",
     "statut": "ok"
   },
   {
@@ -954,7 +952,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988398-inter--union-",
-    "derniere_maj": "2026-09-24T18:02:19.140146+00:00",
+    "derniere_maj": "2026-09-24T18:25:18.603089+00:00",
     "statut": "ok"
   },
   {
@@ -990,7 +988,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988408-sporting--inter-",
-    "derniere_maj": "2026-09-24T18:02:25.911336+00:00",
+    "derniere_maj": "2026-09-24T18:24:36.540348+00:00",
     "statut": "ok"
   },
   {
@@ -1026,7 +1024,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988466-sporting--union-",
-    "derniere_maj": "2026-09-24T18:02:30.624995+00:00",
+    "derniere_maj": "2026-09-24T18:24:41.082520+00:00",
     "statut": "ok"
   },
   {
@@ -1062,7 +1060,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988474-sporting--dynamo-",
-    "derniere_maj": "2026-09-24T18:02:31.316768+00:00",
+    "derniere_maj": "2026-09-24T18:24:40.648609+00:00",
     "statut": "ok"
   },
   {
@@ -1098,7 +1096,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988446-union--dynamo-",
-    "derniere_maj": "2026-09-24T18:02:30.324095+00:00",
+    "derniere_maj": "2026-09-24T18:24:50.697839+00:00",
     "statut": "ok"
   },
   {
@@ -1134,7 +1132,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988402-crew--minnesota-",
-    "derniere_maj": "2026-09-24T18:02:33.855985+00:00",
+    "derniere_maj": "2026-09-24T18:24:40.666324+00:00",
     "statut": "ok"
   },
   {
@@ -1170,7 +1168,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988586-dcunited--minnesota-",
-    "derniere_maj": "2026-09-24T18:02:34.730003+00:00",
+    "derniere_maj": "2026-09-24T18:26:45.118130+00:00",
     "statut": "ok"
   },
   {
@@ -1206,7 +1204,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988442-dcunited--crew-",
-    "derniere_maj": "2026-09-24T18:02:34.820745+00:00",
+    "derniere_maj": "2026-09-24T18:24:45.582655+00:00",
     "statut": "ok"
   },
   {
@@ -1242,7 +1240,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988550-dallas--dcunited-",
-    "derniere_maj": "2026-09-24T18:02:34.821859+00:00",
+    "derniere_maj": "2026-09-24T18:24:49.670477+00:00",
     "statut": "ok"
   },
   {
@@ -1278,7 +1276,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988540-dallas--crew-",
-    "derniere_maj": "2026-09-24T18:02:39.776790+00:00",
+    "derniere_maj": "2026-09-24T18:24:49.535807+00:00",
     "statut": "ok"
   },
   {
@@ -1314,7 +1312,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988544-dallas--minnesota-",
-    "derniere_maj": "2026-09-24T18:03:20.875836+00:00",
+    "derniere_maj": "2026-09-24T18:24:50.024088+00:00",
     "statut": "ok"
   },
   {
@@ -1350,7 +1348,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988546-chivas--detroit-",
-    "derniere_maj": "2026-09-24T18:03:22.771677+00:00",
+    "derniere_maj": "2026-09-24T18:24:55.572193+00:00",
     "statut": "ok"
   },
   {
@@ -1386,7 +1384,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988552-chivas--las-vegas-",
-    "derniere_maj": "2026-09-24T18:02:45.314755+00:00",
+    "derniere_maj": "2026-09-24T18:25:00.614087+00:00",
     "statut": "ok"
   },
   {
@@ -1422,7 +1420,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988576-chivas--memphis-",
-    "derniere_maj": "2026-09-24T18:03:26.485304+00:00",
+    "derniere_maj": "2026-09-24T18:25:01.026241+00:00",
     "statut": "ok"
   },
   {
@@ -1458,7 +1456,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988548-detroit--memphis-",
-    "derniere_maj": "2026-09-24T18:03:27.846921+00:00",
+    "derniere_maj": "2026-09-24T18:25:01.328962+00:00",
     "statut": "ok"
   },
   {
@@ -1494,7 +1492,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988590-detroit--las-vegas-",
-    "derniere_maj": "2026-09-24T18:03:27.865425+00:00",
+    "derniere_maj": "2026-09-24T18:25:01.809625+00:00",
     "statut": "ok"
   },
   {
@@ -1530,7 +1528,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988582-las-vegas--memphis-",
-    "derniere_maj": "2026-09-24T18:02:46.664482+00:00",
+    "derniere_maj": "2026-09-24T18:25:04.775472+00:00",
     "statut": "ok"
   },
   {
@@ -1566,7 +1564,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988098-cincinnati--orlando-",
-    "derniere_maj": "2026-09-24T18:02:48.958073+00:00",
+    "derniere_maj": "2026-09-24T18:25:12.160153+00:00",
     "statut": "ok"
   },
   {
@@ -1602,7 +1600,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372987972-cincinnati--nashville-",
-    "derniere_maj": "2026-09-24T18:02:57.356305+00:00",
+    "derniere_maj": "2026-09-24T18:25:12.606514+00:00",
     "statut": "ok"
   },
   {
@@ -1638,7 +1636,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988018-nashville--orlando-",
-    "derniere_maj": "2026-09-24T18:02:55.889643+00:00",
+    "derniere_maj": "2026-09-24T18:25:12.850190+00:00",
     "statut": "ok"
   },
   {
@@ -1674,7 +1672,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988058-toronto-cincinnati-",
-    "derniere_maj": "2026-09-24T18:02:58.951373+00:00",
+    "derniere_maj": "2026-09-24T18:25:13.070120+00:00",
     "statut": "ok"
   },
   {
@@ -1710,7 +1708,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988034-toronto-nashville-",
-    "derniere_maj": "2026-09-24T18:03:04.896768+00:00",
+    "derniere_maj": "2026-09-24T18:25:15.845845+00:00",
     "statut": "ok"
   },
   {
@@ -1746,7 +1744,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988032-toronto-orlando-",
-    "derniere_maj": "2026-09-24T18:03:08.327297+00:00",
+    "derniere_maj": "2026-09-24T18:25:19.130663+00:00",
     "statut": "ok"
   },
   {
@@ -1782,7 +1780,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988042-austin--fusion-",
-    "derniere_maj": "2026-09-24T18:03:08.165991+00:00",
+    "derniere_maj": "2026-09-24T18:25:22.052512+00:00",
     "statut": "ok"
   },
   {
@@ -1818,7 +1816,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988022-austin--st-louis-",
-    "derniere_maj": "2026-09-24T18:03:14.061156+00:00",
+    "derniere_maj": "2026-09-24T18:25:22.129760+00:00",
     "statut": "ok"
   },
   {
@@ -1854,7 +1852,7 @@
     },
     "Score_Exact": {},
     "url": "https://africa-bizbet.com/en/line/football/2590430-mls/372988118-birmingham--charleston-",
-    "derniere_maj": "2026-09-24T18:03:19.140522+00:00",
+    "derniere_maj": "2026-09-24T18:25:22.810047+00:00",
     "statut": "ok"
   }
 ]
