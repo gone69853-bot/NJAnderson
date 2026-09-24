@@ -19,12 +19,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/arsenal-lille-osc/</loc>
-        <lastmod>2026-09-24</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/nigeria-madagascar/</loc>
         <lastmod>2026-09-24</lastmod>
         <changefreq>hourly</changefreq>
@@ -32,6 +26,12 @@
     </url>
     <url>
         <loc>https://zicote.site/morocco-gabon/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/arsenal-lille-osc/</loc>
         <lastmod>2026-09-24</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -374,6 +374,12 @@
     </url>
     <url>
         <loc>https://zicote.site/usa-chili/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/egypt-angola/</loc>
         <lastmod>2026-09-24</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
