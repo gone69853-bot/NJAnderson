@@ -25,13 +25,13 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/iles-feroe-kazakhstan/</loc>
+        <loc>https://zicote.site/bulgarie-luxembourg/</loc>
         <lastmod>2026-09-26</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/bulgarie-luxembourg/</loc>
+        <loc>https://zicote.site/iles-feroe-kazakhstan/</loc>
         <lastmod>2026-09-26</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -43,25 +43,25 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/slovaquie-moldavie/</loc>
-        <lastmod>2026-09-26</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://zicote.site/macedoine-du-nord-suisse/</loc>
         <lastmod>2026-09-26</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zicote.site/albanie-bielorussie/</loc>
+        <loc>https://zicote.site/slovaquie-moldavie/</loc>
         <lastmod>2026-09-26</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://zicote.site/republique-tcheque-croatie/</loc>
+        <lastmod>2026-09-26</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://zicote.site/albanie-bielorussie/</loc>
         <lastmod>2026-09-26</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
@@ -187,6 +187,12 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://zicote.site/ecosse-suisse/</loc>
+        <lastmod>2026-09-26</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://zicote.site/slovaquie-kazakhstan/</loc>
         <lastmod>2026-09-26</lastmod>
         <changefreq>hourly</changefreq>
@@ -206,12 +212,6 @@
     </url>
     <url>
         <loc>https://zicote.site/bulgarie-estonie/</loc>
-        <lastmod>2026-09-26</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://zicote.site/ecosse-suisse/</loc>
         <lastmod>2026-09-26</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.8</priority>
