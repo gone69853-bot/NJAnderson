@@ -75,6 +75,19 @@ def should_block(route):
 
 MATCH_PATTERN = re.compile(r"/line/football/\d+-[^/]+/\d+-[^/?]+")
 
+# Certains liens ont exactement le format d'un lien de match
+# (/line/football/<id>-<competition>/<id>-<slug>) mais pointent en
+# réalité vers des paris "spéciaux"/"outrights" (ex. "Home Special
+# Bets - Away Special Bets" chez melbet, "Enhanced Daily Specials"
+# chez 1xbet) : jamais de vrai marché 1X2 chiffré, donc échec
+# garanti à chaque tentative de scraping, quel que soit le
+# bookmaker. On les exclut dès la découverte plutôt que de les
+# laisser épuiser des tentatives pour rien.
+EXCLUSION_PATTERN = re.compile(
+    r"special-bets|enhanced-daily|enhanced-specials|outright",
+    re.IGNORECASE
+)
+
 COMPETITION_PATTERN = re.compile(
     r"/line/football/\d+-[^/?]+/?(?:\?.*)?$"
 )
@@ -383,7 +396,10 @@ async def discover_matches(
             if not href:
                 continue
 
-            if MATCH_PATTERN.search(href):
+            if (
+                MATCH_PATTERN.search(href)
+                and not EXCLUSION_PATTERN.search(href)
+            ):
 
                 full_url = (
                     href if href.startswith("http")
@@ -1243,34 +1259,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
