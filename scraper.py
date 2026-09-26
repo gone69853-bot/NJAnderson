@@ -454,23 +454,48 @@ def to_lines(text):
     ]
 
 
+COTE_PATTERN = re.compile(r"^\d+([.,]\d+)?$")
+
+
 def parse_1x2_block(lines):
+    # lines.index("1X2") s'arrêtait à la PREMIÈRE occurrence du mot
+    # sur toute la page. Or certaines pages (bandeau "marchés
+    # populaires", fil d'ariane, widgets de marchés alternatifs —
+    # fréquent sur les matchs à beaucoup de marchés) répètent "1X2"
+    # avant le vrai tableau de cotes : on lisait alors 3 lignes qui
+    # n'étaient pas de vraies cotes, et selon leur nombre le bloc
+    # sortait soit invalide (silencieusement rejeté), soit accepté à
+    # tort avec des valeurs fausses.
+    #
+    # On essaie donc chaque occurrence de "1X2" dans l'ordre, et on
+    # ne retient un bloc que si ses 3 valeurs ressemblent réellement
+    # à des cotes (nombre décimal).
+    indices = [
+        idx for idx, line in enumerate(lines)
+        if line == "1X2"
+    ]
 
-    try:
-        i = lines.index("1X2")
-    except ValueError:
-        return None
+    for i in indices:
 
-    block = {}
-    pos = i + 1
+        block = {}
+        pos = i + 1
 
-    for _ in range(3):
+        for _ in range(3):
 
-        if pos + 1 < len(lines):
-            block[lines[pos]] = lines[pos + 1]
-            pos += 2
+            if pos + 1 < len(lines):
+                block[lines[pos]] = lines[pos + 1]
+                pos += 2
 
-    return block if len(block) == 3 else None
+        if len(block) != 3:
+            continue
+
+        if all(
+            COTE_PATTERN.match(valeur)
+            for valeur in block.values()
+        ):
+            return block
+
+    return None
 
 
 def parse_total_block(lines):
@@ -658,7 +683,8 @@ async def scrape_match(
     bookmaker,
     match,
     max_wait_cycles,
-    nb_essais=2
+    nb_essais=2,
+    echecs=None
 ):
 
     # melbet rebondit fréquemment entre domaines miroirs
@@ -666,6 +692,10 @@ async def scrape_match(
     # on lui laisse plus de tentatives.
     if bookmaker == "melbet":
         nb_essais = 4
+
+    # Raison du dernier échec en date, pour pouvoir la logguer dans
+    # debug_echecs_{bookmaker}.txt si toutes les tentatives échouent.
+    derniere_raison = None
 
     for attempt in range(nb_essais):
 
@@ -691,6 +721,7 @@ async def scrape_match(
                 await page.wait_for_timeout(2000)
 
             if not found:
+                derniere_raison = '"1X2" jamais trouvé sur la page'
                 continue
 
             lines = to_lines(text)
@@ -698,6 +729,10 @@ async def scrape_match(
             block = parse_1x2_block(lines)
 
             if not block:
+                derniere_raison = (
+                    '"1X2" trouvé sur la page mais le bloc de cotes '
+                    "qui suit n'a pas pu être reconnu"
+                )
                 continue
 
             noms_bloc = list(block.keys())
@@ -782,13 +817,24 @@ async def scrape_match(
                 "statut": "ok",
             }
 
-        except Exception:
+        except Exception as error:
+            derniere_raison = f"erreur pendant le scraping ({error})"
             # Pause avant de retenter, plus longue à chaque échec
             # successif : sur melbet en particulier, retenter
             # immédiatement retombe souvent dans la même redirection
             # en boucle qu'à l'essai précédent.
             await page.wait_for_timeout(4000 + attempt * 3000)
             continue
+
+    if echecs is not None and derniere_raison:
+
+        equipe_1 = match.get("equipe_1") or "?"
+        equipe_2 = match.get("equipe_2") or "?"
+
+        echecs.append(
+            f"{equipe_1} - {equipe_2} — {derniere_raison} "
+            f"(après {nb_essais} tentative(s)) — {match['url']}"
+        )
 
     return None
 
@@ -849,6 +895,7 @@ async def scrape_bookmaker(
         if matches:
 
             semaphore = asyncio.Semaphore(concurrency)
+            echecs = []
 
             async def scrape_one(match):
                 async with semaphore:
@@ -858,7 +905,8 @@ async def scrape_bookmaker(
                             match_page,
                             bookmaker,
                             match,
-                            max_wait_cycles
+                            max_wait_cycles,
+                            echecs=echecs
                         )
                     finally:
                         await match_page.close()
@@ -868,6 +916,16 @@ async def scrape_bookmaker(
             )
 
             result = [data for data in scraped if data]
+
+            # Toujours réécrire le fichier (même vide) pour ne pas
+            # laisser un diagnostic d'un run précédent laisser croire
+            # à un problème qui n'existe plus.
+            debug_path = ROOT / f"debug_echecs_{bookmaker}.txt"
+
+            debug_path.write_text(
+                ("\n".join(echecs) + "\n") if echecs else "",
+                encoding="utf-8"
+            )
 
     except Exception as error:
 
@@ -1185,6 +1243,34 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
